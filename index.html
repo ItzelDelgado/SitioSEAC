@@ -1,0 +1,1394 @@
+<!DOCTYPE html>
+<html lang="en" class="light scroll-smooth" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>SEAC - Secretaría de Educación Abierta y Continua</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta
+      name="description"
+      content="Secretaría de Educación Abierta y Continua - Facultad de Ciencias"
+    />
+    <meta
+      name="keywords"
+      content="cursos, educación, continua, facultad, ciencias, biología, física, computación, matemáticas"
+    />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="assets/images/favicon.png" />
+
+    <!-- Css -->
+    <link href="assets/libs/tiny-slider/tiny-slider.css" rel="stylesheet" />
+    <link href="assets/libs/tobii/css/tobii.min.css" rel="stylesheet" />
+    <!-- Main Css -->
+    <link
+      href="assets/libs/@iconscout/unicons/css/line.css"
+      type="text/css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/icons.css" />
+    <link rel="stylesheet" href="assets/css/tailwind.css" />
+  </head>
+
+  <body
+    class="font-nunito text-base text-black dark:text-white dark:bg-slate-900"
+  >
+    <!-- Loader -->
+    <div id="preloader">
+      <div id="status">
+        <div class="spinner">
+          <div class="double-bounce1"></div>
+          <div class="double-bounce2"></div>
+        </div>
+      </div>
+    </div>
+    <!-- Loader Fin -->
+
+    <!-- Navegacion-->
+    <nav id="topnav" class="defaultscroll is-sticky">
+      <div class="container">
+        <!-- Logo contenedor-->
+        <a class="logo pl-0" href="index.html">
+          <span class="inline-block dark:hidden">
+            <img
+              src="assets/images/logo-dark.png"
+              class="l-dark"
+              height="24"
+              alt=""
+            />
+            <img
+              src="assets/images/logo-light.png"
+              class="l-light"
+              height="24"
+              alt=""
+            />
+          </span>
+          <img
+            src="assets/images/logo-light.png"
+            height="24"
+            class="hidden dark:inline-block"
+            alt=""
+          />
+        </a>
+        <!-- Fin Logo contenedor-->
+
+        <div class="menu-extras">
+          <div class="menu-item">
+            <!-- Mobile menu -->
+            <a class="navbar-toggle" id="isToggle" onclick="toggleMenu()">
+              <div class="lines">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </a>
+            <!-- FIN mobile menu -->
+          </div>
+        </div>
+
+        <!-- Login boton
+        <ul class="buy-button list-none mb-0">
+          <li class="inline mb-0">
+            <a href="">
+              <span class="login-btn-primary"
+                ><span
+                  class="btn btn-icon rounded-full bg-blue-900/5 hover:bg-indigo-600 border-indigo-600/10 hover:border-indigo-600 text-indigo-600 hover:text-white"
+                  ><i data-feather="log-in" class="h-4 w-4"></i></span
+              ></span>
+              <span class="login-btn-light"
+                ><span
+                  class="btn btn-icon rounded-full bg-gray-50 hover:bg-indigo-600 dark:bg-slate-900 dark:hover:bg-indigo-700 hover:border-indigo-100 dark:border-gray-700 dark:hover:border-indigo-700 hover:text-white"
+                  ><i data-feather="log-in" class="h-4 w-4"></i></span
+              ></span>
+            </a>
+          </li>
+        </ul>
+        Login boton FIN -->
+
+        <div id="navigation">
+          <!--  MENU  -->
+          <ul class="navigation-menu nav-light">
+            <li><a href="index.html" class="sub-menu-item">Inicio</a></li>
+
+            <li class="has-submenu parent-parent-menu-item">
+              <a href="javascript:void(0)">Oferta</a
+              ><span class="menu-arrow"></span>
+              <ul class="submenu">
+                <li class="has-submenu parent-menu-item">
+                  <a href="cursos.html"> Cursos </a><span class=""></span>
+                </li>
+                <li class="has-submenu parent-menu-item">
+                  <a href="diplomados.html"> Diplomados</a
+                  ><span class=""></span>
+                </li>
+                <li class="has-submenu parent-menu-item">
+                  <a href="talleres.html">Talleres</a><span class=""></span>
+                </li>
+              </ul>
+            </li>
+
+            <li class="has-submenu parent-parent-menu-item">
+              <a href="javascript:void(0)">Inscripción</a
+              ><span class="menu-arrow"></span>
+              <ul class="submenu">
+                <li class="has-submenu parent-menu-item">
+                  <a href="inscripcion.html"> Inscripción y pago</a
+                  ><span class="submenu-arrow"></span>
+                  <ul class="submenu">
+                    <li>
+                      <a href="edu-continua.html" class="sub-menu-item">
+                        Educación continua</a
+                      >
+                    </li>
+                    <li>
+                      <a href="convenios.html" class="sub-menu-item"
+                        >Convenios</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+
+            <li class="has-submenu parent-parent-menu-item">
+              <a href="javascript:void(0)">Profesores</a
+              ><span class="menu-arrow"></span>
+              <ul class="submenu">
+                <li class="has-submenu parent-menu-item">
+                  <a href="impartir-programa.html"> Impartir programa</a
+                  ><span class="submenu-arrow"></span>
+                  <ul class="submenu">
+                    <li>
+                      <a href="profs-edu-continua.html" class="sub-menu-item">
+                        Educación continua</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+
+            <li class="has-submenu parent-parent-menu-item">
+              <a href="javascript:void(0)">Nosotros</a
+              ><span class="menu-arrow"></span>
+              <ul class="submenu">
+                <li class="has-submenu parent-menu-item">
+                  <a href="equipo.html"> Presentación</a
+                  ><span class="submenu-arrow"></span>
+                </li>
+
+                <li class="has-submenu parent-menu-item">
+                  <a href="normatividad.html"> Normatividad</a
+                  ><span class="submenu-arrow"></span>
+                </li>
+
+                <li class="has-submenu parent-menu-item">
+                  <a href="ubicación.html"> Ubicación</a
+                  ><span class="submenu-arrow"></span>
+                </li>
+
+                <li class="has-submenu parent-menu-item">
+                  <a href="contacto.html"> Contacto</a
+                  ><span class="submenu-arrow"></span>
+                </li>
+              </ul>
+            </li>
+
+            <li><a href="contacto.html" class="sub-menu-item">Contacto</a></li>
+          </ul>
+          <!-- MENU FIN -->
+        </div>
+        <!--fin navigation-->
+      </div>
+      <!-- contenedor FIN -->
+    </nav>
+    <!-- header FIN-->
+    <!-- Navegación FIN -->
+
+    <!-- Carrusel -->
+    <section id="controls-carousel" class="relative" data-carousel="static">
+      <div class="overflow-hidden relative h-screen inset-0">
+        <!-- Diapositiva 1-->
+        <div
+          class="flex items-center justify-center transition-all duration-700 ease-in-out"
+          data-carousel-item="active"
+        >
+          <div
+            class="absolute inset-0 image-wrap z-1 bg-[url('../../assets/images/slider/bg01.jpg')] bg-top bg-no-repeat"
+          ></div>
+          <div class="absolute inset-0 z-2"></div>
+          <div class="container z-3">
+            <!-- Texto carrusel
+                        <div class="grid grid-cols-1 mt-10">
+                            <div class="md:text-right text-center">
+                                <h1 class="font-bold text-white lg:leading-normal leading-normal text-4xl lg:text-5xl mb-6">Título</h1>
+                                <p class="text-white/70 text-lg max-w-xl md:ml-auto">Loremipsum...</p>
+                                
+                                <div class="mt-8">
+                                    <a href="" class="btn bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md">Planes</a>
+                                </div>
+                            </div>
+                        </div>
+                        Fin texto carrusel-->
+          </div>
+          <!--fin container-->
+        </div>
+        <!-- Diapositiva 1 FIN-->
+
+        <!-- Diapositiva 2-->
+        <div
+          class="flex items-center justify-center transition-all duration-700 ease-in-out"
+          data-carousel-item=""
+        >
+          <div
+            class="absolute inset-0 image-wrap z-1 bg-[url('../../assets/images/slider/bg02.jpg')] bg-top bg-no-repeat"
+          ></div>
+          <div class="absolute inset-0 z-2"></div>
+          <div class="container z-3">
+            <!-- Texto carrusel
+                        <div class="grid grid-cols-1 mt-10">
+                            <div class="md:text-right text-center">
+                                <h1 class="font-bold text-white lg:leading-normal leading-normal text-4xl lg:text-5xl mb-6">Título</h1>
+                                <p class="text-white/70 text-lg max-w-xl md:ml-auto">Loremipsum...</p>
+                                
+                                <div class="mt-8">
+                                    <a href="" class="btn bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md">Planes</a>
+                                </div>
+                            </div>
+                        </div>
+                        Fin texto carrusel-->
+          </div>
+          <!--end container-->
+        </div>
+        <!-- Diapositiva 2 FIN-->
+
+        <!-- Diapositiva 3 -->
+        <div
+          class="flex items-center justify-center transition-all duration-700 ease-in-out"
+          data-carousel-item=""
+        >
+          <div
+            class="absolute inset-0 image-wrap z-1 bg-[url('../../assets/images/slider/bg03.jpg')] bg-top bg-no-repeat"
+          ></div>
+          <div class="absolute inset-0 z-2"></div>
+          <div class="container z-3">
+            <!-- Texto carrusel
+                        <div class="grid grid-cols-1 mt-10">
+                            <div class="md:text-right text-center">
+                                <h1 class="font-bold text-white lg:leading-normal leading-normal text-4xl lg:text-5xl mb-6">Título</h1>
+                                <p class="text-white/70 text-lg max-w-xl md:ml-auto">Loremipsum...</p>
+                                
+                                <div class="mt-8">
+                                    <a href="" class="btn bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md">Planes</a>
+                                </div>
+                            </div>
+                        </div>
+                        Fin texto carrusel-->
+          </div>
+          <!--end container-->
+        </div>
+        <!-- Diapositiva 3 FIN-->
+      </div>
+      <!-- Botones carrusel -->
+      <button
+        type="button"
+        class="flex absolute top-0 left-0 z-30 justify-center items-center px-4 h-full cursor-pointer group focus:outline-none"
+        data-carousel-prev=""
+      >
+        <span
+          class="inline-flex justify-center items-center w-8 h-8 rounded-full border border-white hover:border-indigo-600 hover:bg-indigo-600 group-focus:outline-none"
+        >
+          <svg
+            class="w-4 h-4 text-white"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M15 19l-7-7 7-7"
+            ></path>
+          </svg>
+          <span class="hidden">Siguiente</span>
+        </span>
+      </button>
+      <button
+        type="button"
+        class="flex absolute top-0 right-0 z-30 justify-center items-center px-4 h-full cursor-pointer group focus:outline-none"
+        data-carousel-next=""
+      >
+        <span
+          class="inline-flex justify-center items-center w-8 h-8 rounded-full border border-white hover:border-indigo-600 hover:bg-indigo-600 group-focus:outline-none"
+        >
+          <svg
+            class="w-4 h-4 text-white"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M9 5l7 7-7 7"
+            ></path>
+          </svg>
+          <span class="hidden">Anterior</span>
+        </span>
+      </button>
+      <!--Botones carrusel FIN-->
+    </section>
+
+    <!-- Carrusel FIN -->
+
+    <!-- CURSOS RECIENTES -->
+
+    <section class="relative md:py-10 py-10">
+      <div class="container">
+        <div class="grid grid-cols-1 text-center">
+          <h3
+            class="mb-1 md:text-3xl text-2xl md:leading-normal leading-normal font-semibold"
+          >
+            Oferta Académica
+          </h3>
+
+          <p class="text-slate-400 max-w-xl mx-auto">
+            Conoce nuestras actividades programadas.
+          </p>
+        </div>
+        <!--end grid-->
+      </div>
+    </section>
+
+    <!-- COMIENZA Section-->
+    <section class="relative md:py-5 pb-5 overflow-hidden">
+      <div class="container">
+        <div class="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-[30px]">
+          <!-- CURSO -->
+          <div
+            class="group relative rounded-md shadow hover:shadow-lg dark:shadow-gray-800 duration-500 ease-in-out overflow-hidden"
+          >
+            <div class="relative overflow-hidden">
+              <img
+                src="assets/images/cursos/c3.jpg"
+                class="group-hover:scale-110 duration-500 ease-in-out"
+                alt=""
+              />
+              <div
+                class="absolute inset-0 bg-slate-900/50 opacity-0 group-hover:opacity-100 duration-500 ease-in-out"
+              ></div>
+              <div
+                class="absolute left-0 bottom-0 opacity-0 group-hover:opacity-100 duration-500 ease-in-out"
+              >
+                <div class="pb-4 pl-4 flex items-center">
+                  <img
+                    src="assets/images/instructores/usr-m.jpg"
+                    class="h-12 w-12 rounded-full shadow-md dark:shadow-gray-800 mx-auto"
+                    alt=""
+                  />
+                  <div class="ml-3">
+                    <a
+                      href="http://www.educontinua.fciencias.unam.mx/SiteNuevo/Cursos/RII/curriculum2022.pdf"
+                      class="font-semibold text-white block hover:text-indigo-600"
+                      target="_blank"
+                      >Dr. Jesús Jurado Molina</a
+                    >
+                    <span class="text-white/70 text-sm"
+                      >Doctor en Pesquerías</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="content p-6 relative">
+              <a
+                href="cursos/intro-r-inferencia-est-1-15a.html"
+                class="text-lg font-bold block hover:text-red-600 duration-500 ease-in-out mt-2 cursor-pointer"
+              >
+                Introducción a la programación en R y su aplicación a la
+                inferencia estadística I</a
+              >
+              <a
+                href="course-detail.html"
+                class="text-sm font-thin block text-red-600"
+                >15a. Edición</a
+              >
+              <p class="text-sm block text-indigo-600 mt-2">
+                Del 6 de mayo al 24 de junio de 2023
+              </p>
+              <p class="text-slate-400 mt-3 mb-4">
+                R: lenguaje de programación y framework de cómputo estadístico.
+                Descubre cómo y por qué ésta herramienta te será de gran
+                utilidad en la recopilación y ordenamiento de datos estadísticos
+                al momento de realizar tu análisis científico de datos.
+              </p>
+              <p
+                class="text-neutral-500 mt-3 mb-4 text-sm border-t border-gray-100 dark:border-gray-800 pt-4"
+              >
+                Dirigido a: Biólogos, Oceanógrafos, Oceanólogos, economistas,
+                físicos, matemáticos, estudiantes de postgrado, investigadores y
+                profesionales en áreas multidisciplinarias.
+              </p>
+              <p>
+                <a
+                  href="cursos/intro-r-inferencia-est-1-15a.html"
+                  target="_blank"
+                  class="btn btn-link text-indigo-600 hover:text-red-600 after:bg-indigo-600 duration-500 ease-in-out"
+                  >Ver curso</a
+                >
+              </p>
+              <ul
+                class="pt-4 border-t border-gray-100 dark:border-gray-800 flex items-center list-none text-slate-400"
+              >
+                <li class="flex items-center mr-3">
+                  <i
+                    class="uil uil-calendar-alt text-base leading-none mr-2 text-slate-900 dark:text-white"
+                  ></i>
+                  <span>Sábado</span>
+                </li>
+                <li class="flex items-center mr-3">
+                  <i
+                    class="uil uil-clock text-base leading-none mr-2 text-slate-900 dark:text-white"
+                  ></i>
+                  <span>10-15h</span>
+                </li>
+                <li class="flex items-center">
+                  <i
+                    class="uil uil-map-marker text-base leading-none mr-2 text-slate-900 dark:text-white"
+                  ></i>
+                  <span>Virtual</span>
+                </li>
+              </ul>
+              <div
+                class="absolute -top-7 right-3 z-1 opacity-0 group-hover:opacity-100 duration-500 ease-in-out"
+              >
+                <div
+                  class="flex justify-center items-center w-16 h-16 bg-white dark:bg-slate-900 rounded-full shadow-lg dark:shadow-gray-800 text-red-600 dark:text-white"
+                >
+                  <span class="font-semibold">$5,000</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- CURSO FIN -->
+
+          <!-- CURSO -->
+          <div
+            class="group relative rounded-md shadow hover:shadow-lg dark:shadow-gray-800 duration-500 ease-in-out overflow-hidden"
+          >
+            <div class="relative overflow-hidden">
+              <img
+                src="assets/images/cursos/c3.jpg"
+                class="group-hover:scale-110 duration-500 ease-in-out"
+                alt=""
+              />
+              <div
+                class="absolute inset-0 bg-slate-900/50 opacity-0 group-hover:opacity-100 duration-500 ease-in-out"
+              ></div>
+              <div
+                class="absolute left-0 bottom-0 opacity-0 group-hover:opacity-100 duration-500 ease-in-out"
+              >
+                <div class="pb-4 pl-4 flex items-center">
+                  <img
+                    src="assets/images/instructores/usr-f.jpg"
+                    class="h-12 w-12 rounded-full shadow-md dark:shadow-gray-800 mx-auto"
+                    alt=""
+                  />
+                  <div class="ml-3">
+                    <a
+                      href="http://www.educontinua.fciencias.unam.mx/SiteNuevo/Cursos/R/DraBarbosa_CorrelacionRegresionLineal/CV_DraBarbosa.pdf"
+                      class="font-semibold text-white block hover:text-indigo-600"
+                      target="_blank"
+                      >Dra. María de Lourdes Barbosa Saldaña
+                    </a>
+                    <span class="text-white/70 text-sm"
+                      >Doctora en Ciencias Biológicas</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="content p-6 relative">
+              <a
+                href="r-16.html"
+                class="text-lg font-bold block hover:text-red-600 duration-500 ease-in-out mt-2 cursor-pointer"
+              >
+                R: correlación, regresión lineal y modelos lineales</a
+              >
+              <a
+                href="course-detail.html"
+                class="text-sm font-thin block text-red-600"
+                >1ra. Edición</a
+              >
+              <p class="text-sm block text-indigo-600 mt-2">
+                Del 14 de febrero al 23 de mayo de 2023
+              </p>
+              <p class="text-slate-400 mt-3 mb-4">
+                Los modelos lineales son una herramienta de gran utilidad para
+                el análisis y la interpretación de datos. La idea es poder
+                analizar la correlación de una serie de variables y modelar
+                estas relaciones para llegar así a modelos más eficientes.
+              </p>
+              <p
+                class="text-neutral-500 mt-3 mb-4 text-sm border-t border-gray-100 dark:border-gray-800 pt-4"
+              >
+                Curso teórico - práctico.<br />
+                Dirigido a: Profesionistas y estudiantes en el área de ciencias
+                experimentales y de investigación.
+              </p>
+              <p>
+                <a
+                  href="cursos/intro-r-inferencia-est-1-15a.html"
+                  target="_blank"
+                  class="btn btn-link text-indigo-600 hover:text-red-600 after:bg-indigo-600 duration-500 ease-in-out"
+                  >Ver curso</a
+                >
+              </p>
+              <ul
+                class="pt-4 border-t border-gray-100 dark:border-gray-800 flex items-center list-none text-slate-400"
+              >
+                <li class="flex items-center mr-3">
+                  <i
+                    class="uil uil-calendar-alt text-base leading-none mr-2 text-slate-900 dark:text-white"
+                  ></i>
+                  <span>Martes</span>
+                </li>
+                <li class="flex items-center mr-3">
+                  <i
+                    class="uil uil-clock text-base leading-none mr-2 text-slate-900 dark:text-white"
+                  ></i>
+                  <span>17-20h</span>
+                </li>
+                <li class="flex items-center">
+                  <i
+                    class="uil uil-map-marker text-base leading-none mr-2 text-slate-900 dark:text-white"
+                  ></i>
+                  <span>Virtual</span>
+                </li>
+              </ul>
+              <div
+                class="absolute -top-7 right-3 z-1 opacity-0 group-hover:opacity-100 duration-500 ease-in-out"
+              >
+                <div
+                  class="flex justify-center items-center w-16 h-16 bg-white dark:bg-slate-900 rounded-full shadow-lg dark:shadow-gray-800 text-red-600 dark:text-white"
+                >
+                  <span class="font-semibold">$5,000</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- CURSO FIN -->
+
+          <!-- CURSO -->
+          <div
+            class="group relative rounded-md shadow hover:shadow-lg dark:shadow-gray-800 duration-500 ease-in-out overflow-hidden"
+          >
+            <div class="relative overflow-hidden">
+              <img
+                src="assets/images/cursos/intro-estadistica-bio01.jpg"
+                class="group-hover:scale-110 duration-500 ease-in-out"
+                alt=""
+              />
+              <div
+                class="absolute inset-0 bg-slate-900/50 opacity-0 group-hover:opacity-100 duration-500 ease-in-out"
+              ></div>
+              <div
+                class="absolute left-0 bottom-0 opacity-0 group-hover:opacity-100 duration-500 ease-in-out"
+              >
+                <div class="pb-4 pl-4 flex items-center">
+                  <img
+                    src="assets/images/instructores/usr-m.jpg"
+                    class="h-12 w-12 rounded-full shadow-md dark:shadow-gray-800 mx-auto"
+                    alt=""
+                  />
+                  <div class="ml-3">
+                    <a
+                      href="http://www.educontinua.fciencias.unam.mx/SiteNuevo/Cursos/EstadisticaenlaBiologia/CV_AV.pdf"
+                      class="font-semibold text-white block hover:text-indigo-600"
+                      target="_blank"
+                      >Dr. Alejandro Villegas Castillo</a
+                    >
+                    <span class="text-white/70 text-sm"
+                      >Doctor en Ciencias Biológicas y de la Salud</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="content p-6 relative">
+              <a
+                href="cursos/intro-estadistica-bio.html"
+                class="text-lg font-bold block hover:text-red-600 duration-500 ease-in-out mt-2 cursor-pointer"
+              >
+                Introducción a la estadística en la biología</a
+              >
+              <a
+                href="course-detail.html"
+                class="text-sm font-thin block text-red-600"
+                >2da. Edición</a
+              >
+              <p class="text-sm block text-indigo-600 mt-2">
+                Del 13 de febrero al 6 de marzo de 2023
+              </p>
+              <p class="text-slate-400 mt-3 mb-4">
+                Tira el paradigma de la estadística como como una sola
+                herramienta útil a tu disposición y piensa en ésta más bien como
+                una caja de herramientas de utilidad para resolver una serie de
+                problemáticas, identificando la utilidad y las limitaciones de
+                cada una de las herramientas.
+              </p>
+              <p
+                class="text-neutral-500 mt-3 mb-4 text-sm border-t border-gray-100 dark:border-gray-800 pt-4"
+              >
+                Dirigido a: Estudiantes, profesionistas, tomadores de
+                decisiones, manejadores de recursos, biólogos, ecólogos,
+                administradores de áreas naturales, administradores de recursos
+                naturales.
+              </p>
+              <p>
+                <a
+                  href="cursos/intro-r-inferencia-est-1-15a.html"
+                  target="_blank"
+                  class="btn btn-link text-indigo-600 hover:text-red-600 after:bg-indigo-600 duration-500 ease-in-out"
+                  >Ver curso</a
+                >
+              </p>
+              <ul
+                class="pt-4 border-t border-gray-100 dark:border-gray-800 flex items-center list-none text-slate-400"
+              >
+                <li class="flex items-center mr-3">
+                  <i
+                    class="uil uil-calendar-alt text-base leading-none mr-2 text-slate-900 dark:text-white"
+                  ></i>
+                  <span>Lu, Mi, Jue</span>
+                </li>
+                <li class="flex items-center mr-3">
+                  <i
+                    class="uil uil-clock text-base leading-none mr-2 text-slate-900 dark:text-white"
+                  ></i>
+                  <span>15-17h</span>
+                </li>
+                <li class="flex items-center">
+                  <i
+                    class="uil uil-map-marker text-base leading-none mr-2 text-slate-900 dark:text-white"
+                  ></i>
+                  <span>Virtual</span>
+                </li>
+              </ul>
+              <div
+                class="absolute -top-7 right-3 z-1 opacity-0 group-hover:opacity-100 duration-500 ease-in-out"
+              >
+                <div
+                  class="flex justify-center items-center w-16 h-16 bg-white dark:bg-slate-900 rounded-full shadow-lg dark:shadow-gray-800 text-red-600 dark:text-white"
+                >
+                  <span class="font-semibold">$2,500</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- CURSO FIN -->
+          <!-- ----------------------Los anteriores son ejemplos------------------------------- -->
+          <!-- DIPLOMADO Derecho y Gestión Ambiental -->
+          <div
+            class="group relative rounded-md shadow hover:shadow-lg dark:shadow-gray-800 duration-500 ease-in-out overflow-hidden"
+          >
+            <div class="relative overflow-hidden">
+              <img
+                src="assets/images/cursos/c3.jpg"
+                class="group-hover:scale-110 duration-500 ease-in-out"
+                alt=""
+              />
+              <div
+                class="absolute inset-0 bg-slate-900/50 opacity-0 group-hover:opacity-100 duration-500 ease-in-out"
+              ></div>
+              <div
+                class="absolute left-0 bottom-0 opacity-0 group-hover:opacity-100 duration-500 ease-in-out"
+              ></div>
+            </div>
+            <div class="content p-6 relative">
+              <a
+                href="bioestadistica-16.html"
+                class="text-lg font-bold block hover:text-red-600 duration-500 ease-in-out mt-2 cursor-pointer"
+              >
+                Derecho y Gestión Ambiental</a
+              >
+              <a
+                href="course-detail.html"
+                class="text-sm font-thin block text-red-600"
+                >XXVII Edición</a
+              >
+              <p class="text-sm block text-indigo-600 mt-2">
+                Del 24 de febrero al 9 de junio del 2023
+              </p>
+              <p class="text-slate-400 mt-3 mb-4">
+                Enfocado a contribuir a la formación de profesionales en el
+                conocimiento y aplicación del derecho y la gestión ambiental
+                bajo un enfoque interdisciplinario y desde un esquema tanto
+                nacional como internacional con el propósito de avanzar en la
+                comprensión de la cuestión ambiental y el desarrollo sustentable
+                así como en el fortalecimiento de la conciencia ambiental.
+              </p>
+              <p
+                class="text-neutral-500 mt-3 mb-4 text-sm border-t border-gray-100 dark:border-gray-800 pt-4"
+              >
+                Diplomado. <br>Dirigido a: Abogados, Biólogos (titulados o no), o cualquier
+                profesionista inmerso en el área ya que hemos contado con la
+                participación de Químicos, Arquitectos, etc, así como personas
+                con interés general en la materia ambiental
+              </p>
+              <p>
+                <a
+                  href="cursos/intro-r-inferencia-est-1-15a.html"
+                  target="_blank"
+                  class="btn btn-link text-indigo-600 hover:text-red-600 after:bg-indigo-600 duration-500 ease-in-out"
+                  >Ver diplomado</a
+                >
+              </p>
+              <ul
+                class="pt-4 border-t border-gray-100 dark:border-gray-800 flex items-center list-none text-slate-400"
+              >
+                <li class="flex items-center mr-3">
+                  <i
+                    class="uil uil-calendar-alt text-base leading-none mr-2 text-slate-900 dark:text-white"
+                  ></i>
+                  <span>Vie y Sáb</span>
+                </li>
+                <li class="flex items-center mr-3">
+                  <i
+                    class="uil uil-clock text-base leading-none mr-2 text-slate-900 dark:text-white"
+                  ></i>
+                  <span
+                    >16 - 20h <br />
+                    10 - 14h</span
+                  >
+                </li>
+                <li class="flex items-center">
+                  <i
+                    class="uil uil-map-marker text-base leading-none mr-2 text-slate-900 dark:text-white"
+                  ></i>
+                  <span>Virtual</span>
+                </li>
+              </ul>
+              <div
+                class="absolute -top-7 right-3 z-1 opacity-0 group-hover:opacity-100 duration-500 ease-in-out"
+              >
+                <div
+                  class="flex justify-center items-center w-16 h-16 bg-white dark:bg-slate-900 rounded-full shadow-lg dark:shadow-gray-800 text-red-600 dark:text-white"
+                >
+                  <span class="font-semibold">$34,800</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- DIPLOMADO FIN -->
+
+          <!-- CURSO Bioestadística-->
+          <div
+            class="group relative rounded-md shadow hover:shadow-lg dark:shadow-gray-800 duration-500 ease-in-out overflow-hidden"
+          >
+            <div class="relative overflow-hidden">
+              <img
+                src="assets/images/cursos/c3.jpg"
+                class="group-hover:scale-110 duration-500 ease-in-out"
+                alt=""
+              />
+              <div
+                class="absolute inset-0 bg-slate-900/50 opacity-0 group-hover:opacity-100 duration-500 ease-in-out"
+              ></div>
+              <div
+                class="absolute left-0 bottom-0 opacity-0 group-hover:opacity-100 duration-500 ease-in-out"
+              >
+                <div class="pb-4 pl-4 flex items-center">
+                  <img
+                    src="assets/images/instructores/usr-m.jpg"
+                    class="h-12 w-12 rounded-full shadow-md dark:shadow-gray-800 mx-auto"
+                    alt=""
+                  />
+                  <div class="ml-3">
+                    <a
+                      href="assets/curriculums_docentes/JorgeAMorenoHern.pdf"
+                      class="font-semibold text-white block hover:text-indigo-600"
+                      target="_blank"
+                      >M. en C. Jorge A. Moreno Hernández
+                    </a>
+                    <span class="text-white/70 text-sm"
+                      >Maestro en Ciencias Biológicas</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="content p-6 relative">
+              <a
+                href="bioestadistica-16.html"
+                class="text-lg font-bold block hover:text-red-600 duration-500 ease-in-out mt-2 cursor-pointer"
+              >
+                Bioestadística</a
+              >
+              <a
+                href="course-detail.html"
+                class="text-sm font-thin block text-red-600"
+                >16a. Edición</a
+              >
+              <p class="text-sm block text-indigo-600 mt-2">
+                Del 3 de marzo al 28 de abril de 2023
+              </p>
+              <p class="text-slate-400 mt-3 mb-4">
+                Curso fundamental para aprender las bases teóricas más
+                importantes y necesarias para el correcto procesamiento de la
+                información. El curso está montado en el LMS de Moodle, lo que
+                permite la interacción entre los alumnos y con el profesor.
+              </p>
+              <p
+                class="text-neutral-500 mt-3 mb-4 text-sm border-t border-gray-100 dark:border-gray-800 pt-4"
+              >
+                Dirigido a: Estudiantes, profesionales del área
+                químico-biológica, de la salud y áreas a fines (este curso, está
+                dirigido básicamente a médicos, biólogos, enfermeros,
+                psicólogos, trabajadores sociales).
+              </p>
+              <p>
+                <a
+                  href="cursos/intro-r-inferencia-est-1-15a.html"
+                  target="_blank"
+                  class="btn btn-link text-indigo-600 hover:text-red-600 after:bg-indigo-600 duration-500 ease-in-out"
+                  >Ver curso</a
+                >
+              </p>
+              <ul
+                class="pt-4 border-t border-gray-100 dark:border-gray-800 flex items-center list-none text-slate-400"
+              >
+                <li class="flex items-center mr-3">
+                  <i
+                    class="uil uil-calendar-alt text-base leading-none mr-2 text-slate-900 dark:text-white"
+                  ></i>
+                  <span>Lu - Vie</span>
+                </li>
+                <li class="flex items-center mr-3">
+                  <i
+                    class="uil uil-clock text-base leading-none mr-2 text-slate-900 dark:text-white"
+                  ></i>
+                  <span>17-20h</span>
+                </li>
+                <li class="flex items-center">
+                  <i
+                    class="uil uil-map-marker text-base leading-none mr-2 text-slate-900 dark:text-white"
+                  ></i>
+                  <span>Virtual</span>
+                </li>
+              </ul>
+              <div
+                class="absolute -top-7 right-3 z-1 opacity-0 group-hover:opacity-100 duration-500 ease-in-out"
+              >
+                <div
+                  class="flex justify-center items-center w-16 h-16 bg-white dark:bg-slate-900 rounded-full shadow-lg dark:shadow-gray-800 text-red-600 dark:text-white"
+                >
+                  <span class="font-semibold">$6,000</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- CURSO FIN -->
+
+          <!-- CURSO Estadística aplicada al diseño y análisis de estudios
+                experimentales-->
+          <div
+            class="group relative rounded-md shadow hover:shadow-lg dark:shadow-gray-800 duration-500 ease-in-out overflow-hidden"
+          >
+            <div class="relative overflow-hidden">
+              <img
+                src="assets/images/cursos/c3.jpg"
+                class="group-hover:scale-110 duration-500 ease-in-out"
+                alt=""
+              />
+              <div
+                class="absolute inset-0 bg-slate-900/50 opacity-0 group-hover:opacity-100 duration-500 ease-in-out"
+              ></div>
+              <div
+                class="absolute left-0 bottom-0 opacity-0 group-hover:opacity-100 duration-500 ease-in-out"
+              >
+                <div class="pb-4 pl-4 flex items-center">
+                  <img
+                    src="assets/images/instructores/usr-f.jpg"
+                    class="h-12 w-12 rounded-full shadow-md dark:shadow-gray-800 mx-auto"
+                    alt=""
+                  />
+                  <div class="ml-3">
+                    <a
+                      href="assets/curriculums_docentes/MaLourdesBarbosaSal.pdf"
+                      class="font-semibold text-white block hover:text-indigo-600"
+                      target="_blank"
+                      >Dra. María de Lourdes Barbosa
+                    </a>
+                    <span class="text-white/70 text-sm"
+                      >Doctora en Ciencias Biológicas</span
+                    >
+                  </div>
+                  <div class="ml-3">
+                    <a
+                      href="assets/curriculums_docentes/MaGuadalupeCamachoSan.pdf"
+                      class="font-semibold text-white block hover:text-indigo-600"
+                      target="_blank"
+                      >Biol. María Guadalupe Camacho</a
+                    >
+                    <span class="text-white/70 text-sm"
+                      >Licenciatura en Biología</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="content p-6 relative">
+              <a
+                href="bioestadistica-16.html"
+                class="text-lg font-bold block hover:text-red-600 duration-500 ease-in-out mt-2 cursor-pointer"
+              >
+                Estadística aplicada al diseño y análisis de estudios
+                experimentales</a
+              >
+              <a
+                href="course-detail.html"
+                class="text-sm font-thin block text-red-600"
+                >7ma. Edición</a
+              >
+              <p class="text-sm block text-indigo-600 mt-2">
+                Del 4 de marzo al 27 de mayo de 2023
+              </p>
+              <p class="text-slate-400 mt-3 mb-4">
+                Contrario a lo que se piensa, la estadística no es la última
+                etapa de una investigación, sino más bien es parte fundamental
+                de la planeación de ésta; sus objetivos, modelos a emplear y
+                análisis a efectuar. Si se empleó la estadística de manera
+                correcta, los resultados deberán responder a los objetivos.
+              </p>
+              <p
+                class="text-neutral-500 mt-3 mb-4 text-sm border-t border-gray-100 dark:border-gray-800 pt-4"
+              >
+                Curso teórico - práctico.<br />Dirigido a: Profesionistas y
+                estudiantes en el área de ciencias experimentales y de
+                investigación.
+              </p>
+              <p>
+                <a
+                  href="cursos/intro-r-inferencia-est-1-15a.html"
+                  target="_blank"
+                  class="btn btn-link text-indigo-600 hover:text-red-600 after:bg-indigo-600 duration-500 ease-in-out"
+                  >Ver curso</a
+                >
+              </p>
+              <ul
+                class="pt-4 border-t border-gray-100 dark:border-gray-800 flex items-center list-none text-slate-400"
+              >
+                <li class="flex items-center mr-3">
+                  <i
+                    class="uil uil-calendar-alt text-base leading-none mr-2 text-slate-900 dark:text-white"
+                  ></i>
+                  <span>Sábado</span>
+                </li>
+                <li class="flex items-center mr-3">
+                  <i
+                    class="uil uil-clock text-base leading-none mr-2 text-slate-900 dark:text-white"
+                  ></i>
+                  <span>08-12h</span>
+                </li>
+                <li class="flex items-center">
+                  <i
+                    class="uil uil-map-marker text-base leading-none mr-2 text-slate-900 dark:text-white"
+                  ></i>
+                  <span>Virtual</span>
+                </li>
+              </ul>
+              <div
+                class="absolute -top-7 right-3 z-1 opacity-0 group-hover:opacity-100 duration-500 ease-in-out"
+              >
+                <div
+                  class="flex justify-center items-center w-16 h-16 bg-white dark:bg-slate-900 rounded-full shadow-lg dark:shadow-gray-800 text-red-600 dark:text-white"
+                >
+                  <span class="font-semibold">$5,800</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- CURSO FIN -->
+
+          <!-- CURSO Dibujo de la naturaleza-->
+          <div
+            class="group relative rounded-md shadow hover:shadow-lg dark:shadow-gray-800 duration-500 ease-in-out overflow-hidden"
+          >
+            <div class="relative overflow-hidden">
+              <img
+                src="assets/images/cursos/c3.jpg"
+                class="group-hover:scale-110 duration-500 ease-in-out"
+                alt=""
+              />
+              <div
+                class="absolute inset-0 bg-slate-900/50 opacity-0 group-hover:opacity-100 duration-500 ease-in-out"
+              ></div>
+              <div
+                class="absolute left-0 bottom-0 opacity-0 group-hover:opacity-100 duration-500 ease-in-out"
+              >
+                <div class="pb-4 pl-4 flex items-center">
+                  <img
+                    src="assets/images/instructores/usr-f.jpg"
+                    class="h-12 w-12 rounded-full shadow-md dark:shadow-gray-800 mx-auto"
+                    alt=""
+                  />
+                  <div class="ml-3">
+                    <a
+                      href="assets/curriculums_docentes/AldideOyarzabalSal.pdf"
+                      class="font-semibold text-white block hover:text-indigo-600"
+                      target="_blank"
+                      >M. Aldi de Oyarzabal Salcedo
+                    </a>
+                    <span class="text-white/70 text-sm"
+                      >Maestro en Artes</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="content p-6 relative">
+              <a
+                href="bioestadistica-16.html"
+                class="text-lg font-bold block hover:text-red-600 duration-500 ease-in-out mt-2 cursor-pointer"
+              >
+              Dibujo de la naturaleza</a
+              >
+              <a
+                href="course-detail.html"
+                class="text-sm font-thin block text-red-600"
+                >1ra. Edición</a
+              >
+              <p class="text-sm block text-indigo-600 mt-2">
+                Del 7 de marzo al 18 de mayo de 2023
+              </p>
+              <p class="text-slate-400 mt-3 mb-4">
+                Resumen
+              </p>
+              <p
+                class="text-neutral-500 mt-3 mb-4 text-sm border-t border-gray-100 dark:border-gray-800 pt-4"
+              >Dirigido a:  El taller está dirigido a biólogos, ilustradores, artistas plásticos, artistas visuales y toda aquella persona que cuente o no, con entrenamiento previo en el campo del dibujo de la naturaleza.
+              </p>
+              <p>
+                <a
+                  href="cursos/intro-r-inferencia-est-1-15a.html"
+                  target="_blank"
+                  class="btn btn-link text-indigo-600 hover:text-red-600 after:bg-indigo-600 duration-500 ease-in-out"
+                  >Ver curso</a
+                >
+              </p>
+              <ul
+                class="pt-4 border-t border-gray-100 dark:border-gray-800 flex items-center list-none text-slate-400"
+              >
+                <li class="flex items-center mr-3">
+                  <i
+                    class="uil uil-calendar-alt text-base leading-none mr-2 text-slate-900 dark:text-white"
+                  ></i>
+                  <span>Ma y Ju</span>
+                </li>
+                <li class="flex items-center mr-3">
+                  <i
+                    class="uil uil-clock text-base leading-none mr-2 text-slate-900 dark:text-white"
+                  ></i>
+                  <span>15-19h</span>
+                </li>
+                <li class="flex items-center">
+                  <i
+                    class="uil uil-map-marker text-base leading-none mr-2 text-slate-900 dark:text-white"
+                  ></i>
+                  <span>Presencial</span>
+                </li>
+              </ul>
+              <div
+                class="absolute -top-7 right-3 z-1 opacity-0 group-hover:opacity-100 duration-500 ease-in-out"
+              >
+                <div
+                  class="flex justify-center items-center w-16 h-16 bg-white dark:bg-slate-900 rounded-full shadow-lg dark:shadow-gray-800 text-red-600 dark:text-white"
+                >
+                  <span class="font-semibold">$6,000</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- CURSO FIN -->
+        </div>
+        <!--end grid-->
+      </div>
+      <!--end container-->
+    </section>
+    <!--end section-->
+    <!-- FIN Section-->
+
+    <!-- CURSOS RECIENTES FIN -->
+
+    <!-- Footer Start -->
+    <footer
+      class="footer bg-dark-footer relative text-gray-200 dark:text-gray-200"
+    >
+      <div class="container">
+        <div class="grid grid-cols-12">
+          <div class="col-span-12">
+            <div class="py-[60px] px-0">
+              <div class="grid md:grid-cols-12 grid-cols-1 gap-[30px]">
+                <div class="lg:col-span-4 md:col-span-12">
+                  <a href="#" class="text-[22px] focus:outline-none">
+                    <img src="assets/images/logo-light.png" alt="" />
+                    <img
+                      src="assets/images/logo-light-fc.png"
+                      alt=""
+                      class="mt-8"
+                    />
+                  </a>
+                  <p class="mt-6 text-gray-300">
+                    Sitio web administrado por: Secretaría de Educación Abierta
+                    y Continua de la Facultad de Ciencias-UNAM.
+                    educontinua.inf@ciencias.unam.mx
+                  </p>
+                  <ul class="list-none mt-6">
+                    <li class="inline">
+                      <a
+                        href="https://tienda.fciencias.unam.mx"
+                        target="_blank"
+                        class="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"
+                        ><i
+                          class="uil uil-shopping-cart align-middle"
+                          title="Buy Now"
+                        ></i
+                      ></a>
+                    </li>
+
+                    <li class="inline">
+                      <a
+                        href="https://www.facebook.com/seayc"
+                        target="_blank"
+                        class="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"
+                        ><i
+                          class="uil uil-facebook-f align-middle"
+                          title="facebook"
+                        ></i
+                      ></a>
+                    </li>
+
+                    <li class="inline">
+                      <a
+                        href="#"
+                        target="_blank"
+                        class="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"
+                        ><i
+                          class="uil uil-instagram align-middle"
+                          title="instagram"
+                        ></i
+                      ></a>
+                    </li>
+
+                    <li class="inline">
+                      <a
+                        href="#"
+                        target="_blank"
+                        class="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"
+                        ><i
+                          class="uil uil-twitter align-middle"
+                          title="twitter"
+                        ></i
+                      ></a>
+                    </li>
+
+                    <li class="inline">
+                      <a
+                        href="mailto:educontinua.inf@ciencias.unam.mx"
+                        class="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"
+                        ><i
+                          class="uil uil-envelope align-middle"
+                          title="email"
+                        ></i
+                      ></a>
+                    </li>
+                  </ul>
+                  <!--end icon-->
+                </div>
+                <!--end col-->
+
+                <div class="lg:col-span-4 md:col-span-4">
+                  <h5 class="tracking-[1px] text-gray-100 font-semibold">
+                    Company
+                  </h5>
+                  <ul class="list-none footer-list mt-6">
+                    <li>
+                      <a
+                        href="page-aboutus.html"
+                        class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"
+                        ><i class="uil uil-angle-right-b me-1"></i> About us</a
+                      >
+                    </li>
+                    <li class="mt-[10px]">
+                      <a
+                        href="page-services.html"
+                        class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"
+                        ><i class="uil uil-angle-right-b me-1"></i> Services</a
+                      >
+                    </li>
+                    <li class="mt-[10px]">
+                      <a
+                        href="page-team.html"
+                        class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"
+                        ><i class="uil uil-angle-right-b me-1"></i> Team</a
+                      >
+                    </li>
+                    <li class="mt-[10px]">
+                      <a
+                        href="page-pricing.html"
+                        class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"
+                        ><i class="uil uil-angle-right-b me-1"></i> Pricing</a
+                      >
+                    </li>
+                    <li class="mt-[10px]">
+                      <a
+                        href="portfolio-creative-four.html"
+                        class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"
+                        ><i class="uil uil-angle-right-b me-1"></i> Project</a
+                      >
+                    </li>
+                    <li class="mt-[10px]">
+                      <a
+                        href="blog.html"
+                        class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"
+                        ><i class="uil uil-angle-right-b me-1"></i> Blog</a
+                      >
+                    </li>
+                    <li class="mt-[10px]">
+                      <a
+                        href="auth-login.html"
+                        class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"
+                        ><i class="uil uil-angle-right-b me-1"></i> Login</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <!--end col-->
+
+                <div class="lg:col-span-4 md:col-span-4">
+                  <h5 class="tracking-[1px] text-gray-100 font-semibold">
+                    Usefull Links
+                  </h5>
+                  <ul class="list-none footer-list mt-6">
+                    <li>
+                      <a
+                        href="page-terms.html"
+                        class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"
+                        ><i class="uil uil-angle-right-b me-1"></i> Terms of
+                        Services</a
+                      >
+                    </li>
+                    <li class="mt-[10px]">
+                      <a
+                        href="page-privacy.html"
+                        class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"
+                        ><i class="uil uil-angle-right-b me-1"></i> Privacy
+                        Policy</a
+                      >
+                    </li>
+                    <li class="mt-[10px]">
+                      <a
+                        href="documentation.html"
+                        class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"
+                        ><i class="uil uil-angle-right-b me-1"></i>
+                        Documentation</a
+                      >
+                    </li>
+                    <li class="mt-[10px]">
+                      <a
+                        href="changelog.html"
+                        class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"
+                        ><i class="uil uil-angle-right-b me-1"></i> Changelog</a
+                      >
+                    </li>
+                    <li class="mt-[10px]">
+                      <a
+                        href="widget.html"
+                        class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"
+                        ><i class="uil uil-angle-right-b me-1"></i> Widget</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <!--end col-->
+              </div>
+              <!--end grid-->
+            </div>
+            <!--end col-->
+          </div>
+        </div>
+        <!--end grid-->
+      </div>
+      <!--end container-->
+
+      <div class="py-[30px] px-0 border-t border-slate-800">
+        <div class="container text-center">
+          <div class="grid md:grid-cols-1 items-center">
+            <div class="md:text-left text-center">
+              <p class="mb-0">
+                ©
+                <script>
+                  document.write(new Date().getFullYear());
+                </script>
+                Facultad de Ciencias, UNAM. Hecho en México, todos los derechos
+                reservados. Esta página puede ser reproducida con fines no
+                lucrativos, siempre y cuando no se mutile, se cite la fuente
+                completa y su dirección electrónica. De otra forma requiere
+                permiso previo por escrito de la institución.
+              </p>
+            </div>
+          </div>
+          <!--end grid-->
+        </div>
+        <!--end container-->
+      </div>
+    </footer>
+    <!--end footer-->
+    <!-- Footer End -->
+
+    <!-- Back to top -->
+    <a
+      href="#"
+      onclick="topFunction()"
+      id="back-to-top"
+      class="back-to-top fixed hidden text-lg rounded-full z-10 bottom-5 right-5 h-9 w-9 text-center bg-indigo-600 text-white leading-9"
+      ><i class="uil uil-arrow-up"></i
+    ></a>
+    <!-- Back to top -->
+
+    <!-- Switcher -->
+    <div class="fixed top-1/4 -right-2 z-50">
+      <span class="relative inline-block rotate-90">
+        <input type="checkbox" class="checkbox opacity-0 absolute" id="chk" />
+        <label
+          class="label bg-slate-900 dark:bg-white shadow dark:shadow-gray-800 cursor-pointer rounded-full flex justify-between items-center p-1 w-14 h-8"
+          for="chk"
+        >
+          <i class="uil uil-moon text-[20px] text-yellow-500"></i>
+          <i class="uil uil-sun text-[20px] text-yellow-500"></i>
+          <span
+            class="ball bg-white dark:bg-slate-900 rounded-full absolute top-[2px] left-[2px] w-7 h-7"
+          ></span>
+        </label>
+      </span>
+    </div>
+    <!-- Switcher -->
+
+    <!-- JAVASCRIPTS -->
+    <script src="assets/libs/tiny-slider/min/tiny-slider.js"></script>
+    <script src="assets/libs/tobii/js/tobii.min.js"></script>
+    <script src="assets/libs/feather-icons/feather.min.js"></script>
+    <script src="assets/js/plugins.init.js"></script>
+    <script src="assets/js/app.js"></script>
+    <!-- JAVASCRIPTS -->
+  </body>
+</html>
