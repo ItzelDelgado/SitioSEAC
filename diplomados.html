@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en" class="light scroll-smooth" dir="ltr">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>SEAC - Secretaría de Educación Abierta y Continua</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="description" content="Secretaría de Educación Abierta y Continua - Facultad de Ciencias" />
+  <meta name="keywords"
+    content="cursos, educación, continua, facultad, ciencias, biología, física, computación, matemáticas" />
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <!-- favicon -->
+  <link rel="shortcut icon" href="assets/images/favicon.png" />
+
+  <!-- Css -->
+  <link href="assets/libs/tiny-slider/tiny-slider.css" rel="stylesheet">
+  <link href="assets/libs/tobii/css/tobii.min.css" rel="stylesheet">
+  <!-- Main Css -->
+  <link href="assets/libs/@iconscout/unicons/css/line.css" type="text/css" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/icons.css" />
+  <link rel="stylesheet" href="assets/css/tailwind.css" />
+
+</head>
+
+<body class="font-nunito text-base text-black dark:text-white dark:bg-slate-900">
+
+  <!-- Loader -->
+  <div id="preloader">
+    <div id="status">
+      <div class="spinner">
+        <div class="double-bounce1"></div>
+        <div class="double-bounce2"></div>
+      </div>
+    </div>
+  </div>
+  <!-- Loader Fin -->
+
+
+
+
+  <!-- Navegacion-->
+  <nav id="topnav" class="defaultscroll is-sticky">
+    <div class="container">
+      <!-- Logo contenedor-->
+      <a class="logo pl-0" href="index.html">
+        <span class="inline-block dark:hidden">
+          <img src="assets/images/logo-dark.png" class="l-dark" height="24" alt="">
+          <img src="assets/images/logo-light.png" class="l-light" height="24" alt="">
+        </span>
+        <img src="assets/images/logo-light.png" height="24" class="hidden dark:inline-block" alt="">
+      </a>
+      <!-- Fin Logo contenedor-->
+
+      <div class="menu-extras">
+        <div class="menu-item">
+
+          <!-- Mobile menu -->
+          <a class="navbar-toggle" id="isToggle" onclick="toggleMenu()">
+            <div class="lines">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </a>
+          <!-- FIN mobile menu -->
+        </div>
+      </div>
+
+      <!--Login boton
+                <ul class="buy-button list-none mb-0">
+                    <li class="inline mb-0">
+                        <a href="">
+                            <span class="login-btn-primary"><span class="btn btn-icon rounded-full bg-blue-900/5 hover:bg-indigo-600 border-indigo-600/10 hover:border-indigo-600 text-indigo-600 hover:text-white"><i data-feather="log-in" class="h-4 w-4"></i></span></span>
+                            <span class="login-btn-light"><span class="btn btn-icon rounded-full bg-gray-50 hover:bg-indigo-600 dark:bg-slate-900 dark:hover:bg-indigo-700 hover:border-indigo-100 dark:border-gray-700 dark:hover:border-indigo-700 hover:text-white"><i data-feather="log-in" class="h-4 w-4"></i></span></span>
+                        </a>
+                    </li>
+            
+                   
+                </ul>
+                Login boton FIN-->
+
+      <div id="navigation">
+        <!--  MENU  -->
+        <ul class="navigation-menu nav-light">
+          <li><a href="index.html" class="sub-menu-item">Inicio</a></li>
+
+          <li class="has-submenu parent-parent-menu-item">
+            <a href="javascript:void(0)">Oferta académica</a><span class="menu-arrow"></span>
+            <ul class="submenu">
+              <li class="has-submenu parent-menu-item"><a href="cursos.html"> Cursos </a><span class=""></span>
+
+              </li>
+              <li class="has-submenu parent-menu-item"><a href="diplomados.html"> Diplomados</a><span class=""></span>
+
+              </li>
+              <li class="has-submenu parent-menu-item"><a href="talleres.html">Talleres</a><span class=""></span>
+
+              </li>
+
+
+            </ul>
+          </li>
+
+
+          <li class="has-submenu parent-parent-menu-item">
+            <a href="javascript:void(0)">Inscripción</a><span class="menu-arrow"></span>
+            <ul class="submenu">
+              <li class="has-submenu parent-menu-item"><a href="inscripcion.html"> Inscripción y
+                  pago</a><span class="submenu-arrow"></span>
+                <ul class="submenu">
+                  <li><a href="edu-continua.html" class="sub-menu-item"> Educación continua</a></li>
+                  <li><a href="convenios.html" class="sub-menu-item">Convenios</a></li>
+
+                </ul>
+              </li>
+            </ul>
+          </li>
+
+          <li class="has-submenu parent-parent-menu-item">
+            <a href="javascript:void(0)">Profesores</a><span class="menu-arrow"></span>
+            <ul class="submenu">
+              <li class="has-submenu parent-menu-item"><a href="impartir-programa.html"> Impartir
+                  programa</a><span class="submenu-arrow"></span>
+                <ul class="submenu">
+                  <li><a href="profs-edu-continua.html" class="sub-menu-item"> Educación continua</a>
+                  </li>
+
+
+                </ul>
+              </li>
+            </ul>
+          </li>
+
+
+
+          <li class="has-submenu parent-parent-menu-item">
+            <a href="javascript:void(0)">Nosotros</a><span class="menu-arrow"></span>
+            <ul class="submenu">
+              <li class="has-submenu parent-menu-item"><a href="equipo.html"> Presentación</a><span
+                  class="submenu-arrow"></span>
+              </li>
+
+              <li class="has-submenu parent-menu-item"><a href="normatividad.html"> Normatividad</a><span
+                  class="submenu-arrow"></span>
+              </li>
+
+              <li class="has-submenu parent-menu-item"><a href="ubicación.html"> Ubicación</a><span
+                  class="submenu-arrow"></span>
+              </li>
+
+              <li class="has-submenu parent-menu-item"><a href="contacto.html"> Contacto</a><span
+                  class="submenu-arrow"></span>
+              </li>
+
+
+            </ul>
+          </li>
+
+
+          <li><a href="contacto.html" class="sub-menu-item">Contacto</a></li>
+        </ul><!-- MENU FIN -->
+      </div><!--fin navigation-->
+    </div><!-- contenedor FIN -->
+  </nav><!-- header FIN-->
+  <!-- Navegación FIN -->
+
+
+  <!-- Start Hero -->
+  <section
+    class="relative table w-full py-36 bg-[url('../../assets/images/cursos/bg-intro-est-bio-2.jpg')] bg-center bg-no-repeat">
+    <div class="absolute inset-0 bg-black opacity-75"></div>
+    <div class="container">
+      <div class="grid grid-cols-1 pb-8 text-center mt-10">
+        <h3 class="md:text-4xl text-3xl md:leading-normal tracking-wide leading-normal font-medium text-white">
+          Diplomados</h3>
+      </div><!--end grid-->
+    </div><!--end container-->
+
+
+  </section><!--end section-->
+  <div class="relative">
+    <div
+      class="shape absolute right-0 sm:-bottom-px -bottom-[2px] left-0 overflow-hidden z-1 text-white dark:text-slate-900">
+      <svg class="w-full h-auto" viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0 48H1437.5H2880V0H2160C1442.5 52 720 0 720 0H0V48Z" fill="currentColor"></path>
+      </svg>
+    </div>
+  </div>
+  <!-- End Hero -->
+
+
+  <!-- CURSOS RECIENTES -->
+
+  <section class="relative md:py-10 py-10">
+    <div class="container">
+      <div class="grid grid-cols-1 pb-8 text-center">
+        <h3 class="mb-1 md:text-3xl text-2xl md:leading-normal leading-normal font-semibold">Cursos futuros</h3>
+
+        <p class="text-slate-400 max-w-xl mx-auto">Conoce nuestros próximos diplomados.</p>
+      </div><!--end grid-->
+    </div>
+  </section>
+
+
+  <!-- COMIENZA Section-->
+  <section class="relative md:py-5 py-5 overflow-hidden">
+    <div class="container">
+      <div class="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-[30px]">
+
+
+        <div
+          class="group relative rounded-md shadow hover:shadow-lg dark:shadow-gray-800 duration-500 ease-in-out overflow-hidden">
+          <div class="relative overflow-hidden">
+            <img src="assets/images/cursos/c3.jpg" class="group-hover:scale-110 duration-500 ease-in-out" alt="" />
+            <div class="absolute inset-0 bg-slate-900/50 opacity-0 group-hover:opacity-100 duration-500 ease-in-out">
+            </div>
+            <div class="absolute left-0 bottom-0 opacity-0 group-hover:opacity-100 duration-500 ease-in-out"></div>
+          </div>
+          <div class="content p-6 relative">
+            <a href="bioestadistica-16.html"
+              class="text-lg font-bold block hover:text-red-600 duration-500 ease-in-out mt-2 cursor-pointer">
+              Derecho y Gestión Ambiental</a>
+            <a href="course-detail.html" class="text-sm font-thin block text-red-600">XXVII Edición</a>
+            <p class="text-sm block text-indigo-600 mt-2">
+              Del 24 de febrero al 9 de junio del 2023
+            </p>
+            <p class="text-slate-400 mt-3 mb-4">
+              Enfocado a contribuir a la formación de profesionales en el
+              conocimiento y aplicación del derecho y la gestión ambiental
+              bajo un enfoque interdisciplinario y desde un esquema tanto
+              nacional como internacional con el propósito de avanzar en la
+              comprensión de la cuestión ambiental y el desarrollo sustentable
+              así como en el fortalecimiento de la conciencia ambiental.
+            </p>
+            <p class="text-neutral-500 mt-3 mb-4 text-sm border-t border-gray-100 dark:border-gray-800 pt-4">
+              Diplomado. <br />Dirigido a: Abogados, Biólogos (titulados o
+              no), o cualquier profesionista inmerso en el área ya que hemos
+              contado con la participación de Químicos, Arquitectos, etc, así
+              como personas con interés general en la materia ambiental
+            </p>
+            <p>
+              <a href="cursos/intro-r-inferencia-est-1-15a.html" target="_blank"
+                class="btn btn-link text-indigo-600 hover:text-red-600 after:bg-indigo-600 duration-500 ease-in-out">Ver
+                diplomado</a>
+            </p>
+            <ul class="pt-4 border-t border-gray-100 dark:border-gray-800 flex items-center list-none text-slate-400">
+              <li class="flex items-center mr-3">
+                <i class="uil uil-calendar-alt text-base leading-none mr-2 text-slate-900 dark:text-white"></i>
+                <span>Vie y Sáb</span>
+              </li>
+              <li class="flex items-center mr-3">
+                <i class="uil uil-clock text-base leading-none mr-2 text-slate-900 dark:text-white"></i>
+                <span>16 - 20h <br />
+                  10 - 14h</span>
+              </li>
+              <li class="flex items-center">
+                <i class="uil uil-map-marker text-base leading-none mr-2 text-slate-900 dark:text-white"></i>
+                <span>Virtual</span>
+              </li>
+            </ul>
+            <div class="absolute -top-7 right-3 z-1 opacity-0 group-hover:opacity-100 duration-500 ease-in-out">
+              <div
+                class="flex justify-center items-center w-16 h-16 bg-white dark:bg-slate-900 rounded-full shadow-lg dark:shadow-gray-800 text-red-600 dark:text-white">
+                <span class="font-semibold">$34,800</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- DIPLOMADO FIN -->
+
+      </div><!--end grid-->
+
+
+    </div><!--end container-->
+
+
+  </section><!--end section-->
+  <!-- FIN Section-->
+
+
+
+
+  
+
+
+    <!-- CURSOS RECIENTES FIN -->
+
+    <!-- Footer Start -->
+    <footer class="footer bg-dark-footer relative text-gray-200 dark:text-gray-200">
+      <div class="container">
+        <div class="grid grid-cols-12">
+          <div class="col-span-12">
+            <div class="py-[60px] px-0">
+              <div class="grid md:grid-cols-12 grid-cols-1 gap-[30px]">
+                <div class="lg:col-span-4 md:col-span-12">
+                  <a href="#" class="text-[22px] focus:outline-none">
+                    <img src="assets/images/logo-light.png" alt="">
+                    <img src="assets/images/logo-light-fc.png" alt="" class="mt-8">
+                  </a>
+                  <p class="mt-6 text-gray-300">Sitio web administrado por:
+                    Secretaría de Educación Abierta y Continua de la Facultad de Ciencias-UNAM.
+                    educontinua.inf@ciencias.unam.mx</p>
+                  <ul class="list-none mt-6">
+                    <li class="inline"><a href="https://tienda.fciencias.unam.mx" target="_blank"
+                        class="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"><i
+                          class="uil uil-shopping-cart align-middle" title="Buy Now"></i></a>
+                    </li>
+
+
+
+                    <li class="inline"><a href="https://www.facebook.com/seayc" target="_blank"
+                        class="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"><i
+                          class="uil uil-facebook-f align-middle" title="facebook"></i></a>
+                    </li>
+
+                    <li class="inline"><a href="#" target="_blank"
+                        class="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"><i
+                          class="uil uil-instagram align-middle" title="instagram"></i></a>
+                    </li>
+
+                    <li class="inline"><a href="#" target="_blank"
+                        class="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"><i
+                          class="uil uil-twitter align-middle" title="twitter"></i></a></li>
+
+                    <li class="inline"><a href="mailto:educontinua.inf@ciencias.unam.mx"
+                        class="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"><i
+                          class="uil uil-envelope align-middle" title="email"></i></a></li>
+
+                  </ul><!--end icon-->
+                </div><!--end col-->
+
+                <div class="lg:col-span-4 md:col-span-4">
+                  <h5 class="tracking-[1px] text-gray-100 font-semibold">Company</h5>
+                  <ul class="list-none footer-list mt-6">
+                    <li><a href="page-aboutus.html"
+                        class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"><i
+                          class="uil uil-angle-right-b me-1"></i> About us</a></li>
+                    <li class="mt-[10px]"><a href="page-services.html"
+                        class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"><i
+                          class="uil uil-angle-right-b me-1"></i> Services</a></li>
+                    <li class="mt-[10px]"><a href="page-team.html"
+                        class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"><i
+                          class="uil uil-angle-right-b me-1"></i> Team</a></li>
+                    <li class="mt-[10px]"><a href="page-pricing.html"
+                        class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"><i
+                          class="uil uil-angle-right-b me-1"></i> Pricing</a></li>
+                    <li class="mt-[10px]"><a href="portfolio-creative-four.html"
+                        class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"><i
+                          class="uil uil-angle-right-b me-1"></i> Project</a></li>
+                    <li class="mt-[10px]"><a href="blog.html"
+                        class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"><i
+                          class="uil uil-angle-right-b me-1"></i> Blog</a></li>
+                    <li class="mt-[10px]"><a href="auth-login.html"
+                        class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"><i
+                          class="uil uil-angle-right-b me-1"></i> Login</a></li>
+                  </ul>
+                </div><!--end col-->
+
+                <div class="lg:col-span-4 md:col-span-4">
+                  <h5 class="tracking-[1px] text-gray-100 font-semibold">Usefull Links</h5>
+                  <ul class="list-none footer-list mt-6">
+                    <li><a href="page-terms.html" class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"><i
+                          class="uil uil-angle-right-b me-1"></i> Terms of Services</a></li>
+                    <li class="mt-[10px]"><a href="page-privacy.html"
+                        class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"><i
+                          class="uil uil-angle-right-b me-1"></i> Privacy Policy</a></li>
+                    <li class="mt-[10px]"><a href="documentation.html"
+                        class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"><i
+                          class="uil uil-angle-right-b me-1"></i> Documentation</a></li>
+                    <li class="mt-[10px]"><a href="changelog.html"
+                        class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"><i
+                          class="uil uil-angle-right-b me-1"></i> Changelog</a></li>
+                    <li class="mt-[10px]"><a href="widget.html"
+                        class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"><i
+                          class="uil uil-angle-right-b me-1"></i> Widget</a></li>
+                  </ul>
+                </div><!--end col-->
+
+
+              </div><!--end grid-->
+            </div><!--end col-->
+          </div>
+        </div><!--end grid-->
+      </div><!--end container-->
+
+      <div class="py-[30px] px-0 border-t border-slate-800">
+        <div class="container text-center">
+          <div class="grid md:grid-cols-1 items-center">
+            <div class="md:text-left text-center">
+              <p class="mb-0">©
+                <script>document.write(new Date().getFullYear())</script> Facultad de Ciencias, UNAM.
+                Hecho en México, todos los derechos reservados. Esta página puede ser reproducida con
+                fines no lucrativos, siempre y cuando no se mutile, se cite la fuente completa y su
+                dirección electrónica. De otra forma requiere permiso previo por escrito de la
+                institución.
+              </p>
+
+            </div>
+
+
+          </div><!--end grid-->
+        </div><!--end container-->
+      </div>
+    </footer><!--end footer-->
+    <!-- Footer End -->
+
+    <!-- Back to top -->
+    <a href="#" onclick="topFunction()" id="back-to-top"
+      class="back-to-top fixed hidden text-lg rounded-full z-10 bottom-5 right-5 h-9 w-9 text-center bg-indigo-600 text-white leading-9"><i
+        class="uil uil-arrow-up"></i></a>
+    <!-- Back to top -->
+
+    <!-- Switcher -->
+    <div class="fixed top-1/4 -right-2 z-50">
+      <span class="relative inline-block rotate-90">
+        <input type="checkbox" class="checkbox opacity-0 absolute" id="chk" />
+        <label
+          class="label bg-slate-900 dark:bg-white shadow dark:shadow-gray-800 cursor-pointer rounded-full flex justify-between items-center p-1 w-14 h-8"
+          for="chk">
+          <i class="uil uil-moon text-[20px] text-yellow-500"></i>
+          <i class="uil uil-sun text-[20px] text-yellow-500"></i>
+          <span class="ball bg-white dark:bg-slate-900 rounded-full absolute top-[2px] left-[2px] w-7 h-7"></span>
+        </label>
+      </span>
+    </div>
+    <!-- Switcher -->
+
+    <!-- JAVASCRIPTS -->
+    <script src="assets/libs/tiny-slider/min/tiny-slider.js"></script>
+    <script src="assets/libs/tobii/js/tobii.min.js"></script>
+    <script src="assets/libs/feather-icons/feather.min.js"></script>
+    <script src="assets/js/plugins.init.js"></script>
+    <script src="assets/js/app.js"></script>
+    <!-- JAVASCRIPTS -->
+</body>
+
+</html>
