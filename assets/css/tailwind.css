@@ -7702,24 +7702,25 @@ h1,  h2,  h3,  h4,  h5,  h6,  .h1,  .h2,  .h3,  .h4,  .h5,  .h6{
   list-style-type: disc;
 }
 
-
+/* Para carrusel */
   .bg-\[url\(\'\.\.\/\.\.\/assets\/images\/slider\/bg01\.jpg\'\)\]{
   background-image: url('../../assets/images/slider/bg01.jpg') !important;
 }
   .bg-\[url\(\'\.\.\/\.\.\/assets\/images\/slider\/bg02\.jpg\'\)\]{
   background-image: url('../../assets/images/slider/bg02.jpg') !important;
 }
-  .bg-\[url\(\'\.\.\/\.\.\/assets\/images\/slider\/bg03\.jpg\'\)\]{
-  background-image: url('../../assets/images/slider/bg03.jpg') !important;
+  .bg-\[url\(\'\.\.\/\.\.\/assets\/images\/slider\/bgTortuga\.webp\'\)\]{
+  background-image: url('../../assets/images/slider/bgTortuga.webp') !important;
 }
   .bg-\[url\(\'\.\.\/\.\.\/assets\/images\/slider\/bg04\.jpg\'\)\]{
   background-image: url('../../assets/images/slider/bg04.jpg') !important;
 }
 
-  .bg-\[url\(\'\.\.\/\.\.\/assets\/images\/slider\/bg05\.jpg\'\)\]{
-  background-image: url('../../assets/images/slider/bg05.jpg') !important;
+  .bg-\[url\(\'\.\.\/\.\.\/assets\/images\/slider\/bgArbol\.webp\'\)\]{
+  background-image: url('../../assets/images/slider/bgArbol.webp') !important;
 }
 
+/* Fin - para carrusel */
 
 
 .bg-\[url\(\'\.\.\/\.\.\/assets\/images\/cursos\/bg-intro-est-bio-2\.jpg\'\)\]{
