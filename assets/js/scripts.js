@@ -3,31 +3,45 @@
     let enCurso = document.getElementById('enCurso');
     let pasados = document.getElementById('pasados');
 
-    let programadosClass = document.querySelector('.programados');
-    let enCursoClass = document.querySelector('.enCurso');
-    let pasadosClass = document.querySelector('.pasados');
+    let programadosClass = document.querySelectorAll('.programados');
+    let enCursoClass = document.querySelectorAll('.enCurso');
+    let pasadosClass = document.querySelectorAll('.pasados');
     
     programados.addEventListener('click', () => {
-        // programadosClass.classList.remove('hidden');
-        programadosClass.classList.add('block');
-        enCursoClass.classList.add('hidden');
-        pasadosClass.classList.add('hidden');
-        console.log("programados reportado");
+        programadosClass.forEach(element => {
+            element.classList.remove('hidden');
+            element.classList.add('block');
+
+        });
+
+        enCursoClass.forEach(element => {
+            element.classList.add('hidden');
+            // pasadosClass.classList.add('hidden');
+        });
+        
+        
     })
 
     enCurso.addEventListener('click', () => {
-        enCursoClass.classList.remove('hidden');
-        enCursoClass.classList.add('block');
-        programadosClass.classList.add('hidden');
-        pasadosClass.classList.add('hidden');
-        console.log("en Curso reportando");
+        enCursoClass.forEach(element => {
+            element.classList.remove('hidden');
+            element.classList.add('block');
+            // programadosClass.classList.add('hidden');
+            // pasadosClass.classList.add('hidden');
+            // console.log("en Curso reportando");    
+        });
+
+        programadosClass.forEach(element => {
+            element.classList.add('hidden');
+        });
+        
     })
 
-    pasados.addEventListener('click', () => {
-        pasadosClass.classList.remove('hidden');
-        pasadosClass.classList.add('block');
-        programadosClass.classList.add('hidden');
-        enCursoClass.classList.add('hidden');
-        console.log("pasados reportando");
-    })
+    // pasados.addEventListener('click', () => {
+    //     pasadosClass.classList.remove('hidden');
+    //     pasadosClass.classList.add('block');
+    //     programadosClass.classList.add('hidden');
+    //     enCursoClass.classList.add('hidden');
+    //     console.log("pasados reportando");
+    // })
 })());
