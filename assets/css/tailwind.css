@@ -2640,6 +2640,9 @@ video {
 .pt-16{
   padding-top: 4rem !important;
 }
+.pl-10 {
+  padding-left: 2.5rem;
+}
 .pl-12{
   padding-left: 3rem !important;
 }
