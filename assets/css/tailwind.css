@@ -2580,6 +2580,7 @@ video {
   padding-top: 30px !important;
   padding-bottom: 30px !important;
 }
+
 .pb-16{
   padding-bottom: 4rem !important;
 }
@@ -2640,9 +2641,13 @@ video {
 .pt-16{
   padding-top: 4rem !important;
 }
+.pl-4{
+  padding-left: 1rem;
+}
 .pl-10 {
   padding-left: 2.5rem;
 }
+
 .pl-12{
   padding-left: 3rem !important;
 }
