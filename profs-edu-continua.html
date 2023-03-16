@@ -1,13 +1,22 @@
 <!DOCTYPE html>
 <html lang="en" class="light scroll-smooth" dir="ltr">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
-    <title>SEAC - Estrategias de educación ambiental para la sustentabilidad</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content="Introducción a la estadística en la biología" />
-    <meta name="keywords"
-        content="agency, application, business, clean, creative, cryptocurrency, it solutions, modern, multipurpose, nft marketplace, portfolio, saas, software, tailwind css" />
+    <title>
+      SEAC - Estrategias de educación ambiental para la sustentabilidad
+    </title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta
+      name="description"
+      content="Introducción a la estadística en la biología"
+    />
+    <meta
+      name="keywords"
+      content="agency, application, business, clean, creative, cryptocurrency, it solutions, modern, multipurpose, nft marketplace, portfolio, saas, software, tailwind css"
+    />
 
     <meta name="version" content="1.5.0" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -17,241 +26,300 @@
 
     <!-- Css -->
     <!-- Main Css -->
-    <link href="../assets/libs/@iconscout/unicons/css/line.css" type="text/css" rel="stylesheet" />
+    <link
+      href="../assets/libs/@iconscout/unicons/css/line.css"
+      type="text/css"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="../assets/css/icons.css" />
     <link rel="stylesheet" href="../assets/css/tailwind.css" />
+  </head>
 
-</head>
-
-<body class="font-nunito text-base text-black dark:text-white dark:bg-slate-900">
-
+  <body
+    class="font-nunito text-base text-black dark:text-white dark:bg-slate-900"
+  >
     <!-- Loader Start -->
     <div id="preloader">
-        <div id="status">
-            <div class="spinner">
-                <div class="double-bounce1"></div>
-                <div class="double-bounce2"></div>
-            </div>
+      <div id="status">
+        <div class="spinner">
+          <div class="double-bounce1"></div>
+          <div class="double-bounce2"></div>
         </div>
+      </div>
     </div>
     <!-- Loader End -->
 
     <!-- Navegacion-->
     <nav id="topnav" class="defaultscroll is-sticky">
-        <div class="container">
-            <!-- Logo contenedor-->
-            <a class="logo pl-0" href="../index.html">
-                <span class="inline-block dark:hidden">
-                    <img src="../assets/images/logo-dark.png" class="l-dark" height="24" alt="">
-                    <img src="../assets/images/logo-light.png" class="l-light" height="24" alt="">
-                </span>
-                <img src="../assets/images/logo-light.png" height="24" class="hidden dark:inline-block" alt="">
+      <div class="container">
+        <!-- Logo contenedor-->
+        <a class="logo pl-0" href="../index.html">
+          <span class="inline-block dark:hidden">
+            <img
+              src="../assets/images/logo-dark.png"
+              class="l-dark"
+              height="24"
+              alt=""
+            />
+            <img
+              src="../assets/images/logo-light.png"
+              class="l-light"
+              height="24"
+              alt=""
+            />
+          </span>
+          <img
+            src="../assets/images/logo-light.png"
+            height="24"
+            class="hidden dark:inline-block"
+            alt=""
+          />
+        </a>
+        <!-- Fin Logo contenedor-->
+
+        <div class="menu-extras">
+          <div class="menu-item">
+            <!-- Mobile menu -->
+            <a class="navbar-toggle" id="isToggle" onclick="toggleMenu()">
+              <div class="lines">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
             </a>
-            <!-- Fin Logo contenedor-->
+            <!-- FIN mobile menu -->
+          </div>
+        </div>
 
-            <div class="menu-extras">
-                <div class="menu-item">
+        <div id="navigation">
+          <!--  MENU  -->
+          <ul class="navigation-menu nav-light">
+            <li><a href="../index.html" class="sub-menu-item">Inicio</a></li>
 
-                    <!-- Mobile menu -->
-                    <a class="navbar-toggle" id="isToggle" onclick="toggleMenu()">
-                        <div class="lines">
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                        </div>
-                    </a>
-                    <!-- FIN mobile menu -->
-                </div>
-            </div>
+            <li class="has-submenu parent-parent-menu-item">
+              <a href="javascript:void(0)">Oferta académica</a
+              ><span class="menu-arrow"></span>
+              <ul class="submenu">
+                <li class="has-submenu parent-menu-item">
+                  <a href="../cursos.html"> Cursos </a><span class=""></span>
+                </li>
+                <li class="has-submenu parent-menu-item">
+                  <a href="../diplomados.html"> Diplomados</a
+                  ><span class=""></span>
+                </li>
+                <li class="has-submenu parent-menu-item">
+                  <a href="../talleres.html">Talleres</a><span class=""></span>
+                </li>
+              </ul>
+            </li>
 
-
-            <div id="navigation">
-                <!--  MENU  -->
-                <ul class="navigation-menu nav-light">
-                    <li><a href="../index.html" class="sub-menu-item">Inicio</a></li>
-
-                    <li class="has-submenu parent-parent-menu-item">
-                        <a href="javascript:void(0)">Oferta académica</a><span class="menu-arrow"></span>
-                        <ul class="submenu">
-                            <li class="has-submenu parent-menu-item"><a href="../cursos.html"> Cursos </a><span
-                                    class=""></span>
-
-                            </li>
-                            <li class="has-submenu parent-menu-item"><a href="../diplomados.html"> Diplomados</a><span
-                                    class=""></span>
-
-                            </li>
-                            <li class="has-submenu parent-menu-item"><a href="../talleres.html">Talleres</a><span
-                                    class=""></span>
-
-                            </li>
-
-
-                        </ul>
+            <li class="has-submenu parent-parent-menu-item">
+              <a href="javascript:void(0)">Inscripción</a
+              ><span class="menu-arrow"></span>
+              <ul class="submenu">
+                <li class="has-submenu parent-menu-item">
+                  <a> Inscripción y pago</a><span class="submenu-arrow"></span>
+                  <ul class="submenu">
+                    <li>
+                      <a
+                        href="Inscripcion_EduContinua.html"
+                        class="sub-menu-item"
+                      >
+                        Educación continua</a
+                      >
                     </li>
-
-
-                    <li class="has-submenu parent-parent-menu-item">
-                        <a href="javascript:void(0)">Inscripción</a><span class="menu-arrow"></span>
-                        <ul class="submenu">
-                            <li class="has-submenu parent-menu-item"><a> Inscripción y
-                                    pago</a><span class="submenu-arrow"></span>
-                                <ul class="submenu">
-                                    <li><a href="Inscripcion_EduContinua.html" class="sub-menu-item"> Educación continua</a>
-                                    </li>
-                                    <li><a href="Inscripcion_Convenios.html" class="sub-menu-item">Convenios</a></li>
-
-                                </ul>
-                            </li>
-                        </ul>
+                    <li>
+                      <a href="Inscripcion_Convenios.html" class="sub-menu-item"
+                        >Convenios</a
+                      >
                     </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
 
-                    <li class="has-submenu parent-parent-menu-item">
-                        <a href="javascript:void(0)">Profesores</a><span class="menu-arrow"></span>
-                        <ul class="submenu">
-                            <li class="has-submenu parent-menu-item"><a> Impartir
-                                    programa</a><span class="submenu-arrow"></span>
-                                <ul class="submenu">
-                                    <li><a href="../profs-edu-continua.html" class="sub-menu-item"> Educación
-                                            continua</a></li>
-
-
-                                </ul>
-                            </li>
-                        </ul>
+            <li class="has-submenu parent-parent-menu-item">
+              <a href="javascript:void(0)">Profesores</a
+              ><span class="menu-arrow"></span>
+              <ul class="submenu">
+                <li class="has-submenu parent-menu-item">
+                  <a> Impartir programa</a><span class="submenu-arrow"></span>
+                  <ul class="submenu">
+                    <li>
+                      <a
+                        href="../profs-edu-continua.html"
+                        class="sub-menu-item"
+                      >
+                        Educación continua</a
+                      >
                     </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
 
+            <li class="has-submenu parent-parent-menu-item">
+              <a href="javascript:void(0)">Nosotros</a
+              ><span class="menu-arrow"></span>
+              <ul class="submenu">
+                <li class="has-submenu parent-menu-item">
+                  <a href="../equipo.html"> Presentación</a
+                  ><span class="submenu-arrow"></span>
+                </li>
 
+                <li class="has-submenu parent-menu-item">
+                  <a href="../normatividad.html"> Normatividad</a
+                  ><span class="submenu-arrow"></span>
+                </li>
 
-                    <li class="has-submenu parent-parent-menu-item">
-                        <a href="javascript:void(0)">Nosotros</a><span class="menu-arrow"></span>
-                        <ul class="submenu">
-                            <li class="has-submenu parent-menu-item"><a href="../equipo.html"> Presentación</a><span
-                                    class="submenu-arrow"></span>
-                            </li>
+                <li class="has-submenu parent-menu-item">
+                  <a href="../ubicacion.html"> Ubicación</a
+                  ><span class="submenu-arrow"></span>
+                </li>
 
-                            <li class="has-submenu parent-menu-item"><a href="../normatividad.html">
-                                    Normatividad</a><span class="submenu-arrow"></span>
-                            </li>
+                <li class="has-submenu parent-menu-item">
+                  <a href="../contacto.html"> Contacto</a
+                  ><span class="submenu-arrow"></span>
+                </li>
+              </ul>
+            </li>
 
-                            <li class="has-submenu parent-menu-item"><a href="../ubicacion.html"> Ubicación</a><span
-                                    class="submenu-arrow"></span>
-                            </li>
-
-                            <li class="has-submenu parent-menu-item"><a href="../contacto.html"> Contacto</a><span
-                                    class="submenu-arrow"></span>
-                            </li>
-
-
-                        </ul>
-                    </li>
-
-
-                    <li><a href="../contacto.html" class="sub-menu-item">Contacto</a></li>
-                </ul><!-- MENU FIN -->
-            </div><!--fin navigation-->
-        </div><!-- contenedor FIN -->
-    </nav><!-- header FIN-->
+            <li>
+              <a href="../contacto.html" class="sub-menu-item">Contacto</a>
+            </li>
+          </ul>
+          <!-- MENU FIN -->
+        </div>
+        <!--fin navigation-->
+      </div>
+      <!-- contenedor FIN -->
+    </nav>
+    <!-- header FIN-->
     <!-- Navegación FIN -->
 
     <!-- Start Hero -->
     <section
-        class="relative table w-full py-36 lg:py-44 bg-[url('../../assets/images/cursos/bg-intro-est-bio-2.jpg')] bg-no-repeat bg-center">
-        <div class="absolute inset-0 bg-black opacity-75"></div>
-        <div class="container">
-
-        </div><!--end container-->
-
-    </section><!--end section-->
-    <div class="relative">
-        <div
-            class="shape absolute right-0 sm:-bottom-px -bottom-[2px] left-0 overflow-hidden z-1 text-white dark:text-slate-900">
-            <svg class="w-full h-auto" viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M0 48H1437.5H2880V0H2160C1442.5 52 720 0 720 0H0V48Z" fill="currentColor"></path>
-            </svg>
+      class="relative table w-full py-36 lg:py-44 bg-[url('../../assets/images/cursos/bg-intro-est-bio-2.jpg')] bg-no-repeat bg-center"
+    >
+      <div class="absolute inset-0 bg-black opacity-75"></div>
+      <div class="container">
+        <div class="grid grid-cols-1 pb-8 text-center mt-10">
+          <h3 class="mt-3 text-3xl leading-normal font-medium text-white">
+            Impartir programa académico en la Secretaría de Educación Abierta y
+            Continua
+          </h3>
         </div>
+        <!--end grid-->
+      </div>
+      <!--end container-->
+    </section>
+    <!--end section-->
+    <div class="relative">
+      <div
+        class="shape absolute right-0 sm:-bottom-px -bottom-[2px] left-0 overflow-hidden z-1 text-white dark:text-slate-900"
+      >
+        <svg
+          class="w-full h-auto"
+          viewBox="0 0 2880 48"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M0 48H1437.5H2880V0H2160C1442.5 52 720 0 720 0H0V48Z"
+            fill="currentColor"
+          ></path>
+        </svg>
+      </div>
     </div>
     <!-- End Hero -->
 
-
     <div class="container">
-        <h1 class="text-3xl font-semibold mb-10 mt-10 text-center"> Instructivo para solicitar impartir Cursos, Diplomados, Talleres o Seminarios de Educación Continua</h1>
-        <p class="mb-3 font-semibold">Estimado profesor:</p>
-        <p>Si tiene interés en impartir algún curso, Diplomado o Taller especializado con temas de su dominio, lo invitamos a proponerlo a esta Secretaría entregando la documentación necesaria de acuerdo a los siguientes formatos:</p>
-        <h2 class="text-xl font-semibold mb-10 mt-10">Documento con descripción del curso, Taller o Diplomado. <a class="text-indigo-600" href="assets/pdf/formatos/Fromato cursos_final.pdf" download="Documento-con-descripcion" >Bajar formato</a></h2>
-        <div class="relative md:py-20 overflow-hidden">
-            <iframe src="assets/pdf/formatos/Fromato cursos_final.pdf" frameborder="0" height="500px" width="100%"></iframe>
-        </div>
-        <h2 class="text-xl font-semibold mb-10 mt-10">Rubrica para evaluación. <a class="text-indigo-600" href="assets/pdf/formatos/comite.pdf" download="rubrica-para-evaluacion" >Bajar formato</a></h2>
-        <div class="relative md:py-20 overflow-hidden">
-            <iframe src="assets/pdf/formatos/comite.pdf" frameborder="0" height="500px" width="100%"></iframe>
-        </div>
-        <div class="mt-10 mb-10">
-            <p class=" font-semibold">Puede hacer llegar a esta Secretaría los documentos de alguna de las siguientes maneras:</p>
-            <ul class="pl-4">
-                <li>Correo electrónico: <a class="text-indigo-600" href="mailto:educontinua.inf@ciencias.unam.mx">educontinua.inf@ciencias.unam.mx</a></li>
-                <li>Directamente en la Secretaría: 1er piso, Edificio Tlahuizcalpan (saliendo del elevador a la izquierda)  </li>
-            </ul>
-        </div>
+      <p class="mb-3 mt-16 font-semibold">Estimado profesor:</p>
+      <p>
+        Si tiene interés en impartir algún curso, Diplomado o Taller
+        especializado con temas de su dominio, lo invitamos a proponerlo a esta
+        Secretaría entregando la documentación necesaria de acuerdo a los
+        siguientes formatos:
+      </p>
+      <h2 class="font-semibold mb-10 mt-10">
+        Documento con descripción del curso, Taller o Diplomado.
+        <a
+          class="text-indigo-600"
+          href="assets/pdf/formatos/Fromato cursos_final.pdf"
+          download="Documento-con-descripcion"
+          >Bajar formato</a
+        >
+      </h2>
+      <div class="relative md:py-20 overflow-hidden">
+        <iframe
+          src="assets/pdf/formatos/Fromato cursos_final.pdf"
+          frameborder="0"
+          height="500px"
+          width="100%"
+        ></iframe>
+      </div>
+      <h2 class="font-semibold mb-10 mt-10">
+        Rubrica para evaluación.
+        <a
+          class="text-indigo-600"
+          href="assets/pdf/formatos/comite.pdf"
+          download="rubrica-para-evaluacion"
+          >Bajar formato</a
+        >
+      </h2>
+      <div class="relative md:py-20 overflow-hidden">
+        <iframe
+          src="assets/pdf/formatos/comite.pdf"
+          frameborder="0"
+          height="500px"
+          width="100%"
+        ></iframe>
+      </div>
+      <div class="mt-10 mb-10">
+        <p class="font-semibold">
+          Puede hacer llegar a esta Secretaría los documentos de alguna de las
+          siguientes maneras:
+        </p>
+        <ul class="pl-4">
+          <li>
+            Correo electrónico:
+            <a
+              class="text-indigo-600"
+              href="mailto:educontinua.inf@ciencias.unam.mx"
+              >educontinua.inf@ciencias.unam.mx</a
+            >
+          </li>
+          <li>
+            Directamente en la Secretaría: 1er piso, Edificio Tlahuizcalpan
+            (saliendo del elevador a la izquierda)
+          </li>
+        </ul>
+      </div>
     </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <!--
-
-            <div class="container md:mt-24 mt-16">
-                <div class="md:flex justify-center">
-                    <div class="lg:w-2/3 text-center">
-                        <h3 class="md:text-3xl text-2xl md:leading-normal leading-normal font-semibold mb-6">Subscribe our weekly subscription</h3>
-
-                        <p class="text-slate-400 max-w-xl mx-auto">Add some text to explain benefits of subscripton on your services. We'll send you the best of our blog just once a weekly.</p>
-
-                        <div class="mt-8">
-                            <div class="text-center subcribe-form">
-                                <form class="relative mx-auto max-w-xl">
-                                    <input type="email" id="subemail" name="name" class="pt-4 pr-40 pb-4 pl-6 w-full h-[50px] outline-none text-black dark:text-white rounded-full bg-white/70 dark:bg-slate-900/70 border border-gray-100 dark:border-gray-700" placeholder="Enter your email id..">
-                                    <button type="submit" class="btn absolute top-[2px] right-[3px] h-[46px] bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-full">Subcribe Now</button>
-                                </form>
-                            </div>
-                        </div>
--->
-
-
-
-    </div>
-    </div>
-    </div><!--end container-->
-    </section><!--end section-->
-    <!-- End Section-->
-
-     <!-- Footer Start -->
-  <footer class="footer bg-dark-footer relative text-gray-200 dark:text-gray-200">
-    <div class="container">
-      <div class="grid grid-cols-12">
-        <div class="col-span-12">
-          <div class="py-[60px] px-0">
-            <div class="grid md:grid-cols-12 grid-cols-1 gap-[30px]">
-              <div class="lg:col-span-4 md:col-span-12">
-                <a href="#" class="text-[22px] focus:outline-none">
-                  <img src="assets/images/logo-light.png" alt="">
-                  <img src="assets/images/logo-light-fc.png" alt="" class="mt-8">
-                </a>
-                <p class="mt-6 text-gray-300">Sitio web administrado por la
-                  Secretaría de Educación Abierta y Continua de la Facultad de Ciencias-UNAM.</p>
-                <!-- <ul class="list-none mt-6">
+    <!-- Footer Start -->
+    <footer
+      class="footer bg-dark-footer relative text-gray-200 dark:text-gray-200"
+    >
+      <div class="container">
+        <div class="grid grid-cols-12">
+          <div class="col-span-12">
+            <div class="py-[60px] px-0">
+              <div class="grid md:grid-cols-12 grid-cols-1 gap-[30px]">
+                <div class="lg:col-span-4 md:col-span-12">
+                  <a href="#" class="text-[22px] focus:outline-none">
+                    <img src="assets/images/logo-light.png" alt="" />
+                    <img
+                      src="assets/images/logo-light-fc.png"
+                      alt=""
+                      class="mt-8"
+                    />
+                  </a>
+                  <p class="mt-6 text-gray-300">
+                    Sitio web administrado por la Secretaría de Educación
+                    Abierta y Continua de la Facultad de Ciencias-UNAM.
+                  </p>
+                  <!-- <ul class="list-none mt-6">
                   <li class="inline"><a href="https://tienda.fciencias.unam.mx" target="_blank"
                       class="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"><i
                         class="uil uil-shopping-cart align-middle" title="Buy Now"></i></a>
@@ -273,109 +341,190 @@
                         class="uil uil-envelope align-middle" title="email"></i></a>
                   </li>
                 </ul> -->
-              </div><!--end col-->
+                </div>
+                <!--end col-->
 
-              <div class="lg:col-span-4 md:col-span-4">
-                <h5 class="tracking-[1px] text-gray-100 font-semibold">Contacto</h5>
-                <ul class="list-none footer-list mt-6">
-                  <li class="mt-[10px]"><i class="uil uil-angle-right-b me-1"></i>Circuito de la Investigación
-                    Científica, C.U., Alcaldía
-                    Coyoacán, C.P. 04510, Ciudad Universitaria, CDMX, México
-                  </li>
-                  <li class="mt-[10px]"><i class="uil uil-angle-right-b me-1"></i>
-                    <a href="mailto:educontinua.inf@ciencias.unam.mx">educontinua.inf@ciencias.unam.mx</a>
-                  </li>
-                  <li class="mt-[10px]"><i class="uil uil-angle-right-b me-1"></i>
-                    <span><a href="tel:5556225386">55 5622•5386</a></span> / <span><a href="tel:5556664789">55 5666•4789</a></span>
-                  </li>
+                <div class="lg:col-span-4 md:col-span-4">
+                  <h5 class="tracking-[1px] text-gray-100 font-semibold">
+                    Contacto
+                  </h5>
+                  <ul class="list-none footer-list mt-6">
+                    <li class="mt-[10px]">
+                      <i class="uil uil-angle-right-b me-1"></i>Circuito de la
+                      Investigación Científica, C.U., Alcaldía Coyoacán, C.P.
+                      04510, Ciudad Universitaria, CDMX, México
+                    </li>
+                    <li class="mt-[10px]">
+                      <i class="uil uil-angle-right-b me-1"></i>
+                      <a href="mailto:educontinua.inf@ciencias.unam.mx"
+                        >educontinua.inf@ciencias.unam.mx</a
+                      >
+                    </li>
+                    <li class="mt-[10px]">
+                      <i class="uil uil-angle-right-b me-1"></i>
+                      <span><a href="tel:5556225386">55 5622•5386</a></span> /
+                      <span><a href="tel:5556664789">55 5666•4789</a></span>
+                    </li>
+                  </ul>
+                  <ul class="list-none mt-6">
+                    <li class="inline">
+                      <a
+                        href="https://www.facebook.com/seayc"
+                        target="_blank"
+                        class="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"
+                        ><i
+                          class="uil uil-facebook-f align-middle"
+                          title="facebook"
+                        ></i
+                      ></a>
+                    </li>
+                    <li class="inline">
+                      <a
+                        href="#"
+                        target="_blank"
+                        class="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"
+                        ><i
+                          class="uil uil-instagram align-middle"
+                          title="instagram"
+                        ></i
+                      ></a>
+                    </li>
+                    <li class="inline">
+                      <a
+                        href="#"
+                        target="_blank"
+                        class="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"
+                        ><i
+                          class="uil uil-twitter align-middle"
+                          title="twitter"
+                        ></i
+                      ></a>
+                    </li>
+                    <li class="inline">
+                      <a
+                        href="#"
+                        target="_blank"
+                        class="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"
+                      >
+                        <svg
+                          height="1rem"
+                          style="color: white"
+                          id="icons"
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 512 512"
+                        >
+                          <path
+                            d="M412.19,118.66a109.27,109.27,0,0,1-9.45-5.5,132.87,132.87,0,0,1-24.27-20.62c-18.1-20.71-24.86-41.72-27.35-56.43h.1C349.14,23.9,350,16,350.13,16H267.69V334.78c0,4.28,0,8.51-.18,12.69,0,.52-.05,1-.08,1.56,0,.23,0,.47-.05.71,0,.06,0,.12,0,.18a70,70,0,0,1-35.22,55.56,68.8,68.8,0,0,1-34.11,9c-38.41,0-69.54-31.32-69.54-70s31.13-70,69.54-70a68.9,68.9,0,0,1,21.41,3.39l.1-83.94a153.14,153.14,0,0,0-118,34.52,161.79,161.79,0,0,0-35.3,43.53c-3.48,6-16.61,30.11-18.2,69.24-1,22.21,5.67,45.22,8.85,54.73v.2c2,5.6,9.75,24.71,22.38,40.82A167.53,167.53,0,0,0,115,470.66v-.2l.2.2C155.11,497.78,199.36,496,199.36,496c7.66-.31,33.32,0,62.46-13.81,32.32-15.31,50.72-38.12,50.72-38.12a158.46,158.46,0,0,0,27.64-45.93c7.46-19.61,9.95-43.13,9.95-52.53V176.49c1,.6,14.32,9.41,14.32,9.41s19.19,12.3,49.13,20.31c21.48,5.7,50.42,6.9,50.42,6.9V131.27C453.86,132.37,433.27,129.17,412.19,118.66Z"
+                            fill="white"
+                          ></path></svg
+                      ></a>
+                    </li>
+                    <li class="inline">
+                      <a
+                        href="mailto:educontinua.inf@ciencias.unam.mx"
+                        class="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"
+                        ><i
+                          class="uil uil-envelope align-middle"
+                          title="email"
+                        ></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+                <!--end col-->
 
-                </ul>
-                <ul class="list-none mt-6">
-                  <li class="inline"><a href="https://www.facebook.com/seayc" target="_blank"
-                      class="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"><i
-                        class="uil uil-facebook-f align-middle" title="facebook"></i></a>
-                  </li>
-                  <li class="inline"><a href="#" target="_blank"
-                      class="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"><i
-                        class="uil uil-instagram align-middle" title="instagram"></i></a>
-                  </li>
-                  <li class="inline"><a href="#" target="_blank"
-                      class="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"><i
-                        class="uil uil-twitter align-middle" title="twitter"></i></a>
-                  </li>
-                  <li class="inline"><a href="#" target="_blank"
-                    class="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600">
-                    <svg height="1rem" style="color: white" id="icons" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M412.19,118.66a109.27,109.27,0,0,1-9.45-5.5,132.87,132.87,0,0,1-24.27-20.62c-18.1-20.71-24.86-41.72-27.35-56.43h.1C349.14,23.9,350,16,350.13,16H267.69V334.78c0,4.28,0,8.51-.18,12.69,0,.52-.05,1-.08,1.56,0,.23,0,.47-.05.71,0,.06,0,.12,0,.18a70,70,0,0,1-35.22,55.56,68.8,68.8,0,0,1-34.11,9c-38.41,0-69.54-31.32-69.54-70s31.13-70,69.54-70a68.9,68.9,0,0,1,21.41,3.39l.1-83.94a153.14,153.14,0,0,0-118,34.52,161.79,161.79,0,0,0-35.3,43.53c-3.48,6-16.61,30.11-18.2,69.24-1,22.21,5.67,45.22,8.85,54.73v.2c2,5.6,9.75,24.71,22.38,40.82A167.53,167.53,0,0,0,115,470.66v-.2l.2.2C155.11,497.78,199.36,496,199.36,496c7.66-.31,33.32,0,62.46-13.81,32.32-15.31,50.72-38.12,50.72-38.12a158.46,158.46,0,0,0,27.64-45.93c7.46-19.61,9.95-43.13,9.95-52.53V176.49c1,.6,14.32,9.41,14.32,9.41s19.19,12.3,49.13,20.31c21.48,5.7,50.42,6.9,50.42,6.9V131.27C453.86,132.37,433.27,129.17,412.19,118.66Z" fill="white"></path></svg></a>
-                </li>
-                  <li class="inline"><a href="mailto:educontinua.inf@ciencias.unam.mx"
-                      class="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"><i
-                        class="uil uil-envelope align-middle" title="email"></i></a>
-                  </li>
-                </ul>
-              </div><!--end col-->
+                <div class="lg:col-span-4 md:col-span-4">
+                  <h5 class="tracking-[1px] text-gray-100 font-semibold">
+                    Sobre nosotros
+                  </h5>
 
-              <div class="lg:col-span-4 md:col-span-4">
-                <h5 class="tracking-[1px] text-gray-100 font-semibold">Sobre nosotros</h5>
-
-                <ul class="list-none footer-list mt-6">
-                  <li><a href="/equipo.html" class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"><i
-                        class="uil uil-angle-right-b me-1"></i>Presentación</a></li>
-                  <li class="mt-[10px]"><a href="/normatividad.html"
-                      class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"><i
-                        class="uil uil-angle-right-b me-1"></i>Normatividad</a></li>
-                  <li class="mt-[10px]"><a href="/ubicacion.html"
-                      class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"><i
-                        class="uil uil-angle-right-b me-1"></i>Ubicación</a></li>
-
-                </ul>
-              </div><!--end col-->
-
-
-            </div><!--end grid-->
-          </div><!--end col-->
-        </div>
-      </div><!--end grid-->
-    </div><!--end container-->
-
-    <div class="py-[30px] px-0 border-t border-slate-800">
-      <div class="container text-center">
-        <div class="grid md:grid-cols-1 items-center">
-          <div class="md:text-left text-center">
-            <p class="mb-0">©
-              <script>document.write(new Date().getFullYear())</script> Facultad de Ciencias, UNAM.
-              Hecho en México, todos los derechos reservados. Esta página puede ser reproducida con
-              fines no lucrativos, siempre y cuando no se mutile, se cite la fuente completa y su
-              dirección electrónica. De otra forma requiere permiso previo por escrito de la
-              institución.
-            </p>
-
+                  <ul class="list-none footer-list mt-6">
+                    <li>
+                      <a
+                        href="/equipo.html"
+                        class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"
+                        ><i class="uil uil-angle-right-b me-1"></i
+                        >Presentación</a
+                      >
+                    </li>
+                    <li class="mt-[10px]">
+                      <a
+                        href="/normatividad.html"
+                        class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"
+                        ><i class="uil uil-angle-right-b me-1"></i
+                        >Normatividad</a
+                      >
+                    </li>
+                    <li class="mt-[10px]">
+                      <a
+                        href="/ubicacion.html"
+                        class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"
+                        ><i class="uil uil-angle-right-b me-1"></i>Ubicación</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <!--end col-->
+              </div>
+              <!--end grid-->
+            </div>
+            <!--end col-->
           </div>
+        </div>
+        <!--end grid-->
+      </div>
+      <!--end container-->
 
-
-        </div><!--end grid-->
-      </div><!--end container-->
-    </div>
-  </footer><!--end footer-->
-  <!-- Footer End -->
+      <div class="py-[30px] px-0 border-t border-slate-800">
+        <div class="container text-center">
+          <div class="grid md:grid-cols-1 items-center">
+            <div class="md:text-left text-center">
+              <p class="mb-0">
+                ©
+                <script>
+                  document.write(new Date().getFullYear());
+                </script>
+                Facultad de Ciencias, UNAM. Hecho en México, todos los derechos
+                reservados. Esta página puede ser reproducida con fines no
+                lucrativos, siempre y cuando no se mutile, se cite la fuente
+                completa y su dirección electrónica. De otra forma requiere
+                permiso previo por escrito de la institución.
+              </p>
+            </div>
+          </div>
+          <!--end grid-->
+        </div>
+        <!--end container-->
+      </div>
+    </footer>
+    <!--end footer-->
+    <!-- Footer End -->
 
     <!-- Back to top -->
-    <a href="#" onclick="topFunction()" id="back-to-top"
-        class="back-to-top fixed hidden text-lg rounded-full z-10 bottom-5 right-5 h-9 w-9 text-center bg-indigo-600 text-white leading-9"><i
-            class="uil uil-arrow-up"></i></a>
+    <a
+      href="#"
+      onclick="topFunction()"
+      id="back-to-top"
+      class="back-to-top fixed hidden text-lg rounded-full z-10 bottom-5 right-5 h-9 w-9 text-center bg-indigo-600 text-white leading-9"
+      ><i class="uil uil-arrow-up"></i
+    ></a>
     <!-- Back to top -->
 
     <!-- Switcher -->
     <div class="fixed top-1/4 -right-2 z-50">
-        <span class="relative inline-block rotate-90">
-            <input type="checkbox" class="checkbox opacity-0 absolute" id="chk" />
-            <label
-                class="label bg-slate-900 dark:bg-white shadow dark:shadow-gray-800 cursor-pointer rounded-full flex justify-between items-center p-1 w-14 h-8"
-                for="chk">
-                <i class="uil uil-moon text-[20px] text-yellow-500"></i>
-                <i class="uil uil-sun text-[20px] text-yellow-500"></i>
-                <span class="ball bg-white dark:bg-slate-900 rounded-full absolute top-[2px] left-[2px] w-7 h-7"></span>
-            </label>
-        </span>
+      <span class="relative inline-block rotate-90">
+        <input type="checkbox" class="checkbox opacity-0 absolute" id="chk" />
+        <label
+          class="label bg-slate-900 dark:bg-white shadow dark:shadow-gray-800 cursor-pointer rounded-full flex justify-between items-center p-1 w-14 h-8"
+          for="chk"
+        >
+          <i class="uil uil-moon text-[20px] text-yellow-500"></i>
+          <i class="uil uil-sun text-[20px] text-yellow-500"></i>
+          <span
+            class="ball bg-white dark:bg-slate-900 rounded-full absolute top-[2px] left-[2px] w-7 h-7"
+          ></span>
+        </label>
+      </span>
     </div>
     <!-- Switcher -->
 
@@ -384,6 +533,5 @@
     <script src="../assets/js/plugins.init.js"></script>
     <script src="../assets/js/app.js"></script>
     <!-- JAVASCRIPTS -->
-</body>
-
+  </body>
 </html>
