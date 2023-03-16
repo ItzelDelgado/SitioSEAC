@@ -7728,6 +7728,18 @@ h1,  h2,  h3,  h4,  h5,  h6,  .h1,  .h2,  .h3,  .h4,  .h5,  .h6{
   background-image: url('../../assets/images/slider/bgArbol.webp') !important;
 }
 
+.bg-\[url\(\'\.\.\/\.\.\/assets\/images\/slider\/bg-tlacuache\.jpg\'\)\]{
+  background-image: url('../../assets/images/slider/bg-tracuache.jpg') !important;
+}
+
+.bg-\[url\(\'\.\.\/\.\.\/assets\/images\/slider\/bn-sustentabilidad\.webp\'\)\]{
+  background-image: url('../../assets/images/slider/bn-sustentabilidad.webp') !important;
+}
+
+.bg-\[url\(\'\.\.\/\.\.\/assets\/images\/slider\/BnProgramacion\.webp\'\)\]{
+  background-image: url('../../assets/images/slider/BnProgramacion.webp') !important;
+}
+
 /* Fin - para carrusel */
 
 
