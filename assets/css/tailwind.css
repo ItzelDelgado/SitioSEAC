@@ -7753,6 +7753,13 @@ h1,  h2,  h3,  h4,  h5,  h6,  .h1,  .h2,  .h3,  .h4,  .h5,  .h6{
 }
 
 
+.cursos-focus{
+  background-color: #003d64 !important;
+  color: white;
+  transition: background .3s ease-out;
+}
+
+
 
 
 
