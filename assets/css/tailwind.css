@@ -7748,11 +7748,77 @@ h1,  h2,  h3,  h4,  h5,  h6,  .h1,  .h2,  .h3,  .h4,  .h5,  .h6{
 }
 
 
-.bg-\[url\(\'\.\.\/\.\.\/assets\/images\/cursos\/bg-intro-est-bio-2\.jpg\'\)\]{
-  background-image: url('../../assets/images/cursos/bg-intro-est-bio-2.jpg') !important;
+.bg-\[url\(\'\.\.\/\.\.\/assets\/images\/slider\/bg_cursos\.webp\'\)\]{
+  background-image: url('../../assets/images/slider/bg_cursos.webp') !important;
 }
 
+.bg-\[url\(\'\.\.\/\.\.\/assets\/images\/slider\/bg_diplomados\.webp\'\)\]{
+  background-image: url('../../assets/images/slider/bg_diplomados.webp') !important;
+}
 
+.bg-\[url\(\'\.\.\/\.\.\/assets\/images\/slider\/bg_inscripcion_convenios\.webp\'\)\]{
+  background-image: url('../../assets/images/slider/bg_inscripcion_convenios.webp') !important;
+}
+
+.bg-\[url\(\'\.\.\/\.\.\/assets\/images\/slider\/bg_presentacion\.webp\'\)\]{
+  background-image: url('../../assets/images/slider/bg_presentacion.webp') !important;
+}
+
+.bg-\[url\(\'\.\.\/\.\.\/assets\/images\/slider\/bg_impartirprograma\.webp\'\)\]{
+  background-image: url('../../assets/images/slider/bg_impartirprograma.webp') !important;
+}
+
+.bg-\[url\(\'\.\.\/\.\.\/assets\/images\/slider\/bg_normatividad\.webp\'\)\]{
+  background-image: url('../../assets/images/slider/bg_normatividad.webp') !important;
+}
+
+.bg-\[url\(\'\.\.\/\.\.\/assets\/images\/slider\/bg_ubicacion\.webp\'\)\]{
+  background-image: url('../../assets/images/slider/bg_ubicacion.webp') !important;
+}
+
+.bg-\[url\(\'\.\.\/\.\.\/assets\/images\/slider\/bg_contacto\.webp\'\)\]{
+  background-image: url('../../assets/images/slider/bg_contacto.webp') !important;
+}
+
+.bg-\[url\(\'\.\.\/\.\.\/assets\/images\/cursos\/bg-bioestadistica\.webp\'\)\]{
+  background-image: url('../../assets/images/cursos/bg-bioestadistica.webp') !important;
+}
+
+.bg-\[url\(\'\.\.\/\.\.\/assets\/images\/cursos\/bg-Dibujo_de_la_naturaleza\.webp\'\)\]{
+  background-image: url('../../assets/images/cursos/bg-Dibujo_de_la_naturaleza.webp') !important;
+}
+
+.bg-\[url\(\'\.\.\/\.\.\/assets\/images\/cursos\/bg-estadica-aplicada-diseño-est-exp\.webp\'\)\]{
+  background-image: url('../../assets/images/cursos/bg-estadica-aplicada-diseño-est-exp.webp') !important;
+}
+
+.bg-\[url\(\'\.\.\/\.\.\/assets\/images\/cursos\/bg-estrategias-edu-ambiental-para-sustentabilidad\.webp\'\)\]{
+  background-image: url('../../assets/images/cursos/bg-estrategias-edu-ambiental-para-sustentabilidad.webp') !important;
+}
+
+.bg-\[url\(\'\.\.\/\.\.\/assets\/images\/cursos\/bg-Excel1\.webp\'\)\]{
+  background-image: url('../../assets/images/cursos/bg-Excel1.webp') !important;
+}
+
+.bg-\[url\(\'\.\.\/\.\.\/assets\/images\/cursos\/bg-DivulgacionCiencia\.webp\'\)\]{
+  background-image: url('../../assets/images/cursos/bg-DivulgacionCiencia.webp') !important;
+}
+
+.bg-\[url\(\'\.\.\/\.\.\/assets\/images\/cursos\/bg-CursoR\.webp\'\)\]{
+  background-image: url('../../assets/images/cursos/bg-CursoR.webp') !important;
+}
+
+.bg-\[url\(\'\.\.\/\.\.\/assets\/images\/cursos\/bg-TortugasMexico\.webp\'\)\]{
+  background-image: url('../../assets/images/cursos/bg-TortugasMexico.webp') !important;
+}
+
+.bg-\[url\(\'\.\.\/\.\.\/assets\/images\/cursos\/bg-EstadisticaEnBiologia1\.webp\'\)\]{
+  background-image: url('../../assets/images/cursos/bg-EstadisticaEnBiologia1.webp') !important;
+}
+
+.bg-\[url\(\'\.\.\/\.\.\/assets\/images\/cursos\/bg-FaunaSilvestre\.webp\'\)\]{
+  background-image: url('../../assets/images/cursos/bg-FaunaSilvestre.webp') !important;
+}
 .cursos-focus{
   background-color: #003d64 !important;
   color: white;
