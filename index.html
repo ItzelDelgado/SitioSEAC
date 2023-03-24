@@ -35,136 +35,93 @@
   </div>
   <!-- Loader Fin -->
 
-  <!-- Navegacion-->
-  <nav id="topnav" class="defaultscroll is-sticky">
-    <div class="container">
-      <!-- Logo contenedor-->
-      <a class="logo pl-0" href="index.html">
-        <span class="inline-block dark:hidden">
-          <img src="assets/images/logo-dark.png" class="l-dark" height="24" alt="" />
-          <img src="assets/images/logo-light.png" class="l-light" height="24" alt="" />
-        </span>
-        <img src="assets/images/logo-light.png" height="24" class="hidden dark:inline-block" alt="" />
-      </a>
-      <!-- Fin Logo contenedor-->
-
-      <div class="menu-extras">
-        <div class="menu-item">
-          <!-- Mobile menu -->
-          <a class="navbar-toggle" id="isToggle" onclick="toggleMenu()">
-            <div class="lines">
-              <span></span>
-              <span></span>
-              <span></span>
-            </div>
+    <!-- Start Navbar -->
+    <nav id="topnav" class="defaultscroll is-sticky">
+      <div class="container">
+          <!-- Logo container-->
+          <a class="logo pl-0" href="../index.html">
+              <span class="inline-block dark:hidden">
+                  <img src="../assets/images/logo-dark.png" class="l-dark" height="24" alt="">
+                  <img src="../assets/images/logo-light.png" class="l-light" height="24" alt="">
+              </span>
+              <img src="../assets/images/logo-light.png" height="24" class="hidden dark:inline-block" alt="">
           </a>
-          <!-- FIN mobile menu -->
-        </div>
-      </div>
 
-      <!-- Login boton
-        <ul class="buy-button list-none mb-0">
-          <li class="inline mb-0">
-            <a href="">
-              <span class="login-btn-primary"
-                ><span
-                  class="btn btn-icon rounded-full bg-blue-900/5 hover:bg-indigo-600 border-indigo-600/10 hover:border-indigo-600 text-indigo-600 hover:text-white"
-                  ><i data-feather="log-in" class="h-4 w-4"></i></span
-              ></span>
-              <span class="login-btn-light"
-                ><span
-                  class="btn btn-icon rounded-full bg-gray-50 hover:bg-indigo-600 dark:bg-slate-900 dark:hover:bg-indigo-700 hover:border-indigo-100 dark:border-gray-700 dark:hover:border-indigo-700 hover:text-white"
-                  ><i data-feather="log-in" class="h-4 w-4"></i></span
-              ></span>
-            </a>
-          </li>
-        </ul>
-        Login boton FIN -->
+          <!-- End Logo container-->
+          <div class="menu-extras">
+              <div class="menu-item">
+                  <!-- Mobile menu toggle-->
+                  <a class="navbar-toggle" id="isToggle" onclick="toggleMenu()">
+                      <div class="lines">
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                      </div>
+                  </a>
+                  <!-- End mobile menu toggle-->
+              </div>
+          </div>
 
-      <div id="navigation">
-        <!--  MENU  -->
-        <ul class="navigation-menu nav-light">
-          <li><a href="index.html" class="sub-menu-item">Inicio</a></li>
-
-          <li class="has-submenu parent-parent-menu-item">
-            <a href="javascript:void(0)">Oferta</a><span class="menu-arrow"></span>
-            <ul class="submenu">
-              <li class="has-submenu parent-menu-item">
-                <a href="cursos.html"> Cursos </a><span class=""></span>
-              </li>
-              <li class="has-submenu parent-menu-item">
-                <a href="diplomados.html"> Diplomados</a><span class=""></span>
-              </li>
-              <li class="has-submenu parent-menu-item">
-                <a href="talleres.html">Talleres</a><span class=""></span>
-              </li>
-            </ul>
-          </li>
-
-          <li class="has-submenu parent-parent-menu-item">
-            <a href="javascript:void(0)">Inscripción</a><span class="menu-arrow"></span>
-            <ul class="submenu">
-              <li class="has-submenu parent-menu-item">
-                <a> Inscripción y pago</a><span class="submenu-arrow"></span>
-                <ul class="submenu">
-                  <li>
-                    <a href="Inscripcion_EduContinua.html" class="sub-menu-item">
-                      Educación continua</a>
+          <div id="navigation">
+              <!-- Navigation Menu-->
+              <ul class="navigation-menu nav-light">
+                  <li><a href="../index.html" class="sub-menu-item">Inicio</a></li>
+                  <li class="has-submenu parent-parent-menu-item">
+                      <a href="javascript:void(0)">Oferta académica</a><span class="menu-arrow"></span>
+                      <ul class="submenu">
+                          <li class="has-submenu parent-menu-item"><a href="../cursos.html"> Cursos </a><span
+                                  class=""></span></li>
+                          <li class="has-submenu parent-menu-item"><a href="../diplomados.html"> Diplomados</a><span
+                                  class=""></span></li>
+                          <li class="has-submenu parent-menu-item"><a href="../talleres.html">Talleres</a><span
+                                  class=""></span></li>
+                      </ul>
                   </li>
-                  <li>
-                    <a href="Inscripcion_Convenios.html" class="sub-menu-item">Convenios</a>
+
+                  <li class="has-submenu parent-parent-menu-item">
+                      <a href="javascript:void(0)">Inscripción</a><span class="menu-arrow"></span>
+                      <ul class="submenu">
+                          <li class="has-submenu parent-menu-item"><a href="javascript:void(0)">Inscripción</a><span
+                                  class="submenu-arrow"></span>
+                              <ul class="submenu">
+                                  <li><a href="../Inscripcion_EduContinua.html" class="sub-menu-item">EDUCACIÓN
+                                          CONTINUA</a></li>
+                                  <li><a href="Inscripcion_Convenios.html" class="sub-menu-item">CONVENIOS</a></li>
+                              </ul>
+                          </li>
+                      </ul>
                   </li>
-                </ul>
-              </li>
-            </ul>
-          </li>
-
-          <li class="has-submenu parent-parent-menu-item">
-            <a href="javascript:void(0)">Profesores</a><span class="menu-arrow"></span>
-            <ul class="submenu">
-              <li class="has-submenu parent-menu-item">
-                <a > Impartir programa</a><span class="submenu-arrow"></span>
-                <ul class="submenu">
-                  <li>
-                    <a href="profs-edu-continua.html" class="sub-menu-item">
-                      Educación continua</a>
+                  <li class="has-submenu parent-parent-menu-item">
+                      <a href="javascript:void(0)">PROFESORES</a><span class="menu-arrow"></span>
+                      <ul class="submenu">
+                          <li class="has-submenu parent-menu-item"><a href="javascript:void(0)">IMPARTIR
+                                  PROGRAMA</a><span class="submenu-arrow"></span>
+                              <ul class="submenu">
+                                  <li><a href="../profs-edu-continua.html" class="sub-menu-item">EDUCACIÓN
+                                          CONTINUA</a></li>
+                              </ul>
+                          </li>
+                      </ul>
                   </li>
-                </ul>
-              </li>
-            </ul>
-          </li>
-
-          <li class="has-submenu parent-parent-menu-item">
-            <a href="javascript:void(0)">Nosotros</a><span class="menu-arrow"></span>
-            <ul class="submenu">
-              <li class="has-submenu parent-menu-item">
-                <a href="equipo.html"> Presentación</a>
-              </li>
-
-              <li class="has-submenu parent-menu-item">
-                <a href="normatividad.html"> Normatividad</a>
-              </li>
-
-              <li class="has-submenu parent-menu-item">
-                <a href="ubicacion.html"> Ubicación</a>
-              </li>
-
-              <li class="has-submenu parent-menu-item">
-                <a href="contacto.html"> Contacto</a>
-              </li>
-            </ul>
-          </li>
-
-          <li><a href="contacto.html" class="sub-menu-item">Contacto</a></li>
-        </ul>
-        <!-- MENU FIN -->
-      </div>
-      <!--fin navigation-->
-    </div>
-    <!-- contenedor FIN -->
-  </nav>
-  <!-- header FIN-->
-  <!-- Navegación FIN -->
+                  <li class="has-submenu parent-parent-menu-item">
+                      <a href="javascript:void(0)">NOSOTROS</a><span class="menu-arrow"></span>
+                      <ul class="submenu">
+                          <li class="has-submenu parent-menu-item"><a href="../equipo.html">PRESENTACIÓN</a><span
+                                  class=""></span></li>
+                          <li class="has-submenu parent-menu-item"><a
+                                  href="../normatividad.html">NORMATIVIDAD</a><span class=""></span></li>
+                          <li class="has-submenu parent-menu-item"><a href="../ubicacion.html">UBICACIÓN</a><span
+                                  class=""></span></li>
+                          <li class="has-submenu parent-menu-item"><a href="../contacto.html">CONTACTO</a><span
+                                  class=""></span></li>
+                      </ul>
+                  </li>
+                  <li><a href="../contacto.html" class="sub-menu-item">Contacto</a></li>
+              </ul><!--end navigation menu-->
+          </div><!--end navigation-->
+      </div><!--end container-->
+  </nav><!--end header-->
+  <!-- End Navbar -->
 
   <!-- Carrusel -->
   <section id="controls-carousel" class="relative" data-carousel="static">
