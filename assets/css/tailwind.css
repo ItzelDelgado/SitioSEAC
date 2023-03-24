@@ -7819,6 +7819,10 @@ h1,  h2,  h3,  h4,  h5,  h6,  .h1,  .h2,  .h3,  .h4,  .h5,  .h6{
 .bg-\[url\(\'\.\.\/\.\.\/assets\/images\/cursos\/bg-FaunaSilvestre\.webp\'\)\]{
   background-image: url('../../assets/images/cursos/bg-FaunaSilvestre.webp') !important;
 }
+
+.bg-\[url\(\'\.\.\/\.\.\/assets\/images\/diplomados\/bg-DiplomadoFisica\.webp\'\)\]{
+  background-image: url('../../assets/images/diplomados/bg-DiplomadoFisica.webp') !important;
+}
 .cursos-focus{
   background-color: #003d64 !important;
   color: white;
