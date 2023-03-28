@@ -1,169 +1,40 @@
-<!DOCTYPE html>
-<html lang="en" class="light scroll-smooth" dir="ltr">
-
-<head>
-    <meta charset="UTF-8" />
-    <title>SEAC - Diseño de cursos en cuadernos Jupyter interactivos con la plataforma MACTI</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description"
-        content="Introducción a la programación en R y su aplicación a la inferencia estadística I" />
-    <meta name="keywords"
-        content="agency, application, business, clean, creative, cryptocurrency, it solutions, modern, multipurpose, nft marketplace, portfolio, saas, software, tailwind css" />
-
-    <meta name="version" content="1.5.0" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-
-    <!-- favicon -->
-    <link rel="shortcut icon" href="../assets/images/favicon.png" />
-
-    <!-- Css -->
-    <!-- Main Css -->
-    <link href="../assets/libs/@iconscout/unicons/css/line.css" type="text/css" rel="stylesheet" />
-    <link rel="stylesheet" href="../assets/css/icons.css" />
-    <link rel="stylesheet" href="../assets/css/tailwind.css" />
-
-</head>
-
-<body class="font-nunito text-base text-black dark:text-white dark:bg-slate-900">
-
-    <!-- Loader Start -->
-    <div id="preloader">
-        <div id="status">
-            <div class="spinner">
-                <div class="double-bounce1"></div>
-                <div class="double-bounce2"></div>
-            </div>
-        </div>
-    </div>
-    <!-- Loader End -->
-
-    <!-- Start Navbar -->
-    <nav id="topnav" class="defaultscroll is-sticky">
-        <div class="container">
-            <!-- Logo container-->
-            <a class="logo pl-0" href="../index.html">
-                <span class="inline-block dark:hidden">
-                    <img src="../assets/images/logo-dark.png" class="l-dark" height="24" alt="">
-                    <img src="../assets/images/logo-light.png" class="l-light" height="24" alt="">
-                </span>
-                <img src="../assets/images/logo-light.png" height="24" class="hidden dark:inline-block" alt="">
-            </a>
-
-            <!-- End Logo container-->
-            <div class="menu-extras">
-                <div class="menu-item">
-                    <!-- Mobile menu toggle-->
-                    <a class="navbar-toggle" id="isToggle" onclick="toggleMenu()">
-                        <div class="lines">
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                        </div>
-                    </a>
-                    <!-- End mobile menu toggle-->
-                </div>
-            </div>
-
-            <div id="navigation">
-                <!-- Navigation Menu-->
-                <ul class="navigation-menu nav-light">
-                    <li><a href="../index.html" class="sub-menu-item">Inicio</a></li>
-                    <li class="has-submenu parent-parent-menu-item">
-                        <a href="javascript:void(0)">Oferta académica</a><span class="menu-arrow"></span>
-                        <ul class="submenu">
-                            <li class="has-submenu parent-menu-item"><a href="../cursos.html"> Cursos </a><span
-                                    class=""></span></li>
-                            <li class="has-submenu parent-menu-item"><a href="../diplomados.html"> Diplomados</a><span
-                                    class=""></span></li>
-                            <li class="has-submenu parent-menu-item"><a href="../talleres.html">Talleres</a><span
-                                    class=""></span></li>
-                        </ul>
-                    </li>
-
-                    <li class="has-submenu parent-parent-menu-item">
-                        <a href="javascript:void(0)">Inscripción</a><span class="menu-arrow"></span>
-                        <ul class="submenu">
-                            <li class="has-submenu parent-menu-item"><a href="javascript:void(0)">Inscripción</a><span
-                                    class="submenu-arrow"></span>
-                                <ul class="submenu">
-                                    <li><a href="../Inscripcion_EduContinua.html" class="sub-menu-item">EDUCACIÓN
-                                            CONTINUA</a></li>
-                                    <li><a href="Inscripcion_Convenios.html" class="sub-menu-item">CONVENIOS</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="has-submenu parent-parent-menu-item">
-                        <a href="javascript:void(0)">PROFESORES</a><span class="menu-arrow"></span>
-                        <ul class="submenu">
-                            <li class="has-submenu parent-menu-item"><a href="javascript:void(0)">IMPARTIR
-                                    PROGRAMA</a><span class="submenu-arrow"></span>
-                                <ul class="submenu">
-                                    <li><a href="../profs-edu-continua.html" class="sub-menu-item">EDUCACIÓN
-                                            CONTINUA</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="has-submenu parent-parent-menu-item">
-                        <a href="javascript:void(0)">NOSOTROS</a><span class="menu-arrow"></span>
-                        <ul class="submenu">
-                            <li class="has-submenu parent-menu-item"><a href="../equipo.html">PRESENTACIÓN</a><span
-                                    class=""></span></li>
-                            <li class="has-submenu parent-menu-item"><a
-                                    href="../normatividad.html">NORMATIVIDAD</a><span class=""></span></li>
-                            <li class="has-submenu parent-menu-item"><a href="../ubicacion.html">UBICACIÓN</a><span
-                                    class=""></span></li>
-                            <li class="has-submenu parent-menu-item"><a href="../contacto.html">CONTACTO</a><span
-                                    class=""></span></li>
-                        </ul>
-                    </li>
-                    <li><a href="../contacto.html" class="sub-menu-item">Contacto</a></li>
-                </ul><!--end navigation menu-->
-            </div><!--end navigation-->
-        </div><!--end container-->
-    </nav><!--end header-->
-    <!-- End Navbar -->
+<?php
+  include './includes/templates/header.php';
+?>
 
     <!-- Start Hero -->
     <section
-        class="relative table w-full py-36 lg:py-44 bg-[url('../../assets/images/cursos/bg-TortugasMexico.webp')] bg-no-repeat bg-center">
+        class="relative table w-full py-36 lg:py-44 bg-[url('../../assets/images/diplomados/bg-DiplomadoFisica.webp')] bg-no-repeat bg-center">
         <div class="absolute inset-0 bg-black opacity-75"></div>
         <div class="container">
             <div class="grid grid-cols-1 pb-8 text-center mt-10">
-                <span class="bg-green-600 text-white text-xs font-bold px-2.5 py-0.5 rounded w-fit mx-auto h-5">$3,600 /
+                <span class="bg-green-600 text-white text-xs font-bold px-2.5 py-0.5 rounded w-fit mx-auto h-5">$12,000
+                    /
                     UNAM</span>
-                <span class="bg-blue-900 text-white text-xs font-bold px-2.5 py-0.5 rounded w-fit mx-auto h-5">$3,000 /
+                <span class="bg-blue-900 text-white text-xs font-bold px-2.5 py-0.5 rounded w-fit mx-auto h-5">$18,000 /
                     GENERAL</span>
-                <p class="text-indigo-600">15% de descuento por concepto de pronto pago (hasta el 3 de abril)</p>
-                <span class="bg-red-600 text-white text-xs font-bold px-2.5 py-0.5 rounded w-fit mx-auto h-5">$3,060 /
+                <p class="text-indigo-600">Pago por módulo</p>
+                <span class="bg-red-600 text-white text-xs font-bold px-2.5 py-0.5 rounded w-fit mx-auto h-5">$1,200 /
                     UNAM</span>
-                <span class="bg-blue-900 text-white text-xs font-bold px-2.5 py-0.5 rounded w-fit mx-auto h-5">$2,550 /
+                <span class="bg-blue-900 text-white text-xs font-bold px-2.5 py-0.5 rounded w-fit mx-auto h-5">$1,500 /
                     GENERAL</span>
-                <h3 class="mt-3 text-3xl leading-normal font-medium text-white">Diseño de cursos en cuadernos Jupyter interactivos con la plataforma MACTI</h3>
-                <p class="text-indigo-600">1ra. Edición</p>
+                <h3 class="mt-3 text-3xl leading-normal font-medium text-white">Actualización Docente en Física</h3>
+                <p class="text-indigo-600">Programa 2022-2023</p>
                 <div class="flex items-center mx-auto mt-3">
                     <img src="../assets/images/instructores/usr-m.jpg"
                         class="h-10 w-10 rounded-full shadow-md dark:shadow-gray-800" alt="">
-                    <a href="../assets/curriculums_docentes/GraciaPatriciaGonzalesPor.pdf"
-                        class="font-semibold text-white block ml-3 hover:text-indigo-600" target="_blank">Dr. Luis Miguel de la Cruz Salas, Instituto de Geofísica</a>
+                    <a href="#" class="font-semibold text-white block ml-3 hover:text-indigo-600" target="_blank">Dra.
+                        Mirna Villavicencio Torres</a>
                 </div>
                 <div class="flex items-center mx-auto mt-3">
                     <img src="../assets/images/instructores/usr-m.jpg"
                         class="h-10 w-10 rounded-full shadow-md dark:shadow-gray-800" alt="">
-                    <a href="../assets/curriculums_docentes/GraciaPatriciaGonzalesPor.pdf"
-                        class="font-semibold text-white block ml-3 hover:text-indigo-600" target="_blank">Mtro. Miguel Angel Pérez León, Facultad de Ciencias</a>
-                </div>
-                <div class="flex items-center mx-auto mt-3">
-                    <img src="../assets/images/instructores/usr-m.jpg"
-                        class="h-10 w-10 rounded-full shadow-md dark:shadow-gray-800" alt="">
-                    <a href="../assets/curriculums_docentes/GraciaPatriciaGonzalesPor.pdf"
-                        class="font-semibold text-white block ml-3 hover:text-indigo-600" target="_blank">Ing. Juan Eduardo Murrieta León, Instituto de Ciencias Nucleares</a>
+                    <a href="#" class="font-semibold text-white block ml-3 hover:text-indigo-600" target="_blank">Dr. Ricardo Méndez Fragoso</a>
                 </div>
 
                 <div class="grid grid-cols-1 pb-8 text-center mt-10">
                     <i class="uil uil-calendar-alt text-lg text-white align-middle"></i>
-                    <span class=" text-white text-base font-bold px-2.5 py-0.5 rounded w-fit mx-auto h-5">Del 1 al 24 de junio de 2023</span>
+                    <span class=" text-white text-base font-bold px-2.5 py-0.5 rounded w-fit mx-auto h-5">Del 19 de mayo de 2022 al 7 de diciembre de 2023</span>
                 </div>
 
             </div><!--end grid-->
@@ -171,23 +42,23 @@
 
         <div class="absolute text-center z-10 bottom-5 right-0 left-0 mx-3">
             <ul class="breadcrumb tracking-[0.5px] breadcrumb-light mb-0 inline-block">
-                <!-- <li class="inline breadcrumb-item uppercase text-[13px] font-bold duration-500 ease-in-out text-white/50 hover:text-white"><a href="index-course.html">Techwind</a></li>
-                   <li class="inline breadcrumb-item uppercase text-[13px] font-bold duration-500 ease-in-out text-white/50 hover:text-white"><a href="course-listing.html">Courses</a></li>
+                <!-- <li class="inline breadcrumb-item uppercase text-[13px] font-bold duration-500 ease-in-out text-white/50 hover:text-white"><a href="index-course.php">Techwind</a></li>
+                   <li class="inline breadcrumb-item uppercase text-[13px] font-bold duration-500 ease-in-out text-white/50 hover:text-white"><a href="course-listing.php">Courses</a></li>
                     <li class="inline breadcrumb-item uppercase text-[13px] font-bold duration-500 ease-in-out text-white" aria-current="page">Web Development</li> -->
 
                 <li class="inline-block items-center mt-2 mx-3">
                     <i class="uil uil-calendar-alt text-white align-middle"></i>
-                    <span class="text-white/60 ml-1">Jueves y viernes</span>
+                    <span class="text-white/60 ml-1">Martes y Jueves</span>
                 </li>
 
                 <li class="inline-block items-center mt-2 mx-3">
                     <i class="uil uil-bell-school text-white align-middle"></i>
-                    <span class="text-white/60 ml-1">10-13h</span>
+                    <span class="text-white/60 ml-1">16-19h</span>
                 </li>
 
                 <li class="inline-block items-center mt-2 mx-3">
                     <i class="uil uil-clock text-white align-middle"></i>
-                    <span class="text-white/60 ml-1">36 horas</span>
+                    <span class="text-white/60 ml-1">30 horas</span>
                 </li>
 
                 <li class="inline-block items-center mt-2 mx-3">
@@ -197,7 +68,7 @@
 
                 <li class="inline-block items-center mt-2 mx-3">
                     <i class="uil uil-user-circle text-white align-middle"></i>
-                    <span class="text-white/60 ml-1">Min. 15</span>
+                    <span class="text-white/60 ml-1">Máx. 60 / Min. 15</span>
                 </li>
 
                 <li class="inline-block items-center mt-2 mx-3">
@@ -223,23 +94,45 @@
             <div class="grid grid-cols-1">
                 <h5 class="text-2xl font-semibold mb-5">Descripción</h5>
 
-                <p class="mb-3">El mundo civilizado moderno sería ininteligible sin los dispositivos móviles que poseemos. Nuestro acceso a datos e información de manera expedita resulta ya indispensable para nuestra vida cotidiana y es en buena medida a través de los dispositivos móviles que esto está garantizado. Es por ello que la programación de aplicaciones para dispositivos móviles cobra singular relevancia para aquellos dedicados al desarrollo de software. Todo un enorme potencial de usos y usuarios se abre al desarrollador de aplicaciones móviles.</p>
+                <p class="mb-3">Las Tortugas son vertebrados que se originaron hace más de 200 millones de años durante
+                    el período Triásico. Han sobrevivido a varias mega extinciones y sus patrones corporales han
+                    cambiado muy poco desde su aparición, pero desde que los seres humanos dominaron el planeta como
+                    especie hace aproximadamente un millón de años las poblaciones de muchas especies de tortugas
+                    disminuyeron drásticamente poniendo a muchas especies al borde de la extinción; alrededor del 40% de
+                    los taxa de tortugas (más de 300) se encuentran como vulnerables o en peligro de extinción; esto
+                    debido a un conjunto de factores causados por acciones humanas, como son la destrucción del hábitat
+                    y el uso no sustentable de estas especies.</p>
+                <p class="mb-3">En México existen casi 40 taxa de tortugas, de éstos muchos están amenazados de
+                    extinción (TFWTSG, UICN, NOM_ECOL-059, SEMARNAT 2010).</p>
+                <p class="mb-3">Estos animales son de gran importancia, tanto biológica como evolutivamente, así como
+                    parte de los ecosistemas.</p>
+                <p class="mb-3">En general son animales pobremente estudiados por lo que se conoce relativamente muy
+                    poco de su biología, estrategias reproductivas, conducta y relaciones poblacionales; esto resulta
+                    muy grave sobre todo en los taxa que se encuentran borde de la extinción.</p>
+                <p class="mb-3">Por eso que resulta de gran importancia capacitar biólogos, veterinarios y ecólogos en
+                    el conocimiento de la biología, ecología, técnicas de laboratorio, campo y manejo en cautiverio, así
+                    como las principales líneas de investigación que existen en la actualidad y el posible uso
+                    sustentable de algunas especies de tortugas. Para incrementar el conocimiento de estos animales y
+                    formular estrategias para la conservación, manejo y uso sustentable de las tortugas, sobre todo de
+                    las que están más amenazadas.</p>
             </div><!--end grid-->
 
 
             <div class="grid grid-cols-1">
                 <h6 class="text-2xl font-semibold mb-5 mt-6">Objetivo</h6>
 
-                <p class=" mb-3">El objetivo del curso es aprender a desarrollar aplicaciones en dispositivos móviles como teléfonos celulares, tablets, handhelds, y consolas de juegos en la plataforma Android 13</p>
+                <p class=" mb-3">Capacitar respecto a la biología, ecología, diversidad, técnicas de campo y manejo en
+                    cautiverio, así como en las estrategias para la conservación y uso sustentable de las tortugas
+                    mexicanas</p>
             </div><!--end grid-->
 
             <div class="grid grid-cols-1">
                 <h6 class="text-2xl font-semibold mb-5 mt-6">Dirigido a</h6>
 
-                <p class=" mb-3">Personas con interés en desarrollar aplicaciones para dispositivos móviles con conocimientos básicos de lenguaje Java y del lenguaje de marcado XML</p>
+                <p class=" mb-3">Biólogos, Médicos Veterinarios Zootecnistas, Ecólogos y disciplinas afines.</p>
 
                 <p class="text-red-600 mb-3">
-                    Mínimo 15<br>
+                    Mín / Máx de alumnos: Mínimo 15, máximo 60.<br>
                     La apertura del curso está sujeta al mínimo de inscritos.</p>
 
             </div><!--end grid-->
@@ -273,8 +166,8 @@
 
                     <div class="content mt-7">
                         <h5 class="title h5 text-xl font-medium">Requisitos</h5>
-                        <p class="text-slate-400 mt-3">Los alumnos deberán traer una laptop.
-                            Tener conocimientos básicos de programación en Java</p>
+                        <p class="text-slate-400 mt-3">Estudiantes y profesionales de las áreas químico-biológicas y
+                            afines.</p>
 
                         <div class="mt-5">
                             <a href="#" data-type="iframe"
@@ -293,13 +186,13 @@
 
                     <div class="content mt-7">
                         <h5 class="title h5 text-xl font-medium">Horario</h5>
-                        Horario: 10:00 a 13:00 hrs.</p>
-                        <p class="text-slate-400 mt-3">Lunes, miércoles y viernes</p>
+                        Horario: 16:00 a 19:00 hrs.</p>
+                        <p class="text-slate-400 mt-3">Martes y Jueves</p>
 
                         <div class="mt-5">
                             <a href="#"
                                 class="btn btn-link text-indigo-600 hover:text-red-600 after:bg-indigo-600 duration-500 ease-in-out">Total:
-                                36 horas</a>
+                                30 horas</a>
                         </div>
                     </div>
                 </div>
@@ -329,7 +222,8 @@
             <div class="grid grid-cols-1 pb-8 text-center">
                 <h3 class="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">Costo</h3>
 
-                <p class="text-red-600 max-w-xl mx-auto">15% de descuento por concepto de pronto pago (hasta el 27 de abril)</p>
+                <p class="text-red-600 max-w-xl mx-auto">15% de descuento por concepto de pronto pago (hasta el 27 de
+                    abril)</p>
             </div><!--end grid-->
 
             <div class="grid grid-cols-1">
@@ -346,7 +240,7 @@
                                 <div>
                                     <span class="text-xl font-semibold">$</span>
                                     <span class="price text-4xl font-semibold mb-0"
-                                        style="text-decoration: line-through;">4,320</span>
+                                        style="text-decoration: line-through;">3,600</span>
                                     <span class="text-xl font-semibold self-end mb-1">MXN</span>
                                 </div>
                                 <div>
@@ -370,7 +264,7 @@
                                 <div>
                                     <span class="text-xl font-semibold">$</span>
                                     <span class="price text-4xl font-semibold mb-0"
-                                        style="text-decoration: line-through;">3,600</span>
+                                        style="text-decoration: line-through;">3,000</span>
                                     <span class="text-xl font-semibold self-end mb-1">MXN</span>
                                 </div>
                                 <div>
@@ -419,7 +313,7 @@
 
             <div class="grid md:grid-cols-2 grid-cols-1 pt-6 gap-[30px]">
                 <div>
-                    <h5 class="text-lg uppercase font-semibold mb-5">I. Introducción.</h5>
+                    <h5 class="text-lg uppercase font-semibold mb-5">I. ¿Qué son las tortugas?</h5>
 
                     <div
                         class="relative overflow-x-auto block w-full bg-white dark:bg-slate-900 shadow dark:shadow-gray-800 rounded-md">
@@ -433,27 +327,23 @@
 
                             <tbody>
                                 <tr class="border-t border-gray-100 dark:border-gray-700">
-                                    <td class="p-4"><i class="uil uil-clipboard-alt"></i>I.1. Dispositivos Móviles.</td>
+                                    <td class="p-4"><i class="uil uil-clipboard-alt"></i>I.1. Rasgos anatómicos,
+                                        reproductivos y ecológicos y genética de poblaciones.</td>
                                     <td class="p-4 text-right"></td>
                                 </tr>
 
                                 <tr class="border-t border-gray-100 dark:border-gray-700">
-                                    <td class="p-4"><i class="uil uil-clipboard-alt"></i>I.2. Clasificación y aplicaciones de los dispositivos móviles.</a></td>
+                                    <td class="p-4"><i class="uil uil-clipboard-alt"></i>I.2. Origen, evolución y
+                                        sistemática de las tortugas.</a></td>
                                     <td class="p-4 text-right"></td>
                                 </tr>
 
                                 <tr class="border-t border-gray-100 dark:border-gray-700">
-                                    <td class="p-4"><i class="uil uil-clipboard-alt"></i>I.3 Plataformas de programación para dispositivos móviles.</td>
-                                    <td class="p-4 text-right"></td>
-                                </tr>
-
-                                <tr class="border-t border-gray-100 dark:border-gray-700">
-                                    <td class="p-4"><i class="uil uil-clipboard-alt"></i>I.4 Presentación de la plataforma Android.</td>
-                                    <td class="p-4 text-right"></td>
-                                </tr>
-
-                                <tr class="border-t border-gray-100 dark:border-gray-700">
-                                    <td class="p-4"><i class="uil uil-clipboard-alt"></i>I.5 La plataforma Android, entorno, anatomía y las capas de su arquitectura.</td>
+                                    <td class="p-4"><i class="uil uil-clipboard-alt"></i>I.3 Reproducción en Tortugas
+                                        (Diapausa y estivación embrionaria), determinación sexual en tortugas (DST,DSG).
+                                        (Discusión de artículos)
+                                        Estrategias ecológicas de las tortugas (historias de vida, costos, uso de
+                                        hábitat, importancia ecológica en los ecosistemas)</td>
                                     <td class="p-4 text-right"></td>
                                 </tr>
                             </tbody>
@@ -462,7 +352,8 @@
                 </div>
 
                 <div>
-                    <h5 class="text-lg uppercase font-semibold mb-5">II. Programación.</h5>
+                    <h5 class="text-lg uppercase font-semibold mb-5">II. Especies de tortugas dulceacuícolas de México
+                    </h5>
 
                     <div
                         class="relative overflow-x-auto block w-full bg-white dark:bg-slate-900 shadow dark:shadow-gray-800 rounded-md">
@@ -476,39 +367,29 @@
 
                             <tbody>
                                 <tr class="border-t border-gray-100 dark:border-gray-700">
-                                    <td class="p-4"><i class="uil uil-clipboard-alt"></i>II.1. Instalación y configuración del entorno de desarrollo (Android Studio y SDK Android)</td>
+                                    <td class="p-4"><i class="uil uil-clipboard-alt"></i>II.1. Familia Dermatemydidae
+                                    </td>
                                     <td class="p-4 text-right"></td>
                                 </tr>
                                 <tr class="border-t border-gray-100 dark:border-gray-700">
-                                    <td class="p-4"><i class="uil uil-clipboard-alt"></i>II.2. Elementos esenciales en la creación de aplicaciones Android.
-                                        <ul class="pl-10">
-                                            <li>- Activity, Context y Ciclos de vida de Activities</li>
-                                        </ul>
-                                    </td>
+                                    <td class="p-4"><i class="uil uil-clipboard-alt"></i>II.2. Familia Kinosterniddae
+                                        (Staurotypinae, Kinosterninae)</td>
                                     <td class="p-4 text-right"></i></td>
                                 </tr>
                                 <tr class="border-t border-gray-100 dark:border-gray-700">
-                                    <td class="p-4"><i class="uil uil-clipboard-alt"></i>II.3. Interfaz de usuario.
-                                        <ul class="pl-10">
-                                            <li>- Layouts, recursos, ActionBar, menús, listas, popups, webview, fragmentos, pestañas, etc.</li>
-                                        </ul>
-                                    </td>
+                                    <td class="p-4"><i class="uil uil-clipboard-alt"></i>II.3. Familia Trionychidae</td>
                                     <td class="p-4 text-right"></i></td>
                                 </tr>
                                 <tr class="border-t border-gray-100 dark:border-gray-700">
-                                    <td class="p-4"><i class="uil uil-clipboard-alt"></i>II.4 Gestión de la navegación y la comunicación entre las distintas interfaces.
-                                        <ul class="pl-10">
-                                            <li>- Material Design, Toolbar, CardView, notificaciones Android Wear.</li>
-                                        </ul>
-                                    </td>
+                                    <td class="p-4"><i class="uil uil-clipboard-alt"></i>II.4 Familia Emydidae</td>
                                     <td class="p-4 text-right"></i></td>
                                 </tr>
                                 <tr class="border-t border-gray-100 dark:border-gray-700">
-                                    <td class="p-4"><i class="uil uil-clipboard-alt"></i>II.5 Interfaces Personalizadas.
-                                        <ul class="pl-10">
-                                            <li>- Gestión de temas, animaciones, tipografía.</li>
-                                        </ul>
-                                    </td>
+                                    <td class="p-4"><i class="uil uil-clipboard-alt"></i>II.5 Familia Geomydidae</td>
+                                    <td class="p-4 text-right"></i></td>
+                                </tr>
+                                <tr class="border-t border-gray-100 dark:border-gray-700">
+                                    <td class="p-4"><i class="uil uil-clipboard-alt"></i>II.6 Famila Chelidridae</td>
                                     <td class="p-4 text-right"></i></td>
                                 </tr>
                             </tbody>
@@ -517,7 +398,7 @@
                 </div>
 
                 <div>
-                    <h5 class="text-lg uppercase font-semibold mb-5">III. Gestión de la fragmentación de la plataforma.</h5>
+                    <h5 class="text-lg uppercase font-semibold mb-5">III. Especies de tortugas terrestres y marinas</h5>
 
                     <div
                         class="relative overflow-x-auto block w-full bg-white dark:bg-slate-900 shadow dark:shadow-gray-800 rounded-md">
@@ -531,43 +412,22 @@
 
                             <tbody>
                                 <tr class="border-t border-gray-100 dark:border-gray-700">
-                                    <td class="p-4"><i class="uil uil-clipboard-alt"></i>III.1 Versiones de Android, tamaño y resolución de pantallas, diferencias en el hardware.</td>
+                                    <td class="p-4"><i class="uil uil-clipboard-alt"></i>III.1 Familia Testudinidae</td>
                                     <td class="p-4 text-right"></td>
                                 </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
 
-
-                <div>
-                    <h5 class="text-lg uppercase font-semibold mb-5">IV. Almacenamiento y recuperación de Datos.</h5>
-
-                    <div
-                        class="relative overflow-x-auto block w-full bg-white dark:bg-slate-900 shadow dark:shadow-gray-800 rounded-md">
-                        <table class="w-full text-left">
-                            <thead>
-                                <tr>
-                                    <th class="px-4 py-5">Temas</th>
-                                    <th class="px-4 py-5 text-right"></th>
-                                </tr>
-                            </thead>
-
-                            <tbody>
                                 <tr class="border-t border-gray-100 dark:border-gray-700">
-                                    <td class="p-4"><i class="uil uil-clipboard-alt"></i>IV.1. Servicios web, gestión de la conectividad, parsing Xml / Json.
-                                        <ul class="pl-10">
-                                            <li>- Shared Preferences, archivos, base de datos SQLite.</li>
-                                        </ul>
+                                    <td class="p-4"><i class="uil uil-clipboard-alt"></i>III.2 Familia Dermochelydae
                                     </td>
                                     <td class="p-4 text-right"></td>
                                 </tr>
                                 <tr class="border-t border-gray-100 dark:border-gray-700">
-                                    <td class="p-4"><i class="uil uil-clipboard-alt"></i>IV.2 Compartir datos con otras aplicaciones.
-                                        <ul class="pl-10">
-                                            <li>- Content Provider, Intent.</li>
-                                        </ul>
-                                    </td>
+                                    <td class="p-4"><i class="uil uil-clipboard-alt"></i>III.3 Familia Cheloniidae</td>
+                                    <td class="p-4 text-right"></td>
+                                </tr>
+                                <tr class="border-t border-gray-100 dark:border-gray-700">
+                                    <td class="p-4"><i class="uil uil-clipboard-alt"></i>III.4 Discusión de artículos
+                                        sobre tortugas marinas</td>
                                     <td class="p-4 text-right"></td>
                                 </tr>
                             </tbody>
@@ -577,7 +437,8 @@
 
 
                 <div>
-                    <h5 class="text-lg uppercase font-semibold mb-5">V. Mapas digitales y localización.</h5>
+                    <h5 class="text-lg uppercase font-semibold mb-5">IV. Crisis de Tortugas y accione de conservación
+                    </h5>
 
                     <div
                         class="relative overflow-x-auto block w-full bg-white dark:bg-slate-900 shadow dark:shadow-gray-800 rounded-md">
@@ -591,24 +452,71 @@
 
                             <tbody>
                                 <tr class="border-t border-gray-100 dark:border-gray-700">
-                                    <td class="p-4"><i class="uil uil-clipboard-alt"></i>V.1. Google Maps, localización (GPS), conversión posición/dirección.</td>
+                                    <td class="p-4"><i class="uil uil-clipboard-alt"></i>IV.1. Principales amenazas y
+                                        especies en peligro de extinción</td>
                                     <td class="p-4 text-right"></td>
                                 </tr>
                                 <tr class="border-t border-gray-100 dark:border-gray-700">
-                                    <td class="p-4"><i class="uil uil-clipboard-alt"></i>V.2 Uso de servicios Android.</td>
+                                    <td class="p-4"><i class="uil uil-clipboard-alt"></i>IV.2 Amenazas al hábitat</td>
                                     <td class="p-4 text-right"></td>
                                 </tr>
                                 <tr class="border-t border-gray-100 dark:border-gray-700">
-                                    <td class="p-4"><i class="uil uil-clipboard-alt"></i>V.3. Conectividad (WIFI).</td>
+                                    <td class="p-4"><i class="uil uil-clipboard-alt"></i>IV.3 Uso humano</td>
                                     <td class="p-4 text-right"></td>
                                 </tr>
-                                
-                           </tbody>
+                                <tr class="border-t border-gray-100 dark:border-gray-700">
+                                    <td class="p-4"><i class="uil uil-clipboard-alt"></i>IV.4 Tráfico ilegal de tortugas
+                                    </td>
+                                    <td class="p-4 text-right"></td>
+                                </tr>
+                                <tr class="border-t border-gray-100 dark:border-gray-700">
+                                    <td class="p-4"><i class="uil uil-clipboard-alt"></i>IV.5. Aplicación de métodos de
+                                        evaluación de riesgo (IUCN, NOM-059 y CITES)</td>
+                                    <td class="p-4 text-right"></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+
+                <div>
+                    <h5 class="text-lg uppercase font-semibold mb-5">V. Conservación de tortugas</h5>
+
+                    <div
+                        class="relative overflow-x-auto block w-full bg-white dark:bg-slate-900 shadow dark:shadow-gray-800 rounded-md">
+                        <table class="w-full text-left">
+                            <thead>
+                                <tr>
+                                    <th class="px-4 py-5">Temas</th>
+                                    <th class="px-4 py-5 text-right"></th>
+                                </tr>
+                            </thead>
+
+                            <tbody>
+                                <tr class="border-t border-gray-100 dark:border-gray-700">
+                                    <td class="p-4"><i class="uil uil-clipboard-alt"></i>V.1. Campamentos tortugueros y
+                                        granjas Proyectos productivos y UMAs</td>
+                                    <td class="p-4 text-right"></td>
+                                </tr>
+                                <tr class="border-t border-gray-100 dark:border-gray-700">
+                                    <td class="p-4"><i class="uil uil-clipboard-alt"></i>V.2 Práctica (Crear un plan de
+                                        manejo para UMA de tortugas)</td>
+                                    <td class="p-4 text-right"></td>
+                                </tr>
+                                <tr class="border-t border-gray-100 dark:border-gray-700">
+                                    <td class="p-4"><i class="uil uil-clipboard-alt"></i>V.3. Consideraciones genéticas
+                                        para el manejo y conservación de tortugas Discusión de artículos</td>
+                                    <td class="p-4 text-right"></td>
+                                </tr>
+
+                            </tbody>
                         </table>
                     </div>
                 </div>
                 <div>
-                    <h5 class="text-lg uppercase font-semibold mb-5">VI. Métodos de acceso a las diferentes funcionalidades de un dispositivo Android.</h5>
+                    <h5 class="text-lg uppercase font-semibold mb-5">VI. Técnicas de campo para el estudio de tortugas
+                    </h5>
                     <div
                         class="relative overflow-x-auto block w-full bg-white dark:bg-slate-900 shadow dark:shadow-gray-800 rounded-md">
                         <table class="w-full text-left">
@@ -621,15 +529,31 @@
 
                             <tbody>
                                 <tr class="border-t border-gray-100 dark:border-gray-700">
-                                    <td class="p-4"><i class="uil uil-clipboard-alt"></i>VI.1. Llamadas, sms, cámara, acelerómetro, Bluetooth.</td>
+                                    <td class="p-4"><i class="uil uil-clipboard-alt"></i>VI.1. Recorridos nocturnos en
+                                        coche o a pie</td>
                                     <td class="p-4 text-right"></td>
                                 </tr>
-                           </tbody>
+                                <tr class="border-t border-gray-100 dark:border-gray-700">
+                                    <td class="p-4"><i class="uil uil-clipboard-alt"></i>VI.2. Métodos de trampeo y
+                                        diseño de sistemas de trampeo</td>
+                                    <td class="p-4 text-right"></td>
+                                </tr>
+                                <tr class="border-t border-gray-100 dark:border-gray-700">
+                                    <td class="p-4"><i class="uil uil-clipboard-alt"></i>VI.3. Telemetría marcaje y
+                                        recaptura</td>
+                                    <td class="p-4 text-right"></td>
+                                </tr>
+                                <tr class="border-t border-gray-100 dark:border-gray-700">
+                                    <td class="p-4"><i class="uil uil-clipboard-alt"></i>VI.4. Sistemas de información
+                                        geográfica. Medición y fotografía</td>
+                                    <td class="p-4 text-right"></td>
+                                </tr>
+                            </tbody>
                         </table>
                     </div>
                 </div>
                 <div>
-                    <h5 class="text-lg uppercase font-semibold mb-5">VII. Publicación y comercialización.</h5>
+                    <h5 class="text-lg uppercase font-semibold mb-5">VII. Colecciones científicas de referencia</h5>
 
                     <div
                         class="relative overflow-x-auto block w-full bg-white dark:bg-slate-900 shadow dark:shadow-gray-800 rounded-md">
@@ -643,17 +567,108 @@
 
                             <tbody>
                                 <tr class="border-t border-gray-100 dark:border-gray-700">
-                                    <td class="p-4"><i class="uil uil-clipboard-alt"></i>VII.1. Proteger el código fuente.</td>
+                                    <td class="p-4"><i class="uil uil-clipboard-alt"></i>VII.1. Toma de datos y medidas
+                                        estándar
+                                    </td>
                                     <td class="p-4 text-right"></td>
                                 </tr>
                                 <tr class="border-t border-gray-100 dark:border-gray-700">
-                                    <td class="p-4"><i class="uil uil-clipboard-alt"></i>VII.2. Comercialización de aplicaciones.</td>
+                                    <td class="p-4"><i class="uil uil-clipboard-alt"></i>VII.2. Métodos de preparación
+                                        de ejemplares
+                                    </td>
                                     <td class="p-4 text-right"></td>
                                 </tr>
-                           </tbody>
+                            </tbody>
                         </table>
                     </div>
                 </div>
+                <div>
+                    <h5 class="text-lg uppercase font-semibold mb-5">VIII. Manejo en cautiverio de tortugas</h5>
+                    <div
+                        class="relative overflow-x-auto block w-full bg-white dark:bg-slate-900 shadow dark:shadow-gray-800 rounded-md">
+                        <table class="w-full text-left">
+                            <thead>
+                                <tr>
+                                    <th class="px-4 py-5">Temas</th>
+                                    <th class="px-4 py-5 text-right"></th>
+                                </tr>
+                            </thead>
+
+                            <tbody>
+                                <tr class="border-t border-gray-100 dark:border-gray-700">
+                                    <td class="p-4"><i class="uil uil-clipboard-alt"></i>VIII.1 Manejo físico de
+                                        tortugas y toma de medidas
+                                    </td>
+                                    <td class="p-4 text-right"></td>
+                                </tr>
+                                <tr class="border-t border-gray-100 dark:border-gray-700">
+                                    <td class="p-4"><i class="uil uil-clipboard-alt"></i>VIII.2. Calidad del agua,
+                                        limpieza de los encierros
+                                    </td>
+                                    <td class="p-4 text-right"></td>
+                                </tr>
+                                <tr class="border-t border-gray-100 dark:border-gray-700">
+                                    <td class="p-4"><i class="uil uil-clipboard-alt"></i>VIII.3. Dieta alimentación e
+                                        higiene
+                                    </td>
+                                    <td class="p-4 text-right"></td>
+                                </tr>
+                                <tr class="border-t border-gray-100 dark:border-gray-700">
+                                    <td class="p-4"><i class="uil uil-clipboard-alt"></i>VIII.4 Bienestar de los
+                                        organismos
+                                    </td>
+                                    <td class="p-4 text-right"></td>
+                                </tr>
+                                <tr class="border-t border-gray-100 dark:border-gray-700">
+                                    <td class="p-4"><i class="uil uil-clipboard-alt"></i>VIII.5. Registros
+                                    </td>
+                                    <td class="p-4 text-right"></td>
+                                </tr>
+                                <tr class="border-t border-gray-100 dark:border-gray-700">
+                                    <td class="p-4"><i class="uil uil-clipboard-alt"></i>VIII.6. Técnicas básicas de
+                                        veterinaria para tortugas.
+                                        Practica con ejemplares vivos y partes
+                                    </td>
+                                    <td class="p-4 text-right"></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div>
+                    <h5 class="text-lg uppercase font-semibold mb-5">IX. Nuevos conocimientos sobre tortugas</h5>
+                    <div
+                        class="relative overflow-x-auto block w-full bg-white dark:bg-slate-900 shadow dark:shadow-gray-800 rounded-md">
+                        <table class="w-full text-left">
+                            <thead>
+                                <tr>
+                                    <th class="px-4 py-5">Temas</th>
+                                    <th class="px-4 py-5 text-right"></th>
+                                </tr>
+                            </thead>
+
+                            <tbody>
+                                <tr class="border-t border-gray-100 dark:border-gray-700">
+                                    <td class="p-4"><i class="uil uil-clipboard-alt"></i>IX.1. Vocalizaciones</td>
+                                    <td class="p-4 text-right"></td>
+                                </tr>
+                                <tr class="border-t border-gray-100 dark:border-gray-700">
+                                    <td class="p-4"><i class="uil uil-clipboard-alt"></i>
+                                        IX.2. Nuevas especies
+                                        <ul class="p-6 list-disc ">
+                                            <li>IX.1.2. Dispersión de semillas por tortugas</li>
+                                            <li>IX.1.3. Determinación dl sexo.</li>
+                                        </ul>
+                                    </td>
+                                    <td class="p-4 text-right"></td>
+                                </tr>
+
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
             </div>
 
         </div>
@@ -798,153 +813,6 @@
     </section><!--end section-->
     <!-- End Section-->
 
-      <!-- Footer Start -->
-  <footer class="footer bg-dark-footer relative text-gray-200 dark:text-gray-200">
-    <div class="container">
-      <div class="grid grid-cols-12">
-        <div class="col-span-12">
-          <div class="py-[60px] px-0">
-            <div class="grid md:grid-cols-12 grid-cols-1 gap-[30px]">
-              <div class="lg:col-span-4 md:col-span-12">
-                <a href="#" class="text-[22px] focus:outline-none">
-                  <img src="assets/images/logo-light.png" alt="">
-                  <img src="assets/images/logo-light-fc.png" alt="" class="mt-8">
-                </a>
-                <p class="mt-6 text-gray-300">Sitio web administrado por la
-                  Secretaría de Educación Abierta y Continua de la Facultad de Ciencias-UNAM.</p>
-                <!-- <ul class="list-none mt-6">
-                  <li class="inline"><a href="https://tienda.fciencias.unam.mx" target="_blank"
-                      class="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"><i
-                        class="uil uil-shopping-cart align-middle" title="Buy Now"></i></a>
-                  </li>
-                  <li class="inline"><a href="https://www.facebook.com/seayc" target="_blank"
-                      class="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"><i
-                        class="uil uil-facebook-f align-middle" title="facebook"></i></a>
-                  </li>
-                  <li class="inline"><a href="#" target="_blank"
-                      class="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"><i
-                        class="uil uil-instagram align-middle" title="instagram"></i></a>
-                  </li>
-                  <li class="inline"><a href="#" target="_blank"
-                      class="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"><i
-                        class="uil uil-twitter align-middle" title="twitter"></i></a>
-                  </li>
-                  <li class="inline"><a href="mailto:educontinua.inf@ciencias.unam.mx"
-                      class="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"><i
-                        class="uil uil-envelope align-middle" title="email"></i></a>
-                  </li>
-                </ul> -->
-              </div><!--end col-->
-
-              <div class="lg:col-span-4 md:col-span-4">
-                <h5 class="tracking-[1px] text-gray-100 font-semibold">Contacto</h5>
-                <ul class="list-none footer-list mt-6">
-                  <li class="mt-[10px]"><i class="uil uil-angle-right-b me-1"></i>Circuito de la Investigación
-                    Científica, C.U., Alcaldía
-                    Coyoacán, C.P. 04510, Ciudad Universitaria, CDMX, México
-                  </li>
-                  <li class="mt-[10px]"><i class="uil uil-angle-right-b me-1"></i>
-                    <a href="mailto:educontinua.inf@ciencias.unam.mx">educontinua.inf@ciencias.unam.mx</a>
-                  </li>
-                  <li class="mt-[10px]"><i class="uil uil-angle-right-b me-1"></i>
-                    <span><a href="tel:5556225386">55 5622•5386</a></span> / <span><a href="tel:5556664789">55 5666•4789</a></span>
-                  </li>
-
-                </ul>
-                <ul class="list-none mt-6">
-                  <li class="inline"><a href="https://www.facebook.com/seayc" target="_blank"
-                      class="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"><i
-                        class="uil uil-facebook-f align-middle" title="facebook"></i></a>
-                  </li>
-                  <li class="inline"><a href="#" target="_blank"
-                      class="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"><i
-                        class="uil uil-instagram align-middle" title="instagram"></i></a>
-                  </li>
-                  <li class="inline"><a href="#" target="_blank"
-                      class="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"><i
-                        class="uil uil-twitter align-middle" title="twitter"></i></a>
-                  </li>
-                  <li class="inline"><a href="#" target="_blank"
-                    class="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600">
-                    <svg height="1rem" style="color: white" id="icons" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M412.19,118.66a109.27,109.27,0,0,1-9.45-5.5,132.87,132.87,0,0,1-24.27-20.62c-18.1-20.71-24.86-41.72-27.35-56.43h.1C349.14,23.9,350,16,350.13,16H267.69V334.78c0,4.28,0,8.51-.18,12.69,0,.52-.05,1-.08,1.56,0,.23,0,.47-.05.71,0,.06,0,.12,0,.18a70,70,0,0,1-35.22,55.56,68.8,68.8,0,0,1-34.11,9c-38.41,0-69.54-31.32-69.54-70s31.13-70,69.54-70a68.9,68.9,0,0,1,21.41,3.39l.1-83.94a153.14,153.14,0,0,0-118,34.52,161.79,161.79,0,0,0-35.3,43.53c-3.48,6-16.61,30.11-18.2,69.24-1,22.21,5.67,45.22,8.85,54.73v.2c2,5.6,9.75,24.71,22.38,40.82A167.53,167.53,0,0,0,115,470.66v-.2l.2.2C155.11,497.78,199.36,496,199.36,496c7.66-.31,33.32,0,62.46-13.81,32.32-15.31,50.72-38.12,50.72-38.12a158.46,158.46,0,0,0,27.64-45.93c7.46-19.61,9.95-43.13,9.95-52.53V176.49c1,.6,14.32,9.41,14.32,9.41s19.19,12.3,49.13,20.31c21.48,5.7,50.42,6.9,50.42,6.9V131.27C453.86,132.37,433.27,129.17,412.19,118.66Z" fill="white"></path></svg></a>
-                </li>
-                  <li class="inline"><a href="mailto:educontinua.inf@ciencias.unam.mx"
-                      class="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"><i
-                        class="uil uil-envelope align-middle" title="email"></i></a>
-                  </li>
-                </ul>
-              </div><!--end col-->
-
-              <div class="lg:col-span-4 md:col-span-4">
-                <h5 class="tracking-[1px] text-gray-100 font-semibold">Sobre nosotros</h5>
-
-                <ul class="list-none footer-list mt-6">
-                  <li><a href="/equipo.html" class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"><i
-                        class="uil uil-angle-right-b me-1"></i>Presentación</a></li>
-                  <li class="mt-[10px]"><a href="/normatividad.html"
-                      class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"><i
-                        class="uil uil-angle-right-b me-1"></i>Normatividad</a></li>
-                  <li class="mt-[10px]"><a href="/ubicacion.html"
-                      class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"><i
-                        class="uil uil-angle-right-b me-1"></i>Ubicación</a></li>
-
-                </ul>
-              </div><!--end col-->
-
-
-            </div><!--end grid-->
-          </div><!--end col-->
-        </div>
-      </div><!--end grid-->
-    </div><!--end container-->
-
-    <div class="py-[30px] px-0 border-t border-slate-800">
-      <div class="container text-center">
-        <div class="grid md:grid-cols-1 items-center">
-          <div class="md:text-left text-center">
-            <p class="mb-0">©
-              <script>document.write(new Date().getFullYear())</script> Facultad de Ciencias, UNAM.
-              Hecho en México, todos los derechos reservados. Esta página puede ser reproducida con
-              fines no lucrativos, siempre y cuando no se mutile, se cite la fuente completa y su
-              dirección electrónica. De otra forma requiere permiso previo por escrito de la
-              institución.
-            </p>
-
-          </div>
-
-
-        </div><!--end grid-->
-      </div><!--end container-->
-    </div>
-  </footer><!--end footer-->
-  <!-- Footer End -->
-
-    <!-- Back to top -->
-    <a href="#" onclick="topFunction()" id="back-to-top"
-        class="back-to-top fixed hidden text-lg rounded-full z-10 bottom-5 right-5 h-9 w-9 text-center bg-indigo-600 text-white leading-9"><i
-            class="uil uil-arrow-up"></i></a>
-    <!-- Back to top -->
-
-    <!-- Switcher -->
-    <div class="fixed top-1/4 -right-2 z-50">
-        <span class="relative inline-block rotate-90">
-            <input type="checkbox" class="checkbox opacity-0 absolute" id="chk" />
-            <label
-                class="label bg-slate-900 dark:bg-white shadow dark:shadow-gray-800 cursor-pointer rounded-full flex justify-between items-center p-1 w-14 h-8"
-                for="chk">
-                <i class="uil uil-moon text-[20px] text-yellow-500"></i>
-                <i class="uil uil-sun text-[20px] text-yellow-500"></i>
-                <span class="ball bg-white dark:bg-slate-900 rounded-full absolute top-[2px] left-[2px] w-7 h-7"></span>
-            </label>
-        </span>
-    </div>
-    <!-- Switcher -->
-
-    <!-- JAVASCRIPTS -->
-    <script src="../assets/libs/feather-icons/feather.min.js"></script>
-    <script src="../assets/js/plugins.init.js"></script>
-    <script src="../assets/js/app.js"></script>
-    <!-- JAVASCRIPTS -->
-</body>
-
-</html>
+    <?php
+    include './includes/templates/footer.php';
+  ?>

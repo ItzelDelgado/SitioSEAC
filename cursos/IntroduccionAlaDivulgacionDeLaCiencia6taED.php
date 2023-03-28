@@ -1,130 +1,6 @@
-<!DOCTYPE html>
-<html lang="en" class="light scroll-smooth" dir="ltr">
-
-<head>
-    <meta charset="UTF-8" />
-    <title>SEAC - Introducción a la divulgación de la Ciencia 6ta. Edición</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description"
-        content="Introducción a la programación en R y su aplicación a la inferencia estadística I" />
-    <meta name="keywords"
-        content="agency, application, business, clean, creative, cryptocurrency, it solutions, modern, multipurpose, nft marketplace, portfolio, saas, software, tailwind css" />
-
-    <meta name="version" content="1.5.0" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-
-    <!-- favicon -->
-    <link rel="shortcut icon" href="../assets/images/favicon.png" />
-
-    <!-- Css -->
-    <!-- Main Css -->
-    <link href="../assets/libs/@iconscout/unicons/css/line.css" type="text/css" rel="stylesheet" />
-    <link rel="stylesheet" href="../assets/css/icons.css" />
-    <link rel="stylesheet" href="../assets/css/tailwind.css" />
-
-</head>
-
-<body class="font-nunito text-base text-black dark:text-white dark:bg-slate-900">
-
-    <!-- Loader Start -->
-    <div id="preloader">
-        <div id="status">
-            <div class="spinner">
-                <div class="double-bounce1"></div>
-                <div class="double-bounce2"></div>
-            </div>
-        </div>
-    </div>
-    <!-- Loader End -->
-
-    <!-- Start Navbar -->
-    <nav id="topnav" class="defaultscroll is-sticky">
-        <div class="container">
-            <!-- Logo container-->
-            <a class="logo pl-0" href="../index.html">
-                <span class="inline-block dark:hidden">
-                    <img src="../assets/images/logo-dark.png" class="l-dark" height="24" alt="">
-                    <img src="../assets/images/logo-light.png" class="l-light" height="24" alt="">
-                </span>
-                <img src="../assets/images/logo-light.png" height="24" class="hidden dark:inline-block" alt="">
-            </a>
-
-            <!-- End Logo container-->
-            <div class="menu-extras">
-                <div class="menu-item">
-                    <!-- Mobile menu toggle-->
-                    <a class="navbar-toggle" id="isToggle" onclick="toggleMenu()">
-                        <div class="lines">
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                        </div>
-                    </a>
-                    <!-- End mobile menu toggle-->
-                </div>
-            </div>
-
-            <div id="navigation">
-                <!-- Navigation Menu-->
-                <ul class="navigation-menu nav-light">
-                    <li><a href="../index.html" class="sub-menu-item">Inicio</a></li>
-                    <li class="has-submenu parent-parent-menu-item">
-                        <a href="javascript:void(0)">Oferta académica</a><span class="menu-arrow"></span>
-                        <ul class="submenu">
-                            <li class="has-submenu parent-menu-item"><a href="../cursos.html"> Cursos </a><span
-                                    class=""></span></li>
-                            <li class="has-submenu parent-menu-item"><a href="../diplomados.html"> Diplomados</a><span
-                                    class=""></span></li>
-                            <li class="has-submenu parent-menu-item"><a href="../talleres.html">Talleres</a><span
-                                    class=""></span></li>
-                        </ul>
-                    </li>
-
-                    <li class="has-submenu parent-parent-menu-item">
-                        <a href="javascript:void(0)">Inscripción</a><span class="menu-arrow"></span>
-                        <ul class="submenu">
-                            <li class="has-submenu parent-menu-item"><a href="javascript:void(0)">Inscripción</a><span
-                                    class="submenu-arrow"></span>
-                                <ul class="submenu">
-                                    <li><a href="../Inscripcion_EduContinua.html" class="sub-menu-item">EDUCACIÓN
-                                            CONTINUA</a></li>
-                                    <li><a href="Inscripcion_Convenios.html" class="sub-menu-item">CONVENIOS</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="has-submenu parent-parent-menu-item">
-                        <a href="javascript:void(0)">PROFESORES</a><span class="menu-arrow"></span>
-                        <ul class="submenu">
-                            <li class="has-submenu parent-menu-item"><a href="javascript:void(0)">IMPARTIR
-                                    PROGRAMA</a><span class="submenu-arrow"></span>
-                                <ul class="submenu">
-                                    <li><a href="../profs-edu-continua.html" class="sub-menu-item">EDUCACIÓN
-                                            CONTINUA</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="has-submenu parent-parent-menu-item">
-                        <a href="javascript:void(0)">NOSOTROS</a><span class="menu-arrow"></span>
-                        <ul class="submenu">
-                            <li class="has-submenu parent-menu-item"><a href="../equipo.html">PRESENTACIÓN</a><span
-                                    class=""></span></li>
-                            <li class="has-submenu parent-menu-item"><a
-                                    href="../normatividad.html">NORMATIVIDAD</a><span class=""></span></li>
-                            <li class="has-submenu parent-menu-item"><a href="../ubicacion.html">UBICACIÓN</a><span
-                                    class=""></span></li>
-                            <li class="has-submenu parent-menu-item"><a href="../contacto.html">CONTACTO</a><span
-                                    class=""></span></li>
-                        </ul>
-                    </li>
-                    <li><a href="../contacto.html" class="sub-menu-item">Contacto</a></li>
-                </ul><!--end navigation menu-->
-            </div><!--end navigation-->
-        </div><!--end container-->
-    </nav><!--end header-->
-    <!-- End Navbar -->
-
+<?php
+  include './includes/templates/header.php';
+?>
     <!-- Start Hero -->
     <section
         class="relative table w-full py-36 lg:py-44 bg-[url('../../assets/images/cursos/bg-DivulgacionCiencia.webp')] bg-no-repeat bg-center">
@@ -168,8 +44,8 @@
 
         <div class="absolute text-center z-10 bottom-5 right-0 left-0 mx-3">
             <ul class="breadcrumb tracking-[0.5px] breadcrumb-light mb-0 inline-block">
-                <!-- <li class="inline breadcrumb-item uppercase text-[13px] font-bold duration-500 ease-in-out text-white/50 hover:text-white"><a href="index-course.html">Techwind</a></li>
-                   <li class="inline breadcrumb-item uppercase text-[13px] font-bold duration-500 ease-in-out text-white/50 hover:text-white"><a href="course-listing.html">Courses</a></li>
+                <!-- <li class="inline breadcrumb-item uppercase text-[13px] font-bold duration-500 ease-in-out text-white/50 hover:text-white"><a href="index-course.php">Techwind</a></li>
+                   <li class="inline breadcrumb-item uppercase text-[13px] font-bold duration-500 ease-in-out text-white/50 hover:text-white"><a href="course-listing.php">Courses</a></li>
                     <li class="inline breadcrumb-item uppercase text-[13px] font-bold duration-500 ease-in-out text-white" aria-current="page">Web Development</li> -->
 
                 <li class="inline-block items-center mt-2 mx-3">
@@ -635,37 +511,37 @@
             <div class=" pt-6 pb-8 gap-[30px]">
                 <ul class="list- text-lg list-disc">
                     <li>Bonfil, M. 2018. ¿Quién divulga la ciencia?
-                    https://lacienciaporgusto.blogspot.com/2018/07/quien-divulga-la-ciencia.html</li>
+                    https://lacienciaporgusto.blogspot.com/2018/07/quien-divulga-la-ciencia.php</li>
 
                     <li>Bonfil, M. 2018. ¿Hasta dónde es ciencia la ciencia?
-                    https://lacienciaporgusto.blogspot.com/2018/03/hasta-donde-es-ciencia-la-ciencia.html</li>
+                    https://lacienciaporgusto.blogspot.com/2018/03/hasta-donde-es-ciencia-la-ciencia.php</li>
 
                     <li>Bonfil, M., 2016. Cuando la ciencia mete la pata.
-                    https://lacienciaporgusto.blogspot.com/2016/03/cuando-la-ciencia-mete-la-pata.html</li>
+                    https://lacienciaporgusto.blogspot.com/2016/03/cuando-la-ciencia-mete-la-pata.php</li>
 
                     <li>Garcı́a G.M., 2008. Ciencia en todos los rincones. Manual de divulgación en talleres Universidad
                     Autónoma de Zacatecas
-                    https://www.somedicyt.org.mx/medios/hemerobiblioteca-virtual.html?view=document&id=60:ciencia-interiores&catid=25:libros</li>
+                    https://www.somedicyt.org.mx/medios/hemerobiblioteca-virtual.php?view=document&id=60:ciencia-interiores&catid=25:libros</li>
 
                     <li>Herrera, S. y Orozco, C.E. 2018. Comunicar ciencia en México. Prácticas y escenarios.
-                    https://www.somedicyt.org.mx/medios/hemerobiblioteca-virtual.html?view=document&id=139:comunicar-ciencia-en-mexico&catid=25:libros</li>
+                    https://www.somedicyt.org.mx/medios/hemerobiblioteca-virtual.php?view=document&id=139:comunicar-ciencia-en-mexico&catid=25:libros</li>
 
                     <li>Magaña, P. y L. Patiño, 2019. La creación de historias de ciencia. Somedicyt y Conacyt.
-                    https://www.somedicyt.org.mx/medios/hemerobiblioteca-virtual.html?view=document&id=150:la-creacion-de-historias-de-ciencia&catid=25:libros</li>
+                    https://www.somedicyt.org.mx/medios/hemerobiblioteca-virtual.php?view=document&id=150:la-creacion-de-historias-de-ciencia&catid=25:libros</li>
 
                     <li>Pérez, T. R., 1998. ¿Existe el método científico?: historia y realidad. 3ª ed. Fondo de Cultura
                     Económica.
-                    http://bibliotecadigital.ilce.edu.mx/sites/ciencia/volumen3/ciencia3/161/html/metodo.html</li>
+                    http://bibliotecadigital.ilce.edu.mx/sites/ciencia/volumen3/ciencia3/161/html/metodo.php</li>
                     <li>Pérez, T. R. Sobre la divulgación cientı́fica en México.
-                    https://www.somedicyt.org.mx/medios/hemerobiblioteca-virtual.html?view=document&id=37:perez-tamayo-acerca-de-la-divulgacion&catid=23:artic</li>
+                    https://www.somedicyt.org.mx/medios/hemerobiblioteca-virtual.php?view=document&id=37:perez-tamayo-acerca-de-la-divulgacion&catid=23:artic</li>
 
                     <li>Olivé, L. 1997. La comunicación científica y la filosofía. Ciencias, núm. 46, abril-junio, pp.
                     48-56.
-                    http://www.revistaciencias.unam.mx/es/195-revistas/revista-ciencias-46/1852-la-comunicaci%C3%B3ncient%C3%ADfica-y-la-filosof%C3%ADa.html</li>
+                    http://www.revistaciencias.unam.mx/es/195-revistas/revista-ciencias-46/1852-la-comunicaci%C3%B3ncient%C3%ADfica-y-la-filosof%C3%ADa.php</li>
 
                     <li>Ortega L., Carlos; Shi-Hai Dong, Silvia V. y Cruz, M. 2017. La dualidad de la información, clásica
                     versus cuántica. Ciencias, núm. 124, abril-junio, pp. 22-24.
-                    http://www.revistaciencias.unam.mx/es/204-revistas/revista-ciencias-124/2065-la-dualidad-de-lainformaci%C3%B3n-cl%C3%A1sica-versus-cu%C3%A1ntica.html</li>
+                    http://www.revistaciencias.unam.mx/es/204-revistas/revista-ciencias-124/2065-la-dualidad-de-lainformaci%C3%B3n-cl%C3%A1sica-versus-cu%C3%A1ntica.php</li>
 
                     <li>Pacheco, M.F., 2003. La divulgación de la ciencia. Ciencias 71.
                     http://www.revistaciencias.unam.mx/images/stories/Articles/71/CNS07106.pdf</li>
@@ -676,14 +552,14 @@
 
                     <li>Sánchez, A. M., 2013 Introducción a la comunicación escrita de la ciencia. Universidad Veracruzana.
                     Sánchez, A. M., 2008. Pequeño manual de apoyo para redactar textos ambientales.
-                    https://www.somedicyt.org.mx/medios/hemerobiblioteca-virtual.html?view=document&id=69:pequeno-manualana-maria-sanchez&catid=25:libros</li>
+                    https://www.somedicyt.org.mx/medios/hemerobiblioteca-virtual.php?view=document&id=69:pequeno-manualana-maria-sanchez&catid=25:libros</li>
 
                     <li>Sánchez, C., Reynoso, E., Sánchez, A. M. y Tagü eñ a, J., 2015. Public communication of science in Mexico: Past, present and future of a profession
                     https://journals.sagepub.com/doi/pdf/10.1177/0963662514527204</li>
 
-                    <li>Solis, L., Magaña M. y Muñoz, H., 2016. Manual básico de video para la comunicación y el periodismo de ciencia https://www.somedicyt.org.mx/medios/hemerobiblioteca-virtual.html?view=document&id=130:manual-basico-de-video-para-la-comunicacion-y-el-periodismo-de-ciencia&catid=25:libros</li>
+                    <li>Solis, L., Magaña M. y Muñoz, H., 2016. Manual básico de video para la comunicación y el periodismo de ciencia https://www.somedicyt.org.mx/medios/hemerobiblioteca-virtual.php?view=document&id=130:manual-basico-de-video-para-la-comunicacion-y-el-periodismo-de-ciencia&catid=25:libros</li>
 
-                    <li>Tonda, M. J., 1999. ¿Qué es la divulgació n de la ciencia? Ciencias 55-56. http://www.revistaciencias.unam.mx/es/busqueda/autor/104-revistas/revista-ciencias-55/864-ique-es-la-divulgacion-de-la-ciencia.html</li>
+                    <li>Tonda, M. J., 1999. ¿Qué es la divulgació n de la ciencia? Ciencias 55-56. http://www.revistaciencias.unam.mx/es/busqueda/autor/104-revistas/revista-ciencias-55/864-ique-es-la-divulgacion-de-la-ciencia.php</li>
 
                     <li>Tonda, J., Sánchez, A. M. y Chávez, N. 2002. Antología de la divulgación de la ciencia en México. Dirección General de Divulgación de la Ciencia, UNAM. México. 378 pp.</li>
                     <li>Tonda, J., Sánchez, A. M. y Chávez, N. 2002. Antología de la divulgación de la ciencia </li>
@@ -826,153 +702,6 @@
     </section><!--end section-->
     <!-- End Section-->
 
-      <!-- Footer Start -->
-  <footer class="footer bg-dark-footer relative text-gray-200 dark:text-gray-200">
-    <div class="container">
-      <div class="grid grid-cols-12">
-        <div class="col-span-12">
-          <div class="py-[60px] px-0">
-            <div class="grid md:grid-cols-12 grid-cols-1 gap-[30px]">
-              <div class="lg:col-span-4 md:col-span-12">
-                <a href="#" class="text-[22px] focus:outline-none">
-                  <img src="assets/images/logo-light.png" alt="">
-                  <img src="assets/images/logo-light-fc.png" alt="" class="mt-8">
-                </a>
-                <p class="mt-6 text-gray-300">Sitio web administrado por la
-                  Secretaría de Educación Abierta y Continua de la Facultad de Ciencias-UNAM.</p>
-                <!-- <ul class="list-none mt-6">
-                  <li class="inline"><a href="https://tienda.fciencias.unam.mx" target="_blank"
-                      class="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"><i
-                        class="uil uil-shopping-cart align-middle" title="Buy Now"></i></a>
-                  </li>
-                  <li class="inline"><a href="https://www.facebook.com/seayc" target="_blank"
-                      class="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"><i
-                        class="uil uil-facebook-f align-middle" title="facebook"></i></a>
-                  </li>
-                  <li class="inline"><a href="#" target="_blank"
-                      class="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"><i
-                        class="uil uil-instagram align-middle" title="instagram"></i></a>
-                  </li>
-                  <li class="inline"><a href="#" target="_blank"
-                      class="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"><i
-                        class="uil uil-twitter align-middle" title="twitter"></i></a>
-                  </li>
-                  <li class="inline"><a href="mailto:educontinua.inf@ciencias.unam.mx"
-                      class="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"><i
-                        class="uil uil-envelope align-middle" title="email"></i></a>
-                  </li>
-                </ul> -->
-              </div><!--end col-->
-
-              <div class="lg:col-span-4 md:col-span-4">
-                <h5 class="tracking-[1px] text-gray-100 font-semibold">Contacto</h5>
-                <ul class="list-none footer-list mt-6">
-                  <li class="mt-[10px]"><i class="uil uil-angle-right-b me-1"></i>Circuito de la Investigación
-                    Científica, C.U., Alcaldía
-                    Coyoacán, C.P. 04510, Ciudad Universitaria, CDMX, México
-                  </li>
-                  <li class="mt-[10px]"><i class="uil uil-angle-right-b me-1"></i>
-                    <a href="mailto:educontinua.inf@ciencias.unam.mx">educontinua.inf@ciencias.unam.mx</a>
-                  </li>
-                  <li class="mt-[10px]"><i class="uil uil-angle-right-b me-1"></i>
-                    <span><a href="tel:5556225386">55 5622•5386</a></span> / <span><a href="tel:5556664789">55 5666•4789</a></span>
-                  </li>
-
-                </ul>
-                <ul class="list-none mt-6">
-                  <li class="inline"><a href="https://www.facebook.com/seayc" target="_blank"
-                      class="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"><i
-                        class="uil uil-facebook-f align-middle" title="facebook"></i></a>
-                  </li>
-                  <li class="inline"><a href="#" target="_blank"
-                      class="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"><i
-                        class="uil uil-instagram align-middle" title="instagram"></i></a>
-                  </li>
-                  <li class="inline"><a href="#" target="_blank"
-                      class="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"><i
-                        class="uil uil-twitter align-middle" title="twitter"></i></a>
-                  </li>
-                  <li class="inline"><a href="#" target="_blank"
-                    class="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600">
-                    <svg height="1rem" style="color: white" id="icons" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M412.19,118.66a109.27,109.27,0,0,1-9.45-5.5,132.87,132.87,0,0,1-24.27-20.62c-18.1-20.71-24.86-41.72-27.35-56.43h.1C349.14,23.9,350,16,350.13,16H267.69V334.78c0,4.28,0,8.51-.18,12.69,0,.52-.05,1-.08,1.56,0,.23,0,.47-.05.71,0,.06,0,.12,0,.18a70,70,0,0,1-35.22,55.56,68.8,68.8,0,0,1-34.11,9c-38.41,0-69.54-31.32-69.54-70s31.13-70,69.54-70a68.9,68.9,0,0,1,21.41,3.39l.1-83.94a153.14,153.14,0,0,0-118,34.52,161.79,161.79,0,0,0-35.3,43.53c-3.48,6-16.61,30.11-18.2,69.24-1,22.21,5.67,45.22,8.85,54.73v.2c2,5.6,9.75,24.71,22.38,40.82A167.53,167.53,0,0,0,115,470.66v-.2l.2.2C155.11,497.78,199.36,496,199.36,496c7.66-.31,33.32,0,62.46-13.81,32.32-15.31,50.72-38.12,50.72-38.12a158.46,158.46,0,0,0,27.64-45.93c7.46-19.61,9.95-43.13,9.95-52.53V176.49c1,.6,14.32,9.41,14.32,9.41s19.19,12.3,49.13,20.31c21.48,5.7,50.42,6.9,50.42,6.9V131.27C453.86,132.37,433.27,129.17,412.19,118.66Z" fill="white"></path></svg></a>
-                </li>
-                  <li class="inline"><a href="mailto:educontinua.inf@ciencias.unam.mx"
-                      class="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"><i
-                        class="uil uil-envelope align-middle" title="email"></i></a>
-                  </li>
-                </ul>
-              </div><!--end col-->
-
-              <div class="lg:col-span-4 md:col-span-4">
-                <h5 class="tracking-[1px] text-gray-100 font-semibold">Sobre nosotros</h5>
-
-                <ul class="list-none footer-list mt-6">
-                  <li><a href="/equipo.html" class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"><i
-                        class="uil uil-angle-right-b me-1"></i>Presentación</a></li>
-                  <li class="mt-[10px]"><a href="/normatividad.html"
-                      class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"><i
-                        class="uil uil-angle-right-b me-1"></i>Normatividad</a></li>
-                  <li class="mt-[10px]"><a href="/ubicacion.html"
-                      class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"><i
-                        class="uil uil-angle-right-b me-1"></i>Ubicación</a></li>
-
-                </ul>
-              </div><!--end col-->
-
-
-            </div><!--end grid-->
-          </div><!--end col-->
-        </div>
-      </div><!--end grid-->
-    </div><!--end container-->
-
-    <div class="py-[30px] px-0 border-t border-slate-800">
-      <div class="container text-center">
-        <div class="grid md:grid-cols-1 items-center">
-          <div class="md:text-left text-center">
-            <p class="mb-0">©
-              <script>document.write(new Date().getFullYear())</script> Facultad de Ciencias, UNAM.
-              Hecho en México, todos los derechos reservados. Esta página puede ser reproducida con
-              fines no lucrativos, siempre y cuando no se mutile, se cite la fuente completa y su
-              dirección electrónica. De otra forma requiere permiso previo por escrito de la
-              institución.
-            </p>
-
-          </div>
-
-
-        </div><!--end grid-->
-      </div><!--end container-->
-    </div>
-  </footer><!--end footer-->
-  <!-- Footer End -->
-
-    <!-- Back to top -->
-    <a href="#" onclick="topFunction()" id="back-to-top"
-        class="back-to-top fixed hidden text-lg rounded-full z-10 bottom-5 right-5 h-9 w-9 text-center bg-indigo-600 text-white leading-9"><i
-            class="uil uil-arrow-up"></i></a>
-    <!-- Back to top -->
-
-    <!-- Switcher -->
-    <div class="fixed top-1/4 -right-2 z-50">
-        <span class="relative inline-block rotate-90">
-            <input type="checkbox" class="checkbox opacity-0 absolute" id="chk" />
-            <label
-                class="label bg-slate-900 dark:bg-white shadow dark:shadow-gray-800 cursor-pointer rounded-full flex justify-between items-center p-1 w-14 h-8"
-                for="chk">
-                <i class="uil uil-moon text-[20px] text-yellow-500"></i>
-                <i class="uil uil-sun text-[20px] text-yellow-500"></i>
-                <span class="ball bg-white dark:bg-slate-900 rounded-full absolute top-[2px] left-[2px] w-7 h-7"></span>
-            </label>
-        </span>
-    </div>
-    <!-- Switcher -->
-
-    <!-- JAVASCRIPTS -->
-    <script src="../assets/libs/feather-icons/feather.min.js"></script>
-    <script src="../assets/js/plugins.init.js"></script>
-    <script src="../assets/js/app.js"></script>
-    <!-- JAVASCRIPTS -->
-</body>
-
-</html>
+    <?php
+    include './includes/templates/footer.php';
+  ?>
