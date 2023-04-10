@@ -53,11 +53,9 @@
   <section class="relative md:py-5 py-5 overflow-hidden">
     <div class="container">
       <div class="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-[30px]">
-
         <!-- CURSO Bioestadística-->
-        <div
-          class="group relative rounded-md shadow hover:shadow-lg dark:shadow-gray-800 duration-500 ease-in-out overflow-hidden enCurso">
-          <div class="relative overflow-hidden">
+        <div class="group cursos-container enCurso">
+          <div>
             <img src="assets/images/cursos/bioestadistica.webp" class="group-hover:scale-110 duration-500 ease-in-out" alt="" />
             <div class="absolute inset-0 bg-slate-900/50 opacity-0 group-hover:opacity-100 duration-500 ease-in-out">
             </div>
@@ -75,7 +73,7 @@
               </div>
             </div>
           </div>
-          <div class="content p-6 relative">
+          <div>
             <a href="cursos/Bioestadistica16.php"
               class="text-lg font-bold block hover:text-red-600 duration-500 ease-in-out mt-2 cursor-pointer">
               Bioestadística</a>

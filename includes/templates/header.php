@@ -21,6 +21,7 @@
   <link href="assets/libs/@iconscout/unicons/css/line.css" type="text/css" rel="stylesheet" />
   <link rel="stylesheet" href="assets/css/icons.css" />
   <link rel="stylesheet" href="assets/css/tailwind.css" />
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body class="font-nunito text-base text-black dark:text-white dark:bg-slate-900">
