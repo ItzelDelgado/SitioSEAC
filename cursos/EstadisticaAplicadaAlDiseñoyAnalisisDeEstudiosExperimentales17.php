@@ -1,5 +1,5 @@
 <?php
-  include './includes/templates/header.php';
+  include '../includes/templates/header.php';
 ?>
 
     <!-- Start Hero -->
@@ -962,5 +962,5 @@ Cuenta: 572529<br>Clabe: 00 21 80 08 70 05 72 52 92<br>Referencia: 829.411.100</
     <!-- End Section-->
 
     <?php
-    include './includes/templates/footer.php';
+    include '../includes/templates/footer.php';
   ?>

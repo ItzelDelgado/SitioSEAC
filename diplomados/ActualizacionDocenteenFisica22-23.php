@@ -1,5 +1,5 @@
 <?php
-  include './includes/templates/header.php';
+  include '../includes/templates/header.php';
 ?>
 
     <!-- Start Hero -->
@@ -814,5 +814,5 @@
     <!-- End Section-->
 
     <?php
-    include './includes/templates/footer.php';
+    include '../includes/templates/footer.php';
   ?>
