@@ -18,16 +18,10 @@
   <link href="../assets/libs/tiny-slider/tiny-slider.css" rel="stylesheet" />
   <link href="../assets/libs/tobii/css/tobii.min.css" rel="stylesheet" />
   <!-- Main Css -->
-<<<<<<< HEAD
-  <link href="../assets/libs/@iconscout/unicons/css/line.css" type="text/css" rel="stylesheet" />
-  <link rel="stylesheet" href="../assets/css/icons.css" />
-  <link rel="stylesheet" href="../assets/css/tailwind.css" />
-=======
   <link href="assets/libs/@iconscout/unicons/css/line.css" type="text/css" rel="stylesheet" />
   <link rel="stylesheet" href="assets/css/icons.css" />
   <link rel="stylesheet" href="assets/css/tailwind.css" />
   <link rel="stylesheet" href="assets/css/style.css">
->>>>>>> 78052630f328c9ad7a92397719d9c37955df0ca0
 </head>
 
 <body class="font-nunito text-base text-black dark:text-white dark:bg-slate-900">

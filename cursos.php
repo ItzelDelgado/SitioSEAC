@@ -54,8 +54,8 @@
     <div class="container">
       <div class="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-[30px]">
         <!-- CURSO Bioestadística-->
-        <div class="group cursos-container enCurso">
-          <div>
+        <div class="group curso enCurso">
+          <div class="imagen-container">
             <img src="assets/images/cursos/bioestadistica.webp" class="group-hover:scale-110 duration-500 ease-in-out" alt="" />
             <div class="absolute inset-0 bg-slate-900/50 opacity-0 group-hover:opacity-100 duration-500 ease-in-out">
             </div>
@@ -124,10 +124,9 @@
 
         <!-- CURSO Estadística aplicada al diseño y análisis de estudios
                 experimentales-->
-        <div
-          class="group relative rounded-md shadow hover:shadow-lg dark:shadow-gray-800 duration-500 ease-in-out overflow-hidden enCurso">
-          <div class="relative overflow-hidden">
-            <img src="assets/images/cursos/estadistica-aplicada-diseño-est-exp.webp" class="group-hover:scale-110 duration-500 ease-in-out" alt="" />
+        <div class="group curso enCurso">
+          <div class="imagen-container">
+            <img src="assets/images/cursos/estadistica-aplicada-diseño-est-exp.webp" alt="" />
             <div class="absolute inset-0 bg-slate-900/50 opacity-0 group-hover:opacity-100 duration-500 ease-in-out">
             </div>
             <div class="absolute left-0 bottom-0 opacity-0 group-hover:opacity-100 duration-500 ease-in-out">
