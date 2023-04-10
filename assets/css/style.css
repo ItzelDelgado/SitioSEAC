@@ -19,7 +19,7 @@
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow) !important;
 }
 
-.curso .imagen-container {
+.curso .curso_imagen {
     position: relative;
     overflow: hidden;
 }
@@ -34,6 +34,24 @@
     -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1) !important;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1) !important;
 }
+
+/* .curso_imagen div {
+ position: absolute;
+ top: 0px !important;
+ right: 0px !important;
+ bottom: 0px !important;
+ left: 0px !important;
+ background-color: rgb(15 23 42 / 0.5) !important;
+} */
+
+/* .curso:hover .curso_imagen div:first-child {
+    opacity: 1 !important;
+    -webkit-transition-duration: 500ms !important;
+    transition-duration: 500ms !important;
+    -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1) !important;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1) !important;
+
+} */
 
 .cursos .contenido {
     position: relative;

@@ -122,6 +122,10 @@
         </div>
         <!-- CURSO FIN -->
 
+
+
+
+
         <!-- CURSO Estadística aplicada al diseño y análisis de estudios
                 experimentales-->
         <div class="group curso enCurso">
@@ -199,11 +203,21 @@
         </div>
         <!-- CURSO FIN -->
 
+
+
+
+
+
+
+
+
+
+
+
         <!-- CURSO Dibujo de la naturaleza-->
-        <div
-          class="group relative rounded-md shadow hover:shadow-lg dark:shadow-gray-800 duration-500 ease-in-out overflow-hidden programados">
-          <div class="relative overflow-hidden">
-            <img src="assets/images/cursos/Dibujo_de_la_naturaleza.webp" class="group-hover:scale-110 duration-500 ease-in-out" alt="" />
+        <div class="group curso programados">
+          <div class="curso_imagen">
+            <img src="assets/images/cursos/Dibujo_de_la_naturaleza.webp" alt="" />
             <div class="absolute inset-0 bg-slate-900/50 opacity-0 group-hover:opacity-100 duration-500 ease-in-out">
             </div>
             <div class="absolute left-0 bottom-0 opacity-0 group-hover:opacity-100 duration-500 ease-in-out">
@@ -220,7 +234,7 @@
               </div>
             </div>
           </div>
-          <div class="content p-6 relative">
+          <div class="curso_contenido p-6 relative">
             <a href="/cursos/DibujoDeLaNaturaleza1raEd.php"
               class="text-lg font-bold block hover:text-red-600 duration-500 ease-in-out mt-2 cursor-pointer">
               Dibujo de la naturaleza</a>
