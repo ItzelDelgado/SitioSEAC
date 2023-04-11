@@ -12,16 +12,16 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
   <!-- favicon -->
-  <link rel="shortcut icon" href="../assets/images/favicon.png" />
+  <link rel="shortcut icon" href="../../assets/images/favicon.png" />
 
   <!-- Css -->
-  <link href="../assets/libs/tiny-slider/tiny-slider.css" rel="stylesheet" />
-  <link href="../assets/libs/tobii/css/tobii.min.css" rel="stylesheet" />
+  <link href="../../assets/libs/tiny-slider/tiny-slider.css" rel="stylesheet" />
+  <link href="../../assets/libs/tobii/css/tobii.min.css" rel="stylesheet" />
   <!-- Main Css -->
-  <link href="assets/libs/@iconscout/unicons/css/line.css" type="text/css" rel="stylesheet" />
-  <link rel="stylesheet" href="assets/css/icons.css" />
-  <link rel="stylesheet" href="assets/css/tailwind.css" />
-  <link rel="stylesheet" href="assets/css/style.css">
+  <link href="../../assets/libs/@iconscout/unicons/css/line.css" type="text/css" rel="stylesheet" />
+  <link rel="stylesheet" href="../../assets/css/icons.css" />
+  <link rel="stylesheet" href="../../assets/css/tailwind.css" />
+  <link rel="stylesheet" href="../../assets/css/style.css">
 </head>
 
 <body class="font-nunito text-base text-black dark:text-white dark:bg-slate-900">
