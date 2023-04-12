@@ -542,15 +542,202 @@
     margin-top: 1.75rem !important;
 }
 
-.curso-horarios-container h3{
+.curso-horarios-container h3 {
     font-size: 1.25rem !important;
     line-height: 1.75rem !important;
     font-weight: 500 !important;
 }
 
 
-.curso-horarios-container p{
+.curso-horarios-container p {
     --tw-text-opacity: 1 !important;
     color: rgb(0 0 0 / var(--tw-text-opacity)) !important;
     margin-top: 0.75rem !important;
+}
+
+.curso-costo {
+    margin-top: 5rem !important;
+}
+
+.curso-costo h2 {
+    padding-bottom: 2rem !important;
+    text-align: center !important;
+    margin-bottom: 1rem !important;
+    font-size: 1.5rem !important;
+    line-height: 2rem !important;
+    line-height: 1.5 !important;
+    font-weight: 600 !important;
+}
+
+.curso-costo .curso-costo-g {
+    border-bottom-width: 3px !important;
+    padding: 1.5rem !important;
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
+    -webkit-transition-property: all !important;
+    transition-property: all !important;
+    -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1) !important;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1) !important;
+    -webkit-transition-duration: 150ms !important;
+    transition-duration: 150ms !important;
+    -webkit-transition-duration: 500ms !important;
+    transition-duration: 500ms !important;
+    -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1) !important;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1) !important;
+    position: relative;
+    overflow: hidden !important;
+    --tw-shadow: 0 0 3px rgb(60 72 88 / 0.15) !important;
+    --tw-shadow-colored: 0 0 3px var(--tw-shadow-color) !important;
+    -webkit-box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow) !important;
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow) !important;
+    content: var(--tw-content) !important;
+    border-radius: 0.375rem !important;
+    --tw-bg-opacity: 1 !important;
+    background-color: rgb(249 250 251 / var(--tw-bg-opacity)) !important;
+    height: -webkit-fit-content !important;
+    height: -moz-fit-content !important;
+    height: fit-content !important;
+}
+
+.curso-costo .curso-costo-g:hover {
+    --tw-border-opacity: 1 !important;
+    border-color: rgb(8 151 213 / var(--tw-border-opacity)) !important;
+    --tw-scale-x: 1.05 !important;
+    --tw-scale-y: 1.05 !important;
+    -webkit-transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;
+    --tw-bg-opacity: 1 !important;
+    background-color: rgb(255 255 255 / var(--tw-bg-opacity)) !important;
+}
+
+
+.curso-costo .curso-costo-g h3 {
+    font-weight: 700 !important;
+    text-transform: uppercase !important;
+    margin-bottom: 1.25rem !important;
+}
+
+.curso-costo .curso-costo-g>div {
+    display: flex;
+    margin-bottom: 1.25rem !important;
+}
+
+.curso-costo .curso-costo-g>div span:nth-child(1) {
+    font-size: 1.25rem !important;
+    line-height: 1.75rem !important;
+    font-weight: 600 !important;
+}
+
+
+.curso-costo .curso-costo-g>div span:nth-child(2) {
+    font-size: 2.25rem !important;
+    line-height: 2.5rem !important;
+    font-weight: 600 !important;
+    margin-bottom: 0px !important;
+}
+
+.curso-costo .curso-costo-g>div span:nth-child(3) {
+    font-size: 1.25rem !important;
+    line-height: 1.75rem !important;
+    font-weight: 600 !important;
+    -ms-flex-item-align: end !important;
+    align-self: flex-end !important;
+    margin-bottom: 0.25rem !important;
+}
+
+.curso-costo .curso-costo-g>a {
+    content: var(--tw-content) !important;
+    --tw-bg-opacity: 1 !important;
+    background-color: rgb(8 151 213 / var(--tw-bg-opacity)) !important;
+    content: var(--tw-content) !important;
+    --tw-border-opacity: 1 !important;
+    border-color: rgb(8 151 213 / var(--tw-border-opacity)) !important;
+    --tw-text-opacity: 1 !important;
+    color: rgb(255 255 255 / var(--tw-text-opacity)) !important;
+    border-radius: 0.375rem !important;
+    margin-top: 1.25rem !important;
+}
+
+.curso-costo .curso-costo-g>a:hover {
+    --tw-bg-opacity: 1 !important;
+    background-color: rgb(8 125 213 / var(--tw-bg-opacity)) !important;
+    --tw-border-opacity: 1 !important;
+    border-color: rgb(8 125 213 / var(--tw-border-opacity)) !important;
+}
+
+.curso-costo .curso-costo-g>ul {
+    list-style-type: none !important;
+    --tw-text-opacity: 1 !important;
+    color: rgb(0 0 0 / var(--tw-text-opacity)) !important;
+}
+
+.curso-costo .curso-costo-g>ul li {
+    margin-bottom: 0.25rem !important;
+    display: flex;
+}
+
+.curso-costo .curso-costo-g>ul li i {
+    --tw-text-opacity: 1 !important;
+    color: rgb(8 151 213 / var(--tw-text-opacity)) !important;
+    font-size: 1.25rem !important;
+    line-height: 1.75rem !important;
+    margin-right: 0.5rem !important;
+}
+
+
+.temario {
+    position: relative;
+    padding-top: 4rem !important;
+    padding-bottom: 4rem !important;
+}
+
+.temario h2 {
+    font-size: 1.5rem !important;
+    line-height: 2rem !important;
+    font-weight: 600 !important;
+    margin-bottom: 1.25rem !important;
+    margin-top: 2rem !important;
+}
+
+.temario .secciones {
+    padding-top: 1.5rem !important;
+    gap: 30px !important;
+}
+
+.temario .secciones>div h3 {
+    font-size: 1.125rem !important;
+    line-height: 1.75rem !important;
+    text-transform: uppercase !important;
+    font-weight: 600 !important;
+    margin-bottom: 1.25rem !important;
+}
+
+.temario .secciones .contenido {
+    position: relative !important;
+    overflow-x: auto !important;
+    display: block !important;
+    width: 100% !important;
+    --tw-bg-opacity: 1 !important;
+    background-color: rgb(255 255 255 / var(--tw-bg-opacity)) !important;
+    --tw-shadow: 0 5px 13px rgb(60 72 88 / 0.20) !important;
+    --tw-shadow-colored: 0 5px 13px var(--tw-shadow-color) !important;
+    -webkit-box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow) !important;
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow) !important;
+    border-radius: 0.375rem !important;
+}
+
+.temario .secciones .contenido table {
+    width: 100% !important;
+    text-align: left !important;
+}
+
+.temario .secciones .contenido thead th {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+    padding-top: 1.25rem !important;
+    padding-bottom: 1.25rem !important;
+}
+
+.temario .secciones .contenido tbody tr {
+    
 }

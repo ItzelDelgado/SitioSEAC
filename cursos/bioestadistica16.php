@@ -154,7 +154,6 @@ include '../includes/templates/header.php';
                     <h3>Lugar</h3>
                     <p>Meet</p>
                     <p>Moodle<br>Abierto las 24horas</p>
-
                 </div>
             </div>
         </div><!--end grid-->
@@ -164,58 +163,34 @@ include '../includes/templates/header.php';
 
 
 
-    <div class="container mt-20">
-        <div class="grid grid-cols-1 pb-8 text-center">
-            <h3 class="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">Costo</h3>
-
-            <p class="text-slate-400 max-w-xl mx-auto"></p>
-        </div><!--end grid-->
-
-        <div class="grid grid-cols-1">
-
-
-            <div id="StarterContent" class="">
-
-                <div class="grid lg:grid-cols-2 md:grid-cols-2 mt-8 gap-[30px]">
-                    <div class="group border-b-[3px] dark:border-gray-700 p-6 py-8 hover:border-indigo-600 dark:hover:border-indigo-600 transition-all duration-500 ease-in-out hover:scale-105 relative overflow-hidden shadow dark:shadow-gray-800 rounded-md bg-gray-50 dark:bg-slate-800 hover:bg-white dark:hover:bg-slate-900 h-fit">
-                        <h6 class="font-bold uppercase mb-5 text-gray-800">Público GENERAL</h6>
-
-                        <div class="flex mb-5">
-                            <span class="text-xl font-semibold">$</span>
-                            <span class="price text-4xl font-semibold mb-0">6,000</span>
-                            <span class="text-xl font-semibold self-end mb-1">MXN</span>
-                        </div>
-
-
-                        <a href="#inscripcion" class="btn bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md mt-5">Inscribirse</a>
-                    </div>
-
-
-                    <div class="group border-b-[3px] dark:border-gray-700 p-6 py-8 hover:border-indigo-600 dark:hover:border-indigo-600 transition-all duration-500 ease-in-out hover:scale-105 relative overflow-hidden shadow dark:shadow-gray-800 rounded-md bg-gray-50 dark:bg-slate-800 hover:bg-white dark:hover:bg-slate-900 h-fit">
-                        <h6 class="font-bold uppercase mb-5 text-red-600">Comunidad UNAM</h6>
-
-                        <div class="flex mb-5">
-                            <span class="text-xl font-semibold">$</span>
-                            <span class="price text-4xl font-semibold mb-0">5,000</span>
-                            <span class="text-xl font-semibold self-end mb-1">MXN</span>
-                        </div>
-
-                        <ul class="list-none text-slate-400">
-                            <li class="mb-1 flex"><i class="uil uil-check-circle text-indigo-600 text-xl mr-2"></i>Alumnos, exalumnos
-                                y personal de la UNAM</li>
-                            <li class="mb-1 flex"><i class="uil uil-check-circle text-indigo-600 text-xl mr-2"></i>También aplica
-                                para afiliados a Fundación UNAM</li>
-                        </ul>
-
-                        <a href="#inscripcion" class="btn bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md mt-5">Inscribirse</a>
-                    </div>
-
-
-                </div><!--end grid-->
+    <div class="curso-costo container">
+        <h2 class="md:text-3xl md:leading-normal">Costo</h2>
+        <div class="grid lg:grid-cols-2 md:grid-cols-2 mt-8 gap-[30px]">
+            <div class="curso-costo-g">
+                <h3>Público GENERAL</h3>
+                <div>
+                    <span>$</span>
+                    <span>6,000</span>
+                    <span>MXN</span>
+                </div>
+                <a href="#inscripcion" class="btn">Inscribirse</a>
             </div>
-
-
-        </div>
+            <div class="curso-costo-g">
+                <h3>Comunidad UNAM</h3>
+                <div>
+                    <span>$</span>
+                    <span>5,000</span>
+                    <span>MXN</span>
+                </div>
+                <ul>
+                    <li><i class="uil uil-check-circle"></i>Alumnos, exalumnos
+                        y personal de la UNAM</li>
+                    <li><i class="uil uil-check-circle"></i>También aplica
+                        para afiliados a Fundación UNAM</li>
+                </ul>
+                <a href="#inscripcion" class="btn">Inscribirse</a>
+            </div>
+        </div><!--end grid-->
     </div><!--end container-->
 
 
@@ -227,272 +202,254 @@ include '../includes/templates/header.php';
 
 
 
-<section class="relative md:py-24 py-16">
+<section class="temario md:py-24 container">
+    <h2>Temario</h2>
+    <div class="secciones grid md:grid-cols-2 grid-cols-1">
 
-    <div class="container">
+        <div>
+            <h3>I. INTRODUCCIÓN A LA ESTADÍSTICA</h3>
+            <div class="contenido">
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="px-4 py-5">Temas</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="border-t border-gray-100 dark:border-gray-700">
+                            <td class="p-4"><i class="uil uil-clipboard-alt"></i> I.1
+                                Concepto e importancia de Estadística y Bioestadística.</td>
+                        </tr>
 
+                        <tr class="border-t border-gray-100 dark:border-gray-700">
+                            <td class="p-4"><i class="uil uil-clipboard-alt"></i>I.2. Error,
+                                precisión y exactitud. Poblaciones y muestras.</td>
+                        </tr>
 
+                        <tr class="border-t border-gray-100 dark:border-gray-700">
+                            <td class="p-4"><i class="uil uil-clipboard-alt"></i>I.3.
+                                Criterios de inclusión, exclusión y eliminación.</td>
+                        </tr>
 
-        <div class="grid grid-cols-1 mt-8">
-            <h5 class="text-2xl font-semibold mb-5">Temario</h5>
+                        <tr class="border-t border-gray-100 dark:border-gray-700">
+                            <td class="p-4"><i class="uil uil-clipboard-alt"></i>I.4.
+                                Conceptos de población y muestra. Parámetros y estadísticos.</td>
+                        </tr>
+
+                        <tr class="border-t border-gray-100 dark:border-gray-700">
+                            <td class="p-4"><i class="uil uil-clipboard-alt"></i> I.5. Tipos
+                                de variables y escalas de medición.
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
         </div>
 
-        <div class="grid md:grid-cols-2 grid-cols-1 pt-6 gap-[30px]">
-            <div>
-                <h5 class="text-lg uppercase font-semibold mb-5">I. INTRODUCCIÓN A LA ESTADÍSTICA</h5>
+        <div>
+            <h3>II. ESTADÍSTICA DESCRIPTIVA</h3>
 
-                <div class="relative overflow-x-auto block w-full bg-white dark:bg-slate-900 shadow dark:shadow-gray-800 rounded-md">
-                    <table class="w-full text-left">
-                        <thead>
-                            <tr>
-                                <th class="px-4 py-5">Temas</th>
-                                <th class="px-4 py-5 text-right"></th>
-                            </tr>
-                        </thead>
+            <div class="relative overflow-x-auto block w-full bg-white dark:bg-slate-900 shadow dark:shadow-gray-800 rounded-md">
+                <table class="w-full text-left">
+                    <thead>
+                        <tr>
+                            <th class="px-4 py-5">Temas</th>
+                            <th class="px-4 py-5 text-right"></th>
+                        </tr>
+                    </thead>
 
-                        <tbody>
-                            <tr class="border-t border-gray-100 dark:border-gray-700">
-                                <td class="p-4"><i class="uil uil-clipboard-alt"></i> I.1
-                                    Concepto e importancia de Estadística y Bioestadística.</td>
-                                <td class="p-4 text-right"></td>
-                            </tr>
+                    <tbody>
+                        <tr class="border-t border-gray-100 dark:border-gray-700">
+                            <td class="p-4"><i class="uil uil-clipboard-alt"></i> II.1
+                                Representaciones gráficas de un conjunto de datos: Diagramas de barras.
+                                Pictogramas, Gráficas circulares, Diagrama tallo y hoja. Diagrama de tallo
+                                hoja y espejo, Diagrama de caja. Histograma. Polígono de frecuencias.
+                                Diagramas x, y
+                            </td>
+                            <td class="p-4 text-right"></td>
+                        </tr>
 
-                            <tr class="border-t border-gray-100 dark:border-gray-700">
-                                <td class="p-4"><i class="uil uil-clipboard-alt"></i>I.2. Error,
-                                    precisión y exactitud. Poblaciones y muestras.</td>
-                                <td class="p-4 text-right"></td>
-                            </tr>
+                        <tr class="border-t border-gray-100 dark:border-gray-700">
+                            <td class="p-4"><i class="uil uil-clipboard-alt"></i>II.2.
+                                Descripción de variables numéricas: Medidas de tendencia central. Medidas de
+                                dispersión
+                            </td>
+                            <td class="p-4 text-right"></i></td>
+                        </tr>
 
-                            <tr class="border-t border-gray-100 dark:border-gray-700">
-                                <td class="p-4"><i class="uil uil-clipboard-alt"></i>I.3.
-                                    Criterios de inclusión, exclusión y eliminación.</td>
-                                <td class="p-4 text-right"></td>
-                            </tr>
 
-                            <tr class="border-t border-gray-100 dark:border-gray-700">
-                                <td class="p-4"><i class="uil uil-clipboard-alt"></i>I.4.
-                                    Conceptos de población y muestra. Parámetros y estadísticos.</td>
-                                <td class="p-4 text-right"></td>
-                            </tr>
+                        <tr class="border-t border-gray-100 dark:border-gray-700">
+                            <td class="p-4"><i class="uil uil-clipboard-alt"></i>II.3. Regla
+                                empírica y teorema de Tchebyshev
+                            </td>
+                            <td class="p-4 text-right"></i></td>
+                        </tr>
 
-                            <tr class="border-t border-gray-100 dark:border-gray-700">
-                                <td class="p-4"><i class="uil uil-clipboard-alt"></i> I.5. Tipos
-                                    de variables y escalas de medición.
-                                </td>
-                                <td class="p-4 text-right"></td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
+                        <tr class="border-t border-gray-100 dark:border-gray-700">
+                            <td class="p-4"><i class="uil uil-clipboard-alt"></i>II.4.
+                                Descripción de variables categóricas: tasas, razones, proporciones y
+                                porcentajes.
+
+                            </td>
+                            <td class="p-4 text-right"></i></td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
+        </div>
 
-            <div>
-                <h5 class="text-lg uppercase font-semibold mb-5">II. ESTADÍSTICA DESCRIPTIVA</h5>
+        <div>
+            <h3>III. PROBABILIDAD</h3>
 
-                <div class="relative overflow-x-auto block w-full bg-white dark:bg-slate-900 shadow dark:shadow-gray-800 rounded-md">
-                    <table class="w-full text-left">
-                        <thead>
-                            <tr>
-                                <th class="px-4 py-5">Temas</th>
-                                <th class="px-4 py-5 text-right"></th>
-                            </tr>
-                        </thead>
+            <div class="relative overflow-x-auto block w-full bg-white dark:bg-slate-900 shadow dark:shadow-gray-800 rounded-md">
+                <table class="w-full text-left">
+                    <thead>
+                        <tr>
+                            <th class="px-4 py-5">Temas</th>
+                            <th class="px-4 py-5 text-right"></th>
+                        </tr>
+                    </thead>
 
-                        <tbody>
-                            <tr class="border-t border-gray-100 dark:border-gray-700">
-                                <td class="p-4"><i class="uil uil-clipboard-alt"></i> II.1
-                                    Representaciones gráficas de un conjunto de datos: Diagramas de barras.
-                                    Pictogramas, Gráficas circulares, Diagrama tallo y hoja. Diagrama de tallo
-                                    hoja y espejo, Diagrama de caja. Histograma. Polígono de frecuencias.
-                                    Diagramas x, y
-                                </td>
-                                <td class="p-4 text-right"></td>
-                            </tr>
+                    <tbody>
+                        <tr class="border-t border-gray-100 dark:border-gray-700">
+                            <td class="p-4"><i class="uil uil-clipboard-alt"></i>III.1.
+                                Conceptos: Fenómenos deterministas y estocásticos. Espacio muestral,
+                                experimentos, eventos </td>
+                            <td class="p-4 text-right"></td>
+                        </tr>
 
-                            <tr class="border-t border-gray-100 dark:border-gray-700">
-                                <td class="p-4"><i class="uil uil-clipboard-alt"></i>II.2.
-                                    Descripción de variables numéricas: Medidas de tendencia central. Medidas de
-                                    dispersión
-                                </td>
-                                <td class="p-4 text-right"></i></td>
-                            </tr>
+                        <tr class="border-t border-gray-100 dark:border-gray-700">
+                            <td class="p-4"><i class="uil uil-clipboard-alt"></i>III.2.
+                                Métodos de conteo Combinación y permutaciones </td>
+                            <td class="p-4 text-right"></td>
+                        </tr>
 
+                        <tr class="border-t border-gray-100 dark:border-gray-700">
+                            <td class="p-4"><i class="uil uil-clipboard-alt"></i>III.3.
+                                Conceptos de probabilidad clásica y frecuentista </td>
+                            <td class="p-4 text-right"></td>
+                        </tr>
 
-                            <tr class="border-t border-gray-100 dark:border-gray-700">
-                                <td class="p-4"><i class="uil uil-clipboard-alt"></i>II.3. Regla
-                                    empírica y teorema de Tchebyshev
-                                </td>
-                                <td class="p-4 text-right"></i></td>
-                            </tr>
+                        <tr class="border-t border-gray-100 dark:border-gray-700">
+                            <td class="p-4"><i class="uil uil-clipboard-alt"></i>III.4.
+                                Leyes de probabilidad: Ley de la adición, Ley del producto </td>
+                            <td class="p-4 text-right"></td>
+                        </tr>
 
-                            <tr class="border-t border-gray-100 dark:border-gray-700">
-                                <td class="p-4"><i class="uil uil-clipboard-alt"></i>II.4.
-                                    Descripción de variables categóricas: tasas, razones, proporciones y
-                                    porcentajes.
+                        <tr class="border-t border-gray-100 dark:border-gray-700">
+                            <td class="p-4"><i class="uil uil-clipboard-alt"></i>III.5.
+                                Cálculo de probabilidades </td>
+                            <td class="p-4 text-right"></td>
+                        </tr>
 
-                                </td>
-                                <td class="p-4 text-right"></i></td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
+                    </tbody>
+                </table>
             </div>
+        </div>
 
-            <div>
-                <h5 class="text-lg uppercase font-semibold mb-5">III. PROBABILIDAD</h5>
 
-                <div class="relative overflow-x-auto block w-full bg-white dark:bg-slate-900 shadow dark:shadow-gray-800 rounded-md">
-                    <table class="w-full text-left">
-                        <thead>
-                            <tr>
-                                <th class="px-4 py-5">Temas</th>
-                                <th class="px-4 py-5 text-right"></th>
-                            </tr>
-                        </thead>
+        <div>
+            <h3>IV. INFERENCIA ESTADÍSTICA</h3>
 
-                        <tbody>
-                            <tr class="border-t border-gray-100 dark:border-gray-700">
-                                <td class="p-4"><i class="uil uil-clipboard-alt"></i>III.1.
-                                    Conceptos: Fenómenos deterministas y estocásticos. Espacio muestral,
-                                    experimentos, eventos </td>
-                                <td class="p-4 text-right"></td>
-                            </tr>
+            <div class="relative overflow-x-auto block w-full bg-white dark:bg-slate-900 shadow dark:shadow-gray-800 rounded-md">
+                <table class="w-full text-left">
+                    <thead>
+                        <tr>
+                            <th class="px-4 py-5">Temas</th>
+                            <th class="px-4 py-5 text-right"></th>
+                        </tr>
+                    </thead>
 
-                            <tr class="border-t border-gray-100 dark:border-gray-700">
-                                <td class="p-4"><i class="uil uil-clipboard-alt"></i>III.2.
-                                    Métodos de conteo Combinación y permutaciones </td>
-                                <td class="p-4 text-right"></td>
-                            </tr>
+                    <tbody>
+                        <tr class="border-t border-gray-100 dark:border-gray-700">
+                            <td class="p-4"><i class="uil uil-clipboard-alt"></i>IV.1.
+                                Concepto de inferencia estadística </td>
+                            <td class="p-4 text-right"></td>
+                        </tr>
 
-                            <tr class="border-t border-gray-100 dark:border-gray-700">
-                                <td class="p-4"><i class="uil uil-clipboard-alt"></i>III.3.
-                                    Conceptos de probabilidad clásica y frecuentista </td>
-                                <td class="p-4 text-right"></td>
-                            </tr>
+                        <tr class="border-t border-gray-100 dark:border-gray-700">
+                            <td class="p-4"><i class="uil uil-clipboard-alt"></i>IV.2.
+                                Clasificación de la estadística: según tipo de variable </td>
+                            <td class="p-4 text-right"></td>
+                        </tr>
 
-                            <tr class="border-t border-gray-100 dark:border-gray-700">
-                                <td class="p-4"><i class="uil uil-clipboard-alt"></i>III.4.
-                                    Leyes de probabilidad: Ley de la adición, Ley del producto </td>
-                                <td class="p-4 text-right"></td>
-                            </tr>
+                        <tr class="border-t border-gray-100 dark:border-gray-700">
+                            <td class="p-4"><i class="uil uil-clipboard-alt"></i>IV.3.
+                                Clasificación de la estadística: según número de variables </td>
+                            <td class="p-4 text-right"></td>
+                        </tr>
 
-                            <tr class="border-t border-gray-100 dark:border-gray-700">
-                                <td class="p-4"><i class="uil uil-clipboard-alt"></i>III.5.
-                                    Cálculo de probabilidades </td>
-                                <td class="p-4 text-right"></td>
-                            </tr>
+                        <tr class="border-t border-gray-100 dark:border-gray-700">
+                            <td class="p-4"><i class="uil uil-clipboard-alt"></i>IV.3.
+                                Clasificación de la estadística: según número de variables </td>
+                            <td class="p-4 text-right"></td>
+                        </tr>
 
-                        </tbody>
-                    </table>
-                </div>
+                        <tr class="border-t border-gray-100 dark:border-gray-700">
+                            <td class="p-4"><i class="uil uil-clipboard-alt"></i>IV.4.
+                                Estimación puntual y de intervalo </td>
+                            <td class="p-4 text-right"></td>
+                        </tr>
+
+                        <tr class="border-t border-gray-100 dark:border-gray-700">
+                            <td class="p-4"><i class="uil uil-clipboard-alt"></i>IV.5.
+                                Intervalos de confianza </td>
+                            <td class="p-4 text-right"></td>
+                        </tr>
+
+                        <tr class="border-t border-gray-100 dark:border-gray-700">
+                            <td class="p-4"><i class="uil uil-clipboard-alt"></i>IV.6.
+                                Pruebas de hipótesis </td>
+                            <td class="p-4 text-right"></td>
+                        </tr>
+
+                        <tr class="border-t border-gray-100 dark:border-gray-700">
+                            <td class="p-4"><i class="uil uil-clipboard-alt"></i>IV.7.
+                                Procedimiento para la realización de pruebas de hipótesis </td>
+                            <td class="p-4 text-right"></td>
+                        </tr>
+
+                        <tr class="border-t border-gray-100 dark:border-gray-700">
+                            <td class="p-4"><i class="uil uil-clipboard-alt"></i>IV.8.
+                                Procedimiento para la realización de pruebas paramétricas </td>
+                            <td class="p-4 text-right"></td>
+                        </tr>
+
+                    </tbody>
+                </table>
             </div>
+        </div>
 
 
-            <div>
-                <h5 class="text-lg uppercase font-semibold mb-5">IV. INFERENCIA ESTADÍSTICA</h5>
+        <div>
+            <h3>V. INTRODUCCIÓN A LOS MODELOS ESTADÍSTICOS LINEALES</h3>
 
-                <div class="relative overflow-x-auto block w-full bg-white dark:bg-slate-900 shadow dark:shadow-gray-800 rounded-md">
-                    <table class="w-full text-left">
-                        <thead>
-                            <tr>
-                                <th class="px-4 py-5">Temas</th>
-                                <th class="px-4 py-5 text-right"></th>
-                            </tr>
-                        </thead>
+            <div class="relative overflow-x-auto block w-full bg-white dark:bg-slate-900 shadow dark:shadow-gray-800 rounded-md">
+                <table class="w-full text-left">
+                    <thead>
+                        <tr>
+                            <th class="px-4 py-5">Temas</th>
+                            <th class="px-4 py-5 text-right"></th>
+                        </tr>
+                    </thead>
 
-                        <tbody>
-                            <tr class="border-t border-gray-100 dark:border-gray-700">
-                                <td class="p-4"><i class="uil uil-clipboard-alt"></i>IV.1.
-                                    Concepto de inferencia estadística </td>
-                                <td class="p-4 text-right"></td>
-                            </tr>
+                    <tbody>
+                        <tr class="border-t border-gray-100 dark:border-gray-700">
+                            <td class="p-4"><i class="uil uil-clipboard-alt"></i>V.1.
+                                Introducción a los modelos estadísticos lineales </td>
+                            <td class="p-4 text-right"></td>
+                        </tr>
 
-                            <tr class="border-t border-gray-100 dark:border-gray-700">
-                                <td class="p-4"><i class="uil uil-clipboard-alt"></i>IV.2.
-                                    Clasificación de la estadística: según tipo de variable </td>
-                                <td class="p-4 text-right"></td>
-                            </tr>
+                        <tr class="border-t border-gray-100 dark:border-gray-700">
+                            <td class="p-4"><i class="uil uil-clipboard-alt"></i>V.2.
+                                Modelos de regresión. Conceptos básicos. Supuestos. Aplicaciones
+                            </td>
+                            <td class="p-4 text-right"></td>
+                        </tr>
 
-                            <tr class="border-t border-gray-100 dark:border-gray-700">
-                                <td class="p-4"><i class="uil uil-clipboard-alt"></i>IV.3.
-                                    Clasificación de la estadística: según número de variables </td>
-                                <td class="p-4 text-right"></td>
-                            </tr>
-
-                            <tr class="border-t border-gray-100 dark:border-gray-700">
-                                <td class="p-4"><i class="uil uil-clipboard-alt"></i>IV.3.
-                                    Clasificación de la estadística: según número de variables </td>
-                                <td class="p-4 text-right"></td>
-                            </tr>
-
-                            <tr class="border-t border-gray-100 dark:border-gray-700">
-                                <td class="p-4"><i class="uil uil-clipboard-alt"></i>IV.4.
-                                    Estimación puntual y de intervalo </td>
-                                <td class="p-4 text-right"></td>
-                            </tr>
-
-                            <tr class="border-t border-gray-100 dark:border-gray-700">
-                                <td class="p-4"><i class="uil uil-clipboard-alt"></i>IV.5.
-                                    Intervalos de confianza </td>
-                                <td class="p-4 text-right"></td>
-                            </tr>
-
-                            <tr class="border-t border-gray-100 dark:border-gray-700">
-                                <td class="p-4"><i class="uil uil-clipboard-alt"></i>IV.6.
-                                    Pruebas de hipótesis </td>
-                                <td class="p-4 text-right"></td>
-                            </tr>
-
-                            <tr class="border-t border-gray-100 dark:border-gray-700">
-                                <td class="p-4"><i class="uil uil-clipboard-alt"></i>IV.7.
-                                    Procedimiento para la realización de pruebas de hipótesis </td>
-                                <td class="p-4 text-right"></td>
-                            </tr>
-
-                            <tr class="border-t border-gray-100 dark:border-gray-700">
-                                <td class="p-4"><i class="uil uil-clipboard-alt"></i>IV.8.
-                                    Procedimiento para la realización de pruebas paramétricas </td>
-                                <td class="p-4 text-right"></td>
-                            </tr>
-
-                        </tbody>
-                    </table>
-                </div>
+                    </tbody>
+                </table>
             </div>
-
-
-            <div>
-                <h5 class="text-lg uppercase font-semibold mb-5">V. INTRODUCCIÓN A LOS MODELOS ESTADÍSTICOS LINEALES
-                </h5>
-
-                <div class="relative overflow-x-auto block w-full bg-white dark:bg-slate-900 shadow dark:shadow-gray-800 rounded-md">
-                    <table class="w-full text-left">
-                        <thead>
-                            <tr>
-                                <th class="px-4 py-5">Temas</th>
-                                <th class="px-4 py-5 text-right"></th>
-                            </tr>
-                        </thead>
-
-                        <tbody>
-                            <tr class="border-t border-gray-100 dark:border-gray-700">
-                                <td class="p-4"><i class="uil uil-clipboard-alt"></i>V.1.
-                                    Introducción a los modelos estadísticos lineales </td>
-                                <td class="p-4 text-right"></td>
-                            </tr>
-
-                            <tr class="border-t border-gray-100 dark:border-gray-700">
-                                <td class="p-4"><i class="uil uil-clipboard-alt"></i>V.2.
-                                    Modelos de regresión. Conceptos básicos. Supuestos. Aplicaciones
-                                </td>
-                                <td class="p-4 text-right"></td>
-                            </tr>
-
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-
         </div>
 
     </div>
