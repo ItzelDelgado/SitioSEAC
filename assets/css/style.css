@@ -273,6 +273,284 @@
     color: rgb(220 38 38 / var(--tw-text-opacity)) !important;
 }
 
-.curso .curso_contenido .curso_contenido-precio > div span{
+.curso .curso_contenido .curso_contenido-precio>div span {
     font-weight: 600 !important;
-} 
+}
+
+/* END CURSOS  TEMPLATE */
+
+/* CURSO TEMPLATE */
+
+.portada {
+    position: relative;
+    text-indent: 0;
+    /* 1 */
+    border-color: inherit;
+    /* 2 */
+    border-collapse: collapse;
+    width: 100% !important;
+    padding-top: 9rem !important;
+    padding-bottom: 9rem !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+
+.portada .portada-opacity {
+    position: absolute !important;
+    top: 0px !important;
+    right: 0px !important;
+    bottom: 0px !important;
+    left: 0px !important;
+    --tw-bg-opacity: 1 !important;
+    background-color: rgb(22 28 45 / var(--tw-bg-opacity)) !important;
+    opacity: 0.75 !important;
+}
+
+.portada .portada-informacion {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr)) !important;
+    padding-bottom: 2rem !important;
+    text-align: center !important;
+    margin-top: 2.5rem !important;
+}
+
+.portada .portada-informacion .portada-informacion-pu {
+    --tw-bg-opacity: 1 !important;
+    background-color: rgb(22 163 74 / var(--tw-bg-opacity)) !important;
+    --tw-text-opacity: 1 !important;
+    color: rgb(255 255 255 / var(--tw-text-opacity)) !important;
+    font-size: 0.75rem !important;
+    line-height: 1rem !important;
+    font-weight: 700 !important;
+    padding-left: 0.625rem !important;
+    padding-right: 0.625rem !important;
+    padding-top: 0.125rem !important;
+    padding-bottom: 0.125rem !important;
+    border-radius: 0.25rem !important;
+    width: -webkit-fit-content !important;
+    width: -moz-fit-content !important;
+    width: fit-content !important;
+    content: var(--tw-content) !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    height: 1.25rem !important;
+}
+
+.portada .portada-informacion .portada-informacion-pg {
+    --tw-text-opacity: 1 !important;
+    color: rgb(255 255 255 / var(--tw-text-opacity)) !important;
+    font-size: 0.75rem !important;
+    line-height: 1rem !important;
+    font-weight: 700 !important;
+    padding-left: 0.625rem !important;
+    padding-right: 0.625rem !important;
+    padding-top: 0.125rem !important;
+    padding-bottom: 0.125rem !important;
+    border-radius: 0.25rem !important;
+    width: -webkit-fit-content !important;
+    width: -moz-fit-content !important;
+    width: fit-content !important;
+    content: var(--tw-content) !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    height: 1.25rem !important;
+}
+
+.portada .portada-informacion h1 {
+    margin-top: 0.75rem !important;
+    font-size: 1.875rem !important;
+    line-height: 2.25rem !important;
+    line-height: 1.5 !important;
+    font-weight: 500 !important;
+    --tw-text-opacity: 1 !important;
+    color: rgb(255 255 255 / var(--tw-text-opacity)) !important;
+}
+
+.portada .portada-informacion p {
+    --tw-text-opacity: 1 !important;
+    color: rgb(8 151 213 / var(--tw-text-opacity)) !important;
+}
+
+
+.portada .portada-informacion .profesor {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-align: center !important;
+    -ms-flex-align: center !important;
+    align-items: center !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: 0.75rem !important;
+}
+
+.portada .portada-informacion .profesor img {
+    height: 2.5rem !important;
+    width: 2.5rem !important;
+    border-radius: 9999px !important;
+    --tw-shadow: 0 5px 13px rgb(60 72 88 / 0.20) !important;
+    --tw-shadow-colored: 0 5px 13px var(--tw-shadow-color) !important;
+    -webkit-box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow) !important;
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow) !important;
+}
+
+.portada .portada-informacion .profesor a {
+    font-weight: 600 !important;
+    --tw-text-opacity: 1 !important;
+    color: rgb(255 255 255 / var(--tw-text-opacity)) !important;
+    display: block;
+    margin-left: 0.75rem !important;
+}
+
+.portada .portada-informacion .profesor a:hover {
+    --tw-text-opacity: 1 !important;
+    color: rgb(8 151 213 / var(--tw-text-opacity)) !important;
+}
+
+.portada .portada-informacion .fecha {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr)) !important;
+    padding-bottom: 2rem !important;
+    text-align: center !important;
+    margin-top: 2.5rem !important;
+}
+
+.portada .portada-informacion .fecha i {
+    font-size: 1.125rem !important;
+    line-height: 1.75rem !important;
+    --tw-text-opacity: 1 !important;
+    color: rgb(255 255 255 / var(--tw-text-opacity)) !important;
+    vertical-align: middle !important;
+}
+
+.portada .portada-informacion .fecha span {
+    --tw-text-opacity: 1 !important;
+    color: rgb(255 255 255 / var(--tw-text-opacity)) !important;
+    font-size: 1rem !important;
+    line-height: 1.5rem !important;
+    font-weight: 700 !important;
+    padding-left: 0.625rem !important;
+    padding-right: 0.625rem !important;
+    padding-top: 0.125rem !important;
+    padding-bottom: 0.125rem !important;
+    border-radius: 0.25rem !important;
+    width: -webkit-fit-content !important;
+    width: -moz-fit-content !important;
+    width: fit-content !important;
+    content: var(--tw-content) !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    height: 1.25rem !important;
+}
+
+.portada .datos {
+    position: absolute;
+    text-align: center !important;
+    content: var(--tw-content) !important;
+    z-index: 10 !important;
+    bottom: 1.25rem !important;
+    right: 0px !important;
+    left: 0px !important;
+    margin-left: 0.75rem !important;
+    margin-right: 0.75rem !important;
+}
+
+.portada .datos ul {
+    letter-spacing: 0.5px !important;
+    content: var(--tw-content);
+    color: rgb(255 255 255 / 0.5);
+    margin-bottom: 0px !important;
+    display: inline-block !important;
+}
+
+.portada .datos ul li {
+    display: inline-block !important;
+    -webkit-box-align: center !important;
+    -ms-flex-align: center !important;
+    align-items: center !important;
+    margin-top: 0.5rem !important;
+    margin-left: 0.75rem !important;
+    margin-right: 0.75rem !important;
+}
+
+.portada .datos ul li i {
+    --tw-text-opacity: 1 !important;
+    color: rgb(255 255 255 / var(--tw-text-opacity)) !important;
+    vertical-align: middle !important;
+}
+
+.oferta-academica {
+    position: relative;
+    padding-top: 4rem !important;
+    padding-bottom: 4rem !important;
+    overflow: hidden !important;
+}
+
+.oferta-academica h2 {
+    font-size: 1.5rem !important;
+    line-height: 2rem !important;
+    font-weight: 600 !important;
+    margin-bottom: 1.25rem !important;
+}
+
+.oferta-academica p {
+    margin-bottom: 0.75rem !important;
+}
+
+.curso-horarios {
+    position: relative;
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
+}
+
+
+.curso-horarios .curso-horarios-container>div {
+    text-align: center !important;
+    padding-left: 1.5rem !important;
+    margin-top: 1.5rem !important;
+    border-radius: 0.75rem !important;
+}
+
+.curso-horarios .curso-horarios-container>div div:first-child {
+    width: 5rem !important;
+    content: var(--tw-content) !important;
+    height: 5rem !important;
+    content: var(--tw-content) !important;
+    background-color: rgb(8 151 213 / 0.05) !important;
+    --tw-text-opacity: 1 !important;
+    color: rgb(8 151 213 / var(--tw-text-opacity)) !important;
+    font-size: 1.875rem !important;
+    line-height: 2.25rem !important;
+    display: flex;
+    vertical-align: middle !important;
+    -webkit-box-pack: center !important;
+    -ms-flex-pack: center !important;
+    justify-content: center !important;
+    -webkit-box-align: center !important;
+    -ms-flex-align: center !important;
+    align-items: center !important;
+    --tw-shadow: 0 2px 4px 0 rgb(60 72 88 / 0.15) !important;
+    --tw-shadow-colored: 0 2px 4px 0 var(--tw-shadow-color) !important;
+    -webkit-box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow) !important;
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow) !important;
+    content: var(--tw-content) !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.curso-horarios .curso-horarios-container>div div:nth-child(2) {
+    margin-top: 1.75rem !important;
+}
+
+.curso-horarios-container h3{
+    font-size: 1.25rem !important;
+    line-height: 1.75rem !important;
+    font-weight: 500 !important;
+}
+
+
+.curso-horarios-container p{
+    --tw-text-opacity: 1 !important;
+    color: rgb(0 0 0 / var(--tw-text-opacity)) !important;
+    margin-top: 0.75rem !important;
+}

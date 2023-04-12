@@ -3,69 +3,71 @@ include '../includes/templates/header.php';
 ?>
 
 <!-- Start Hero -->
-<section class="relative table w-full py-36 lg:py-44 bg-[url('../../assets/images/cursos/bg-bioestadistica.webp')] bg-no-repeat bg-center">
-    <div class="absolute inset-0 bg-black opacity-75"></div>
+<section class="portada lg:py-44 bg-[url('../../assets/images/cursos/bg-bioestadistica.webp')]">
+    <div class="portada-opacity"></div>
     <div class="container">
-        <div class="grid grid-cols-1 pb-8 text-center mt-10">
-            <span class="bg-green-600 text-white text-xs font-bold px-2.5 py-0.5 rounded w-fit mx-auto h-5">$6,000 /
+        <div class="portada-informacion">
+            <span class="portada-informacion-pu">$6,000 /
                 UNAM</span>
-            <span class="bg-blue-900 text-white text-xs font-bold px-2.5 py-0.5 rounded w-fit mx-auto h-5">$6,000 /
+            <span class="portada-informacion-pg">$6,000 /
                 GENERAL</span>
-            <h3 class="mt-3 text-3xl leading-normal font-medium text-white">Bioestadística</h3>
-            <p class="text-indigo-600">16a. Edición</p>
-            <div class="flex items-center mx-auto mt-3">
-                <img src="../assets/images/instructores/usr-m.jpg" class="h-10 w-10 rounded-full shadow-md dark:shadow-gray-800" alt="">
-                <a href="../assets/curriculums_docentes/JorgeAMorenoHern.pdf" class="font-semibold text-white block ml-3 hover:text-indigo-600" target="_blank">M. en C. Jorge
-                    A. Moreno Hernández</a>
+            <h1>Bioestadística</h1>
+            <p>16a. Edición</p>
+            <div class="profesor">
+                <img src="../assets/images/instructores/usr-m.jpg" alt="">
+                <a href="../assets/curriculums_docentes/JorgeAMorenoHern.pdf" target="_blank">
+                    M. en C. Jorge A. Moreno Hernández
+                </a>
             </div>
-
-            <div class="grid grid-cols-1 pb-8 text-center mt-10">
-                <i class="uil uil-calendar-alt text-lg text-white align-middle"></i>
-                <span class=" text-white text-base font-bold px-2.5 py-0.5 rounded w-fit mx-auto h-5">Del 3 de marzo
-                    al 28 de abril de 2023</span>
+            <div class="fecha">
+                <i class="uil uil-calendar-alt"></i>
+                <span>
+                    Del 3 de marzo al 28 de abril de 2023
+                </span>
             </div>
-
         </div><!--end grid-->
     </div><!--end container-->
 
-    <div class="absolute text-center z-10 bottom-5 right-0 left-0 mx-3">
-        <ul class="breadcrumb tracking-[0.5px] breadcrumb-light mb-0 inline-block">
+    <div class="datos">
+        <ul>
             <!-- <li class="inline breadcrumb-item uppercase text-[13px] font-bold duration-500 ease-in-out text-white/50 hover:text-white"><a href="index-course.php">Techwind</a></li>
                    <li class="inline breadcrumb-item uppercase text-[13px] font-bold duration-500 ease-in-out text-white/50 hover:text-white"><a href="course-listing.php">Courses</a></li>
                     <li class="inline breadcrumb-item uppercase text-[13px] font-bold duration-500 ease-in-out text-white" aria-current="page">Web Development</li> -->
 
-            <li class="inline-block items-center mt-2 mx-3">
-                <i class="uil uil-calendar-alt text-white align-middle"></i>
+            <li>
+                <i class="uil uil-calendar-alt"></i>
                 <span class="text-white/60 ml-1">Lu - Ju</span>
             </li>
 
-            <li class="inline-block items-center mt-2 mx-3">
-                <i class="uil uil-bell-school text-white align-middle"></i>
+            <li>
+                <i class="uil uil-bell-school"></i>
                 <span class="text-white/60 ml-1">17-20h</span>
             </li>
 
-            <li class="inline-block items-center mt-2 mx-3">
-                <i class="uil uil-clock text-white align-middle"></i>
+            <li>
+                <i class="uil uil-clock"></i>
                 <span class="text-white/60 ml-1">50 horas</span>
             </li>
 
-            <li class="inline-block items-center mt-2 mx-3">
-                <i class="uil uil-map-marker text-white align-middle"></i>
+            <li>
+                <i class="uil uil-map-marker"></i>
                 <span class="text-white/60 ml-1">Vía Meet y Moodle</span>
             </li>
 
-            <li class="inline-block items-center mt-2 mx-3">
-                <i class="uil uil-user-circle text-white align-middle"></i>
+            <li>
+                <i class="uil uil-user-circle"></i>
                 <span class="text-white/60 ml-1">Máx. 30 / Min. 15</span>
             </li>
 
-            <li class="inline-block items-center mt-2 mx-3">
-                <i class="uil uil-shopping-cart text-white align-middle text-green-600"></i>
+            <li>
+                <i class="uil uil-shopping-cart text-green-600"></i>
                 <a href="#inscripcion" class="text-green-600">Inscribirse</a>
             </li>
         </ul>
     </div>
 </section><!--end section-->
+
+
 <div class="relative">
     <div class="shape absolute right-0 sm:-bottom-px -bottom-[2px] left-0 overflow-hidden z-1 text-white dark:text-slate-900">
         <svg class="w-full h-auto" viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -76,60 +78,35 @@ include '../includes/templates/header.php';
 <!-- End Hero -->
 
 <!-- Start Section-->
-<section class="relative md:py-20 py-16 overflow-hidden">
+<section class="oferta-academica md:py-20">
     <div class="container">
-        <div class="grid grid-cols-1">
-            <h5 class="text-2xl font-semibold mb-5">Descripción</h5>
-
-            <p class="mb-3">Este curso fue diseñado para aportar bases teóricas y prácticas necesarios para el
-                proceso de la información, el curso está montado en la plataforma educativa Moodle, la cual permite
-                la interacción profesor-alumno, alumno-alumno, contar con los contenidos en diferentes formatos,
-                textos, imágenes, videos, tutoriales, ejercicios necesarios y complementarios para el curso
-                A través de esta interfase el asistente puede tomar las lecciones en línea, realizar las actividades
-                (tareas y ejercicios evaluaciones), contar con retroalimentación, también la plataforma a través de
-                diferentes herramientas permite la discusión y aportaciones de los asistentes y con ellos tener un
-                aprendizaje colaborativo.
-                Las lecciones están apoyadas con software educativo, propio y libre que brinda elementos teóricos y
-                prácticos, del proceso de información.
-                En las sesiones sincrónicas se revisan los temas de mayor complejidad y se hace la aclaración de
-                dudas de los contenidos y materiales en línea. </p>
-        </div><!--end grid-->
-
-
-        <div class="grid grid-cols-1">
-            <h6 class="text-2xl font-semibold mb-5 mt-6">Objetivo</h6>
-
-            <p class=" mb-3">La finalidad de este curso es aportar al asistente los conocimientos básicos de la
-                teoría y la práctica necesarios para el adecuado proceso de la información, desde la generación o
-                recolección de los datos, hasta la toma de decisiones a través de la descripción de la información,
-                estimación de parámetros, y la adecuada aplicación de las pruebas de hipótesis
-            </p>
-        </div><!--end grid-->
-
-
-
-        <div class="grid grid-cols-1">
-            <h6 class="text-2xl font-semibold mb-5 mt-6">Dirigido a</h6>
-
-            <p class=" mb-3"> Estudiantes, profesionales del área químico-biológica, de la salud y áreas a fines
-                (este curso, está dirigido básicamente a médicos, biólogos, enfermeros, psicólogos, trabajadores
-                sociales).
-            </p>
-
-            <p class="text-red-600 mb-3">
-                Mín / Máx de alumnos: Mínimo 15, máximo 30.<br>
-                La apertura del curso está sujeta al mínimo de inscritos.</p>
-
-        </div><!--end grid-->
-
-
-        <!-- <div class="grid md:grid-cols-2 grid-cols-1 mt-6 gap-[30px]">
-                <img src="../assets/images/cursos/intro-estadistica-bio01.jpg" class="rounded-md shadow" alt="">
-
-                <div class="relative">
-                    <img src="../assets/images/cursos/intro-estadistica-bio02.jpg" class="rounded-md shadow" alt="">
-                </div>
-            </div> -->
+        <h2>Descripción</h2>
+        <p class="mb-3">Este curso fue diseñado para aportar bases teóricas y prácticas necesarios para el
+            proceso de la información, el curso está montado en la plataforma educativa Moodle, la cual permite
+            la interacción profesor-alumno, alumno-alumno, contar con los contenidos en diferentes formatos,
+            textos, imágenes, videos, tutoriales, ejercicios necesarios y complementarios para el curso
+            A través de esta interfase el asistente puede tomar las lecciones en línea, realizar las actividades
+            (tareas y ejercicios evaluaciones), contar con retroalimentación, también la plataforma a través de
+            diferentes herramientas permite la discusión y aportaciones de los asistentes y con ellos tener un
+            aprendizaje colaborativo.
+            Las lecciones están apoyadas con software educativo, propio y libre que brinda elementos teóricos y
+            prácticos, del proceso de información.
+            En las sesiones sincrónicas se revisan los temas de mayor complejidad y se hace la aclaración de
+            dudas de los contenidos y materiales en línea. </p>
+        <h2>Objetivo</h2>
+        <p>La finalidad de este curso es aportar al asistente los conocimientos básicos de la
+            teoría y la práctica necesarios para el adecuado proceso de la información, desde la generación o
+            recolección de los datos, hasta la toma de decisiones a través de la descripción de la información,
+            estimación de parámetros, y la adecuada aplicación de las pruebas de hipótesis
+        </p>
+        <h2>Dirigido a</h2>
+        <p> Estudiantes, profesionales del área químico-biológica, de la salud y áreas a fines
+            (este curso, está dirigido básicamente a médicos, biólogos, enfermeros, psicólogos, trabajadores
+            sociales).
+        </p>
+        <p class="text-red-600">
+            Mín / Máx de alumnos: Mínimo 15, máximo 30.<br>
+            La apertura del curso está sujeta al mínimo de inscritos.</p>
     </div>
 </section>
 
@@ -137,62 +114,49 @@ include '../includes/templates/header.php';
 
 
 <!-- Start Section-->
-<section class="relative md:py-14 py-8">
-
+<section class="curso-horarios md:py-14">
     <div class="container">
-        <div class="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-1 gap-[30px]">
-
-
-            <div class="text-center px-6 mt-6">
-                <div class="w-20 h-20 bg-indigo-600/5 text-indigo-600 rounded-xl text-3xl flex align-middle justify-center items-center shadow-sm dark:shadow-gray-800 mx-auto">
+        <div class="curso-horarios-container grid grid-cols-1 lg:grid-cols-3 md:grid-cols-1 gap-[30px]">
+            <div>
+                <div>
                     <i class="uil uil-check-square"></i>
                 </div>
-
-                <div class="content mt-7">
-                    <h5 class="title h5 text-xl font-medium">Requisitos</h5>
-                    <p class="text-slate-400 mt-3">Licenciatura (mínimo 60% de créditos).</p>
-
+                <div>
+                    <h3>Requisitos</h3>
+                    <p>Licenciatura (mínimo 60% de créditos).</p>
                     <div class="mt-5">
                         <a href="#" data-type="iframe" class="video-play-icon read-more lightbox btn btn-link text-indigo-600 hover:text-indigo-600 after:bg-indigo-600 duration-500 ease-in-out">
                         </a>
                     </div>
                 </div>
             </div>
-
-
-            <div class="text-center px-6 mt-6">
-                <div class="w-20 h-20 bg-indigo-600/5 text-indigo-600 rounded-xl text-3xl flex align-middle justify-center items-center shadow-sm dark:shadow-gray-800 mx-auto">
+            <div>
+                <div>
                     <i class="uil uil-calendar-alt"></i>
                 </div>
-
-                <div class="content mt-7">
-                    <h5 class="title h5 text-xl font-medium">Horario</h5>
-                    <p class="text-slate-400 mt-3">Sesiones sincrónas: Viernes<br>
+                <div>
+                    <h3>Horario</h3>
+                    <p>Sesiones sincrónas: Viernes<br>
                         Horario: 17:00 a 20:00 hrs.</p>
-                    <p class="text-slate-400 mt-3">Sesiones asincrónas: Lunes a Jueves<br>
+                    <p>Sesiones asincrónas: Lunes a Jueves<br>
                         Horario: Una hora</p>
-
                     <div class="mt-5">
                         <a href="#" class="btn btn-link text-indigo-600 hover:text-red-600 after:bg-indigo-600 duration-500 ease-in-out">Total:
                             50 horas</a>
                     </div>
                 </div>
             </div>
-
-            <div class="text-center px-6 mt-6">
-                <div class="w-20 h-20 bg-indigo-600/5 text-indigo-600 rounded-xl text-3xl flex align-middle justify-center items-center shadow-sm dark:shadow-gray-800 mx-auto">
+            <div>
+                <div>
                     <i class="uil uil-map-marker"></i>
                 </div>
-
-                <div class="content mt-7">
-                    <h5 class="title h5 text-xl font-medium">Lugar</h5>
-                    <p class="text-slate-400 mt-3">Meet</p>
-                    <p class="text-slate-400 mt-3">Moodle<br>Abierto las 24horas</p>
+                <div>
+                    <h3>Lugar</h3>
+                    <p>Meet</p>
+                    <p>Moodle<br>Abierto las 24horas</p>
 
                 </div>
             </div>
-
-
         </div><!--end grid-->
     </div><!--end container-->
 
