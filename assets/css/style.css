@@ -739,5 +739,134 @@
 }
 
 .temario .secciones .contenido tbody tr {
-    
+    border-top-width: 1px !important;
+    --tw-border-opacity: 1 !important;
+    border-color: rgb(243 244 246 / var(--tw-border-opacity)) !important;
+}
+
+.temario .secciones .contenido tbody tr td {
+    padding: 1rem !important;
+}
+
+.inscripcion {
+    position: relative;
+    padding-top: 4rem !important;
+    padding-bottom: 4rem !important;
+    --tw-bg-opacity: 1 !important;
+    background-color: rgb(249 250 251 / var(--tw-bg-opacity)) !important;
+}
+
+.inscripcion > div .advertencia {
+    margin-top: 2.5rem !important;
+    text-align: center !important;
+}
+
+.inscripcion > div .advertencia i {
+    --tw-text-opacity: 1 !important;
+    color: rgb(220 38 38 / var(--tw-text-opacity)) !important;
+    font-size: 1.25rem !important;
+    line-height: 1.75rem !important;
+    margin-right: 0.5rem !important;
+}
+
+.inscripcion .titulo {
+    display: grid;
+    text-align: center !important;
+}
+
+.inscripcion .titulo h2 {
+    margin-bottom: 1rem !important;
+    font-size: 1.5rem;
+  line-height: 2rem !important;
+  line-height: 1.5 !important;
+  font-weight: 600 !important;
+}
+
+.inscripcion .titulo p{
+    --tw-text-opacity: 1 !important;
+    color: rgb(0 0 0 / var(--tw-text-opacity)) !important;
+    max-width: 36rem !important;
+    content: var(--tw-content) !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.inscripcion .pasos {
+    margin-top: 1rem !important;
+    margin-bottom: 2.5rem !important;
+}
+
+
+.inscripcion .pasos > div .paso-n h3{
+    position: relative;
+    margin-top: 0.5rem !important;
+    margin-bottom: 0.5rem !important;
+    font-weight: 600 !important;
+    font-size: 1.125rem !important;
+    line-height: 1.75rem !important;
+}
+
+.inscripcion .pasos > div .paso-n div {
+    float: left !important;
+    text-align: left !important;
+    margin-top: 1.5rem !important;
+}
+
+.inscripcion .pasos > div .paso-n div h4{
+    margin-bottom: 0.25rem !important;
+    font-weight: 600 !important;
+}
+
+.inscripcion .pasos > div .paso-n div p {
+    margin-top: 0.25rem !important;
+    margin-bottom: 0px !important;
+    --tw-text-opacity: 1 !important;
+    color: rgb(148 163 184 / var(--tw-text-opacity)) !important;
+    font-weight: bold;
+}
+
+.inscripcion .pasos > div .paso-n div p a {
+    --tw-text-opacity: 1 !important;
+    color: rgb(8 151 213 / var(--tw-text-opacity)) !important;
+    -webkit-transition-duration: 500ms !important;
+    transition-duration: 500ms !important;
+    -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1) !important;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+.inscripcion .pasos > div .paso-n div p a:hover {
+    --tw-text-opacity: 1 !important;
+    color: rgb(220 38 38 / var(--tw-text-opacity)) !important;
+}
+
+.inscripcion .pasos > div .paso-n div p a::after{
+    --tw-bg-opacity: 1 !important;
+    background-color: rgb(8 151 213 / var(--tw-bg-opacity)) !important;
+}
+
+.ayuda {
+    margin-top: 4rem !important;
+    margin-bottom: 4rem !important;
+}
+
+.ayuda .titulo {
+    padding-bottom: 2rem !important;
+    text-align: center !important;
+}
+
+.ayuda .titulo h2 {
+    margin-bottom: 1rem !important;
+    font-size: 1.5rem !important;
+    line-height: 2rem !important;
+    line-height: 1.5 !important;
+    font-weight: 600 !important;
+}
+
+.ayuda .titulo p {
+    --tw-text-opacity: 1 !important;
+    color: rgb(0 0 0 / var(--tw-text-opacity)) !important;
+    max-width: 36rem !important;
+    content: var(--tw-content) !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
 }

@@ -192,11 +192,6 @@ include '../includes/templates/header.php';
             </div>
         </div><!--end grid-->
     </div><!--end container-->
-
-
-
-
-
 </section>
 
 
@@ -216,28 +211,24 @@ include '../includes/templates/header.php';
                         </tr>
                     </thead>
                     <tbody>
-                        <tr class="border-t border-gray-100 dark:border-gray-700">
-                            <td class="p-4"><i class="uil uil-clipboard-alt"></i> I.1
+                        <tr>
+                            <td><i class="uil uil-clipboard-alt"></i> I.1
                                 Concepto e importancia de Estadística y Bioestadística.</td>
                         </tr>
-
-                        <tr class="border-t border-gray-100 dark:border-gray-700">
-                            <td class="p-4"><i class="uil uil-clipboard-alt"></i>I.2. Error,
+                        <tr>
+                            <td><i class="uil uil-clipboard-alt"></i>I.2. Error,
                                 precisión y exactitud. Poblaciones y muestras.</td>
                         </tr>
-
-                        <tr class="border-t border-gray-100 dark:border-gray-700">
-                            <td class="p-4"><i class="uil uil-clipboard-alt"></i>I.3.
+                        <tr>
+                            <td><i class="uil uil-clipboard-alt"></i>I.3.
                                 Criterios de inclusión, exclusión y eliminación.</td>
                         </tr>
-
-                        <tr class="border-t border-gray-100 dark:border-gray-700">
-                            <td class="p-4"><i class="uil uil-clipboard-alt"></i>I.4.
+                        <tr>
+                            <td><i class="uil uil-clipboard-alt"></i>I.4.
                                 Conceptos de población y muestra. Parámetros y estadísticos.</td>
                         </tr>
-
-                        <tr class="border-t border-gray-100 dark:border-gray-700">
-                            <td class="p-4"><i class="uil uil-clipboard-alt"></i> I.5. Tipos
+                        <tr>
+                            <td><i class="uil uil-clipboard-alt"></i> I.5. Tipos
                                 de variables y escalas de medición.
                             </td>
                         </tr>
@@ -248,50 +239,38 @@ include '../includes/templates/header.php';
 
         <div>
             <h3>II. ESTADÍSTICA DESCRIPTIVA</h3>
-
-            <div class="relative overflow-x-auto block w-full bg-white dark:bg-slate-900 shadow dark:shadow-gray-800 rounded-md">
-                <table class="w-full text-left">
+            <div class="contenido">
+                <table>
                     <thead>
                         <tr>
-                            <th class="px-4 py-5">Temas</th>
-                            <th class="px-4 py-5 text-right"></th>
+                            <th>Temas</th>
                         </tr>
                     </thead>
-
                     <tbody>
-                        <tr class="border-t border-gray-100 dark:border-gray-700">
-                            <td class="p-4"><i class="uil uil-clipboard-alt"></i> II.1
+                        <tr>
+                            <td><i class="uil uil-clipboard-alt"></i> II.1
                                 Representaciones gráficas de un conjunto de datos: Diagramas de barras.
                                 Pictogramas, Gráficas circulares, Diagrama tallo y hoja. Diagrama de tallo
                                 hoja y espejo, Diagrama de caja. Histograma. Polígono de frecuencias.
                                 Diagramas x, y
                             </td>
-                            <td class="p-4 text-right"></td>
                         </tr>
-
-                        <tr class="border-t border-gray-100 dark:border-gray-700">
-                            <td class="p-4"><i class="uil uil-clipboard-alt"></i>II.2.
+                        <tr>
+                            <td><i class="uil uil-clipboard-alt"></i>II.2.
                                 Descripción de variables numéricas: Medidas de tendencia central. Medidas de
                                 dispersión
                             </td>
-                            <td class="p-4 text-right"></i></td>
                         </tr>
-
-
-                        <tr class="border-t border-gray-100 dark:border-gray-700">
-                            <td class="p-4"><i class="uil uil-clipboard-alt"></i>II.3. Regla
+                        <tr>
+                            <td><i class="uil uil-clipboard-alt"></i>II.3. Regla
                                 empírica y teorema de Tchebyshev
                             </td>
-                            <td class="p-4 text-right"></i></td>
                         </tr>
-
-                        <tr class="border-t border-gray-100 dark:border-gray-700">
-                            <td class="p-4"><i class="uil uil-clipboard-alt"></i>II.4.
+                        <tr>
+                            <td><i class="uil uil-clipboard-alt"></i>II.4.
                                 Descripción de variables categóricas: tasas, razones, proporciones y
                                 porcentajes.
-
                             </td>
-                            <td class="p-4 text-right"></i></td>
                         </tr>
                     </tbody>
                 </table>
@@ -300,48 +279,35 @@ include '../includes/templates/header.php';
 
         <div>
             <h3>III. PROBABILIDAD</h3>
-
-            <div class="relative overflow-x-auto block w-full bg-white dark:bg-slate-900 shadow dark:shadow-gray-800 rounded-md">
+            <div class="contenido">
                 <table class="w-full text-left">
                     <thead>
                         <tr>
                             <th class="px-4 py-5">Temas</th>
-                            <th class="px-4 py-5 text-right"></th>
                         </tr>
                     </thead>
-
                     <tbody>
-                        <tr class="border-t border-gray-100 dark:border-gray-700">
-                            <td class="p-4"><i class="uil uil-clipboard-alt"></i>III.1.
+                        <tr>
+                            <td><i class="uil uil-clipboard-alt"></i>III.1.
                                 Conceptos: Fenómenos deterministas y estocásticos. Espacio muestral,
                                 experimentos, eventos </td>
-                            <td class="p-4 text-right"></td>
                         </tr>
-
-                        <tr class="border-t border-gray-100 dark:border-gray-700">
-                            <td class="p-4"><i class="uil uil-clipboard-alt"></i>III.2.
+                        <tr>
+                            <td><i class="uil uil-clipboard-alt"></i>III.2.
                                 Métodos de conteo Combinación y permutaciones </td>
-                            <td class="p-4 text-right"></td>
                         </tr>
-
-                        <tr class="border-t border-gray-100 dark:border-gray-700">
-                            <td class="p-4"><i class="uil uil-clipboard-alt"></i>III.3.
+                        <tr>
+                            <td><i class="uil uil-clipboard-alt"></i>III.3.
                                 Conceptos de probabilidad clásica y frecuentista </td>
-                            <td class="p-4 text-right"></td>
                         </tr>
-
-                        <tr class="border-t border-gray-100 dark:border-gray-700">
-                            <td class="p-4"><i class="uil uil-clipboard-alt"></i>III.4.
+                        <tr>
+                            <td><i class="uil uil-clipboard-alt"></i>III.4.
                                 Leyes de probabilidad: Ley de la adición, Ley del producto </td>
-                            <td class="p-4 text-right"></td>
                         </tr>
-
-                        <tr class="border-t border-gray-100 dark:border-gray-700">
-                            <td class="p-4"><i class="uil uil-clipboard-alt"></i>III.5.
+                        <tr>
+                            <td><i class="uil uil-clipboard-alt"></i>III.5.
                                 Cálculo de probabilidades </td>
-                            <td class="p-4 text-right"></td>
                         </tr>
-
                     </tbody>
                 </table>
             </div>
@@ -350,71 +316,50 @@ include '../includes/templates/header.php';
 
         <div>
             <h3>IV. INFERENCIA ESTADÍSTICA</h3>
-
-            <div class="relative overflow-x-auto block w-full bg-white dark:bg-slate-900 shadow dark:shadow-gray-800 rounded-md">
+            <div class="contenido">
                 <table class="w-full text-left">
                     <thead>
                         <tr>
                             <th class="px-4 py-5">Temas</th>
-                            <th class="px-4 py-5 text-right"></th>
                         </tr>
                     </thead>
-
                     <tbody>
-                        <tr class="border-t border-gray-100 dark:border-gray-700">
-                            <td class="p-4"><i class="uil uil-clipboard-alt"></i>IV.1.
+                        <tr>
+                            <td><i class="uil uil-clipboard-alt"></i>IV.1.
                                 Concepto de inferencia estadística </td>
-                            <td class="p-4 text-right"></td>
                         </tr>
-
-                        <tr class="border-t border-gray-100 dark:border-gray-700">
-                            <td class="p-4"><i class="uil uil-clipboard-alt"></i>IV.2.
+                        <tr>
+                            <td><i class="uil uil-clipboard-alt"></i>IV.2.
                                 Clasificación de la estadística: según tipo de variable </td>
-                            <td class="p-4 text-right"></td>
                         </tr>
-
-                        <tr class="border-t border-gray-100 dark:border-gray-700">
-                            <td class="p-4"><i class="uil uil-clipboard-alt"></i>IV.3.
+                        <tr>
+                            <td><i class="uil uil-clipboard-alt"></i>IV.3.
                                 Clasificación de la estadística: según número de variables </td>
-                            <td class="p-4 text-right"></td>
                         </tr>
-
-                        <tr class="border-t border-gray-100 dark:border-gray-700">
-                            <td class="p-4"><i class="uil uil-clipboard-alt"></i>IV.3.
+                        <tr>
+                            <td><i class="uil uil-clipboard-alt"></i>IV.3.
                                 Clasificación de la estadística: según número de variables </td>
-                            <td class="p-4 text-right"></td>
                         </tr>
-
-                        <tr class="border-t border-gray-100 dark:border-gray-700">
-                            <td class="p-4"><i class="uil uil-clipboard-alt"></i>IV.4.
+                        <tr>
+                            <td><i class="uil uil-clipboard-alt"></i>IV.4.
                                 Estimación puntual y de intervalo </td>
-                            <td class="p-4 text-right"></td>
                         </tr>
-
-                        <tr class="border-t border-gray-100 dark:border-gray-700">
-                            <td class="p-4"><i class="uil uil-clipboard-alt"></i>IV.5.
+                        <tr>
+                            <td><i class="uil uil-clipboard-alt"></i>IV.5.
                                 Intervalos de confianza </td>
-                            <td class="p-4 text-right"></td>
                         </tr>
-
-                        <tr class="border-t border-gray-100 dark:border-gray-700">
-                            <td class="p-4"><i class="uil uil-clipboard-alt"></i>IV.6.
-                                Pruebas de hipótesis </td>
-                            <td class="p-4 text-right"></td>
+                        <tr>
+                            <td><i class="uil uil-clipboard-alt"></i>IV.6.
+                                Pruebas de hipótesis</td>
                         </tr>
-
-                        <tr class="border-t border-gray-100 dark:border-gray-700">
-                            <td class="p-4"><i class="uil uil-clipboard-alt"></i>IV.7.
+                        <tr>
+                            <td><i class="uil uil-clipboard-alt"></i>IV.7.
                                 Procedimiento para la realización de pruebas de hipótesis </td>
-                            <td class="p-4 text-right"></td>
                         </tr>
-
-                        <tr class="border-t border-gray-100 dark:border-gray-700">
-                            <td class="p-4"><i class="uil uil-clipboard-alt"></i>IV.8.
+                        <tr>
+                            <td><i class="uil uil-clipboard-alt"></i>IV.8.
                                 Procedimiento para la realización de pruebas paramétricas </td>
-                            <td class="p-4 text-right"></td>
                         </tr>
-
                     </tbody>
                 </table>
             </div>
@@ -423,30 +368,23 @@ include '../includes/templates/header.php';
 
         <div>
             <h3>V. INTRODUCCIÓN A LOS MODELOS ESTADÍSTICOS LINEALES</h3>
-
-            <div class="relative overflow-x-auto block w-full bg-white dark:bg-slate-900 shadow dark:shadow-gray-800 rounded-md">
+            <div class="contenido">
                 <table class="w-full text-left">
                     <thead>
                         <tr>
                             <th class="px-4 py-5">Temas</th>
-                            <th class="px-4 py-5 text-right"></th>
                         </tr>
                     </thead>
-
                     <tbody>
-                        <tr class="border-t border-gray-100 dark:border-gray-700">
-                            <td class="p-4"><i class="uil uil-clipboard-alt"></i>V.1.
+                        <tr>
+                            <td><i class="uil uil-clipboard-alt"></i>V.1.
                                 Introducción a los modelos estadísticos lineales </td>
-                            <td class="p-4 text-right"></td>
                         </tr>
-
-                        <tr class="border-t border-gray-100 dark:border-gray-700">
-                            <td class="p-4"><i class="uil uil-clipboard-alt"></i>V.2.
+                        <tr>
+                            <td><i class="uil uil-clipboard-alt"></i>V.2.
                                 Modelos de regresión. Conceptos básicos. Supuestos. Aplicaciones
                             </td>
-                            <td class="p-4 text-right"></td>
                         </tr>
-
                     </tbody>
                 </table>
             </div>
@@ -459,81 +397,58 @@ include '../includes/templates/header.php';
 
 
 <!-- Start -->
-<section class="relative md:py-24 py-16 bg-gray-50 dark:bg-slate-800" id="inscripcion">
+<section class="inscripcion md:py-24" id="inscripcion">
     <div class="container">
-        <div class="grid grid-cols-1 pb-8 text-center">
-            <h6 class="text-indigo-600 text-sm font-bold uppercase mb-2"></h6>
-            <h3 class="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">Inscripción</h3>
-
-            <p class="text-slate-400 max-w-xl mx-auto">.</p>
-        </div><!--end grid-->
-
-        <div class="grid grid-cols-1 mt-4 mb-10">
+        <div class="titulo">
+            <h2 class="md:text-3xl md:leading-normal">Inscripción</h2>
+            <p>.</p>
+        </div>
+        <div class="pasos">
             <div class="relative after:content-[''] after:absolute after:top-0 md:after:right-0 md:after:left-0 after:w-px after:h-full md:after:m-auto after:border-l-2 after:border-dashed after:border-gray-200 dark:after:border-gray-700 ml-3 md:ml-0">
                 <!--Start content-->
                 <div class="ml-8 md:ml-0 relative after:content-[''] after:absolute after:top-[9px] after:rounded-full after:z-10 after:w-2.5 after:h-2.5 after:bg-indigo-600 md:after:mx-auto md:after:right-0 md:after:left-0 after:-left-9 before:content-[''] before:absolute md:before:mx-auto md:before:right-0 md:before:left-0 before:-left-11 before:rounded-full before:z-10 before:border-2 before:border-dashed before:border-gray-200 dark:before:border-gray-700 before:top-0 before:w-7 before:h-7 before:bg-white dark:before:bg-slate-900">
-                    <div class="grid md:grid-cols-2">
-                        <div class="md:text-right md:mr-8 relative">
-
-                            <h5 class="my-2 font-semibold text-lg">Paso 1</h5>
-                            <h6 class="text-slate text-sm mb-0"></h6>
-                        </div>
-
-                        <div class="float-left text-left md:ml-8 mt-6 md:mt-0">
-                            <h5 class="title mb-1 font-semibold">Realizar el pago en línea mediante "Plaza
-                                Prometeo", la tienda de la Facultad de Ciencias</h5>
-                            <p class="mt-1 mb-0 text-slate-400"><a href="https://tienda.fciencias.unam.mx" target="_blank" class="btn btn-link text-indigo-600 hover:text-red-600 after:bg-indigo-600 duration-500 ease-in-out">tienda.fciencias.unam.mx</a>
+                    <div class="paso-n grid md:grid-cols-2">
+                        <h3 class="md:text-right md:mr-8">Paso 1</h3>
+                        <div class="md:ml-8 md:mt-0">
+                            <h4>Realizar el pago en línea mediante "Plaza
+                                Prometeo", la tienda de la Facultad de Ciencias</h4>
+                            <p>
+                                <a href="https://tienda.fciencias.unam.mx" target="_blank">tienda.fciencias.unam.mx</a>
                             </p>
                         </div>
                     </div>
 
-                    <div class="grid md:grid-cols-2 mt-10">
-                        <div class="md:text-right md:mr-8 relative">
-
-                            <h5 class="my-2 font-semibold text-lg">Paso 2</h5>
-                            <h6 class="text-slate text-sm mb-0"></h6>
-                        </div>
-
-                        <div class="float-left text-left md:ml-8 mt-6 md:mt-0">
-                            <h5 class="title mb-1 font-semibold">Registrarse en este formato de inscripción</h5>
+                    <div class="paso-n grid md:grid-cols-2 mt-10">
+                        <h3 class="md:text-right md:mr-8">Paso 2</h3>
+                        <div class="md:ml-8 md:mt-0">
+                            <h4 class="title mb-1 font-semibold">Registrarse en este formato de inscripción</h4>
                             <p>(únicamente si usted ya hizo el pago)</p>
-                            <p class="mt-1 mb-0 text-slate-400"><a href="https://forms.gle/yA4Vr2xaF2QGzHf88" target="_blank" class="btn btn-link text-indigo-600 hover:text-red-600 after:bg-indigo-600 duration-500 ease-in-out">Formato
-                                    de inscripción</a></p>
+                            <p>
+                                <a href="https://forms.gle/yA4Vr2xaF2QGzHf88" target="_blank">Formato
+                                    de inscripción</a>
+                            </p>
                         </div>
                     </div>
-
                 </div>
-                <!--End content-->
-
-
-
-
-
-
             </div>
-        </div><!--end grid-->
-        <p class="mt-10 text-center"><i class="uil uil-exclamation-circle text-red-600 text-xl mr-2"></i>En caso de
-            cancelación, procederá la devolución de lo pagado con los criterios administrativos de la Facultad de
-            Ciencias.</p>
-    </div><!--end container-->
-</section><!--end section-->
-<!-- End -->
+        </div>
+        <p class="advertencia">
+            <i class="uil uil-exclamation-circle"></i>
+            En caso de cancelación, procederá la devolución de lo pagado con los criterios administrativos de la Facultad de
+            Ciencias.
+        </p>
+    </div>
+</section>
 
-<div class="container md:mt-24 mt-16 mb-16">
-    <div class="grid grid-cols-1 pb-8 text-center">
-        <h3 class="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">¿Necesitas ayuda?</h3>
 
-        <p class="text-slate-400 max-w-xl mx-auto">Contáctanos</p>
-    </div><!--end grid-->
+<div class="ayuda container md:mt-24">
+    <div class="titulo">
+        <h2 class="md:text-3xl md:leading-normal">¿Necesitas ayuda?</h2>
+        <p>Contáctanos</p>
+    </div>
 
     <div id="accordion-collapse" data-accordion="collapse" class="grid md:grid-cols-2 grid-cols-1 mt-8 md:gap-[30px]">
         <div>
-
-
-
-
-
-
             <div class="relative shadow dark:shadow-gray-800 rounded-md overflow-hidden mt-4">
                 <h2 class="text-base font-semibold" id="info-admin-col">
                     <button type="button" class="flex justify-between items-center p-5 w-full font-medium text-left" data-accordion-target="#info-admin" aria-expanded="false" aria-controls="info-admin">
@@ -577,13 +492,8 @@ include '../includes/templates/header.php';
         </div>
 
     </div>
-</div><!--end grid-->
+</div>
 
-</div>
-</div>
-</div><!--end container-->
-</section><!--end section-->
-<!-- End Section-->
 
 <?php
 include '../includes/templates/footer.php';
