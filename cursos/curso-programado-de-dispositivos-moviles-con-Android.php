@@ -2,8 +2,8 @@
 include '../includes/templates/header.php';
 ?>
 
-<!-- Start Hero -->
-<section class="relative table w-full py-36 lg:py-44 bg-[url('../../assets/images/cursos/bg-TortugasMexico.webp')] bg-no-repeat bg-center">
+
+<section class="portada lg:py-44 bg-[url('../../assets/images/cursos/bg-TortugasMexico.webp')]">
     <div class="absolute inset-0 bg-black opacity-75"></div>
     <div class="container">
         <div class="grid grid-cols-1 pb-8 text-center mt-10">
@@ -23,7 +23,7 @@ include '../includes/templates/header.php';
                 <span class=" text-white text-base font-bold px-2.5 py-0.5 rounded w-fit mx-auto h-5">Del 3 de mayo al 2 de junio de 2023</span>
             </div>
 
-        </div><!--end grid-->
+        </div>
     </div><!--end container-->
 
     <div class="absolute text-center z-10 bottom-5 right-0 left-0 mx-3">
@@ -63,7 +63,9 @@ include '../includes/templates/header.php';
             </li>
         </ul>
     </div>
-</section><!--end section-->
+</section>
+
+
 <div class="relative">
     <div class="shape absolute right-0 sm:-bottom-px -bottom-[2px] left-0 overflow-hidden z-1 text-white dark:text-slate-900">
         <svg class="w-full h-auto" viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -71,23 +73,23 @@ include '../includes/templates/header.php';
         </svg>
     </div>
 </div>
-<!-- End Hero -->
 
-<!-- Start Section-->
+
+
 <section class="relative md:py-20 py-16 overflow-hidden">
     <div class="container">
         <div class="grid grid-cols-1">
             <h5 class="text-2xl font-semibold mb-5">Descripción</h5>
 
             <p class="mb-3">El mundo civilizado moderno sería ininteligible sin los dispositivos móviles que poseemos. Nuestro acceso a datos e información de manera expedita resulta ya indispensable para nuestra vida cotidiana y es en buena medida a través de los dispositivos móviles que esto está garantizado. Es por ello que la programación de aplicaciones para dispositivos móviles cobra singular relevancia para aquellos dedicados al desarrollo de software. Todo un enorme potencial de usos y usuarios se abre al desarrollador de aplicaciones móviles.</p>
-        </div><!--end grid-->
+        </div>
 
 
         <div class="grid grid-cols-1">
             <h6 class="text-2xl font-semibold mb-5 mt-6">Objetivo</h6>
 
             <p class=" mb-3">El objetivo del curso es aprender a desarrollar aplicaciones en dispositivos móviles como teléfonos celulares, tablets, handhelds, y consolas de juegos en la plataforma Android 13</p>
-        </div><!--end grid-->
+        </div>
 
         <div class="grid grid-cols-1">
             <h6 class="text-2xl font-semibold mb-5 mt-6">Dirigido a</h6>
@@ -98,7 +100,7 @@ include '../includes/templates/header.php';
                 Mínimo 15<br>
                 La apertura del curso está sujeta al mínimo de inscritos.</p>
 
-        </div><!--end grid-->
+        </div>
 
 
         <!-- <div class="grid md:grid-cols-2 grid-cols-1 mt-6 gap-[30px]">
@@ -114,7 +116,7 @@ include '../includes/templates/header.php';
 
 
 
-<!-- Start Section-->
+
 <section class="relative md:py-14 py-8">
 
     <div class="container">
@@ -169,7 +171,7 @@ include '../includes/templates/header.php';
             </div>
 
 
-        </div><!--end grid-->
+        </div>
     </div><!--end container-->
 
 
@@ -180,7 +182,7 @@ include '../includes/templates/header.php';
         <div class="grid grid-cols-1 pb-8 text-center">
             <h3 class="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">Costo</h3>
 
-        </div><!--end grid-->
+        </div>
 
         <div class="grid grid-cols-1">
 
@@ -226,7 +228,7 @@ include '../includes/templates/header.php';
                     </div>
 
 
-                </div><!--end grid-->
+                </div>
             </div>
 
 
@@ -485,7 +487,7 @@ include '../includes/templates/header.php';
 </section>
 
 
-<!-- Start -->
+
 <section class="relative md:py-24 py-16 bg-gray-50 dark:bg-slate-800" id="inscripcion">
     <div class="container">
         <div class="grid grid-cols-1 text-center">
@@ -493,7 +495,7 @@ include '../includes/templates/header.php';
             <h3 class="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">Inscripción</h3>
 
             <p class="text-slate-400 max-w-xl mx-auto">.</p>
-        </div><!--end grid-->
+        </div>
 
         <div class="grid grid-cols-1 mt-4 mb-10">
             <div class="relative after:content-[''] after:absolute after:top-0 md:after:right-0 md:after:left-0 after:w-px after:h-full md:after:m-auto after:border-l-2 after:border-dashed after:border-gray-200 dark:after:border-gray-700 ml-3 md:ml-0">
@@ -533,20 +535,20 @@ include '../includes/templates/header.php';
                 <!--End content-->
 
             </div>
-        </div><!--end grid-->
+        </div>
         <p class="mt-10 text-center"><i class="uil uil-exclamation-circle text-red-600 text-xl mr-2"></i>En caso de
             cancelación, procederá la devolución de lo pagado con los criterios administrativos de la Facultad de
             Ciencias.</p>
     </div><!--end container-->
-</section><!--end section-->
-<!-- End -->
+</section>
+
 
 <div class="container md:mt-24 mt-16 mb-16">
     <div class="grid grid-cols-1 pb-8 text-center">
         <h3 class="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">¿Necesitas ayuda?</h3>
 
         <p class="text-slate-400 max-w-xl mx-auto">Contáctanos</p>
-    </div><!--end grid-->
+    </div>
 
     <div id="accordion-collapse" data-accordion="collapse" class="grid md:grid-cols-2 grid-cols-1 mt-8 md:gap-[30px]">
         <div>
@@ -598,13 +600,9 @@ include '../includes/templates/header.php';
         </div>
 
     </div>
-</div><!--end grid-->
+</div>
 
-</div>
-</div>
-</div><!--end container-->
-</section><!--end section-->
-<!-- End Section-->
+
 
 <?php
 include '../includes/templates/footer.php';

@@ -2,7 +2,8 @@
 include '../includes/templates/header.php';
 ?>
 
-<!-- Start Hero -->
+<!-- =========== PORTADA PRINCIPAL ========== -->
+
 <section class="portada lg:py-44 bg-[url('../../assets/images/cursos/bg-bioestadistica.webp')]">
     <div class="portada-opacity"></div>
     <div class="container">
@@ -25,48 +26,40 @@ include '../includes/templates/header.php';
                     Del 3 de marzo al 28 de abril de 2023
                 </span>
             </div>
-        </div><!--end grid-->
-    </div><!--end container-->
+        </div>
+    </div>
 
     <div class="datos">
         <ul>
-            <!-- <li class="inline breadcrumb-item uppercase text-[13px] font-bold duration-500 ease-in-out text-white/50 hover:text-white"><a href="index-course.php">Techwind</a></li>
-                   <li class="inline breadcrumb-item uppercase text-[13px] font-bold duration-500 ease-in-out text-white/50 hover:text-white"><a href="course-listing.php">Courses</a></li>
-                    <li class="inline breadcrumb-item uppercase text-[13px] font-bold duration-500 ease-in-out text-white" aria-current="page">Web Development</li> -->
-
             <li>
                 <i class="uil uil-calendar-alt"></i>
                 <span class="text-white/60 ml-1">Lu - Ju</span>
             </li>
-
             <li>
                 <i class="uil uil-bell-school"></i>
                 <span class="text-white/60 ml-1">17-20h</span>
             </li>
-
             <li>
                 <i class="uil uil-clock"></i>
                 <span class="text-white/60 ml-1">50 horas</span>
             </li>
-
             <li>
                 <i class="uil uil-map-marker"></i>
                 <span class="text-white/60 ml-1">Vía Meet y Moodle</span>
             </li>
-
             <li>
                 <i class="uil uil-user-circle"></i>
                 <span class="text-white/60 ml-1">Máx. 30 / Min. 15</span>
             </li>
-
             <li>
                 <i class="uil uil-shopping-cart text-green-600"></i>
                 <a href="#inscripcion" class="text-green-600">Inscribirse</a>
             </li>
         </ul>
     </div>
-</section><!--end section-->
+</section>
 
+<!-- =========== FONDO OSCURO DE PORTADA PRINCIPAL ========== -->
 
 <div class="relative">
     <div class="shape absolute right-0 sm:-bottom-px -bottom-[2px] left-0 overflow-hidden z-1 text-white dark:text-slate-900">
@@ -75,9 +68,9 @@ include '../includes/templates/header.php';
         </svg>
     </div>
 </div>
-<!-- End Hero -->
 
-<!-- Start Section-->
+<!-- =========== DESCRIPCION DEL CURSO  ========== -->
+
 <section class="oferta-academica md:py-20">
     <div class="container">
         <h2>Descripción</h2>
@@ -110,10 +103,8 @@ include '../includes/templates/header.php';
     </div>
 </section>
 
+<!-- =========== REQUISITOS, HORARIOS Y LUGAR DEL CURSO ========== -->
 
-
-
-<!-- Start Section-->
 <section class="curso-horarios md:py-14">
     <div class="container">
         <div class="curso-horarios-container grid grid-cols-1 lg:grid-cols-3 md:grid-cols-1 gap-[30px]">
@@ -156,12 +147,8 @@ include '../includes/templates/header.php';
                     <p>Moodle<br>Abierto las 24horas</p>
                 </div>
             </div>
-        </div><!--end grid-->
-    </div><!--end container-->
-
-
-
-
+        </div>
+    </div>
 
     <div class="curso-costo container">
         <h2 class="md:text-3xl md:leading-normal">Costo</h2>
@@ -190,12 +177,11 @@ include '../includes/templates/header.php';
                 </ul>
                 <a href="#inscripcion" class="btn">Inscribirse</a>
             </div>
-        </div><!--end grid-->
-    </div><!--end container-->
+        </div>
+    </div>
 </section>
 
-
-
+<!-- =========== TEMARIO DEL CURSO ========== -->
 
 <section class="temario md:py-24 container">
     <h2>Temario</h2>
@@ -276,7 +262,6 @@ include '../includes/templates/header.php';
                 </table>
             </div>
         </div>
-
         <div>
             <h3>III. PROBABILIDAD</h3>
             <div class="contenido">
@@ -312,8 +297,6 @@ include '../includes/templates/header.php';
                 </table>
             </div>
         </div>
-
-
         <div>
             <h3>IV. INFERENCIA ESTADÍSTICA</h3>
             <div class="contenido">
@@ -364,8 +347,6 @@ include '../includes/templates/header.php';
                 </table>
             </div>
         </div>
-
-
         <div>
             <h3>V. INTRODUCCIÓN A LOS MODELOS ESTADÍSTICOS LINEALES</h3>
             <div class="contenido">
@@ -389,14 +370,11 @@ include '../includes/templates/header.php';
                 </table>
             </div>
         </div>
-
     </div>
 </section>
 
+<!-- =========== INSCRIPCION DEL CURSO ========== -->
 
-
-
-<!-- Start -->
 <section class="inscripcion md:py-24" id="inscripcion">
     <div class="container">
         <div class="titulo">
@@ -405,7 +383,6 @@ include '../includes/templates/header.php';
         </div>
         <div class="pasos">
             <div class="relative after:content-[''] after:absolute after:top-0 md:after:right-0 md:after:left-0 after:w-px after:h-full md:after:m-auto after:border-l-2 after:border-dashed after:border-gray-200 dark:after:border-gray-700 ml-3 md:ml-0">
-                <!--Start content-->
                 <div class="ml-8 md:ml-0 relative after:content-[''] after:absolute after:top-[9px] after:rounded-full after:z-10 after:w-2.5 after:h-2.5 after:bg-indigo-600 md:after:mx-auto md:after:right-0 md:after:left-0 after:-left-9 before:content-[''] before:absolute md:before:mx-auto md:before:right-0 md:before:left-0 before:-left-11 before:rounded-full before:z-10 before:border-2 before:border-dashed before:border-gray-200 dark:before:border-gray-700 before:top-0 before:w-7 before:h-7 before:bg-white dark:before:bg-slate-900">
                     <div class="paso-n grid md:grid-cols-2">
                         <h3 class="md:text-right md:mr-8">Paso 1</h3>
@@ -440,18 +417,18 @@ include '../includes/templates/header.php';
     </div>
 </section>
 
+<!-- =========== NECESITAS AYUDA ========== -->
 
 <div class="ayuda container md:mt-24">
     <div class="titulo">
         <h2 class="md:text-3xl md:leading-normal">¿Necesitas ayuda?</h2>
         <p>Contáctanos</p>
     </div>
-
-    <div id="accordion-collapse" data-accordion="collapse" class="grid md:grid-cols-2 grid-cols-1 mt-8 md:gap-[30px]">
+    <div class="informacion grid md:grid-cols-2 grid-cols-1 mt-8 md:gap-[30px]" id="accordion-collapse" data-accordion="collapse" >
         <div>
-            <div class="relative shadow dark:shadow-gray-800 rounded-md overflow-hidden mt-4">
-                <h2 class="text-base font-semibold" id="info-admin-col">
-                    <button type="button" class="flex justify-between items-center p-5 w-full font-medium text-left" data-accordion-target="#info-admin" aria-expanded="false" aria-controls="info-admin">
+            <div>
+                <h2 id="info-admin-col">
+                    <button type="button" data-accordion-target="#info-admin" aria-expanded="false" aria-controls="info-admin">
                         <span>Información administrativa</span>
                         <svg data-accordion-icon class="w-4 h-4 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path>
@@ -471,9 +448,9 @@ include '../includes/templates/header.php';
             </div>
         </div>
         <div>
-            <div class="relative shadow dark:shadow-gray-800 rounded-md overflow-hidden mt-4">
-                <h2 class="text-base font-semibold" id="info-acad-col">
-                    <button type="button" class="flex justify-between items-center p-5 w-full font-medium text-left" data-accordion-target="#info-acad" aria-expanded="true" aria-controls="info-acad">
+            <div>
+                <h2 id="info-acad-col">
+                    <button type="button" data-accordion-target="#info-acad" aria-expanded="true" aria-controls="info-acad">
                         <span>Información académica</span>
                         <svg data-accordion-icon class="w-4 h-4 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path>
@@ -493,7 +470,6 @@ include '../includes/templates/header.php';
 
     </div>
 </div>
-
 
 <?php
 include '../includes/templates/footer.php';
