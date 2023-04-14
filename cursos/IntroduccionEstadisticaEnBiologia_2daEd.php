@@ -4,28 +4,27 @@
 
     <!-- Start Hero -->
     <section
-        class="relative table w-full py-36 lg:py-44 bg-[url('../../assets/images/cursos/bg-EstadisticaEnBiologia1.webp')] bg-no-repeat bg-center">
-        <div class="absolute inset-0 bg-black opacity-75"></div>
+        class="portada lg:py-44 bg-[url('../../assets/images/cursos/bg-EstadisticaEnBiologia1.webp')] ">
+        <div class="portada-opacity"></div>
         <div class="container">
-            <div class="grid grid-cols-1 pb-8 text-center mt-10">
-                <span class="bg-green-600 text-white text-xs font-bold px-2.5 py-0.5 rounded w-fit mx-auto h-5">$2,000 /
+            <div class="portada-informacion">
+                <span class="portada-informacion-pu">$2,000 /
                     UNAM</span>
-                <span class="bg-blue-900 text-white text-xs font-bold px-2.5 py-0.5 rounded w-fit mx-auto h-5">$2,500 /
+                <span class="portada-informacion-pg">$2,500 /
                     GENERAL</span>
-                <h3 class="mt-3 text-3xl leading-normal font-medium text-white">Introducción a la estadística en la
-                    biología</h3>
-                <p class="text-indigo-600">2da. Edición</p>
-                <div class="flex items-center mx-auto mt-3">
+                <h1>Introducción a la estadística en la biología</h1>
+                <p>2da. Edición</p>
+               <div class="profesor">
                     <img src="../assets/images/instructores/usr-m.jpg"
-                        class="h-10 w-10 rounded-full shadow-md dark:shadow-gray-800" alt="">
+                         alt="">
                     <a href="/assets/curriculums_docentes/AlejandroVillegasCastillo.pdf"
-                        class="font-semibold text-white block ml-3 hover:text-indigo-600" target="_blank">Dr. Alejandro
+                         target="_blank">Dr. Alejandro
                         Villegas Castillo</a>
                 </div>
 
-                <div class="grid grid-cols-1 pb-8 text-center mt-10">
-                    <i class="uil uil-calendar-alt text-lg text-white align-middle"></i>
-                    <span class=" text-white text-base font-bold px-2.5 py-0.5 rounded w-fit mx-auto h-5">Del 13 de
+                <div class="fecha">
+                    <i class="uil uil-calendar-alt"></i>
+                    <span>Del 13 de
                         febrero al 6 de marzo de 2023</span>
                 </div>
 

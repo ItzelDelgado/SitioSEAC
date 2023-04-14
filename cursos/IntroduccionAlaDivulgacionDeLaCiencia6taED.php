@@ -3,39 +3,38 @@
 ?>
     <!-- Start Hero -->
     <section
-        class="relative table w-full py-36 lg:py-44 bg-[url('../../assets/images/cursos/bg-DivulgacionCiencia.webp')] bg-no-repeat bg-center">
-        <div class="absolute inset-0 bg-black opacity-75"></div>
+        class="portada lg:py-44 bg-[url('../../assets/images/cursos/bg-DivulgacionCiencia.webp')] ">
+        <div class="portada-opacity"></div>
         <div class="container">
-            <div class="grid grid-cols-1 pb-8 text-center mt-10">
-                <span class="bg-green-600 text-white text-xs font-bold px-2.5 py-0.5 rounded w-fit mx-auto h-5">$2,200 /
+            <div class="portada-informacion">
+                <span class="portada-informacion-pu">$2,200 /
                     UNAM</span>
-                <span class="bg-blue-900 text-white text-xs font-bold px-2.5 py-0.5 rounded w-fit mx-auto h-5">$2,600 /
+                <span class="portada-informacion-pg">$2,600 /
                     GENERAL</span>
-                <h3 class="mt-3 text-3xl leading-normal font-medium text-white">
-                    Introducción a la divulgación de la Ciencia</h3>
-                <p class="text-indigo-600">6ta. Edición</p>
-                <div class="flex items-center mx-auto mt-3">
+                <h1>Introducción a la divulgación de la Ciencia</h1>
+                <p>6ta. Edición</p>
+               <div class="profesor">
                     <img src="../assets/images/instructores/usr-m.jpg"
-                        class="h-10 w-10 rounded-full shadow-md dark:shadow-gray-800" alt="">
-                    <a href="#" class="font-semibold text-white block ml-3 hover:text-indigo-600"
+                         alt="">
+                    <a href="#" 
                         target="_blank">Maestra en Ciencias Patricia Magaña Rueda</a>
                 </div>
-                <div class="flex items-center mx-auto mt-3">
+               <div class="profesor">
                     <img src="../assets/images/instructores/usr-m.jpg"
-                        class="h-10 w-10 rounded-full shadow-md dark:shadow-gray-800" alt="">
-                    <a href="#" class="font-semibold text-white block ml-3 hover:text-indigo-600" target="_blank">Dra.
+                         alt="">
+                    <a href="#"  target="_blank">Dra.
                         Clementina Equihua Zamora</a>
                 </div>
-                <div class="flex items-center mx-auto mt-3">
+               <div class="profesor">
                     <img src="../assets/images/instructores/usr-m.jpg"
-                        class="h-10 w-10 rounded-full shadow-md dark:shadow-gray-800" alt="">
-                    <a href="#" class="font-semibold text-white block ml-3 hover:text-indigo-600" target="_blank">Dra.
+                         alt="">
+                    <a href="#"  target="_blank">Dra.
                         Bio. Paloma Zubieta López</a>
                 </div>
 
-                <div class="grid grid-cols-1 pb-8 text-center mt-10">
-                    <i class="uil uil-calendar-alt text-lg text-white align-middle"></i>
-                    <span class=" text-white text-base font-bold px-2.5 py-0.5 rounded w-fit mx-auto h-5">Del 14 de
+                <div class="fecha">
+                    <i class="uil uil-calendar-alt"></i>
+                    <span>Del 14 de
                         abril al 12 de mayo del 2023</span>
                 </div>
 

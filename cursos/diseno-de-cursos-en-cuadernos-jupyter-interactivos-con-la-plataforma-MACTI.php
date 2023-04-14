@@ -4,43 +4,43 @@
 
     <!-- Start Hero -->
     <section
-        class="relative table w-full py-36 lg:py-44 bg-[url('../../assets/images/cursos/bg-TortugasMexico.webp')] bg-no-repeat bg-center">
-        <div class="absolute inset-0 bg-black opacity-75"></div>
+        class="portada lg:py-44 bg-[url('../../assets/images/cursos/bg-TortugasMexico.webp')] ">
+        <div class="portada-opacity"></div>
         <div class="container">
-            <div class="grid grid-cols-1 pb-8 text-center mt-10">
-                <span class="bg-green-600 text-white text-xs font-bold px-2.5 py-0.5 rounded w-fit mx-auto h-5">$3,600 /
+            <div class="portada-informacion">
+                <span class="portada-informacion-pu">$3,600 /
                     UNAM</span>
-                <span class="bg-blue-900 text-white text-xs font-bold px-2.5 py-0.5 rounded w-fit mx-auto h-5">$3,000 /
+                <span class="portada-informacion-pg">$3,000 /
                     GENERAL</span>
-                <p class="text-indigo-600">15% de descuento por concepto de pronto pago (hasta el 3 de abril)</p>
+                <p>15% de descuento por concepto de pronto pago (hasta el 3 de abril)</p>
                 <span class="bg-red-600 text-white text-xs font-bold px-2.5 py-0.5 rounded w-fit mx-auto h-5">$3,060 /
                     UNAM</span>
-                <span class="bg-blue-900 text-white text-xs font-bold px-2.5 py-0.5 rounded w-fit mx-auto h-5">$2,550 /
+                <span class="portada-informacion-pg">$2,550 /
                     GENERAL</span>
-                <h3 class="mt-3 text-3xl leading-normal font-medium text-white">Diseño de cursos en cuadernos Jupyter interactivos con la plataforma MACTI</h3>
-                <p class="text-indigo-600">1ra. Edición</p>
-                <div class="flex items-center mx-auto mt-3">
+                <h1>Diseño de cursos en cuadernos Jupyter interactivos con la plataforma MACTI</h1>
+                <p>1ra. Edición</p>
+               <div class="profesor">
                     <img src="../assets/images/instructores/usr-m.jpg"
-                        class="h-10 w-10 rounded-full shadow-md dark:shadow-gray-800" alt="">
+                         alt="">
                     <a href="../assets/curriculums_docentes/GraciaPatriciaGonzalesPor.pdf"
-                        class="font-semibold text-white block ml-3 hover:text-indigo-600" target="_blank">Dr. Luis Miguel de la Cruz Salas, Instituto de Geofísica</a>
+                         target="_blank">Dr. Luis Miguel de la Cruz Salas, Instituto de Geofísica</a>
                 </div>
-                <div class="flex items-center mx-auto mt-3">
+               <div class="profesor">
                     <img src="../assets/images/instructores/usr-m.jpg"
-                        class="h-10 w-10 rounded-full shadow-md dark:shadow-gray-800" alt="">
+                         alt="">
                     <a href="../assets/curriculums_docentes/GraciaPatriciaGonzalesPor.pdf"
-                        class="font-semibold text-white block ml-3 hover:text-indigo-600" target="_blank">Mtro. Miguel Angel Pérez León, Facultad de Ciencias</a>
+                         target="_blank">Mtro. Miguel Angel Pérez León, Facultad de Ciencias</a>
                 </div>
-                <div class="flex items-center mx-auto mt-3">
+               <div class="profesor">
                     <img src="../assets/images/instructores/usr-m.jpg"
-                        class="h-10 w-10 rounded-full shadow-md dark:shadow-gray-800" alt="">
+                         alt="">
                     <a href="../assets/curriculums_docentes/GraciaPatriciaGonzalesPor.pdf"
-                        class="font-semibold text-white block ml-3 hover:text-indigo-600" target="_blank">Ing. Juan Eduardo Murrieta León, Instituto de Ciencias Nucleares</a>
+                         target="_blank">Ing. Juan Eduardo Murrieta León, Instituto de Ciencias Nucleares</a>
                 </div>
 
-                <div class="grid grid-cols-1 pb-8 text-center mt-10">
-                    <i class="uil uil-calendar-alt text-lg text-white align-middle"></i>
-                    <span class=" text-white text-base font-bold px-2.5 py-0.5 rounded w-fit mx-auto h-5">Del 1 al 24 de junio de 2023</span>
+                <div class="fecha">
+                    <i class="uil uil-calendar-alt"></i>
+                    <span>Del 1 al 24 de junio de 2023</span>
                 </div>
 
             </div><!--end grid-->

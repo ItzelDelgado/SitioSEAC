@@ -4,31 +4,31 @@
 
     <!-- Start Hero -->
     <section
-        class="relative table w-full py-36 lg:py-44 bg-[url('../../assets/images/cursos/bg-FaunaSilvestre.webp')] bg-no-repeat bg-center">
-        <div class="absolute inset-0 bg-black opacity-75"></div>
+        class="portada lg:py-44 bg-[url('../../assets/images/cursos/bg-FaunaSilvestre.webp')] ">
+        <div class="portada-opacity"></div>
         <div class="container">
-            <div class="grid grid-cols-1 pb-8 text-center mt-10">
-                <span class="bg-green-600 text-white text-xs font-bold px-2.5 py-0.5 rounded w-fit mx-auto h-5">$2,700 /
+            <div class="portada-informacion">
+                <span class="portada-informacion-pu">$2,700 /
                     UNAM</span>
-                <span class="bg-blue-900 text-white text-xs font-bold px-2.5 py-0.5 rounded w-fit mx-auto h-5">$3,200 /
+                <span class="portada-informacion-pg">$3,200 /
                     GENERAL</span>
-                <p class="text-indigo-600">15% de descuento por concepto de pronto pago (hasta el 3 de abril)</p>
+                <p>15% de descuento por concepto de pronto pago (hasta el 3 de abril)</p>
                 <span class="bg-red-600 text-white text-xs font-bold px-2.5 py-0.5 rounded w-fit mx-auto h-5">$2,295 /
                     UNAM</span>
-                <span class="bg-blue-900 text-white text-xs font-bold px-2.5 py-0.5 rounded w-fit mx-auto h-5">$2,720 /
+                <span class="portada-informacion-pg">$2,720 /
                     GENERAL</span>
-                <h3 class="mt-3 text-3xl leading-normal font-medium text-white">Rescate y rehabilitación de fauna silvestre</h3>
-                <p class="text-indigo-600">6ta. Edición</p>
-                <div class="flex items-center mx-auto mt-3">
+                <h1>Rescate y rehabilitación de fauna silvestre</h1>
+                <p>6ta. Edición</p>
+               <div class="profesor">
                     <img src="../assets/images/instructores/usr-m.jpg"
-                        class="h-10 w-10 rounded-full shadow-md dark:shadow-gray-800" alt="">
+                         alt="">
                     <a href="../assets/curriculums_docentes/RosaliaPastorNieto.pdf"
-                        class="font-semibold text-white block ml-3 hover:text-indigo-600" target="_blank">Dra. Rosalía Pastor Nieto</a>
+                         target="_blank">Dra. Rosalía Pastor Nieto</a>
                 </div>
 
-                <div class="grid grid-cols-1 pb-8 text-center mt-10">
-                    <i class="uil uil-calendar-alt text-lg text-white align-middle"></i>
-                    <span class=" text-white text-base font-bold px-2.5 py-0.5 rounded w-fit mx-auto h-5">Del 17 de
+                <div class="fecha">
+                    <i class="uil uil-calendar-alt"></i>
+                    <span>Del 17 de
                         abril al 26 de junio de 2023</span>
                 </div>
 

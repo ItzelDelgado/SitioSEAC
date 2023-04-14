@@ -4,33 +4,32 @@
 
     <!-- Start Hero -->
     <section
-        class="relative table w-full py-36 lg:py-44 bg-[url('../../assets/images/cursos/bg-estadica-aplicada-diseño-est-exp.webp')] bg-no-repeat bg-center">
-        <div class="absolute inset-0 bg-black opacity-75"></div>
+        class="portada lg:py-44 bg-[url('../../assets/images/cursos/bg-estadica-aplicada-diseño-est-exp.webp')] ">
+        <div class="portada-opacity"></div>
         <div class="container">
-            <div class="grid grid-cols-1 pb-8 text-center mt-10">
-                <span class="bg-green-600 text-white text-xs font-bold px-2.5 py-0.5 rounded w-fit mx-auto h-5">$4,800 /
+            <div class="portada-informacion">
+                <span class="portada-informacion-pu">$4,800 /
                     UNAM</span>
-                <span class="bg-blue-900 text-white text-xs font-bold px-2.5 py-0.5 rounded w-fit mx-auto h-5">$5,800 /
+                <span class="portada-informacion-pg">$5,800 /
                     GENERAL</span>
-                <h3 class="mt-3 text-3xl leading-normal font-medium text-white"> 
-                    Estadística aplicada al diseño y análisis de estudios experimentales</h3>
-                <p class="text-indigo-600">7ma. Edición</p>
-                <div class="flex items-center mx-auto mt-3">
+                <h1>Estadística aplicada al diseño y análisis de estudios experimentales</h1>
+                <p>7ma. Edición</p>
+               <div class="profesor">
                     <img src="../assets/images/instructores/usr-m.jpg"
-                        class="h-10 w-10 rounded-full shadow-md dark:shadow-gray-800" alt="">
+                         alt="">
                     <a href="../assets/curriculums_docentes/MaLourdesBarbosaSal.pdf"
-                        class="font-semibold text-white block ml-3 hover:text-indigo-600" target="_blank">Dra. María de Lourdes Barbosa Saldaña</a>
+                         target="_blank">Dra. María de Lourdes Barbosa Saldaña</a>
                 </div>
-                <div class="flex items-center mx-auto mt-3">
+               <div class="profesor">
                     <img src="../assets/images/instructores/usr-m.jpg"
-                        class="h-10 w-10 rounded-full shadow-md dark:shadow-gray-800" alt="">
+                         alt="">
                     <a href="../assets/curriculums_docentes/MaGuadalupeCamachoSan.pdf"
-                        class="font-semibold text-white block ml-3 hover:text-indigo-600" target="_blank">Biol. María Guadalupe Camacho Sánchez</a>
+                         target="_blank">Biol. María Guadalupe Camacho Sánchez</a>
                 </div>
 
-                <div class="grid grid-cols-1 pb-8 text-center mt-10">
-                    <i class="uil uil-calendar-alt text-lg text-white align-middle"></i>
-                    <span class=" text-white text-base font-bold px-2.5 py-0.5 rounded w-fit mx-auto h-5">Del 4 de marzo al 27 de mayo del 2023</span>
+                <div class="fecha">
+                    <i class="uil uil-calendar-alt"></i>
+                    <span>Del 4 de marzo al 27 de mayo del 2023</span>
                 </div>
 
             </div><!--end grid-->

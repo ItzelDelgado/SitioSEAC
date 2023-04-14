@@ -4,28 +4,27 @@
 
     <!-- Start Hero -->
     <section
-        class="relative table w-full py-36 lg:py-44 bg-[url('../../assets/images/cursos/bg-CursoR.webp')] bg-no-repeat bg-center">
-        <div class="absolute inset-0 bg-black opacity-75"></div>
+        class="portada lg:py-44 bg-[url('../../assets/images/cursos/bg-CursoR.webp')] ">
+        <div class="portada-opacity"></div>
         <div class="container">
-            <div class="grid grid-cols-1 pb-8 text-center mt-10">
-                <span class="bg-green-600 text-white text-xs font-bold px-2.5 py-0.5 rounded w-fit mx-auto h-5">$4,000 /
+            <div class="portada-informacion">
+                <span class="portada-informacion-pu">$4,000 /
                     UNAM</span>
-                <span class="bg-blue-900 text-white text-xs font-bold px-2.5 py-0.5 rounded w-fit mx-auto h-5">$5,000 /
+                <span class="portada-informacion-pg">$5,000 /
                     GENERAL</span>
-                <h3 class="mt-3 text-3xl leading-normal font-medium text-white">Introducción a la programación en R y su
-                    aplicación a la inferencia estadística I</h3>
-                <p class="text-indigo-600">15a. Edición</p>
-                <div class="flex items-center mx-auto mt-3">
+                <h1>Introducción a la programación en R y su aplicación a la inferencia estadística I</h1>
+                <p>15a. Edición</p>
+               <div class="profesor">
                     <img src="../assets/images/instructores/usr-m.jpg"
-                        class="h-10 w-10 rounded-full shadow-md dark:shadow-gray-800" alt="">
+                         alt="">
                     <a href="/assets/curriculums_docentes/JesusJuradoMolina.pdf"
-                        class="font-semibold text-white block ml-3 hover:text-indigo-600" target="_blank">Dr. Jesús
+                         target="_blank">Dr. Jesús
                         Jurado Molina</a>
                 </div>
 
-                <div class="grid grid-cols-1 pb-8 text-center mt-10">
-                    <i class="uil uil-calendar-alt text-lg text-white align-middle"></i>
-                    <span class=" text-white text-base font-bold px-2.5 py-0.5 rounded w-fit mx-auto h-5">Del 6 de mayo
+                <div class="fecha">
+                    <i class="uil uil-calendar-alt"></i>
+                    <span>Del 6 de mayo
                         al 24 de junio de 2023</span>
                 </div>
 

@@ -4,22 +4,21 @@
 
     <!-- Start Hero -->
     <section
-        class="relative table w-full py-36 lg:py-44 bg-[url('../../assets/images/cursos/bg-Excel1.webp')] bg-no-repeat bg-center">
-        <div class="absolute inset-0 bg-black opacity-75"></div>
+        class="portada lg:py-44 bg-[url('../../assets/images/cursos/bg-Excel1.webp')] ">
+        <div class="portada-opacity"></div>
         <div class="container">
-            <div class="grid grid-cols-1 pb-8 text-center mt-10">
-                <span class="bg-green-600 text-white text-xs font-bold px-2.5 py-0.5 rounded w-fit mx-auto h-5">$2,000 /
+            <div class="portada-informacion">
+                <span class="portada-informacion-pu">$2,000 /
                     UNAM</span>
-                <span class="bg-blue-900 text-white text-xs font-bold px-2.5 py-0.5 rounded w-fit mx-auto h-5">$2,500 /
+                <span class="portada-informacion-pg">$2,500 /
                     GENERAL</span>
-                <h3 class="mt-3 text-3xl leading-normal font-medium text-white"> 
-                    Excel, uso y aplicaciones</h3>
-                <p class="text-indigo-600">3ra. Edición</p>
-                <div class="flex items-center mx-auto mt-3">
+                <h1>Excel, uso y aplicaciones</h1>
+                <p>3ra. Edición</p>
+               <div class="profesor">
                     <img src="../assets/images/instructores/usr-m.jpg"
-                        class="h-10 w-10 rounded-full shadow-md dark:shadow-gray-800" alt="">
+                         alt="">
                     <a href="../assets/curriculums_docentes/JesusJuradoMolina.pdf"
-                        class="font-semibold text-white block ml-3 hover:text-indigo-600" target="_blank">Dr. Jesús Juerado Molina</a>
+                         target="_blank">Dr. Jesús Juerado Molina</a>
                 </div>
             </div><!--end grid-->
         </div><!--end container-->

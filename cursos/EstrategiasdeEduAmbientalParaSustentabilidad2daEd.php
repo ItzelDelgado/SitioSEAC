@@ -4,30 +4,30 @@
 
     <!-- Start Hero -->
     <section
-        class="relative table w-full py-36 lg:py-44 bg-[url('../../assets/images/cursos/bg-estrategias-edu-ambiental-para-sustentabilidad.webp')] bg-no-repeat bg-center">
-        <div class="absolute inset-0 bg-black opacity-75"></div>
+        class="portada lg:py-44 bg-[url('../../assets/images/cursos/bg-estrategias-edu-ambiental-para-sustentabilidad.webp')] ">
+        <div class="portada-opacity"></div>
         <div class="container">
-            <div class="grid grid-cols-1 pb-8 text-center mt-10">
-                <span class="bg-green-600 text-white text-xs font-bold px-2.5 py-0.5 rounded w-fit mx-auto h-5">$4,800 /
+            <div class="portada-informacion">
+                <span class="portada-informacion-pu">$4,800 /
                     UNAM</span>
-                <span class="bg-blue-900 text-white text-xs font-bold px-2.5 py-0.5 rounded w-fit mx-auto h-5">$5,700 /
+                <span class="portada-informacion-pg">$5,700 /
                     GENERAL</span>
-                <h3 class="mt-3 text-3xl leading-normal font-medium text-white">Estrategias de educación ambiental para la sustentabilidad</h3>
-                <p class="text-indigo-600">2da. Edición</p>
-                <div class="flex items-center mx-auto mt-3">
+                <h1>Estrategias de educación ambiental para la sustentabilidad</h1>
+                <p>2da. Edición</p>
+               <div class="profesor">
                     <img src="../assets/images/instructores/usr-m.jpg"
-                        class="h-10 w-10 rounded-full shadow-md dark:shadow-gray-800" alt="">
+                         alt="">
                     <a href="/assets/curriculums_docentes/IramaMariselaNunezTancredi.pdf"
-                        class="font-semibold text-white block ml-3 hover:text-indigo-600" target="_blank">Dra. Irama Silvia Marisela Núñez Tancredi</a>
+                         target="_blank">Dra. Irama Silvia Marisela Núñez Tancredi</a>
                     <a href="/assets/curriculums_docentes/StepChantalSeguraEspi.pdf"
-                        class="font-semibold text-white block ml-3 hover:text-indigo-600" target="_blank">Lic. Stephanie Chantal Segura Espinosa</a>
+                         target="_blank">Lic. Stephanie Chantal Segura Espinosa</a>
                     <a href="/assets/curriculums_docentes/AngelRodrigoGonzalezGonzalez.pdf"
-                        class="font-semibold text-white block ml-3 hover:text-indigo-600" target="_blank">M. en C. Ángel Rodrigo González González</a>
+                         target="_blank">M. en C. Ángel Rodrigo González González</a>
                 </div>
 
-                <div class="grid grid-cols-1 pb-8 text-center mt-10">
-                    <i class="uil uil-calendar-alt text-lg text-white align-middle"></i>
-                    <span class=" text-white text-base font-bold px-2.5 py-0.5 rounded w-fit mx-auto h-5">Del 11 de
+                <div class="fecha">
+                    <i class="uil uil-calendar-alt"></i>
+                    <span>Del 11 de
                         marzo al 6 de mayo de 2023</span>
                 </div>
 

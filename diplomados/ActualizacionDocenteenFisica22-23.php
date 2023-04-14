@@ -4,37 +4,37 @@
 
     <!-- Start Hero -->
     <section
-        class="relative table w-full py-36 lg:py-44 bg-[url('../../assets/images/diplomados/bg-DiplomadoFisica.webp')] bg-no-repeat bg-center">
-        <div class="absolute inset-0 bg-black opacity-75"></div>
+        class="portada lg:py-44 bg-[url('../../assets/images/diplomados/bg-DiplomadoFisica.webp')] ">
+        <div class="portada-opacity"></div>
         <div class="container">
-            <div class="grid grid-cols-1 pb-8 text-center mt-10">
-                <span class="bg-green-600 text-white text-xs font-bold px-2.5 py-0.5 rounded w-fit mx-auto h-5">$12,000
+            <div class="portada-informacion">
+                <span class="portada-informacion-pu">$12,000
                     /
                     UNAM</span>
-                <span class="bg-blue-900 text-white text-xs font-bold px-2.5 py-0.5 rounded w-fit mx-auto h-5">$18,000 /
+                <span class="portada-informacion-pg">$18,000 /
                     GENERAL</span>
-                <p class="text-indigo-600">Pago por módulo</p>
+                <p>Pago por módulo</p>
                 <span class="bg-red-600 text-white text-xs font-bold px-2.5 py-0.5 rounded w-fit mx-auto h-5">$1,200 /
                     UNAM</span>
-                <span class="bg-blue-900 text-white text-xs font-bold px-2.5 py-0.5 rounded w-fit mx-auto h-5">$1,500 /
+                <span class="portada-informacion-pg">$1,500 /
                     GENERAL</span>
-                <h3 class="mt-3 text-3xl leading-normal font-medium text-white">Actualización Docente en Física</h3>
-                <p class="text-indigo-600">Programa 2022-2023</p>
-                <div class="flex items-center mx-auto mt-3">
+                <h1>Actualización Docente en Física</h1>
+                <p>Programa 2022-2023</p>
+               <div class="profesor">
                     <img src="../assets/images/instructores/usr-m.jpg"
-                        class="h-10 w-10 rounded-full shadow-md dark:shadow-gray-800" alt="">
-                    <a href="#" class="font-semibold text-white block ml-3 hover:text-indigo-600" target="_blank">Dra.
+                         alt="">
+                    <a href="#"  target="_blank">Dra.
                         Mirna Villavicencio Torres</a>
                 </div>
-                <div class="flex items-center mx-auto mt-3">
+               <div class="profesor">
                     <img src="../assets/images/instructores/usr-m.jpg"
-                        class="h-10 w-10 rounded-full shadow-md dark:shadow-gray-800" alt="">
-                    <a href="#" class="font-semibold text-white block ml-3 hover:text-indigo-600" target="_blank">Dr. Ricardo Méndez Fragoso</a>
+                         alt="">
+                    <a href="#"  target="_blank">Dr. Ricardo Méndez Fragoso</a>
                 </div>
 
-                <div class="grid grid-cols-1 pb-8 text-center mt-10">
-                    <i class="uil uil-calendar-alt text-lg text-white align-middle"></i>
-                    <span class=" text-white text-base font-bold px-2.5 py-0.5 rounded w-fit mx-auto h-5">Del 19 de mayo de 2022 al 7 de diciembre de 2023</span>
+                <div class="fecha">
+                    <i class="uil uil-calendar-alt"></i>
+                    <span>Del 19 de mayo de 2022 al 7 de diciembre de 2023</span>
                 </div>
 
             </div><!--end grid-->

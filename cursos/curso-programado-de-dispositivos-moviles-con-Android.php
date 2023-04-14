@@ -3,24 +3,24 @@ include '../includes/templates/header.php';
 ?>
 
 
-<section class="portada lg:py-44 bg-[url('../../assets/images/cursos/bg-TortugasMexico.webp')]">
-    <div class="absolute inset-0 bg-black opacity-75"></div>
+<section class="portada lg:py-44 bg-[url('../../assets/images/cursos/bg-TortugasMexico.webp')] ">
+    <div class="portada-opacity"></div>
     <div class="container">
-        <div class="grid grid-cols-1 pb-8 text-center mt-10">
-            <span class="bg-green-600 text-white text-xs font-bold px-2.5 py-0.5 rounded w-fit mx-auto h-5">$3,600 /
+        <div class="portada-informacion">
+            <span class="portada-informacion-pu">$3,600 /
                 UNAM</span>
-            <span class="bg-blue-900 text-white text-xs font-bold px-2.5 py-0.5 rounded w-fit mx-auto h-5">$3,000 /
+            <span class="portada-informacion-pg">$3,000 /
                 GENERAL</span>
-            <h3 class="mt-3 text-3xl leading-normal font-medium text-white">Programación de dispositivos móviles con Android</h3>
-            <p class="text-indigo-600">1ra. Edición</p>
-            <div class="flex items-center mx-auto mt-3">
-                <img src="../assets/images/instructores/usr-m.jpg" class="h-10 w-10 rounded-full shadow-md dark:shadow-gray-800" alt="">
+            <h1>Programación de dispositivos móviles con Android</h1>
+            <p>1ra. Edición</p>
+            <div class="profesor">
+                <img src="../assets/images/instructores/usr-m.jpg"  alt="">
                 <a href="../assets/curriculums_docentes/GraciaPatriciaGonzalesPor.pdf" class="font-semibold text-white block ml-3 hover:text-indigo-600" target="_blank">M. en C. Gustavo Márquez Flores</a>
             </div>
 
-            <div class="grid grid-cols-1 pb-8 text-center mt-10">
-                <i class="uil uil-calendar-alt text-lg text-white align-middle"></i>
-                <span class=" text-white text-base font-bold px-2.5 py-0.5 rounded w-fit mx-auto h-5">Del 3 de mayo al 2 de junio de 2023</span>
+            <div class="fecha">
+                <i class="uil uil-calendar-alt"></i>
+                <span>Del 3 de mayo al 2 de junio de 2023</span>
             </div>
 
         </div>
