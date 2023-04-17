@@ -9,8 +9,8 @@ include './includes/templates/header.php';
         <div class="grid grid-cols-1 pb-8 text-center mt-10">
             <h3 class="md:text-4xl text-3xl md:leading-normal tracking-wide leading-normal font-medium text-white">
                 Contacto</h3>
-        </div><!--end grid-->
-    </div><!--end container-->
+        </div>
+    </div>
 
 
 </section><!--end section-->
@@ -81,7 +81,7 @@ include './includes/templates/header.php';
                 </div>
 
             </div>
-        </div><!--end grid-->
+        </div>
         <div>
             <h5 class="text-2xl font-semibold mb-5 mt-16 text-center">Siguenos en nuestras redes sociales</h5>
             <div class="flex justify-center gap-6 mt-10">
@@ -109,7 +109,7 @@ include './includes/templates/header.php';
                 </div>
             </div>
         </div>
-    </div><!--end container-->
+    </div>
 
 
 

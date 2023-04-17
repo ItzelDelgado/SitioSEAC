@@ -124,6 +124,6 @@
 
               </ul><!--end navigation menu-->
           </div><!--end navigation-->
-      </div><!--end container-->
+      </div>
   </nav><!--end header-->
   <!-- End Navbar -->

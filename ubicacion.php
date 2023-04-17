@@ -9,8 +9,8 @@
         <div class="container">
             <div class="grid grid-cols-1 pb-8 text-center mt-10">
                 <h3 class="mt-3 text-3xl leading-normal font-medium text-white">Ubicación</h3>
-            </div><!--end grid-->
-        </div><!--end container-->
+            </div>
+        </div>
     </section><!--end section-->
     <div class="relative">
         <div

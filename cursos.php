@@ -10,8 +10,8 @@ include './includes/templates/header.php';
     <div class="grid grid-cols-1 pb-8 text-center mt-10">
       <h3 class="md:text-4xl text-3xl md:leading-normal tracking-wide leading-normal font-medium text-white">
         Cursos</h3>
-    </div><!--end grid-->
-  </div><!--end container-->
+    </div>
+  </div>
 
 
 </section><!--end section-->
@@ -37,7 +37,7 @@ include './includes/templates/header.php';
 
 
     </div>
-    <!--end grid-->
+    
     <div class="flex justify-center gap-4">
       <button class="bg-gray-50 p-2" id="programados">Programados</button>
       <button class="bg-gray-50 p-2" id="enCurso">En Curso</button>
@@ -721,10 +721,10 @@ include './includes/templates/header.php';
       </div>
 
 
-    </div><!--end grid-->
+    </div>
 
 
-  </div><!--end container-->
+  </div>
 
 
 </section><!--end section-->

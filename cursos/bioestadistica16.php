@@ -74,7 +74,7 @@ include '../includes/templates/header.php';
 <section class="oferta-academica md:py-20">
     <div class="container">
         <h2>Descripción</h2>
-        <p class="mb-3">Este curso fue diseñado para aportar bases teóricas y prácticas necesarios para el
+        <p>Este curso fue diseñado para aportar bases teóricas y prácticas necesarios para el
             proceso de la información, el curso está montado en la plataforma educativa Moodle, la cual permite
             la interacción profesor-alumno, alumno-alumno, contar con los contenidos en diferentes formatos,
             textos, imágenes, videos, tutoriales, ejercicios necesarios y complementarios para el curso
@@ -186,14 +186,13 @@ include '../includes/templates/header.php';
 <section class="temario md:py-24 container">
     <h2>Temario</h2>
     <div class="secciones grid md:grid-cols-2 grid-cols-1">
-
         <div>
             <h3>I. INTRODUCCIÓN A LA ESTADÍSTICA</h3>
             <div class="contenido">
                 <table>
                     <thead>
                         <tr>
-                            <th class="px-4 py-5">Temas</th>
+                            <th>Temas</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -265,10 +264,10 @@ include '../includes/templates/header.php';
         <div>
             <h3>III. PROBABILIDAD</h3>
             <div class="contenido">
-                <table class="w-full text-left">
+                <table>
                     <thead>
                         <tr>
-                            <th class="px-4 py-5">Temas</th>
+                            <th>Temas</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -424,7 +423,7 @@ include '../includes/templates/header.php';
         <h2 class="md:text-3xl md:leading-normal">¿Necesitas ayuda?</h2>
         <p>Contáctanos</p>
     </div>
-    <div class="informacion grid md:grid-cols-2 grid-cols-1 mt-8 md:gap-[30px]" id="accordion-collapse" data-accordion="collapse" >
+    <div class="informacion grid md:grid-cols-2 grid-cols-1 mt-8 md:gap-[30px]" id="accordion-collapse" data-accordion="collapse">
         <div>
             <div>
                 <h2 id="info-admin-col">

@@ -30,7 +30,7 @@
         <div class="absolute inset-0 z-2"></div>
         <div class="container z-3">
         </div>
-        <!--end container-->
+        
       </div>
       <!-- Diapositiva 2 FIN-->
 
@@ -42,7 +42,7 @@
         <div class="absolute inset-0 z-2"></div>
         <div class="container z-3">
         </div>
-        <!--end container-->
+        
       </div>
       <!-- Diapositiva 3 FIN-->
        <!-- Diapositiva 4 -->
@@ -53,7 +53,7 @@
         <div class="absolute inset-0 z-2"></div>
         <div class="container z-3">
         </div>
-        <!--end container-->
+        
       </div>
       <!-- Diapositiva 4 FIN-->
     </div>
@@ -100,7 +100,7 @@
           Conoce nuestras actividades programadas.
         </p>
       </div>
-      <!--end grid-->
+      
     </div>
   </section>
 
@@ -1043,9 +1043,9 @@
         </div>
         <!-- CURSO FIN -->
       </div>
-      <!--end grid-->
+      
     </div>
-    <!--end container-->
+    
   </section>
   <!--end section-->
   <!-- FIN Section-->

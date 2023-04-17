@@ -9,8 +9,8 @@
         <div class="container">
             <div class="grid grid-cols-1 pb-8 text-center mt-10">
                 <h3 class="mt-3 text-3xl leading-normal font-medium text-white">Proceso de pago e incripción a los programas académicos impartidos por la SEAC</h3>
-            </div><!--end grid-->
-        </div><!--end container-->
+            </div>
+        </div>
     </section><!--end section-->
     <div class="relative">
         <div
@@ -23,11 +23,11 @@
     <!-- End Hero -->
 
     <!-- Start Section-->
-    <section class="relative md:py-20 py-16 overflow-hidden">
+    <section class="oferta-academica md:py-20">
         <div class="container">
             <div class="grid grid-cols-1">
                 <p class="mb-3">Si es de tu elección cursar un programa académico impartido por la Secretaría de Educación Abierta y Continua, debes seguir lo siguientes pasos:</p>
-            </div><!--end grid-->
+            </div>
         </div>
     </section>
 
@@ -37,7 +37,7 @@
         <div class="container">
             <div class="grid grid-cols-1 text-center">
                 <h3 class="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">Inscripción</h3>
-            </div><!--end grid-->
+            </div>
 
             <div class="grid grid-cols-1 mt-4 mb-10">
                 <div
@@ -97,18 +97,18 @@
                     <!--End content-->
 
                 </div>
-            </div><!--end grid-->
+            </div>
             <p class="mt-10 pb-16 text-center"><i class="uil uil-exclamation-circle text-red-600 text-xl mr-2"></i>En caso de
                 cancelación, procederá la devolución de lo pagado con los criterios administrativos de la Facultad de
                 Ciencias.</p>
-        </div><!--end container-->
+        </div>
     </section><!--end section-->
     <!-- End -->
 
 
     </div>
     </div>
-    </div><!--end container-->
+    </div>
     </section><!--end section-->
     <!-- End Section-->
 

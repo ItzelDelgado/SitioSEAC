@@ -93,11 +93,11 @@
               </div><!--end col-->
 
 
-            </div><!--end grid-->
+            </div>
           </div><!--end col-->
         </div>
-      </div><!--end grid-->
-    </div><!--end container-->
+      </div>
+    </div>
 
     <div class="py-[30px] px-0 border-t border-slate-800">
       <div class="container text-center">
@@ -114,8 +114,8 @@
           </div>
 
 
-        </div><!--end grid-->
-      </div><!--end container-->
+        </div>
+      </div>
     </div>
   </footer><!--end footer-->
   <!-- Footer End -->

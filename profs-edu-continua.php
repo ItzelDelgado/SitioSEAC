@@ -14,9 +14,9 @@
             Continua
           </h3>
         </div>
-        <!--end grid-->
+        
       </div>
-      <!--end container-->
+      
     </section>
     <!--end section-->
     <div class="relative">

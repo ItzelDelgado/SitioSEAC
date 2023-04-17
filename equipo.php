@@ -10,8 +10,8 @@
       <div class="grid grid-cols-1 pb-8 text-center mt-10">
         <h3 class="md:text-4xl text-3xl md:leading-normal tracking-wide leading-normal font-medium text-white">
           Secretaría de Educación Abierta y Continua</h3>
-      </div><!--end grid-->
-    </div><!--end container-->
+      </div>
+    </div>
 
 
   </section><!--end section-->
@@ -64,14 +64,14 @@
             </div>
           </div>
         </div>
-      </div><!--end grid-->
-    </div><!--end container-->
+      </div>
+    </div>
     <!-- Start -->
     <section class="relative bg-gray-50 dark:bg-slate-800 mb-16 pt-12 mt-12" id="inscripcion">
       <div class="container">
         <div class="grid grid-cols-1 text-center">
 
-        </div><!--end grid-->
+        </div>
         <div class="pb-16 grid grid-cols-1 mt-4 mb-10">
           <h5 class="my-2 font-semibold text-lg">Opción para egresados de las carreras de la Facultad y afines</h5>
           <h5 class="title mb-1">La SEAC tiene como objetivo fundamental brindar una opción de continuación educativa,
@@ -109,26 +109,26 @@
             </ul>
           </h5>
 
-        </div><!--end grid-->
+        </div>
 
-      </div><!--end container-->
+      </div>
     </section><!--end section-->
     <!-- End -->
 
     <div class="container md:mt-16 mt-16">
       <div class="grid grid-cols-1 pb-4 text-center">
         <h3 class="mb-6 md:text-3xl text-2xl md:leading-normal leading-normal font-semibold">Comité de Educación Continua</h3>
-      </div><!--end grid-->
+      </div>
 
       <h5 class="mb-1">Es la instancia responsable de evaluar las actividades académicas propuestos por la Secretaría de Educación Abierta y Continua, así como periódicamente los que ya se ofertan. Se asegura de que cumplan con los estándares de calidad esperados en la Facultad de Ciencias de la Universidad Nacional Autónoma de México, para ello revisan tanto el programa como la preparación de los ponentes, así como el impacto que tengan en los inscritos a lo largo de las diferentes posteriores ediciones. Está conformado por profesores designados para tal fin por los distintos Consejos Departamentales de la Facultad.</h5>
-    </div><!--end container-->
+    </div>
 
 
     <div class="container md:mt-16 mt-16">
       <div class="grid grid-cols-1 pb-8 text-center">
         <h3 class="mb-6 md:text-3xl text-2xl md:leading-normal leading-normal font-semibold">Equipo</h3>
         <p class="text-slate-400 max-w-xl mx-auto"></p>
-      </div><!--end grid-->
+      </div>
 
       <div class="grid md:grid-cols-12 grid-cols-1 items-center gap-[30px]">
         <div class="lg:col-span-3 md:col-span-6">
@@ -147,8 +147,8 @@
             </div>
           </div>
         </div>
-      </div><!--end grid-->
-    </div><!--end container-->
+      </div>
+    </div>
   </section>
   <!-- Footer Start -->
   <?php

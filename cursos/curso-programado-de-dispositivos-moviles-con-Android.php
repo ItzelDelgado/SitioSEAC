@@ -14,7 +14,7 @@ include '../includes/templates/header.php';
             <h1>Programación de dispositivos móviles con Android</h1>
             <p>1ra. Edición</p>
             <div class="profesor">
-                <img src="../assets/images/instructores/usr-m.jpg"  alt="">
+                <img src="../assets/images/instructores/usr-m.jpg" alt="">
                 <a href="../assets/curriculums_docentes/GraciaPatriciaGonzalesPor.pdf" class="font-semibold text-white block ml-3 hover:text-indigo-600" target="_blank">M. en C. Gustavo Márquez Flores</a>
             </div>
 
@@ -24,41 +24,37 @@ include '../includes/templates/header.php';
             </div>
 
         </div>
-    </div><!--end container-->
+    </div>
 
-    <div class="absolute text-center z-10 bottom-5 right-0 left-0 mx-3">
-        <ul class="breadcrumb tracking-[0.5px] breadcrumb-light mb-0 inline-block">
-            <!-- <li class="inline breadcrumb-item uppercase text-[13px] font-bold duration-500 ease-in-out text-white/50 hover:text-white"><a href="index-course.php">Techwind</a></li>
-                   <li class="inline breadcrumb-item uppercase text-[13px] font-bold duration-500 ease-in-out text-white/50 hover:text-white"><a href="course-listing.php">Courses</a></li>
-                    <li class="inline breadcrumb-item uppercase text-[13px] font-bold duration-500 ease-in-out text-white" aria-current="page">Web Development</li> -->
-
-            <li class="inline-block items-center mt-2 mx-3">
-                <i class="uil uil-calendar-alt text-white align-middle"></i>
+    <div class="datos">
+        <ul>
+            <li>
+                <i class="uil uil-calendar-alt"></i>
                 <span class="text-white/60 ml-1">Lunes, miércoles y viernes</span>
             </li>
 
-            <li class="inline-block items-center mt-2 mx-3">
-                <i class="uil uil-bell-school text-white align-middle"></i>
+            <li>
+                <i class="uil uil-bell-school"></i>
                 <span class="text-white/60 ml-1">10-13h</span>
             </li>
 
-            <li class="inline-block items-center mt-2 mx-3">
-                <i class="uil uil-clock text-white align-middle"></i>
+            <li>
+                <i class="uil uil-clock"></i>
                 <span class="text-white/60 ml-1">36 horas</span>
             </li>
 
-            <li class="inline-block items-center mt-2 mx-3">
-                <i class="uil uil-map-marker text-white align-middle"></i>
+            <li>
+                <i class="uil uil-map-marker"></i>
                 <span class="text-white/60 ml-1">Virtual</span>
             </li>
 
-            <li class="inline-block items-center mt-2 mx-3">
-                <i class="uil uil-user-circle text-white align-middle"></i>
+            <li>
+                <i class="uil uil-user-circle"></i>
                 <span class="text-white/60 ml-1">Min. 15</span>
             </li>
 
-            <li class="inline-block items-center mt-2 mx-3">
-                <i class="uil uil-shopping-cart text-white align-middle text-green-600"></i>
+            <li>
+                <i class="uil uil-shopping-cart text-green-600"></i>
                 <a href="#inscripcion" class="text-green-600">Inscribirse</a>
             </li>
         </ul>
@@ -76,488 +72,356 @@ include '../includes/templates/header.php';
 
 
 
-<section class="relative md:py-20 py-16 overflow-hidden">
+<section class="oferta-academica md:py-20">
     <div class="container">
-        <div class="grid grid-cols-1">
-            <h5 class="text-2xl font-semibold mb-5">Descripción</h5>
-
-            <p class="mb-3">El mundo civilizado moderno sería ininteligible sin los dispositivos móviles que poseemos. Nuestro acceso a datos e información de manera expedita resulta ya indispensable para nuestra vida cotidiana y es en buena medida a través de los dispositivos móviles que esto está garantizado. Es por ello que la programación de aplicaciones para dispositivos móviles cobra singular relevancia para aquellos dedicados al desarrollo de software. Todo un enorme potencial de usos y usuarios se abre al desarrollador de aplicaciones móviles.</p>
-        </div>
-
-
-        <div class="grid grid-cols-1">
-            <h6 class="text-2xl font-semibold mb-5 mt-6">Objetivo</h6>
-
-            <p class=" mb-3">El objetivo del curso es aprender a desarrollar aplicaciones en dispositivos móviles como teléfonos celulares, tablets, handhelds, y consolas de juegos en la plataforma Android 13</p>
-        </div>
-
-        <div class="grid grid-cols-1">
-            <h6 class="text-2xl font-semibold mb-5 mt-6">Dirigido a</h6>
-
-            <p class=" mb-3">Personas con interés en desarrollar aplicaciones para dispositivos móviles con conocimientos básicos de lenguaje Java y del lenguaje de marcado XML</p>
-
-            <p class="text-red-600 mb-3">
-                Mínimo 15<br>
-                La apertura del curso está sujeta al mínimo de inscritos.</p>
-
-        </div>
-
-
-        <!-- <div class="grid md:grid-cols-2 grid-cols-1 mt-6 gap-[30px]">
-                <img src="../assets/images/cursos/intro-estadistica-bio01.jpg" class="rounded-md shadow" alt="">
-
-                <div class="relative">
-                    <img src="../assets/images/cursos/intro-estadistica-bio02.jpg" class="rounded-md shadow" alt="">
-                </div>
-            </div> -->
+        <h2>Descripción</h2>
+        <p>El mundo civilizado moderno sería ininteligible sin los dispositivos móviles que poseemos. Nuestro acceso a datos e información de manera expedita resulta ya indispensable para nuestra vida cotidiana y es en buena medida a través de los dispositivos móviles que esto está garantizado. Es por ello que la programación de aplicaciones para dispositivos móviles cobra singular relevancia para aquellos dedicados al desarrollo de software. Todo un enorme potencial de usos y usuarios se abre al desarrollador de aplicaciones móviles.</p>
+        <h2>Objetivo</h2>
+        <p>El objetivo del curso es aprender a desarrollar aplicaciones en dispositivos móviles como teléfonos celulares, tablets, handhelds, y consolas de juegos en la plataforma Android 13</p>
+        <h2>Dirigido a</h2>
+        <p>Personas con interés en desarrollar aplicaciones para dispositivos móviles con conocimientos básicos de lenguaje Java y del lenguaje de marcado XML</p>
+        <p class="text-red-600">Mínimo 15<br>
+            La apertura del curso está sujeta al mínimo de inscritos.</p>
     </div>
 </section>
 
 
 
-
-
-<section class="relative md:py-14 py-8">
-
+<section class="curso-horarios md:py-14">
     <div class="container">
-        <div class="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-1 gap-[30px]">
-
-
-            <div class="text-center px-6 mt-6">
-                <div class="w-20 h-20 bg-indigo-600/5 text-indigo-600 rounded-xl text-3xl flex align-middle justify-center items-center shadow-sm dark:shadow-gray-800 mx-auto">
+        <div class="curso-horarios-container grid grid-cols-1 lg:grid-cols-3 md:grid-cols-1 gap-[30px]">
+            <div>
+                <div>
                     <i class="uil uil-check-square"></i>
                 </div>
-
-                <div class="content mt-7">
-                    <h5 class="title h5 text-xl font-medium">Requisitos</h5>
-                    <p class="text-slate-400 mt-3">Los alumnos deberán traer una laptop.
+                <div>
+                    <h3>Requisitos</h3>
+                    <p>Los alumnos deberán traer una laptop.
                         Tener conocimientos básicos de programación en Java</p>
-
                     <div class="mt-5">
                         <a href="#" data-type="iframe" class="video-play-icon read-more lightbox btn btn-link text-indigo-600 hover:text-indigo-600 after:bg-indigo-600 duration-500 ease-in-out">
                         </a>
                     </div>
                 </div>
             </div>
-
-
-            <div class="text-center px-6 mt-6">
-                <div class="w-20 h-20 bg-indigo-600/5 text-indigo-600 rounded-xl text-3xl flex align-middle justify-center items-center shadow-sm dark:shadow-gray-800 mx-auto">
+            <div>
+                <div>
                     <i class="uil uil-calendar-alt"></i>
                 </div>
-
-                <div class="content mt-7">
-                    <h5 class="title h5 text-xl font-medium">Horario</h5>
+                <div>
+                    <h3>Horario</h3>
                     Horario: 10:00 a 13:00 hrs.</p>
-                    <p class="text-slate-400 mt-3">Lunes, miércoles y viernes</p>
-
+                    <p>Lunes, miércoles y viernes</p>
                     <div class="mt-5">
                         <a href="#" class="btn btn-link text-indigo-600 hover:text-red-600 after:bg-indigo-600 duration-500 ease-in-out">Total:
                             36 horas</a>
                     </div>
                 </div>
             </div>
-
-            <div class="text-center px-6 mt-6">
-                <div class="w-20 h-20 bg-indigo-600/5 text-indigo-600 rounded-xl text-3xl flex align-middle justify-center items-center shadow-sm dark:shadow-gray-800 mx-auto">
+            <div>
+                <div>
                     <i class="uil uil-map-marker"></i>
                 </div>
-
-                <div class="content mt-7">
-                    <h5 class="title h5 text-xl font-medium">Lugar</h5>
-                    <p class="text-slate-400 mt-3">Zoom</p>
-
-                </div>
-            </div>
-
-
-        </div>
-    </div><!--end container-->
-
-
-
-
-
-    <div class="container mt-20">
-        <div class="grid grid-cols-1 pb-8 text-center">
-            <h3 class="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">Costo</h3>
-
-        </div>
-
-        <div class="grid grid-cols-1">
-
-
-            <div id="StarterContent" class="">
-
-                <div class="grid lg:grid-cols-2 md:grid-cols-2 mt-8 gap-[30px]">
-                    <div class="group border-b-[3px] dark:border-gray-700 p-6 py-8 hover:border-indigo-600 dark:hover:border-indigo-600 transition-all duration-500 ease-in-out hover:scale-105 relative overflow-hidden shadow dark:shadow-gray-800 rounded-md bg-gray-50 dark:bg-slate-800 hover:bg-white dark:hover:bg-slate-900 h-fit">
-                        <h6 class="font-bold uppercase mb-5 text-gray-800">Público GENERAL</h6>
-
-                        <div class="flex flex-col mb-5">
-                            <div>
-                                <span class="text-xl font-semibold">$</span>
-                                <span class="price text-4xl font-semibold mb-0">4,320</span>
-                                <span class="text-xl font-semibold self-end mb-1">MXN</span>
-                            </div>
-                        </div>
-
-
-                        <a href="#inscripcion" class="btn bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md mt-5">Inscribirse</a>
-                    </div>
-
-
-                    <div class="group border-b-[3px] dark:border-gray-700 p-6 py-8 hover:border-indigo-600 dark:hover:border-indigo-600 transition-all duration-500 ease-in-out hover:scale-105 relative overflow-hidden shadow dark:shadow-gray-800 rounded-md bg-gray-50 dark:bg-slate-800 hover:bg-white dark:hover:bg-slate-900 h-fit">
-                        <h6 class="font-bold uppercase mb-5 text-red-600">Comunidad UNAM</h6>
-
-                        <div class="flex flex-col mb-5">
-                            <div>
-                                <span class="text-xl font-semibold">$</span>
-                                <span class="price text-4xl font-semibold mb-0">3,600</span>
-                                <span class="text-xl font-semibold self-end mb-1">MXN</span>
-                            </div>
-                        </div>
-
-                        <ul class="list-none text-slate-400">
-                            <li class="mb-1 flex"><i class="uil uil-check-circle text-indigo-600 text-xl mr-2"></i>Alumnos, exalumnos
-                                y personal de la UNAM</li>
-                            <li class="mb-1 flex"><i class="uil uil-check-circle text-indigo-600 text-xl mr-2"></i>También aplica
-                                para afiliados a Fundación UNAM</li>
-                        </ul>
-
-                        <a href="#inscripcion" class="btn bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md mt-5">Inscribirse</a>
-                    </div>
-
-
-                </div>
-            </div>
-
-
-        </div>
-    </div><!--end container-->
-
-
-
-
-
-</section>
-
-
-
-<section class="relative md:py-24 py-16">
-
-    <div class="container">
-
-        <div class="grid grid-cols-1 mt-8">
-            <h5 class="text-2xl font-semibold mb-5">Temario</h5>
-        </div>
-
-        <div class="grid md:grid-cols-2 grid-cols-1 pt-6 gap-[30px]">
-            <div>
-                <h5 class="text-lg uppercase font-semibold mb-5">I. Introducción.</h5>
-
-                <div class="relative overflow-x-auto block w-full bg-white dark:bg-slate-900 shadow dark:shadow-gray-800 rounded-md">
-                    <table class="w-full text-left">
-                        <thead>
-                            <tr>
-                                <th class="px-4 py-5">Temas</th>
-                                <th class="px-4 py-5 text-right"></th>
-                            </tr>
-                        </thead>
-
-                        <tbody>
-                            <tr class="border-t border-gray-100 dark:border-gray-700">
-                                <td class="p-4"><i class="uil uil-clipboard-alt"></i>I.1. Dispositivos Móviles.</td>
-                                <td class="p-4 text-right"></td>
-                            </tr>
-
-                            <tr class="border-t border-gray-100 dark:border-gray-700">
-                                <td class="p-4"><i class="uil uil-clipboard-alt"></i>I.2. Clasificación y aplicaciones de los dispositivos móviles.</a></td>
-                                <td class="p-4 text-right"></td>
-                            </tr>
-
-                            <tr class="border-t border-gray-100 dark:border-gray-700">
-                                <td class="p-4"><i class="uil uil-clipboard-alt"></i>I.3 Plataformas de programación para dispositivos móviles.</td>
-                                <td class="p-4 text-right"></td>
-                            </tr>
-
-                            <tr class="border-t border-gray-100 dark:border-gray-700">
-                                <td class="p-4"><i class="uil uil-clipboard-alt"></i>I.4 Presentación de la plataforma Android.</td>
-                                <td class="p-4 text-right"></td>
-                            </tr>
-
-                            <tr class="border-t border-gray-100 dark:border-gray-700">
-                                <td class="p-4"><i class="uil uil-clipboard-alt"></i>I.5 La plataforma Android, entorno, anatomía y las capas de su arquitectura.</td>
-                                <td class="p-4 text-right"></td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-
-            <div>
-                <h5 class="text-lg uppercase font-semibold mb-5">II. Programación.</h5>
-
-                <div class="relative overflow-x-auto block w-full bg-white dark:bg-slate-900 shadow dark:shadow-gray-800 rounded-md">
-                    <table class="w-full text-left">
-                        <thead>
-                            <tr>
-                                <th class="px-4 py-5">Temas</th>
-                                <th class="px-4 py-5 text-right"></th>
-                            </tr>
-                        </thead>
-
-                        <tbody>
-                            <tr class="border-t border-gray-100 dark:border-gray-700">
-                                <td class="p-4"><i class="uil uil-clipboard-alt"></i>II.1. Instalación y configuración del entorno de desarrollo (Android Studio y SDK Android)</td>
-                                <td class="p-4 text-right"></td>
-                            </tr>
-                            <tr class="border-t border-gray-100 dark:border-gray-700">
-                                <td class="p-4"><i class="uil uil-clipboard-alt"></i>II.2. Elementos esenciales en la creación de aplicaciones Android.
-                                    <ul class="pl-10">
-                                        <li>- Activity, Context y Ciclos de vida de Activities</li>
-                                    </ul>
-                                </td>
-                                <td class="p-4 text-right"></i></td>
-                            </tr>
-                            <tr class="border-t border-gray-100 dark:border-gray-700">
-                                <td class="p-4"><i class="uil uil-clipboard-alt"></i>II.3. Interfaz de usuario.
-                                    <ul class="pl-10">
-                                        <li>- Layouts, recursos, ActionBar, menús, listas, popups, webview, fragmentos, pestañas, etc.</li>
-                                    </ul>
-                                </td>
-                                <td class="p-4 text-right"></i></td>
-                            </tr>
-                            <tr class="border-t border-gray-100 dark:border-gray-700">
-                                <td class="p-4"><i class="uil uil-clipboard-alt"></i>II.4 Gestión de la navegación y la comunicación entre las distintas interfaces.
-                                    <ul class="pl-10">
-                                        <li>- Material Design, Toolbar, CardView, notificaciones Android Wear.</li>
-                                    </ul>
-                                </td>
-                                <td class="p-4 text-right"></i></td>
-                            </tr>
-                            <tr class="border-t border-gray-100 dark:border-gray-700">
-                                <td class="p-4"><i class="uil uil-clipboard-alt"></i>II.5 Interfaces Personalizadas.
-                                    <ul class="pl-10">
-                                        <li>- Gestión de temas, animaciones, tipografía.</li>
-                                    </ul>
-                                </td>
-                                <td class="p-4 text-right"></i></td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-
-            <div>
-                <h5 class="text-lg uppercase font-semibold mb-5">III. Gestión de la fragmentación de la plataforma.</h5>
-
-                <div class="relative overflow-x-auto block w-full bg-white dark:bg-slate-900 shadow dark:shadow-gray-800 rounded-md">
-                    <table class="w-full text-left">
-                        <thead>
-                            <tr>
-                                <th class="px-4 py-5">Temas</th>
-                                <th class="px-4 py-5 text-right"></th>
-                            </tr>
-                        </thead>
-
-                        <tbody>
-                            <tr class="border-t border-gray-100 dark:border-gray-700">
-                                <td class="p-4"><i class="uil uil-clipboard-alt"></i>III.1 Versiones de Android, tamaño y resolución de pantallas, diferencias en el hardware.</td>
-                                <td class="p-4 text-right"></td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-
-
-            <div>
-                <h5 class="text-lg uppercase font-semibold mb-5">IV. Almacenamiento y recuperación de Datos.</h5>
-
-                <div class="relative overflow-x-auto block w-full bg-white dark:bg-slate-900 shadow dark:shadow-gray-800 rounded-md">
-                    <table class="w-full text-left">
-                        <thead>
-                            <tr>
-                                <th class="px-4 py-5">Temas</th>
-                                <th class="px-4 py-5 text-right"></th>
-                            </tr>
-                        </thead>
-
-                        <tbody>
-                            <tr class="border-t border-gray-100 dark:border-gray-700">
-                                <td class="p-4"><i class="uil uil-clipboard-alt"></i>IV.1. Servicios web, gestión de la conectividad, parsing Xml / Json.
-                                    <ul class="pl-10">
-                                        <li>- Shared Preferences, archivos, base de datos SQLite.</li>
-                                    </ul>
-                                </td>
-                                <td class="p-4 text-right"></td>
-                            </tr>
-                            <tr class="border-t border-gray-100 dark:border-gray-700">
-                                <td class="p-4"><i class="uil uil-clipboard-alt"></i>IV.2 Compartir datos con otras aplicaciones.
-                                    <ul class="pl-10">
-                                        <li>- Content Provider, Intent.</li>
-                                    </ul>
-                                </td>
-                                <td class="p-4 text-right"></td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-
-
-            <div>
-                <h5 class="text-lg uppercase font-semibold mb-5">V. Mapas digitales y localización.</h5>
-
-                <div class="relative overflow-x-auto block w-full bg-white dark:bg-slate-900 shadow dark:shadow-gray-800 rounded-md">
-                    <table class="w-full text-left">
-                        <thead>
-                            <tr>
-                                <th class="px-4 py-5">Temas</th>
-                                <th class="px-4 py-5 text-right"></th>
-                            </tr>
-                        </thead>
-
-                        <tbody>
-                            <tr class="border-t border-gray-100 dark:border-gray-700">
-                                <td class="p-4"><i class="uil uil-clipboard-alt"></i>V.1. Google Maps, localización (GPS), conversión posición/dirección.</td>
-                                <td class="p-4 text-right"></td>
-                            </tr>
-                            <tr class="border-t border-gray-100 dark:border-gray-700">
-                                <td class="p-4"><i class="uil uil-clipboard-alt"></i>V.2 Uso de servicios Android.</td>
-                                <td class="p-4 text-right"></td>
-                            </tr>
-                            <tr class="border-t border-gray-100 dark:border-gray-700">
-                                <td class="p-4"><i class="uil uil-clipboard-alt"></i>V.3. Conectividad (WIFI).</td>
-                                <td class="p-4 text-right"></td>
-                            </tr>
-
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-            <div>
-                <h5 class="text-lg uppercase font-semibold mb-5">VI. Métodos de acceso a las diferentes funcionalidades de un dispositivo Android.</h5>
-                <div class="relative overflow-x-auto block w-full bg-white dark:bg-slate-900 shadow dark:shadow-gray-800 rounded-md">
-                    <table class="w-full text-left">
-                        <thead>
-                            <tr>
-                                <th class="px-4 py-5">Temas</th>
-                                <th class="px-4 py-5 text-right"></th>
-                            </tr>
-                        </thead>
-
-                        <tbody>
-                            <tr class="border-t border-gray-100 dark:border-gray-700">
-                                <td class="p-4"><i class="uil uil-clipboard-alt"></i>VI.1. Llamadas, sms, cámara, acelerómetro, Bluetooth.</td>
-                                <td class="p-4 text-right"></td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-            <div>
-                <h5 class="text-lg uppercase font-semibold mb-5">VII. Publicación y comercialización.</h5>
-
-                <div class="relative overflow-x-auto block w-full bg-white dark:bg-slate-900 shadow dark:shadow-gray-800 rounded-md">
-                    <table class="w-full text-left">
-                        <thead>
-                            <tr>
-                                <th class="px-4 py-5">Temas</th>
-                                <th class="px-4 py-5 text-right"></th>
-                            </tr>
-                        </thead>
-
-                        <tbody>
-                            <tr class="border-t border-gray-100 dark:border-gray-700">
-                                <td class="p-4"><i class="uil uil-clipboard-alt"></i>VII.1. Proteger el código fuente.</td>
-                                <td class="p-4 text-right"></td>
-                            </tr>
-                            <tr class="border-t border-gray-100 dark:border-gray-700">
-                                <td class="p-4"><i class="uil uil-clipboard-alt"></i>VII.2. Comercialización de aplicaciones.</td>
-                                <td class="p-4 text-right"></td>
-                            </tr>
-                        </tbody>
-                    </table>
+                <div>
+                    <h3>Lugar</h3>
+                    <p>Zoom</p>
                 </div>
             </div>
         </div>
+    </div>
 
+
+
+
+
+    <div class="curso-costo container">
+        <h2 class="md:text-3xl md:leading-normal">Costo</h2>
+        <div class="grid lg:grid-cols-2 md:grid-cols-2 mt-8 gap-[30px]">
+            <div class="curso-costo-g">
+                <h3>Público GENERAL</h3>
+                <div>
+                    <span>$</span>
+                    <span>4,320</span>
+                    <span>MXN</span>
+                </div>
+                <a href="#inscripcion" class="btn">Inscribirse</a>
+            </div>
+            <div class="curso-costo-g">
+                <h3>Comunidad UNAM</h3>
+                <div>
+                    <span>$</span>
+                    <span>3,600</span>
+                    <span>MXN</span>
+                </div>
+                <ul>
+                    <li><i class="uil uil-check-circle"></i>Alumnos, exalumnos
+                        y personal de la UNAM</li>
+                    <li><i class="uil uil-check-circle"></i>También aplica
+                        para afiliados a Fundación UNAM</li>
+                </ul>
+                <a href="#inscripcion" class="btn">Inscribirse</a>
+            </div>
+        </div>
     </div>
 </section>
 
 
 
-<section class="relative md:py-24 py-16 bg-gray-50 dark:bg-slate-800" id="inscripcion">
-    <div class="container">
-        <div class="grid grid-cols-1 text-center">
-            <h6 class="text-indigo-600 text-sm font-bold uppercase mb-2"></h6>
-            <h3 class="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">Inscripción</h3>
+<section class="temario md:py-24 container">
+    <h2>Temario</h2>
+    <div class="secciones grid md:grid-cols-2 grid-cols-1">
+        <div>
+            <h3>I. Introducción.</h3>
+            <div class="contenido">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Temas</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><i class="uil uil-clipboard-alt"></i>I.1. Dispositivos Móviles.</td>
+                        </tr>
+                        <tr>
+                            <td><i class="uil uil-clipboard-alt"></i>I.2. Clasificación y aplicaciones de los dispositivos móviles.</a></td>
+                        </tr>
+                        <tr>
+                            <td><i class="uil uil-clipboard-alt"></i>I.3 Plataformas de programación para dispositivos móviles.</td>
 
-            <p class="text-slate-400 max-w-xl mx-auto">.</p>
+                        </tr>
+
+                        <tr>
+                            <td><i class="uil uil-clipboard-alt"></i>I.4 Presentación de la plataforma Android.</td>
+
+                        </tr>
+
+                        <tr>
+                            <td><i class="uil uil-clipboard-alt"></i>I.5 La plataforma Android, entorno, anatomía y las capas de su arquitectura.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
         </div>
 
-        <div class="grid grid-cols-1 mt-4 mb-10">
+        <div>
+            <h3>II. Programación.</h3>
+            <div class="contenido">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Temas</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><i class="uil uil-clipboard-alt"></i>II.1. Instalación y configuración del entorno de desarrollo (Android Studio y SDK Android)</td>
+                        </tr>
+                        <tr>
+                            <td><i class="uil uil-clipboard-alt"></i>II.2. Elementos esenciales en la creación de aplicaciones Android.
+                                <ul class="pl-10">
+                                    <li>- Activity, Context y Ciclos de vida de Activities</li>
+                                </ul>
+                            </td>                            
+                        </tr>
+                        <tr>
+                            <td><i class="uil uil-clipboard-alt"></i>II.3. Interfaz de usuario.
+                                <ul class="pl-10">
+                                    <li>- Layouts, recursos, ActionBar, menús, listas, popups, webview, fragmentos, pestañas, etc.</li>
+                                </ul>
+                            </td>                            
+                        </tr>
+                        <tr>
+                            <td><i class="uil uil-clipboard-alt"></i>II.4 Gestión de la navegación y la comunicación entre las distintas interfaces.
+                                <ul class="pl-10">
+                                    <li>- Material Design, Toolbar, CardView, notificaciones Android Wear.</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><i class="uil uil-clipboard-alt"></i>II.5 Interfaces Personalizadas.
+                                <ul class="pl-10">
+                                    <li>- Gestión de temas, animaciones, tipografía.</li>
+                                </ul>
+                            </td>                            
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div>
+            <h3>III. Gestión de la fragmentación de la plataforma.</h3>
+            <div class="contenido">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Temas</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><i class="uil uil-clipboard-alt"></i>III.1 Versiones de Android, tamaño y resolución de pantallas, diferencias en el hardware.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+
+        <div>
+            <h3>IV. Almacenamiento y recuperación de Datos.</h3>
+
+            <div class="contenido">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Temas</th>
+
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td><i class="uil uil-clipboard-alt"></i>IV.1. Servicios web, gestión de la conectividad, parsing Xml / Json.
+                                <ul class="pl-10">
+                                    <li>- Shared Preferences, archivos, base de datos SQLite.</li>
+                                </ul>
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td><i class="uil uil-clipboard-alt"></i>IV.2 Compartir datos con otras aplicaciones.
+                                <ul class="pl-10">
+                                    <li>- Content Provider, Intent.</li>
+                                </ul>
+                            </td>
+
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+
+        <div>
+            <h3>V. Mapas digitales y localización.</h3>
+
+            <div class="contenido">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Temas</th>
+
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td><i class="uil uil-clipboard-alt"></i>V.1. Google Maps, localización (GPS), conversión posición/dirección.</td>
+                        </tr>
+                        <tr>
+                            <td><i class="uil uil-clipboard-alt"></i>V.2 Uso de servicios Android.</td>
+
+                        </tr>
+                        <tr>
+                            <td><i class="uil uil-clipboard-alt"></i>V.3. Conectividad (WIFI).</td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div>
+            <h3>VI. Métodos de acceso a las diferentes funcionalidades de un dispositivo Android.</h3>
+            <div class="contenido">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Temas</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td><i class="uil uil-clipboard-alt"></i>VI.1. Llamadas, sms, cámara, acelerómetro, Bluetooth.</td>
+
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div>
+            <h3>VII. Publicación y comercialización.</h3>
+            <div class="contenido">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Temas</th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><i class="uil uil-clipboard-alt"></i>VII.1. Proteger el código fuente.</td>
+                        </tr>
+                        <tr>
+                            <td><i class="uil uil-clipboard-alt"></i>VII.2. Comercialización de aplicaciones.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="inscripcion md:py-24" id="inscripcion">
+    <div class="container">
+        <div class="titulo">
+            <h2 class="md:text-3xl md:leading-normal">Inscripción</h2>
+            <p>.</p>
+        </div>
+        <div class="pasos">
             <div class="relative after:content-[''] after:absolute after:top-0 md:after:right-0 md:after:left-0 after:w-px after:h-full md:after:m-auto after:border-l-2 after:border-dashed after:border-gray-200 dark:after:border-gray-700 ml-3 md:ml-0">
-                <!--Start content-->
                 <div class="ml-8 md:ml-0 relative after:content-[''] after:absolute after:top-[9px] after:rounded-full after:z-10 after:w-2.5 after:h-2.5 after:bg-indigo-600 md:after:mx-auto md:after:right-0 md:after:left-0 after:-left-9 before:content-[''] before:absolute md:before:mx-auto md:before:right-0 md:before:left-0 before:-left-11 before:rounded-full before:z-10 before:border-2 before:border-dashed before:border-gray-200 dark:before:border-gray-700 before:top-0 before:w-7 before:h-7 before:bg-white dark:before:bg-slate-900">
-                    <div class="grid md:grid-cols-2">
-                        <div class="md:text-right md:mr-8 relative">
-
-                            <h5 class="my-2 font-semibold text-lg">Paso 1</h5>
-                            <h6 class="text-slate text-sm mb-0"></h6>
-                        </div>
-
-                        <div class="float-left text-left md:ml-8 mt-6 md:mt-0">
-                            <h5 class="title mb-1 font-semibold">Realizar el pago en línea mediante "Plaza
-                                Prometeo", la tienda de la Facultad de Ciencias</h5>
-                            <p class="mt-1 mb-0 text-slate-400"><a href="https://tienda.fciencias.unam.mx" target="_blank" class="btn btn-link text-indigo-600 hover:text-red-600 after:bg-indigo-600 duration-500 ease-in-out">tienda.fciencias.unam.mx</a>
+                    <div class="paso-n grid md:grid-cols-2">
+                        <h3 class="md:text-right md:mr-8">Paso 1</h3>
+                        <div class="md:ml-8 md:mt-0">
+                            <h4>Realizar el pago en línea mediante "Plaza
+                                Prometeo", la tienda de la Facultad de Ciencias</h4>
+                            <p><a href="https://tienda.fciencias.unam.mx" target="_blank" class="btn btn-link text-indigo-600 hover:text-red-600 after:bg-indigo-600 duration-500 ease-in-out">tienda.fciencias.unam.mx</a>
                             </p>
                         </div>
                     </div>
-
-                    <div class="grid md:grid-cols-2 mt-10">
-                        <div class="md:text-right md:mr-8 relative">
-
-                            <h5 class="my-2 font-semibold text-lg">Paso 2</h5>
-                            <h6 class="text-slate text-sm mb-0"></h6>
-                        </div>
-
-                        <div class="float-left text-left md:ml-8 mt-6 md:mt-0">
-                            <h5 class="title mb-1 font-semibold">Registrarse en este formato de inscripción</h5>
+                    <div class="paso-n grid md:grid-cols-2 mt-10">
+                        <h3 class="md:text-right md:mr-8">Paso 2</h3>
+                        <div class="md:ml-8 md:mt-0">
+                            <h4>Registrarse en este formato de inscripción</h4>
                             <p>(únicamente si usted ya hizo el pago)</p>
-                            <p class="mt-1 mb-0 text-slate-400"><a href="https://forms.gle/EAvs91kZkFJgReYz5" target="_blank" class="btn btn-link text-indigo-600 hover:text-red-600 after:bg-indigo-600 duration-500 ease-in-out">Formato
+                            <p><a href="https://forms.gle/EAvs91kZkFJgReYz5" target="_blank" class="btn btn-link text-indigo-600 hover:text-red-600 after:bg-indigo-600 duration-500 ease-in-out">Formato
                                     de inscripción</a></p>
                         </div>
                     </div>
-
                 </div>
                 <!--End content-->
-
             </div>
         </div>
-        <p class="mt-10 text-center"><i class="uil uil-exclamation-circle text-red-600 text-xl mr-2"></i>En caso de
+        <p class="advertencia">
+            <i class="uil uil-exclamation-circle"></i>En caso de
             cancelación, procederá la devolución de lo pagado con los criterios administrativos de la Facultad de
             Ciencias.</p>
-    </div><!--end container-->
+    </div>
 </section>
 
 
-<div class="container md:mt-24 mt-16 mb-16">
-    <div class="grid grid-cols-1 pb-8 text-center">
-        <h3 class="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">¿Necesitas ayuda?</h3>
-
-        <p class="text-slate-400 max-w-xl mx-auto">Contáctanos</p>
+<div class="ayuda container md:mt-24">
+<div class="titulo">
+        <h2 class="md:text-3xl md:leading-normal">¿Necesitas ayuda?</h2>
+        <p>Contáctanos</p>
     </div>
 
     <div id="accordion-collapse" data-accordion="collapse" class="grid md:grid-cols-2 grid-cols-1 mt-8 md:gap-[30px]">
         <div>
-
-
-
-
-
-
             <div class="relative shadow dark:shadow-gray-800 rounded-md overflow-hidden mt-4">
                 <h2 class="text-base font-semibold" id="info-admin-col">
                     <button type="button" class="flex justify-between items-center p-5 w-full font-medium text-left" data-accordion-target="#info-admin" aria-expanded="false" aria-controls="info-admin">

@@ -10,8 +10,8 @@
             <div class="grid grid-cols-1 pb-8 text-center mt-10">
                 <h3 class="mt-3 text-3xl leading-normal font-medium text-white">Proceso de pago e incripción a los
                     programas académicos impartidos en convenio con otras instancias</h3>
-            </div><!--end grid-->
-        </div><!--end container-->
+            </div>
+        </div>
     </section><!--end section-->
     <div class="relative">
         <div
@@ -24,7 +24,7 @@
     <!-- End Hero -->
 
     <!-- Start Section-->
-    <section class="relative md:py-20 py-16 overflow-hidden">
+    <section class="oferta-academica md:py-20">
         <div class="container">
             <div class="grid grid-cols-1">
                 <p class="mb-3">Con la finalidad de promover la actualización, capacitación, perfeccionamiento y
@@ -32,7 +32,7 @@
                     imparten en la Facultad, la Secretaría de Educación Continua imparte cursos, diplomados, talleres,
                     conferencias y más, en colaboración con otras instituciones, donde <b>el proceso de inscripción</b>
                     depende de cada uno, y <b>se especifica en la descripción</b> de este.</p>
-            </div><!--end grid-->
+            </div>
         </div>
     </section>
 
@@ -45,7 +45,7 @@
                 <h3 class="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">Inscripción</h3>
 
                 <p class="text-slate-400 max-w-xl mx-auto">.</p>
-            </div><!--end grid-->
+            </div>
 
             <div class="pb-16 grid grid-cols-1 mt-4 mb-10">
                 <h5 class="my-2 font-semibold text-lg">BUCEO UNAM</h5>
@@ -86,15 +86,15 @@
                         </li>
                     </ol>
                 </h5>
-            </div><!--end grid-->
-        </div><!--end container-->
+            </div>
+        </div>
     </section><!--end section-->
     <!-- End -->
 
 
     </div>
     </div>
-    </div><!--end container-->
+    </div>
     </section><!--end section-->
     <!-- End Section-->
 
