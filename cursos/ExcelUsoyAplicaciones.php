@@ -193,9 +193,6 @@ include '../includes/templates/header.php';
 
 </section>
 
-
-
-
 <section class="temario md:py-24 container">
     <h2>Temario</h2>
     <div class="secciones grid md:grid-cols-2 grid-cols-1">
@@ -241,34 +238,25 @@ include '../includes/templates/header.php';
                     <thead>
                         <tr>
                             <th>Temas</th>
-
                         </tr>
                     </thead>
-
                     <tbody>
                         <tr>
                             <td><i class="uil uil-clipboard-alt"></i> II.1 Ordenación de datos
                             </td>
 
                         </tr>
-
                         <tr>
                             <td><i class="uil uil-clipboard-alt"></i>II.2 Filtración de datos
                             </td>
-                            <td class="p-4 text-right"></i></td>
                         </tr>
-
-
                         <tr>
                             <td><i class="uil uil-clipboard-alt"></i>II.3 Uso de criterios para filtración avanzada de datos
                             </td>
-                            <td class="p-4 text-right"></i></td>
                         </tr>
-
                         <tr>
                             <td><i class="uil uil-clipboard-alt"></i>II.4 Tablas y tablas dinámicas
                             </td>
-                            <td class="p-4 text-right"></i></td>
                         </tr>
                     </tbody>
                 </table>
@@ -364,9 +352,9 @@ include '../includes/templates/header.php';
                             <p>Banco: CitiBanamex<br>Beneficiario: Fundación UNAM, A.C.<br>Sucursal: 870<br>
                                 Cuenta: 572529<br>Clabe: 00 21 80 08 70 05 72 52 92<br>Referencia: 829.411.100</p>
 
-                            <p class="mt-4 mb-0 text-slate-400">En caso de que desees efectuarlo con tarjeta de crédito y/o débito deberás acudir a las oficinas de Fundación UNAM en horario de lunes a jueves de 9:30 a 17:30 y viernes de 9:30 a 14:30, ubicada en Calle Pennsylvania 203, Col. Nápoles, Alcaldía Benito Juárez, C.P. 03810.</p>
+                            <p >En caso de que desees efectuarlo con tarjeta de crédito y/o débito deberás acudir a las oficinas de Fundación UNAM en horario de lunes a jueves de 9:30 a 17:30 y viernes de 9:30 a 14:30, ubicada en Calle Pennsylvania 203, Col. Nápoles, Alcaldía Benito Juárez, C.P. 03810.</p>
 
-                            <p class="mt-4 mb-0 text-slate-400">También puedes efectuarlo vía telefónica al call center 55 53 400 904 o al teléfono 55 4575 1879</p>
+                            <p >También puedes efectuarlo vía telefónica al call center 55 53 400 904 o al teléfono 55 4575 1879</p>
 
 
                         </div>

@@ -280,7 +280,7 @@ include '../includes/templates/header.php';
                             <td><i class="uil uil-clipboard-alt"></i>II.2.
                                 Criterios para la rehabilitación, reintroducción o destino final
                             </td>
-                            <td class="p-4 text-right"></i></td>
+                            
                         </tr>
                     </tbody>
                 </table>

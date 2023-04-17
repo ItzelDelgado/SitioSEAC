@@ -285,7 +285,7 @@ include '../includes/templates/header.php';
 
                         <tr>
                             <td><i class="uil uil-clipboard-alt"></i>II.2 Medidas de dispersión</td>
-                            <td class="p-4 text-right"></i></td>
+                            
                         </tr>
 
 

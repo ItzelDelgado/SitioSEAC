@@ -288,23 +288,23 @@ include '../includes/templates/header.php';
                         <tr>
                             <td><i class="uil uil-clipboard-alt"></i>II.2. Familia Kinosterniddae
                                 (Staurotypinae, Kinosterninae)</td>
-                            <td class="p-4 text-right"></i></td>
+                            
                         </tr>
                         <tr>
                             <td><i class="uil uil-clipboard-alt"></i>II.3. Familia Trionychidae</td>
-                            <td class="p-4 text-right"></i></td>
+                            
                         </tr>
                         <tr>
                             <td><i class="uil uil-clipboard-alt"></i>II.4 Familia Emydidae</td>
-                            <td class="p-4 text-right"></i></td>
+                            
                         </tr>
                         <tr>
                             <td><i class="uil uil-clipboard-alt"></i>II.5 Familia Geomydidae</td>
-                            <td class="p-4 text-right"></i></td>
+                            
                         </tr>
                         <tr>
                             <td><i class="uil uil-clipboard-alt"></i>II.6 Famila Chelidridae</td>
-                            <td class="p-4 text-right"></i></td>
+                            
                         </tr>
                     </tbody>
                 </table>

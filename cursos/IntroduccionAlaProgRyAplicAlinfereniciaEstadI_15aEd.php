@@ -329,7 +329,7 @@ include '../includes/templates/header.php';
                                     <li>Datos disponibles en paquetes e internet</li>
                                 </ul>
                             </td>
-                            <td class="p-4 text-right"></i></td>
+                            
                         </tr>
 
 
@@ -343,7 +343,7 @@ include '../includes/templates/header.php';
                                     <li>Graficas de dispersión</li>
                                 </ul>
                             </td>
-                            <td class="p-4 text-right"></i></td>
+                            
                         </tr>
 
 
@@ -439,12 +439,12 @@ include '../includes/templates/header.php';
                                 A.C.<br>Sucursal: 870<br>
                                 Cuenta: 572529<br>Clabe: 00 21 80 08 70 05 72 52 92<br>Referencia: 829.411.100</p>
 
-                            <p class="mt-4 mb-0 text-slate-400">En caso de que desees efectuarlo con tarjeta de
+                            <p >En caso de que desees efectuarlo con tarjeta de
                                 crédito y/o débito deberás acudir a las oficinas de Fundación UNAM en horario de
                                 lunes a jueves de 9:30 a 17:30 y viernes de 9:30 a 14:30, ubicada en Calle
                                 Pennsylvania 203, Col. Nápoles, Alcaldía Benito Juárez, C.P. 03810.</p>
 
-                            <p class="mt-4 mb-0 text-slate-400">También puedes efectuarlo vía telefónica al call
+                            <p >También puedes efectuarlo vía telefónica al call
                                 center 55 53 400 904 o al teléfono 55 4575 1879</p>
 
 

@@ -295,7 +295,7 @@ include '../includes/templates/header.php';
                                     <li>- Activity, Context y Ciclos de vida de Activities</li>
                                 </ul>
                             </td>
-                            <td class="p-4 text-right"></i></td>
+                            
                         </tr>
                         <tr>
                             <td><i class="uil uil-clipboard-alt"></i>II.3. Interfaz de usuario.
@@ -303,7 +303,7 @@ include '../includes/templates/header.php';
                                     <li>- Layouts, recursos, ActionBar, menús, listas, popups, webview, fragmentos, pestañas, etc.</li>
                                 </ul>
                             </td>
-                            <td class="p-4 text-right"></i></td>
+                            
                         </tr>
                         <tr>
                             <td><i class="uil uil-clipboard-alt"></i>II.4 Gestión de la navegación y la comunicación entre las distintas interfaces.
@@ -311,7 +311,7 @@ include '../includes/templates/header.php';
                                     <li>- Material Design, Toolbar, CardView, notificaciones Android Wear.</li>
                                 </ul>
                             </td>
-                            <td class="p-4 text-right"></i></td>
+                            
                         </tr>
                         <tr>
                             <td><i class="uil uil-clipboard-alt"></i>II.5 Interfaces Personalizadas.
@@ -319,7 +319,7 @@ include '../includes/templates/header.php';
                                     <li>- Gestión de temas, animaciones, tipografía.</li>
                                 </ul>
                             </td>
-                            <td class="p-4 text-right"></i></td>
+                            
                         </tr>
                     </tbody>
                 </table>

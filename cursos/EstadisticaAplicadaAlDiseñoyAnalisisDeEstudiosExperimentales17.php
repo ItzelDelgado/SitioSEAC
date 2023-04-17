@@ -276,35 +276,35 @@ include '../includes/templates/header.php';
                             <tr>
                                 <td><i class="uil uil-clipboard-alt"></i>II.2 Error tipo I y Error II
                                 </td>
-                                <td class="p-4 text-right"></i></td>
+                                
                             </tr>
 
 
                             <tr>
                                 <td><i class="uil uil-clipboard-alt"></i>II.3 Hipótesis estadísticas
                                 </td>
-                                <td class="p-4 text-right"></i></td>
+                                
                             </tr>
 
                             <tr>
                                 <td><i class="uil uil-clipboard-alt"></i>II.4 Pruebas de hipótesis de un y dos colas
                                 </td>
-                                <td class="p-4 text-right"></i></td>
+                                
                             </tr>
                             <tr>
                                 <td><i class="uil uil-clipboard-alt"></i>II.5 Pruebas de hipótesis para una media
                                 </td>
-                                <td class="p-4 text-right"></i></td>
+                                
                             </tr>
                             <tr>
                                 <td><i class="uil uil-clipboard-alt"></i>II.6 Prueba de hipótesis para la diferencia entre dos medias de poblaciones independientes y no independientes
                                 </td>
-                                <td class="p-4 text-right"></i></td>
+                                
                             </tr>
                             <tr>
                                 <td><a class=""><i class="uil uil-clipboard-alt"></i>II.7 Prueba de hipótesis par un cociente de dos varianzas
                                 </td>
-                                <td class="p-4 text-right"></i></td>
+                                
                             </tr>
                         </tbody>
                     </table>
@@ -775,9 +775,9 @@ include '../includes/templates/header.php';
                             <p>Banco: CitiBanamex<br>Beneficiario: Fundación UNAM, A.C.<br>Sucursal: 870<br>
                                 Cuenta: 572529<br>Clabe: 00 21 80 08 70 05 72 52 92<br>Referencia: 829.411.100</p>
 
-                            <p class="mt-4 mb-0 text-slate-400">En caso de que desees efectuarlo con tarjeta de crédito y/o débito deberás acudir a las oficinas de Fundación UNAM en horario de lunes a jueves de 9:30 a 17:30 y viernes de 9:30 a 14:30, ubicada en Calle Pennsylvania 203, Col. Nápoles, Alcaldía Benito Juárez, C.P. 03810.</p>
+                            <p >En caso de que desees efectuarlo con tarjeta de crédito y/o débito deberás acudir a las oficinas de Fundación UNAM en horario de lunes a jueves de 9:30 a 17:30 y viernes de 9:30 a 14:30, ubicada en Calle Pennsylvania 203, Col. Nápoles, Alcaldía Benito Juárez, C.P. 03810.</p>
 
-                            <p class="mt-4 mb-0 text-slate-400">También puedes efectuarlo vía telefónica al call center 55 53 400 904 o al teléfono 55 4575 1879</p>
+                            <p >También puedes efectuarlo vía telefónica al call center 55 53 400 904 o al teléfono 55 4575 1879</p>
 
 
                         </div>
