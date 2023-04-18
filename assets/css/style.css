@@ -26,6 +26,7 @@
     overflow: hidden;
 }
 
+
 .curso:hover img {
     --tw-scale-x: 1.1 !important;
     --tw-scale-y: 1.1 !important;
@@ -902,4 +903,40 @@
     text-align: left !important;
 }
 
+.curso .curso_imagen .curso_imagen_adapter img{
+    object-fit: cover;
+    width:100%;
+    height:100%;
+}
 
+
+@media (min-width: 640px) {
+    .curso .curso_imagen .curso_imagen_adapter{
+        width: 608px;
+        height: 380px;
+    }
+
+}
+
+@media (min-width: 768px) {
+    .curso .curso_imagen .curso_imagen_adapter{
+        width: 353px;
+        height: 220.625px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .curso .curso_imagen .curso_imagen_adapter{
+        width: 291.328px;
+        height: 182.078px;
+    }
+
+
+}
+
+@media (min-width: 1280px) {
+    .curso .curso_imagen .curso_imagen_adapter{
+        width: 353.328px;
+        height: 220.828px;
+    }
+}

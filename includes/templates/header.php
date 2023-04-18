@@ -112,9 +112,9 @@
                 </ul><!--end navigation menu-->
                 <div class="w-full">
                     <div class="w-full lg:w-[400px]">
-                        <script async src="https://cse.google.com/cse.js?cx=673c65ab4f9ec44fc">
+                        <script async src="https://cse.google.com/cse.js?cx=d481d4e7c17694177">
                         </script>
-                        <div class="gcse-searchbox-only"></div>
+                        <div class="gcse-search"></div>
                     </div>
                 </div>
             </div><!--end navigation-->

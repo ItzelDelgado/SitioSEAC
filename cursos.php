@@ -37,7 +37,7 @@ include './includes/templates/header.php';
 
 
     </div>
-    
+
     <div class="flex justify-center gap-4">
       <button class="bg-gray-50 p-2" id="programados">Programados</button>
       <button class="bg-gray-50 p-2" id="enCurso">En proceso</button>
@@ -57,7 +57,9 @@ include './includes/templates/header.php';
       <!-- CURSO Bioestadística-->
       <div class="group curso enCurso">
         <div class="curso_imagen">
-          <img src="assets/images/cursos/bioestadistica.webp" alt="" />
+          <div class="curso_imagen_adapter">
+            <img src="assets/images/cursos/bg-bioestadistica.webp" alt="" />
+          </div>
           <div class="curso_imagen-backgroud">
           </div>
           <div class="curso_imagen-data">
@@ -91,8 +93,8 @@ include './includes/templates/header.php';
             dirigido básicamente a médicos, biólogos, enfermeros,
             psicólogos, trabajadores sociales).
           </p>
-            <a href="cursos/Bioestadistica16.php" target="_blank" class="curso_contenido-button btn btn-link">Ver
-              curso</a>
+          <a href="cursos/Bioestadistica16.php" target="_blank" class="curso_contenido-button btn btn-link">Ver
+            curso</a>
           <div class="curso_contenido-horario">
             <ul>
               <li class="mr-3">
@@ -126,7 +128,9 @@ include './includes/templates/header.php';
                 experimentales-->
       <div class="group curso enCurso">
         <div class="curso_imagen">
-          <img src="assets/images/cursos/estadistica-aplicada-diseño-est-exp.webp" alt="" />
+          <div class="curso_imagen_adapter">
+            <img src="assets/images/cursos/bg-estadica-aplicada-diseño-est-exp.webp" alt="" />
+          </div>
           <div class="curso_imagen-backgroud">
           </div>
           <div class="curso_imagen-data">
@@ -166,8 +170,8 @@ include './includes/templates/header.php';
             estudiantes en el área de ciencias experimentales y de
             investigación.
           </p>
-            <a href="cursos/EstadisticaAplicadaAlDiseñoyAnalisisDeEstudiosExperimentales17.php" target="_blank" class="curso_contenido-button btn btn-link">Ver
-              curso</a>
+          <a href="cursos/EstadisticaAplicadaAlDiseñoyAnalisisDeEstudiosExperimentales17.php" target="_blank" class="curso_contenido-button btn btn-link">Ver
+            curso</a>
           <div class="curso_contenido-horario">
             <ul>
               <li class="mr-3">
@@ -308,8 +312,8 @@ include './includes/templates/header.php';
             educativas: educadoras, académicas, organizaciones de la
             sociedad civil, funcionarias, estudiantes.
           </p>
-            <a href="cursos/EstrategiasdeEduAmbientalParaSustentabilidad2daEd.php" target="_blank" class="curso_contenido-button btn btn-link">Ver
-              curso</a>
+          <a href="cursos/EstrategiasdeEduAmbientalParaSustentabilidad2daEd.php" target="_blank" class="curso_contenido-button btn btn-link">Ver
+            curso</a>
           <div class="curso_contenido-horario">
             <ul>
               <li class="mr-3">
@@ -375,8 +379,8 @@ include './includes/templates/header.php';
             especializado.
           </p>
 
-            <a href="cursos/IntroduccionAlaDivulgacionDeLaCiencia6taED.php" target="_blank" class="curso_contenido-button btn btn-link">Ver
-              curso</a>
+          <a href="cursos/IntroduccionAlaDivulgacionDeLaCiencia6taED.php" target="_blank" class="curso_contenido-button btn btn-link">Ver
+            curso</a>
 
           <div class="curso_contenido-horario">
             <ul>
@@ -439,8 +443,8 @@ include './includes/templates/header.php';
             disciplinas afines.
           </p>
 
-            <a href="cursos/RescateyRehabilitaciondeFaunaSilvestre6taEd.php" target="_blank" class="curso_contenido-button btn btn-link">Ver
-              curso</a>
+          <a href="cursos/RescateyRehabilitaciondeFaunaSilvestre6taEd.php" target="_blank" class="curso_contenido-button btn btn-link">Ver
+            curso</a>
 
           <div class="curso_contenido-horario">
             <ul>
@@ -503,8 +507,8 @@ include './includes/templates/header.php';
             disciplinas afines.
           </p>
 
-            <a href="cursos/IntroduccionAlEstudioyConservaciondeTortugas1raEd.php" target="_blank" class="curso_contenido-button btn btn-link">Ver
-              curso</a>
+          <a href="cursos/IntroduccionAlEstudioyConservaciondeTortugas1raEd.php" target="_blank" class="curso_contenido-button btn btn-link">Ver
+            curso</a>
 
           <div class="curso_contenido-horario">
             <ul>
@@ -567,10 +571,10 @@ include './includes/templates/header.php';
             físicos, matemáticos, estudiantes de postgrado, investigadores y
             profesionales en áreas multidisciplinarias.
           </p>
-        
-            <a href="cursos/IntroduccionAlaProgRyAplicAlinfereniciaEstadI_15aEd.php" target="_blank" class="curso_contenido-button btn btn-link">Ver
-              curso</a>
-          
+
+          <a href="cursos/IntroduccionAlaProgRyAplicAlinfereniciaEstadI_15aEd.php" target="_blank" class="curso_contenido-button btn btn-link">Ver
+            curso</a>
+
           <div class="curso_contenido-horario">
             <ul>
               <li class="mr-3">
@@ -631,10 +635,10 @@ include './includes/templates/header.php';
             administradores de áreas naturales, administradores de recursos
             naturales.
           </p>
-          
-            <a href="cursos/IntroduccionEstadisticaEnBiologia_2daEd.php" target="_blank" class="curso_contenido-button btn btn-link">Ver
-              curso</a>
-          
+
+          <a href="cursos/IntroduccionEstadisticaEnBiologia_2daEd.php" target="_blank" class="curso_contenido-button btn btn-link">Ver
+            curso</a>
+
           <div class="curso_contenido-horario">
             <ul>
               <li class="mr-3">
@@ -692,10 +696,10 @@ include './includes/templates/header.php';
             Dirigido a: Biólogos, Oceanógrafos, Contadores, Oceanólogos, economistas, físicos, matemáticos,
             estudiantes de postgrado, investigadores y profesionales en áreas multidisciplinarias
           </p>
-          
-            <a href="/cursos/ExcelUsoyAplicaciones.php" target="_blank" class="curso_contenido-button btn btn-link">Ver
-              curso</a>
-          
+
+          <a href="/cursos/ExcelUsoyAplicaciones.php" target="_blank" class="curso_contenido-button btn btn-link">Ver
+            curso</a>
+
           <div class="curso_contenido-horario">
             <ul>
               <li class="mr-3">
