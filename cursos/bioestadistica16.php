@@ -197,23 +197,23 @@ include '../includes/templates/header.php';
                     </thead>
                     <tbody>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i> I.1
+                            <td> I.1
                                 Concepto e importancia de Estadística y Bioestadística.</td>
                         </tr>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>I.2. Error,
+                            <td>I.2. Error,
                                 precisión y exactitud. Poblaciones y muestras.</td>
                         </tr>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>I.3.
+                            <td>I.3.
                                 Criterios de inclusión, exclusión y eliminación.</td>
                         </tr>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>I.4.
+                            <td>I.4.
                                 Conceptos de población y muestra. Parámetros y estadísticos.</td>
                         </tr>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i> I.5. Tipos
+                            <td> I.5. Tipos
                                 de variables y escalas de medición.
                             </td>
                         </tr>
@@ -233,7 +233,7 @@ include '../includes/templates/header.php';
                     </thead>
                     <tbody>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i> II.1
+                            <td> II.1
                                 Representaciones gráficas de un conjunto de datos: Diagramas de barras.
                                 Pictogramas, Gráficas circulares, Diagrama tallo y hoja. Diagrama de tallo
                                 hoja y espejo, Diagrama de caja. Histograma. Polígono de frecuencias.
@@ -241,18 +241,18 @@ include '../includes/templates/header.php';
                             </td>
                         </tr>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>II.2.
+                            <td>II.2.
                                 Descripción de variables numéricas: Medidas de tendencia central. Medidas de
                                 dispersión
                             </td>
                         </tr>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>II.3. Regla
+                            <td>II.3. Regla
                                 empírica y teorema de Tchebyshev
                             </td>
                         </tr>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>II.4.
+                            <td>II.4.
                                 Descripción de variables categóricas: tasas, razones, proporciones y
                                 porcentajes.
                             </td>
@@ -272,24 +272,24 @@ include '../includes/templates/header.php';
                     </thead>
                     <tbody>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>III.1.
+                            <td>III.1.
                                 Conceptos: Fenómenos deterministas y estocásticos. Espacio muestral,
                                 experimentos, eventos </td>
                         </tr>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>III.2.
+                            <td>III.2.
                                 Métodos de conteo Combinación y permutaciones </td>
                         </tr>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>III.3.
+                            <td>III.3.
                                 Conceptos de probabilidad clásica y frecuentista </td>
                         </tr>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>III.4.
+                            <td>III.4.
                                 Leyes de probabilidad: Ley de la adición, Ley del producto </td>
                         </tr>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>III.5.
+                            <td>III.5.
                                 Cálculo de probabilidades </td>
                         </tr>
                     </tbody>
@@ -307,39 +307,40 @@ include '../includes/templates/header.php';
                     </thead>
                     <tbody>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>IV.1.
+                            <td><i></i>
+                            IV.1.
                                 Concepto de inferencia estadística </td>
                         </tr>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>IV.2.
+                            <td>IV.2.
                                 Clasificación de la estadística: según tipo de variable </td>
                         </tr>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>IV.3.
+                            <td>IV.3.
                                 Clasificación de la estadística: según número de variables </td>
                         </tr>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>IV.3.
+                            <td>IV.3.
                                 Clasificación de la estadística: según número de variables </td>
                         </tr>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>IV.4.
+                            <td>IV.4.
                                 Estimación puntual y de intervalo </td>
                         </tr>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>IV.5.
+                            <td>IV.5.
                                 Intervalos de confianza </td>
                         </tr>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>IV.6.
+                            <td>IV.6.
                                 Pruebas de hipótesis</td>
                         </tr>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>IV.7.
+                            <td>IV.7.
                                 Procedimiento para la realización de pruebas de hipótesis </td>
                         </tr>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>IV.8.
+                            <td>IV.8.
                                 Procedimiento para la realización de pruebas paramétricas </td>
                         </tr>
                     </tbody>
@@ -357,11 +358,11 @@ include '../includes/templates/header.php';
                     </thead>
                     <tbody>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>V.1.
+                            <td>V.1.
                                 Introducción a los modelos estadísticos lineales </td>
                         </tr>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>V.2.
+                            <td>V.2.
                                 Modelos de regresión. Conceptos básicos. Supuestos. Aplicaciones
                             </td>
                         </tr>

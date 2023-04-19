@@ -181,23 +181,23 @@ include '../includes/templates/header.php';
                     </thead>
                     <tbody>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>I.1. Dispositivos Móviles.</td>
+                            <td>I.1. Dispositivos Móviles.</td>
                         </tr>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>I.2. Clasificación y aplicaciones de los dispositivos móviles.</a></td>
+                            <td>I.2. Clasificación y aplicaciones de los dispositivos móviles.</a></td>
                         </tr>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>I.3 Plataformas de programación para dispositivos móviles.</td>
+                            <td>I.3 Plataformas de programación para dispositivos móviles.</td>
 
                         </tr>
 
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>I.4 Presentación de la plataforma Android.</td>
+                            <td>I.4 Presentación de la plataforma Android.</td>
 
                         </tr>
 
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>I.5 La plataforma Android, entorno, anatomía y las capas de su arquitectura.</td>
+                            <td>I.5 La plataforma Android, entorno, anatomía y las capas de su arquitectura.</td>
                         </tr>
                     </tbody>
                 </table>
@@ -215,31 +215,31 @@ include '../includes/templates/header.php';
                     </thead>
                     <tbody>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>II.1. Instalación y configuración del entorno de desarrollo (Android Studio y SDK Android)</td>
+                            <td>II.1. Instalación y configuración del entorno de desarrollo (Android Studio y SDK Android)</td>
                         </tr>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>II.2. Elementos esenciales en la creación de aplicaciones Android.
+                            <td>II.2. Elementos esenciales en la creación de aplicaciones Android.
                                 <ul class="pl-10">
                                     <li>- Activity, Context y Ciclos de vida de Activities</li>
                                 </ul>
                             </td>                            
                         </tr>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>II.3. Interfaz de usuario.
+                            <td>II.3. Interfaz de usuario.
                                 <ul class="pl-10">
                                     <li>- Layouts, recursos, ActionBar, menús, listas, popups, webview, fragmentos, pestañas, etc.</li>
                                 </ul>
                             </td>                            
                         </tr>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>II.4 Gestión de la navegación y la comunicación entre las distintas interfaces.
+                            <td>II.4 Gestión de la navegación y la comunicación entre las distintas interfaces.
                                 <ul class="pl-10">
                                     <li>- Material Design, Toolbar, CardView, notificaciones Android Wear.</li>
                                 </ul>
                             </td>
                         </tr>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>II.5 Interfaces Personalizadas.
+                            <td>II.5 Interfaces Personalizadas.
                                 <ul class="pl-10">
                                     <li>- Gestión de temas, animaciones, tipografía.</li>
                                 </ul>
@@ -261,7 +261,7 @@ include '../includes/templates/header.php';
                     </thead>
                     <tbody>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>III.1 Versiones de Android, tamaño y resolución de pantallas, diferencias en el hardware.</td>
+                            <td>III.1 Versiones de Android, tamaño y resolución de pantallas, diferencias en el hardware.</td>
                         </tr>
                     </tbody>
                 </table>
@@ -283,7 +283,7 @@ include '../includes/templates/header.php';
 
                     <tbody>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>IV.1. Servicios web, gestión de la conectividad, parsing Xml / Json.
+                            <td>IV.1. Servicios web, gestión de la conectividad, parsing Xml / Json.
                                 <ul class="pl-10">
                                     <li>- Shared Preferences, archivos, base de datos SQLite.</li>
                                 </ul>
@@ -291,7 +291,7 @@ include '../includes/templates/header.php';
 
                         </tr>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>IV.2 Compartir datos con otras aplicaciones.
+                            <td>IV.2 Compartir datos con otras aplicaciones.
                                 <ul class="pl-10">
                                     <li>- Content Provider, Intent.</li>
                                 </ul>
@@ -318,14 +318,14 @@ include '../includes/templates/header.php';
 
                     <tbody>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>V.1. Google Maps, localización (GPS), conversión posición/dirección.</td>
+                            <td>V.1. Google Maps, localización (GPS), conversión posición/dirección.</td>
                         </tr>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>V.2 Uso de servicios Android.</td>
+                            <td>V.2 Uso de servicios Android.</td>
 
                         </tr>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>V.3. Conectividad (WIFI).</td>
+                            <td>V.3. Conectividad (WIFI).</td>
                         </tr>
 
                     </tbody>
@@ -344,7 +344,7 @@ include '../includes/templates/header.php';
 
                     <tbody>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>VI.1. Llamadas, sms, cámara, acelerómetro, Bluetooth.</td>
+                            <td>VI.1. Llamadas, sms, cámara, acelerómetro, Bluetooth.</td>
 
                         </tr>
                     </tbody>
@@ -363,10 +363,10 @@ include '../includes/templates/header.php';
                     </thead>
                     <tbody>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>VII.1. Proteger el código fuente.</td>
+                            <td>VII.1. Proteger el código fuente.</td>
                         </tr>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>VII.2. Comercialización de aplicaciones.</td>
+                            <td>VII.2. Comercialización de aplicaciones.</td>
                         </tr>
                     </tbody>
                 </table>

@@ -242,7 +242,7 @@ include '../includes/templates/header.php';
 
                         <tbody>
                             <tr>
-                                <td><i class="uil uil-clipboard-alt"></i> II.1 Historia de la
+                                <td> II.1 Historia de la
                                     divulgación
                                 </td>
 
@@ -266,7 +266,7 @@ include '../includes/templates/header.php';
 
                     <tbody>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>III.1.
+                            <td>III.1.
                                 Las pseudociencias y las noticias falsas</a>
                             </td>
 
@@ -292,7 +292,7 @@ include '../includes/templates/header.php';
 
                     <tbody>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>IV.1.
+                            <td>IV.1.
                                 Definiciones de difusión y divulgación
                             </td>
 
@@ -316,7 +316,7 @@ include '../includes/templates/header.php';
 
                     <tbody>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>V.1.
+                            <td>V.1.
                                 Conocer al público
                             </td>
 
@@ -340,19 +340,19 @@ include '../includes/templates/header.php';
 
                     <tbody>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>VI.1.
+                            <td>VI.1.
                                 Escritos
                             </td>
 
                         </tr>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>VI.2.
+                            <td>VI.2.
                                 Audiovisuales
                             </td>
 
                         </tr>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>VI.3.
+                            <td>VI.3.
                                 Actividades directas:
                                 <ul class="p-6 list-disc ">
                                     <li>Museos</li>
@@ -380,7 +380,7 @@ include '../includes/templates/header.php';
 
                     <tbody>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>VII.1.
+                            <td>VII.1.
                                 Escribir y diseñar un proyecto
                             </td>
 
@@ -403,7 +403,7 @@ include '../includes/templates/header.php';
 
                     <tbody>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>VIII.1.
+                            <td>VIII.1.
                                 De un proyecto
                             </td>
 
@@ -411,7 +411,7 @@ include '../includes/templates/header.php';
                     </tbody>
                     <tbody>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>VIII.1.
+                            <td>VIII.1.
                                 De un producto
                             </td>
 

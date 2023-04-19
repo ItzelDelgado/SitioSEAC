@@ -110,13 +110,6 @@
                     </li>
                     <li><a href="../contacto.php" class="sub-menu-item">Contacto</a></li>
                 </ul><!--end navigation menu-->
-                <div class="w-full">
-                    <div class="w-full lg:w-[400px]">
-                        <script async src="https://cse.google.com/cse.js?cx=d481d4e7c17694177">
-                        </script>
-                        <div class="gcse-search"></div>
-                    </div>
-                </div>
             </div><!--end navigation-->
         </div>
     </nav><!--end header-->
