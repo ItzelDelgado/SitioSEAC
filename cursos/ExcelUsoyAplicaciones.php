@@ -3,7 +3,8 @@ include '../includes/templates/header.php';
 ?>
 
 <!-- Start Hero -->
-<section class="portada lg:py-44 bg-[url('../../assets/images/cursos/bg-Excel1.webp')] ">
+<section class="portada">
+    <img src="../../assets/images/cursos/bg-Excel1.webp" alt="">
     <div class="portada-opacity"></div>
     <div class="container">
         <div class="portada-informacion">
@@ -14,8 +15,12 @@ include '../includes/templates/header.php';
             <h1>Excel, uso y aplicaciones</h1>
             <p>3ra. Edición</p>
             <div class="profesor">
-                <img src="../assets/images/instructores/usr-m.jpg" alt="">
-                <a href="../assets/curriculums_docentes/JesusJuradoMolina.pdf" target="_blank">Dr. Jesús Juerado Molina</a>
+                <div>
+                    <img src="../assets/images/instructores/usr-m.jpg" alt="">
+                </div>
+                <div>
+                    <a href="../assets/curriculums_docentes/JesusJuradoMolina.pdf" target="_blank">Dr. Jesús Juerado Molina</a>
+                </div>
             </div>
         </div>
     </div>
@@ -352,9 +357,9 @@ include '../includes/templates/header.php';
                             <p>Banco: CitiBanamex<br>Beneficiario: Fundación UNAM, A.C.<br>Sucursal: 870<br>
                                 Cuenta: 572529<br>Clabe: 00 21 80 08 70 05 72 52 92<br>Referencia: 829.411.100</p>
 
-                            <p >En caso de que desees efectuarlo con tarjeta de crédito y/o débito deberás acudir a las oficinas de Fundación UNAM en horario de lunes a jueves de 9:30 a 17:30 y viernes de 9:30 a 14:30, ubicada en Calle Pennsylvania 203, Col. Nápoles, Alcaldía Benito Juárez, C.P. 03810.</p>
+                            <p>En caso de que desees efectuarlo con tarjeta de crédito y/o débito deberás acudir a las oficinas de Fundación UNAM en horario de lunes a jueves de 9:30 a 17:30 y viernes de 9:30 a 14:30, ubicada en Calle Pennsylvania 203, Col. Nápoles, Alcaldía Benito Juárez, C.P. 03810.</p>
 
-                            <p >También puedes efectuarlo vía telefónica al call center 55 53 400 904 o al teléfono 55 4575 1879</p>
+                            <p>También puedes efectuarlo vía telefónica al call center 55 53 400 904 o al teléfono 55 4575 1879</p>
 
 
                         </div>

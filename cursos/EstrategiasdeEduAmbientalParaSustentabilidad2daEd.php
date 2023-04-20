@@ -3,7 +3,8 @@ include '../includes/templates/header.php';
 ?>
 
 <!-- Start Hero -->
-<section class="portada lg:py-44 bg-[url('../../assets/images/cursos/bg-estrategias-edu-ambiental-para-sustentabilidad.webp')] ">
+<section class="portada">
+    <img src="../../assets/images/cursos/bg-estrategias-edu-ambiental-para-sustentabilidad.webp" alt="">
     <div class="portada-opacity"></div>
     <div class="container">
         <div class="portada-informacion">
@@ -14,11 +15,31 @@ include '../includes/templates/header.php';
             <h1>Estrategias de educación ambiental para la sustentabilidad</h1>
             <p>2da. Edición</p>
             <div class="profesor">
-                <img src="../assets/images/instructores/usr-m.jpg" alt="">
-                <a href="/assets/curriculums_docentes/IramaMariselaNunezTancredi.pdf" target="_blank">Dra. Irama Silvia Marisela Núñez Tancredi</a>
-                <a href="/assets/curriculums_docentes/StepChantalSeguraEspi.pdf" target="_blank">Lic. Stephanie Chantal Segura Espinosa</a>
-                <a href="/assets/curriculums_docentes/AngelRodrigoGonzalezGonzalez.pdf" target="_blank">M. en C. Ángel Rodrigo González González</a>
+                <div>
+                    <img src="../assets/images/instructores/usr-m.jpg" alt="">
+                </div>
+                <div>
+                    <a href="/assets/curriculums_docentes/IramaMariselaNunezTancredi.pdf" target="_blank">Dra. Irama Silvia Marisela Núñez Tancredi</a>
+                </div>
             </div>
+            <div class="profesor">
+                <div>
+                    <img src="../assets/images/instructores/usr-m.jpg" alt="">
+                </div>
+                <div>
+                    <a href="/assets/curriculums_docentes/StepChantalSeguraEspi.pdf" target="_blank">Lic. Stephanie Chantal Segura Espinosa</a>
+                </div>
+            </div>
+            <div class="profesor">
+                <div>
+                    <img src="../assets/images/instructores/usr-m.jpg" alt="">
+                </div>
+                <div>
+                    <a href="/assets/curriculums_docentes/AngelRodrigoGonzalezGonzalez.pdf" target="_blank">M. en C. Ángel Rodrigo González González</a>
+                </div>
+            </div>
+
+
 
             <div class="fecha">
                 <i class="uil uil-calendar-alt"></i>
@@ -281,39 +302,39 @@ include '../includes/templates/header.php';
 
         <div>
             <h3>III. La perspectiva socio-ecológica y la sustentabilidad
-                </h3>
+            </h3>
 
-                <div class="contenido">
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>Temas</th>
+            <div class="contenido">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Temas</th>
 
-                            </tr>
-                        </thead>
+                        </tr>
+                    </thead>
 
-                        <tbody>
-                            <tr>
-                                <td>III.1 Puntos de apalancamiento para la sustentabilidad</td>
-                            </tr>
+                    <tbody>
+                        <tr>
+                            <td>III.1 Puntos de apalancamiento para la sustentabilidad</td>
+                        </tr>
 
-                            <tr>
-                                <td>III.2 Los Objetivos del desarrollo sustentable</td>
-                            </tr>
+                        <tr>
+                            <td>III.2 Los Objetivos del desarrollo sustentable</td>
+                        </tr>
 
-                            <tr>
-                                <td>III.3 Capacidades para la sustentabilidad
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>III.4 Profundización en el contexto y entorno de la estrategia de EAS
-                                </td>
-                            </tr>
+                        <tr>
+                            <td>III.3 Capacidades para la sustentabilidad
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>III.4 Profundización en el contexto y entorno de la estrategia de EAS
+                            </td>
+                        </tr>
 
 
-                        </tbody>
-                    </table>
-                </div>
+                    </tbody>
+                </table>
+            </div>
         </div>
 
         <div>
@@ -412,7 +433,7 @@ include '../includes/templates/header.php';
         <h2 class="md:text-3xl md:leading-normal">¿Necesitas ayuda?</h2>
         <p>Contáctanos</p>
     </div>
-    <div class="informacion grid md:grid-cols-2 grid-cols-1 mt-8 md:gap-[30px]" id="accordion-collapse" data-accordion="collapse" >
+    <div class="informacion grid md:grid-cols-2 grid-cols-1 mt-8 md:gap-[30px]" id="accordion-collapse" data-accordion="collapse">
         <div>
             <div>
                 <h2 id="info-admin-col">

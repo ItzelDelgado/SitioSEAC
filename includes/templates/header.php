@@ -116,7 +116,9 @@
                         <div>
                             <script async src="https://cse.google.com/cse.js?cx=d481d4e7c17694177">
                             </script>
-                            <div class="gcse-search"></div>
+                            <div>
+                                <div class="gcse-search"></div>
+                            </div>
                         </div>
                     </li>
                 </ul><!--end navigation menu-->

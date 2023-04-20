@@ -3,7 +3,8 @@ include '../includes/templates/header.php';
 ?>
 
 <!-- Start Hero -->
-<section class="portada lg:py-44 bg-[url('../../assets/images/cursos/bg-TortugasMexico.webp')] ">
+<section class="portada">
+    <img src="../../assets/images/cursos/bg-TortugasMexico.webp" alt="">
     <div class="portada-opacity"></div>
     <div class="container">
         <div class="portada-informacion">
@@ -19,16 +20,28 @@ include '../includes/templates/header.php';
             <h1>Diseño de cursos en cuadernos Jupyter interactivos con la plataforma MACTI</h1>
             <p>1ra. Edición</p>
             <div class="profesor">
-                <img src="../assets/images/instructores/usr-m.jpg" alt="">
-                <a href="../assets/curriculums_docentes/GraciaPatriciaGonzalesPor.pdf" target="_blank">Dr. Luis Miguel de la Cruz Salas, Instituto de Geofísica</a>
+                <div>
+                    <img src="../assets/images/instructores/usr-m.jpg" alt="">
+                </div>
+                <div>
+                    <a href="../assets/curriculums_docentes/GraciaPatriciaGonzalesPor.pdf" target="_blank">Dr. Luis Miguel de la Cruz Salas, Instituto de Geofísica</a>
+                </div>
             </div>
             <div class="profesor">
-                <img src="../assets/images/instructores/usr-m.jpg" alt="">
-                <a href="../assets/curriculums_docentes/GraciaPatriciaGonzalesPor.pdf" target="_blank">Mtro. Miguel Angel Pérez León, Facultad de Ciencias</a>
+                <div>
+                    <img src="../assets/images/instructores/usr-m.jpg" alt="">
+                </div>
+                <div>
+                    <a href="../assets/curriculums_docentes/GraciaPatriciaGonzalesPor.pdf" target="_blank">Mtro. Miguel Angel Pérez León, Facultad de Ciencias</a>
+                </div>
             </div>
             <div class="profesor">
-                <img src="../assets/images/instructores/usr-m.jpg" alt="">
-                <a href="../assets/curriculums_docentes/GraciaPatriciaGonzalesPor.pdf" target="_blank">Ing. Juan Eduardo Murrieta León, Instituto de Ciencias Nucleares</a>
+                <div>
+                    <img src="../assets/images/instructores/usr-m.jpg" alt="">
+                </div>
+                <div>
+                    <a href="../assets/curriculums_docentes/GraciaPatriciaGonzalesPor.pdf" target="_blank">Ing. Juan Eduardo Murrieta León, Instituto de Ciencias Nucleares</a>
+                </div>
             </div>
 
             <div class="fecha">
@@ -295,7 +308,7 @@ include '../includes/templates/header.php';
                                     <li>- Activity, Context y Ciclos de vida de Activities</li>
                                 </ul>
                             </td>
-                            
+
                         </tr>
                         <tr>
                             <td>II.3. Interfaz de usuario.
@@ -303,7 +316,7 @@ include '../includes/templates/header.php';
                                     <li>- Layouts, recursos, ActionBar, menús, listas, popups, webview, fragmentos, pestañas, etc.</li>
                                 </ul>
                             </td>
-                            
+
                         </tr>
                         <tr>
                             <td>II.4 Gestión de la navegación y la comunicación entre las distintas interfaces.
@@ -311,7 +324,7 @@ include '../includes/templates/header.php';
                                     <li>- Material Design, Toolbar, CardView, notificaciones Android Wear.</li>
                                 </ul>
                             </td>
-                            
+
                         </tr>
                         <tr>
                             <td>II.5 Interfaces Personalizadas.
@@ -319,7 +332,7 @@ include '../includes/templates/header.php';
                                     <li>- Gestión de temas, animaciones, tipografía.</li>
                                 </ul>
                             </td>
-                            
+
                         </tr>
                     </tbody>
                 </table>
@@ -516,7 +529,7 @@ include '../includes/templates/header.php';
         <h2 class="md:text-3xl md:leading-normal">¿Necesitas ayuda?</h2>
         <p>Contáctanos</p>
     </div>
-    <div class="informacion grid md:grid-cols-2 grid-cols-1 mt-8 md:gap-[30px]" id="accordion-collapse" data-accordion="collapse" >
+    <div class="informacion grid md:grid-cols-2 grid-cols-1 mt-8 md:gap-[30px]" id="accordion-collapse" data-accordion="collapse">
         <div>
             <div>
                 <h2 id="info-admin-col">

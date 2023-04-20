@@ -8,8 +8,8 @@
               <div class="lg:col-span-4 md:col-span-12">
                 <a href="#" class="text-[22px] focus:outline-none">
                   
-                    <img src="assets/images/logo-light.png" alt="">
-                  <img src="assets/images/logo-light-fc.png" alt="" class="mt-8">
+                    <img src="../../assets/images/logo-light.png" alt="">
+                  <img src="../../assets/images/logo-light-fc.png" alt="" class="mt-8">
                 </a>
                 <p class="mt-6 text-gray-300">Sitio web administrado por la
                   Secretaría de Educación Abierta y Continua de la Facultad de Ciencias-UNAM.</p>

@@ -1,5 +1,9 @@
 /* CURSOS  TEMPLATE */
 
+h2 {
+    font-size: 1.5rem !important;
+}
+
 .curso {
     position: relative;
     border-radius: 0.375rem !important;
@@ -325,12 +329,36 @@
 
 }
 
+
+.portada .portada-informacion>p {
+    font-size: 1.1rem;
+}
+
 .portada .portada-informacion .portada-informacion-pu {
-    --tw-bg-opacity: 1 !important;
-    background-color: rgb(22 163 74 / var(--tw-bg-opacity)) !important;
+    background: #0897d5;
     --tw-text-opacity: 1 !important;
     color: rgb(255 255 255 / var(--tw-text-opacity)) !important;
-    font-size: 0.75rem !important;
+    font-size: 1rem !important;
+    line-height: 1rem !important;
+    font-weight: 700 !important;
+    padding-left: 0.625rem !important;
+    padding-right: 0.625rem !important;
+    padding-top: 0.125rem !important;
+    padding-bottom: 0.125rem !important;
+    border-radius: 0.25rem !important;
+    width: -webkit-fit-content !important;
+    width: -moz-fit-content !important;
+    width: fit-content !important;
+    content: var(--tw-content) !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    height: 1.25rem !important;
+}
+
+.portada .portada-informacion .portada-informacion-pu-red {
+    background: #e8442a;
+    color: white;
+    font-size: 1rem !important;
     line-height: 1rem !important;
     font-weight: 700 !important;
     padding-left: 0.625rem !important;
@@ -350,7 +378,7 @@
 .portada .portada-informacion .portada-informacion-pg {
     --tw-text-opacity: 1 !important;
     color: rgb(255 255 255 / var(--tw-text-opacity)) !important;
-    font-size: 0.75rem !important;
+    font-size: 1rem !important;
     line-height: 1rem !important;
     font-weight: 700 !important;
     padding-left: 0.625rem !important;
@@ -379,20 +407,20 @@
 
 .portada .portada-informacion p {
     --tw-text-opacity: 1 !important;
-    color: rgb(8 151 213 / var(--tw-text-opacity)) !important;
+    color: #ffcc52f0;
+    margin: 1rem 0;
 }
 
 
 .portada .portada-informacion .profesor {
-    display: -webkit-box !important;
-    display: -ms-flexbox !important;
-    display: flex !important;
-    -webkit-box-align: center !important;
-    -ms-flex-align: center !important;
-    align-items: center !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
-    margin-top: 0.75rem !important;
+    display: inline-flex;
+    justify-content: center;
+    gap: 38px;
+    margin: 6px 0;
+}
+
+.portada .portada-informacion .profesor>div>a {
+    padding-top: 9px;
 }
 
 .portada .portada-informacion .profesor img {
@@ -403,6 +431,7 @@
     --tw-shadow-colored: 0 5px 13px var(--tw-shadow-color) !important;
     -webkit-box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow) !important;
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow) !important;
+    /* margin-left: -2.5rem; */
 }
 
 .portada .portada-informacion .profesor a {
@@ -421,9 +450,8 @@
 .portada .portada-informacion .fecha {
     display: grid;
     grid-template-columns: repeat(1, minmax(0, 1fr)) !important;
-    padding-bottom: 2rem !important;
     text-align: center !important;
-    margin-top: 2.5rem !important;
+    margin-top: 1.5rem !important;
 }
 
 .portada .portada-informacion .fecha i {
@@ -452,6 +480,7 @@
     margin-left: auto !important;
     margin-right: auto !important;
     height: 1.25rem !important;
+    margin-bottom: 1.25rem;
 }
 
 .portada .datos {
@@ -484,6 +513,11 @@
     margin-right: 0.75rem !important;
 }
 
+.portada .datos ul li span{
+    color: rgb(255 255 255 / 0.6) !important;
+    margin-left: 0.25rem !important;
+}
+
 .portada .datos ul li i {
     --tw-text-opacity: 1 !important;
     color: rgb(255 255 255 / var(--tw-text-opacity)) !important;
@@ -493,7 +527,7 @@
 .oferta-academica {
     position: relative;
     padding-top: 4rem !important;
-    padding-bottom: 4rem !important;
+    padding-bottom: 3rem !important;
     overflow: hidden !important;
 }
 
@@ -501,11 +535,8 @@
     font-size: 1.5rem !important;
     line-height: 2rem !important;
     font-weight: 600 !important;
-    margin-bottom: 1.25rem !important;
-}
-
-.oferta-academica p {
     margin-bottom: 0.75rem !important;
+    margin-top: 0.75rem;
 }
 
 .curso-horarios {
@@ -571,9 +602,9 @@
 }
 
 .curso-costo h2 {
-    padding-bottom: 2rem !important;
+    padding-bottom: 1rem !important;
     text-align: center !important;
-    margin-bottom: 1rem !important;
+    margin-bottom: 0rem !important;
     font-size: 1.5rem !important;
     line-height: 2rem !important;
     line-height: 1.5 !important;
@@ -641,7 +672,7 @@
 
 
 .curso-costo .curso-costo-g>div span:nth-child(2) {
-    font-size: 2.25rem !important;
+    font-size: 1.6rem !important;
     line-height: 2.5rem !important;
     font-weight: 600 !important;
     margin-bottom: 0px !important;
@@ -698,7 +729,6 @@
 
 .temario {
     position: relative;
-    padding-top: 4rem !important;
     padding-bottom: 4rem !important;
 }
 
@@ -759,7 +789,7 @@
     padding: 1rem !important;
 }
 
-.temario .secciones .contenido tbody tr td::before{
+.temario .secciones .contenido tbody tr td::before {
     content: url('/assets/images/iconos/iconmonstr-clipboard-9.svg');
     display: inline-block;
     width: 15px;
@@ -936,6 +966,7 @@
     align-items: center !important;
 }
 
+
 .search svg {
     width: 18px;
     cursor: pointer;
@@ -946,15 +977,16 @@
     fill: white
 }
 
-.search > div {
+.search>div {
     position: absolute;
-    top: 4rem;
+    top: 2rem;
     right: 0;
-    width: 300px;
+    min-width: 365px;
+    padding: 2rem 0rem 2rem 2rem;
     display: none;
 }
 
-.search:hover > div{
+.search:hover>div {
     display: block;
 
 }
@@ -965,6 +997,8 @@
         width: 608px;
         height: 380px;
     }
+
+
 
 }
 
@@ -981,6 +1015,9 @@
         height: 182.078px;
     }
 
+    .portada .portada-informacion .fecha span {
+        margin-bottom: 0rem;
+    }
 
 }
 
@@ -988,5 +1025,26 @@
     .curso .curso_imagen .curso_imagen_adapter {
         width: 353.328px;
         height: 220.828px;
+    }
+
+
+}
+
+@media (max-width: 991px) {
+    .search {
+        display: flex !important;
+        justify-content: center;
+    }
+
+    .search>div {
+        position: relative;
+        display: block;
+        width: 100%;
+        top: 0;
+        padding: 0;
+    }
+
+    .search>svg {
+        display: none;
     }
 }

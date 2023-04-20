@@ -3,7 +3,8 @@ include '../includes/templates/header.php';
 ?>
 
 
-<section class="portada lg:py-44 bg-[url('../../assets/images/cursos/bg-TortugasMexico.webp')] ">
+<section class="portada">
+    <img src="../../assets/images/cursos/bg-TortugasMexico.webp" alt="">
     <div class="portada-opacity"></div>
     <div class="container">
         <div class="portada-informacion">
@@ -14,8 +15,12 @@ include '../includes/templates/header.php';
             <h1>Programación de dispositivos móviles con Android</h1>
             <p>1ra. Edición</p>
             <div class="profesor">
-                <img src="../assets/images/instructores/usr-m.jpg" alt="">
-                <a href="../assets/curriculums_docentes/GraciaPatriciaGonzalesPor.pdf" class="font-semibold text-white block ml-3 hover:text-indigo-600" target="_blank">M. en C. Gustavo Márquez Flores</a>
+                <div>
+                    <img src="../assets/images/instructores/usr-m.jpg" alt="">
+                </div>
+                <div>
+                    <a href="../assets/curriculums_docentes/GraciaPatriciaGonzalesPor.pdf" class="font-semibold text-white block ml-3 hover:text-indigo-600" target="_blank">M. en C. Gustavo Márquez Flores</a>
+                </div>
             </div>
 
             <div class="fecha">
@@ -222,14 +227,14 @@ include '../includes/templates/header.php';
                                 <ul class="pl-10">
                                     <li>- Activity, Context y Ciclos de vida de Activities</li>
                                 </ul>
-                            </td>                            
+                            </td>
                         </tr>
                         <tr>
                             <td>II.3. Interfaz de usuario.
                                 <ul class="pl-10">
                                     <li>- Layouts, recursos, ActionBar, menús, listas, popups, webview, fragmentos, pestañas, etc.</li>
                                 </ul>
-                            </td>                            
+                            </td>
                         </tr>
                         <tr>
                             <td>II.4 Gestión de la navegación y la comunicación entre las distintas interfaces.
@@ -243,7 +248,7 @@ include '../includes/templates/header.php';
                                 <ul class="pl-10">
                                     <li>- Gestión de temas, animaciones, tipografía.</li>
                                 </ul>
-                            </td>                            
+                            </td>
                         </tr>
                     </tbody>
                 </table>
@@ -409,13 +414,14 @@ include '../includes/templates/header.php';
         <p class="advertencia">
             <i class="uil uil-exclamation-circle"></i>En caso de
             cancelación, procederá la devolución de lo pagado con los criterios administrativos de la Facultad de
-            Ciencias.</p>
+            Ciencias.
+        </p>
     </div>
 </section>
 
 
 <div class="ayuda container md:mt-24">
-<div class="titulo">
+    <div class="titulo">
         <h2 class="md:text-3xl md:leading-normal">¿Necesitas ayuda?</h2>
         <p>Contáctanos</p>
     </div>

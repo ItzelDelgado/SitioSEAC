@@ -2,33 +2,49 @@
 include '../includes/templates/header.php';
 ?>
 
+<?php
+
+$titulo_curso = "Rescate y rehabilitación de fauna silvestre";
+$edicion = "6ta. Edición";
+$fecha = "Del 17 de abril al 26 de junio de 2023";
+$precio_unam = "2,700";
+$precio_general = "3,200";
+$precio_unam_descuento = "2,295";
+$precio_general_descuento = "2,720";
+$dias = "Lunes Martes Miercoles Jueves viernes ";
+
+
+?>
+
 <!-- Start Hero -->
 <section class="portada">
     <img src="../../assets/images/cursos/bg-FaunaSilvestre.webp" alt="">
     <div class="portada-opacity"></div>
-    <div></div>
     <div class="container">
         <div class="portada-informacion">
-            <span class="portada-informacion-pu">$2,700 /
+            <span class="portada-informacion-pu">$<?php echo $precio_unam ?> /
                 UNAM</span>
-            <span class="portada-informacion-pg">$3,200 /
+            <span class="portada-informacion-pg">$<?php echo $precio_general ?> /
                 GENERAL</span>
             <p>15% de descuento por concepto de pronto pago (hasta el 3 de abril)</p>
-            <span class="bg-red-600 text-white text-xs font-bold px-2.5 py-0.5 rounded w-fit mx-auto h-5">$2,295 /
+            <span class="portada-informacion-pu-red">$<?php echo $precio_unam_descuento ?> /
                 UNAM</span>
-            <span class="portada-informacion-pg">$2,720 /
+            <span class="portada-informacion-pg">$<?php echo $precio_general_descuento ?> /
                 GENERAL</span>
-            <h1>Rescate y rehabilitación de fauna silvestre</h1>
-            <p>6ta. Edición</p>
+            <h1><?php echo $titulo_curso ?></h1>
+            <p class="text-indigo-600"><?php echo $edicion ?></p>
             <div class="profesor">
-                <img src="../assets/images/instructores/usr-m.jpg" alt="">
-                <a href="../assets/curriculums_docentes/RosaliaPastorNieto.pdf" target="_blank">Dra. Rosalía Pastor Nieto</a>
+                <div>
+                    <img src="../assets/images/instructores/usr-m.jpg" alt="">
+                </div>
+                <div>
+                    <a href="../assets/curriculums_docentes/RosaliaPastorNieto.pdf" target="_blank">Dra. Rosalía Pastor Nieto</a>
+                </div>
             </div>
 
             <div class="fecha">
                 <i class="uil uil-calendar-alt"></i>
-                <span>Del 17 de
-                    abril al 26 de junio de 2023</span>
+                <span><?php echo $fecha ?></span>
             </div>
 
         </div>
@@ -36,33 +52,29 @@ include '../includes/templates/header.php';
 
     <div class="datos">
         <ul>
-            <!-- <li class="inline breadcrumb-item uppercase text-[13px] font-bold duration-500 ease-in-out text-white/50 hover:text-white"><a href="index-course.php">Techwind</a></li>
-                   <li class="inline breadcrumb-item uppercase text-[13px] font-bold duration-500 ease-in-out text-white/50 hover:text-white"><a href="course-listing.php">Courses</a></li>
-                    <li class="inline breadcrumb-item uppercase text-[13px] font-bold duration-500 ease-in-out text-white" aria-current="page">Web Development</li> -->
-
             <li>
                 <i class="uil uil-calendar-alt"></i>
-                <span class="text-white/60 ml-1">Lunes</span>
+                <span ><?php echo $dias?></span>
             </li>
 
             <li>
                 <i class="uil uil-bell-school"></i>
-                <span class="text-white/60 ml-1">16-19h</span>
+                <span >16-19h</span>
             </li>
 
             <li>
                 <i class="uil uil-clock"></i>
-                <span class="text-white/60 ml-1">27 horas</span>
+                <span >27 horas</span>
             </li>
 
             <li>
                 <i class="uil uil-map-marker"></i>
-                <span class="text-white/60 ml-1">Virtual</span>
+                <span >Virtual</span>
             </li>
 
             <li>
                 <i class="uil uil-user-circle"></i>
-                <span class="text-white/60 ml-1">Máx. 60 / Min. 15</span>
+                <span >Máx. 60 / Min. 15</span>
             </li>
 
             <li>
@@ -152,9 +164,6 @@ include '../includes/templates/header.php';
     </div>
 
 
-
-
-
     <div class="curso-costo container">
         <h2 class="md:text-3xl md:leading-normal">Costo</h2>
 
@@ -167,7 +176,7 @@ include '../includes/templates/header.php';
 
                 <div>
                     <span>$</span>
-                    <span>3,200</span>
+                    <span style="text-decoration: line-through;">3,200</span>
                     <span>MXN</span>
                 </div>
                 <div>
@@ -188,7 +197,7 @@ include '../includes/templates/header.php';
 
                 <div>
                     <span>$</span>
-                    <span>2,700</span>
+                    <span style="text-decoration: line-through;">2,700</span>
                     <span>MXN</span>
                 </div>
                 <div>
@@ -218,7 +227,7 @@ include '../includes/templates/header.php';
 
 
 
-<section class="temario md:py-24 container">
+<section class="temario container">
     <h2>Temario</h2>
     <div class="secciones grid md:grid-cols-2 grid-cols-1">
         <div>
@@ -285,7 +294,7 @@ include '../includes/templates/header.php';
                             <td>II.2.
                                 Criterios para la rehabilitación, reintroducción o destino final
                             </td>
-                            
+
                         </tr>
                     </tbody>
                 </table>
@@ -522,7 +531,7 @@ include '../includes/templates/header.php';
 <section class="inscripcion md:py-24" id="inscripcion">
     <div class="container">
         <div class="titulo">
-            <h2 class="md:text-3xl md:leading-normal">Inscripción</h2>
+            <h2>Inscripción</h2>
             <p>.</p>
         </div>
 
@@ -569,7 +578,7 @@ include '../includes/templates/header.php';
         <h2 class="md:text-3xl md:leading-normal">¿Necesitas ayuda?</h2>
         <p>Contáctanos</p>
     </div>
-    <div class="informacion grid md:grid-cols-2 grid-cols-1 mt-8 md:gap-[30px]" id="accordion-collapse" data-accordion="collapse" >
+    <div class="informacion grid md:grid-cols-2 grid-cols-1 mt-8 md:gap-[30px]" id="accordion-collapse" data-accordion="collapse">
         <div>
             <div>
                 <h2 id="info-admin-col">

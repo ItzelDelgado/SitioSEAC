@@ -3,7 +3,8 @@ include '../includes/templates/header.php';
 ?>
 
 <!-- Start Hero -->
-<section class="portada lg:py-44 bg-[url('../../assets/images/cursos/bg-EstadisticaEnBiologia1.webp')] ">
+<section class="portada">
+    <img src="../../assets/images/cursos/bg-EstadisticaEnBiologia1.webp" alt="">
     <div class="portada-opacity"></div>
     <div class="container">
         <div class="portada-informacion">
@@ -14,9 +15,12 @@ include '../includes/templates/header.php';
             <h1>Introducción a la estadística en la biología</h1>
             <p>2da. Edición</p>
             <div class="profesor">
-                <img src="../assets/images/instructores/usr-m.jpg" alt="">
-                <a href="/assets/curriculums_docentes/AlejandroVillegasCastillo.pdf" target="_blank">Dr. Alejandro
-                    Villegas Castillo</a>
+                <div>
+                    <img src="../assets/images/instructores/usr-m.jpg" alt="">
+                </div>
+                <div>
+                    <a href="/assets/curriculums_docentes/AlejandroVillegasCastillo.pdf" target="_blank">Dr. Alejandro Villegas Castillo</a>
+                </div>
             </div>
 
             <div class="fecha">
@@ -285,7 +289,7 @@ include '../includes/templates/header.php';
 
                         <tr>
                             <td>II.2 Medidas de dispersión</td>
-                            
+
                         </tr>
 
 
@@ -296,40 +300,40 @@ include '../includes/templates/header.php';
 
         <div>
             <h3>III. La varianza como base del análisis estadístico
-                </h3>
+            </h3>
 
-                <div class="contenido">
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>Temas</th>
+            <div class="contenido">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Temas</th>
 
-                            </tr>
-                        </thead>
+                        </tr>
+                    </thead>
 
-                        <tbody>
-                            <tr>
-                                <td>III.1 Qué es y para qué sirve
-                                    la varianza</td>
+                    <tbody>
+                        <tr>
+                            <td>III.1 Qué es y para qué sirve
+                                la varianza</td>
 
-                            </tr>
+                        </tr>
 
-                            <tr>
-                                <td>III.2 Pruebas de
-                                    homocedasticidad de varianzas</td>
+                        <tr>
+                            <td>III.2 Pruebas de
+                                homocedasticidad de varianzas</td>
 
-                            </tr>
+                        </tr>
 
-                            <tr>
-                                <td>III.3 Prueba F para varianzas
-                                </td>
+                        <tr>
+                            <td>III.3 Prueba F para varianzas
+                            </td>
 
-                            </tr>
+                        </tr>
 
 
-                        </tbody>
-                    </table>
-                </div>
+                    </tbody>
+                </table>
+            </div>
         </div>
 
         <div>
@@ -366,30 +370,30 @@ include '../includes/templates/header.php';
 
         <div>
             <h3>V. Estadística Paramétrica: Análisis de varianzas
-                </h3>
+            </h3>
 
-                <div class="contenido">
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>Temas</th>
+            <div class="contenido">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Temas</th>
 
-                            </tr>
-                        </thead>
+                        </tr>
+                    </thead>
 
-                        <tbody>
-                            <tr>
-                                <td> V.1 ANOVA de una y dos vías
-                                </td>
+                    <tbody>
+                        <tr>
+                            <td> V.1 ANOVA de una y dos vías
+                            </td>
 
-                            </tr>
-
-
+                        </tr>
 
 
-                        </tbody>
-                    </table>
-                </div>
+
+
+                    </tbody>
+                </table>
+            </div>
         </div>
 
 
@@ -398,36 +402,36 @@ include '../includes/templates/header.php';
             <h3>VI. Estadística no paramétrica: Análisis de
                 varianzas </h3>
 
-                <div class="contenido">
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>Temas</th>
+            <div class="contenido">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Temas</th>
 
-                            </tr>
-                        </thead>
+                        </tr>
+                    </thead>
 
-                        <tbody>
-                            <tr>
-                                <td> VI.1 -Prueba
-                                    Kolmogorov-Smirnov</td>
+                    <tbody>
+                        <tr>
+                            <td> VI.1 -Prueba
+                                Kolmogorov-Smirnov</td>
 
-                            </tr>
+                        </tr>
 
-                            <tr>
-                                <td>VI.2 Prueba Mann-Whitney</td>
+                        <tr>
+                            <td>VI.2 Prueba Mann-Whitney</td>
 
-                            </tr>
+                        </tr>
 
-                            <tr>
-                                <td>VI.3 Prueba Kruskal-Wallis</td>
+                        <tr>
+                            <td>VI.3 Prueba Kruskal-Wallis</td>
 
-                            </tr>
+                        </tr>
 
 
-                        </tbody>
-                    </table>
-                </div>
+                    </tbody>
+                </table>
+            </div>
         </div>
 
 
@@ -585,7 +589,7 @@ include '../includes/templates/header.php';
         <h2 class="md:text-3xl md:leading-normal">¿Necesitas ayuda?</h2>
         <p>Contáctanos</p>
     </div>
-    <div class="informacion grid md:grid-cols-2 grid-cols-1 mt-8 md:gap-[30px]" id="accordion-collapse" data-accordion="collapse" >
+    <div class="informacion grid md:grid-cols-2 grid-cols-1 mt-8 md:gap-[30px]" id="accordion-collapse" data-accordion="collapse">
         <div>
             <div>
                 <h2 id="info-admin-col">

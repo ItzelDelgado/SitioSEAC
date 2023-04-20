@@ -4,7 +4,8 @@ include '../includes/templates/header.php';
 
 <!-- =========== PORTADA PRINCIPAL ========== -->
 
-<section class="portada lg:py-44 bg-[url('../../assets/images/cursos/bg-bioestadistica.webp')]">
+<section class="portada">
+    <img src="../../assets/images/cursos/bg-bioestadistica.webp" alt="">
     <div class="portada-opacity"></div>
     <div class="container">
         <div class="portada-informacion">
@@ -15,10 +16,12 @@ include '../includes/templates/header.php';
             <h1>Bioestadística</h1>
             <p>16a. Edición</p>
             <div class="profesor">
-                <img src="../assets/images/instructores/usr-m.jpg" alt="">
-                <a href="../assets/curriculums_docentes/JorgeAMorenoHern.pdf" target="_blank">
-                    M. en C. Jorge A. Moreno Hernández
-                </a>
+                <div>
+                    <img src="../assets/images/instructores/usr-m.jpg" alt="">
+                </div>
+                <div>
+                    <a href="../assets/curriculums_docentes/JorgeAMorenoHern.pdf" target="_blank">M. en C. Jorge A. Moreno Hernández</a>
+                </div>
             </div>
             <div class="fecha">
                 <i class="uil uil-calendar-alt"></i>
@@ -308,7 +311,7 @@ include '../includes/templates/header.php';
                     <tbody>
                         <tr>
                             <td><i></i>
-                            IV.1.
+                                IV.1.
                                 Concepto de inferencia estadística </td>
                         </tr>
                         <tr>

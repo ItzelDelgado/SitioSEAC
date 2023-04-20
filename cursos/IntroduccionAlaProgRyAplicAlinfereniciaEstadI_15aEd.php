@@ -3,7 +3,8 @@ include '../includes/templates/header.php';
 ?>
 
 <!-- Start Hero -->
-<section class="portada lg:py-44 bg-[url('../../assets/images/cursos/bg-CursoR.webp')] ">
+<section class="portada">
+    <img src="../../assets/images/cursos/bg-CursoR.webp" alt="">
     <div class="portada-opacity"></div>
     <div class="container">
         <div class="portada-informacion">
@@ -14,9 +15,12 @@ include '../includes/templates/header.php';
             <h1>Introducción a la programación en R y su aplicación a la inferencia estadística I</h1>
             <p>15a. Edición</p>
             <div class="profesor">
-                <img src="../assets/images/instructores/usr-m.jpg" alt="">
-                <a href="/assets/curriculums_docentes/JesusJuradoMolina.pdf" target="_blank">Dr. Jesús
-                    Jurado Molina</a>
+                <div>
+                    <img src="../assets/images/instructores/usr-m.jpg" alt="">
+                </div>
+                <div>
+                    <a href="/assets/curriculums_docentes/JesusJuradoMolina.pdf" target="_blank">Dr. Jesús Jurado Molina</a>
+                </div>
             </div>
 
             <div class="fecha">
@@ -76,7 +80,7 @@ include '../includes/templates/header.php';
 <!-- End Hero -->
 
 <!-- Start Section-->
-<section class="relative md:py-24 py-16 overflow-hidden">
+<section class="oferta-academica md:py-20">
     <div class="container">
         <h2>Descripción</h2>
         <p>La mayoría de los fenómenos que se estudian en la biología, ecología, ciencias de la
@@ -329,7 +333,7 @@ include '../includes/templates/header.php';
                                     <li>Datos disponibles en paquetes e internet</li>
                                 </ul>
                             </td>
-                            
+
                         </tr>
 
 
@@ -343,7 +347,7 @@ include '../includes/templates/header.php';
                                     <li>Graficas de dispersión</li>
                                 </ul>
                             </td>
-                            
+
                         </tr>
 
 
@@ -355,51 +359,51 @@ include '../includes/templates/header.php';
         <div>
             <h3>III. Modelos estadísticos e inferencia estadística
                 en R</h3>
-                <div class="contenido">
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>Temas</th>
+            <div class="contenido">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Temas</th>
 
-                            </tr>
-                        </thead>
+                        </tr>
+                    </thead>
 
-                        <tbody>
-                            <tr>
-                                <td>III.1 Distribuciones de
-                                    probabilidad
-                                    <ul class="p-6 list-disc ">
-                                        <li>Distribución binomial</li>
-                                        <li>Distribución de Poisson</li>
-                                        <li>Distribución Normal</li>
-                                        <li>Otras distribuciones</li>
+                    <tbody>
+                        <tr>
+                            <td>III.1 Distribuciones de
+                                probabilidad
+                                <ul class="p-6 list-disc ">
+                                    <li>Distribución binomial</li>
+                                    <li>Distribución de Poisson</li>
+                                    <li>Distribución Normal</li>
+                                    <li>Otras distribuciones</li>
 
-                                    </ul>
-                                </td>
+                                </ul>
+                            </td>
 
-                            </tr>
+                        </tr>
 
-                            <tr>
-                                <td>III.2 Inferencia estadística
-                                    <ul class="p-6 list-disc ">
-                                        <li>Resumen de estadísticas</li>
-                                        <li>Correlación y varianza</li>
-                                        <li>Prueba de Chi cuadrada</li>
-                                        <li>Prueba de t</li>
-                                        <li>Prueba de F</li>
-                                        <li>ANOVA</li>
+                        <tr>
+                            <td>III.2 Inferencia estadística
+                                <ul class="p-6 list-disc ">
+                                    <li>Resumen de estadísticas</li>
+                                    <li>Correlación y varianza</li>
+                                    <li>Prueba de Chi cuadrada</li>
+                                    <li>Prueba de t</li>
+                                    <li>Prueba de F</li>
+                                    <li>ANOVA</li>
 
-                                    </ul>
-                                </td>
+                                </ul>
+                            </td>
 
-                            </tr>
-
-
+                        </tr>
 
 
-                        </tbody>
-                    </table>
-                </div>
+
+
+                    </tbody>
+                </table>
+            </div>
         </div>
 
     </div>
@@ -439,12 +443,12 @@ include '../includes/templates/header.php';
                                 A.C.<br>Sucursal: 870<br>
                                 Cuenta: 572529<br>Clabe: 00 21 80 08 70 05 72 52 92<br>Referencia: 829.411.100</p>
 
-                            <p >En caso de que desees efectuarlo con tarjeta de
+                            <p>En caso de que desees efectuarlo con tarjeta de
                                 crédito y/o débito deberás acudir a las oficinas de Fundación UNAM en horario de
                                 lunes a jueves de 9:30 a 17:30 y viernes de 9:30 a 14:30, ubicada en Calle
                                 Pennsylvania 203, Col. Nápoles, Alcaldía Benito Juárez, C.P. 03810.</p>
 
-                            <p >También puedes efectuarlo vía telefónica al call
+                            <p>También puedes efectuarlo vía telefónica al call
                                 center 55 53 400 904 o al teléfono 55 4575 1879</p>
 
 
@@ -471,7 +475,7 @@ include '../includes/templates/header.php';
         <h2 class="md:text-3xl md:leading-normal">¿Necesitas ayuda?</h2>
         <p>Contáctanos</p>
     </div>
-    <div class="informacion grid md:grid-cols-2 grid-cols-1 mt-8 md:gap-[30px]" id="accordion-collapse" data-accordion="collapse" >
+    <div class="informacion grid md:grid-cols-2 grid-cols-1 mt-8 md:gap-[30px]" id="accordion-collapse" data-accordion="collapse">
         <div>
             <div>
                 <h2 id="info-admin-col">

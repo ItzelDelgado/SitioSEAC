@@ -3,7 +3,8 @@ include '../includes/templates/header.php';
 ?>
 
 <!-- Start Hero -->
-<section class="portada lg:py-44 bg-[url('../../assets/images/cursos/bg-TortugasMexico.webp')] ">
+<section class="portada">
+    <img src="../../assets/images/cursos/bg-TortugasMexico.webp" alt="">
     <div class="portada-opacity"></div>
     <div class="container">
         <div class="portada-informacion">
@@ -19,8 +20,12 @@ include '../includes/templates/header.php';
             <h1>Introducción al estudio y conservación de tortugas de México</h1>
             <p>1ra. Edición</p>
             <div class="profesor">
-                <img src="../assets/images/instructores/usr-m.jpg" alt="">
-                <a href="../assets/curriculums_docentes/GraciaPatriciaGonzalesPor.pdf" target="_blank">Dra. Gracia Patricia González Porter</a>
+                <div>
+                    <img src="../assets/images/instructores/usr-m.jpg" alt="">
+                </div>
+                <div>
+                    <a href="../assets/curriculums_docentes/GraciaPatriciaGonzalesPor.pdf" target="_blank">Dra. Gracia Patricia González Porter</a>
+                </div>
             </div>
 
             <div class="fecha">
@@ -279,23 +284,23 @@ include '../includes/templates/header.php';
                         </tr>
                         <tr>
                             <td>II.2. Familia Kinosterniddae (Staurotypinae, Kinosterninae)</td>
-                            
+
                         </tr>
                         <tr>
                             <td>II.3. Familia Trionychidae</td>
-                            
+
                         </tr>
                         <tr>
                             <td>II.4 Familia Emydidae</td>
-                            
+
                         </tr>
                         <tr>
                             <td>II.5 Familia Geomydidae</td>
-                            
+
                         </tr>
                         <tr>
                             <td>II.6 Famila Chelidridae</td>
-                            
+
                         </tr>
                     </tbody>
                 </table>
@@ -602,7 +607,7 @@ include '../includes/templates/header.php';
         <h2 class="md:text-3xl md:leading-normal">¿Necesitas ayuda?</h2>
         <p>Contáctanos</p>
     </div>
-    <div class="informacion grid md:grid-cols-2 grid-cols-1 mt-8 md:gap-[30px]" id="accordion-collapse" data-accordion="collapse" >
+    <div class="informacion grid md:grid-cols-2 grid-cols-1 mt-8 md:gap-[30px]" id="accordion-collapse" data-accordion="collapse">
         <div>
             <div>
                 <h2 id="info-admin-col">

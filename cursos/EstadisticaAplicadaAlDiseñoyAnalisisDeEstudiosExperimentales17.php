@@ -3,7 +3,8 @@ include '../includes/templates/header.php';
 ?>
 
 <!-- Start Hero -->
-<section class="portada lg:py-44 bg-[url('../../assets/images/cursos/bg-estadica-aplicada-diseño-est-exp.webp')] ">
+<section class="portada">
+    <img src="../../assets/images/cursos/bg-estadica-aplicada-diseño-est-exp.webp" alt="">
     <div class="portada-opacity"></div>
     <div class="container">
         <div class="portada-informacion">
@@ -14,12 +15,20 @@ include '../includes/templates/header.php';
             <h1>Estadística aplicada al diseño y análisis de estudios experimentales</h1>
             <p>7ma. Edición</p>
             <div class="profesor">
-                <img src="../assets/images/instructores/usr-m.jpg" alt="">
-                <a href="../assets/curriculums_docentes/MaLourdesBarbosaSal.pdf" target="_blank">Dra. María de Lourdes Barbosa Saldaña</a>
+                <div>
+                    <img src="../assets/images/instructores/usr-m.jpg" alt="">
+                </div>
+                <div>
+                    <a href="../assets/curriculums_docentes/MaLourdesBarbosaSal.pdf" target="_blank">Dra. María de Lourdes Barbosa Saldaña</a>
+                </div>
             </div>
             <div class="profesor">
-                <img src="../assets/images/instructores/usr-m.jpg" alt="">
-                <a href="../assets/curriculums_docentes/MaGuadalupeCamachoSan.pdf" target="_blank">Biol. María Guadalupe Camacho Sánchez</a>
+                <div>
+                    <img src="../assets/images/instructores/usr-m.jpg" alt="">
+                </div>
+                <div>
+                    <a href="../assets/curriculums_docentes/MaGuadalupeCamachoSan.pdf" target="_blank">Biol. María Guadalupe Camacho Sánchez</a>
+                </div>
             </div>
 
             <div class="fecha">
@@ -276,35 +285,35 @@ include '../includes/templates/header.php';
                             <tr>
                                 <td>II.2 Error tipo I y Error II
                                 </td>
-                                
+
                             </tr>
 
 
                             <tr>
                                 <td>II.3 Hipótesis estadísticas
                                 </td>
-                                
+
                             </tr>
 
                             <tr>
                                 <td>II.4 Pruebas de hipótesis de un y dos colas
                                 </td>
-                                
+
                             </tr>
                             <tr>
                                 <td>II.5 Pruebas de hipótesis para una media
                                 </td>
-                                
+
                             </tr>
                             <tr>
                                 <td>II.6 Prueba de hipótesis para la diferencia entre dos medias de poblaciones independientes y no independientes
                                 </td>
-                                
+
                             </tr>
                             <tr>
                                 <td><a class="">II.7 Prueba de hipótesis par un cociente de dos varianzas
                                 </td>
-                                
+
                             </tr>
                         </tbody>
                     </table>
@@ -775,9 +784,9 @@ include '../includes/templates/header.php';
                             <p>Banco: CitiBanamex<br>Beneficiario: Fundación UNAM, A.C.<br>Sucursal: 870<br>
                                 Cuenta: 572529<br>Clabe: 00 21 80 08 70 05 72 52 92<br>Referencia: 829.411.100</p>
 
-                            <p >En caso de que desees efectuarlo con tarjeta de crédito y/o débito deberás acudir a las oficinas de Fundación UNAM en horario de lunes a jueves de 9:30 a 17:30 y viernes de 9:30 a 14:30, ubicada en Calle Pennsylvania 203, Col. Nápoles, Alcaldía Benito Juárez, C.P. 03810.</p>
+                            <p>En caso de que desees efectuarlo con tarjeta de crédito y/o débito deberás acudir a las oficinas de Fundación UNAM en horario de lunes a jueves de 9:30 a 17:30 y viernes de 9:30 a 14:30, ubicada en Calle Pennsylvania 203, Col. Nápoles, Alcaldía Benito Juárez, C.P. 03810.</p>
 
-                            <p >También puedes efectuarlo vía telefónica al call center 55 53 400 904 o al teléfono 55 4575 1879</p>
+                            <p>También puedes efectuarlo vía telefónica al call center 55 53 400 904 o al teléfono 55 4575 1879</p>
 
 
                         </div>

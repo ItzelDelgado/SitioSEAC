@@ -3,7 +3,8 @@ include '../includes/templates/header.php';
 ?>
 
 <!-- Start Hero -->
-<section class="portada lg:py-44 bg-[url('../../assets/images/diplomados/bg-DiplomadoFisica.webp')] ">
+<section class="portada">
+    <img src="../../assets/images/diplomados/bg-DiplomadoFisica.webp" alt="">
     <div class="portada-opacity"></div>
     <div class="container">
         <div class="portada-informacion">
@@ -20,13 +21,20 @@ include '../includes/templates/header.php';
             <h1>Actualización Docente en Física</h1>
             <p>Programa 2022-2023</p>
             <div class="profesor">
-                <img src="../assets/images/instructores/usr-m.jpg" alt="">
-                <a href="#" target="_blank">Dra.
-                    Mirna Villavicencio Torres</a>
+                <div>
+                    <img src="../assets/images/instructores/usr-m.jpg" alt="">
+                </div>
+                <div>
+                    <a href="#" target="_blank">Dra. Mirna Villavicencio Torres</a>
+                </div>
             </div>
             <div class="profesor">
-                <img src="../assets/images/instructores/usr-m.jpg" alt="">
-                <a href="#" target="_blank">Dr. Ricardo Méndez Fragoso</a>
+                <div>
+                    <img src="../assets/images/instructores/usr-m.jpg" alt="">
+                </div>
+                <div>
+                    <a href="#" target="_blank">Dr. Ricardo Méndez Fragoso</a>
+                </div>
             </div>
 
             <div class="fecha">
@@ -288,23 +296,23 @@ include '../includes/templates/header.php';
                         <tr>
                             <td>II.2. Familia Kinosterniddae
                                 (Staurotypinae, Kinosterninae)</td>
-                            
+
                         </tr>
                         <tr>
                             <td>II.3. Familia Trionychidae</td>
-                            
+
                         </tr>
                         <tr>
                             <td>II.4 Familia Emydidae</td>
-                            
+
                         </tr>
                         <tr>
                             <td>II.5 Familia Geomydidae</td>
-                            
+
                         </tr>
                         <tr>
                             <td>II.6 Famila Chelidridae</td>
-                            
+
                         </tr>
                     </tbody>
                 </table>

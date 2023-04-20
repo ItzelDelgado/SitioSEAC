@@ -3,7 +3,8 @@ include '../includes/templates/header.php';
 ?>
 
 <!-- Start Hero -->
-<section class="portada lg:py-44 bg-[url('../../assets/images/cursos/bg-Dibujo_de_la_naturaleza.webp')] ">
+<section class="portada">
+    <img src="../../assets/images/cursos/bg-Dibujo_de_la_naturaleza.webp" alt="">
     <div class="portada-opacity"></div>
     <div class="container">
         <div class="portada-informacion">
@@ -19,9 +20,13 @@ include '../includes/templates/header.php';
             <h1>Dibujo de la Naturaleza</h1>
             <p>1ra. Edición</p>
             <div class="profesor">
-                <img src="../assets/images/instructores/usr-m.jpg" alt="">
-                <a href="../assets/curriculums_docentes/AldideOyarzabalSal.pdf" target="_blank">Maestro en
-                    Artes Aldi de Oyarzabal Salcedo<br>Ilustrador Científico de la Facultad de Ciencias</a>
+                <div>
+                    <img src="../assets/images/instructores/usr-m.jpg" alt="">
+                </div>
+                <div>
+                    <a href="../assets/curriculums_docentes/AldideOyarzabalSal.pdf" target="_blank">Maestro en
+                        Artes Aldi de Oyarzabal Salcedo<br>Ilustrador Científico de la Facultad de Ciencias</a>
+                </div>
             </div>
 
             <div class="fecha">
@@ -408,7 +413,7 @@ include '../includes/templates/header.php';
         <h2 class="md:text-3xl md:leading-normal">¿Necesitas ayuda?</h2>
         <p>Contáctanos</p>
     </div>
-    <div class="informacion grid md:grid-cols-2 grid-cols-1 mt-8 md:gap-[30px]" id="accordion-collapse" data-accordion="collapse" >
+    <div class="informacion grid md:grid-cols-2 grid-cols-1 mt-8 md:gap-[30px]" id="accordion-collapse" data-accordion="collapse">
         <div>
             <div>
                 <h2 id="info-admin-col">
