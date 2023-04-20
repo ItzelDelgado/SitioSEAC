@@ -41,7 +41,7 @@ include './includes/templates/header.php';
     <div class="flex justify-center gap-4">
       <button class="bg-gray-50 p-2" id="programados">Programados</button>
       <button class="bg-gray-50 p-2" id="enCurso">En proceso</button>
-      <button class="bg-gray-50 p-2">Pasados</button>
+      <button class="bg-gray-50 p-2" id="pasados">Pasados</button>
     </div>
   </div>
 </div>
