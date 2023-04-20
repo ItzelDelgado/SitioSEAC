@@ -39,14 +39,14 @@
     <!-- End Hero -->
 
     <div class="container">
-      <p class="mb-3 mt-16 font-semibold">Estimado profesor:</p>
+      <h2 class="mb-3 mt-16 font-semibold">Estimado profesor:</h2>
       <p>
-        Si tiene interés en impartir algún curso, Diplomado o Taller
+        Si tiene interés en impartir algún Curso, Diplomado o Taller
         especializado con temas de su dominio, lo invitamos a proponerlo a esta
         Secretaría entregando la documentación necesaria de acuerdo a los
         siguientes formatos:
       </p>
-      <h2 class="font-semibold mb-10 mt-10">
+      <h2 class="font-semibold mb-4 mt-10">
         Documento con descripción del curso, Taller o Diplomado.
         <a
           class="text-indigo-600"
@@ -55,7 +55,7 @@
           >Bajar formato</a
         >
       </h2>
-      <div class="relative md:py-20 overflow-hidden">
+      <div class="relative overflow-hidden">
         <iframe
           src="assets/pdf/formatos/Fromato cursos_final.pdf"
           frameborder="0"
@@ -63,23 +63,7 @@
           width="100%"
         ></iframe>
       </div>
-      <h2 class="font-semibold mb-10 mt-10">
-        Rubrica para evaluación.
-        <a
-          class="text-indigo-600"
-          href="assets/pdf/formatos/comite.pdf"
-          download="rubrica-para-evaluacion"
-          >Bajar formato</a
-        >
-      </h2>
-      <div class="relative md:py-20 overflow-hidden">
-        <iframe
-          src="assets/pdf/formatos/comite.pdf"
-          frameborder="0"
-          height="500px"
-          width="100%"
-        ></iframe>
-      </div>
+      
       <div class="mt-10 mb-10">
         <p class="font-semibold">
           Puede hacer llegar a esta Secretaría los documentos de alguna de las

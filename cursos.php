@@ -197,12 +197,6 @@ include './includes/templates/header.php';
       </div>
       <!-- CURSO FIN -->
 
-
-
-
-
-
-
       <!-- CURSO Dibujo de la naturaleza-->
       <div class="group curso programados">
         <div class="curso_imagen">

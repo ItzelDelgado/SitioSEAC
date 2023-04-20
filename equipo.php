@@ -124,7 +124,7 @@
     </div>
 
 
-    <div class="container md:mt-16 mt-16">
+    <!-- <div class="container md:mt-16 mt-16">
       <div class="grid grid-cols-1 pb-8 text-center">
         <h3 class="mb-6 md:text-3xl text-2xl md:leading-normal leading-normal font-semibold">Equipo</h3>
         <p class="text-slate-400 max-w-xl mx-auto"></p>
@@ -148,7 +148,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
   </section>
   <!-- Footer Start -->
   <?php
