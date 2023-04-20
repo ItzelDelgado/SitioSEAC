@@ -206,7 +206,9 @@ include './includes/templates/header.php';
       <!-- CURSO Dibujo de la naturaleza-->
       <div class="group curso programados">
         <div class="curso_imagen">
-          <img src="assets/images/cursos/Dibujo_de_la_naturaleza.webp" alt="" />
+          <div class="curso_imagen_adapter">
+            <img src="assets/images/cursos/bg-Dibujo_de_la_naturaleza.webp" alt="" />
+          </div>
           <div class="curso_imagen-backgroud">
           </div>
           <div class="curso_imagen-data">
@@ -279,7 +281,9 @@ include './includes/templates/header.php';
       <!-- CURSO Estrategias de Educación ambiental para la sustentabilidad. Segunda Edición-->
       <div class="group curso enCurso">
         <div class="curso_imagen">
-          <img src="assets/images/cursos/estrategias-edu-ambiental-para-sustentabilidad.webp" alt="" />
+          <div class="curso_imagen_adapter">
+            <img src="assets/images/cursos/bg-estrategias-edu-ambiental-para-sustentabilidad.webp" alt="" />
+          </div>
           <div class="curso_imagen-backgroud">
           </div>
           <div class="curso_imagen-data">
@@ -342,7 +346,9 @@ include './includes/templates/header.php';
       <!-- CURSO  Introducción a la divulgación de la ciencia. Sexta Edición-->
       <div class="group curso programados">
         <div class="curso_imagen">
-          <img src="assets/images/cursos/DivulgacionCiencia1.webp" alt="" />
+          <div class="curso_imagen_adapter">
+            <img src="assets/images/cursos/bg-DivulgacionCiencia.webp" alt="" />
+          </div>
           <div class="curso_imagen-backgroud">
           </div>
           <div class="curso_imagen-data">
@@ -410,7 +416,9 @@ include './includes/templates/header.php';
       <!-- CURSO Rescate y rehabilitación de fauna silvestre. Sexta Edición-->
       <div class="group curso programados">
         <div class="curso_imagen">
-          <img src="assets/images/cursos/FaunaSilvestre.webp" alt="" />
+          <div class="curso_imagen_adapter">
+            <img src="assets/images/cursos/bg-FaunaSilvestre.webp" alt="" />
+          </div>
           <div class="curso_imagen-backgroud">
           </div>
           <div class="curso_imagen-data">
@@ -473,7 +481,9 @@ include './includes/templates/header.php';
       <!-- CURSO Introducción al estudio y conservación de tortugas de México-->
       <div class="group curso programados">
         <div class="curso_imagen">
-          <img src="assets/images/cursos/TortugasMexico1.webp" alt="" />
+          <div class="curso_imagen_adapter">
+            <img src="assets/images/cursos/bg-TortugasMexico.webp" alt="" />
+          </div>
           <div class="curso_imagen-backgroud">
           </div>
           <div class="curso_imagen-data">
@@ -538,7 +548,9 @@ include './includes/templates/header.php';
       <!-- CURSO Introducción a la programación en R y su aplicación a la inferencia estadística (Curso I). Edición 15-->
       <div class="group curso programados">
         <div class="curso_imagen">
-          <img src="assets/images/cursos/CursoR.webp" alt="" />
+          <div class="curso_imagen_adapter">
+            <img src="assets/images/cursos/bg-CursoR.webp" alt="" />
+          </div>
           <div class="curso_imagen-backgroud">
           </div>
           <div class="curso_imagen-data">
@@ -603,7 +615,9 @@ include './includes/templates/header.php';
       <!-- CURSO Introducción a la estadística en la biología, 2da. Edición-->
       <div class="group curso programados">
         <div class="curso_imagen">
-          <img src="assets/images/cursos/EstadisticaEnBiologia1.webp" alt="" />
+          <div class="curso_imagen_adapter">
+            <img src="assets/images/cursos/bg-EstadisticaEnBiologia1.webp" alt="" />
+          </div>
           <div class="curso_imagen-backgroud">
           </div>
           <div class="curso_imagen-data">
@@ -667,7 +681,9 @@ include './includes/templates/header.php';
       <!-- CURSO Excel, uso y aplicaciones-->
       <div class="group curso programados">
         <div class="curso_imagen">
-          <img src="assets/images/cursos/Excel1.webp" alt="" />
+          <div class="curso_imagen_adapter">
+            <img src="assets/images/cursos/bg-Excel1.webp" alt="" />
+          </div>
           <div class="curso_imagen-backgroud">
           </div>
           <div class="curso_imagen-data">
