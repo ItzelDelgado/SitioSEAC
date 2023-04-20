@@ -210,18 +210,18 @@ include '../includes/templates/header.php';
 
                     <tbody>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i> I.1
+                            <td> I.1
                                 Construyendo una hoja de calculo</td>
 
                         </tr>
 
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>I.2. Fórmulas</td>
+                            <td>I.2. Fórmulas</td>
 
                         </tr>
 
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>I.3.
+                            <td>I.3.
                                 Funciones</td>
 
                         </tr>
@@ -242,20 +242,20 @@ include '../includes/templates/header.php';
                     </thead>
                     <tbody>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i> II.1 Ordenación de datos
+                            <td> II.1 Ordenación de datos
                             </td>
 
                         </tr>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>II.2 Filtración de datos
+                            <td>II.2 Filtración de datos
                             </td>
                         </tr>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>II.3 Uso de criterios para filtración avanzada de datos
+                            <td>II.3 Uso de criterios para filtración avanzada de datos
                             </td>
                         </tr>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>II.4 Tablas y tablas dinámicas
+                            <td>II.4 Tablas y tablas dinámicas
                             </td>
                         </tr>
                     </tbody>
@@ -276,14 +276,14 @@ include '../includes/templates/header.php';
 
                     <tbody>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>III.1.
+                            <td>III.1.
                                 Impresión de documentos
                             </td>
 
                         </tr>
 
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>III.2.
+                            <td>III.2.
                                 Graficación: histogramas, pays, barplots, graficas de dispersión, etc.
                             </td>
 
@@ -308,7 +308,7 @@ include '../includes/templates/header.php';
 
                     <tbody>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>IV.1.
+                            <td>IV.1.
                                 Programación en Visual Basic
                             </td>
 

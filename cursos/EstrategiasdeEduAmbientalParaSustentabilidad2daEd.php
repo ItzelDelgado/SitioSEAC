@@ -218,22 +218,22 @@ include '../includes/templates/header.php';
 
                     <tbody>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i> I.1 Breve revisión de la crisis de la modernidad</td>
+                            <td> I.1 Breve revisión de la crisis de la modernidad</td>
 
                         </tr>
 
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i> I.2 Los problemas enredados (wicked problems) y el enfoque transdisciplinario </td>
+                            <td> I.2 Los problemas enredados (wicked problems) y el enfoque transdisciplinario </td>
 
                         </tr>
 
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i> I.3 El enfoque biocultural como alternativa a la crisis de la modernidad</td>
+                            <td> I.3 El enfoque biocultural como alternativa a la crisis de la modernidad</td>
 
                         </tr>
 
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i> Revisión del entorno donde los participantes pretenden desarrollar la estrategia de EAS</td>
+                            <td> Revisión del entorno donde los participantes pretenden desarrollar la estrategia de EAS</td>
 
                         </tr>
                     </tbody>
@@ -254,23 +254,23 @@ include '../includes/templates/header.php';
 
                     <tbody>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>II.1 Modelos educativos (conductismo, constructivismo, aprendizaje basado en problemas, etc.)</td>
+                            <td>II.1 Modelos educativos (conductismo, constructivismo, aprendizaje basado en problemas, etc.)</td>
                         </tr>
 
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>II.2 Elementos característicos y dimensiones de la educación ambiental</td>
+                            <td>II.2 Elementos característicos y dimensiones de la educación ambiental</td>
 
                         </tr>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>II.3 Paradigmas de la Investigación ambiental (positivismo, teoría crítica, interpretativismo)</td>
+                            <td>II.3 Paradigmas de la Investigación ambiental (positivismo, teoría crítica, interpretativismo)</td>
 
                         </tr>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>II.4 Enfoques de la EA (instrumental, crítico-social, subversión, transgresión)</td>
+                            <td>II.4 Enfoques de la EA (instrumental, crítico-social, subversión, transgresión)</td>
 
                         </tr>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>II.5 Propuesta inicial de la estrategia a desarrollar</td>
+                            <td>II.5 Propuesta inicial de la estrategia a desarrollar</td>
 
                         </tr>
 
@@ -294,19 +294,19 @@ include '../includes/templates/header.php';
 
                         <tbody>
                             <tr>
-                                <td><i class="uil uil-clipboard-alt"></i>III.1 Puntos de apalancamiento para la sustentabilidad</td>
+                                <td>III.1 Puntos de apalancamiento para la sustentabilidad</td>
                             </tr>
 
                             <tr>
-                                <td><i class="uil uil-clipboard-alt"></i>III.2 Los Objetivos del desarrollo sustentable</td>
+                                <td>III.2 Los Objetivos del desarrollo sustentable</td>
                             </tr>
 
                             <tr>
-                                <td><i class="uil uil-clipboard-alt"></i>III.3 Capacidades para la sustentabilidad
+                                <td>III.3 Capacidades para la sustentabilidad
                                 </td>
                             </tr>
                             <tr>
-                                <td><i class="uil uil-clipboard-alt"></i>III.4 Profundización en el contexto y entorno de la estrategia de EAS
+                                <td>III.4 Profundización en el contexto y entorno de la estrategia de EAS
                                 </td>
                             </tr>
 
@@ -330,16 +330,16 @@ include '../includes/templates/header.php';
 
                     <tbody>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i> IV.1 Aprendizaje social, Investigación Acción Participativa, co-manejo adaptativo del territorio</td>
+                            <td> IV.1 Aprendizaje social, Investigación Acción Participativa, co-manejo adaptativo del territorio</td>
 
                         </tr>
 
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>IV.2 Ecociudadanía</td>
+                            <td>IV.2 Ecociudadanía</td>
 
                         </tr>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>IV.2 Ecología cívica</td>
+                            <td>IV.2 Ecología cívica</td>
 
                         </tr>
 

@@ -227,24 +227,24 @@ include '../includes/templates/header.php';
 
                     <tbody>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i> I.1
+                            <td> I.1
                                 Presentación del curso</td>
 
                         </tr>
 
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>I.2. Instalación de los programas R y Statistic</td>
+                            <td>I.2. Instalación de los programas R y Statistic</td>
 
                         </tr>
 
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>I.3.
+                            <td>I.3.
                                 Sintaxis básica de lenguaje R (estadística descriptiva)</td>
 
                         </tr>
 
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>I.4.
+                            <td>I.4.
                                 Manejo de archivos en Statistic (estadística descriptiva)</td>
 
                         </tr>
@@ -268,41 +268,41 @@ include '../includes/templates/header.php';
 
                         <tbody>
                             <tr>
-                                <td><i class="uil uil-clipboard-alt"></i> II.1 Introducción a las pruebas de hipótesis
+                                <td> II.1 Introducción a las pruebas de hipótesis
                                 </td>
 
                             </tr>
 
                             <tr>
-                                <td><i class="uil uil-clipboard-alt"></i>II.2 Error tipo I y Error II
+                                <td>II.2 Error tipo I y Error II
                                 </td>
                                 
                             </tr>
 
 
                             <tr>
-                                <td><i class="uil uil-clipboard-alt"></i>II.3 Hipótesis estadísticas
+                                <td>II.3 Hipótesis estadísticas
                                 </td>
                                 
                             </tr>
 
                             <tr>
-                                <td><i class="uil uil-clipboard-alt"></i>II.4 Pruebas de hipótesis de un y dos colas
+                                <td>II.4 Pruebas de hipótesis de un y dos colas
                                 </td>
                                 
                             </tr>
                             <tr>
-                                <td><i class="uil uil-clipboard-alt"></i>II.5 Pruebas de hipótesis para una media
+                                <td>II.5 Pruebas de hipótesis para una media
                                 </td>
                                 
                             </tr>
                             <tr>
-                                <td><i class="uil uil-clipboard-alt"></i>II.6 Prueba de hipótesis para la diferencia entre dos medias de poblaciones independientes y no independientes
+                                <td>II.6 Prueba de hipótesis para la diferencia entre dos medias de poblaciones independientes y no independientes
                                 </td>
                                 
                             </tr>
                             <tr>
-                                <td><a class=""><i class="uil uil-clipboard-alt"></i>II.7 Prueba de hipótesis par un cociente de dos varianzas
+                                <td><a class="">II.7 Prueba de hipótesis par un cociente de dos varianzas
                                 </td>
                                 
                             </tr>
@@ -325,21 +325,21 @@ include '../includes/templates/header.php';
 
                     <tbody>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>III.1.
+                            <td>III.1.
                                 Experimentos, principios básicos
                             </td>
 
                         </tr>
 
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>III.2.
+                            <td>III.2.
                                 Lineamientos generales en la planeación de experimentos
                             </td>
 
                         </tr>
 
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>III.3.
+                            <td>III.3.
                                 Conceptos de validez interna y validez externa
                             </td>
 
@@ -364,7 +364,7 @@ include '../includes/templates/header.php';
 
                     <tbody>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>IV.1.
+                            <td>IV.1.
                                 Modelo de Análisis de varianza de un criterio de clasificación
                                 <ul class="p-6 list-disc ">
                                     <li>Análisis de varianza</li>
@@ -377,7 +377,7 @@ include '../includes/templates/header.php';
                         </tr>
 
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>IV.2.
+                            <td>IV.2.
                                 Modelo de ANOVA con un solo factor
                                 <ul class="p-6 list-disc ">
                                     <li>Sesión práctica</li>
@@ -405,7 +405,7 @@ include '../includes/templates/header.php';
 
                     <tbody>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>V.1.
+                            <td>V.1.
                                 Diseño de bloques al azar
                                 <ul class="p-6 list-disc ">
                                     <li>Análisis de varianza</li>
@@ -434,7 +434,7 @@ include '../includes/templates/header.php';
 
                     <tbody>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>VI.1.
+                            <td>VI.1.
                                 Diseño cuadro latino
                                 <ul class="p-6 list-disc ">
                                     <li>Análisis de varianza</li>
@@ -445,7 +445,7 @@ include '../includes/templates/header.php';
 
                         </tr>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>VI.2.
+                            <td>VI.2.
                                 Diseño grecolatino
                                 <ul class="p-6 list-disc ">
                                     <li>Análisis de varianza</li>
@@ -456,7 +456,7 @@ include '../includes/templates/header.php';
 
                         </tr>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>VI.3.
+                            <td>VI.3.
                                 Experimentos con factores de bloque
                                 <ul class="p-6 list-disc ">
                                     <li>Sesión práctica</li>
@@ -483,7 +483,7 @@ include '../includes/templates/header.php';
 
                     <tbody>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>VII.1.
+                            <td>VII.1.
                                 Diseño factorial con 2 factores
                                 <ul class="p-6 list-disc ">
                                     <li>Modelo estadístico</li>
@@ -496,7 +496,7 @@ include '../includes/templates/header.php';
 
                         </tr>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>VII.2.
+                            <td>VII.2.
                                 Diseño Factorial con 3 factores
                                 <ul class="p-6 list-disc ">
                                     <li>Modelo estadístico</li>
@@ -511,7 +511,7 @@ include '../includes/templates/header.php';
                         </tr>
 
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>VII.3.
+                            <td>VII.3.
                                 Modelos factoriales
                                 <ul class="p-6 list-disc ">
                                     <li>Sesión práctica</li>
@@ -537,7 +537,7 @@ include '../includes/templates/header.php';
 
                     <tbody>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>VIII.1.
+                            <td>VIII.1.
                                 Modelos de efectos aleatorios
                                 <ul class="p-6 list-disc ">
                                     <li>Definición</li>
@@ -567,7 +567,7 @@ include '../includes/templates/header.php';
 
                     <tbody>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>IX.1.
+                            <td>IX.1.
                                 Modelos de efectos mixtos
                                 <ul class="p-6 list-disc ">
                                     <li>Análisis de varianza</li>
@@ -579,7 +579,7 @@ include '../includes/templates/header.php';
 
                         </tr>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>IX.2.
+                            <td>IX.2.
                                 Experimentos de efectos mixtos
                                 <ul class="p-6 list-disc ">
                                     <li>Sesión práctica</li>
@@ -605,7 +605,7 @@ include '../includes/templates/header.php';
 
                     <tbody>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>X.1.
+                            <td>X.1.
                                 Modelo de efectos anidados
                                 <ul class="p-6 list-disc ">
                                     <li>Análisis de varianza</li>
@@ -617,7 +617,7 @@ include '../includes/templates/header.php';
 
                         </tr>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>X.2.
+                            <td>X.2.
                                 Sesión práctica
                             </td>
 
@@ -641,7 +641,7 @@ include '../includes/templates/header.php';
 
                     <tbody>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>XI.1.
+                            <td>XI.1.
                                 Conceptos generales de MANOVA
                                 <ul class="p-6 list-disc ">
                                     <li>Pruebas de hipótesis</li>
@@ -651,7 +651,7 @@ include '../includes/templates/header.php';
 
                         </tr>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>XI.2.
+                            <td>XI.2.
                                 Modelo de mediciones repetidas
                                 <ul class="p-6 list-disc ">
                                     <li>Pruebas de hipótesis</li>
@@ -661,7 +661,7 @@ include '../includes/templates/header.php';
 
                         </tr>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>XI.3.
+                            <td>XI.3.
                                 Sesión práctica
                             </td>
 
@@ -685,7 +685,7 @@ include '../includes/templates/header.php';
 
                     <tbody>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>XII.1.
+                            <td>XII.1.
                                 Modelo de regresión lineal simple
                                 <ul class="p-6 list-disc ">
                                     <li>Pruebas de hipótesis de parámetros del modelo</li>
@@ -696,7 +696,7 @@ include '../includes/templates/header.php';
 
                         </tr>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>XII.2.
+                            <td>XII.2.
                                 Sesión práctica
                                 <ul class="p-6 list-disc ">
                                     <li>Pruebas de hipótesis</li>
@@ -724,7 +724,7 @@ include '../includes/templates/header.php';
 
                     <tbody>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>XIII.1.
+                            <td>XIII.1.
                                 Modelo de ANCOVA
                                 <ul class="p-6 list-disc ">
                                     <li>Análisis de varianza de un ANCOVA</li>

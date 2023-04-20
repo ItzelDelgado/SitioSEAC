@@ -3,8 +3,10 @@ include '../includes/templates/header.php';
 ?>
 
 <!-- Start Hero -->
-<section class="portada lg:py-44 bg-[url('../../assets/images/cursos/bg-FaunaSilvestre.webp')] ">
+<section class="portada">
+    <img src="../../assets/images/cursos/bg-FaunaSilvestre.webp" alt="">
     <div class="portada-opacity"></div>
+    <div></div>
     <div class="container">
         <div class="portada-informacion">
             <span class="portada-informacion-pu">$2,700 /
@@ -70,6 +72,9 @@ include '../includes/templates/header.php';
         </ul>
     </div>
 </section><!--end section-->
+
+
+
 <div class="relative">
     <div class="shape absolute right-0 sm:-bottom-px -bottom-[2px] left-0 overflow-hidden z-1 text-white dark:text-slate-900">
         <svg class="w-full h-auto" viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -230,24 +235,24 @@ include '../includes/templates/header.php';
 
                     <tbody>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i> I.1
+                            <td> I.1
                                 Historia</td>
 
                         </tr>
 
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>I.2. Especies vulnerables a desastres naturales</a></td>
+                            <td>I.2. Especies vulnerables a desastres naturales</a></td>
 
                         </tr>
 
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>I.3.
+                            <td>I.3.
                                 Casos de éxito</td>
 
                         </tr>
 
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>I.4.
+                            <td>I.4.
                                 Diseño y criterios para el establecimiento de un centro de rescate de fauna</td>
 
                         </tr>
@@ -270,14 +275,14 @@ include '../includes/templates/header.php';
 
                     <tbody>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i> II.1
+                            <td> II.1
                                 Lineamientos internacionales para la rehabilitación de Fauna Silvestre
                             </td>
 
                         </tr>
 
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>II.2.
+                            <td>II.2.
                                 Criterios para la rehabilitación, reintroducción o destino final
                             </td>
                             
@@ -301,20 +306,20 @@ include '../includes/templates/header.php';
 
                     <tbody>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>III.1. Cuidados de animales huérfanos
+                            <td>III.1. Cuidados de animales huérfanos
                             </td>
 
                         </tr>
 
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>III.2.
+                            <td>III.2.
                                 Cuidado de animales lastimados
                             </td>
 
                         </tr>
 
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>III.3.
+                            <td>III.3.
                                 Manejo de heridas
                             </td>
 
@@ -340,21 +345,21 @@ include '../includes/templates/header.php';
 
                     <tbody>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>IV.1.
+                            <td>IV.1.
                                 Contención física
                             </td>
 
                         </tr>
 
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>IV.2.
+                            <td>IV.2.
                                 Contención química
                             </td>
 
                         </tr>
 
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>IV.3.
+                            <td>IV.3.
                                 Transporte y movilización segura seguro de especies
                             </td>
 
@@ -379,7 +384,7 @@ include '../includes/templates/header.php';
 
                     <tbody>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>V.1.
+                            <td>V.1.
                                 Manejo clínico de aves y mamíferos victimas de desastres naturales
                                 <ul class="p-6 list-disc ">
                                     <li>manejo de descontaminación</li>
@@ -404,7 +409,7 @@ include '../includes/templates/header.php';
 
                     <tbody>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>VI.1.
+                            <td>VI.1.
                                 Exámen clínico de aves
                             </td>
 
@@ -412,7 +417,7 @@ include '../includes/templates/header.php';
                     </tbody>
                     <tbody>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>VI.2.
+                            <td>VI.2.
                                 Criterios para su rehabilitación y liberación
                             </td>
 
@@ -435,7 +440,7 @@ include '../includes/templates/header.php';
 
                     <tbody>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>VII.1.
+                            <td>VII.1.
                                 Exámen clínico de reptiles
                             </td>
 
@@ -443,7 +448,7 @@ include '../includes/templates/header.php';
                     </tbody>
                     <tbody>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>VII.2.
+                            <td>VII.2.
                                 Criterios para su rehabilitación y liberación
                             </td>
 
@@ -465,14 +470,14 @@ include '../includes/templates/header.php';
 
                     <tbody>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>VIII.1.
+                            <td>VIII.1.
                                 Exámen clínico de mamíferos
 
                             </td>
 
                         </tr>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>VIII.2.
+                            <td>VIII.2.
                                 Criterios para su rehabilitación y liberación
                             </td>
 
@@ -494,7 +499,7 @@ include '../includes/templates/header.php';
 
                     <tbody>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>IX.1.
+                            <td>IX.1.
                                 Criterios para su rehabilitación y liberación
                                 <ul class="p-6 list-disc ">
                                     <li>Primates</li>

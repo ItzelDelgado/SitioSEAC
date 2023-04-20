@@ -255,31 +255,31 @@ include '../includes/templates/header.php';
 
                     <tbody>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i> I.1 Breve introducción
+                            <td> I.1 Breve introducción
                                 histórica de Excel y R</td>
 
                         </tr>
 
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i> I.2 Descarga e instalación de
+                            <td> I.2 Descarga e instalación de
                                 R </td>
 
                         </tr>
 
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i> I.3 El medioambiente R
+                            <td> I.3 El medioambiente R
                                 (interface de comandos en R y Rstudio)</td>
 
                         </tr>
 
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i> I.4 Instalación y descarga de
+                            <td> I.4 Instalación y descarga de
                                 paquetes</td>
 
                         </tr>
 
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i> I.4 Aspectos básicos de R
+                            <td> I.4 Aspectos básicos de R
                                 <ul class="p-6 list-disc ">
                                     <li>Matemáticas básicas</li>
                                     <li>Tipos de variables</li>
@@ -308,7 +308,7 @@ include '../includes/templates/header.php';
 
                     <tbody>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>II.1 Estructuras avanzadas de
+                            <td>II.1 Estructuras avanzadas de
                                 datos
                                 <ul class="p-6 list-disc ">
                                     <li>Matrices</li>
@@ -321,7 +321,7 @@ include '../includes/templates/header.php';
                         </tr>
 
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>II.2 Lectura de datos
+                            <td>II.2 Lectura de datos
                                 <ul class="p-6 list-disc ">
                                     <li>Datos de archivos csv</li>
                                     <li>Datos de archivos txt</li>
@@ -334,7 +334,7 @@ include '../includes/templates/header.php';
 
 
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>II.3 Graficación en R
+                            <td>II.3 Graficación en R
                                 <ul class="p-6 list-disc ">
                                     <li>Graficación básica</li>
                                     <li>Principios del análisis exploratorio de datos</li>
@@ -366,7 +366,7 @@ include '../includes/templates/header.php';
 
                         <tbody>
                             <tr>
-                                <td><i class="uil uil-clipboard-alt"></i>III.1 Distribuciones de
+                                <td>III.1 Distribuciones de
                                     probabilidad
                                     <ul class="p-6 list-disc ">
                                         <li>Distribución binomial</li>
@@ -380,7 +380,7 @@ include '../includes/templates/header.php';
                             </tr>
 
                             <tr>
-                                <td><i class="uil uil-clipboard-alt"></i>III.2 Inferencia estadística
+                                <td>III.2 Inferencia estadística
                                     <ul class="p-6 list-disc ">
                                         <li>Resumen de estadísticas</li>
                                         <li>Correlación y varianza</li>

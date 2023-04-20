@@ -241,17 +241,17 @@ include '../includes/templates/header.php';
 
                     <tbody>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>I.1. Rasgos anatómicos, reproductivos y ecológicos y genética de poblaciones.</td>
+                            <td>I.1. Rasgos anatómicos, reproductivos y ecológicos y genética de poblaciones.</td>
 
                         </tr>
 
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>I.2. Origen, evolución y sistemática de las tortugas.</a></td>
+                            <td>I.2. Origen, evolución y sistemática de las tortugas.</a></td>
 
                         </tr>
 
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>I.3 Reproducción en Tortugas (Diapausa y estivación embrionaria), determinación sexual en tortugas (DST,DSG). (Discusión de artículos)
+                            <td>I.3 Reproducción en Tortugas (Diapausa y estivación embrionaria), determinación sexual en tortugas (DST,DSG). (Discusión de artículos)
                                 Estrategias ecológicas de las tortugas (historias de vida, costos, uso de hábitat, importancia ecológica en los ecosistemas)</td>
 
                         </tr>
@@ -274,27 +274,27 @@ include '../includes/templates/header.php';
 
                     <tbody>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>II.1. Familia Dermatemydidae</td>
+                            <td>II.1. Familia Dermatemydidae</td>
 
                         </tr>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>II.2. Familia Kinosterniddae (Staurotypinae, Kinosterninae)</td>
+                            <td>II.2. Familia Kinosterniddae (Staurotypinae, Kinosterninae)</td>
                             
                         </tr>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>II.3. Familia Trionychidae</td>
+                            <td>II.3. Familia Trionychidae</td>
                             
                         </tr>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>II.4 Familia Emydidae</td>
+                            <td>II.4 Familia Emydidae</td>
                             
                         </tr>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>II.5 Familia Geomydidae</td>
+                            <td>II.5 Familia Geomydidae</td>
                             
                         </tr>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>II.6 Famila Chelidridae</td>
+                            <td>II.6 Famila Chelidridae</td>
                             
                         </tr>
                     </tbody>
@@ -316,20 +316,20 @@ include '../includes/templates/header.php';
 
                     <tbody>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>III.1 Familia Testudinidae</td>
+                            <td>III.1 Familia Testudinidae</td>
 
                         </tr>
 
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>III.2 Familia Dermochelydae</td>
+                            <td>III.2 Familia Dermochelydae</td>
 
                         </tr>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>III.3 Familia Cheloniidae</td>
+                            <td>III.3 Familia Cheloniidae</td>
 
                         </tr>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>III.4 Discusión de artículos sobre tortugas marinas</td>
+                            <td>III.4 Discusión de artículos sobre tortugas marinas</td>
 
                         </tr>
                     </tbody>
@@ -352,23 +352,23 @@ include '../includes/templates/header.php';
 
                     <tbody>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>IV.1. Principales amenazas y especies en peligro de extinción</td>
+                            <td>IV.1. Principales amenazas y especies en peligro de extinción</td>
 
                         </tr>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>IV.2 Amenazas al hábitat</td>
+                            <td>IV.2 Amenazas al hábitat</td>
 
                         </tr>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>IV.3 Uso humano</td>
+                            <td>IV.3 Uso humano</td>
 
                         </tr>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>IV.4 Tráfico ilegal de tortugas</td>
+                            <td>IV.4 Tráfico ilegal de tortugas</td>
 
                         </tr>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>IV.5. Aplicación de métodos de evaluación de riesgo (IUCN, NOM-059 y CITES)</td>
+                            <td>IV.5. Aplicación de métodos de evaluación de riesgo (IUCN, NOM-059 y CITES)</td>
 
                         </tr>
                     </tbody>
@@ -391,15 +391,15 @@ include '../includes/templates/header.php';
 
                     <tbody>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>V.1. Campamentos tortugueros y granjas Proyectos productivos y UMAs</td>
+                            <td>V.1. Campamentos tortugueros y granjas Proyectos productivos y UMAs</td>
 
                         </tr>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>V.2 Práctica (Crear un plan de manejo para UMA de tortugas)</td>
+                            <td>V.2 Práctica (Crear un plan de manejo para UMA de tortugas)</td>
 
                         </tr>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>V.3. Consideraciones genéticas para el manejo y conservación de tortugas Discusión de artículos</td>
+                            <td>V.3. Consideraciones genéticas para el manejo y conservación de tortugas Discusión de artículos</td>
 
                         </tr>
 
@@ -420,19 +420,19 @@ include '../includes/templates/header.php';
 
                     <tbody>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>VI.1. Recorridos nocturnos en coche o a pie</td>
+                            <td>VI.1. Recorridos nocturnos en coche o a pie</td>
 
                         </tr>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>VI.2. Métodos de trampeo y diseño de sistemas de trampeo</td>
+                            <td>VI.2. Métodos de trampeo y diseño de sistemas de trampeo</td>
 
                         </tr>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>VI.3. Telemetría marcaje y recaptura</td>
+                            <td>VI.3. Telemetría marcaje y recaptura</td>
 
                         </tr>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>VI.4. Sistemas de información geográfica. Medición y fotografía</td>
+                            <td>VI.4. Sistemas de información geográfica. Medición y fotografía</td>
 
                         </tr>
                     </tbody>
@@ -453,12 +453,12 @@ include '../includes/templates/header.php';
 
                     <tbody>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>VII.1. Toma de datos y medidas estándar
+                            <td>VII.1. Toma de datos y medidas estándar
                             </td>
 
                         </tr>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>VII.2. Métodos de preparación de ejemplares
+                            <td>VII.2. Métodos de preparación de ejemplares
                             </td>
 
                         </tr>
@@ -479,32 +479,32 @@ include '../includes/templates/header.php';
 
                     <tbody>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>VIII.1 Manejo físico de tortugas y toma de medidas
+                            <td>VIII.1 Manejo físico de tortugas y toma de medidas
                             </td>
 
                         </tr>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>VIII.2. Calidad del agua, limpieza de los encierros
+                            <td>VIII.2. Calidad del agua, limpieza de los encierros
                             </td>
 
                         </tr>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>VIII.3. Dieta alimentación e higiene
+                            <td>VIII.3. Dieta alimentación e higiene
                             </td>
 
                         </tr>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>VIII.4 Bienestar de los organismos
+                            <td>VIII.4 Bienestar de los organismos
                             </td>
 
                         </tr>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>VIII.5. Registros
+                            <td>VIII.5. Registros
                             </td>
 
                         </tr>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>VIII.6. Técnicas básicas de veterinaria para tortugas.
+                            <td>VIII.6. Técnicas básicas de veterinaria para tortugas.
                                 Practica con ejemplares vivos y partes
                             </td>
 
@@ -526,11 +526,11 @@ include '../includes/templates/header.php';
 
                     <tbody>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>IX.1. Vocalizaciones</td>
+                            <td>IX.1. Vocalizaciones</td>
 
                         </tr>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>
+                            <td>
                                 IX.2. Nuevas especies
                                 <ul class="p-6 list-disc ">
                                     <li>IX.1.2. Dispersión de semillas por tortugas</li>

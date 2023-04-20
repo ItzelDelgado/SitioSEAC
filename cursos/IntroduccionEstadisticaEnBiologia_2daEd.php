@@ -243,18 +243,18 @@ include '../includes/templates/header.php';
 
                     <tbody>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i> I.1 Conceptos básicos de
+                            <td> I.1 Conceptos básicos de
                                 estadística</td>
 
                         </tr>
 
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i> I.2 Tipos de datos </td>
+                            <td> I.2 Tipos de datos </td>
 
                         </tr>
 
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i> I.3 Tipos de variables</td>
+                            <td> I.3 Tipos de variables</td>
 
                         </tr>
 
@@ -278,13 +278,13 @@ include '../includes/templates/header.php';
 
                     <tbody>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>II.1 Medidas de tendencia
+                            <td>II.1 Medidas de tendencia
                                 central</td>
 
                         </tr>
 
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>II.2 Medidas de dispersión</td>
+                            <td>II.2 Medidas de dispersión</td>
                             
                         </tr>
 
@@ -309,19 +309,19 @@ include '../includes/templates/header.php';
 
                         <tbody>
                             <tr>
-                                <td><i class="uil uil-clipboard-alt"></i>III.1 Qué es y para qué sirve
+                                <td>III.1 Qué es y para qué sirve
                                     la varianza</td>
 
                             </tr>
 
                             <tr>
-                                <td><i class="uil uil-clipboard-alt"></i>III.2 Pruebas de
+                                <td>III.2 Pruebas de
                                     homocedasticidad de varianzas</td>
 
                             </tr>
 
                             <tr>
-                                <td><i class="uil uil-clipboard-alt"></i>III.3 Prueba F para varianzas
+                                <td>III.3 Prueba F para varianzas
                                 </td>
 
                             </tr>
@@ -346,13 +346,13 @@ include '../includes/templates/header.php';
 
                     <tbody>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i> IV.1 Qué son y para qué sirven
+                            <td> IV.1 Qué son y para qué sirven
                                 las pruebas de normalidad</td>
 
                         </tr>
 
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>IV.2 Pruebas de normalidad
+                            <td>IV.2 Pruebas de normalidad
                                 (Shapiro-Wilk, Anderson-Darling, etc).</td>
 
                         </tr>
@@ -379,7 +379,7 @@ include '../includes/templates/header.php';
 
                         <tbody>
                             <tr>
-                                <td><i class="uil uil-clipboard-alt"></i> V.1 ANOVA de una y dos vías
+                                <td> V.1 ANOVA de una y dos vías
                                 </td>
 
                             </tr>
@@ -409,18 +409,18 @@ include '../includes/templates/header.php';
 
                         <tbody>
                             <tr>
-                                <td><i class="uil uil-clipboard-alt"></i> VI.1 -Prueba
+                                <td> VI.1 -Prueba
                                     Kolmogorov-Smirnov</td>
 
                             </tr>
 
                             <tr>
-                                <td><i class="uil uil-clipboard-alt"></i>VI.2 Prueba Mann-Whitney</td>
+                                <td>VI.2 Prueba Mann-Whitney</td>
 
                             </tr>
 
                             <tr>
-                                <td><i class="uil uil-clipboard-alt"></i>VI.3 Prueba Kruskal-Wallis</td>
+                                <td>VI.3 Prueba Kruskal-Wallis</td>
 
                             </tr>
 
@@ -446,13 +446,13 @@ include '../includes/templates/header.php';
 
                     <tbody>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i> VII.1 Regresión lineal
+                            <td> VII.1 Regresión lineal
                                 múltiple</td>
 
                         </tr>
 
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>VII.2 Regresión multivariada
+                            <td>VII.2 Regresión multivariada
                                 múltiple</td>
 
                         </tr>
@@ -477,13 +477,13 @@ include '../includes/templates/header.php';
 
                     <tbody>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i> VIII.1 Análisis de componentes
+                            <td> VIII.1 Análisis de componentes
                                 principales</td>
 
                         </tr>
 
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i>VIII.2 Análisis de
+                            <td>VIII.2 Análisis de
                                 correspondencia</td>
 
                         </tr>
@@ -509,7 +509,7 @@ include '../includes/templates/header.php';
 
                     <tbody>
                         <tr>
-                            <td><i class="uil uil-clipboard-alt"></i> IX.1 Chi-cuadrada de bondad de
+                            <td> IX.1 Chi-cuadrada de bondad de
                                 ajuste</td>
 
                         </tr>
