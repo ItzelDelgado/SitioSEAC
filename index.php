@@ -96,10 +96,11 @@ include './includes/templates/header.php';
 <section class="relative md:py-5 pb-5 overflow-hidden">
   <div class="container">
     <div class="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-[30px]">
-      
 
-    <!-- ********EJEMPLO DE MINIATURA PARA CURSO********-->
-    <!-- <div class="group curso">
+
+      <!-- ********EJEMPLO DE MINIATURA PARA CURSO********-->
+      <!-- CURSO  Nombre-->
+      <!-- <div class="group curso">
         <div class="curso_imagen">
           <div class="curso_imagen_adapter">
             <img src="assets/images/cursos/bg-DivulgacionCiencia.webp" alt="" />
@@ -165,7 +166,76 @@ include './includes/templates/header.php';
         </div>
       </div> -->
       <!-- CURSO FIN -->
-      
+
+      <!-- ********EJEMPLO DE MINIATURA DIPLOMADO********-->
+      <!-- DIPLOMADO -->
+      <!-- <div class="group curso">
+        <div class="curso_imagen">
+          <div class="curso_imagen_adapter">
+            <img src="assets/images/cursos/bg-DivulgacionCiencia.webp" alt="" />
+          </div>
+          <div class="curso_imagen-backgroud">
+          </div>
+          <div class="curso_imagen-data">
+            <div>
+              <img src="assets/images/instructores/usr-f.jpg" alt="" />
+              <div class="ml-3">
+                <a href="#" target="_blank">M. Patricia
+                  Magaña Rueda
+                </a>
+                <a href="#" target="_blank">Dra.
+                  Clementina Equihua Zamora
+                </a>
+                <a href="#" target="_blank">Bio. Paloma
+                  Zubieta López
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="curso_contenido">
+          <a href="cursos/IntroduccionAlaDivulgacionDeLaCiencia6taED.php">
+            Introducción a la divulgación de la Ciencia</a>
+          <a href="cursos/IntroduccionAlaDivulgacionDeLaCiencia6taED.php">6ta. Edición - Diplomado</a>
+          <p class="curso_contenido-fecha">
+            Del 14 de abril al 12 de mayo del 2023
+          </p>
+          <p class="curso_contenido-descripcion">El curso busca introducir a los participantes las bases de la
+            divulgación científica o comunicación pública de la ciencia, que es un área de trabajo que requiere
+            formación académica, entendimiento de lo que la ciencia es y como funciona, así como las maneras de
+            comunicarla al público de manera exitosa.</p>
+          <p class="curso_contenido-subdescripcion">
+            Dirigido a: Académicos, profesores, comunicadores y todo aquel
+            interesado en divulgar ideas científicas a público no
+            especializado.
+          </p>
+          <a href="cursos/IntroduccionAlaDivulgacionDeLaCiencia6taED.php" target="_blank" class="curso_contenido-button btn btn-link">Ver
+            diplomado</a>
+          <div class="curso_contenido-horario">
+            <ul>
+              <li class="mr-3">
+                <i class="uil uil-calendar-alt "></i>
+                <span>Viernes</span>
+              </li>
+              <li class="mr-3">
+                <i class="uil uil-clock "></i>
+                <span>16-20h</span>
+              </li>
+              <li class="flex items-center">
+                <i class="uil uil-map-marker "></i>
+                <span>Virtual</span>
+              </li>
+            </ul>
+          </div>
+          <div class="curso_contenido-precio">
+            <div>
+              <span>$2,600</span>
+            </div>
+          </div>
+        </div>
+      </div> -->
+      <!-- DIPLOMADO FIN -->
+
       <!-- CURSO  Introducción a la divulgación de la ciencia. Sexta Edición-->
       <div class="group curso">
         <div class="curso_imagen">
@@ -193,7 +263,7 @@ include './includes/templates/header.php';
         </div>
         <div class="curso_contenido">
           <a href="cursos/IntroduccionAlaDivulgacionDeLaCiencia6taED.php">
-            Introducción a la divulgación de la Ciencia</a>
+            Introducción a la Divulgación de la Ciencia</a>
           <a href="cursos/IntroduccionAlaDivulgacionDeLaCiencia6taED.php">6ta. Edición</a>
           <p class="curso_contenido-fecha">
             Del 14 de abril al 12 de mayo del 2023
@@ -255,7 +325,7 @@ include './includes/templates/header.php';
         </div>
         <div class="curso_contenido">
           <a href="cursos/RescateyRehabilitaciondeFaunaSilvestre6taEd.php">
-            Rescate y rehabilitación de fauna silvestre</a>
+            Rescate y Rehabilitación de Fauna Silvestre </a>
           <a href="cursos/RescateyRehabilitaciondeFaunaSilvestre6taEd.php">6ta. Edición</a>
           <p class="curso_contenido-fecha">
             Del 17 abril al 26 junio del 2023
@@ -299,6 +369,121 @@ include './includes/templates/header.php';
         </div>
       </div>
       <!-- CURSO FIN -->
+
+      <!-- DIPLOMADO Diplomado IV: Solución de problemas, TIC e investigación didáctica-->
+      <div class="group curso">
+        <div class="curso_imagen">
+          <div class="curso_imagen_adapter">
+            <img src="assets/images/cursos/bg-DivulgacionCiencia.webp" alt="" />
+          </div>
+          <div class="curso_imagen-backgroud">
+          </div>
+          <div class="curso_imagen-data">
+            <div>
+              <img src="assets/images/instructores/usr-f.jpg" alt="" />
+              <div class="ml-3">
+                <a href="#" target="_blank">M. En C. Clara Vidrio
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="curso_contenido">
+          <a href="cursos/IntroduccionAlaDivulgacionDeLaCiencia6taED.php">
+            Solución de Problemas, TIC e Investigación Didáctica</a>
+          <a href="cursos/IntroduccionAlaDivulgacionDeLaCiencia6taED.php">Diplomado IV</a>
+          <p class="curso_contenido-fecha">
+            Del 18 de abril al 31 de agosto de 2023
+          </p>
+          <p class="curso_contenido-descripcion">La enseñanza de matemáticas requiere análisis constante para mejorarla y adoptar una postura sobre cómo enseñar, qué conocimientos debe tener el egresado y por qué estudiarlas. Los docentes deben reflexionar y participar en actividades actualizadas que favorezcan el pensamiento crítico. La colaboración entre la Facultad de Ciencias y la Escuela Nacional Preparatoria busca mejorar la enseñanza a través de programas de especialización y diplomados. </p>
+          <p class="curso_contenido-subdescripcion">
+            Dirigido a: Profesores de bachillerato.
+          </p>
+          <a href="cursos/IntroduccionAlaDivulgacionDeLaCiencia6taED.php" target="_blank" class="curso_contenido-button btn btn-link">Ver
+            diplomado</a>
+          <div class="curso_contenido-horario">
+            <ul>
+              <li class="mr-3">
+                <i class="uil uil-calendar-alt "></i>
+                <span>Ma y Ju</span>
+              </li>
+              <li class="mr-3">
+                <i class="uil uil-clock "></i>
+                <span>17-19h</span>
+              </li>
+              <li class="flex items-center">
+                <i class="uil uil-map-marker "></i>
+                <span>Virtual</span>
+              </li>
+            </ul>
+          </div>
+          <div class="curso_contenido-precio">
+            <div>
+              <span>$2,000</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- DIPLOMADO FIN -->
+
+      <!-- CURSO Primeros Auxilios, RCP y uso de DAE-->
+      <div class="group curso">
+        <div class="curso_imagen">
+          <div class="curso_imagen_adapter">
+            <img src="assets/images/cursos/bg-DivulgacionCiencia.webp" alt="" />
+          </div>
+          <div class="curso_imagen-backgroud">
+          </div>
+          <div class="curso_imagen-data">
+            <div>
+              <img src="assets/images/instructores/usr-f.jpg" alt="" />
+              <div class="ml-3">
+                <a href="#" target="_blank">M. en C. Julio Alejandro Prieto Sagredo, TUM-A
+                </a>
+                <a href="#" target="_blank">P. de M. Tabaré Merino Sánchez
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="curso_contenido">
+          <a href="cursos/IntroduccionAlaDivulgacionDeLaCiencia6taED.php">
+            Primeros Auxilios, RCP y Uso de DAE</a>
+          <a href="cursos/IntroduccionAlaDivulgacionDeLaCiencia6taED.php">1ra. Edición</a>
+          <p class="curso_contenido-fecha">
+            2, 4, 9 y 11 de mayo de 2023
+          </p>
+          <p class="curso_contenido-descripcion">La atención rápida y eficiente en caso de accidentes o enfermedades agudas es crucial para reducir los riesgos de secuelas. Una comunidad capacitada en primeros auxilios fortalece los vínculos sociales y ayuda a construir resiliencia. Los cuidados cardiacos y los primeros auxilios deben seguir los últimos estándares aprobados por la evidencia médica. El curso está diseñado para el público en general, ofreciendo información teórica y práctica.</p>
+          <p class="curso_contenido-subdescripcion">
+            Dirigido a: Todo público.
+          </p>
+          <a href="cursos/IntroduccionAlaDivulgacionDeLaCiencia6taED.php" target="_blank" class="curso_contenido-button btn btn-link">Ver
+            curso</a>
+          <div class="curso_contenido-horario">
+            <ul>
+              <li class="mr-3">
+                <i class="uil uil-calendar-alt "></i>
+                <span>Ma y Ju</span>
+              </li>
+              <li class="mr-3">
+                <i class="uil uil-clock "></i>
+                <span>09-12h</span>
+              </li>
+              <li class="flex items-center">
+                <i class="uil uil-map-marker "></i>
+                <span>Presencial</span>
+              </li>
+            </ul>
+          </div>
+          <div class="curso_contenido-precio">
+            <div>
+              <span>$800</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- CURSO FIN -->
+
       <!-- CURSO Introducción al estudio y conservación de tortugas de México-->
       <div class="group curso programados">
         <div class="curso_imagen">
@@ -321,7 +506,7 @@ include './includes/templates/header.php';
         </div>
         <div class="curso_contenido">
           <a href="cursos/IntroduccionAlEstudioyConservaciondeTortugas1raEd.php">
-            Introducción al estudio y conservación de tortugas de México</a>
+            Introducción al Estudio y Conservación de Tortugas de México</a>
           <a href="cursos/IntroduccionAlEstudioyConservaciondeTortugas1raEd.php">1ra. Edición</a>
           <p class="curso_contenido-fecha">
             Del 2 de mayo al 1 de junio de 2023
@@ -366,6 +551,124 @@ include './includes/templates/header.php';
       </div>
       <!-- CURSO FIN -->
 
+      <!-- CURSO Programación de dispositivos móviles con Android-->
+      <div class="group curso">
+        <div class="curso_imagen">
+          <div class="curso_imagen_adapter">
+            <img src="assets/images/cursos/bg-DivulgacionCiencia.webp" alt="" />
+          </div>
+          <div class="curso_imagen-backgroud">
+          </div>
+          <div class="curso_imagen-data">
+            <div>
+              <img src="assets/images/instructores/usr-f.jpg" alt="" />
+              <div class="ml-3">
+                <a href="#" target="_blank">M. en C. Gustavo Márquez Flores
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="curso_contenido">
+          <a href="cursos/IntroduccionAlaDivulgacionDeLaCiencia6taED.php">
+            Programación de Dispositivos Móviles con Android</a>
+          <a href="cursos/IntroduccionAlaDivulgacionDeLaCiencia6taED.php">1ra. Edición</a>
+          <p class="curso_contenido-fecha">
+            Del 3 de mayo al 2 de junio de 2023
+          </p>
+          <p class="curso_contenido-descripcion">Los dispositivos móviles son fundamentales en la vida moderna al proporcionar acceso inmediato a información. La programación de aplicaciones para dispositivos móviles es esencial para el desarrollo de software y ofrece un enorme potencial para los desarrolladores al abrir nuevas oportunidades de uso y usuarios.</p>
+          <p class="curso_contenido-subdescripcion">
+            Dirigido a: Personas con interés en desarrollar aplicaciones para dispositivos móviles con conocimientos básicos de lenguaje Java y del lenguaje de marcado XML.
+          </p>
+          <a href="cursos/IntroduccionAlaDivulgacionDeLaCiencia6taED.php" target="_blank" class="curso_contenido-button btn btn-link">Ver
+            curso</a>
+          <div class="curso_contenido-horario">
+            <ul>
+              <li class="mr-3">
+                <i class="uil uil-calendar-alt "></i>
+                <span>Lu, Mi y Vi</span>
+              </li>
+              <li class="mr-3">
+                <i class="uil uil-clock "></i>
+                <span>10-13h</span>
+              </li>
+              <li class="flex items-center">
+                <i class="uil uil-map-marker "></i>
+                <span>Virtual</span>
+              </li>
+            </ul>
+          </div>
+          <div class="curso_contenido-precio">
+            <div>
+              <span>$4,320</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- CURSO FIN -->
+
+      <!-- DIPLOMADO Diplomado de titulación en Física: actualización docente.2022-2023-->
+      <div class="group relative rounded-md shadow hover:shadow-lg dark:shadow-gray-800 duration-500 ease-in-out overflow-hidden programados">
+        <div class="relative overflow-hidden">
+          <img src="assets/images/diplomados/DiplomadoFisica.webp" class="group-hover:scale-110 duration-500 ease-in-out" alt="" />
+          <div class="absolute inset-0 bg-slate-900/50 opacity-0 group-hover:opacity-100 duration-500 ease-in-out">
+          </div>
+          <div class="absolute left-0 bottom-0 opacity-0 group-hover:opacity-100 duration-500 ease-in-out">
+            <div class="pb-4 pl-4 flex items-center">
+              <img src="assets/images/instructores/usr-f.jpg" class="h-12 w-12 rounded-full shadow-md dark:shadow-gray-800 mx-auto" alt="" />
+              <div class="ml-3">
+                <a href="#" class="font-semibold text-white block hover:text-indigo-600" target="_blank">Dra. Mirna Villavicencio Torres
+                </a>
+                <a href="#" class="font-semibold text-white block hover:text-indigo-600" target="_blank">Dr. Ricardo Méndez Fragoso
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="content p-6 relative">
+          <a href="diplomados/ActualizacionDocenteenFisica22-23.php" class="text-lg font-bold block hover:text-red-600 duration-500 ease-in-out mt-2 cursor-pointer">
+            Actualización Docente en Física</a>
+          <a href="diplomados/ActualizacionDocenteenFisica22-23.php" class="text-sm font-thin block text-red-600">Programa 2022-2023 - Diplomado de titulación</a>
+          <p class="text-sm block text-indigo-600 mt-2">
+            Del 19 de mayo de 2022 al 7 de diciembre de 2023
+          </p>
+          <p class="text-sm block font-semibold text-red-600 mt-2">
+            Cursos con Opción a Diplomado
+          </p>
+          <p class="text-sm block font-semibold text-indigo-600 mt-2">
+            El siguiente curso inicia el 16 de marzo 2023: Temas Selectos de Computación.
+          </p>
+          <p class="text-slate-400 mt-3 mb-4">El Programa de Actualización Docente en Física es un diplomado en línea para profesores activos y estudiantes de física interesados en la docencia. Los módulos incluyen áreas de la física y nuevas investigaciones, así como estrategias didácticas para un aprendizaje significativo y adaptación al entorno. Este programa también puede ser utilizado como opción de titulación para la Licenciatura en Física. Hasta el momento, ha graduado a más de 65 físicos comprometidos con la enseñanza.</p>
+          <p class="text-neutral-500 mt-3 mb-4 text-sm border-t border-gray-100 dark:border-gray-800 pt-4">
+            Dirigido a: Estudiantes de la licenciatura en Física, interesados en la docencia, y profesores de Física de todos los niveles educativos.
+          </p>
+          <p>
+            <a href="cursos/IntroduccionAlEstudioyConservaciondeTortugas1raEd.php" target="_blank" class="btn btn-link text-indigo-600 hover:text-red-600 after:bg-indigo-600 duration-500 ease-in-out">Ver
+              diplomado</a>
+          </p>
+          <ul class="pt-4 border-t border-gray-100 dark:border-gray-800 flex items-center list-none text-slate-400">
+            <li class="flex items-center mr-3">
+              <i class="uil uil-calendar-alt text-base leading-none mr-2 text-slate-900 dark:text-white"></i>
+              <span>Ma y/o Ju</span>
+            </li>
+            <li class="flex items-center mr-3">
+              <i class="uil uil-clock text-base leading-none mr-2 text-slate-900 dark:text-white"></i>
+              <span>16-20h</span>
+            </li>
+            <li class="flex items-center">
+              <i class="uil uil-map-marker text-base leading-none mr-2 text-slate-900 dark:text-white"></i>
+              <span>Virtual</span>
+            </li>
+          </ul>
+          <div class="absolute -top-7 right-3 z-1 opacity-0 group-hover:opacity-100 duration-500 ease-in-out">
+            <div class="flex justify-center items-center w-16 h-16 bg-white dark:bg-slate-900 rounded-full shadow-lg dark:shadow-gray-800 text-red-600 dark:text-white">
+              <span class="font-semibold">$18,000</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- DIPLOMADO FIN -->
+
       <!-- CURSO Introducción a la programación en R y su aplicación a la inferencia estadística (Curso I). Edición 15-->
       <div class="group curso programados">
         <div class="curso_imagen">
@@ -387,8 +690,8 @@ include './includes/templates/header.php';
         </div>
         <div class="curso_contenido">
           <a href="cursos/IntroduccionAlaProgRyAplicAlinfereniciaEstadI_15aEd.php">
-            Introducción a la programación en R y su aplicación a la
-            inferencia estadística I</a>
+            Introducción a la Programación en R y su Aplicación a la
+            Inferencia Estadística I</a>
           <a href="cursos/IntroduccionAlaProgRyAplicAlinfereniciaEstadI_15aEd.php">15a. Edición</a>
           <p class="curso_contenido-fecha">
             Del 6 de mayo al 24 de junio de 2023
@@ -433,6 +736,128 @@ include './includes/templates/header.php';
       </div>
       <!-- CURSO FIN -->
 
+      <!-- CURSO Diseño de cursos en cuadernos Jupyter interactivos con la plataforma MACTI-->
+      <div class="group curso">
+        <div class="curso_imagen">
+          <div class="curso_imagen_adapter">
+            <img src="assets/images/cursos/bg-DivulgacionCiencia.webp" alt="" />
+          </div>
+          <div class="curso_imagen-backgroud">
+          </div>
+          <div class="curso_imagen-data">
+            <div>
+              <img src="assets/images/instructores/usr-f.jpg" alt="" />
+              <div class="ml-3">
+                <a href="#" target="_blank">Dr. Luis Miguel de la Cruz Salas
+                </a>
+                <a href="#" target="_blank">Mtro. Miguel Angel Pérez León
+                </a>
+                <a href="#" target="_blank">Ing. Juan Eduardo Murrieta León
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="curso_contenido">
+          <a href="cursos/IntroduccionAlaDivulgacionDeLaCiencia6taED.php">
+            Diseño de Cursos en Cuadernos Jupyter Interactivos con la Plataforma MACTI</a>
+          <a href="cursos/IntroduccionAlaDivulgacionDeLaCiencia6taED.php">6ta. Edición</a>
+          <p class="curso_contenido-fecha">
+          Del 1ro al 24 de junio de 2023
+          </p>
+          <p class="curso_contenido-descripcion">El participante será capaz de aplicar diferentes metodologías de enseñanza para promover la interacción durante sus clases; además será capaz de diseñar cursos en temas de Ciencias e Ingeniería utilizando las herramientas tecnológicas interactivas que ofrece la plataforma MACTI</p>
+          <p class="curso_contenido-subdescripcion">
+            Dirigido a: Académicos, profesores, comunicadores y todo aquel
+            interesado en divulgar ideas científicas a público no
+            especializado.
+          </p>
+          <a href="cursos/IntroduccionAlaDivulgacionDeLaCiencia6taED.php" target="_blank" class="curso_contenido-button btn btn-link">Ver
+            curso</a>
+          <div class="curso_contenido-horario">
+            <ul>
+              <li class="mr-3">
+                <i class="uil uil-calendar-alt "></i>
+                <span>Ju, Vi y Sa</span>
+              </li>
+              <li class="mr-3">
+                <i class="uil uil-clock "></i>
+                <span>06-09h</span>
+                <span>09-12h</span>
+              </li>
+              <li class="flex items-center">
+                <i class="uil uil-map-marker "></i>
+                <span>Virtual o Presencial</span>
+              </li>
+            </ul>
+          </div>
+          <div class="curso_contenido-precio">
+            <div>
+              <span>$4,320</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- CURSO FIN -->
+
+      <!-- CURSO Introducción a los corales fósiles (Jurásico-Paleógeno)-->
+      <div class="group curso">
+        <div class="curso_imagen">
+          <div class="curso_imagen_adapter">
+            <img src="assets/images/cursos/bg-DivulgacionCiencia.webp" alt="" />
+          </div>
+          <div class="curso_imagen-backgroud">
+          </div>
+          <div class="curso_imagen-data">
+            <div>
+              <img src="assets/images/instructores/usr-f.jpg" alt="" />
+              <div class="ml-3">
+                <a href="#" target="_blank">Dr. Hannes Loeser
+                </a>
+                <a href="#" target="_blank">Dr. Rafael Villanueva Olea
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="curso_contenido">
+          <a href="cursos/IntroduccionAlaDivulgacionDeLaCiencia6taED.php">
+          Introducción a los Corales Fósiles (Jurásico-Paleógeno)</a>
+          <a href="cursos/IntroduccionAlaDivulgacionDeLaCiencia6taED.php">1ra. Edición</a>
+          <p class="curso_contenido-fecha">
+          Del 19 al 23 de junio de 2023
+          </p>
+          <p class="curso_contenido-descripcion">Introducir al alumno en el estudio de los corales fósiles post-paleozoicos, a través del estudio de aspectos morfológicos, de su clasificación y taxonomía, de su preparación en el laboratorio e interpretación de su biología.</p>
+          <p class="curso_contenido-subdescripcion">
+            Dirigido a:Alumnos de licenciatura (Biología y Geología) a partir del sexto semestre. Estudiantes de la maestría y del doctorado, y maestros.
+          </p>
+          <a href="cursos/IntroduccionAlaDivulgacionDeLaCiencia6taED.php" target="_blank" class="curso_contenido-button btn btn-link">Ver
+            curso</a>
+          <div class="curso_contenido-horario">
+            <ul>
+              <li class="mr-3">
+                <i class="uil uil-calendar-alt "></i>
+                <span>Lu - Vi</span>
+              </li>
+              <li class="mr-3">
+                <i class="uil uil-clock "></i>
+                <span>10-13h y 15-17h</span>
+                <span>(5h por sesión)</span>
+              </li>
+              <li class="flex items-center">
+                <i class="uil uil-map-marker "></i>
+                <span>Virtual</span>
+              </li>
+            </ul>
+          </div>
+          <div class="curso_contenido-precio">
+            <div>
+              <span>$Presencial</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- CURSO FIN -->
+
       <!-- CURSO Introducción a la estadística en la biología, 2da. Edición-->
       <div class="group curso programados">
         <div class="curso_imagen">
@@ -454,7 +879,7 @@ include './includes/templates/header.php';
         </div>
         <div class="curso_contenido">
           <a href="cursos/IntroduccionEstadisticaEnBiologia_2daEd.php">
-            Introducción a la estadística en la biología</a>
+            Introducción a la Estadística en la Biología</a>
           <a href="cursos/IntroduccionEstadisticaEnBiologia_2daEd.php">2da. Edición</a>
           <p class="curso_contenido-fecha">Fechas por definir</p>
           <p class="curso_contenido-descripcion">
@@ -520,7 +945,7 @@ include './includes/templates/header.php';
         </div>
         <div class="curso_contenido">
           <a href="/cursos/ExcelUsoyAplicaciones.php">
-            Excel, uso y aplicaciones</a>
+            Excel, Uso y Aplicaciones</a>
           <a href="/cursos/ExcelUsoyAplicaciones.php">3ra. Edición</a>
           <p class="curso_contenido-fecha">Fechas por definir</p>
           <p class="curso_contenido-descripcion">

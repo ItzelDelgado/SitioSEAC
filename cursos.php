@@ -120,10 +120,6 @@ include './includes/templates/header.php';
       </div>
       <!-- CURSO FIN -->
 
-
-
-
-
       <!-- CURSO Estadística aplicada al diseño y análisis de estudios
                 experimentales-->
       <div class="group curso enCurso">
@@ -267,10 +263,6 @@ include './includes/templates/header.php';
         </div>
       </div>
       <!-- CURSO FIN -->
-
-
-
-
 
       <!-- CURSO Estrategias de Educación ambiental para la sustentabilidad. Segunda Edición-->
       <div class="group curso enCurso">
@@ -472,6 +464,65 @@ include './includes/templates/header.php';
         </div>
       </div>
       <!-- CURSO FIN -->
+
+      <!-- CURSO Primeros Auxilios, RCP y uso de DAE-->
+      <div class="group curso programados">
+        <div class="curso_imagen">
+          <div class="curso_imagen_adapter">
+            <img src="assets/images/cursos/bg-DivulgacionCiencia.webp" alt="" />
+          </div>
+          <div class="curso_imagen-backgroud">
+          </div>
+          <div class="curso_imagen-data">
+            <div>
+              <img src="assets/images/instructores/usr-f.jpg" alt="" />
+              <div class="ml-3">
+                <a href="#" target="_blank">M. en C. Julio Alejandro Prieto Sagredo, TUM-A
+                </a>
+                <a href="#" target="_blank">P. de M. Tabaré Merino Sánchez
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="curso_contenido">
+          <a href="cursos/IntroduccionAlaDivulgacionDeLaCiencia6taED.php">
+            Primeros Auxilios, RCP y Uso de DAE</a>
+          <a href="cursos/IntroduccionAlaDivulgacionDeLaCiencia6taED.php">1ra. Edición</a>
+          <p class="curso_contenido-fecha">
+            2, 4, 9 y 11 de mayo de 2023
+          </p>
+          <p class="curso_contenido-descripcion">La atención rápida y eficiente en caso de accidentes o enfermedades agudas es crucial para reducir los riesgos de secuelas. Una comunidad capacitada en primeros auxilios fortalece los vínculos sociales y ayuda a construir resiliencia. Los cuidados cardiacos y los primeros auxilios deben seguir los últimos estándares aprobados por la evidencia médica. El curso está diseñado para el público en general, ofreciendo información teórica y práctica.</p>
+          <p class="curso_contenido-subdescripcion">
+            Dirigido a: Todo público.
+          </p>
+          <a href="cursos/IntroduccionAlaDivulgacionDeLaCiencia6taED.php" target="_blank" class="curso_contenido-button btn btn-link">Ver
+            curso</a>
+          <div class="curso_contenido-horario">
+            <ul>
+              <li class="mr-3">
+                <i class="uil uil-calendar-alt "></i>
+                <span>Ma y Ju</span>
+              </li>
+              <li class="mr-3">
+                <i class="uil uil-clock "></i>
+                <span>09-12h</span>
+              </li>
+              <li class="flex items-center">
+                <i class="uil uil-map-marker "></i>
+                <span>Presencial</span>
+              </li>
+            </ul>
+          </div>
+          <div class="curso_contenido-precio">
+            <div>
+              <span>$800</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- CURSO FIN -->
+
       <!-- CURSO Introducción al estudio y conservación de tortugas de México-->
       <div class="group curso programados">
         <div class="curso_imagen">
@@ -533,6 +584,62 @@ include './includes/templates/header.php';
           <div class="curso_contenido-precio">
             <div>
               <span>$3,600</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- CURSO FIN -->
+
+      <!-- CURSO Programación de dispositivos móviles con Android-->
+      <div class="group curso programados">
+        <div class="curso_imagen">
+          <div class="curso_imagen_adapter">
+            <img src="assets/images/cursos/bg-DivulgacionCiencia.webp" alt="" />
+          </div>
+          <div class="curso_imagen-backgroud">
+          </div>
+          <div class="curso_imagen-data">
+            <div>
+              <img src="assets/images/instructores/usr-f.jpg" alt="" />
+              <div class="ml-3">
+                <a href="#" target="_blank">M. en C. Gustavo Márquez Flores
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="curso_contenido">
+          <a href="cursos/IntroduccionAlaDivulgacionDeLaCiencia6taED.php">
+            Programación de Dispositivos Móviles con Android</a>
+          <a href="cursos/IntroduccionAlaDivulgacionDeLaCiencia6taED.php">1ra. Edición</a>
+          <p class="curso_contenido-fecha">
+            Del 3 de mayo al 2 de junio de 2023
+          </p>
+          <p class="curso_contenido-descripcion">Los dispositivos móviles son fundamentales en la vida moderna al proporcionar acceso inmediato a información. La programación de aplicaciones para dispositivos móviles es esencial para el desarrollo de software y ofrece un enorme potencial para los desarrolladores al abrir nuevas oportunidades de uso y usuarios.</p>
+          <p class="curso_contenido-subdescripcion">
+            Dirigido a: Personas con interés en desarrollar aplicaciones para dispositivos móviles con conocimientos básicos de lenguaje Java y del lenguaje de marcado XML.
+          </p>
+          <a href="cursos/IntroduccionAlaDivulgacionDeLaCiencia6taED.php" target="_blank" class="curso_contenido-button btn btn-link">Ver
+            curso</a>
+          <div class="curso_contenido-horario">
+            <ul>
+              <li class="mr-3">
+                <i class="uil uil-calendar-alt "></i>
+                <span>Lu, Mi y Vi</span>
+              </li>
+              <li class="mr-3">
+                <i class="uil uil-clock "></i>
+                <span>10-13h</span>
+              </li>
+              <li class="flex items-center">
+                <i class="uil uil-map-marker "></i>
+                <span>Virtual</span>
+              </li>
+            </ul>
+          </div>
+          <div class="curso_contenido-precio">
+            <div>
+              <span>$4,320</span>
             </div>
           </div>
         </div>
@@ -606,6 +713,128 @@ include './includes/templates/header.php';
       </div>
       <!-- CURSO FIN -->
 
+      <!-- CURSO Diseño de cursos en cuadernos Jupyter interactivos con la plataforma MACTI-->
+      <div class="group curso programados">
+        <div class="curso_imagen">
+          <div class="curso_imagen_adapter">
+            <img src="assets/images/cursos/bg-DivulgacionCiencia.webp" alt="" />
+          </div>
+          <div class="curso_imagen-backgroud">
+          </div>
+          <div class="curso_imagen-data">
+            <div>
+              <img src="assets/images/instructores/usr-f.jpg" alt="" />
+              <div class="ml-3">
+                <a href="#" target="_blank">Dr. Luis Miguel de la Cruz Salas
+                </a>
+                <a href="#" target="_blank">Mtro. Miguel Angel Pérez León
+                </a>
+                <a href="#" target="_blank">Ing. Juan Eduardo Murrieta León
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="curso_contenido">
+          <a href="cursos/IntroduccionAlaDivulgacionDeLaCiencia6taED.php">
+            Diseño de Cursos en Cuadernos Jupyter Interactivos con la Plataforma MACTI</a>
+          <a href="cursos/IntroduccionAlaDivulgacionDeLaCiencia6taED.php">6ta. Edición</a>
+          <p class="curso_contenido-fecha">
+            Del 1ro al 24 de junio de 2023
+          </p>
+          <p class="curso_contenido-descripcion">El participante será capaz de aplicar diferentes metodologías de enseñanza para promover la interacción durante sus clases; además será capaz de diseñar cursos en temas de Ciencias e Ingeniería utilizando las herramientas tecnológicas interactivas que ofrece la plataforma MACTI</p>
+          <p class="curso_contenido-subdescripcion">
+            Dirigido a: Académicos, profesores, comunicadores y todo aquel
+            interesado en divulgar ideas científicas a público no
+            especializado.
+          </p>
+          <a href="cursos/IntroduccionAlaDivulgacionDeLaCiencia6taED.php" target="_blank" class="curso_contenido-button btn btn-link">Ver
+            curso</a>
+          <div class="curso_contenido-horario">
+            <ul>
+              <li class="mr-3">
+                <i class="uil uil-calendar-alt "></i>
+                <span>Ju, Vi y Sa</span>
+              </li>
+              <li class="mr-3">
+                <i class="uil uil-clock "></i>
+                <span>06-09h</span>
+                <span>09-12h</span>
+              </li>
+              <li class="flex items-center">
+                <i class="uil uil-map-marker "></i>
+                <span>Virtual o Presencial</span>
+              </li>
+            </ul>
+          </div>
+          <div class="curso_contenido-precio">
+            <div>
+              <span>$4,320</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- CURSO FIN -->
+
+
+      <!-- CURSO Introducción a los corales fósiles (Jurásico-Paleógeno)-->
+      <div class="group curso programados">
+        <div class="curso_imagen">
+          <div class="curso_imagen_adapter">
+            <img src="assets/images/cursos/bg-DivulgacionCiencia.webp" alt="" />
+          </div>
+          <div class="curso_imagen-backgroud">
+          </div>
+          <div class="curso_imagen-data">
+            <div>
+              <img src="assets/images/instructores/usr-f.jpg" alt="" />
+              <div class="ml-3">
+                <a href="#" target="_blank">Dr. Hannes Loeser
+                </a>
+                <a href="#" target="_blank">Dr. Rafael Villanueva Olea
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="curso_contenido">
+          <a href="cursos/IntroduccionAlaDivulgacionDeLaCiencia6taED.php">
+          Introducción a los Corales Fósiles (Jurásico-Paleógeno)</a>
+          <a href="cursos/IntroduccionAlaDivulgacionDeLaCiencia6taED.php">1ra. Edición</a>
+          <p class="curso_contenido-fecha">
+          Del 19 al 23 de junio de 2023
+          </p>
+          <p class="curso_contenido-descripcion">Introducir al alumno en el estudio de los corales fósiles post-paleozoicos, a través del estudio de aspectos morfológicos, de su clasificación y taxonomía, de su preparación en el laboratorio e interpretación de su biología.</p>
+          <p class="curso_contenido-subdescripcion">
+            Dirigido a:Alumnos de licenciatura (Biología y Geología) a partir del sexto semestre. Estudiantes de la maestría y del doctorado, y maestros.
+          </p>
+          <a href="cursos/IntroduccionAlaDivulgacionDeLaCiencia6taED.php" target="_blank" class="curso_contenido-button btn btn-link">Ver
+            curso</a>
+          <div class="curso_contenido-horario">
+            <ul>
+              <li class="mr-3">
+                <i class="uil uil-calendar-alt "></i>
+                <span>Lu - Vi</span>
+              </li>
+              <li class="mr-3">
+                <i class="uil uil-clock "></i>
+                <span>10-13h y 15-17h</span>
+                <span>(5h por sesión)</span>
+              </li>
+              <li class="flex items-center">
+                <i class="uil uil-map-marker "></i>
+                <span>Virtual</span>
+              </li>
+            </ul>
+          </div>
+          <div class="curso_contenido-precio">
+            <div>
+              <span>$Presencial</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- CURSO FIN -->
       <!-- CURSO Introducción a la estadística en la biología, 2da. Edición-->
       <div class="group curso programados">
         <div class="curso_imagen">
