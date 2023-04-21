@@ -194,7 +194,7 @@ include './includes/templates/header.php';
       <!-- CURSO FIN -->
 
       <!-- CURSO Dibujo de la naturaleza-->
-      <div class="group curso programados">
+      <div class="group curso pasados">
         <div class="curso_imagen">
           <div class="curso_imagen_adapter">
             <img src="assets/images/cursos/bg-Dibujo_de_la_naturaleza.webp" alt="" />

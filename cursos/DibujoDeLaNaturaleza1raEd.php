@@ -2,6 +2,31 @@
 include '../includes/templates/header.php';
 ?>
 
+<?php
+
+$titulo_curso = "Rescate y Rehabilitación de Fauna Silvestre";
+$imagen_curso = "../../assets/images/cursos/bg-TortugasMexico.webp";
+$edicion = "6ta. Edición";
+$fecha = "Del 17 de abril al 26 de junio de 2023";
+$precio_unam = "2,700";
+$precio_general = "3,200";
+$precio_unam_descuento = "2,295";
+$precio_general_descuento = "2,720";
+$dias = "Lunes";
+$horario = "16:00 a 19:00";
+$no_horas = "27";
+$modalidad = "Virtual";
+$max_alumnos = "60";
+$min_alumnos = "15";
+$descripcion = "Las actividades antropogénicas como la construcción de carreteras, tendidos eléctricos, presas y los desastres naturales como sequías, inundaciones, incendios, huracanes, derrames petroleros y otros contaminantes, ponen en riesgo a poblaciones de especies de fauna silvestre que se encuentran en alguna categoría de amenaza de extinción. Ante estos nuevos retos la Unión Internacional para la Conservación de la Naturaleza (IUCN) a través del Grupo Especialista en Salud de Fauna Silvestre (WHSG), han creado criterios para rescatar y rehabilitar a ejemplares de fauna silvestre de especies de valor ecológico. Por ello, los biólogos y profesionistas de disciplinas afines (médicos veterinarios, ecólogos) deben ampliar su campo de acción hacia la atención, rescate y rehabilitación de animales silvestres para su posible re-introducción a sus hábitats naturales así recuperar a las poblaciones de especies amenazadas.";
+$objetivo = "El participante adquirirá los conocimientos teóricos necesarios para rescatar y brindar atención primaria; valorará el tipo de destino final para cada caso.";
+$dirigido_a = "Biólogos, Médicos Veterinarios Zootecnistas y disciplinas afines.";
+$requisitos = "Estudiantes y profesionales de las áreas químico biológicas y afines.";
+$lugar = "Zoom";
+$formato_inscripcion = "https://forms.gle/wwn996LgigXLKmsM6";
+$info_academica="Dra. Rosalía Pastor Nieto <br> Correo electrónico: rosalia.pastor@gmail.com"
+?>
+
 <!-- Start Hero -->
 <section class="portada">
     <img src="../../assets/images/cursos/bg-Dibujo_de_la_naturaleza.webp" alt="">
