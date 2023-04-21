@@ -2,6 +2,30 @@
 include '../includes/templates/header.php';
 ?>
 
+<?php
+
+$titulo_curso = "Bioestadística";
+$imagen_curso = "../../assets/images/cursos/bg-bioestadistica.webp";
+$edicion = "16a. Edición";
+$fecha = "Del 3 de marzo al 28 de abril de 2023";
+$precio_unam = "5,000";
+$precio_general = "6,000";
+$dias = "Lunes Jueves";
+$horario = "17:00 a 20:00";
+$no_horas = "50";
+$modalidad = "Vía Meet y Moodle";
+$max_alumnos = "30";
+$min_alumnos = "15";
+$descripcion = "Este curso fue diseñado para aportar bases teóricas y prácticas necesarios para el proceso de la información, el curso está montado en la plataforma educativa Moodle, la cual permite la interacción profesor-alumno, alumno-alumno, contar con los contenidos en diferentes formatos, textos, imágenes, videos, tutoriales, ejercicios necesarios y complementarios para el curso A través de esta interfase el asistente puede tomar las lecciones en línea, realizar las actividades (tareas y ejercicios evaluaciones), contar con retroalimentación, también la plataforma a través de diferentes herramientas permite la discusión y aportaciones de los asistentes y con ellos tener un aprendizaje colaborativo. Las lecciones están apoyadas con software educativo, propio y libre que brinda elementos teóricos y prácticos, del proceso de información. En las sesiones sincrónicas se revisan los temas de mayor complejidad y se hace la aclaración de dudas de los contenidos y materiales en línea.";
+$objetivo = "La finalidad de este curso es aportar al asistente los conocimientos básicos de la teoría y la práctica necesarios para el adecuado proceso de la información, desde la generación o recolección de los datos, hasta la toma de decisiones a través de la descripción de la información, estimación de parámetros, y la adecuada aplicación de las pruebas de hipótesis.";
+$dirigido_a = "Estudiantes, profesionales del área químico-biológica, de la salud y áreas a fines (este curso, está dirigido básicamente a médicos, biólogos, enfermeros, psicólogos, trabajadores sociales).";
+$requisitos = "Licenciatura (mínimo 60% de créditos).";
+$lugar = "Meet <br> Moodle <br> Abierto las 24horas";
+$formato_inscripcion = "https://forms.gle/yA4Vr2xaF2QGzHf88";
+$info_academica="M. en C. Jorge A. Moreno Hernández <br> Correo electrónico: jmh@ciencias.unam.mx"
+?>
+
+
 <!-- =========== PORTADA PRINCIPAL ========== -->
 
 <section class="portada">
@@ -9,12 +33,12 @@ include '../includes/templates/header.php';
     <div class="portada-opacity"></div>
     <div class="container">
         <div class="portada-informacion">
-            <span class="portada-informacion-pu">$6,000 /
+            <span class="portada-informacion-pu">$<?php echo $precio_unam ?> /
                 UNAM</span>
-            <span class="portada-informacion-pg">$6,000 /
+            <span class="portada-informacion-pg">$<?php echo $precio_general ?> /
                 GENERAL</span>
-            <h1>Bioestadística</h1>
-            <p>16a. Edición</p>
+            <h1><?php echo $titulo_curso ?></h1>
+            <p class="text-indigo-600"><?php echo $edicion ?></p>
             <div class="profesor">
                 <div>
                     <img src="../assets/images/instructores/usr-m.jpg" alt="">
@@ -25,9 +49,7 @@ include '../includes/templates/header.php';
             </div>
             <div class="fecha">
                 <i class="uil uil-calendar-alt"></i>
-                <span>
-                    Del 3 de marzo al 28 de abril de 2023
-                </span>
+                <span><?php echo $fecha ?></span>
             </div>
         </div>
     </div>
@@ -36,23 +58,23 @@ include '../includes/templates/header.php';
         <ul>
             <li>
                 <i class="uil uil-calendar-alt"></i>
-                <span class="text-white/60 ml-1">Lu - Ju</span>
+                <span><?php echo $dias ?></span>
             </li>
             <li>
                 <i class="uil uil-bell-school"></i>
-                <span class="text-white/60 ml-1">17-20h</span>
+                <span><?php echo $horario ?>h</span>
             </li>
             <li>
                 <i class="uil uil-clock"></i>
-                <span class="text-white/60 ml-1">50 horas</span>
+                <span><?php echo $no_horas ?> horas</span>
             </li>
             <li>
                 <i class="uil uil-map-marker"></i>
-                <span class="text-white/60 ml-1">Vía Meet y Moodle</span>
+                <span><?php echo $modalidad ?></span>
             </li>
             <li>
                 <i class="uil uil-user-circle"></i>
-                <span class="text-white/60 ml-1">Máx. 30 / Min. 15</span>
+                <span>Máx. <?php echo $max_alumnos ?> / Min. <?php echo $min_alumnos ?></span>
             </li>
             <li>
                 <i class="uil uil-shopping-cart text-green-600"></i>
@@ -77,29 +99,11 @@ include '../includes/templates/header.php';
 <section class="oferta-academica md:py-20">
     <div class="container">
         <h2>Descripción</h2>
-        <p>Este curso fue diseñado para aportar bases teóricas y prácticas necesarios para el
-            proceso de la información, el curso está montado en la plataforma educativa Moodle, la cual permite
-            la interacción profesor-alumno, alumno-alumno, contar con los contenidos en diferentes formatos,
-            textos, imágenes, videos, tutoriales, ejercicios necesarios y complementarios para el curso
-            A través de esta interfase el asistente puede tomar las lecciones en línea, realizar las actividades
-            (tareas y ejercicios evaluaciones), contar con retroalimentación, también la plataforma a través de
-            diferentes herramientas permite la discusión y aportaciones de los asistentes y con ellos tener un
-            aprendizaje colaborativo.
-            Las lecciones están apoyadas con software educativo, propio y libre que brinda elementos teóricos y
-            prácticos, del proceso de información.
-            En las sesiones sincrónicas se revisan los temas de mayor complejidad y se hace la aclaración de
-            dudas de los contenidos y materiales en línea. </p>
+        <p><?php echo $descripcion ?></p>
         <h2>Objetivo</h2>
-        <p>La finalidad de este curso es aportar al asistente los conocimientos básicos de la
-            teoría y la práctica necesarios para el adecuado proceso de la información, desde la generación o
-            recolección de los datos, hasta la toma de decisiones a través de la descripción de la información,
-            estimación de parámetros, y la adecuada aplicación de las pruebas de hipótesis
-        </p>
+        <p><?php echo $objetivo ?></p>
         <h2>Dirigido a</h2>
-        <p> Estudiantes, profesionales del área químico-biológica, de la salud y áreas a fines
-            (este curso, está dirigido básicamente a médicos, biólogos, enfermeros, psicólogos, trabajadores
-            sociales).
-        </p>
+        <p><?php echo $dirigido_a ?></p>
         <p class="text-red-600">
             Mín / Máx de alumnos: Mínimo 15, máximo 30.<br>
             La apertura del curso está sujeta al mínimo de inscritos.</p>
@@ -117,7 +121,7 @@ include '../includes/templates/header.php';
                 </div>
                 <div>
                     <h3>Requisitos</h3>
-                    <p>Licenciatura (mínimo 60% de créditos).</p>
+                    <p><?php echo $requisitos ?></p>
                     <div class="mt-5">
                         <a href="#" data-type="iframe" class="video-play-icon read-more lightbox btn btn-link text-indigo-600 hover:text-indigo-600 after:bg-indigo-600 duration-500 ease-in-out">
                         </a>
@@ -130,13 +134,10 @@ include '../includes/templates/header.php';
                 </div>
                 <div>
                     <h3>Horario</h3>
-                    <p>Sesiones sincrónas: Viernes<br>
-                        Horario: 17:00 a 20:00 hrs.</p>
-                    <p>Sesiones asincrónas: Lunes a Jueves<br>
-                        Horario: Una hora</p>
+                    <p><?php echo $horario ?> hrs</p>
+                    <p><?php echo $dias ?></p>
                     <div class="mt-5">
-                        <a href="#" class="btn btn-link text-indigo-600 hover:text-red-600 after:bg-indigo-600 duration-500 ease-in-out">Total:
-                            50 horas</a>
+                        <a href="#" class="btn btn-link text-indigo-600 hover:text-red-600 after:bg-indigo-600 duration-500 ease-in-out">Total: <?php echo $no_horas ?>horas</a>
                     </div>
                 </div>
             </div>
@@ -146,8 +147,7 @@ include '../includes/templates/header.php';
                 </div>
                 <div>
                     <h3>Lugar</h3>
-                    <p>Meet</p>
-                    <p>Moodle<br>Abierto las 24horas</p>
+                    <p><?php echo $lugar ?></p>
                 </div>
             </div>
         </div>
@@ -160,7 +160,7 @@ include '../includes/templates/header.php';
                 <h3>Público GENERAL</h3>
                 <div>
                     <span>$</span>
-                    <span>6,000</span>
+                    <span><?php echo $precio_general ?></span>
                     <span>MXN</span>
                 </div>
                 <a href="#inscripcion" class="btn">Inscribirse</a>
@@ -169,7 +169,7 @@ include '../includes/templates/header.php';
                 <h3>Comunidad UNAM</h3>
                 <div>
                     <span>$</span>
-                    <span>5,000</span>
+                    <span><?php echo $precio_unam ?></span>
                     <span>MXN</span>
                 </div>
                 <ul>
@@ -404,7 +404,7 @@ include '../includes/templates/header.php';
                             <h4 class="title mb-1 font-semibold">Registrarse en este formato de inscripción</h4>
                             <p>(únicamente si usted ya hizo el pago)</p>
                             <p>
-                                <a href="https://forms.gle/yA4Vr2xaF2QGzHf88" target="_blank">Formato
+                                <a href=<?php echo $formato_inscripcion ?> target="_blank">Formato
                                     de inscripción</a>
                             </p>
                         </div>
@@ -462,10 +462,7 @@ include '../includes/templates/header.php';
                 </h2>
                 <div id="info-acad" class="hidden" aria-labelledby="info-acad-col">
                     <div class="p-5">
-                        <p class="text-slate-400 dark:text-gray-400">M. en C. Jorge A. Moreno Hernández
-                            <br>
-                            Correo electrónico: jmh@ciencias.unam.mx
-                        </p>
+                        <p class="text-slate-400 dark:text-gray-400"><?php echo $info_academica?></p>
                     </div>
                 </div>
             </div>

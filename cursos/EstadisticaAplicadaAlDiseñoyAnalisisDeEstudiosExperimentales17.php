@@ -2,18 +2,40 @@
 include '../includes/templates/header.php';
 ?>
 
+<?php
+
+$titulo_curso = "Estadística aplicada al diseño y análisis de estudios experimentales";
+$imagen_curso = "../../assets/images/cursos/bg-estadica-aplicada-diseño-est-exp.webp";
+$edicion = "7ma. Edición";
+$fecha = "Del 4 de marzo al 27 de mayo del 2023";
+$precio_unam = "4,800";
+$precio_general = "5,800";
+$dias = "Sábado";
+$horario = "8:00 a 12:00";
+$no_horas = "48";
+$modalidad = "Virtual";
+$max_alumnos = "35";
+$min_alumnos = "15";
+$descripcion = "El diseño de experimentos es una rama de la estadística que se encarga de la planeación, y análisis estadístico de datos que son obtenidos como resultados en investigaciones científicas. De ahí que resulten una herramienta fundamental e indispensable en el quehacer científico. Contrario a lo que muchos investigadores piensan, la estadística no constituye la última etapa de una investigación, sino que toma un papel fundamental desde la planeación de la misma. El diseño de un experimento está en función de los objetivos a los cuales se desee llegar en una investigación. Dicho diseño deberá considerar todas las condiciones que se tengan presentes en cada realidad, para así poder determinar cuántos factores deben ser tomados en cuenta, los cuales pueden ser incluso más de los meros factores de interés, las variantes de los mismos que serán analizadas, y las combinaciones de éstas, dichas combinaciones, constituirán los tratamientos a analizar. El diseño experimental determina además la manera en que se asignan estos tratamientos a las unidades de estudio, o bien unidades experimentales. A cada diseño le corresponde un modelo y éste a su vez determina el análisis estadístico a efectuar. Los resultados de este análisis deberán dar respuesta a los objetivos de la investigación planteados desde un inicio. Es así como todas las etapas de una investigación están relacionadas, todas ellas son importantes para determinar la validez que pueda tener una investigación y sin que una de ellas se pueda desvincular de las demás. A pesar de la gran importancia que tiene esta área de la estadística para las disciplinas científicas la mayoría de los planes de estudio de las diferentes licenciaturas dirigidas a la investigación científica, no cuentan con asignaturas en sus planes de estudio que proporcionen a los alumnos una sólida formación en esta área. Una limitante importante quizá sea la base matemática de cierto grado de complejidad, sobre la que se fundamentan y construyen dichos modelos experimentales, existiendo al parecer una desvinculación entre las disciplinas de formación en el área de las matemáticas con las áreas experimentales. No obstante una vez que la metodología estadística ha sido construida, basta conocer los fundamentos teóricos generales de ésta y la manera de interpretar los resultados, para poder convertirse en un usuario de la misma y así poder dar respuesta a un problema de la realidad que en determinado momento requiramos resolver. Es por eso que este curso está dirigido a profesionistas y estudiantes que trabajen en el área de investigación científica, con especial énfasis en ciencias experimentales, con el objetivo de capacitarles en los aspectos generales de las metodologías estadísticas, que les permita hacer un uso adecuado de las mismas al momento de diseñar los estudios que vayan realizando y poder analizar la información procedente de los mismos, así como su interpretación.";
+$objetivo = "Conocer los diferentes tipos de diseños experimentales utilizados más comúnmente en la realización de experimentos, así como su análisis estadístico.";
+$dirigido_a = "Profesionistas y estudiantes en el área de ciencias experimentales y de investigación.";
+$requisitos = "Estudiantes y profesionales de las áreas químico biológicas y afines.";
+$lugar = "Vía Meet y Classroom";
+$info_academica = "Dra. María de Lourdes Barbosa Saldaña o <br> Biol. María Guadalupe Camacho Sánchez"
+?>
+
 <!-- Start Hero -->
 <section class="portada">
     <img src="../../assets/images/cursos/bg-estadica-aplicada-diseño-est-exp.webp" alt="">
     <div class="portada-opacity"></div>
     <div class="container">
         <div class="portada-informacion">
-            <span class="portada-informacion-pu">$4,800 /
+            <span class="portada-informacion-pu">$<?php echo $precio_unam ?> /
                 UNAM</span>
-            <span class="portada-informacion-pg">$5,800 /
+            <span class="portada-informacion-pg">$<?php echo $precio_general ?> /
                 GENERAL</span>
-            <h1>Estadística aplicada al diseño y análisis de estudios experimentales</h1>
-            <p>7ma. Edición</p>
+            <h1><?php echo $titulo_curso ?></h1>
+            <p class="text-indigo-600"><?php echo $edicion ?></p>
             <div class="profesor">
                 <div>
                     <img src="../assets/images/instructores/usr-m.jpg" alt="">
@@ -33,7 +55,7 @@ include '../includes/templates/header.php';
 
             <div class="fecha">
                 <i class="uil uil-calendar-alt"></i>
-                <span>Del 4 de marzo al 27 de mayo del 2023</span>
+                <span><?php echo $fecha ?></span>
             </div>
 
         </div>
@@ -47,27 +69,27 @@ include '../includes/templates/header.php';
 
             <li>
                 <i class="uil uil-calendar-alt"></i>
-                <span class="text-white/60 ml-1">Sábado</span>
+                <span><?php echo $dias ?></span>
             </li>
 
             <li>
                 <i class="uil uil-bell-school"></i>
-                <span class="text-white/60 ml-1">8-12h</span>
+                <span><?php echo $horario ?>h</span>
             </li>
 
             <li>
                 <i class="uil uil-clock"></i>
-                <span class="text-white/60 ml-1">48 horas</span>
+                <span><?php echo $no_horas ?> horas</span>
             </li>
 
             <li>
                 <i class="uil uil-map-marker"></i>
-                <span class="text-white/60 ml-1">Vía Meet y Classroom</span>
+                <span><?php echo $modalidad ?></span>
             </li>
 
             <li>
                 <i class="uil uil-user-circle"></i>
-                <span class="text-white/60 ml-1">Máx. 35 / Min. 15</span>
+                <span>Máx. <?php echo $max_alumnos ?> / Min. <?php echo $min_alumnos ?></span>
             </li>
 
             <li>
@@ -90,17 +112,13 @@ include '../includes/templates/header.php';
 <section class="oferta-academica md:py-20">
     <div class="container">
         <h2>Descripción</h2>
-        <p class="mb-3">El diseño de experimentos es una rama de la estadística que se encarga de la planeación, y análisis estadístico de datos que son obtenidos como resultados en investigaciones científicas. De ahí que resulten una herramienta fundamental e indispensable en el quehacer científico. Contrario a lo que muchos investigadores piensan, la estadística no constituye la última etapa de una investigación, sino que toma un papel fundamental desde la planeación de la misma. El diseño de un experimento está en función de los objetivos a los cuales se desee llegar en una investigación. Dicho diseño deberá considerar todas las condiciones que se tengan presentes en cada realidad, para así poder determinar cuántos factores deben ser tomados en cuenta, los cuales pueden ser incluso más de los meros factores de interés, las variantes de los mismos que serán analizadas, y las combinaciones de éstas, dichas combinaciones, constituirán los tratamientos a analizar. El diseño experimental determina además la manera en que se asignan estos tratamientos a las unidades de estudio, o bien unidades experimentales. A cada diseño le corresponde un modelo y éste a su vez determina el análisis estadístico a efectuar. Los resultados de este análisis deberán dar respuesta a los objetivos de la investigación planteados desde un inicio. Es así como todas las etapas de una investigación están relacionadas, todas ellas son importantes para determinar la validez que pueda tener una investigación y sin que una de ellas se pueda desvincular de las demás.
-            A pesar de la gran importancia que tiene esta área de la estadística para las disciplinas científicas la mayoría de los planes de estudio de las diferentes licenciaturas dirigidas a la investigación científica, no cuentan con asignaturas en sus planes de estudio que proporcionen a los alumnos una sólida formación en esta área. Una limitante importante quizá sea la base matemática de cierto grado de complejidad, sobre la que se fundamentan y construyen dichos modelos experimentales, existiendo al parecer una desvinculación entre las disciplinas de formación en el área de las matemáticas con las áreas experimentales. No obstante una vez que la metodología estadística ha sido construida, basta conocer los fundamentos teóricos generales de ésta y la manera de interpretar los resultados, para poder convertirse en un usuario de la misma y así poder dar respuesta a un problema de la realidad que en determinado momento requiramos resolver.
-            Es por eso que este curso está dirigido a profesionistas y estudiantes que trabajen en el área de investigación científica, con especial énfasis en ciencias experimentales, con el objetivo de capacitarles en los aspectos generales de las metodologías estadísticas, que les permita hacer un uso adecuado de las mismas al momento de diseñar los estudios que vayan realizando y poder analizar la información procedente de los mismos, así como su interpretación. </p>
+        <p><?php echo $descripcion ?></p>
         <h2>Objetivo</h2>
-        <p class=" mb-3">Conocer los diferentes tipos de diseños experimentales utilizados más comúnmente en la realización de experimentos, así como su análisis estadístico.
-        </p>
+        <p><?php echo $objetivo ?></p>
         <h2>Dirigido a</h2>
-        <p> Profesionistas y estudiantes en el área de ciencias experimentales y de investigación
-        </p>
-        <p class="text-red-600 mb-3">
-            Mín / Máx de alumnos: Mínimo 15, máximo 35.<br>
+        <p><?php echo $dirigido_a ?></p>
+        <p class="text-red-600 mt-4">
+            Mín / Máx de alumnos: Mínimo <?php echo $min_alumnos ?>, máximo <?php echo $max_alumnos ?>.<br>
             La apertura del curso está sujeta al mínimo de inscritos.</p>
     </div>
 </section>
@@ -120,7 +138,7 @@ include '../includes/templates/header.php';
 
                 <div>
                     <h3>Requisitos</h3>
-                    <p>Conocimiento básico de conceptos de estadística. Laptop y memoria USB</p>
+                    <p><?php echo $requisitos ?></p>
 
                     <div class="mt-5">
                         <a href="#" data-type="iframe" class="video-play-icon read-more lightbox btn btn-link text-indigo-600 hover:text-indigo-600 after:bg-indigo-600 duration-500 ease-in-out">
@@ -137,11 +155,10 @@ include '../includes/templates/header.php';
 
                 <div>
                     <h3>Horario</h3>
-                    <p>Sábado<br>
-                        Horario: 8:00 a 12:00 hrs.</p>
+                    <p><?php echo $horario ?> hrs</p>
+                    <p><?php echo $dias ?></p>
                     <div class="mt-5">
-                        <a href="#" class="btn btn-link text-indigo-600 hover:text-red-600 after:bg-indigo-600 duration-500 ease-in-out">Total:
-                            48 horas</a>
+                        <a href="#" class="btn btn-link text-indigo-600 hover:text-red-600 after:bg-indigo-600 duration-500 ease-in-out">Total: <?php echo $no_horas ?>horas</a>
                     </div>
                 </div>
             </div>
@@ -153,9 +170,7 @@ include '../includes/templates/header.php';
 
                 <div>
                     <h3>Lugar</h3>
-                    <p>Meet</p>
-                    <p>Classroom</p>
-
+                    <p><?php echo $lugar ?></p>
                 </div>
             </div>
 
@@ -179,7 +194,7 @@ include '../includes/templates/header.php';
 
                 <div class="flex mb-5">
                     <span>$</span>
-                    <span>5,800</span>
+                    <span><?php echo $precio_general ?></span>
                     <span>MXN</span>
                 </div>
 
@@ -193,7 +208,7 @@ include '../includes/templates/header.php';
 
                 <div class="flex mb-5">
                     <span>$</span>
-                    <span>4,800</span>
+                    <span><?php echo $precio_unam ?></span>
                     <span>MXN</span>
                 </div>
 
@@ -840,9 +855,7 @@ include '../includes/templates/header.php';
                 </h2>
                 <div id="info-acad" class="hidden" aria-labelledby="info-acad-col">
                     <div class="p-5">
-                        <p class="text-slate-400 dark:text-gray-400">M. en C. Jorge A. Moreno Hernández
-                            <br>
-                            Correo electrónico: jmh@ciencias.unam.mx
+                        <p class="text-slate-400 dark:text-gray-400"><?php echo $info_academica ?>
                         </p>
                     </div>
                 </div>
