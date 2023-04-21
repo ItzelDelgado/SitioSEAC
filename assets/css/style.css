@@ -736,8 +736,8 @@ h2 {
     font-size: 1.5rem !important;
     line-height: 2rem !important;
     font-weight: 600 !important;
-    margin-bottom: 1.25rem !important;
     margin-top: 2rem !important;
+    
 }
 
 .temario .secciones {
@@ -751,6 +751,7 @@ h2 {
     text-transform: uppercase !important;
     font-weight: 600 !important;
     margin-bottom: 1.25rem !important;
+    margin-top: 1.25rem !important;
 }
 
 .temario .secciones .contenido {
@@ -874,7 +875,7 @@ h2 {
     margin-bottom: 0px !important;
     --tw-text-opacity: 1 !important;
     color: rgb(148 163 184 / var(--tw-text-opacity)) !important;
-    font-weight: bold;
+    font-weight: 600 !important;
 }
 
 .inscripcion .pasos>div .paso-n div p a {

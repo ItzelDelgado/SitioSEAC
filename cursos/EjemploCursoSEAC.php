@@ -60,6 +60,7 @@ $info_academica="Dra. Rosalía Pastor Nieto <br> Correo electrónico: rosalia.pa
                 <i class="uil uil-calendar-alt"></i>
                 <span><?php echo $fecha ?></span>
             </div>
+
         </div>
     </div>
 
