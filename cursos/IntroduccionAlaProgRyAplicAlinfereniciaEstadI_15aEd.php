@@ -510,9 +510,9 @@ include '../includes/templates/header.php';
                 </h2>
                 <div id="info-acad" class="hidden" aria-labelledby="info-acad-col">
                     <div class="p-5">
-                        <p class="text-slate-400 dark:text-gray-400">M. en C. Jorge A. Moreno Hernández
-                            <br>
-                            Correo electrónico: jmh@ciencias.unam.mx
+                        <p class="text-slate-400 dark:text-gray-400">Dr. Jesús Jurado-Molina <br>
+Correo electrónico: jjurado@uw.edu
+
                         </p>
                     </div>
                 </div>

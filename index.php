@@ -98,7 +98,7 @@ include './includes/templates/header.php';
     <div class="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-[30px]">
 
 
-      <!-- ********EJEMPLO DE MINIATURA PARA CURSO********-->
+      <!-- **********************************************************EJEMPLO DE MINIATURA PARA CURSO************************************************************-->
       <!-- CURSO  Nombre-->
       <!-- <div class="group curso">
         <div class="curso_imagen">
@@ -167,7 +167,7 @@ include './includes/templates/header.php';
       </div> -->
       <!-- CURSO FIN -->
 
-      <!-- ********EJEMPLO DE MINIATURA DIPLOMADO********-->
+      <!-- ***********************************************EJEMPLO DE MINIATURA DIPLOMADO**************************************************-->
       <!-- DIPLOMADO -->
       <!-- <div class="group curso">
         <div class="curso_imagen">
@@ -236,139 +236,7 @@ include './includes/templates/header.php';
       </div> -->
       <!-- DIPLOMADO FIN -->
 
-      <!-- CURSO  Introducción a la divulgación de la ciencia. Sexta Edición-->
-      <div class="group curso">
-        <div class="curso_imagen">
-          <div class="curso_imagen_adapter">
-            <img src="assets/images/cursos/bg-DivulgacionCiencia.webp" alt="" />
-          </div>
-          <div class="curso_imagen-backgroud">
-          </div>
-          <div class="curso_imagen-data">
-            <div>
-              <img src="assets/images/instructores/usr-f.jpg" alt="" />
-              <div class="ml-3">
-                <a href="#" target="_blank">M. Patricia
-                  Magaña Rueda
-                </a>
-                <a href="#" target="_blank">Dra.
-                  Clementina Equihua Zamora
-                </a>
-                <a href="#" target="_blank">Bio. Paloma
-                  Zubieta López
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="curso_contenido">
-          <a href="cursos/IntroduccionAlaDivulgacionDeLaCiencia6taED.php">
-            Introducción a la Divulgación de la Ciencia</a>
-          <a href="cursos/IntroduccionAlaDivulgacionDeLaCiencia6taED.php">6ta. Edición</a>
-          <p class="curso_contenido-fecha">
-            Del 14 de abril al 12 de mayo del 2023
-          </p>
-          <p class="curso_contenido-descripcion">El curso busca introducir a los participantes las bases de la
-            divulgación científica o comunicación pública de la ciencia, que es un área de trabajo que requiere
-            formación académica, entendimiento de lo que la ciencia es y como funciona, así como las maneras de
-            comunicarla al público de manera exitosa.</p>
-          <p class="curso_contenido-subdescripcion">
-            Dirigido a: Académicos, profesores, comunicadores y todo aquel
-            interesado en divulgar ideas científicas a público no
-            especializado.
-          </p>
-          <a href="cursos/IntroduccionAlaDivulgacionDeLaCiencia6taED.php" target="_blank" class="curso_contenido-button btn btn-link">Ver
-            curso</a>
-          <div class="curso_contenido-horario">
-            <ul>
-              <li class="mr-3">
-                <i class="uil uil-calendar-alt "></i>
-                <span>Viernes</span>
-              </li>
-              <li class="mr-3">
-                <i class="uil uil-clock "></i>
-                <span>16-20h</span>
-              </li>
-              <li class="flex items-center">
-                <i class="uil uil-map-marker "></i>
-                <span>Virtual</span>
-              </li>
-            </ul>
-          </div>
-          <div class="curso_contenido-precio">
-            <div>
-              <span>$2,600</span>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- CURSO FIN -->
-
-      <!-- CURSO Rescate y rehabilitación de fauna silvestre. Sexta Edición-->
-      <div class="group curso programados">
-        <div class="curso_imagen">
-          <div class="curso_imagen_adapter">
-            <img src="assets/images/cursos/bg-FaunaSilvestre.webp" alt="" />
-          </div>
-          <div class="curso_imagen-backgroud">
-          </div>
-          <div class="curso_imagen-data">
-            <div>
-              <img src="assets/images/instructores/usr-f.jpg" alt="" />
-              <div class="ml-3">
-                <a href="assets/curriculums_docentes/RosaliaPastorNieto.pdf" target="_blank">Dra. Rosalía Pastor
-                  Nieto
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="curso_contenido">
-          <a href="cursos/RescateyRehabilitaciondeFaunaSilvestre6taEd.php">
-            Rescate y Rehabilitación de Fauna Silvestre </a>
-          <a href="cursos/RescateyRehabilitaciondeFaunaSilvestre6taEd.php">6ta. Edición</a>
-          <p class="curso_contenido-fecha">
-            Del 17 abril al 26 junio del 2023
-          </p>
-          <p class="curso_contenido-descuento">
-            15% de descuento por concepto de pronto pago (hasta el 3 de abril) - $2,720
-          </p>
-          <p class="curso_contenido-descripcion">Actividades antropogénicas y desastres naturales ponen en riesgo a
-            especies de fauna silvestre en peligro de extinción. La IUCN y el WHSG han creado criterios para rescatar
-            y rehabilitar a estos animales, por lo que biólogos y profesionales afines deben ampliar su campo de
-            acción en su atención, rescate y rehabilitación.</p>
-          <p class="curso_contenido-subdescripcion">
-            Dirigido a: Biólogos, Médicos Veterinarios Zootecnistas y
-            disciplinas afines.
-          </p>
-
-          <a href="cursos/RescateyRehabilitaciondeFaunaSilvestre6taEd.php" target="_blank" class="curso_contenido-button btn btn-link">Ver
-            curso</a>
-
-          <div class="curso_contenido-horario">
-            <ul>
-              <li class="mr-3">
-                <i class="uil uil-calendar-alt "></i>
-                <span>Lunes</span>
-              </li>
-              <li class="mr-3">
-                <i class="uil uil-clock "></i>
-                <span>16-19h</span>
-              </li>
-              <li class="flex items-center">
-                <i class="uil uil-map-marker "></i>
-                <span>Virtual</span>
-              </li>
-            </ul>
-          </div>
-          <div class="curso_contenido-precio">
-            <div>
-              <span>$3,200</span>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- CURSO FIN -->
+      
 
       <!-- DIPLOMADO Diplomado IV: Solución de problemas, TIC e investigación didáctica-->
       <div class="group curso">
@@ -447,9 +315,9 @@ include './includes/templates/header.php';
           </div>
         </div>
         <div class="curso_contenido">
-          <a href="cursos/IntroduccionAlaDivulgacionDeLaCiencia6taED.php">
+          <a href="cursos/PrimerosAuxilios1raEd.php">
             Primeros Auxilios, RCP y Uso de DAE</a>
-          <a href="cursos/IntroduccionAlaDivulgacionDeLaCiencia6taED.php">1ra. Edición</a>
+          <a href="cursos/PrimerosAuxilios1raEd.php">1ra. Edición</a>
           <p class="curso_contenido-fecha">
             2, 4, 9 y 11 de mayo de 2023
           </p>
@@ -457,7 +325,7 @@ include './includes/templates/header.php';
           <p class="curso_contenido-subdescripcion">
             Dirigido a: Todo público.
           </p>
-          <a href="cursos/IntroduccionAlaDivulgacionDeLaCiencia6taED.php" target="_blank" class="curso_contenido-button btn btn-link">Ver
+          <a href="cursos/PrimerosAuxilios1raEd.php" target="_blank" class="curso_contenido-button btn btn-link">Ver
             curso</a>
           <div class="curso_contenido-horario">
             <ul>
@@ -570,9 +438,9 @@ include './includes/templates/header.php';
           </div>
         </div>
         <div class="curso_contenido">
-          <a href="cursos/IntroduccionAlaDivulgacionDeLaCiencia6taED.php">
+          <a href="cursos/ProgramacionDispositivosMovilesconAndroid1raEd.php">
             Programación de Dispositivos Móviles con Android</a>
-          <a href="cursos/IntroduccionAlaDivulgacionDeLaCiencia6taED.php">1ra. Edición</a>
+          <a href="cursos/ProgramacionDispositivosMovilesconAndroid1raEd.php">1ra. Edición</a>
           <p class="curso_contenido-fecha">
             Del 3 de mayo al 2 de junio de 2023
           </p>
@@ -580,7 +448,7 @@ include './includes/templates/header.php';
           <p class="curso_contenido-subdescripcion">
             Dirigido a: Personas con interés en desarrollar aplicaciones para dispositivos móviles con conocimientos básicos de lenguaje Java y del lenguaje de marcado XML.
           </p>
-          <a href="cursos/IntroduccionAlaDivulgacionDeLaCiencia6taED.php" target="_blank" class="curso_contenido-button btn btn-link">Ver
+          <a href="cursos/ProgramacionDispositivosMovilesconAndroid1raEd.php" target="_blank" class="curso_contenido-button btn btn-link">Ver
             curso</a>
           <div class="curso_contenido-horario">
             <ul>
@@ -983,13 +851,81 @@ include './includes/templates/header.php';
             </div>
           </div>
         </div>
+      </div><!-- CURSO FIN -->
+      
+      <!-- CURSO  Introducción a la divulgación de la ciencia. Sexta Edición-->
+      <div class="group curso programados">
+        <div class="curso_imagen">
+          <div class="curso_imagen_adapter">
+            <img src="assets/images/cursos/bg-DivulgacionCiencia.webp" alt="" />
+          </div>
+          <div class="curso_imagen-backgroud">
+          </div>
+          <div class="curso_imagen-data">
+            <div>
+              <img src="assets/images/instructores/usr-f.jpg" alt="" />
+              <div class="ml-3">
+                <a href="#" target="_blank">M. Patricia
+                  Magaña Rueda
+                </a>
+                <a href="#" target="_blank">Dra.
+                  Clementina Equihua Zamora
+                </a>
+                <a href="#" target="_blank">Bio. Paloma
+                  Zubieta López
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="curso_contenido">
+          <a href="cursos/IntroduccionAlaDivulgacionDeLaCiencia6taED.php">
+            Introducción a la divulgación de la Ciencia</a>
+          <a href="cursos/IntroduccionAlaDivulgacionDeLaCiencia6taED.php">6ta. Edición</a>
+          <p class="curso_contenido-fecha">
+            Fechas por definir
+          </p>
+          <p class="curso_contenido-descripcion">El curso busca introducir a los participantes las bases de la
+            divulgación científica o comunicación pública de la ciencia, que es un área de trabajo que requiere
+            formación académica, entendimiento de lo que la ciencia es y como funciona, así como las maneras de
+            comunicarla al público de manera exitosa.</p>
+          <p class="curso_contenido-subdescripcion">
+            Dirigido a: Académicos, profesores, comunicadores y todo aquel
+            interesado en divulgar ideas científicas a público no
+            especializado.
+          </p>
+
+          <a href="cursos/IntroduccionAlaDivulgacionDeLaCiencia6taED.php" target="_blank" class="curso_contenido-button btn btn-link">Ver
+            curso</a>
+
+          <div class="curso_contenido-horario">
+            <ul>
+              <li class="mr-3">
+                <i class="uil uil-calendar-alt "></i>
+                <span>Viernes</span>
+              </li>
+              <li class="mr-3">
+                <i class="uil uil-clock "></i>
+                <span>16-20h</span>
+              </li>
+              <li class="flex items-center">
+                <i class="uil uil-map-marker "></i>
+                <span>Virtual</span>
+              </li>
+            </ul>
+          </div>
+          <div class="curso_contenido-precio">
+            <div>
+              <span>$2,600</span>
+            </div>
+          </div>
+        </div>
       </div>
-
-    </div>
-
-  </div>
-
-</section>
+      <!-- CURSO FIN -->
+      
+    </div> <!-- CIERRA EL DIV DE LOS CURSOS-->
+  </div><!-- CIERRA EL CONTENEDOR-->
+</section><!-- TERMINA SECCIÓN -->
 <!--end section-->
 <!-- FIN Section-->
 

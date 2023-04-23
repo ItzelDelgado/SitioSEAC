@@ -282,37 +282,33 @@ $info_academica="Dra. Rosalía Pastor Nieto <br> Correo electrónico: rosalia.pa
 </section>
 
 
-
-
-<section class="temario md:py-24 container">
+<!-- TEMARIO SECCIÓN: LOS <h3> son temas principales y los <td> son subtemas. -->
+<section class="temario container">
     <h2>Temario</h2>
-    <div class=" pt-6 gap-[30px]">
-        <ul class="uppercase list- text-lg ">
-            <li>1. Introducción.</li>
-            <li>2. Dibujo de Plantas (Jardín Botánico).</li>
-            <li>3. Ángulos, Medidas y Distancias.</li>
-            <li>4. Cubo. Botellas, copas y vasos. Telas.</li>
-            <li>5. Inclinaciones gráficas innatas.</li>
-            <li>6. Contorno puro y modificado. Espacios positivos y negativos.</li>
-            7. Herramienta de carpintería, Máscaras.</li>
-            8. Color círculo cromático tensar papel para acuarela.</li>
-            <li>9. Dibujo de Juguete celaje y degradado.</li>
-            <li>10. Dibujo de hojas, tallos, ramas y semillas.</li>
-            <li>11. Dibujo de caracoles, cangrejos y esqueletos.</li>
-            <li>12. Naturaleza silenciosa Composición artística.</li>
-            <li>13. Dibujo de animales taxidermizados.</li>
-            <li>14. Dibujo de animales de zoológico.</li>
-            <li>15. Dibujo de Fósiles.</li>
-            <li>16. Dibujo de Foto.</li>
-            <li>17. Dibujo gestual con modelo humano.</li>
-            <li>18. Dibujo de motivos prehispánicos.</li>
-            <li>19. Dibujo de Geoformas Cantera Oriente Dibujo de paisaje.</li>
-            <li>20. Dibujo de Artrópodos con lupa, texturas.</li>
-
-        </ul>
+    <div class="secciones grid md:grid-cols-2 grid-cols-1">
+        <!-- ******SECCIÓN PARA CADA TEMA CON SUS SUBTEMAS *****-->
+            <div><h3>1. Introducción.</h3></div>
+            <div><h3>2. Dibujo de Plantas (Jardín Botánico).</h3></div>
+            <div><h3>3. Ángulos, Medidas y Distancias.</h3></div>
+            <div><h3>4. Cubo. Botellas, copas y vasos. Telas.</h3></div>
+            <div><h3>5. Inclinaciones gráficas innatas.</h3></div>
+            <div><h3>6. Contorno puro y modificado. Espacios positivos y negativos.</h3></div>
+            <div><h3>7. Herramienta de carpintería, Máscaras.</h3></div>
+            <div><h3>8. Color círculo cromático tensar papel para acuarela.</h3></div>
+            <div><h3>9. Dibujo de Juguete celaje y degradado.</h3></div>
+            <div><h3>10. Dibujo de hojas, tallos, ramas y semillas.</h3></div>
+            <div><h3>11. Dibujo de caracoles, cangrejos y esqueletos.</h3></div>
+            <div><h3>12. Naturaleza silenciosa Composición artística.</h3></div>
+            <div><h3>13. Dibujo de animales taxidermizados.</h3></div>
+            <div><h3>14. Dibujo de animales de zoológico.</h3></div>
+            <div><h3>15. Dibujo de Fósiles.</h3></div>
+            <div><h3>16. Dibujo de Foto.</h3></div>
+            <div><h3>17. Dibujo gestual con modelo humano.</h3></div>
+            <div><h3>18. Dibujo de motivos prehispánicos.</h3></div>
+            <div><h3>19. Dibujo de Geoformas Cantera Oriente Dibujo de paisaje.</h3></div>
+            <div><h3>20. Dibujo de Artrópodos con lupa, texturas.</h3></div>
+        
     </div>
-
-
 </section>
 
 <section class="relative">
@@ -473,9 +469,8 @@ $info_academica="Dra. Rosalía Pastor Nieto <br> Correo electrónico: rosalia.pa
                 </h2>
                 <div id="info-acad" class="hidden" aria-labelledby="info-acad-col">
                     <div class="p-5">
-                        <p class="text-slate-400 dark:text-gray-400">M. en C. Jorge A. Moreno Hernández
-                            <br>
-                            Correo electrónico: jmh@ciencias.unam.mx
+                        <p class="text-slate-400 dark:text-gray-400">Maestro Aldi de Oyarzabal Salcedo <br>
+Correo electrónico: ao@ciencias.unam.mx
                         </p>
                     </div>
                 </div>

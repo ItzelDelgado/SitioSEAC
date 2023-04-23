@@ -52,10 +52,8 @@ include './includes/templates/header.php';
   <div class="container">
     <div class="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-[30px]">
 
-
-
       <!-- CURSO Bioestadística-->
-      <div class="group curso enCurso">
+      <div class="group curso pasados">
         <div class="curso_imagen">
           <div class="curso_imagen_adapter">
             <img src="assets/images/cursos/bg-bioestadistica.webp" alt="" />
@@ -329,78 +327,9 @@ include './includes/templates/header.php';
       </div>
       <!-- CURSO FIN -->
 
-      <!-- CURSO  Introducción a la divulgación de la ciencia. Sexta Edición-->
-      <div class="group curso programados">
-        <div class="curso_imagen">
-          <div class="curso_imagen_adapter">
-            <img src="assets/images/cursos/bg-DivulgacionCiencia.webp" alt="" />
-          </div>
-          <div class="curso_imagen-backgroud">
-          </div>
-          <div class="curso_imagen-data">
-            <div>
-              <img src="assets/images/instructores/usr-f.jpg" alt="" />
-              <div class="ml-3">
-                <a href="#" target="_blank">M. Patricia
-                  Magaña Rueda
-                </a>
-                <a href="#" target="_blank">Dra.
-                  Clementina Equihua Zamora
-                </a>
-                <a href="#" target="_blank">Bio. Paloma
-                  Zubieta López
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="curso_contenido">
-          <a href="cursos/IntroduccionAlaDivulgacionDeLaCiencia6taED.php">
-            Introducción a la divulgación de la Ciencia</a>
-          <a href="cursos/IntroduccionAlaDivulgacionDeLaCiencia6taED.php">6ta. Edición</a>
-          <p class="curso_contenido-fecha">
-            Del 14 de abril al 12 de mayo del 2023
-          </p>
-          <p class="curso_contenido-descripcion">El curso busca introducir a los participantes las bases de la
-            divulgación científica o comunicación pública de la ciencia, que es un área de trabajo que requiere
-            formación académica, entendimiento de lo que la ciencia es y como funciona, así como las maneras de
-            comunicarla al público de manera exitosa.</p>
-          <p class="curso_contenido-subdescripcion">
-            Dirigido a: Académicos, profesores, comunicadores y todo aquel
-            interesado en divulgar ideas científicas a público no
-            especializado.
-          </p>
-
-          <a href="cursos/IntroduccionAlaDivulgacionDeLaCiencia6taED.php" target="_blank" class="curso_contenido-button btn btn-link">Ver
-            curso</a>
-
-          <div class="curso_contenido-horario">
-            <ul>
-              <li class="mr-3">
-                <i class="uil uil-calendar-alt "></i>
-                <span>Viernes</span>
-              </li>
-              <li class="mr-3">
-                <i class="uil uil-clock "></i>
-                <span>16-20h</span>
-              </li>
-              <li class="flex items-center">
-                <i class="uil uil-map-marker "></i>
-                <span>Virtual</span>
-              </li>
-            </ul>
-          </div>
-          <div class="curso_contenido-precio">
-            <div>
-              <span>$2,600</span>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- CURSO FIN -->
 
       <!-- CURSO Rescate y rehabilitación de fauna silvestre. Sexta Edición-->
-      <div class="group curso programados">
+      <div class="group curso enCurso">
         <div class="curso_imagen">
           <div class="curso_imagen_adapter">
             <img src="assets/images/cursos/bg-FaunaSilvestre.webp" alt="" />
@@ -486,9 +415,9 @@ include './includes/templates/header.php';
           </div>
         </div>
         <div class="curso_contenido">
-          <a href="cursos/IntroduccionAlaDivulgacionDeLaCiencia6taED.php">
+          <a href="cursos/PrimerosAuxilios1raEd.php">
             Primeros Auxilios, RCP y Uso de DAE</a>
-          <a href="cursos/IntroduccionAlaDivulgacionDeLaCiencia6taED.php">1ra. Edición</a>
+          <a href="cursos/PrimerosAuxilios1raEd.php">1ra. Edición</a>
           <p class="curso_contenido-fecha">
             2, 4, 9 y 11 de mayo de 2023
           </p>
@@ -496,7 +425,7 @@ include './includes/templates/header.php';
           <p class="curso_contenido-subdescripcion">
             Dirigido a: Todo público.
           </p>
-          <a href="cursos/IntroduccionAlaDivulgacionDeLaCiencia6taED.php" target="_blank" class="curso_contenido-button btn btn-link">Ver
+          <a href="cursos/PrimerosAuxilios1raEd.php." target="_blank" class="curso_contenido-button btn btn-link">Ver
             curso</a>
           <div class="curso_contenido-horario">
             <ul>
@@ -834,6 +763,7 @@ include './includes/templates/header.php';
         </div>
       </div>
       <!-- CURSO FIN -->
+
       <!-- CURSO Introducción a la estadística en la biología, 2da. Edición-->
       <div class="group curso programados">
         <div class="curso_imagen">
@@ -854,9 +784,9 @@ include './includes/templates/header.php';
           </div>
         </div>
         <div class="curso_contenido">
-          <a href="cursos/IntroduccionEstadisticaEnBiologia_2daEd.php">
+          <a href="cursos/PrimerosAuxilios1raEd.php">
             Introducción a la estadística en la biología</a>
-          <a href="cursos/IntroduccionEstadisticaEnBiologia_2daEd.php">2da. Edición</a>
+          <a href="cursos/ProgramacionDispositivosMovilesconAndroid1raEd.php">2da. Edición</a>
           <p class="curso_contenido-fecha">Sin definir</p>
           <p class="curso_contenido-descripcion">
             Tira el paradigma de la estadística como como una sola
@@ -872,7 +802,7 @@ include './includes/templates/header.php';
             naturales.
           </p>
 
-          <a href="cursos/IntroduccionEstadisticaEnBiologia_2daEd.php" target="_blank" class="curso_contenido-button btn btn-link">Ver
+          <a href="cursos/ProgramacionDispositivosMovilesconAndroid1raEd.php" target="_blank" class="curso_contenido-button btn btn-link">Ver
             curso</a>
 
           <div class="curso_contenido-horario">
@@ -961,15 +891,81 @@ include './includes/templates/header.php';
           </div>
         </div>
       </div>
+      <!-- CURSO FIN -->
 
+      <!-- CURSO  Introducción a la divulgación de la ciencia. Sexta Edición-->
+      <div class="group curso programados">
+        <div class="curso_imagen">
+          <div class="curso_imagen_adapter">
+            <img src="assets/images/cursos/bg-DivulgacionCiencia.webp" alt="" />
+          </div>
+          <div class="curso_imagen-backgroud">
+          </div>
+          <div class="curso_imagen-data">
+            <div>
+              <img src="assets/images/instructores/usr-f.jpg" alt="" />
+              <div class="ml-3">
+                <a href="#" target="_blank">M. Patricia
+                  Magaña Rueda
+                </a>
+                <a href="#" target="_blank">Dra.
+                  Clementina Equihua Zamora
+                </a>
+                <a href="#" target="_blank">Bio. Paloma
+                  Zubieta López
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="curso_contenido">
+          <a href="cursos/IntroduccionAlaDivulgacionDeLaCiencia6taED.php">
+            Introducción a la divulgación de la Ciencia</a>
+          <a href="cursos/IntroduccionAlaDivulgacionDeLaCiencia6taED.php">6ta. Edición</a>
+          <p class="curso_contenido-fecha">
+            Fechas por definir
+          </p>
+          <p class="curso_contenido-descripcion">El curso busca introducir a los participantes las bases de la
+            divulgación científica o comunicación pública de la ciencia, que es un área de trabajo que requiere
+            formación académica, entendimiento de lo que la ciencia es y como funciona, así como las maneras de
+            comunicarla al público de manera exitosa.</p>
+          <p class="curso_contenido-subdescripcion">
+            Dirigido a: Académicos, profesores, comunicadores y todo aquel
+            interesado en divulgar ideas científicas a público no
+            especializado.
+          </p>
 
-    </div>
+          <a href="cursos/IntroduccionAlaDivulgacionDeLaCiencia6taED.php" target="_blank" class="curso_contenido-button btn btn-link">Ver
+            curso</a>
 
+          <div class="curso_contenido-horario">
+            <ul>
+              <li class="mr-3">
+                <i class="uil uil-calendar-alt "></i>
+                <span>Viernes</span>
+              </li>
+              <li class="mr-3">
+                <i class="uil uil-clock "></i>
+                <span>16-20h</span>
+              </li>
+              <li class="flex items-center">
+                <i class="uil uil-map-marker "></i>
+                <span>Virtual</span>
+              </li>
+            </ul>
+          </div>
+          <div class="curso_contenido-precio">
+            <div>
+              <span>$2,600</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- CURSO FIN -->
 
-  </div>
-
-
-</section><!--end section-->
+    </div> <!-- CIERRA EL DIV DE LOS CURSOS -->
+  </div> <!-- CIERRA EL CONTENEDOR DE LOS CURSOS -->
+</section><!--end section--> <!-- CIERRA LA SECCIÓN DE LOS CURSOS -->
 <!-- FIN Section-->
 
 <!-- CURSOS RECIENTES FIN -->

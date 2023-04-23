@@ -513,7 +513,7 @@ h2 {
     margin-right: 0.75rem !important;
 }
 
-.portada .datos ul li span{
+.portada .datos ul li span {
     color: rgb(255 255 255 / 0.6) !important;
     margin-left: 0.25rem !important;
 }
@@ -737,7 +737,6 @@ h2 {
     line-height: 2rem !important;
     font-weight: 600 !important;
     margin-top: 2rem !important;
-    
 }
 
 .temario .secciones {
@@ -961,10 +960,61 @@ h2 {
     height: 100%;
 }
 
+.temario-tabla h2 {
+    font-size: 1.5rem !important;
+    line-height: 2rem !important;
+    font-weight: 600 !important;
+    margin-top: 2rem !important;
+    padding-bottom: 2rem;
+}
+.temario-tabla table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 2px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    font-size: 11px;
+    margin-bottom: 2rem !important;
+}
+
+.temario-tabla tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+}
+
+.temario-tabla tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+}
+
+.temario-tabla td {
+    display: table-cell;
+    vertical-align: inherit;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+}
+
 .search {
     position: relative;
     display: flex !important;
     align-items: center !important;
+
 }
 
 
@@ -999,8 +1049,12 @@ h2 {
         height: 380px;
     }
 
-
-
+    .temario-tabla table {
+        font-size: 16px;
+        width: 100%;
+        margin: auto;
+        border-collapse: collapse;
+    }
 }
 
 @media (min-width: 768px) {
@@ -1008,6 +1062,7 @@ h2 {
         width: 353px;
         height: 220.625px;
     }
+    
 }
 
 @media (min-width: 1024px) {
@@ -1019,6 +1074,8 @@ h2 {
     .portada .portada-informacion .fecha span {
         margin-bottom: 0rem;
     }
+
+
 
 }
 
