@@ -818,8 +818,7 @@ include './includes/templates/header.php';
               </li>
               <li class="mr-3">
                 <i class="uil uil-clock "></i>
-                <span>10-13h y 15-17h</span>
-                <span>(5h por sesión)</span>
+                <span>10-13h 15-17h (5h por sesión)</span>
               </li>
               <li class="flex items-center">
                 <i class="uil uil-map-marker "></i>
@@ -829,7 +828,7 @@ include './includes/templates/header.php';
           </div>
           <div class="curso_contenido-precio">
             <div>
-              <span>$Presencial</span>
+              <span>$800</span>
             </div>
           </div>
         </div>
