@@ -23,7 +23,7 @@ $requisitos = "Los alumnos deberán traer una laptop.
 Tener conocimientos básicos de programación en Java. <br> <b>Especificaciones mínimas del equipo y paquetería a utilizar:</b><br>
     Laptop 14 pulgadas - Intel Core i5 o AMD Ryzen™ 7 - 8 GB RAM – Disco duro de 512 SSD Microsoft office – Adobe Acrobat - Java version 8 – Android Studio";
 $lugar = "Zoom"; //El lugar donde se va a impartir, si son varios, agregar todos y separar con <br>
-$formato_inscripcion = "https://forms.gle/wwn996LgigXLKmsM6"; //Pegar el formato de inscripcion
+$formato_inscripcion = "https://forms.gle/dZYjp31iJZT4NJ8s7"; //Pegar el formato de inscripcion
 $info_academica="M. en C. Gustavo Márquez Flores<br>
 Correo electrónico: gmarquez@ciencias.unam.mx" //Agregar el Nombre <br> correo, dando un br para saltar de linea.
 ?>

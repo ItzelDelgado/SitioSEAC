@@ -1,5 +1,5 @@
 <?php
-include '../includes/templates/header.php';
+include '../../includes/templates/header.php';
 ?>
 
 <?php
@@ -15,7 +15,9 @@ $precio_unam_descuento = "2,295"; //No es necesario poner mxn
 $precio_general_descuento = "2,720"; //No es necesario poner mxn
 //
 $dias = "Lunes";  //Puedes poner Lunes, Martes, Miercoles, Jueves y Viernes.
-$horario = "16:00 a 19:00"; //No es necesario poner hrs
+$horario = "16:00 a 19:00"; //Lo puedes poner en el formato que gustes. No debe ser mucha info. 
+                            //Si es demasiada puedes agregar más detalles despues donde esta la sección de Requisitos, Horario y Lugar, 
+                            //solo quitas la variable, puedes ver el ejemplo de Cursos en cuadernos de jupyter
 $no_horas = "27"; //No es necesario poner hrs
 $modalidad = "Virtual";
 $max_alumnos = "60"; //Cantidad de alumnos maxima
@@ -58,10 +60,10 @@ $info_academica="Dra. Rosalía Pastor Nieto <br> Correo electrónico: rosalia.pa
             <!-- Datos de Profe -->
             <div class="profesor">
                 <div>
-                    <img src="../assets/images/instructores/usr-m.jpg" alt="">
+                    <img src="../../assets/images/instructores/usr-m.jpg" alt="">
                 </div>
                 <div>
-                    <a href="../assets/curriculums_docentes/RosaliaPastorNieto.pdf" target="_blank">Dra. Rosalía Pastor Nieto</a>
+                    <a href="../../assets/curriculums_docentes/RosaliaPastorNieto.pdf" target="_blank">Dra. Rosalía Pastor Nieto</a>
                 </div>
             </div>
             <!-- Fin de datos de profe -->
@@ -618,5 +620,5 @@ $info_academica="Dra. Rosalía Pastor Nieto <br> Correo electrónico: rosalia.pa
 </div>
 
 <?php
-include '../includes/templates/footer.php';
+include '../../includes/templates/footer.php';
 ?>

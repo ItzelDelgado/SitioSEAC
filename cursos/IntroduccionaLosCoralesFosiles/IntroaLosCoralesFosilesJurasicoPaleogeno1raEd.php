@@ -25,7 +25,7 @@ $dirigido_a = "Alumnos de licenciatura (Biología y Geología) a partir del sext
 $requisitos = "El curso requiere conocimientos básicos de conceptos de paleontología, principalmente de paleo-ambientes y de estratigrafía. Los participantes deberán tener conocimientos de los diferentes niveles taxonómicos (qué es una especie, qué es un género), y conocimientos básicos en zoología, así como sistemática y evolución. Se recomienda que los estudiantes de licenciatura (biología, geología) al menos hayan cursado el 6to. semestre de sus carreras.";
 $lugar = "Taller de Paleobiología, Facultad de Ciencias, UNAM"; //El lugar donde se va a impartir, si son varios, agregar todos y separar con <br>
 $formato_inscripcion = "https://forms.gle/FQULscTpSsuGPRau5"; //Pegar el formato de inscripcion
-$info_academica="Dr. Hannes Loeser<br>
+$info_academica = "Dr. Hannes Loeser<br>
 Correo electrónico: loeser@paleotax.de<br>Dr. Rafael Villanueva Olea<br>
 Correo electrónico: rafael.villa@ciencias.unam.mx" //Agregar el Nombre <br> correo, dando un br para saltar de linea.
 ?>
@@ -53,7 +53,17 @@ Correo electrónico: rafael.villa@ciencias.unam.mx" //Agregar el Nombre <br> cor
                     <img src="../../assets/images/instructores/usr-m.jpg" alt="">
                 </div>
                 <div>
-                    <a href="../../assets/curriculums_docentes/RosaliaPastorNieto.pdf" target="_blank">Dra. Rosalía Pastor Nieto</a>
+                    <a href="../../assets/curriculums_docentes/HannesLoser.pdf" target="_blank">Dr. Hannes Loeser, UNAM/IGL</a>
+                </div>
+            </div>
+            <!-- Fin de datos de profe -->
+            <!-- Datos de Profe -->
+            <div class="profesor">
+                <div>
+                    <img src="../../assets/images/instructores/usr-m.jpg" alt="">
+                </div>
+                <div>
+                    <a href="../../assets/curriculums_docentes/RafaelVillanuevaOlea.pdf" target="_blank">Dr. Rafael Villanueva Olea, UNAM</a>
                 </div>
             </div>
             <!-- Fin de datos de profe -->
@@ -178,30 +188,17 @@ Correo electrónico: rafael.villa@ciencias.unam.mx" //Agregar el Nombre <br> cor
 
     <div class="curso-costo container">
         <h2 class="md:text-3xl md:leading-normal">Costo</h2>
-        <!-- Si el curso no tiene descuento, solo debe quitarse el p. -->
-        <p class="text-red-600 max-w-xl mx-auto">15% de descuento por concepto de pronto pago (hasta el 3 de
-            abril)</p>
         <div class="grid lg:grid-cols-2 md:grid-cols-2 mt-8 gap-[30px]">
             <div class="curso-costo-g">
                 <h3>Público GENERAL</h3>
-                
+
                 <!-- PRECIO GENERAL-->
                 <div>
                     <span>$</span>
-                    <span style="text-decoration: line-through;"><?php echo $precio_general ?></span>
+                    <span><?php echo $precio_general ?></span>
                     <span>MXN</span>
                 </div>
                 <!-- FIN-PRECIO GENERAL -->
-
-                <!-- Para quitar el precio con descuento solo basta con borrar lo siquiente. -->
-                <!-- QUITAR EL style="text-decoration: line-through; DE LA LINEA ANTERIOR -->
-                <!-- PRECIO GENERAL CON DESCUENTO-->
-                <div>
-                    <span>$</span>
-                    <span class="price text-4xl font-semibold mb-0"><?php echo $precio_general_descuento ?></span>
-                    <span>MXN</span>
-                </div>
-                <!-- FIN - PRECIO GENERAL  CON DESCUENTO-->
 
                 <a href="#inscripcion" class="btn">Inscribirse</a>
             </div>
@@ -209,23 +206,13 @@ Correo electrónico: rafael.villa@ciencias.unam.mx" //Agregar el Nombre <br> cor
 
             <div class="curso-costo-g">
                 <h3>Comunidad UNAM</h3>
-                
+
                 <div>
                     <span>$</span>
-                    <span style="text-decoration: line-through;"><?php echo $precio_unam ?></span>
+                    <span><?php echo $precio_unam ?></span>
                     <span>MXN</span>
                 </div>
-                
-                
-                <!-- Para quitar el precio con descuento solo basta con borrar lo siquiente. -->
-                <!-- QUITAR EL style="text-decoration: line-through; DE LA LINEA ANTERIOR -->
-                <!-- PRECIO UNAM CON DESCUENTO-->
-                <div>
-                    <span>$</span>
-                    <span class="price text-4xl font-semibold mb-0"><?php echo $precio_unam_descuento ?></span>
-                    <span>MXN</span>
-                </div>
-                <!-- FIN PRECIO UNAM CON DESCUENTO-->
+
 
                 <ul>
                     <li><i class="uil uil-check-circle"></i>Alumnos, exalumnos
@@ -243,274 +230,117 @@ Correo electrónico: rafael.villa@ciencias.unam.mx" //Agregar el Nombre <br> cor
 
 
 <!-- TEMARIO SECCIÓN: LOS <h3> son temas principales y los <td> son subtemas. -->
-<section class="temario container">
+<section class="temario-tabla container">
     <h2>Temario</h2>
-    <div class="secciones grid md:grid-cols-2 grid-cols-1">
-        <!-- ******SECCIÓN PARA CADA TEMA CON SUS SUBTEMAS *****-->
-        <div>
-            <h3>I. Introducción a la Rehabilitación de Fauna Silvestre</h3>
-            <div class="contenido">
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Temas</th>
-                        </tr>
-                    </thead>
+    <table border="">
+        <tbody>
+            <tr>
+                <th> &nbsp; </th>
+                <th>
 
-                    <tbody>
-                        <tr>
-                            <td> I.1 Historia</td>
-                        </tr>
+                    10-11:30h / 11:45-13:00h
+                    <br>
+                    Teoría
+                </th>
+                <th>
 
-                        <tr>
-                            <td>I.2. Especies vulnerables a desastres naturales</a></td>
-                        </tr>
+                    15:00-17:00h
+                    <br>
+                    Práctica
+                </th>
+            </tr>
+            <tr>
+                <td>
 
-                        <tr>
-                            <td>I.3. Casos de éxito</td>
-                        </tr>
+                    Lunes <br>
+                    19 de Junio
+                </td>
+                <td>
 
-                        <tr>
-                            <td>I.4. Diseño y criterios para el establecimiento de un centro de rescate de fauna</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-        <!--********FIN DE SECCIÓN PARA CADA TEMA CON SUS SUBTEMAS********-->
-        
-        <div>
-            <h3>II. Criterios para Rescatar y Rehabilitar Fauna silvestre</h3>
+                    Introducción <br>
+                    Intención del curso <br>
+                    Aspectos históricos <br>
+                    Sistemática y clasificación <br>
+                </td>
+                <td>
 
-            <div class="contenido">
-                <table>
-                    <thead>
-                        <tr>
-                            <th>
-                                Temas
-                            </th>
-                        </tr>
-                    </thead>
-
-                    <tbody>
-                        <tr>
-                            <td>
-                                II.1 Lineamientos internacionales para la rehabilitación de Fauna Silvestre
-                            </td>
-                        </tr>
-
-                        <tr>
-                            <td>
-                                II.2. Criterios para la rehabilitación, reintroducción o destino final
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-
-        <div>
-            <h3>III. Manejo de Animales Rescatados</h3>
-            <div class="contenido">
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Temas</th>
-                        </tr>
-                    </thead>
-
-                    <tbody>
-                        <tr>
-                            <td>III.1. Cuidados de animales huérfanos
-                            </td>
-
-                        </tr>
-
-                        <tr>
-                            <td>III.2.
-                                Cuidado de animales lastimados
-                            </td>
-                        </tr>
-
-                        <tr>
-                            <td>III.3.
-                                Manejo de heridas
-                            </td>
-                        </tr>
-
-                    </tbody>
-                </table>
-            </div>
-        </div>
-
-        <div>
-            <h3>IV. Manejo, Transporte Contención Física y Química de Fauna Silvestre</h3>
-
-            <div class="contenido">
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Temas</th>
-                        </tr>
-                    </thead>
-
-                    <tbody>
-                        <tr>
-                            <td>IV.1.
-                                Contención física
-                            </td>
-                        </tr>
-
-                        <tr>
-                            <td>IV.2.
-                                Contención química
-                            </td>
-                        </tr>
-
-                        <tr>
-                            <td>IV.3.
-                                Transporte y movilización segura seguro de especies
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
+                    Equipo de laboratorio <br>
+                    Examinación de muestras con el microscopio
+                </td>
+            </tr>
+            <tr>
+                <td>
 
 
-        <div>
-            <h3>V. Descontaminación y Manejo Clínico de Fauna silvestre en Desastres naturales</h3>
+                    Martes <br>
+                    20 de Junio
+                </td>
+                <td>
 
-            <div class="contenido">
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Temas</th>
-                        </tr>
-                    </thead>
+                    Morfología (observación de láminas delgadas con corales)
+                </td>
+                <td>
 
-                    <tbody>
-                        <tr>
-                            <td>V.1.
-                                Manejo clínico de aves y mamíferos victimas de desastres naturales
-                                <ul class="p-6 list-disc ">
-                                    <li>manejo de descontaminación</li>
-                                </ul>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-        <div>
-            <h3>VI. Fundamentos para la rehabilitación de aves</h3>
-            <div class="contenido">
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Temas</th>
-                        </tr>
-                    </thead>
+                    Preparación de las muestras: <br>
+                    Cortes orientados y superficies pulidas <br>
+                    Examinar las muestras con el microscopio
+                </td>
+            </tr>
+            <tr>
+                <td>
 
-                    <tbody>
-                        <tr>
-                            <td>VI.1.
-                                Exámen clínico de aves
-                            </td>
-                        </tr>
-                    </tbody>
-                    <tbody>
-                        <tr>
-                            <td>VI.2.
-                                Criterios para su rehabilitación y liberación
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-        <div>
-            <h3>VII. Fundamentos para la rehabilitación de reptiles</h3>
 
-            <div class="contenido">
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Temas</th>
-                        </tr>
-                    </thead>
+                    Miércoles <br>
+                    21 de Junio
+                </td>
+                <td>
 
-                    <tbody>
-                        <tr>
-                            <td>VII.1.
-                                Exámen clínico de reptiles
-                            </td>
-                        </tr>
-                    </tbody>
-                    <tbody>
-                        <tr>
-                            <td>VII.2.
-                                Criterios para su rehabilitación y liberación
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-        <div>
-            <h3>VIII. Fundamentos para la rehabilitación de mamíferos</h3>
-            <div class="contenido">
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Temas</th>
-                        </tr>
-                    </thead>
+                    Métodos <br>
+                    (programas de computación para medir, tratar imágenes, preparar láminas)
+                </td>
+                <td>
 
-                    <tbody>
-                        <tr>
-                            <td>VIII.1.
-                                Exámen clínico de mamíferos
+                    Preparación de acetatos <br>
+                    Pegar muestras para láminas delgadas <br>
+                    Examinar los acetatos con el microscopio
+                </td>
+            </tr>
+            <tr>
+                <td>
 
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>VIII.2.
-                                Criterios para su rehabilitación y liberación
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-        <div>
-            <h3>IX. Temas selectos en rehabilitación</h3>
-            <div class="contenido">
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Temas</th>
-                        </tr>
-                    </thead>
+                    Jueves <br>
+                    22 de Junio
+                </td>
+                <td>
 
-                    <tbody>
-                        <tr>
-                            <td>IX.1.
-                                Criterios para su rehabilitación y liberación
-                                <ul class="p-6 list-disc ">
-                                    <li>Primates</li>
-                                    <li>Felinos</li>
-                                    <li>Aves</li>
-                                </ul>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
+                    Taxonomía <br>
+                    (observación de láminas delgadas)
+                </td>
+                <td>
 
-    </div> <!-- TERMINA EL CONTENEDOR DE LOS SUBTEMAS --> 
-    
+                    Preparación de láminas delgadas <br>
+                    Examinar las láminas con el microscopio
+                </td>
+            </tr>
+            <tr>
+                <td>
+
+                    Viernes <br>
+                    23 de Junio
+                </td>
+                <td>
+
+                    Paleoecología <br>
+                    Paleobiogeografía <br>
+                    Los materiales del curso
+                </td>
+                <td>
+
+                    Determinación de las muestras hasta el nivel de género
+                </td>
+            </tr>
+        </tbody>
+    </table>
 </section><!-- TERMINA LA SECCIÓN DEL TEMARIO -->
 
 
@@ -599,7 +429,7 @@ Correo electrónico: rafael.villa@ciencias.unam.mx" //Agregar el Nombre <br> cor
                 </h2>
                 <div id="info-acad" class="hidden" aria-labelledby="info-acad-col">
                     <div class="p-5">
-                        <p class="text-slate-400 dark:text-gray-400"><?php echo $info_academica?> 
+                        <p class="text-slate-400 dark:text-gray-400"><?php echo $info_academica ?>
                         </p>
                     </div>
                 </div>

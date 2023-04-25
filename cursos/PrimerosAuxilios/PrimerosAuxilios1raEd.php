@@ -21,7 +21,7 @@ $objetivo = "Proporcionar los conocimientos actualizados en cuidados cardíacos 
 $dirigido_a = "Todo público.";
 $requisitos = "Ninguno";
 $lugar = "Zoom";
-$formato_inscripcion = "https://forms.gle/wwn996LgigXLKmsM6";
+$formato_inscripcion = "https://forms.gle/zHBCJFYEXfxP1qZo7";
 $info_academica = "Dra. Rosalía Pastor Nieto <br> Correo electrónico: rosalia.pastor@gmail.com"
 ?>
 

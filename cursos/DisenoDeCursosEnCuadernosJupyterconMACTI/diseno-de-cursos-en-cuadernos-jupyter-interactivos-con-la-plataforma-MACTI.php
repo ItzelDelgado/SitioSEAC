@@ -2,51 +2,96 @@
 include '../../includes/templates/header.php';
 ?>
 
+<?php
+
+$titulo_curso = "Diseño de Cursos en Cuadernos Jupyter Interactivos con la Plataforma MACTI";
+$imagen_curso = "../../assets/images/cursos/bg-FaunaSilvestre.webp"; //Agregar imagen del curso, tamaño forzoso de 19
+$edicion = "1ra. Edición";
+$fecha = "Del 1ro al 24 de junio de 2023";
+$precio_unam = "3,600"; //No es necesario poner mxn
+$precio_general = "4,320"; //No es necesario poner mxn
+//Si no tiene descuento, se eliminan estas variables o simplemente no se usan, pero en la parte de los precios es necesario borrarlas
+$precio_unam_descuento = "3,060"; //No es necesario poner mxn
+$precio_general_descuento = "3,672"; //No es necesario poner mxn
+//
+$dias = "Jueves, viernes y sabado";  //Puedes poner Lunes, Martes, Miercoles, Jueves y Viernes.
+$horario = "Jueves y viernes de 6:00 a 21:00 h; sábado de 9:00 a 12:00 h";
+$no_horas = "36"; //No es necesario poner hrs
+$modalidad = "Hibrida";
+$max_alumnos = "15"; //Cantidad de alumnos maxima
+$min_alumnos = "15"; //Cantidad de alumnos minima
+$descripcion = "En el marco del proyecto “MACTI: Modelación Computacional y Enseñanza”, se ha desarrollado una plataforma que integra tecnologías para apoyar la enseñanza y el aprendizaje de conceptos teóricos de diversas asignaturas de licenciaturas de Ciencias e Ingeniería. Mediante el uso adecuado de esta plataforma, es posible diseñar contenidos pedagógicos en cuadernos interactivos (Jupyter Notebooks) los cuales se pueden revisar, modificar y resolver a través de un navegador web, de tal forma que no es necesaria la instalación de ningún software en dispositivos locales (computadoras o móviles). Estos contenidos se combinan con un sistema gestor del aprendizaje (Moodle) con el objetivo de organizar la información en un solo lugar y permitir una evaluación automática con realimentación para el estudiante y facilitando el trabajo del profesor. Todo lo anterior agrega prácticas a distancia a asignaturas que tradicionalmente se imparten de manera teórica. En este curso se promueve el uso del Pensamiento Computacional para afrontar y resolver problemas complejos, junto con las metodologías de enseñanza de Aula Invertida y Aprendizaje Basado en Problemas/Proyectos.";
+$objetivo = "El participante será capaz de aplicar diferentes metodologías de enseñanza para promover la interacción durante sus clases; además será capaz de diseñar cursos en temas de Ciencias e Ingeniería utilizando las herramientas tecnológicas interactivas que ofrece la plataforma MACTI.";
+$dirigido_a = "Planta docente (profesores y ayudantes) de Escuelas y Facultades en donde se imparten licenciaturas de Ciencias e Ingeniería.";
+$requisitos = "Los participantes deberán traer Laptop o tablet con navegador web. Para los participantes en línea, se sugiere tener dos equipos, uno para ver la presentación de los instructores (por ejemplo, conectarse por celular) y otra para realizar los ejercicios (por ejemplo, una laptop).
+<br>Conocimientos básicos de computación, particularmente uso de navegador web
+<br>De preferencia, ser profesor o ayudante en alguna Escuela o Facultad en donde se impartan licenciaturas de Ciencias e Ingeniería";
+$lugar = "Presencial en el Aula del Futuro del Instituto de Geofísica.<br> En línea por medio de Zoom"; //El lugar donde se va a impartir, si son varios, agregar todos y separar con <br>
+$formato_inscripcion = "https://forms.gle/4EoKa43nJEimX8gT7"; //Pegar el formato de inscripcion
+$info_academica = "Dr. Luis Miguel De la Cruz Salas<br>
+Correo electrónico: luiggi@igeofisica.unam.mx" //Agregar el Nombre <br> correo, dando un br para saltar de linea.
+?>
+
+<!-- Se debe modificar la parte de los profes que viene abajo. -->
+<!-- La parte más pesada es agregar el temario. Se puede usar ese o una tabla como la que normalmente creas, ya agregue estilos para que se adapten, ver ejemplo de primeros auxilios.-->
 <!-- Start Hero -->
 <section class="portada">
-    <img src="../../assets/images/cursos/bg-TortugasMexico.webp" alt="">
+    <img src="../../assets/images/cursos/bg-FaunaSilvestre.webp" alt="">
     <div class="portada-opacity"></div>
     <div class="container">
         <div class="portada-informacion">
-            <span class="portada-informacion-pu">$3,600 /
+            <span class="portada-informacion-pu">$<?php echo $precio_unam ?> /
                 UNAM</span>
-            <span class="portada-informacion-pg">$3,000 /
+            <span class="portada-informacion-pg">$<?php echo $precio_general ?> /
                 GENERAL</span>
-            <p>15% de descuento por concepto de pronto pago (hasta el 3 de abril)</p>
-            <span class="bg-red-600 text-white text-xs font-bold px-2.5 py-0.5 rounded w-fit mx-auto h-5">$3,060 /
-                UNAM</span>
-            <span class="portada-informacion-pg">$2,550 /
-                GENERAL</span>
-            <h1>Diseño de cursos en cuadernos Jupyter interactivos con la plataforma MACTI</h1>
-            <p>1ra. Edición</p>
-            <div class="profesor">
-                <div>
-                    <img src="../../assets/images/instructores/usr-m.jpg" alt="">
-                </div>
-                <div>
-                    <a href="../../assets/curriculums_docentes/GraciaPatriciaGonzalesPor.pdf" target="_blank">Dr. Luis Miguel de la Cruz Salas, Instituto de Geofísica</a>
-                </div>
-            </div>
-            <div class="profesor">
-                <div>
-                    <img src="../../assets/images/instructores/usr-m.jpg" alt="">
-                </div>
-                <div>
-                    <a href="../../assets/curriculums_docentes/GraciaPatriciaGonzalesPor.pdf" target="_blank">Mtro. Miguel Angel Pérez León, Facultad de Ciencias</a>
-                </div>
-            </div>
-            <div class="profesor">
-                <div>
-                    <img src="../../assets/images/instructores/usr-m.jpg" alt="">
-                </div>
-                <div>
-                    <a href="../../assets/curriculums_docentes/GraciaPatriciaGonzalesPor.pdf" target="_blank">Ing. Juan Eduardo Murrieta León, Instituto de Ciencias Nucleares</a>
-                </div>
-            </div>
 
+            <!-- Si no tiene descuento se borra esta sección -->
+            <p>15% de descuento por concepto de pronto pago (hasta el 3 de abril)</p>
+            <span class="portada-informacion-pu-red">$<?php echo $precio_unam_descuento ?> /
+                UNAM</span>
+            <span class="portada-informacion-pg">$<?php echo $precio_general_descuento ?> /
+                GENERAL</span>
+            <!--Cierre de la sección de descuentos.-->
+
+            <h1><?php echo $titulo_curso ?></h1>
+            <p class="text-indigo-600"><?php echo $edicion ?></p>
+            <!-- Genera el contenedor con los datos del profesor, es decir, la foto, el nombre y el enlace del curriculum. -->
+            <!-- Si hay mas de un profe, se debe copiar todo el contenedor, para cada uno. -->
+            <!-- PROFESORES QUE IMPARTEN -->
+            <!-- Datos de Profe -->
+            <div class="profesor">
+                <div>
+                    <img src="../../assets/images/instructores/usr-m.jpg" alt="">
+                </div>
+                <div>
+                    <a href="../../assets/curriculums_docentes/LuisMdeLaCruz.pdf" target="_blank">Dr. Luis Miguel de la Cruz Salas, Instituto de Geofísica</a>
+                </div>
+            </div>
+            <!-- Fin de datos de profe -->
+            <!-- Datos de Profe -->
+            <div class="profesor">
+                <div>
+                    <img src="../../assets/images/instructores/usr-m.jpg" alt="">
+                </div>
+                <div>
+                    <a href="../../assets/curriculums_docentes/MiguelPerezLeon.pdf" target="_blank">Mtro. Miguel Angel Pérez León, Facultad de Ciencias</a>
+                </div>
+            </div>
+            <!-- Fin de datos de profe -->
+            <!-- Datos de Profe -->
+            <div class="profesor">
+                <div>
+                    <img src="../../assets/images/instructores/usr-m.jpg" alt="">
+                </div>
+                <div>
+                    <a href="../../assets/curriculums_docentes/EduardoMurrietaLeon.pdf" target="_blank">Ing. Juan Eduardo Murrieta León, Instituto de Ciencias Nucleares</a>
+                </div>
+            </div>
+            <!-- Fin de datos de profe -->
+            <!-- FIN - PROFESORES QUE IMPARTEN -->
             <div class="fecha">
                 <i class="uil uil-calendar-alt"></i>
-                <span>Del 1 al 24 de junio de 2023</span>
+                <span><?php echo $fecha ?></span>
             </div>
 
         </div>
@@ -54,33 +99,29 @@ include '../../includes/templates/header.php';
 
     <div class="datos">
         <ul>
-            <!-- <li class="inline breadcrumb-item uppercase text-[13px] font-bold duration-500 ease-in-out text-white/50 hover:text-white"><a href="index-course.php">Techwind</a></li>
-                   <li class="inline breadcrumb-item uppercase text-[13px] font-bold duration-500 ease-in-out text-white/50 hover:text-white"><a href="course-listing.php">Courses</a></li>
-                    <li class="inline breadcrumb-item uppercase text-[13px] font-bold duration-500 ease-in-out text-white" aria-current="page">Web Development</li> -->
-
             <li>
                 <i class="uil uil-calendar-alt"></i>
-                <span class="text-white/60 ml-1">Jueves y viernes</span>
+                <span><?php echo $dias ?></span>
             </li>
 
             <li>
                 <i class="uil uil-bell-school"></i>
-                <span class="text-white/60 ml-1">10-13h</span>
+                <span><?php echo $horario ?></span>
             </li>
 
             <li>
                 <i class="uil uil-clock"></i>
-                <span class="text-white/60 ml-1">36 horas</span>
+                <span><?php echo $no_horas ?> horas</span>
             </li>
 
             <li>
                 <i class="uil uil-map-marker"></i>
-                <span class="text-white/60 ml-1">Virtual</span>
+                <span><?php echo $modalidad ?></span>
             </li>
 
             <li>
                 <i class="uil uil-user-circle"></i>
-                <span class="text-white/60 ml-1">Min. 15</span>
+                <span>Máx. <?php echo $max_alumnos ?> / Min. <?php echo $min_alumnos ?></span>
             </li>
 
             <li>
@@ -90,6 +131,9 @@ include '../../includes/templates/header.php';
         </ul>
     </div>
 </section><!--end section-->
+
+
+
 <div class="relative">
     <div class="shape absolute right-0 sm:-bottom-px -bottom-[2px] left-0 overflow-hidden z-1 text-white dark:text-slate-900">
         <svg class="w-full h-auto" viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -103,13 +147,13 @@ include '../../includes/templates/header.php';
 <section class="oferta-academica md:py-20">
     <div class="container">
         <h2>Descripción</h2>
-        <p>El mundo civilizado moderno sería ininteligible sin los dispositivos móviles que poseemos. Nuestro acceso a datos e información de manera expedita resulta ya indispensable para nuestra vida cotidiana y es en buena medida a través de los dispositivos móviles que esto está garantizado. Es por ello que la programación de aplicaciones para dispositivos móviles cobra singular relevancia para aquellos dedicados al desarrollo de software. Todo un enorme potencial de usos y usuarios se abre al desarrollador de aplicaciones móviles.</p>
+        <p><?php echo $descripcion ?></p>
         <h2>Objetivo</h2>
-        <p>El objetivo del curso es aprender a desarrollar aplicaciones en dispositivos móviles como teléfonos celulares, tablets, handhelds, y consolas de juegos en la plataforma Android 13</p>
+        <p><?php echo $objetivo ?></p>
         <h2>Dirigido a</h2>
-        <p>Personas con interés en desarrollar aplicaciones para dispositivos móviles con conocimientos básicos de lenguaje Java y del lenguaje de marcado XML</p>
-        <p class="text-red-600">
-            Mínimo 15<br>
+        <p><?php echo $dirigido_a ?></p>
+        <p class="text-red-600 mt-4">
+            Mín / Máx de alumnos: Mínimo <?php echo $min_alumnos ?>, máximo <?php echo $max_alumnos ?>.<br>
             La apertura del curso está sujeta al mínimo de inscritos.</p>
     </div>
 </section>
@@ -121,7 +165,7 @@ include '../../includes/templates/header.php';
 <section class="curso-horarios md:py-14">
 
     <div class="container">
-        <div class="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-1 gap-[30px]">
+        <div class="curso-horarios-container grid grid-cols-1 lg:grid-cols-3 md:grid-cols-1 gap-[30px]">
             <div>
                 <div>
                     <i class="uil uil-check-square"></i>
@@ -129,34 +173,25 @@ include '../../includes/templates/header.php';
 
                 <div>
                     <h3>Requisitos</h3>
-                    <p>Los alumnos deberán traer una laptop.
-                        Tener conocimientos básicos de programación en Java</p>
-
+                    <p><?php echo $requisitos ?></p>
                     <div class="mt-5">
                         <a href="#" data-type="iframe" class="video-play-icon read-more lightbox btn btn-link text-indigo-600 hover:text-indigo-600 after:bg-indigo-600 duration-500 ease-in-out">
                         </a>
                     </div>
                 </div>
             </div>
-
-
             <div>
                 <div>
                     <i class="uil uil-calendar-alt"></i>
                 </div>
-
                 <div>
                     <h3>Horario</h3>
-                    Horario: 10:00 a 13:00 hrs.</p>
-                    <p>Lunes, miércoles y viernes</p>
-
+                    <p>Jueves y viernes de 6:00 pm a 9:00 pm; sábado de 9:00 am a 12:00 pm Los jueves y viernes se podrán conectar los participantes que se inscriban en la modalidad en línea por medio de la plataforma Zoom. Las sesiones de los sábados serán en línea para todos los participantes. Todas las sesiones serán sincrónicas.</p>
                     <div class="mt-5">
-                        <a href="#" class="btn btn-link text-indigo-600 hover:text-red-600 after:bg-indigo-600 duration-500 ease-in-out">Total:
-                            36 horas</a>
+                        <a href="#" class="btn btn-link text-indigo-600 hover:text-red-600 after:bg-indigo-600 duration-500 ease-in-out">Total: <?php echo $no_horas ?>horas</a>
                     </div>
                 </div>
             </div>
-
             <div>
                 <div>
                     <i class="uil uil-map-marker"></i>
@@ -164,39 +199,38 @@ include '../../includes/templates/header.php';
 
                 <div>
                     <h3>Lugar</h3>
-                    <p>Zoom</p>
-
+                    <p><?php echo $lugar ?></p>
                 </div>
             </div>
-
-
         </div>
     </div>
 
 
-
-
-
     <div class="curso-costo container">
         <h2 class="md:text-3xl md:leading-normal">Costo</h2>
-        <p class="text-red-600 max-w-xl mx-auto">15% de descuento por concepto de pronto pago (hasta el 27 de abril)</p>
+        <!-- Si el curso no tiene descuento, solo debe quitarse el p. -->
+        <p class="text-red-600 max-w-xl mx-auto">15% de descuento por concepto de pronto pago (hasta el 18 de mayo del 2023).</p>
         <div class="grid lg:grid-cols-2 md:grid-cols-2 mt-8 gap-[30px]">
             <div class="curso-costo-g">
                 <h3>Público GENERAL</h3>
 
-
+                <!-- PRECIO GENERAL-->
                 <div>
                     <span>$</span>
-                    <span class="price text-4xl font-semibold mb-0" style="text-decoration: line-through;">4,320</span>
+                    <span style="text-decoration: line-through;"><?php echo $precio_general ?></span>
                     <span>MXN</span>
                 </div>
+                <!-- FIN-PRECIO GENERAL -->
+
+                <!-- Para quitar el precio con descuento solo basta con borrar lo siquiente. -->
+                <!-- QUITAR EL style="text-decoration: line-through; DE LA LINEA ANTERIOR -->
+                <!-- PRECIO GENERAL CON DESCUENTO-->
                 <div>
                     <span>$</span>
-                    <span>3,060</span>
+                    <span class="price text-4xl font-semibold mb-0"><?php echo $precio_general_descuento ?></span>
                     <span>MXN</span>
                 </div>
-
-
+                <!-- FIN - PRECIO GENERAL  CON DESCUENTO-->
 
                 <a href="#inscripcion" class="btn">Inscribirse</a>
             </div>
@@ -205,18 +239,22 @@ include '../../includes/templates/header.php';
             <div class="curso-costo-g">
                 <h3>Comunidad UNAM</h3>
 
-
                 <div>
                     <span>$</span>
-                    <span class="price text-4xl font-semibold mb-0" style="text-decoration: line-through;">3,600</span>
-                    <span>MXN</span>
-                </div>
-                <div>
-                    <span>$</span>
-                    <span>2,550</span>
+                    <span style="text-decoration: line-through;"><?php echo $precio_unam ?></span>
                     <span>MXN</span>
                 </div>
 
+
+                <!-- Para quitar el precio con descuento solo basta con borrar lo siquiente. -->
+                <!-- QUITAR EL style="text-decoration: line-through; DE LA LINEA ANTERIOR -->
+                <!-- PRECIO UNAM CON DESCUENTO-->
+                <div>
+                    <span>$</span>
+                    <span class="price text-4xl font-semibold mb-0"><?php echo $precio_unam_descuento ?></span>
+                    <span>MXN</span>
+                </div>
+                <!-- FIN PRECIO UNAM CON DESCUENTO-->
 
                 <ul>
                     <li><i class="uil uil-check-circle"></i>Alumnos, exalumnos
@@ -227,58 +265,75 @@ include '../../includes/templates/header.php';
 
                 <a href="#inscripcion" class="btn">Inscribirse</a>
             </div>
-
-
         </div>
     </div>
-
-
-
-
 
 </section>
 
 
-
-<section class="temario md:py-24 container">
+<!-- TEMARIO SECCIÓN: LOS <h3> son temas principales y los <td> son subtemas. -->
+<section class="temario container">
     <h2>Temario</h2>
     <div class="secciones grid md:grid-cols-2 grid-cols-1">
+        <!-- ******SECCIÓN PARA CADA TEMA CON SUS SUBTEMAS *****-->
         <div>
-            <h3>I. Introducción.</h3>
-
+            <h3>I. Introducción</h3>
             <div class="contenido">
                 <table>
                     <thead>
                         <tr>
                             <th>Temas</th>
-
                         </tr>
                     </thead>
 
                     <tbody>
                         <tr>
-                            <td>I.1. Dispositivos Móviles.</td>
-
+                            <td> I.1 Encuadre y presentación del curso.</td>
                         </tr>
 
                         <tr>
-                            <td>I.2. Clasificación y aplicaciones de los dispositivos móviles.</a></td>
+                            <td>I.2. Visita guiada a la plataforma MACTI.</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <!--********FIN DE SECCIÓN PARA CADA TEMA CON SUS SUBTEMAS********-->
 
+        <div>
+            <h3>II. Herramientas para el uso de MACTI</h3>
+
+            <div class="contenido">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>
+                                Temas
+                            </th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>
+                                II.1 Moodle
+                            </td>
                         </tr>
 
                         <tr>
-                            <td>I.3 Plataformas de programación para dispositivos móviles.</td>
-
+                            <td>
+                                II.2. Descripción del ambiente Jupyter Notebook.
+                            </td>
                         </tr>
-
                         <tr>
-                            <td>I.4 Presentación de la plataforma Android.</td>
-
+                            <td>
+                                II.3. Python básico.
+                            </td>
                         </tr>
-
                         <tr>
-                            <td>I.5 La plataforma Android, entorno, anatomía y las capas de su arquitectura.</td>
-
+                            <td>
+                                II.4. Git y GitHub.
+                            </td>
                         </tr>
                     </tbody>
                 </table>
@@ -286,110 +341,87 @@ include '../../includes/templates/header.php';
         </div>
 
         <div>
-            <h3>II. Programación.</h3>
-
+            <h3>III. Diseño de cuadernos interactivos</h3>
             <div class="contenido">
                 <table>
                     <thead>
                         <tr>
                             <th>Temas</th>
-
                         </tr>
                     </thead>
 
                     <tbody>
                         <tr>
-                            <td>II.1. Instalación y configuración del entorno de desarrollo (Android Studio y SDK Android)</td>
-
-                        </tr>
-                        <tr>
-                            <td>II.2. Elementos esenciales en la creación de aplicaciones Android.
-                                <ul class="pl-10">
-                                    <li>- Activity, Context y Ciclos de vida de Activities</li>
-                                </ul>
+                            <td>III.1. Numpy.
                             </td>
 
                         </tr>
-                        <tr>
-                            <td>II.3. Interfaz de usuario.
-                                <ul class="pl-10">
-                                    <li>- Layouts, recursos, ActionBar, menús, listas, popups, webview, fragmentos, pestañas, etc.</li>
-                                </ul>
-                            </td>
 
+                        <tr>
+                            <td>III.2.
+                                Matplotlib.
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>III.3.
+                                Pandas.
+                            </td>
                         </tr>
                         <tr>
-                            <td>II.4 Gestión de la navegación y la comunicación entre las distintas interfaces.
-                                <ul class="pl-10">
-                                    <li>- Material Design, Toolbar, CardView, notificaciones Android Wear.</li>
-                                </ul>
+                            <td>III.4.
+                                SimPy.
                             </td>
-
                         </tr>
                         <tr>
-                            <td>II.5 Interfaces Personalizadas.
-                                <ul class="pl-10">
-                                    <li>- Gestión de temas, animaciones, tipografía.</li>
-                                </ul>
+                            <td>III.5.
+                                Creación de interactivos con ipywidgets.
                             </td>
-
                         </tr>
+                        <tr>
+                            <td>III.6.
+                                Creación de animaciones.
+                            </td>
+                        </tr>
+
                     </tbody>
                 </table>
             </div>
         </div>
 
         <div>
-            <h3>III. Gestión de la fragmentación de la plataforma.</h3>
+            <h3>IV. Iniciando en la plataforma</h3>
 
             <div class="contenido">
                 <table>
                     <thead>
                         <tr>
                             <th>Temas</th>
-
                         </tr>
                     </thead>
 
                     <tbody>
                         <tr>
-                            <td>III.1 Versiones de Android, tamaño y resolución de pantallas, diferencias en el hardware.</td>
-
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-
-
-        <div>
-            <h3>IV. Almacenamiento y recuperación de Datos.</h3>
-
-            <div class="contenido">
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Temas</th>
-
-                        </tr>
-                    </thead>
-
-                    <tbody>
-                        <tr>
-                            <td>IV.1. Servicios web, gestión de la conectividad, parsing Xml / Json.
-                                <ul class="pl-10">
-                                    <li>- Shared Preferences, archivos, base de datos SQLite.</li>
-                                </ul>
+                            <td>IV.1.
+                                Registrarse en la plataforma.
                             </td>
+                        </tr>
 
+                        <tr>
+                            <td>IV.2.
+                                Generar un curso y su identificador.
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>IV.3.
+                                Vincular los cuadernos interactivos.
+                            </td>
                         </tr>
                         <tr>
-                            <td>IV.2 Compartir datos con otras aplicaciones.
-                                <ul class="pl-10">
-                                    <li>- Content Provider, Intent.</li>
-                                </ul>
+                            <td>IV.4.
+                                Requerimientos para registrar a estudiantes.
                             </td>
-
                         </tr>
                     </tbody>
                 </table>
@@ -398,92 +430,195 @@ include '../../includes/templates/header.php';
 
 
         <div>
-            <h3>V. Mapas digitales y localización.</h3>
+            <h3>V. Evaluación formativa y sumativa</h3>
 
             <div class="contenido">
                 <table>
                     <thead>
                         <tr>
                             <th>Temas</th>
-
                         </tr>
                     </thead>
 
                     <tbody>
                         <tr>
-                            <td>V.1. Google Maps, localización (GPS), conversión posición/dirección.</td>
-
+                            <td>V.1.
+                                ¿Qué es NBGrader?
+                            </td>
                         </tr>
                         <tr>
-                            <td>V.2 Uso de servicios Android.</td>
-
+                            <td>V.2.
+                                Uso básico de evaluación con NBGrader.
+                            </td>
                         </tr>
                         <tr>
-                            <td>V.3. Conectividad (WIFI).</td>
-
+                            <td>V.3.
+                                Evaluación para el aprendizaje (formativa).
+                                <ul class="p-6 list-disc ">
+                                    <li>Ejercicios dentro de los cuadernos interactivos.</li>
+                                    <li>Quizzes en Moodle.</li>
+                                </ul>
+                            </td>
                         </tr>
-
+                        <tr>
+                            <td>V.4.
+                                Evaluación del aprendizaje (sumativa).
+                                <ul class="p-6 list-disc ">
+                                    <li>Tareas.</li>
+                                    <li>Exámenes.</li>
+                                    <li>Rúbricas.</li>
+                                    <li>Listas de cotejo.</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        </tr>
                     </tbody>
                 </table>
             </div>
         </div>
         <div>
-            <h3>VI. Métodos de acceso a las diferentes funcionalidades de un dispositivo Android.</h3>
+            <h3>VI. Metodologías de enseñanza</h3>
             <div class="contenido">
                 <table>
                     <thead>
                         <tr>
                             <th>Temas</th>
-
                         </tr>
                     </thead>
 
                     <tbody>
                         <tr>
-                            <td>VI.1. Llamadas, sms, cámara, acelerómetro, Bluetooth.</td>
-
+                            <td>VI.1.
+                                Definición de un tema a desarrollar por cada participante.
+                            </td>
+                        </tr>
+                    </tbody>
+                    <tbody>
+                        <tr>
+                            <td>VI.2.
+                                Planteamiento del tema mediante Aula Invertida (AI).
+                                <ul class="p-6 list-disc ">
+                                    <li>Pre-clase</li>
+                                    <li>Clase.</li>
+                                    <li>Post-clase.</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>VI.3.
+                                Solución de ejercicios mediante Pensamiento Computacional (PC).
+                                <ul class="p-6 list-disc ">
+                                    <li>Descomposición.</li>
+                                    <li>Reconocimiento de patrones.</li>
+                                    <li>Abstracción.</li>
+                                    <li>Algoritmos.</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>VI.4.
+                                Aprendizaje basado en problemas/proyectos (ABP).
+                                <ul class="p-6 list-disc ">
+                                    <li>Definición de un proyecto para complementar el aprendizaje.</li>
+                                    <li>Solución del proyecto y creación de materiales para el profesor.
+                                    </li>
+                                </ul>
+                            </td>
                         </tr>
                     </tbody>
                 </table>
             </div>
         </div>
         <div>
-            <h3>VII. Publicación y comercialización.</h3>
+            <h3>VII. Fundamentos para la rehabilitación de reptiles</h3>
 
             <div class="contenido">
                 <table>
                     <thead>
                         <tr>
                             <th>Temas</th>
-
                         </tr>
                     </thead>
 
                     <tbody>
                         <tr>
-                            <td>VII.1. Proteger el código fuente.</td>
-
+                            <td>VII.1.
+                                Exámen clínico de reptiles
+                            </td>
                         </tr>
+                    </tbody>
+                    <tbody>
                         <tr>
-                            <td>VII.2. Comercialización de aplicaciones.</td>
-
+                            <td>VII.2.
+                                Criterios para su rehabilitación y liberación
+                            </td>
                         </tr>
                     </tbody>
                 </table>
             </div>
         </div>
-    </div>
+        <div>
+            <h3>VIII. Fundamentos para la rehabilitación de mamíferos</h3>
+            <div class="contenido">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Temas</th>
+                        </tr>
+                    </thead>
 
+                    <tbody>
+                        <tr>
+                            <td>VIII.1.
+                                Exámen clínico de mamíferos
 
-</section>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>VIII.2.
+                                Criterios para su rehabilitación y liberación
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div>
+            <h3>IX. Temas selectos en rehabilitación</h3>
+            <div class="contenido">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Temas</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>IX.1.
+                                Criterios para su rehabilitación y liberación
+                                <ul class="p-6 list-disc ">
+                                    <li>Primates</li>
+                                    <li>Felinos</li>
+                                    <li>Aves</li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+    </div> <!-- TERMINA EL CONTENEDOR DE LOS SUBTEMAS -->
+
+</section><!-- TERMINA LA SECCIÓN DEL TEMARIO -->
 
 
 <!-- Start -->
 <section class="inscripcion md:py-24" id="inscripcion">
     <div class="container">
         <div class="titulo">
-            <h2 class="md:text-3xl md:leading-normal">Inscripción</h2>
-            <p>.</p>
+            <h2>Inscripción</h2>
         </div>
 
         <div class="pasos">
@@ -507,7 +642,7 @@ include '../../includes/templates/header.php';
                         <div class="md:ml-8 md:mt-0">
                             <h4>Registrarse en este formato de inscripción</h4>
                             <p>(únicamente si usted ya hizo el pago)</p>
-                            <p><a href="https://forms.gle/EAvs91kZkFJgReYz5" target="_blank" class="btn btn-link text-indigo-600 hover:text-red-600 after:bg-indigo-600 duration-500 ease-in-out">Formato
+                            <p><a href=<?php echo $formato_inscripcion ?> target="_blank" class="btn btn-link text-indigo-600 hover:text-red-600 after:bg-indigo-600 duration-500 ease-in-out">Formato
                                     de inscripción</a></p>
                         </div>
                     </div>
@@ -564,9 +699,7 @@ include '../../includes/templates/header.php';
                 </h2>
                 <div id="info-acad" class="hidden" aria-labelledby="info-acad-col">
                     <div class="p-5">
-                        <p class="text-slate-400 dark:text-gray-400">M. en C. Jorge A. Moreno Hernández
-                            <br>
-                            Correo electrónico: jmh@ciencias.unam.mx
+                        <p class="text-slate-400 dark:text-gray-400"><?php echo $info_academica ?>
                         </p>
                     </div>
                 </div>
@@ -575,7 +708,6 @@ include '../../includes/templates/header.php';
 
     </div>
 </div>
-
 
 <?php
 include '../../includes/templates/footer.php';
