@@ -242,7 +242,7 @@ include './includes/templates/header.php';
       <div class="group curso">
         <div class="curso_imagen">
           <div class="curso_imagen_adapter">
-            <img src="assets/images/cursos/bg-DivulgacionCiencia.webp" alt="" />
+            <img src="assets/images/cursos/Investigacion-Didactica.webp" alt="" />
           </div>
           <div class="curso_imagen-backgroud">
           </div>
