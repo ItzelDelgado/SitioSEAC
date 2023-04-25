@@ -1,38 +1,35 @@
 <?php
-include '../includes/templates/header.php';
+include '../../includes/templates/header.php';
 ?>
 
 <?php
 
-$titulo_curso = "Programación de Dispositivos Móviles con Android";
-$imagen_curso = "../../assets/images/cursos/bg-FaunaSilvestre.webp"; //Agregar imagen del curso, tamaño forzoso de 19
-$edicion = "1ra. Edición";
-$fecha = "Del 3 de mayo al 2 de junio de 2023";
-$precio_unam = "3,600"; //No es necesario poner mxn
-$precio_general = "4,320"; //No es necesario poner mxn
-$dias = "Lunes, miercoles y viernes";  //Puedes poner Lunes, Martes, Miercoles, Jueves y Viernes.
-$horario = "10:00 a 13:00"; //No es necesario poner hrs
-$no_horas = "36"; //No es necesario poner hrs
-$modalidad = "Virtual";
-$max_alumnos = "60"; //Cantidad de alumnos maxima
-$min_alumnos = "15"; //Cantidad de alumnos minima
-$descripcion = "El mundo civilizado moderno sería ininteligible sin los dispositivos móviles que poseemos. Nuestro acceso a datos e información de manera expedita resulta ya indispensable para nuestra vida cotidiana y es en buena medida a través de los dispositivos móviles que esto está garantizado. Es por ello que la programación de aplicaciones para dispositivos móviles cobra singular relevancia para aquellos dedicados al desarrollo de software. Todo un enorme potencial de usos y usuarios se abre al desarrollador de aplicaciones móviles.";
-$objetivo = "El objetivo del curso es aprender a desarrollar aplicaciones en dispositivos móviles como teléfonos celulares, tablets, handhelds, y consolas de juegos en la plataforma Android 13.";
-$dirigido_a = "Personas con interés en desarrollar aplicaciones para dispositivos móviles con conocimientos básicos de lenguaje Java y del lenguaje de marcado XML.";
-$requisitos = "Los alumnos deberán traer una laptop.
-Tener conocimientos básicos de programación en Java. <br> <b>Especificaciones mínimas del equipo y paquetería a utilizar:</b><br>
-    Laptop 14 pulgadas - Intel Core i5 o AMD Ryzen™ 7 - 8 GB RAM – Disco duro de 512 SSD Microsoft office – Adobe Acrobat - Java version 8 – Android Studio";
-$lugar = "Zoom"; //El lugar donde se va a impartir, si son varios, agregar todos y separar con <br>
-$formato_inscripcion = "https://forms.gle/wwn996LgigXLKmsM6"; //Pegar el formato de inscripcion
-$info_academica="M. en C. Gustavo Márquez Flores<br>
-Correo electrónico: gmarquez@ciencias.unam.mx" //Agregar el Nombre <br> correo, dando un br para saltar de linea.
+$titulo_curso = "Bioestadística";
+$imagen_curso = "../../assets/images/cursos/bg-bioestadistica.webp";
+$edicion = "16a. Edición";
+$fecha = "Del 3 de marzo al 28 de abril de 2023";
+$precio_unam = "5,000";
+$precio_general = "6,000";
+$dias = "Lunes Jueves";
+$horario = "17:00 a 20:00";
+$no_horas = "50";
+$modalidad = "Vía Meet y Moodle";
+$max_alumnos = "30";
+$min_alumnos = "15";
+$descripcion = "Este curso fue diseñado para aportar bases teóricas y prácticas necesarios para el proceso de la información, el curso está montado en la plataforma educativa Moodle, la cual permite la interacción profesor-alumno, alumno-alumno, contar con los contenidos en diferentes formatos, textos, imágenes, videos, tutoriales, ejercicios necesarios y complementarios para el curso A través de esta interfase el asistente puede tomar las lecciones en línea, realizar las actividades (tareas y ejercicios evaluaciones), contar con retroalimentación, también la plataforma a través de diferentes herramientas permite la discusión y aportaciones de los asistentes y con ellos tener un aprendizaje colaborativo. Las lecciones están apoyadas con software educativo, propio y libre que brinda elementos teóricos y prácticos, del proceso de información. En las sesiones sincrónicas se revisan los temas de mayor complejidad y se hace la aclaración de dudas de los contenidos y materiales en línea.";
+$objetivo = "La finalidad de este curso es aportar al asistente los conocimientos básicos de la teoría y la práctica necesarios para el adecuado proceso de la información, desde la generación o recolección de los datos, hasta la toma de decisiones a través de la descripción de la información, estimación de parámetros, y la adecuada aplicación de las pruebas de hipótesis.";
+$dirigido_a = "Estudiantes, profesionales del área químico-biológica, de la salud y áreas a fines (este curso, está dirigido básicamente a médicos, biólogos, enfermeros, psicólogos, trabajadores sociales).";
+$requisitos = "Licenciatura (mínimo 60% de créditos).";
+$lugar = "Meet <br> Moodle <br> Abierto las 24horas";
+$formato_inscripcion = "https://forms.gle/yA4Vr2xaF2QGzHf88";
+$info_academica="M. en C. Jorge A. Moreno Hernández <br> Correo electrónico: jmh@ciencias.unam.mx"
 ?>
 
-<!-- Se debe modificar la parte de los profes que viene abajo. -->
-<!-- La parte más pesada es agregar el temario. Se puede usar ese o una tabla como la que normalmente creas, ya agregue estilos para que se adapten, ver ejemplo de primeros auxilios.-->
-<!-- Start Hero -->
+
+<!-- =========== PORTADA PRINCIPAL ========== -->
+
 <section class="portada">
-    <img src="../../assets/images/cursos/bg-FaunaSilvestre.webp" alt="">
+    <img src="../../assets/images/cursos/bg-bioestadistica.webp" alt="">
     <div class="portada-opacity"></div>
     <div class="container">
         <div class="portada-informacion">
@@ -40,28 +37,20 @@ Correo electrónico: gmarquez@ciencias.unam.mx" //Agregar el Nombre <br> correo,
                 UNAM</span>
             <span class="portada-informacion-pg">$<?php echo $precio_general ?> /
                 GENERAL</span>
-            
             <h1><?php echo $titulo_curso ?></h1>
             <p class="text-indigo-600"><?php echo $edicion ?></p>
-            <!-- Genera el contenedor con los datos del profesor, es decir, la foto, el nombre y el enlace del curriculum. -->
-            <!-- Si hay mas de un profe, se debe copiar todo el contenedor, para cada uno. -->
-            <!-- PROFESORES QUE IMPARTEN -->
-            <!-- Datos de Profe -->
             <div class="profesor">
                 <div>
-                    <img src="../assets/images/instructores/usr-m.jpg" alt="">
+                    <img src="../../assets/images/instructores/usr-m.jpg" alt="">
                 </div>
                 <div>
-                    <a href="../assets/curriculums_docentes/GustavoMarquezFlores.pdf" target="_blank">M. en C. Gustavo Márquez Flores</a>
+                    <a href="../../assets/curriculums_docentes/JorgeAMorenoHern.pdf" target="_blank">M. en C. Jorge A. Moreno Hernández</a>
                 </div>
             </div>
-            <!-- Fin de datos de profe -->
-            <!-- FIN - PROFESORES QUE IMPARTEN -->
             <div class="fecha">
                 <i class="uil uil-calendar-alt"></i>
                 <span><?php echo $fecha ?></span>
             </div>
-
         </div>
     </div>
 
@@ -71,36 +60,31 @@ Correo electrónico: gmarquez@ciencias.unam.mx" //Agregar el Nombre <br> correo,
                 <i class="uil uil-calendar-alt"></i>
                 <span><?php echo $dias ?></span>
             </li>
-
             <li>
                 <i class="uil uil-bell-school"></i>
                 <span><?php echo $horario ?>h</span>
             </li>
-
             <li>
                 <i class="uil uil-clock"></i>
                 <span><?php echo $no_horas ?> horas</span>
             </li>
-
             <li>
                 <i class="uil uil-map-marker"></i>
                 <span><?php echo $modalidad ?></span>
             </li>
-
             <li>
                 <i class="uil uil-user-circle"></i>
                 <span>Máx. <?php echo $max_alumnos ?> / Min. <?php echo $min_alumnos ?></span>
             </li>
-
             <li>
                 <i class="uil uil-shopping-cart text-green-600"></i>
                 <a href="#inscripcion" class="text-green-600">Inscribirse</a>
             </li>
         </ul>
     </div>
-</section><!--end section-->
+</section>
 
-
+<!-- =========== FONDO OSCURO DE PORTADA PRINCIPAL ========== -->
 
 <div class="relative">
     <div class="shape absolute right-0 sm:-bottom-px -bottom-[2px] left-0 overflow-hidden z-1 text-white dark:text-slate-900">
@@ -109,9 +93,9 @@ Correo electrónico: gmarquez@ciencias.unam.mx" //Agregar el Nombre <br> correo,
         </svg>
     </div>
 </div>
-<!-- End Hero -->
 
-<!-- Start Section-->
+<!-- =========== DESCRIPCION DEL CURSO  ========== -->
+
 <section class="oferta-academica md:py-20">
     <div class="container">
         <h2>Descripción</h2>
@@ -120,25 +104,21 @@ Correo electrónico: gmarquez@ciencias.unam.mx" //Agregar el Nombre <br> correo,
         <p><?php echo $objetivo ?></p>
         <h2>Dirigido a</h2>
         <p><?php echo $dirigido_a ?></p>
-        <p class="text-red-600 mt-4">
-            Mín / Máx de alumnos: Mínimo <?php echo $min_alumnos ?>, máximo <?php echo $max_alumnos ?>.<br>
+        <p class="text-red-600">
+            Mín / Máx de alumnos: Mínimo 15, máximo 30.<br>
             La apertura del curso está sujeta al mínimo de inscritos.</p>
     </div>
 </section>
 
+<!-- =========== REQUISITOS, HORARIOS Y LUGAR DEL CURSO ========== -->
 
-
-
-<!-- Start Section-->
 <section class="curso-horarios md:py-14">
-
     <div class="container">
         <div class="curso-horarios-container grid grid-cols-1 lg:grid-cols-3 md:grid-cols-1 gap-[30px]">
             <div>
                 <div>
                     <i class="uil uil-check-square"></i>
                 </div>
-
                 <div>
                     <h3>Requisitos</h3>
                     <p><?php echo $requisitos ?></p>
@@ -165,7 +145,6 @@ Correo electrónico: gmarquez@ciencias.unam.mx" //Agregar el Nombre <br> correo,
                 <div>
                     <i class="uil uil-map-marker"></i>
                 </div>
-
                 <div>
                     <h3>Lugar</h3>
                     <p><?php echo $lugar ?></p>
@@ -174,59 +153,44 @@ Correo electrónico: gmarquez@ciencias.unam.mx" //Agregar el Nombre <br> correo,
         </div>
     </div>
 
-
     <div class="curso-costo container">
         <h2 class="md:text-3xl md:leading-normal">Costo</h2>
-        <!-- Si el curso no tiene descuento, solo debe quitarse el p. -->
-        
         <div class="grid lg:grid-cols-2 md:grid-cols-2 mt-8 gap-[30px]">
             <div class="curso-costo-g">
                 <h3>Público GENERAL</h3>
-                
-                <!-- PRECIO GENERAL-->
                 <div>
                     <span>$</span>
                     <span><?php echo $precio_general ?></span>
                     <span>MXN</span>
                 </div>
-                <!-- FIN-PRECIO GENERAL -->
-
                 <a href="#inscripcion" class="btn">Inscribirse</a>
             </div>
-
-
             <div class="curso-costo-g">
                 <h3>Comunidad UNAM</h3>
-                
                 <div>
                     <span>$</span>
                     <span><?php echo $precio_unam ?></span>
                     <span>MXN</span>
                 </div>
-                
-                
                 <ul>
                     <li><i class="uil uil-check-circle"></i>Alumnos, exalumnos
                         y personal de la UNAM</li>
                     <li><i class="uil uil-check-circle"></i>También aplica
                         para afiliados a Fundación UNAM</li>
                 </ul>
-
                 <a href="#inscripcion" class="btn">Inscribirse</a>
             </div>
         </div>
     </div>
-
 </section>
 
+<!-- =========== TEMARIO DEL CURSO ========== -->
 
-<!-- TEMARIO SECCIÓN: LOS <h3> son temas principales y los <td> son subtemas. -->
-<section class="temario container">
+<section class="temario md:py-24 container">
     <h2>Temario</h2>
     <div class="secciones grid md:grid-cols-2 grid-cols-1">
-        <!-- ******SECCIÓN PARA CADA TEMA CON SUS SUBTEMAS *****-->
         <div>
-            <h3>I. Introducción</h3>
+            <h3>I. INTRODUCCIÓN A LA ESTADÍSTICA</h3>
             <div class="contenido">
                 <table>
                     <thead>
@@ -234,80 +198,26 @@ Correo electrónico: gmarquez@ciencias.unam.mx" //Agregar el Nombre <br> correo,
                             <th>Temas</th>
                         </tr>
                     </thead>
-
                     <tbody>
                         <tr>
-                            <td> I.1 Dispositivos Móviles.</td>
-                        </tr>
-
-                        <tr>
-                            <td>I.2. Clasificación y aplicaciones de los dispositivos móviles.</a></td>
-                        </tr>
-
-                        <tr>
-                            <td>I.3. Plataformas de programación para dispositivos móviles.</td>
-                        </tr>
-
-                        <tr>
-                            <td>I.4. Presentación de la plataforma Android.</td>
+                            <td> I.1
+                                Concepto e importancia de Estadística y Bioestadística.</td>
                         </tr>
                         <tr>
-                            <td>I.5. La plataforma Android, entorno, anatomía y las capas de su arquitectura..</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-        <!--********FIN DE SECCIÓN PARA CADA TEMA CON SUS SUBTEMAS********-->
-        
-        <div>
-            <h3>II. Programación</h3>
-
-            <div class="contenido">
-                <table>
-                    <thead>
-                        <tr>
-                            <th>
-                                Temas
-                            </th>
-                        </tr>
-                    </thead>
-
-                    <tbody>
-                        <tr>
-                            <td>
-                                II.1 Instalación y configuración del entorno de desarrollo (Android Studio y SDK Android).
-                            </td>
-                        </tr>
-
-                        <tr>
-                            <td>
-                                II.2. Elementos esenciales en la creación de aplicaciones Android.
-      - Activity, Context y Ciclos de vida de Activities
-                            </td>
+                            <td>I.2. Error,
+                                precisión y exactitud. Poblaciones y muestras.</td>
                         </tr>
                         <tr>
-                            <td>
-                                II.3. Interfaz de usuario.
-      - Layouts, recursos, ActionBar, menús, listas, popups, webview, fragmentos, pestañas, etc.
-                            </td>
+                            <td>I.3.
+                                Criterios de inclusión, exclusión y eliminación.</td>
                         </tr>
                         <tr>
-                            <td>
-                                II.4. Gestión de la navegación y la comunicación entre las distintas interfaces.
-      - Material Design, Toolbar, CardView, notificaciones Android Wear.
-                            </td>
+                            <td>I.4.
+                                Conceptos de población y muestra. Parámetros y estadísticos.</td>
                         </tr>
                         <tr>
-                            <td>
-                                II.5. Interfaces Personalizadas.
-      - Gestión de temas, animaciones, tipografía.
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                II.6. Gestión de los distintos eventos de usuario.
-      - Clicks y rotación.
+                            <td> I.5. Tipos
+                                de variables y escalas de medición.
                             </td>
                         </tr>
                     </tbody>
@@ -316,7 +226,7 @@ Correo electrónico: gmarquez@ciencias.unam.mx" //Agregar el Nombre <br> correo,
         </div>
 
         <div>
-            <h3>III. Gestión de la fragmentación de la plataforma</h3>
+            <h3>II. ESTADÍSTICA DESCRIPTIVA</h3>
             <div class="contenido">
                 <table>
                     <thead>
@@ -324,21 +234,38 @@ Correo electrónico: gmarquez@ciencias.unam.mx" //Agregar el Nombre <br> correo,
                             <th>Temas</th>
                         </tr>
                     </thead>
-
                     <tbody>
                         <tr>
-                            <td>III.1. Versiones de Android, tamaño y resolución de pantallas, diferencias en el hardware.
+                            <td> II.1
+                                Representaciones gráficas de un conjunto de datos: Diagramas de barras.
+                                Pictogramas, Gráficas circulares, Diagrama tallo y hoja. Diagrama de tallo
+                                hoja y espejo, Diagrama de caja. Histograma. Polígono de frecuencias.
+                                Diagramas x, y
                             </td>
-
+                        </tr>
+                        <tr>
+                            <td>II.2.
+                                Descripción de variables numéricas: Medidas de tendencia central. Medidas de
+                                dispersión
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>II.3. Regla
+                                empírica y teorema de Tchebyshev
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>II.4.
+                                Descripción de variables categóricas: tasas, razones, proporciones y
+                                porcentajes.
+                            </td>
                         </tr>
                     </tbody>
                 </table>
             </div>
         </div>
-
         <div>
-            <h3>IV. Almacenamiento y recuperación de Datos</h3>
-
+            <h3>III. PROBABILIDAD</h3>
             <div class="contenido">
                 <table>
                     <thead>
@@ -346,155 +273,154 @@ Correo electrónico: gmarquez@ciencias.unam.mx" //Agregar el Nombre <br> correo,
                             <th>Temas</th>
                         </tr>
                     </thead>
-
                     <tbody>
                         <tr>
-                            <td>IV.1.
-                                Servicios web, gestión de la conectividad, parsing Xml / Json.
-      - Shared Preferences, archivos, base de datos SQLite.
-                            </td>
+                            <td>III.1.
+                                Conceptos: Fenómenos deterministas y estocásticos. Espacio muestral,
+                                experimentos, eventos </td>
                         </tr>
-
+                        <tr>
+                            <td>III.2.
+                                Métodos de conteo Combinación y permutaciones </td>
+                        </tr>
+                        <tr>
+                            <td>III.3.
+                                Conceptos de probabilidad clásica y frecuentista </td>
+                        </tr>
+                        <tr>
+                            <td>III.4.
+                                Leyes de probabilidad: Ley de la adición, Ley del producto </td>
+                        </tr>
+                        <tr>
+                            <td>III.5.
+                                Cálculo de probabilidades </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div>
+            <h3>IV. INFERENCIA ESTADÍSTICA</h3>
+            <div class="contenido">
+                <table class="w-full text-left">
+                    <thead>
+                        <tr>
+                            <th class="px-4 py-5">Temas</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><i></i>
+                                IV.1.
+                                Concepto de inferencia estadística </td>
+                        </tr>
                         <tr>
                             <td>IV.2.
-                            Compartir datos con otras aplicaciones.
-      - Content Provider, Intent.
-                            </td>
+                                Clasificación de la estadística: según tipo de variable </td>
                         </tr>
-
+                        <tr>
+                            <td>IV.3.
+                                Clasificación de la estadística: según número de variables </td>
+                        </tr>
+                        <tr>
+                            <td>IV.3.
+                                Clasificación de la estadística: según número de variables </td>
+                        </tr>
+                        <tr>
+                            <td>IV.4.
+                                Estimación puntual y de intervalo </td>
+                        </tr>
+                        <tr>
+                            <td>IV.5.
+                                Intervalos de confianza </td>
+                        </tr>
+                        <tr>
+                            <td>IV.6.
+                                Pruebas de hipótesis</td>
+                        </tr>
+                        <tr>
+                            <td>IV.7.
+                                Procedimiento para la realización de pruebas de hipótesis </td>
+                        </tr>
+                        <tr>
+                            <td>IV.8.
+                                Procedimiento para la realización de pruebas paramétricas </td>
+                        </tr>
                     </tbody>
                 </table>
             </div>
         </div>
-
-
         <div>
-            <h3>V. Mapas digitales y localización</h3>
-
+            <h3>V. INTRODUCCIÓN A LOS MODELOS ESTADÍSTICOS LINEALES</h3>
             <div class="contenido">
-                <table>
+                <table class="w-full text-left">
                     <thead>
                         <tr>
-                            <th>Temas</th>
+                            <th class="px-4 py-5">Temas</th>
                         </tr>
                     </thead>
-
                     <tbody>
                         <tr>
                             <td>V.1.
-                            Google Maps, localización (GPS), conversión posición/dirección.
-                            </td>
+                                Introducción a los modelos estadísticos lineales </td>
                         </tr>
                         <tr>
                             <td>V.2.
-                            Uso de servicios Android.
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>V.3.
-                            Conectividad (WIFI).
+                                Modelos de regresión. Conceptos básicos. Supuestos. Aplicaciones
                             </td>
                         </tr>
                     </tbody>
                 </table>
             </div>
         </div>
-        <div>
-            <h3>VI. Métodos de acceso a las diferentes funcionalidades de un dispositivo Android.</h3>
-            <div class="contenido">
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Temas</th>
-                        </tr>
-                    </thead>
+    </div>
+</section>
 
-                    <tbody>
-                        <tr>
-                            <td>VI.1.
-                            Llamadas, sms, cámara, acelerómetro, Bluetooth.
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-        <div>
-            <h3>VII. Publicación y comercialización</h3>
+<!-- =========== INSCRIPCION DEL CURSO ========== -->
 
-            <div class="contenido">
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Temas</th>
-                        </tr>
-                    </thead>
-                        <tr>
-                            <td>VII.1.
-                            Proteger el código fuente.
-                            </td>
-                        </tr>
-
-
-                        <tr>
-                            <td>VII.2.
-                            Comercialización de aplicaciones.
-                            </td>
-                        </tr>
-
-                </table>
-            </div>
-        </div>
-
-        </div> <!-- TERMINA EL CONTENEDOR DE LOS SUBTEMAS --> 
-    
-    </section><!-- TERMINA LA SECCIÓN DEL TEMARIO -->
-
-
-<!-- Start -->
 <section class="inscripcion md:py-24" id="inscripcion">
     <div class="container">
         <div class="titulo">
-            <h2>Inscripción</h2>
+            <h2 class="md:text-3xl md:leading-normal">Inscripción</h2>
+            <p>.</p>
         </div>
-
         <div class="pasos">
             <div class="relative after:content-[''] after:absolute after:top-0 md:after:right-0 md:after:left-0 after:w-px after:h-full md:after:m-auto after:border-l-2 after:border-dashed after:border-gray-200 dark:after:border-gray-700 ml-3 md:ml-0">
-                <!--Start content-->
                 <div class="ml-8 md:ml-0 relative after:content-[''] after:absolute after:top-[9px] after:rounded-full after:z-10 after:w-2.5 after:h-2.5 after:bg-indigo-600 md:after:mx-auto md:after:right-0 md:after:left-0 after:-left-9 before:content-[''] before:absolute md:before:mx-auto md:before:right-0 md:before:left-0 before:-left-11 before:rounded-full before:z-10 before:border-2 before:border-dashed before:border-gray-200 dark:before:border-gray-700 before:top-0 before:w-7 before:h-7 before:bg-white dark:before:bg-slate-900">
                     <div class="paso-n grid md:grid-cols-2">
                         <h3 class="md:text-right md:mr-8">Paso 1</h3>
-
                         <div class="md:ml-8 md:mt-0">
                             <h4>Realizar el pago en línea mediante "Plaza
                                 Prometeo", la tienda de la Facultad de Ciencias</h4>
-                            <p><a href="https://tienda.fciencias.unam.mx" target="_blank" class="btn btn-link text-indigo-600 hover:text-red-600 after:bg-indigo-600 duration-500 ease-in-out">tienda.fciencias.unam.mx</a>
+                            <p>
+                                <a href="https://tienda.fciencias.unam.mx" target="_blank">tienda.fciencias.unam.mx</a>
                             </p>
                         </div>
                     </div>
 
                     <div class="paso-n grid md:grid-cols-2 mt-10">
                         <h3 class="md:text-right md:mr-8">Paso 2</h3>
-
                         <div class="md:ml-8 md:mt-0">
-                            <h4>Registrarse en este formato de inscripción</h4>
+                            <h4 class="title mb-1 font-semibold">Registrarse en este formato de inscripción</h4>
                             <p>(únicamente si usted ya hizo el pago)</p>
-                            <p><a href=<?php echo $formato_inscripcion ?> target="_blank" class="btn btn-link text-indigo-600 hover:text-red-600 after:bg-indigo-600 duration-500 ease-in-out">Formato
-                                    de inscripción</a></p>
+                            <p>
+                                <a href=<?php echo $formato_inscripcion ?> target="_blank">Formato
+                                    de inscripción</a>
+                            </p>
                         </div>
                     </div>
-
                 </div>
-                <!--End content-->
-
             </div>
         </div>
-        <p class="advertencia"><i class="uil uil-exclamation-circle"></i>En caso de
-            cancelación, procederá la devolución de lo pagado con los criterios administrativos de la Facultad de
-            Ciencias.</p>
+        <p class="advertencia">
+            <i class="uil uil-exclamation-circle"></i>
+            En caso de cancelación, procederá la devolución de lo pagado con los criterios administrativos de la Facultad de
+            Ciencias.
+        </p>
     </div>
-</section><!--end section-->
-<!-- End -->
+</section>
+
+<!-- =========== NECESITAS AYUDA ========== -->
 
 <div class="ayuda container md:mt-24">
     <div class="titulo">
@@ -536,8 +462,7 @@ Correo electrónico: gmarquez@ciencias.unam.mx" //Agregar el Nombre <br> correo,
                 </h2>
                 <div id="info-acad" class="hidden" aria-labelledby="info-acad-col">
                     <div class="p-5">
-                        <p class="text-slate-400 dark:text-gray-400"><?php echo $info_academica?> 
-                        </p>
+                        <p class="text-slate-400 dark:text-gray-400"><?php echo $info_academica?></p>
                     </div>
                 </div>
             </div>
@@ -547,5 +472,5 @@ Correo electrónico: gmarquez@ciencias.unam.mx" //Agregar el Nombre <br> correo,
 </div>
 
 <?php
-include '../includes/templates/footer.php';
+include '../../includes/templates/footer.php';
 ?>

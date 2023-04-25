@@ -1,75 +1,52 @@
 <?php
-include '../includes/templates/header.php';
-?>
-
-<?php
-
-$titulo_curso = "Rescate y Rehabilitación de Fauna Silvestre";
-$imagen_curso = "../../assets/images/cursos/bg-FaunaSilvestre.webp";
-$edicion = "6ta. Edición";
-$fecha = "Del 17 de abril al 26 de junio de 2023";
-$precio_unam = "2,700";
-$precio_general = "3,200";
-$precio_unam_descuento = "2,295";
-$precio_general_descuento = "2,720";
-$dias = "Lunes";
-$horario = "16:00 a 19:00";
-$no_horas = "27";
-$modalidad = "Virtual";
-$max_alumnos = "60";
-$min_alumnos = "15";
-$descripcion = "Las actividades antropogénicas como la construcción de carreteras, tendidos eléctricos, presas y los desastres naturales como sequías, inundaciones, incendios, huracanes, derrames petroleros y otros contaminantes, ponen en riesgo a poblaciones de especies de fauna silvestre que se encuentran en alguna categoría de amenaza de extinción. Ante estos nuevos retos la Unión Internacional para la Conservación de la Naturaleza (IUCN) a través del Grupo Especialista en Salud de Fauna Silvestre (WHSG), han creado criterios para rescatar y rehabilitar a ejemplares de fauna silvestre de especies de valor ecológico. Por ello, los biólogos y profesionistas de disciplinas afines (médicos veterinarios, ecólogos) deben ampliar su campo de acción hacia la atención, rescate y rehabilitación de animales silvestres para su posible re-introducción a sus hábitats naturales así recuperar a las poblaciones de especies amenazadas.";
-$objetivo = "El participante adquirirá los conocimientos teóricos necesarios para rescatar y brindar atención primaria; valorará el tipo de destino final para cada caso.";
-$dirigido_a = "Biólogos, Médicos Veterinarios Zootecnistas y disciplinas afines.";
-$requisitos = "Estudiantes y profesionales de las áreas químico biológicas y afines.";
-$lugar = "Zoom";
-$formato_inscripcion = "https://forms.gle/wwn996LgigXLKmsM6";
-$info_academica="Dra. Rosalía Pastor Nieto <br> Correo electrónico: rosalia.pastor@gmail.com"
+include '../../includes/templates/header.php';
 ?>
 
 <!-- Start Hero -->
 <section class="portada">
-    <img src="../../assets/images/cursos/bg-estrategias-edu-ambiental-para-sustentabilidad.webp" alt="">
+    <img src="../../assets/images/cursos/bg-TortugasMexico.webp" alt="">
     <div class="portada-opacity"></div>
     <div class="container">
         <div class="portada-informacion">
-            <span class="portada-informacion-pu">$4,800 /
+            <span class="portada-informacion-pu">$3,600 /
                 UNAM</span>
-            <span class="portada-informacion-pg">$5,700 /
+            <span class="portada-informacion-pg">$3,000 /
                 GENERAL</span>
-            <h1>Estrategias de educación ambiental para la sustentabilidad</h1>
-            <p>2da. Edición</p>
+            <p>15% de descuento por concepto de pronto pago (hasta el 3 de abril)</p>
+            <span class="bg-red-600 text-white text-xs font-bold px-2.5 py-0.5 rounded w-fit mx-auto h-5">$3,060 /
+                UNAM</span>
+            <span class="portada-informacion-pg">$2,550 /
+                GENERAL</span>
+            <h1>Diseño de cursos en cuadernos Jupyter interactivos con la plataforma MACTI</h1>
+            <p>1ra. Edición</p>
             <div class="profesor">
                 <div>
-                    <img src="../assets/images/instructores/usr-m.jpg" alt="">
+                    <img src="../../assets/images/instructores/usr-m.jpg" alt="">
                 </div>
                 <div>
-                    <a href="/assets/curriculums_docentes/IramaMariselaNunezTancredi.pdf" target="_blank">Dra. Irama Silvia Marisela Núñez Tancredi</a>
+                    <a href="../../assets/curriculums_docentes/GraciaPatriciaGonzalesPor.pdf" target="_blank">Dr. Luis Miguel de la Cruz Salas, Instituto de Geofísica</a>
                 </div>
             </div>
             <div class="profesor">
                 <div>
-                    <img src="../assets/images/instructores/usr-m.jpg" alt="">
+                    <img src="../../assets/images/instructores/usr-m.jpg" alt="">
                 </div>
                 <div>
-                    <a href="/assets/curriculums_docentes/StepChantalSeguraEspi.pdf" target="_blank">Lic. Stephanie Chantal Segura Espinosa</a>
+                    <a href="../../assets/curriculums_docentes/GraciaPatriciaGonzalesPor.pdf" target="_blank">Mtro. Miguel Angel Pérez León, Facultad de Ciencias</a>
                 </div>
             </div>
             <div class="profesor">
                 <div>
-                    <img src="../assets/images/instructores/usr-m.jpg" alt="">
+                    <img src="../../assets/images/instructores/usr-m.jpg" alt="">
                 </div>
                 <div>
-                    <a href="/assets/curriculums_docentes/AngelRodrigoGonzalezGonzalez.pdf" target="_blank">M. en C. Ángel Rodrigo González González</a>
+                    <a href="../../assets/curriculums_docentes/GraciaPatriciaGonzalesPor.pdf" target="_blank">Ing. Juan Eduardo Murrieta León, Instituto de Ciencias Nucleares</a>
                 </div>
             </div>
-
-
 
             <div class="fecha">
                 <i class="uil uil-calendar-alt"></i>
-                <span>Del 11 de
-                    marzo al 6 de mayo de 2023</span>
+                <span>Del 1 al 24 de junio de 2023</span>
             </div>
 
         </div>
@@ -83,32 +60,32 @@ $info_academica="Dra. Rosalía Pastor Nieto <br> Correo electrónico: rosalia.pa
 
             <li>
                 <i class="uil uil-calendar-alt"></i>
-                <span class="text-white/60 ml-1">Sábado</span>
+                <span class="text-white/60 ml-1">Jueves y viernes</span>
             </li>
 
             <li>
                 <i class="uil uil-bell-school"></i>
-                <span class="text-white/60 ml-1">10-13 h</span>
+                <span class="text-white/60 ml-1">10-13h</span>
             </li>
 
             <li>
                 <i class="uil uil-clock"></i>
-                <span class="text-white/60 ml-1">48 horas</span>
+                <span class="text-white/60 ml-1">36 horas</span>
             </li>
 
             <li>
                 <i class="uil uil-map-marker"></i>
-                <span class="text-white/60 ml-1">Híbrida</span>
+                <span class="text-white/60 ml-1">Virtual</span>
             </li>
 
             <li>
                 <i class="uil uil-user-circle"></i>
-                <span class="text-white/60 ml-1">Máx. 60 / Min. 15</span>
+                <span class="text-white/60 ml-1">Min. 15</span>
             </li>
 
             <li>
                 <i class="uil uil-shopping-cart text-green-600"></i>
-                <a href="#inscripcion" target="" class="text-green-600">Inscribirse</a>
+                <a href="#inscripcion" class="text-green-600">Inscribirse</a>
             </li>
         </ul>
     </div>
@@ -126,15 +103,13 @@ $info_academica="Dra. Rosalía Pastor Nieto <br> Correo electrónico: rosalia.pa
 <section class="oferta-academica md:py-20">
     <div class="container">
         <h2>Descripción</h2>
-        <p>Existen en la actualidad escasos cursos y talleres que profundicen en el campo de la Educación ambiental para la sustentabilidad, en específico, aquellos que vinculen tanto el fundamento teórico como la práctica de la educación ambiental. Se considera crucial acercar a diversos participantes en el arte de diseñar, estructurar y llevar a cabo intervenciones educativas en el campo ambiental, facilitando la vinculación y comprensión del proceso estratégico y metodológico al momento de proponer estrategias de EA. Este es uno de las aspectos originales de la presente propuesta.
-            En este curso/taller se abordará la crisis de la modernidad, sus orígenes y consecuencias que se reflejan en la situación socioecológica actual del planeta. Al respecto se revisarán algunos enfoques críticos y alternativas a dicha crisis. También se presentarán algunos antecedentes generales en la evolución del campo de la Educación ambiental, las características y elementos que la definen así como sus distintas dimensiones, con el objetivo de resaltar su importancia en el contexto actual. Se van a abordar varios paradigmas educativos y de investigación que subyacen en la educación ambiental así como diferentes aproximaciones metodológicas que favorecen la participación y el trabajo colaborativo en la práctica de la educación ambiental. Es fundamental analizar el asunto de la sustentabilidad desde una visión histórica y crítica y con base en ello se abordará dicho proceso con los Objetivos del Desarrollo Sustentable (ODS). Finalmente, a lo largo de ciertas sesiones destinadas para ello, se acompañará a los participantes en el proceso de diseño y desarrollo de sus estrategias de Educación ambiental.</p>
+        <p>El mundo civilizado moderno sería ininteligible sin los dispositivos móviles que poseemos. Nuestro acceso a datos e información de manera expedita resulta ya indispensable para nuestra vida cotidiana y es en buena medida a través de los dispositivos móviles que esto está garantizado. Es por ello que la programación de aplicaciones para dispositivos móviles cobra singular relevancia para aquellos dedicados al desarrollo de software. Todo un enorme potencial de usos y usuarios se abre al desarrollador de aplicaciones móviles.</p>
         <h2>Objetivo</h2>
-        <p>El curso-taller tiene la finalidad de introducir a los participantes en el campo de la Educación ambiental para la sustentabilidad y acompañarlos en el diseño, desarrollo, implementación y evaluación de una estrategia de educación ambiental, que puedan implementar en contextos específicos, de acuerdo a sus propios intereses.
-        </p>
+        <p>El objetivo del curso es aprender a desarrollar aplicaciones en dispositivos móviles como teléfonos celulares, tablets, handhelds, y consolas de juegos en la plataforma Android 13</p>
         <h2>Dirigido a</h2>
-        <p>El curso-taller tiene la finalidad de introducir a los participantes en el campo de la Educación ambiental para la sustentabilidad y acompañarlos en el diseño, desarrollo, implementación y evaluación de una estrategia de educación ambiental, que puedan implementar en contextos específicos, de acuerdo a sus propios intereses.</p>
+        <p>Personas con interés en desarrollar aplicaciones para dispositivos móviles con conocimientos básicos de lenguaje Java y del lenguaje de marcado XML</p>
         <p class="text-red-600">
-            Mín / Máx de alumnos: Mínimo 15, máximo 60.<br>
+            Mínimo 15<br>
             La apertura del curso está sujeta al mínimo de inscritos.</p>
     </div>
 </section>
@@ -143,12 +118,10 @@ $info_academica="Dra. Rosalía Pastor Nieto <br> Correo electrónico: rosalia.pa
 
 
 <!-- Start Section-->
-<section class="relative ">
+<section class="curso-horarios md:py-14">
 
     <div class="container">
-        <div class="curso-horarios-container grid grid-cols-1 lg:grid-cols-3 md:grid-cols-1 gap-[30px]">
-
-
+        <div class="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-1 gap-[30px]">
             <div>
                 <div>
                     <i class="uil uil-check-square"></i>
@@ -156,7 +129,13 @@ $info_academica="Dra. Rosalía Pastor Nieto <br> Correo electrónico: rosalia.pa
 
                 <div>
                     <h3>Requisitos</h3>
-                    <p>Personas involucradas en procesos educativos formales e informales e interesadas en educación ambiental y público en general.</p>
+                    <p>Los alumnos deberán traer una laptop.
+                        Tener conocimientos básicos de programación en Java</p>
+
+                    <div class="mt-5">
+                        <a href="#" data-type="iframe" class="video-play-icon read-more lightbox btn btn-link text-indigo-600 hover:text-indigo-600 after:bg-indigo-600 duration-500 ease-in-out">
+                        </a>
+                    </div>
                 </div>
             </div>
 
@@ -168,17 +147,16 @@ $info_academica="Dra. Rosalía Pastor Nieto <br> Correo electrónico: rosalia.pa
 
                 <div>
                     <h3>Horario</h3>
-                    <p>Sesiones presenciales: Sábados<br>
-                        Horario: 10:00 a 13:00 hrs.</p>
-                    <p>Sesiones en línea: Classroom<br>
-                        Horario: Abierto</p>
+                    Horario: 10:00 a 13:00 hrs.</p>
+                    <p>Lunes, miércoles y viernes</p>
 
                     <div class="mt-5">
                         <a href="#" class="btn btn-link text-indigo-600 hover:text-red-600 after:bg-indigo-600 duration-500 ease-in-out">Total:
-                            48 horas</a>
+                            36 horas</a>
                     </div>
                 </div>
             </div>
+
             <div>
                 <div>
                     <i class="uil uil-map-marker"></i>
@@ -186,14 +164,8 @@ $info_academica="Dra. Rosalía Pastor Nieto <br> Correo electrónico: rosalia.pa
 
                 <div>
                     <h3>Lugar</h3>
-                    <p>Modalidad virtual</p>
-                    <div class="mt-5">
-                        <a href="#" class="btn btn-link text-indigo-600 hover:text-red-600 after:bg-indigo-600 duration-500 ease-in-out">Classroom</a>
-                    </div>
-                    <p>Modalidad presencial</p>
-                    <div class="mt-5">
-                        <a href="#" class="btn btn-link text-indigo-600 hover:text-red-600 after:bg-indigo-600 duration-500 ease-in-out">Secretaría de Educación Abierta y Continua</a>
-                    </div>
+                    <p>Zoom</p>
+
                 </div>
             </div>
 
@@ -206,44 +178,65 @@ $info_academica="Dra. Rosalía Pastor Nieto <br> Correo electrónico: rosalia.pa
 
 
     <div class="curso-costo container">
-        <div class="grid grid-cols-1 text-center">
-            <h2 class="md:text-3xl md:leading-normal">Costo</h2>
-
-            <p></p>
-        </div>
-
+        <h2 class="md:text-3xl md:leading-normal">Costo</h2>
+        <p class="text-red-600 max-w-xl mx-auto">15% de descuento por concepto de pronto pago (hasta el 27 de abril)</p>
         <div class="grid lg:grid-cols-2 md:grid-cols-2 mt-8 gap-[30px]">
             <div class="curso-costo-g">
                 <h3>Público GENERAL</h3>
-                <div class="flex mb-5">
+
+
+                <div>
                     <span>$</span>
-                    <span>5,700</span>
+                    <span class="price text-4xl font-semibold mb-0" style="text-decoration: line-through;">4,320</span>
                     <span>MXN</span>
                 </div>
+                <div>
+                    <span>$</span>
+                    <span>3,060</span>
+                    <span>MXN</span>
+                </div>
+
 
 
                 <a href="#inscripcion" class="btn">Inscribirse</a>
             </div>
 
+
             <div class="curso-costo-g">
                 <h3>Comunidad UNAM</h3>
-                <div class="flex mb-5">
+
+
+                <div>
                     <span>$</span>
-                    <span>4,800</span>
+                    <span class="price text-4xl font-semibold mb-0" style="text-decoration: line-through;">3,600</span>
+                    <span>MXN</span>
+                </div>
+                <div>
+                    <span>$</span>
+                    <span>2,550</span>
                     <span>MXN</span>
                 </div>
 
+
                 <ul>
-                    <li><i class="uil uil-check-circle"></i>Alumnos, exalumnos, personal de la UNAM y tesistas de la UNAM.</li>
+                    <li><i class="uil uil-check-circle"></i>Alumnos, exalumnos
+                        y personal de la UNAM</li>
                     <li><i class="uil uil-check-circle"></i>También aplica
-                        para afiliados a fundación UNAM</li>
+                        para afiliados a Fundación UNAM</li>
                 </ul>
-                <a href="" class="btn bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md mt-5">Inscribirse</a>
+
+                <a href="#inscripcion" class="btn">Inscribirse</a>
             </div>
+
+
         </div>
     </div>
-</section>
 
+
+
+
+
+</section>
 
 
 
@@ -251,7 +244,7 @@ $info_academica="Dra. Rosalía Pastor Nieto <br> Correo electrónico: rosalia.pa
     <h2>Temario</h2>
     <div class="secciones grid md:grid-cols-2 grid-cols-1">
         <div>
-            <h3>I. Panorama actual de la situación socioecológica </h3>
+            <h3>I. Introducción.</h3>
 
             <div class="contenido">
                 <table>
@@ -264,22 +257,27 @@ $info_academica="Dra. Rosalía Pastor Nieto <br> Correo electrónico: rosalia.pa
 
                     <tbody>
                         <tr>
-                            <td> I.1 Breve revisión de la crisis de la modernidad</td>
+                            <td>I.1. Dispositivos Móviles.</td>
 
                         </tr>
 
                         <tr>
-                            <td> I.2 Los problemas enredados (wicked problems) y el enfoque transdisciplinario </td>
+                            <td>I.2. Clasificación y aplicaciones de los dispositivos móviles.</a></td>
 
                         </tr>
 
                         <tr>
-                            <td> I.3 El enfoque biocultural como alternativa a la crisis de la modernidad</td>
+                            <td>I.3 Plataformas de programación para dispositivos móviles.</td>
 
                         </tr>
 
                         <tr>
-                            <td> Revisión del entorno donde los participantes pretenden desarrollar la estrategia de EAS</td>
+                            <td>I.4 Presentación de la plataforma Android.</td>
+
+                        </tr>
+
+                        <tr>
+                            <td>I.5 La plataforma Android, entorno, anatomía y las capas de su arquitectura.</td>
 
                         </tr>
                     </tbody>
@@ -288,46 +286,7 @@ $info_academica="Dra. Rosalía Pastor Nieto <br> Correo electrónico: rosalia.pa
         </div>
 
         <div>
-            <h3>II. ¿Qué es educación ambiental?</h3>
-
-            <div class="contenido">
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Temas</th>
-                        </tr>
-                    </thead>
-
-                    <tbody>
-                        <tr>
-                            <td>II.1 Modelos educativos (conductismo, constructivismo, aprendizaje basado en problemas, etc.)</td>
-                        </tr>
-
-                        <tr>
-                            <td>II.2 Elementos característicos y dimensiones de la educación ambiental</td>
-
-                        </tr>
-                        <tr>
-                            <td>II.3 Paradigmas de la Investigación ambiental (positivismo, teoría crítica, interpretativismo)</td>
-
-                        </tr>
-                        <tr>
-                            <td>II.4 Enfoques de la EA (instrumental, crítico-social, subversión, transgresión)</td>
-
-                        </tr>
-                        <tr>
-                            <td>II.5 Propuesta inicial de la estrategia a desarrollar</td>
-
-                        </tr>
-
-                    </tbody>
-                </table>
-            </div>
-        </div>
-
-        <div>
-            <h3>III. La perspectiva socio-ecológica y la sustentabilidad
-            </h3>
+            <h3>II. Programación.</h3>
 
             <div class="contenido">
                 <table>
@@ -340,30 +299,48 @@ $info_academica="Dra. Rosalía Pastor Nieto <br> Correo electrónico: rosalia.pa
 
                     <tbody>
                         <tr>
-                            <td>III.1 Puntos de apalancamiento para la sustentabilidad</td>
-                        </tr>
+                            <td>II.1. Instalación y configuración del entorno de desarrollo (Android Studio y SDK Android)</td>
 
-                        <tr>
-                            <td>III.2 Los Objetivos del desarrollo sustentable</td>
                         </tr>
-
                         <tr>
-                            <td>III.3 Capacidades para la sustentabilidad
+                            <td>II.2. Elementos esenciales en la creación de aplicaciones Android.
+                                <ul class="pl-10">
+                                    <li>- Activity, Context y Ciclos de vida de Activities</li>
+                                </ul>
                             </td>
+
                         </tr>
                         <tr>
-                            <td>III.4 Profundización en el contexto y entorno de la estrategia de EAS
+                            <td>II.3. Interfaz de usuario.
+                                <ul class="pl-10">
+                                    <li>- Layouts, recursos, ActionBar, menús, listas, popups, webview, fragmentos, pestañas, etc.</li>
+                                </ul>
                             </td>
+
                         </tr>
+                        <tr>
+                            <td>II.4 Gestión de la navegación y la comunicación entre las distintas interfaces.
+                                <ul class="pl-10">
+                                    <li>- Material Design, Toolbar, CardView, notificaciones Android Wear.</li>
+                                </ul>
+                            </td>
 
+                        </tr>
+                        <tr>
+                            <td>II.5 Interfaces Personalizadas.
+                                <ul class="pl-10">
+                                    <li>- Gestión de temas, animaciones, tipografía.</li>
+                                </ul>
+                            </td>
 
+                        </tr>
                     </tbody>
                 </table>
             </div>
         </div>
 
         <div>
-            <h3>IV. Metodología y recursos para la implementación de la estrategia de EAS: Los enfoques participativos </h3>
+            <h3>III. Gestión de la fragmentación de la plataforma.</h3>
 
             <div class="contenido">
                 <table>
@@ -376,16 +353,73 @@ $info_academica="Dra. Rosalía Pastor Nieto <br> Correo electrónico: rosalia.pa
 
                     <tbody>
                         <tr>
-                            <td> IV.1 Aprendizaje social, Investigación Acción Participativa, co-manejo adaptativo del territorio</td>
+                            <td>III.1 Versiones de Android, tamaño y resolución de pantallas, diferencias en el hardware.</td>
 
                         </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
 
+
+        <div>
+            <h3>IV. Almacenamiento y recuperación de Datos.</h3>
+
+            <div class="contenido">
+                <table>
+                    <thead>
                         <tr>
-                            <td>IV.2 Ecociudadanía</td>
+                            <th>Temas</th>
+
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>IV.1. Servicios web, gestión de la conectividad, parsing Xml / Json.
+                                <ul class="pl-10">
+                                    <li>- Shared Preferences, archivos, base de datos SQLite.</li>
+                                </ul>
+                            </td>
 
                         </tr>
                         <tr>
-                            <td>IV.2 Ecología cívica</td>
+                            <td>IV.2 Compartir datos con otras aplicaciones.
+                                <ul class="pl-10">
+                                    <li>- Content Provider, Intent.</li>
+                                </ul>
+                            </td>
+
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+
+        <div>
+            <h3>V. Mapas digitales y localización.</h3>
+
+            <div class="contenido">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Temas</th>
+
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>V.1. Google Maps, localización (GPS), conversión posición/dirección.</td>
+
+                        </tr>
+                        <tr>
+                            <td>V.2 Uso de servicios Android.</td>
+
+                        </tr>
+                        <tr>
+                            <td>V.3. Conectividad (WIFI).</td>
 
                         </tr>
 
@@ -394,14 +428,54 @@ $info_academica="Dra. Rosalía Pastor Nieto <br> Correo electrónico: rosalia.pa
             </div>
         </div>
         <div>
-            <h3>V. Presentación de las estrategias de EAS</h3>
+            <h3>VI. Métodos de acceso a las diferentes funcionalidades de un dispositivo Android.</h3>
+            <div class="contenido">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Temas</th>
+
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>VI.1. Llamadas, sms, cámara, acelerómetro, Bluetooth.</td>
+
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div>
+            <h3>VII. Publicación y comercialización.</h3>
+
+            <div class="contenido">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Temas</th>
+
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>VII.1. Proteger el código fuente.</td>
+
+                        </tr>
+                        <tr>
+                            <td>VII.2. Comercialización de aplicaciones.</td>
+
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
         </div>
     </div>
 
 
 </section>
-
-
 
 
 <!-- Start -->
@@ -433,7 +507,7 @@ $info_academica="Dra. Rosalía Pastor Nieto <br> Correo electrónico: rosalia.pa
                         <div class="md:ml-8 md:mt-0">
                             <h4>Registrarse en este formato de inscripción</h4>
                             <p>(únicamente si usted ya hizo el pago)</p>
-                            <p><a href="https://forms.gle/EecbsbhoM6DSAsqj9" target="_blank" class="btn btn-link text-indigo-600 hover:text-red-600 after:bg-indigo-600 duration-500 ease-in-out">Formato
+                            <p><a href="https://forms.gle/EAvs91kZkFJgReYz5" target="_blank" class="btn btn-link text-indigo-600 hover:text-red-600 after:bg-indigo-600 duration-500 ease-in-out">Formato
                                     de inscripción</a></p>
                         </div>
                     </div>
@@ -449,9 +523,6 @@ $info_academica="Dra. Rosalía Pastor Nieto <br> Correo electrónico: rosalia.pa
     </div>
 </section><!--end section-->
 <!-- End -->
-
-
-
 
 <div class="ayuda container md:mt-24">
     <div class="titulo">
@@ -505,6 +576,7 @@ $info_academica="Dra. Rosalía Pastor Nieto <br> Correo electrónico: rosalia.pa
     </div>
 </div>
 
+
 <?php
-include '../includes/templates/footer.php';
+include '../../includes/templates/footer.php';
 ?>

@@ -1,5 +1,5 @@
 <?php
-include '../includes/templates/header.php';
+include '../../includes/templates/header.php';
 ?>
 
 <?php
@@ -29,77 +29,90 @@ $info_academica="Dra. Rosalía Pastor Nieto <br> Correo electrónico: rosalia.pa
 
 <!-- Start Hero -->
 <section class="portada">
-    <img src="../../assets/images/cursos/bg-FaunaSilvestre.webp" alt="">
+    <img src="../../assets/images/cursos/bg-estrategias-edu-ambiental-para-sustentabilidad.webp" alt="">
     <div class="portada-opacity"></div>
     <div class="container">
         <div class="portada-informacion">
-            <span class="portada-informacion-pu">$<?php echo $precio_unam ?> /
+            <span class="portada-informacion-pu">$4,800 /
                 UNAM</span>
-            <span class="portada-informacion-pg">$<?php echo $precio_general ?> /
+            <span class="portada-informacion-pg">$5,700 /
                 GENERAL</span>
-            <p>15% de descuento por concepto de pronto pago (hasta el 3 de abril)</p>
-            <span class="portada-informacion-pu-red">$<?php echo $precio_unam_descuento ?> /
-                UNAM</span>
-            <span class="portada-informacion-pg">$<?php echo $precio_general_descuento ?> /
-                GENERAL</span>
-            <h1><?php echo $titulo_curso ?></h1>
-            <p class="text-indigo-600"><?php echo $edicion ?></p>
-            <!-- Genera el contenedor con los datos del profesor, es decir, la foto, el nombre y el enlace del curriculum. -->
-            <!-- Si hay mas de un profe, se debe copiar todo el contenedor, para cada uno. -->
-            <!-- PROFESORES QUE IMPARTEN -->
+            <h1>Estrategias de educación ambiental para la sustentabilidad</h1>
+            <p>2da. Edición</p>
             <div class="profesor">
                 <div>
-                    <img src="../assets/images/instructores/usr-m.jpg" alt="">
+                    <img src="../../assets/images/instructores/usr-m.jpg" alt="">
                 </div>
                 <div>
-                    <a href="../assets/curriculums_docentes/RosaliaPastorNieto.pdf" target="_blank">Dra. Rosalía Pastor Nieto</a>
+                    <a href="../../assets/curriculums_docentes/IramaMariselaNunezTancredi.pdf" target="_blank">Dra. Irama Silvia Marisela Núñez Tancredi</a>
                 </div>
             </div>
-            <!-- FIN - PROFESORES QUE IMPARTEN -->
+            <div class="profesor">
+                <div>
+                    <img src="../../assets/images/instructores/usr-m.jpg" alt="">
+                </div>
+                <div>
+                    <a href="../../assets/curriculums_docentes/StepChantalSeguraEspi.pdf" target="_blank">Lic. Stephanie Chantal Segura Espinosa</a>
+                </div>
+            </div>
+            <div class="profesor">
+                <div>
+                    <img src="../../assets/images/instructores/usr-m.jpg" alt="">
+                </div>
+                <div>
+                    <a href="/assets/curriculums_docentes/AngelRodrigoGonzalezGonzalez.pdf" target="_blank">M. en C. Ángel Rodrigo González González</a>
+                </div>
+            </div>
+
+
+
             <div class="fecha">
                 <i class="uil uil-calendar-alt"></i>
-                <span><?php echo $fecha ?></span>
+                <span>Del 11 de
+                    marzo al 6 de mayo de 2023</span>
             </div>
+
         </div>
     </div>
 
     <div class="datos">
         <ul>
+            <!-- <li class="inline breadcrumb-item uppercase text-[13px] font-bold duration-500 ease-in-out text-white/50 hover:text-white"><a href="index-course.php">Techwind</a></li>
+                   <li class="inline breadcrumb-item uppercase text-[13px] font-bold duration-500 ease-in-out text-white/50 hover:text-white"><a href="course-listing.php">Courses</a></li>
+                    <li class="inline breadcrumb-item uppercase text-[13px] font-bold duration-500 ease-in-out text-white" aria-current="page">Web Development</li> -->
+
             <li>
                 <i class="uil uil-calendar-alt"></i>
-                <span><?php echo $dias ?></span>
+                <span class="text-white/60 ml-1">Sábado</span>
             </li>
 
             <li>
                 <i class="uil uil-bell-school"></i>
-                <span><?php echo $horario ?>h</span>
+                <span class="text-white/60 ml-1">10-13 h</span>
             </li>
 
             <li>
                 <i class="uil uil-clock"></i>
-                <span><?php echo $no_horas ?> horas</span>
+                <span class="text-white/60 ml-1">48 horas</span>
             </li>
 
             <li>
                 <i class="uil uil-map-marker"></i>
-                <span><?php echo $modalidad ?></span>
+                <span class="text-white/60 ml-1">Híbrida</span>
             </li>
 
             <li>
                 <i class="uil uil-user-circle"></i>
-                <span>Máx. <?php echo $max_alumnos ?> / Min. <?php echo $min_alumnos ?></span>
+                <span class="text-white/60 ml-1">Máx. 60 / Min. 15</span>
             </li>
 
             <li>
                 <i class="uil uil-shopping-cart text-green-600"></i>
-                <a href="#inscripcion" class="text-green-600">Inscribirse</a>
+                <a href="#inscripcion" target="" class="text-green-600">Inscribirse</a>
             </li>
         </ul>
     </div>
 </section><!--end section-->
-
-
-
 <div class="relative">
     <div class="shape absolute right-0 sm:-bottom-px -bottom-[2px] left-0 overflow-hidden z-1 text-white dark:text-slate-900">
         <svg class="w-full h-auto" viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -113,13 +126,15 @@ $info_academica="Dra. Rosalía Pastor Nieto <br> Correo electrónico: rosalia.pa
 <section class="oferta-academica md:py-20">
     <div class="container">
         <h2>Descripción</h2>
-        <p><?php echo $descripcion ?></p>
+        <p>Existen en la actualidad escasos cursos y talleres que profundicen en el campo de la Educación ambiental para la sustentabilidad, en específico, aquellos que vinculen tanto el fundamento teórico como la práctica de la educación ambiental. Se considera crucial acercar a diversos participantes en el arte de diseñar, estructurar y llevar a cabo intervenciones educativas en el campo ambiental, facilitando la vinculación y comprensión del proceso estratégico y metodológico al momento de proponer estrategias de EA. Este es uno de las aspectos originales de la presente propuesta.
+            En este curso/taller se abordará la crisis de la modernidad, sus orígenes y consecuencias que se reflejan en la situación socioecológica actual del planeta. Al respecto se revisarán algunos enfoques críticos y alternativas a dicha crisis. También se presentarán algunos antecedentes generales en la evolución del campo de la Educación ambiental, las características y elementos que la definen así como sus distintas dimensiones, con el objetivo de resaltar su importancia en el contexto actual. Se van a abordar varios paradigmas educativos y de investigación que subyacen en la educación ambiental así como diferentes aproximaciones metodológicas que favorecen la participación y el trabajo colaborativo en la práctica de la educación ambiental. Es fundamental analizar el asunto de la sustentabilidad desde una visión histórica y crítica y con base en ello se abordará dicho proceso con los Objetivos del Desarrollo Sustentable (ODS). Finalmente, a lo largo de ciertas sesiones destinadas para ello, se acompañará a los participantes en el proceso de diseño y desarrollo de sus estrategias de Educación ambiental.</p>
         <h2>Objetivo</h2>
-        <p><?php echo $objetivo ?></p>
+        <p>El curso-taller tiene la finalidad de introducir a los participantes en el campo de la Educación ambiental para la sustentabilidad y acompañarlos en el diseño, desarrollo, implementación y evaluación de una estrategia de educación ambiental, que puedan implementar en contextos específicos, de acuerdo a sus propios intereses.
+        </p>
         <h2>Dirigido a</h2>
-        <p><?php echo $dirigido_a ?></p>
-        <p class="text-red-600 mt-4">
-            Mín / Máx de alumnos: Mínimo <?php echo $min_alumnos ?>, máximo <?php echo $max_alumnos ?>.<br>
+        <p>El curso-taller tiene la finalidad de introducir a los participantes en el campo de la Educación ambiental para la sustentabilidad y acompañarlos en el diseño, desarrollo, implementación y evaluación de una estrategia de educación ambiental, que puedan implementar en contextos específicos, de acuerdo a sus propios intereses.</p>
+        <p class="text-red-600">
+            Mín / Máx de alumnos: Mínimo 15, máximo 60.<br>
             La apertura del curso está sujeta al mínimo de inscritos.</p>
     </div>
 </section>
@@ -128,10 +143,12 @@ $info_academica="Dra. Rosalía Pastor Nieto <br> Correo electrónico: rosalia.pa
 
 
 <!-- Start Section-->
-<section class="curso-horarios md:py-14">
+<section class="relative ">
 
     <div class="container">
         <div class="curso-horarios-container grid grid-cols-1 lg:grid-cols-3 md:grid-cols-1 gap-[30px]">
+
+
             <div>
                 <div>
                     <i class="uil uil-check-square"></i>
@@ -139,23 +156,26 @@ $info_academica="Dra. Rosalía Pastor Nieto <br> Correo electrónico: rosalia.pa
 
                 <div>
                     <h3>Requisitos</h3>
-                    <p><?php echo $requisitos ?></p>
-                    <div class="mt-5">
-                        <a href="#" data-type="iframe" class="video-play-icon read-more lightbox btn btn-link text-indigo-600 hover:text-indigo-600 after:bg-indigo-600 duration-500 ease-in-out">
-                        </a>
-                    </div>
+                    <p>Personas involucradas en procesos educativos formales e informales e interesadas en educación ambiental y público en general.</p>
                 </div>
             </div>
+
+
             <div>
                 <div>
                     <i class="uil uil-calendar-alt"></i>
                 </div>
+
                 <div>
                     <h3>Horario</h3>
-                    <p><?php echo $horario ?> hrs</p>
-                    <p><?php echo $dias ?></p>
+                    <p>Sesiones presenciales: Sábados<br>
+                        Horario: 10:00 a 13:00 hrs.</p>
+                    <p>Sesiones en línea: Classroom<br>
+                        Horario: Abierto</p>
+
                     <div class="mt-5">
-                        <a href="#" class="btn btn-link text-indigo-600 hover:text-red-600 after:bg-indigo-600 duration-500 ease-in-out">Total: <?php echo $no_horas ?>horas</a>
+                        <a href="#" class="btn btn-link text-indigo-600 hover:text-red-600 after:bg-indigo-600 duration-500 ease-in-out">Total:
+                            48 horas</a>
                     </div>
                 </div>
             </div>
@@ -166,132 +186,101 @@ $info_academica="Dra. Rosalía Pastor Nieto <br> Correo electrónico: rosalia.pa
 
                 <div>
                     <h3>Lugar</h3>
-                    <p><?php echo $lugar ?></p>
+                    <p>Modalidad virtual</p>
+                    <div class="mt-5">
+                        <a href="#" class="btn btn-link text-indigo-600 hover:text-red-600 after:bg-indigo-600 duration-500 ease-in-out">Classroom</a>
+                    </div>
+                    <p>Modalidad presencial</p>
+                    <div class="mt-5">
+                        <a href="#" class="btn btn-link text-indigo-600 hover:text-red-600 after:bg-indigo-600 duration-500 ease-in-out">Secretaría de Educación Abierta y Continua</a>
+                    </div>
                 </div>
             </div>
+
+
         </div>
     </div>
+
+
+
 
 
     <div class="curso-costo container">
-        <h2 class="md:text-3xl md:leading-normal">Costo</h2>
-        <!-- Si el curso no tiene descuento, solo debe quitarse el p. -->
-        <p class="text-red-600 max-w-xl mx-auto">15% de descuento por concepto de pronto pago (hasta el 3 de
-            abril)</p>
+        <div class="grid grid-cols-1 text-center">
+            <h2 class="md:text-3xl md:leading-normal">Costo</h2>
+
+            <p></p>
+        </div>
+
         <div class="grid lg:grid-cols-2 md:grid-cols-2 mt-8 gap-[30px]">
             <div class="curso-costo-g">
                 <h3>Público GENERAL</h3>
-                <!-- Para quitar el precio con descuento solo basta con borrar lo siquiente. -->
-                <!-- PRECIO GENERAL CON DESCUENTO -->
-                <div>
+                <div class="flex mb-5">
                     <span>$</span>
-                    <span style="text-decoration: line-through;"><?php echo $precio_general ?></span>
+                    <span>5,700</span>
                     <span>MXN</span>
                 </div>
-                <!-- FIN-PRECIO GENERAL CON DESCUENTO -->
 
-                <!-- PRECIO GENERAL-->
-                <div>
-                    <span>$</span>
-                    <span class="price text-4xl font-semibold mb-0"><?php echo $precio_general_descuento ?></span>
-                    <span>MXN</span>
-                </div>
-                <!-- FIN - PRECIO GENERAL  -->
 
                 <a href="#inscripcion" class="btn">Inscribirse</a>
             </div>
-
 
             <div class="curso-costo-g">
                 <h3>Comunidad UNAM</h3>
-                <div>
+                <div class="flex mb-5">
                     <span>$</span>
-                    <span style="text-decoration: line-through;"><?php echo $precio_unam ?></span>
+                    <span>4,800</span>
                     <span>MXN</span>
                 </div>
-                <div>
-                    <span>$</span>
-                    <span class="price text-4xl font-semibold mb-0"><?php echo $precio_unam_descuento ?></span>
-                    <span>MXN</span>
-                </div>
-
 
                 <ul>
-                    <li><i class="uil uil-check-circle"></i>Alumnos, exalumnos
-                        y personal de la UNAM</li>
+                    <li><i class="uil uil-check-circle"></i>Alumnos, exalumnos, personal de la UNAM y tesistas de la UNAM.</li>
                     <li><i class="uil uil-check-circle"></i>También aplica
-                        para afiliados a Fundación UNAM</li>
+                        para afiliados a fundación UNAM</li>
                 </ul>
-
-                <a href="#inscripcion" class="btn">Inscribirse</a>
+                <a href="" class="btn bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md mt-5">Inscribirse</a>
             </div>
         </div>
     </div>
-
 </section>
 
 
-<!-- TEMARIO SECCIÓN: LOS <h3> son temas principales y los <td> son subtemas. -->
-<section class="temario container">
+
+
+<section class="temario md:py-24 container">
     <h2>Temario</h2>
     <div class="secciones grid md:grid-cols-2 grid-cols-1">
-        <!-- ******SECCIÓN PARA CADA TEMA CON SUS SUBTEMAS *****-->
         <div>
-            <h3>I. Introducción a la Rehabilitación de Fauna Silvestre</h3>
+            <h3>I. Panorama actual de la situación socioecológica </h3>
+
             <div class="contenido">
                 <table>
                     <thead>
                         <tr>
                             <th>Temas</th>
+
                         </tr>
                     </thead>
 
                     <tbody>
                         <tr>
-                            <td> I.1 Historia</td>
+                            <td> I.1 Breve revisión de la crisis de la modernidad</td>
+
                         </tr>
 
                         <tr>
-                            <td>I.2. Especies vulnerables a desastres naturales</a></td>
+                            <td> I.2 Los problemas enredados (wicked problems) y el enfoque transdisciplinario </td>
+
                         </tr>
 
                         <tr>
-                            <td>I.3. Casos de éxito</td>
+                            <td> I.3 El enfoque biocultural como alternativa a la crisis de la modernidad</td>
+
                         </tr>
 
                         <tr>
-                            <td>I.4. Diseño y criterios para el establecimiento de un centro de rescate de fauna</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-        <!--********FIN DE SECCIÓN PARA CADA TEMA CON SUS SUBTEMAS********-->
-        
-        <div>
-            <h3>II. Criterios para Rescatar y Rehabilitar Fauna silvestre</h3>
+                            <td> Revisión del entorno donde los participantes pretenden desarrollar la estrategia de EAS</td>
 
-            <div class="contenido">
-                <table>
-                    <thead>
-                        <tr>
-                            <th>
-                                Temas
-                            </th>
-                        </tr>
-                    </thead>
-
-                    <tbody>
-                        <tr>
-                            <td>
-                                II.1 Lineamientos internacionales para la rehabilitación de Fauna Silvestre
-                            </td>
-                        </tr>
-
-                        <tr>
-                            <td>
-                                II.2. Criterios para la rehabilitación, reintroducción o destino final
-                            </td>
                         </tr>
                     </tbody>
                 </table>
@@ -299,41 +288,7 @@ $info_academica="Dra. Rosalía Pastor Nieto <br> Correo electrónico: rosalia.pa
         </div>
 
         <div>
-            <h3>III. Manejo de Animales Rescatados</h3>
-            <div class="contenido">
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Temas</th>
-                        </tr>
-                    </thead>
-
-                    <tbody>
-                        <tr>
-                            <td>III.1. Cuidados de animales huérfanos
-                            </td>
-
-                        </tr>
-
-                        <tr>
-                            <td>III.2.
-                                Cuidado de animales lastimados
-                            </td>
-                        </tr>
-
-                        <tr>
-                            <td>III.3.
-                                Manejo de heridas
-                            </td>
-                        </tr>
-
-                    </tbody>
-                </table>
-            </div>
-        </div>
-
-        <div>
-            <h3>IV. Manejo, Transporte Contención Física y Química de Fauna Silvestre</h3>
+            <h3>II. ¿Qué es educación ambiental?</h3>
 
             <div class="contenido">
                 <table>
@@ -345,168 +300,116 @@ $info_academica="Dra. Rosalía Pastor Nieto <br> Correo electrónico: rosalia.pa
 
                     <tbody>
                         <tr>
-                            <td>IV.1.
-                                Contención física
-                            </td>
+                            <td>II.1 Modelos educativos (conductismo, constructivismo, aprendizaje basado en problemas, etc.)</td>
                         </tr>
 
                         <tr>
-                            <td>IV.2.
-                                Contención química
-                            </td>
+                            <td>II.2 Elementos característicos y dimensiones de la educación ambiental</td>
+
+                        </tr>
+                        <tr>
+                            <td>II.3 Paradigmas de la Investigación ambiental (positivismo, teoría crítica, interpretativismo)</td>
+
+                        </tr>
+                        <tr>
+                            <td>II.4 Enfoques de la EA (instrumental, crítico-social, subversión, transgresión)</td>
+
+                        </tr>
+                        <tr>
+                            <td>II.5 Propuesta inicial de la estrategia a desarrollar</td>
+
                         </tr>
 
-                        <tr>
-                            <td>IV.3.
-                                Transporte y movilización segura seguro de especies
-                            </td>
-                        </tr>
                     </tbody>
                 </table>
             </div>
         </div>
 
-
         <div>
-            <h3>V. Descontaminación y Manejo Clínico de Fauna silvestre en Desastres naturales</h3>
+            <h3>III. La perspectiva socio-ecológica y la sustentabilidad
+            </h3>
 
             <div class="contenido">
                 <table>
                     <thead>
                         <tr>
                             <th>Temas</th>
+
                         </tr>
                     </thead>
 
                     <tbody>
                         <tr>
-                            <td>V.1.
-                                Manejo clínico de aves y mamíferos victimas de desastres naturales
-                                <ul class="p-6 list-disc ">
-                                    <li>manejo de descontaminación</li>
-                                </ul>
-                            </td>
+                            <td>III.1 Puntos de apalancamiento para la sustentabilidad</td>
                         </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-        <div>
-            <h3>VI. Fundamentos para la rehabilitación de aves</h3>
-            <div class="contenido">
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Temas</th>
-                        </tr>
-                    </thead>
 
-                    <tbody>
                         <tr>
-                            <td>VI.1.
-                                Exámen clínico de aves
+                            <td>III.2 Los Objetivos del desarrollo sustentable</td>
+                        </tr>
+
+                        <tr>
+                            <td>III.3 Capacidades para la sustentabilidad
                             </td>
                         </tr>
-                    </tbody>
-                    <tbody>
                         <tr>
-                            <td>VI.2.
-                                Criterios para su rehabilitación y liberación
+                            <td>III.4 Profundización en el contexto y entorno de la estrategia de EAS
                             </td>
                         </tr>
+
+
                     </tbody>
                 </table>
             </div>
         </div>
+
         <div>
-            <h3>VII. Fundamentos para la rehabilitación de reptiles</h3>
+            <h3>IV. Metodología y recursos para la implementación de la estrategia de EAS: Los enfoques participativos </h3>
 
             <div class="contenido">
                 <table>
                     <thead>
                         <tr>
                             <th>Temas</th>
+
                         </tr>
                     </thead>
 
                     <tbody>
                         <tr>
-                            <td>VII.1.
-                                Exámen clínico de reptiles
-                            </td>
+                            <td> IV.1 Aprendizaje social, Investigación Acción Participativa, co-manejo adaptativo del territorio</td>
+
                         </tr>
-                    </tbody>
-                    <tbody>
+
                         <tr>
-                            <td>VII.2.
-                                Criterios para su rehabilitación y liberación
-                            </td>
+                            <td>IV.2 Ecociudadanía</td>
+
                         </tr>
+                        <tr>
+                            <td>IV.2 Ecología cívica</td>
+
+                        </tr>
+
                     </tbody>
                 </table>
             </div>
         </div>
         <div>
-            <h3>VIII. Fundamentos para la rehabilitación de mamíferos</h3>
-            <div class="contenido">
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Temas</th>
-                        </tr>
-                    </thead>
-
-                    <tbody>
-                        <tr>
-                            <td>VIII.1.
-                                Exámen clínico de mamíferos
-
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>VIII.2.
-                                Criterios para su rehabilitación y liberación
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
+            <h3>V. Presentación de las estrategias de EAS</h3>
         </div>
-        <div>
-            <h3>IX. Temas selectos en rehabilitación</h3>
-            <div class="contenido">
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Temas</th>
-                        </tr>
-                    </thead>
-
-                    <tbody>
-                        <tr>
-                            <td>IX.1.
-                                Criterios para su rehabilitación y liberación
-                                <ul class="p-6 list-disc ">
-                                    <li>Primates</li>
-                                    <li>Felinos</li>
-                                    <li>Aves</li>
-                                </ul>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-
     </div>
+
+
 </section>
+
+
 
 
 <!-- Start -->
 <section class="inscripcion md:py-24" id="inscripcion">
     <div class="container">
         <div class="titulo">
-            <h2>Inscripción</h2>
+            <h2 class="md:text-3xl md:leading-normal">Inscripción</h2>
+            <p>.</p>
         </div>
 
         <div class="pasos">
@@ -530,7 +433,7 @@ $info_academica="Dra. Rosalía Pastor Nieto <br> Correo electrónico: rosalia.pa
                         <div class="md:ml-8 md:mt-0">
                             <h4>Registrarse en este formato de inscripción</h4>
                             <p>(únicamente si usted ya hizo el pago)</p>
-                            <p><a href=<?php echo $formato_inscripcion ?> target="_blank" class="btn btn-link text-indigo-600 hover:text-red-600 after:bg-indigo-600 duration-500 ease-in-out">Formato
+                            <p><a href="https://forms.gle/EecbsbhoM6DSAsqj9" target="_blank" class="btn btn-link text-indigo-600 hover:text-red-600 after:bg-indigo-600 duration-500 ease-in-out">Formato
                                     de inscripción</a></p>
                         </div>
                     </div>
@@ -546,6 +449,9 @@ $info_academica="Dra. Rosalía Pastor Nieto <br> Correo electrónico: rosalia.pa
     </div>
 </section><!--end section-->
 <!-- End -->
+
+
+
 
 <div class="ayuda container md:mt-24">
     <div class="titulo">
@@ -587,7 +493,9 @@ $info_academica="Dra. Rosalía Pastor Nieto <br> Correo electrónico: rosalia.pa
                 </h2>
                 <div id="info-acad" class="hidden" aria-labelledby="info-acad-col">
                     <div class="p-5">
-                        <p class="text-slate-400 dark:text-gray-400"><?php echo $info_academica?> 
+                        <p class="text-slate-400 dark:text-gray-400">M. en C. Jorge A. Moreno Hernández
+                            <br>
+                            Correo electrónico: jmh@ciencias.unam.mx
                         </p>
                     </div>
                 </div>
@@ -598,5 +506,5 @@ $info_academica="Dra. Rosalía Pastor Nieto <br> Correo electrónico: rosalia.pa
 </div>
 
 <?php
-include '../includes/templates/footer.php';
+include '../../includes/templates/footer.php';
 ?>

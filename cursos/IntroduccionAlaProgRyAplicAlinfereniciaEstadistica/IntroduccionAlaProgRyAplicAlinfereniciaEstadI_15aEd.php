@@ -1,47 +1,32 @@
 <?php
-include '../includes/templates/header.php';
+include '../../includes/templates/header.php';
 ?>
+
 <!-- Start Hero -->
 <section class="portada">
-    <img src="../../assets/images/cursos/bg-DivulgacionCiencia.webp" alt="">
+    <img src="../../assets/images/cursos/bg-CursoR.webp" alt="">
     <div class="portada-opacity"></div>
     <div class="container">
         <div class="portada-informacion">
-            <span class="portada-informacion-pu">$2,200 /
+            <span class="portada-informacion-pu">$4,000 /
                 UNAM</span>
-            <span class="portada-informacion-pg">$2,600 /
+            <span class="portada-informacion-pg">$5,000 /
                 GENERAL</span>
-            <h1>Introducción a la divulgación de la Ciencia</h1>
-            <p>6ta. Edición</p>
+            <h1>Introducción a la programación en R y su aplicación a la inferencia estadística I</h1>
+            <p>15a. Edición</p>
             <div class="profesor">
                 <div>
-                    <img src="../assets/images/instructores/usr-m.jpg" alt="">
+                    <img src="../../assets/images/instructores/usr-m.jpg" alt="">
                 </div>
                 <div>
-                    <a href="#" target="_blank">Maestra en Ciencias Patricia Magaña Rueda</a>
-                </div>
-            </div>
-            <div class="profesor">
-                <div>
-                    <img src="../assets/images/instructores/usr-m.jpg" alt="">
-                </div>
-                <div>
-                    <a href="#" target="_blank">Dra.Clementina Equihua Zamora</a>
-                </div>
-            </div>
-            <div class="profesor">
-                <div>
-                    <img src="../assets/images/instructores/usr-m.jpg" alt="">
-                </div>
-                <div>
-                    <a href="#" target="_blank">Dra.Bio. Paloma Zubieta López</a>
+                    <a href="../../assets/curriculums_docentes/JesusJuradoMolina.pdf" target="_blank">Dr. Jesús Jurado Molina</a>
                 </div>
             </div>
 
             <div class="fecha">
                 <i class="uil uil-calendar-alt"></i>
-                <span>Del 14 de
-                    abril al 12 de mayo del 2023</span>
+                <span>Del 6 de mayo
+                    al 24 de junio de 2023</span>
             </div>
 
         </div>
@@ -55,27 +40,27 @@ include '../includes/templates/header.php';
 
             <li>
                 <i class="uil uil-calendar-alt"></i>
-                <span class="text-white/60 ml-1">Viernes</span>
+                <span class="text-white/60 ml-1">Sábado</span>
             </li>
 
             <li>
                 <i class="uil uil-bell-school"></i>
-                <span class="text-white/60 ml-1">16-20h</span>
+                <span class="text-white/60 ml-1">10-15 h</span>
             </li>
 
             <li>
                 <i class="uil uil-clock"></i>
-                <span class="text-white/60 ml-1">20 horas</span>
+                <span class="text-white/60 ml-1">40 horas</span>
             </li>
 
             <li>
                 <i class="uil uil-map-marker"></i>
-                <span class="text-white/60 ml-1">Vía Zoom</span>
+                <span class="text-white/60 ml-1">Vía Zoom o Meet</span>
             </li>
 
             <li>
                 <i class="uil uil-user-circle"></i>
-                <span class="text-white/60 ml-1">Máx. 20 / Min. 15</span>
+                <span class="text-white/60 ml-1">Máx. 60 / Min. 15</span>
             </li>
 
             <li>
@@ -98,19 +83,37 @@ include '../includes/templates/header.php';
 <section class="oferta-academica md:py-20">
     <div class="container">
         <h2>Descripción</h2>
-        <p>El curso busca introducir a los participantes las bases de la divulgación científica o
-            comunicación pública de la ciencia, que es un área de trabajo que requiere formación académica,
-            entendimiento de lo que la ciencia es y como funciona, así como las maneras de comunicarla al
-            público de manera exitosa.</p>
+        <p>La mayoría de los fenómenos que se estudian en la biología, ecología, ciencias de la
+            salud, ciencias sociales, ciencias ambientales, ingeniería etc., presentan una variabilidad natural
+            inherente por lo que para su estudio y análisis es necesario usar técnicas cuantitativas y
+            herramientas estadísticas. En particular la inferencia estadística ha jugado un papel muy importante
+            en la prueba de hipótesis y análisis de datos. Debido a la complejidad de los fenómenos y la
+            cantidad significante de datos que se recopilan en la actualidad, es necesario usar computadoras y
+            software estadístico para facilitar las tareas de investigación. Aunque existen una cantidad
+            importante de paquetes de software estadístico (SPSS, Statistica, Systat, Minitab, etc.), el paquete
+            estadístico R se ha posicionado como uno de los paquetes estadísticos preferidos en la
+            investigación. R es un lenguaje y medioambiente para el cómputo estadístico y gráficas. Es un
+            software de acceso abierto y gratuito, basado en el lenguaje y medioambiente S desarrollado por Bell
+            laboratorios. R provee una gran variedad de técnicas estadísticas (modelación linear y no linear,
+            pruebas de estadística clásica, análisis de series de tiempo, clasificación, clustering….) y
+            graficas. R se compila y corre en una variedad de sistemas operativos (Windows, Mac, Linux, etc.).
+            Otra característica importante de R es su capacidad para expandir sus capacidades a través de la
+            incorporación de paquetes desarrollados por un número importante de contribuyentes. Estas
+            características confieren a R una gran flexibilidad y poder para realizar análisis estadísticos y
+            gráficos por lo que es muy recomendable su aprendizaje y uso para estudiantes y científicos en la
+            mayoría de las áreas de la ciencia. Para aquellos fenómenos complejos que requieren un enfoque
+            cuantitativo en su análisis, el paquete estadístico R es la herramienta ideal en la investigación.
+        </p>
         <h2>Objetivo</h2>
-        <p>Que los participantes comprendan las bases generales para hacer divulgación científica.
+        <p>Aprender la programación y uso del paquete estadístico R y sus aplicaciones a la
+            enseñanza y la investigación.
         </p>
         <h2>Dirigido a</h2>
-        <p> Académicos, profesores, comunicadores y todo aquel interesado en divulgar ideas
-            científicas a público no especializado.
+        <p>Biólogos, Oceanógrafos, Oceanólogos, economistas, físicos, matemáticos, estudiantes de
+            postgrado, investigadores y profesionales en áreas multidisciplinarias.
         </p>
         <p class="text-red-600">
-            Mín / Máx de alumnos: Mínimo 15, máximo 20.<br>
+            Mín / Máx de alumnos: Mínimo 15, máximo 60.<br>
             La apertura del curso está sujeta al mínimo de inscritos.</p>
     </div>
 </section>
@@ -132,7 +135,7 @@ include '../includes/templates/header.php';
 
                 <div>
                     <h3>Requisitos</h3>
-                    <p>Algún dispositivo para tomar clase.</p>
+                    <p>Conocimientos básicos de estadística y calculo diferencial</p>
 
                     <div class="mt-5">
                         <a href="#" data-type="iframe" class="video-play-icon read-more lightbox btn btn-link text-indigo-600 hover:text-indigo-600 after:bg-indigo-600 duration-500 ease-in-out">
@@ -149,11 +152,12 @@ include '../includes/templates/header.php';
 
                 <div>
                     <h3>Horario</h3>
-                    <p>Sábado<br>
-                        Horario: 16:00 a 20:00 hrs.</p>
+                    <p>Sábado.<br>
+                        Horario: 10:00 a 15:00 hrs.</p>
+
                     <div class="mt-5">
                         <a href="#" class="btn btn-link text-indigo-600 hover:text-red-600 after:bg-indigo-600 duration-500 ease-in-out">Total:
-                            20 horas</a>
+                            40 horas</a>
                     </div>
                 </div>
             </div>
@@ -162,9 +166,15 @@ include '../includes/templates/header.php';
                 <div>
                     <i class="uil uil-map-marker"></i>
                 </div>
+
                 <div>
                     <h3>Lugar</h3>
-                    <p>Zoom</p>
+                    <p>Modalidad virtual</p>
+
+                    <div class="mt-5">
+                        <a href="#" class="btn btn-link text-indigo-600 hover:text-red-600 after:bg-indigo-600 duration-500 ease-in-out">Vía
+                            Zoom o Meet</a>
+                    </div>
                 </div>
             </div>
 
@@ -177,16 +187,18 @@ include '../includes/templates/header.php';
 
 
     <div class="curso-costo container">
-        <h2 class="md:text-3xl md:leading-normal">Costo</h2>
+        <div class="titulo">
+            <h3 class="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">Inscripci</h3>
 
-        <p></p>
+            <p></p>
+        </div>
         <div class="grid lg:grid-cols-2 md:grid-cols-2 mt-8 gap-[30px]">
             <div class="curso-costo-g">
                 <h3>Público GENERAL</h3>
 
                 <div class="flex mb-5">
                     <span>$</span>
-                    <span>2,600</span>
+                    <span>5,000</span>
                     <span>MXN</span>
                 </div>
 
@@ -200,17 +212,18 @@ include '../includes/templates/header.php';
 
                 <div class="flex mb-5">
                     <span>$</span>
-                    <span>2,200</span>
+                    <span>4,000</span>
                     <span>MXN</span>
                 </div>
 
                 <ul>
-                    <li><i class="uil uil-check-circle"></i>Alumnos,
-                        exalumnos, personal y tesistas de la UNAM. Aplica también afiliados a Fundación UNAM
-                    </li>
+                    <li><i class="uil uil-check-circle"></i>Alumnos, exalumnos
+                        y personal de la UNAM</li>
                     <li><i class="uil uil-check-circle"></i>También aplica
                         para afiliados a Fundación UNAM</li>
-
+                    <li><i class="uil uil-check-circle"></i>Para este curso
+                        las inscripciones son a través de Fundación UNAM: consulta aquí el Proceso de
+                        inscripción y formas de pago para este curso</li>
                     <li><i class="uil uil-exclamation-circle"></i>Toda vez que
                         este es un programa académico administrado por Fundación UNAM, AC no se acepta
                         ningún tipo de beca AAPAUNAM o STUNAM.</li>
@@ -218,7 +231,6 @@ include '../includes/templates/header.php';
 
                 <a href="#inscripcion" class="btn">Inscribirse</a>
             </div>
-
         </div>
     </div>
 
@@ -235,13 +247,7 @@ include '../includes/templates/header.php';
     <h2>Temario</h2>
     <div class="secciones grid md:grid-cols-2 grid-cols-1">
         <div>
-            <h5 class="text-lg font-semibold mb-5">I. Ciencia</h5>
-        </div>
-
-        <div>
-            <h3>II. La importancia de una cultura científica en la
-                sociedad</h3>
-
+            <h3>I. Introducción al paquete estadístico R </h3>
             <div class="contenido">
                 <table>
                     <thead>
@@ -253,133 +259,48 @@ include '../includes/templates/header.php';
 
                     <tbody>
                         <tr>
-                            <td> II.1 Historia de la
-                                divulgación
-                            </td>
-
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-
-        <div>
-            <h3>III. La ciencia que requiere un ciudadano</h3>
-
-            <div class="contenido">
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Temas</th>
-
-                        </tr>
-                    </thead>
-
-                    <tbody>
-                        <tr>
-                            <td>III.1.
-                                Las pseudociencias y las noticias falsas</a>
-                            </td>
+                            <td> I.1 Breve introducción
+                                histórica de Excel y R</td>
 
                         </tr>
 
-                    </tbody>
-                </table>
-            </div>
-        </div>
-
-
-        <div>
-            <h3>IV. Divulgación</h3>
-
-            <div class="contenido">
-                <table>
-                    <thead>
                         <tr>
-                            <th>Temas</th>
+                            <td> I.2 Descarga e instalación de
+                                R </td>
 
                         </tr>
-                    </thead>
 
-                    <tbody>
                         <tr>
-                            <td>IV.1.
-                                Definiciones de difusión y divulgación
-                            </td>
+                            <td> I.3 El medioambiente R
+                                (interface de comandos en R y Rstudio)</td>
 
                         </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
 
-        <div>
-            <h3>V. Públicos</h3>
-
-            <div class="contenido">
-                <table>
-                    <thead>
                         <tr>
-                            <th>Temas</th>
+                            <td> I.4 Instalación y descarga de
+                                paquetes</td>
 
                         </tr>
-                    </thead>
 
-                    <tbody>
                         <tr>
-                            <td>V.1.
-                                Conocer al público
-                            </td>
-
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-
-        <div>
-            <h3>VI. Medios</h3>
-
-            <div class="contenido">
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Temas</th>
-
-                        </tr>
-                    </thead>
-
-                    <tbody>
-                        <tr>
-                            <td>VI.1.
-                                Escritos
-                            </td>
-
-                        </tr>
-                        <tr>
-                            <td>VI.2.
-                                Audiovisuales
-                            </td>
-
-                        </tr>
-                        <tr>
-                            <td>VI.3.
-                                Actividades directas:
+                            <td> I.4 Aspectos básicos de R
                                 <ul class="p-6 list-disc ">
-                                    <li>Museos</li>
-                                    <li>Más</li>
+                                    <li>Matemáticas básicas</li>
+                                    <li>Tipos de variables</li>
+                                    <li>Tipos de datos</li>
+                                    <li>Vectores</li>
                                 </ul>
                             </td>
 
                         </tr>
+
+
                     </tbody>
                 </table>
             </div>
         </div>
-
         <div>
-            <h3>VII. Escribir</h3>
-
+            <h3>II. Manipulación de datos en R </h3>
             <div class="contenido">
                 <table>
                     <thead>
@@ -391,18 +312,53 @@ include '../includes/templates/header.php';
 
                     <tbody>
                         <tr>
-                            <td>VII.1.
-                                Escribir y diseñar un proyecto
+                            <td>II.1 Estructuras avanzadas de
+                                datos
+                                <ul class="p-6 list-disc ">
+                                    <li>Matrices</li>
+                                    <li>Arreglos</li>
+                                    <li>data.frames</li>
+                                    <li>Objetos</li>
+                                </ul>
                             </td>
 
                         </tr>
+
+                        <tr>
+                            <td>II.2 Lectura de datos
+                                <ul class="p-6 list-disc ">
+                                    <li>Datos de archivos csv</li>
+                                    <li>Datos de archivos txt</li>
+                                    <li>Datos disponibles en R</li>
+                                    <li>Datos disponibles en paquetes e internet</li>
+                                </ul>
+                            </td>
+
+                        </tr>
+
+
+                        <tr>
+                            <td>II.3 Graficación en R
+                                <ul class="p-6 list-disc ">
+                                    <li>Graficación básica</li>
+                                    <li>Principios del análisis exploratorio de datos</li>
+                                    <li>Histogramas</li>
+                                    <li>Boxplots</li>
+                                    <li>Graficas de dispersión</li>
+                                </ul>
+                            </td>
+
+                        </tr>
+
+
                     </tbody>
                 </table>
             </div>
         </div>
-        <div>
-            <h3>VIII. Evaluación</h3>
 
+        <div>
+            <h3>III. Modelos estadísticos e inferencia estadística
+                en R</h3>
             <div class="contenido">
                 <table>
                     <thead>
@@ -414,100 +370,47 @@ include '../includes/templates/header.php';
 
                     <tbody>
                         <tr>
-                            <td>VIII.1.
-                                De un proyecto
+                            <td>III.1 Distribuciones de
+                                probabilidad
+                                <ul class="p-6 list-disc ">
+                                    <li>Distribución binomial</li>
+                                    <li>Distribución de Poisson</li>
+                                    <li>Distribución Normal</li>
+                                    <li>Otras distribuciones</li>
+
+                                </ul>
                             </td>
 
                         </tr>
-                    </tbody>
-                    <tbody>
+
                         <tr>
-                            <td>VIII.1.
-                                De un producto
+                            <td>III.2 Inferencia estadística
+                                <ul class="p-6 list-disc ">
+                                    <li>Resumen de estadísticas</li>
+                                    <li>Correlación y varianza</li>
+                                    <li>Prueba de Chi cuadrada</li>
+                                    <li>Prueba de t</li>
+                                    <li>Prueba de F</li>
+                                    <li>ANOVA</li>
+
+                                </ul>
                             </td>
 
                         </tr>
+
+
+
+
                     </tbody>
                 </table>
             </div>
         </div>
-        <div>
-            <h3>IX. Revisión de trabajos</h3>
-        </div>
-    </div>
-
-</section>
-
-
-<section class="relative">
-
-    <div class="container">
-
-        <div class="grid grid-cols-1 mt-8">
-            <h5 class="text-2xl font-semibold mb-5">Bibliografía</h5>
-        </div>
-
-        <div class=" pt-6 pb-8 gap-[30px]">
-            <ul class="list- text-lg list-disc">
-                <li>Bonfil, M. 2018. ¿Quién divulga la ciencia?
-                    https://lacienciaporgusto.blogspot.com/2018/07/quien-divulga-la-ciencia.php</li>
-
-                <li>Bonfil, M. 2018. ¿Hasta dónde es ciencia la ciencia?
-                    https://lacienciaporgusto.blogspot.com/2018/03/hasta-donde-es-ciencia-la-ciencia.php</li>
-
-                <li>Bonfil, M., 2016. Cuando la ciencia mete la pata.
-                    https://lacienciaporgusto.blogspot.com/2016/03/cuando-la-ciencia-mete-la-pata.php</li>
-
-                <li>Garcı́a G.M., 2008. Ciencia en todos los rincones. Manual de divulgación en talleres Universidad
-                    Autónoma de Zacatecas
-                    https://www.somedicyt.org.mx/medios/hemerobiblioteca-virtual.php?view=document&id=60:ciencia-interiores&catid=25:libros</li>
-
-                <li>Herrera, S. y Orozco, C.E. 2018. Comunicar ciencia en México. Prácticas y escenarios.
-                    https://www.somedicyt.org.mx/medios/hemerobiblioteca-virtual.php?view=document&id=139:comunicar-ciencia-en-mexico&catid=25:libros</li>
-
-                <li>Magaña, P. y L. Patiño, 2019. La creación de historias de ciencia. Somedicyt y Conacyt.
-                    https://www.somedicyt.org.mx/medios/hemerobiblioteca-virtual.php?view=document&id=150:la-creacion-de-historias-de-ciencia&catid=25:libros</li>
-
-                <li>Pérez, T. R., 1998. ¿Existe el método científico?: historia y realidad. 3ª ed. Fondo de Cultura
-                    Económica.
-                    http://bibliotecadigital.ilce.edu.mx/sites/ciencia/volumen3/ciencia3/161/html/metodo.php</li>
-                <li>Pérez, T. R. Sobre la divulgación cientı́fica en México.
-                    https://www.somedicyt.org.mx/medios/hemerobiblioteca-virtual.php?view=document&id=37:perez-tamayo-acerca-de-la-divulgacion&catid=23:artic</li>
-
-                <li>Olivé, L. 1997. La comunicación científica y la filosofía. Ciencias, núm. 46, abril-junio, pp.
-                    48-56.
-                    http://www.revistaciencias.unam.mx/es/195-revistas/revista-ciencias-46/1852-la-comunicaci%C3%B3ncient%C3%ADfica-y-la-filosof%C3%ADa.php</li>
-
-                <li>Ortega L., Carlos; Shi-Hai Dong, Silvia V. y Cruz, M. 2017. La dualidad de la información, clásica
-                    versus cuántica. Ciencias, núm. 124, abril-junio, pp. 22-24.
-                    http://www.revistaciencias.unam.mx/es/204-revistas/revista-ciencias-124/2065-la-dualidad-de-lainformaci%C3%B3n-cl%C3%A1sica-versus-cu%C3%A1ntica.php</li>
-
-                <li>Pacheco, M.F., 2003. La divulgación de la ciencia. Ciencias 71.
-                    http://www.revistaciencias.unam.mx/images/stories/Articles/71/CNS07106.pdf</li>
-
-                <li>Rebolledo, F. 2007. La ciencia nuestra de cada día. Fondo de Cultura Económica. México. 243 pp.
-                    Sánchez Mora, Ana Marı́a. La divulgación de la ciencia como literatura. Dirección General de
-                    Divulgación de la Ciencia, UNAM, 2011. 127 páginas.</li>
-
-                <li>Sánchez, A. M., 2013 Introducción a la comunicación escrita de la ciencia. Universidad Veracruzana.
-                    Sánchez, A. M., 2008. Pequeño manual de apoyo para redactar textos ambientales.
-                    https://www.somedicyt.org.mx/medios/hemerobiblioteca-virtual.php?view=document&id=69:pequeno-manualana-maria-sanchez&catid=25:libros</li>
-
-                <li>Sánchez, C., Reynoso, E., Sánchez, A. M. y Tagü eñ a, J., 2015. Public communication of science in Mexico: Past, present and future of a profession
-                    https://journals.sagepub.com/doi/pdf/10.1177/0963662514527204</li>
-
-                <li>Solis, L., Magaña M. y Muñoz, H., 2016. Manual básico de video para la comunicación y el periodismo de ciencia https://www.somedicyt.org.mx/medios/hemerobiblioteca-virtual.php?view=document&id=130:manual-basico-de-video-para-la-comunicacion-y-el-periodismo-de-ciencia&catid=25:libros</li>
-
-                <li>Tonda, M. J., 1999. ¿Qué es la divulgació n de la ciencia? Ciencias 55-56. http://www.revistaciencias.unam.mx/es/busqueda/autor/104-revistas/revista-ciencias-55/864-ique-es-la-divulgacion-de-la-ciencia.php</li>
-
-                <li>Tonda, J., Sánchez, A. M. y Chávez, N. 2002. Antología de la divulgación de la ciencia en México. Dirección General de Divulgación de la Ciencia, UNAM. México. 378 pp.</li>
-                <li>Tonda, J., Sánchez, A. M. y Chávez, N. 2002. Antología de la divulgación de la ciencia </li>
-
-            </ul>
-        </div>
 
     </div>
 </section>
+
+
+
 
 <!-- Start -->
 <section class="inscripcion md:py-24" id="inscripcion">
@@ -516,7 +419,6 @@ include '../includes/templates/header.php';
             <h2 class="md:text-3xl md:leading-normal">Inscripción</h2>
             <p>.</p>
         </div>
-
         <div class="pasos">
             <div class="relative after:content-[''] after:absolute after:top-0 md:after:right-0 md:after:left-0 after:w-px after:h-full md:after:m-auto after:border-l-2 after:border-dashed after:border-gray-200 dark:after:border-gray-700 ml-3 md:ml-0">
                 <!--Start content-->
@@ -552,8 +454,12 @@ include '../includes/templates/header.php';
 
                         </div>
                     </div>
+
+
+
                 </div>
                 <!--End content-->
+
             </div>
         </div>
         <p class="advertencia"><i class="uil uil-exclamation-circle"></i>Comunidad
@@ -604,9 +510,9 @@ include '../includes/templates/header.php';
                 </h2>
                 <div id="info-acad" class="hidden" aria-labelledby="info-acad-col">
                     <div class="p-5">
-                        <p class="text-slate-400 dark:text-gray-400">M. en C. Jorge A. Moreno Hernández
-                            <br>
-                            Correo electrónico: jmh@ciencias.unam.mx
+                        <p class="text-slate-400 dark:text-gray-400">Dr. Jesús Jurado-Molina <br>
+Correo electrónico: jjurado@uw.edu
+
                         </p>
                     </div>
                 </div>
@@ -617,5 +523,5 @@ include '../includes/templates/header.php';
 </div>
 
 <?php
-include '../includes/templates/footer.php';
+include '../../includes/templates/footer.php';
 ?>

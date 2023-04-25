@@ -1,91 +1,75 @@
 <?php
-include '../includes/templates/header.php';
+include '../../includes/templates/header.php';
 ?>
 
-<?php
-
-$titulo_curso = "Bioestadística";
-$imagen_curso = "../../assets/images/cursos/bg-bioestadistica.webp";
-$edicion = "16a. Edición";
-$fecha = "Del 3 de marzo al 28 de abril de 2023";
-$precio_unam = "5,000";
-$precio_general = "6,000";
-$dias = "Lunes Jueves";
-$horario = "17:00 a 20:00";
-$no_horas = "50";
-$modalidad = "Vía Meet y Moodle";
-$max_alumnos = "30";
-$min_alumnos = "15";
-$descripcion = "Este curso fue diseñado para aportar bases teóricas y prácticas necesarios para el proceso de la información, el curso está montado en la plataforma educativa Moodle, la cual permite la interacción profesor-alumno, alumno-alumno, contar con los contenidos en diferentes formatos, textos, imágenes, videos, tutoriales, ejercicios necesarios y complementarios para el curso A través de esta interfase el asistente puede tomar las lecciones en línea, realizar las actividades (tareas y ejercicios evaluaciones), contar con retroalimentación, también la plataforma a través de diferentes herramientas permite la discusión y aportaciones de los asistentes y con ellos tener un aprendizaje colaborativo. Las lecciones están apoyadas con software educativo, propio y libre que brinda elementos teóricos y prácticos, del proceso de información. En las sesiones sincrónicas se revisan los temas de mayor complejidad y se hace la aclaración de dudas de los contenidos y materiales en línea.";
-$objetivo = "La finalidad de este curso es aportar al asistente los conocimientos básicos de la teoría y la práctica necesarios para el adecuado proceso de la información, desde la generación o recolección de los datos, hasta la toma de decisiones a través de la descripción de la información, estimación de parámetros, y la adecuada aplicación de las pruebas de hipótesis.";
-$dirigido_a = "Estudiantes, profesionales del área químico-biológica, de la salud y áreas a fines (este curso, está dirigido básicamente a médicos, biólogos, enfermeros, psicólogos, trabajadores sociales).";
-$requisitos = "Licenciatura (mínimo 60% de créditos).";
-$lugar = "Meet <br> Moodle <br> Abierto las 24horas";
-$formato_inscripcion = "https://forms.gle/yA4Vr2xaF2QGzHf88";
-$info_academica="M. en C. Jorge A. Moreno Hernández <br> Correo electrónico: jmh@ciencias.unam.mx"
-?>
-
-
-<!-- =========== PORTADA PRINCIPAL ========== -->
-
+<!-- Start Hero -->
 <section class="portada">
-    <img src="../../assets/images/cursos/bg-bioestadistica.webp" alt="">
+    <img src="../../assets/images/cursos/bg-EstadisticaEnBiologia1.webp" alt="">
     <div class="portada-opacity"></div>
     <div class="container">
         <div class="portada-informacion">
-            <span class="portada-informacion-pu">$<?php echo $precio_unam ?> /
+            <span class="portada-informacion-pu">$2,000 /
                 UNAM</span>
-            <span class="portada-informacion-pg">$<?php echo $precio_general ?> /
+            <span class="portada-informacion-pg">$2,500 /
                 GENERAL</span>
-            <h1><?php echo $titulo_curso ?></h1>
-            <p class="text-indigo-600"><?php echo $edicion ?></p>
+            <h1>Introducción a la estadística en la biología</h1>
+            <p>2da. Edición</p>
             <div class="profesor">
                 <div>
-                    <img src="../assets/images/instructores/usr-m.jpg" alt="">
+                    <img src="../../assets/images/instructores/usr-m.jpg" alt="">
                 </div>
                 <div>
-                    <a href="../assets/curriculums_docentes/JorgeAMorenoHern.pdf" target="_blank">M. en C. Jorge A. Moreno Hernández</a>
+                    <a href="../../assets/curriculums_docentes/AlejandroVillegasCastillo.pdf" target="_blank">Dr. Alejandro Villegas Castillo</a>
                 </div>
             </div>
+
             <div class="fecha">
                 <i class="uil uil-calendar-alt"></i>
-                <span><?php echo $fecha ?></span>
+                <span>Del 13 de
+                    febrero al 6 de marzo de 2023</span>
             </div>
+
         </div>
     </div>
 
     <div class="datos">
         <ul>
+            <!-- <li class="inline breadcrumb-item uppercase text-[13px] font-bold duration-500 ease-in-out text-white/50 hover:text-white"><a href="index-course.php">Techwind</a></li>
+                   <li class="inline breadcrumb-item uppercase text-[13px] font-bold duration-500 ease-in-out text-white/50 hover:text-white"><a href="course-listing.php">Courses</a></li>
+                    <li class="inline breadcrumb-item uppercase text-[13px] font-bold duration-500 ease-in-out text-white" aria-current="page">Web Development</li> -->
+
             <li>
                 <i class="uil uil-calendar-alt"></i>
-                <span><?php echo $dias ?></span>
+                <span class="text-white/60 ml-1">Lunes, miércoles y jueves</span>
             </li>
+
             <li>
                 <i class="uil uil-bell-school"></i>
-                <span><?php echo $horario ?>h</span>
+                <span class="text-white/60 ml-1">15-17 h</span>
             </li>
+
             <li>
                 <i class="uil uil-clock"></i>
-                <span><?php echo $no_horas ?> horas</span>
+                <span class="text-white/60 ml-1">20 horas</span>
             </li>
+
             <li>
                 <i class="uil uil-map-marker"></i>
-                <span><?php echo $modalidad ?></span>
+                <span class="text-white/60 ml-1">Vía Zoom</span>
             </li>
+
             <li>
                 <i class="uil uil-user-circle"></i>
-                <span>Máx. <?php echo $max_alumnos ?> / Min. <?php echo $min_alumnos ?></span>
+                <span class="text-white/60 ml-1">Máx. 60 / Min. 15</span>
             </li>
+
             <li>
                 <i class="uil uil-shopping-cart text-green-600"></i>
-                <a href="#inscripcion" class="text-green-600">Inscribirse</a>
+                <a href="#inscripcion" target="" class="text-green-600">Inscribirse</a>
             </li>
         </ul>
     </div>
-</section>
-
-<!-- =========== FONDO OSCURO DE PORTADA PRINCIPAL ========== -->
-
+</section><!--end section-->
 <div class="relative">
     <div class="shape absolute right-0 sm:-bottom-px -bottom-[2px] left-0 overflow-hidden z-1 text-white dark:text-slate-900">
         <svg class="w-full h-auto" viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -93,26 +77,50 @@ $info_academica="M. en C. Jorge A. Moreno Hernández <br> Correo electrónico: j
         </svg>
     </div>
 </div>
+<!-- End Hero -->
 
-<!-- =========== DESCRIPCION DEL CURSO  ========== -->
-
+<!-- Start Section-->
 <section class="oferta-academica md:py-20">
     <div class="container">
         <h2>Descripción</h2>
-        <p><?php echo $descripcion ?></p>
+        <p>A menudo la formación que han recibido durante la carrera los jóvenes investigadores
+            tiene notables carencias en los aspectos prácticos de diseño experimental, análisis de datos e
+            interpretación de resultados, lo cual limita de manera decisiva el provecho científico futuro de sus
+            actividades. Eso es especialmente cierto en nuestros días, ya que vivimos una revolución importante
+            en el campo de la metodología estadística e incluso en el procedimiento de hacer inferencia (el
+            salto matemático desde las propiedades de nuestra muestra de datos a las de los parámetros
+            desconocidos de la población, nuestro objeto de estudio), que afecta no sólo a los ecólogos sino a
+            muchas otras disciplinas científicas como la medicina, la psicología o la sociología. Recordamos
+            aquí, que la vieja idea de la existencia de una sola herramienta estadística (la comprobación de
+            hipótesis nulas sin contenido biológico) ha de cambiarse hoy por el paradigma ejemplificado mediante
+            la “caja de herramientas” en la que existen diversos tipos de herramientas a nuestra disposición,
+            cuya elección depende de la complejidad de nuestros problemas. Dado que la información está dispersa
+            en numerosos artículos y tratados específicos de estadística y diseño experimental, la idea aquí es
+            tratar de presentar un guion actualizado de las principales herramientas disponibles para resolver
+            contrastes de hipótesis con contenido biológico en ecología, identificando la utilidad y
+            limitaciones de cada una de ellas, con el fin de mejorar la cultura estadística de los jóvenes
+            investigadores.</p>
         <h2>Objetivo</h2>
-        <p><?php echo $objetivo ?></p>
+        <p>Aprender a identificar, usar y aplicar correctamente las pruebas estadísticas en un
+            contexto biológico.
+        </p>
         <h2>Dirigido a</h2>
-        <p><?php echo $dirigido_a ?></p>
+        <p>Estudiantes, profesionistas, tomadores de decisiones, manejadores de recursos,
+            biólogos, ecólogos, administradores de áreas naturales, administradores de recursos naturales
+            Requisitos: Licenciatura (mínimo 60% de créditos)
+        </p>
         <p class="text-red-600">
-            Mín / Máx de alumnos: Mínimo 15, máximo 30.<br>
+            Mín / Máx de alumnos: Mínimo 15, máximo 60.<br>
             La apertura del curso está sujeta al mínimo de inscritos.</p>
     </div>
 </section>
 
-<!-- =========== REQUISITOS, HORARIOS Y LUGAR DEL CURSO ========== -->
 
+
+
+<!-- Start Section-->
 <section class="curso-horarios md:py-14">
+
     <div class="container">
         <div class="curso-horarios-container grid grid-cols-1 lg:grid-cols-3 md:grid-cols-1 gap-[30px]">
             <div>
@@ -121,306 +129,460 @@ $info_academica="M. en C. Jorge A. Moreno Hernández <br> Correo electrónico: j
                 </div>
                 <div>
                     <h3>Requisitos</h3>
-                    <p><?php echo $requisitos ?></p>
+                    <p>Licenciatura</p>
+
                     <div class="mt-5">
                         <a href="#" data-type="iframe" class="video-play-icon read-more lightbox btn btn-link text-indigo-600 hover:text-indigo-600 after:bg-indigo-600 duration-500 ease-in-out">
-                        </a>
+                            Mín. 60% de créditos </a>
                     </div>
                 </div>
             </div>
+
+
             <div>
                 <div>
                     <i class="uil uil-calendar-alt"></i>
                 </div>
+
                 <div>
                     <h3>Horario</h3>
-                    <p><?php echo $horario ?> hrs</p>
-                    <p><?php echo $dias ?></p>
+                    <p>Lunes, miércoles y viernes.<br>
+                        Horario: 15:00 a 17:00 hrs.</p>
+
                     <div class="mt-5">
-                        <a href="#" class="btn btn-link text-indigo-600 hover:text-red-600 after:bg-indigo-600 duration-500 ease-in-out">Total: <?php echo $no_horas ?>horas</a>
+                        <a href="#" class="btn btn-link text-indigo-600 hover:text-red-600 after:bg-indigo-600 duration-500 ease-in-out">Total:
+                            20 horas</a>
                     </div>
                 </div>
             </div>
+
             <div>
                 <div>
                     <i class="uil uil-map-marker"></i>
                 </div>
+
                 <div>
                     <h3>Lugar</h3>
-                    <p><?php echo $lugar ?></p>
+                    <p>Modalidad virtual</p>
+
+                    <div class="mt-5">
+                        <a href="#" class="btn btn-link text-indigo-600 hover:text-red-600 after:bg-indigo-600 duration-500 ease-in-out">Vía
+                            Zoom</a>
+                    </div>
                 </div>
             </div>
+
+
         </div>
     </div>
 
+
+
+
+
     <div class="curso-costo container">
-        <h2 class="md:text-3xl md:leading-normal">Costo</h2>
+        <div class="grid grid-cols-1 text-center">
+            <h2 class="md:text-3xl md:leading-normal">Costo</h2>
+
+            <p></p>
+        </div>
         <div class="grid lg:grid-cols-2 md:grid-cols-2 mt-8 gap-[30px]">
             <div class="curso-costo-g">
                 <h3>Público GENERAL</h3>
-                <div>
+
+                <div class="flex mb-5">
                     <span>$</span>
-                    <span><?php echo $precio_general ?></span>
+                    <span>2,500</span>
                     <span>MXN</span>
                 </div>
+
+
                 <a href="#inscripcion" class="btn">Inscribirse</a>
             </div>
+
+
             <div class="curso-costo-g">
                 <h3>Comunidad UNAM</h3>
-                <div>
+
+                <div class="flex mb-5">
                     <span>$</span>
-                    <span><?php echo $precio_unam ?></span>
+                    <span>2,000</span>
                     <span>MXN</span>
                 </div>
+
                 <ul>
                     <li><i class="uil uil-check-circle"></i>Alumnos, exalumnos
                         y personal de la UNAM</li>
                     <li><i class="uil uil-check-circle"></i>También aplica
-                        para afiliados a Fundación UNAM</li>
+                        para afiliados a fundación UNAM</li>
                 </ul>
                 <a href="#inscripcion" class="btn">Inscribirse</a>
             </div>
         </div>
     </div>
+
+
+
+
+
 </section>
 
-<!-- =========== TEMARIO DEL CURSO ========== -->
+
+
 
 <section class="temario md:py-24 container">
     <h2>Temario</h2>
     <div class="secciones grid md:grid-cols-2 grid-cols-1">
         <div>
-            <h3>I. INTRODUCCIÓN A LA ESTADÍSTICA</h3>
+            <h3>I. Introducción a la estadística </h3>
+
             <div class="contenido">
                 <table>
                     <thead>
                         <tr>
                             <th>Temas</th>
+
                         </tr>
                     </thead>
+
                     <tbody>
                         <tr>
-                            <td> I.1
-                                Concepto e importancia de Estadística y Bioestadística.</td>
+                            <td> I.1 Conceptos básicos de
+                                estadística</td>
+
                         </tr>
+
                         <tr>
-                            <td>I.2. Error,
-                                precisión y exactitud. Poblaciones y muestras.</td>
+                            <td> I.2 Tipos de datos </td>
+
                         </tr>
+
                         <tr>
-                            <td>I.3.
-                                Criterios de inclusión, exclusión y eliminación.</td>
+                            <td> I.3 Tipos de variables</td>
+
                         </tr>
-                        <tr>
-                            <td>I.4.
-                                Conceptos de población y muestra. Parámetros y estadísticos.</td>
-                        </tr>
-                        <tr>
-                            <td> I.5. Tipos
-                                de variables y escalas de medición.
-                            </td>
-                        </tr>
+
+
                     </tbody>
                 </table>
             </div>
         </div>
 
         <div>
-            <h3>II. ESTADÍSTICA DESCRIPTIVA</h3>
+            <h3>II. Estadística descriptiva e inferencial </h3>
+
             <div class="contenido">
                 <table>
                     <thead>
                         <tr>
                             <th>Temas</th>
+
                         </tr>
                     </thead>
+
                     <tbody>
                         <tr>
-                            <td> II.1
-                                Representaciones gráficas de un conjunto de datos: Diagramas de barras.
-                                Pictogramas, Gráficas circulares, Diagrama tallo y hoja. Diagrama de tallo
-                                hoja y espejo, Diagrama de caja. Histograma. Polígono de frecuencias.
-                                Diagramas x, y
-                            </td>
+                            <td>II.1 Medidas de tendencia
+                                central</td>
+
                         </tr>
+
                         <tr>
-                            <td>II.2.
-                                Descripción de variables numéricas: Medidas de tendencia central. Medidas de
-                                dispersión
-                            </td>
+                            <td>II.2 Medidas de dispersión</td>
+
                         </tr>
-                        <tr>
-                            <td>II.3. Regla
-                                empírica y teorema de Tchebyshev
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>II.4.
-                                Descripción de variables categóricas: tasas, razones, proporciones y
-                                porcentajes.
-                            </td>
-                        </tr>
+
+
                     </tbody>
                 </table>
             </div>
         </div>
+
         <div>
-            <h3>III. PROBABILIDAD</h3>
+            <h3>III. La varianza como base del análisis estadístico
+            </h3>
+
             <div class="contenido">
                 <table>
                     <thead>
                         <tr>
                             <th>Temas</th>
+
                         </tr>
                     </thead>
+
                     <tbody>
                         <tr>
-                            <td>III.1.
-                                Conceptos: Fenómenos deterministas y estocásticos. Espacio muestral,
-                                experimentos, eventos </td>
+                            <td>III.1 Qué es y para qué sirve
+                                la varianza</td>
+
                         </tr>
+
                         <tr>
-                            <td>III.2.
-                                Métodos de conteo Combinación y permutaciones </td>
+                            <td>III.2 Pruebas de
+                                homocedasticidad de varianzas</td>
+
                         </tr>
+
                         <tr>
-                            <td>III.3.
-                                Conceptos de probabilidad clásica y frecuentista </td>
-                        </tr>
-                        <tr>
-                            <td>III.4.
-                                Leyes de probabilidad: Ley de la adición, Ley del producto </td>
-                        </tr>
-                        <tr>
-                            <td>III.5.
-                                Cálculo de probabilidades </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-        <div>
-            <h3>IV. INFERENCIA ESTADÍSTICA</h3>
-            <div class="contenido">
-                <table class="w-full text-left">
-                    <thead>
-                        <tr>
-                            <th class="px-4 py-5">Temas</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td><i></i>
-                                IV.1.
-                                Concepto de inferencia estadística </td>
-                        </tr>
-                        <tr>
-                            <td>IV.2.
-                                Clasificación de la estadística: según tipo de variable </td>
-                        </tr>
-                        <tr>
-                            <td>IV.3.
-                                Clasificación de la estadística: según número de variables </td>
-                        </tr>
-                        <tr>
-                            <td>IV.3.
-                                Clasificación de la estadística: según número de variables </td>
-                        </tr>
-                        <tr>
-                            <td>IV.4.
-                                Estimación puntual y de intervalo </td>
-                        </tr>
-                        <tr>
-                            <td>IV.5.
-                                Intervalos de confianza </td>
-                        </tr>
-                        <tr>
-                            <td>IV.6.
-                                Pruebas de hipótesis</td>
-                        </tr>
-                        <tr>
-                            <td>IV.7.
-                                Procedimiento para la realización de pruebas de hipótesis </td>
-                        </tr>
-                        <tr>
-                            <td>IV.8.
-                                Procedimiento para la realización de pruebas paramétricas </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-        <div>
-            <h3>V. INTRODUCCIÓN A LOS MODELOS ESTADÍSTICOS LINEALES</h3>
-            <div class="contenido">
-                <table class="w-full text-left">
-                    <thead>
-                        <tr>
-                            <th class="px-4 py-5">Temas</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>V.1.
-                                Introducción a los modelos estadísticos lineales </td>
-                        </tr>
-                        <tr>
-                            <td>V.2.
-                                Modelos de regresión. Conceptos básicos. Supuestos. Aplicaciones
+                            <td>III.3 Prueba F para varianzas
                             </td>
+
                         </tr>
+
+
                     </tbody>
                 </table>
             </div>
         </div>
+
+        <div>
+            <h3>IV. Pruebas de normalidad </h3>
+
+            <div class="contenido">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Temas</th>
+
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td> IV.1 Qué son y para qué sirven
+                                las pruebas de normalidad</td>
+
+                        </tr>
+
+                        <tr>
+                            <td>IV.2 Pruebas de normalidad
+                                (Shapiro-Wilk, Anderson-Darling, etc).</td>
+
+                        </tr>
+
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+
+        <div>
+            <h3>V. Estadística Paramétrica: Análisis de varianzas
+            </h3>
+
+            <div class="contenido">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Temas</th>
+
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td> V.1 ANOVA de una y dos vías
+                            </td>
+
+                        </tr>
+
+
+
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+
+
+        <div>
+            <h3>VI. Estadística no paramétrica: Análisis de
+                varianzas </h3>
+
+            <div class="contenido">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Temas</th>
+
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td> VI.1 -Prueba
+                                Kolmogorov-Smirnov</td>
+
+                        </tr>
+
+                        <tr>
+                            <td>VI.2 Prueba Mann-Whitney</td>
+
+                        </tr>
+
+                        <tr>
+                            <td>VI.3 Prueba Kruskal-Wallis</td>
+
+                        </tr>
+
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+
+
+        <div>
+            <h3>VII. Modelo Lineal (regresión) </h3>
+
+            <div class="contenido">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Temas</th>
+
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td> VII.1 Regresión lineal
+                                múltiple</td>
+
+                        </tr>
+
+                        <tr>
+                            <td>VII.2 Regresión multivariada
+                                múltiple</td>
+
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+
+        <div>
+            <h3>VIII. Modelos multidimensionales </h3>
+
+            <div class="contenido">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Temas</th>
+
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td> VIII.1 Análisis de componentes
+                                principales</td>
+
+                        </tr>
+
+                        <tr>
+                            <td>VIII.2 Análisis de
+                                correspondencia</td>
+
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+
+
+        <div>
+            <h3>IX. Modelos predictivos </h3>
+
+            <div class="contenido">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Temas</th>
+
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td> IX.1 Chi-cuadrada de bondad de
+                                ajuste</td>
+
+                        </tr>
+
+
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+
+
     </div>
+
+
 </section>
 
-<!-- =========== INSCRIPCION DEL CURSO ========== -->
 
+
+
+<!-- Start -->
 <section class="inscripcion md:py-24" id="inscripcion">
     <div class="container">
         <div class="titulo">
             <h2 class="md:text-3xl md:leading-normal">Inscripción</h2>
             <p>.</p>
         </div>
+
         <div class="pasos">
             <div class="relative after:content-[''] after:absolute after:top-0 md:after:right-0 md:after:left-0 after:w-px after:h-full md:after:m-auto after:border-l-2 after:border-dashed after:border-gray-200 dark:after:border-gray-700 ml-3 md:ml-0">
+                <!--Start content-->
                 <div class="ml-8 md:ml-0 relative after:content-[''] after:absolute after:top-[9px] after:rounded-full after:z-10 after:w-2.5 after:h-2.5 after:bg-indigo-600 md:after:mx-auto md:after:right-0 md:after:left-0 after:-left-9 before:content-[''] before:absolute md:before:mx-auto md:before:right-0 md:before:left-0 before:-left-11 before:rounded-full before:z-10 before:border-2 before:border-dashed before:border-gray-200 dark:before:border-gray-700 before:top-0 before:w-7 before:h-7 before:bg-white dark:before:bg-slate-900">
                     <div class="paso-n grid md:grid-cols-2">
                         <h3 class="md:text-right md:mr-8">Paso 1</h3>
+
                         <div class="md:ml-8 md:mt-0">
                             <h4>Realizar el pago en línea mediante "Plaza
                                 Prometeo", la tienda de la Facultad de Ciencias</h4>
-                            <p>
-                                <a href="https://tienda.fciencias.unam.mx" target="_blank">tienda.fciencias.unam.mx</a>
+                            <p><a href="https://tienda.fciencias.unam.mx" target="_blank" class="btn btn-link text-indigo-600 hover:text-red-600 after:bg-indigo-600 duration-500 ease-in-out">tienda.fciencias.unam.mx</a>
                             </p>
                         </div>
                     </div>
 
                     <div class="paso-n grid md:grid-cols-2 mt-10">
                         <h3 class="md:text-right md:mr-8">Paso 2</h3>
+
                         <div class="md:ml-8 md:mt-0">
-                            <h4 class="title mb-1 font-semibold">Registrarse en este formato de inscripción</h4>
+                            <h4>Registrarse en este formato de inscripción</h4>
                             <p>(únicamente si usted ya hizo el pago)</p>
-                            <p>
-                                <a href=<?php echo $formato_inscripcion ?> target="_blank">Formato
-                                    de inscripción</a>
-                            </p>
+                            <p><a href="https://forms.gle/gFuD2JAVD5ZQF3HR8" target="_blank" class="btn btn-link text-indigo-600 hover:text-red-600 after:bg-indigo-600 duration-500 ease-in-out">Formato
+                                    de inscripción</a></p>
                         </div>
                     </div>
+
                 </div>
+                <!--End content-->
+
             </div>
         </div>
-        <p class="advertencia">
-            <i class="uil uil-exclamation-circle"></i>
-            En caso de cancelación, procederá la devolución de lo pagado con los criterios administrativos de la Facultad de
-            Ciencias.
-        </p>
+        <p class="advertencia"><i class="uil uil-exclamation-circle"></i>En caso de
+            cancelación, procederá la devolución de lo pagado con los criterios administrativos de la Facultad de
+            Ciencias.</p>
     </div>
-</section>
+</section><!--end section-->
+<!-- End -->
 
-<!-- =========== NECESITAS AYUDA ========== -->
+
+
 
 <div class="ayuda container md:mt-24">
     <div class="titulo">
@@ -462,7 +624,9 @@ $info_academica="M. en C. Jorge A. Moreno Hernández <br> Correo electrónico: j
                 </h2>
                 <div id="info-acad" class="hidden" aria-labelledby="info-acad-col">
                     <div class="p-5">
-                        <p class="text-slate-400 dark:text-gray-400"><?php echo $info_academica?></p>
+                        <p class="text-slate-400 dark:text-gray-400">Dr. Alejandro Villegas Castillo <br>
+Correo electrónico: alejandrovillegas@ciencias.unam.mx
+                        </p>
                     </div>
                 </div>
             </div>
@@ -472,5 +636,5 @@ $info_academica="M. en C. Jorge A. Moreno Hernández <br> Correo electrónico: j
 </div>
 
 <?php
-include '../includes/templates/footer.php';
+include '../../includes/templates/footer.php';
 ?>

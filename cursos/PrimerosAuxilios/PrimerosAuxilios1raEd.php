@@ -1,5 +1,5 @@
 <?php
-include '../includes/templates/header.php';
+include '../../includes/templates/header.php';
 ?>
 
 <?php
@@ -42,18 +42,18 @@ $info_academica = "Dra. Rosalía Pastor Nieto <br> Correo electrónico: rosalia.
             <!-- PROFESORES QUE IMPARTEN -->
             <div class="profesor">
                 <div>
-                    <img src="../assets/images/instructores/usr-m.jpg" alt="">
+                    <img src="../../assets/images/instructores/usr-m.jpg" alt="">
                 </div>
                 <div>
-                    <a href="../assets/curriculums_docentes/JulioPrieto.pdf" target="_blank">M. en C. Julio Alejandro Prieto Sagredo, TUM-A</a>
+                    <a href="../../assets/curriculums_docentes/JulioPrieto.pdf" target="_blank">M. en C. Julio Alejandro Prieto Sagredo, TUM-A</a>
                 </div>
             </div>
             <div class="profesor">
                 <div>
-                    <img src="../assets/images/instructores/usr-m.jpg" alt="">
+                    <img src="../../assets/images/instructores/usr-m.jpg" alt="">
                 </div>
                 <div>
-                    <a href="../assets/curriculums_docentes/TabareMerinoSanchez.pdf" target="_blank">P. de M. Tabaré Merino Sánchez</a>
+                    <a href="../../assets/curriculums_docentes/TabareMerinoSanchez.pdf" target="_blank">P. de M. Tabaré Merino Sánchez</a>
                 </div>
             </div>
             <!-- FIN - PROFESORES QUE IMPARTEN -->
@@ -657,5 +657,5 @@ $info_academica = "Dra. Rosalía Pastor Nieto <br> Correo electrónico: rosalia.
 </div>
 
 <?php
-include '../includes/templates/footer.php';
+include '../../includes/templates/footer.php';
 ?>

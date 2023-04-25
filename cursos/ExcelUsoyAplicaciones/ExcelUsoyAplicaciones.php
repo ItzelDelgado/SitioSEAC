@@ -1,34 +1,27 @@
 <?php
-include '../includes/templates/header.php';
+include '../../includes/templates/header.php';
 ?>
 
 <!-- Start Hero -->
 <section class="portada">
-    <img src="../../assets/images/cursos/bg-CursoR.webp" alt="">
+    <img src="../../assets/images/cursos/bg-Excel1.webp" alt="">
     <div class="portada-opacity"></div>
     <div class="container">
         <div class="portada-informacion">
-            <span class="portada-informacion-pu">$4,000 /
+            <span class="portada-informacion-pu">$2,000 /
                 UNAM</span>
-            <span class="portada-informacion-pg">$5,000 /
+            <span class="portada-informacion-pg">$2,500 /
                 GENERAL</span>
-            <h1>Introducción a la programación en R y su aplicación a la inferencia estadística I</h1>
-            <p>15a. Edición</p>
+            <h1>Excel, uso y aplicaciones</h1>
+            <p>3ra. Edición</p>
             <div class="profesor">
                 <div>
-                    <img src="../assets/images/instructores/usr-m.jpg" alt="">
+                    <img src="../../assets/images/instructores/usr-m.jpg" alt="">
                 </div>
                 <div>
-                    <a href="/assets/curriculums_docentes/JesusJuradoMolina.pdf" target="_blank">Dr. Jesús Jurado Molina</a>
+                    <a href="../../assets/curriculums_docentes/JesusJuradoMolina.pdf" target="_blank">Dr. Jesús Juerado Molina</a>
                 </div>
             </div>
-
-            <div class="fecha">
-                <i class="uil uil-calendar-alt"></i>
-                <span>Del 6 de mayo
-                    al 24 de junio de 2023</span>
-            </div>
-
         </div>
     </div>
 
@@ -40,27 +33,27 @@ include '../includes/templates/header.php';
 
             <li>
                 <i class="uil uil-calendar-alt"></i>
-                <span class="text-white/60 ml-1">Sábado</span>
+                <span class="text-white/60 ml-1">Ma y ju</span>
             </li>
 
             <li>
                 <i class="uil uil-bell-school"></i>
-                <span class="text-white/60 ml-1">10-15 h</span>
+                <span class="text-white/60 ml-1">18-20:30h</span>
             </li>
 
             <li>
                 <i class="uil uil-clock"></i>
-                <span class="text-white/60 ml-1">40 horas</span>
+                <span class="text-white/60 ml-1">20 horas</span>
             </li>
 
             <li>
                 <i class="uil uil-map-marker"></i>
-                <span class="text-white/60 ml-1">Vía Zoom o Meet</span>
+                <span class="text-white/60 ml-1">Vía Meet o Zoom</span>
             </li>
 
             <li>
                 <i class="uil uil-user-circle"></i>
-                <span class="text-white/60 ml-1">Máx. 60 / Min. 15</span>
+                <span class="text-white/60 ml-1">Máx. 35 / Min. 15</span>
             </li>
 
             <li>
@@ -83,50 +76,23 @@ include '../includes/templates/header.php';
 <section class="oferta-academica md:py-20">
     <div class="container">
         <h2>Descripción</h2>
-        <p>La mayoría de los fenómenos que se estudian en la biología, ecología, ciencias de la
-            salud, ciencias sociales, ciencias ambientales, ingeniería etc., presentan una variabilidad natural
-            inherente por lo que para su estudio y análisis es necesario usar técnicas cuantitativas y
-            herramientas estadísticas. En particular la inferencia estadística ha jugado un papel muy importante
-            en la prueba de hipótesis y análisis de datos. Debido a la complejidad de los fenómenos y la
-            cantidad significante de datos que se recopilan en la actualidad, es necesario usar computadoras y
-            software estadístico para facilitar las tareas de investigación. Aunque existen una cantidad
-            importante de paquetes de software estadístico (SPSS, Statistica, Systat, Minitab, etc.), el paquete
-            estadístico R se ha posicionado como uno de los paquetes estadísticos preferidos en la
-            investigación. R es un lenguaje y medioambiente para el cómputo estadístico y gráficas. Es un
-            software de acceso abierto y gratuito, basado en el lenguaje y medioambiente S desarrollado por Bell
-            laboratorios. R provee una gran variedad de técnicas estadísticas (modelación linear y no linear,
-            pruebas de estadística clásica, análisis de series de tiempo, clasificación, clustering….) y
-            graficas. R se compila y corre en una variedad de sistemas operativos (Windows, Mac, Linux, etc.).
-            Otra característica importante de R es su capacidad para expandir sus capacidades a través de la
-            incorporación de paquetes desarrollados por un número importante de contribuyentes. Estas
-            características confieren a R una gran flexibilidad y poder para realizar análisis estadísticos y
-            gráficos por lo que es muy recomendable su aprendizaje y uso para estudiantes y científicos en la
-            mayoría de las áreas de la ciencia. Para aquellos fenómenos complejos que requieren un enfoque
-            cuantitativo en su análisis, el paquete estadístico R es la herramienta ideal en la investigación.
-        </p>
+        <p>La mayoría de las tareas y análisis que se requieren en biología, ecología, ciencias de la salud, ciencias sociales, ciencias ambientales, ingeniería, física, administración, contaduría e incluso en tareas sencillas en el hogar y oficina requieren una herramienta básica para llevarlas a cabo. Excel es la herramienta ideal. Excel de Microsoft es un programa incluido en Microsoft Office; su principal función es crear hojas de cálculo para almacenar y manipular datos. Debido a su extrema versatilidad y potencia, Excel se ha convertido en uno de los programas de software más utilizados en el mundo de la ciencia y los negocios desde su lanzamiento en 1985. Excel es muy flexible y en el se pueden llevar a cabo tareas como: Llevar un registro de las ventas por cliente de mes a mes; calcular las horas trabajadas por empleado para la nómina mensual; Estimar las ventas mensuales para los próximos tres años con base en datos históricos; ordenar y organizar grandes cantidades de datos; llevar a cabo análisis estadísticos; hacer distintos tipos de graficas e incluso tareas tan complejas como hacer una simulación estocástica de la dinámica poblacional de una especie. Para aquellos fenómenos complejos y/o simples que requieren un enfoque cuantitativo en su análisis, el software Excel es la herramienta básica para llevar a cabo un sinfín de tareas en la investigación o la administración.</p>
         <h2>Objetivo</h2>
-        <p>Aprender la programación y uso del paquete estadístico R y sus aplicaciones a la
-            enseñanza y la investigación.
+        <p>Aprender el manejo de hojas de calculo de Excel y los principios de programación de Visual.
         </p>
         <h2>Dirigido a</h2>
-        <p>Biólogos, Oceanógrafos, Oceanólogos, economistas, físicos, matemáticos, estudiantes de
-            postgrado, investigadores y profesionales en áreas multidisciplinarias.
-        </p>
+        <p> Biólogos, Oceanógrafos, Contadores, Oceanólogos, economistas, físicos, matemáticos, estudiantes de postgrado, investigadores y profesionales en áreas multidisciplinarias.</p>
         <p class="text-red-600">
-            Mín / Máx de alumnos: Mínimo 15, máximo 60.<br>
+            Mín / Máx de alumnos: Mínimo 15, máximo 35.<br>
             La apertura del curso está sujeta al mínimo de inscritos.</p>
     </div>
 </section>
-
-
-
 
 <!-- Start Section-->
 <section class="curso-horarios md:py-14">
 
     <div class="container">
         <div class="curso-horarios-container grid grid-cols-1 lg:grid-cols-3 md:grid-cols-1 gap-[30px]">
-
 
             <div>
                 <div>
@@ -135,7 +101,7 @@ include '../includes/templates/header.php';
 
                 <div>
                     <h3>Requisitos</h3>
-                    <p>Conocimientos básicos de estadística y calculo diferencial</p>
+                    <p>Conocimientos básicos de estadística y cálculo diferencial.</p>
 
                     <div class="mt-5">
                         <a href="#" data-type="iframe" class="video-play-icon read-more lightbox btn btn-link text-indigo-600 hover:text-indigo-600 after:bg-indigo-600 duration-500 ease-in-out">
@@ -152,12 +118,11 @@ include '../includes/templates/header.php';
 
                 <div>
                     <h3>Horario</h3>
-                    <p>Sábado.<br>
-                        Horario: 10:00 a 15:00 hrs.</p>
-
+                    <p>Martes y jueves<br>
+                        Horario: 18:00 a 20:30 hrs.</p>
                     <div class="mt-5">
                         <a href="#" class="btn btn-link text-indigo-600 hover:text-red-600 after:bg-indigo-600 duration-500 ease-in-out">Total:
-                            40 horas</a>
+                            20 horas</a>
                     </div>
                 </div>
             </div>
@@ -169,12 +134,9 @@ include '../includes/templates/header.php';
 
                 <div>
                     <h3>Lugar</h3>
-                    <p>Modalidad virtual</p>
+                    <p>Meet</p>
+                    <p>Zoom</p>
 
-                    <div class="mt-5">
-                        <a href="#" class="btn btn-link text-indigo-600 hover:text-red-600 after:bg-indigo-600 duration-500 ease-in-out">Vía
-                            Zoom o Meet</a>
-                    </div>
                 </div>
             </div>
 
@@ -187,18 +149,19 @@ include '../includes/templates/header.php';
 
 
     <div class="curso-costo container">
-        <div class="titulo">
-            <h3 class="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">Inscripci</h3>
 
-            <p></p>
-        </div>
+        <h2 class="md:text-3xl md:leading-normal">Costo</h2>
+
+        <p></p>
+
+
         <div class="grid lg:grid-cols-2 md:grid-cols-2 mt-8 gap-[30px]">
             <div class="curso-costo-g">
                 <h3>Público GENERAL</h3>
 
                 <div class="flex mb-5">
                     <span>$</span>
-                    <span>5,000</span>
+                    <span>2,500</span>
                     <span>MXN</span>
                 </div>
 
@@ -212,21 +175,16 @@ include '../includes/templates/header.php';
 
                 <div class="flex mb-5">
                     <span>$</span>
-                    <span>4,000</span>
+                    <span>2,000</span>
                     <span>MXN</span>
                 </div>
 
                 <ul>
-                    <li><i class="uil uil-check-circle"></i>Alumnos, exalumnos
-                        y personal de la UNAM</li>
+                    <li><i class="uil uil-check-circle"></i>Alumnos, exalumnos, personal y tesistas de la UNAM. Aplica también afiliados a Fundación UNAM</li>
                     <li><i class="uil uil-check-circle"></i>También aplica
                         para afiliados a Fundación UNAM</li>
-                    <li><i class="uil uil-check-circle"></i>Para este curso
-                        las inscripciones son a través de Fundación UNAM: consulta aquí el Proceso de
-                        inscripción y formas de pago para este curso</li>
-                    <li><i class="uil uil-exclamation-circle"></i>Toda vez que
-                        este es un programa académico administrado por Fundación UNAM, AC no se acepta
-                        ningún tipo de beca AAPAUNAM o STUNAM.</li>
+
+                    <li><i class="uil uil-exclamation-circle"></i>Toda vez que este es un programa académico administrado por Fundación UNAM, AC no se acepta ningún tipo de beca AAPAUNAM o STUNAM.</li>
                 </ul>
 
                 <a href="#inscripcion" class="btn">Inscribirse</a>
@@ -240,14 +198,12 @@ include '../includes/templates/header.php';
 
 </section>
 
-
-
-
 <section class="temario md:py-24 container">
     <h2>Temario</h2>
     <div class="secciones grid md:grid-cols-2 grid-cols-1">
         <div>
-            <h3>I. Introducción al paquete estadístico R </h3>
+            <h3>I. Hojas de calculo y graficación</h3>
+
             <div class="contenido">
                 <table>
                     <thead>
@@ -259,106 +215,61 @@ include '../includes/templates/header.php';
 
                     <tbody>
                         <tr>
-                            <td> I.1 Breve introducción
-                                histórica de Excel y R</td>
+                            <td> I.1
+                                Construyendo una hoja de calculo</td>
 
                         </tr>
 
                         <tr>
-                            <td> I.2 Descarga e instalación de
-                                R </td>
+                            <td>I.2. Fórmulas</td>
 
                         </tr>
 
                         <tr>
-                            <td> I.3 El medioambiente R
-                                (interface de comandos en R y Rstudio)</td>
+                            <td>I.3.
+                                Funciones</td>
 
                         </tr>
-
-                        <tr>
-                            <td> I.4 Instalación y descarga de
-                                paquetes</td>
-
-                        </tr>
-
-                        <tr>
-                            <td> I.4 Aspectos básicos de R
-                                <ul class="p-6 list-disc ">
-                                    <li>Matemáticas básicas</li>
-                                    <li>Tipos de variables</li>
-                                    <li>Tipos de datos</li>
-                                    <li>Vectores</li>
-                                </ul>
-                            </td>
-
-                        </tr>
-
-
-                    </tbody>
-                </table>
-            </div>
-        </div>
-        <div>
-            <h3>II. Manipulación de datos en R </h3>
-            <div class="contenido">
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Temas</th>
-
-                        </tr>
-                    </thead>
-
-                    <tbody>
-                        <tr>
-                            <td>II.1 Estructuras avanzadas de
-                                datos
-                                <ul class="p-6 list-disc ">
-                                    <li>Matrices</li>
-                                    <li>Arreglos</li>
-                                    <li>data.frames</li>
-                                    <li>Objetos</li>
-                                </ul>
-                            </td>
-
-                        </tr>
-
-                        <tr>
-                            <td>II.2 Lectura de datos
-                                <ul class="p-6 list-disc ">
-                                    <li>Datos de archivos csv</li>
-                                    <li>Datos de archivos txt</li>
-                                    <li>Datos disponibles en R</li>
-                                    <li>Datos disponibles en paquetes e internet</li>
-                                </ul>
-                            </td>
-
-                        </tr>
-
-
-                        <tr>
-                            <td>II.3 Graficación en R
-                                <ul class="p-6 list-disc ">
-                                    <li>Graficación básica</li>
-                                    <li>Principios del análisis exploratorio de datos</li>
-                                    <li>Histogramas</li>
-                                    <li>Boxplots</li>
-                                    <li>Graficas de dispersión</li>
-                                </ul>
-                            </td>
-
-                        </tr>
-
-
                     </tbody>
                 </table>
             </div>
         </div>
 
         <div>
-            <h3>III. Modelos estadísticos e inferencia estadística
-                en R</h3>
+            <h3>II. Manipulación de datos en Excel</h3>
+
+            <div class="contenido">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Temas</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td> II.1 Ordenación de datos
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>II.2 Filtración de datos
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>II.3 Uso de criterios para filtración avanzada de datos
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>II.4 Tablas y tablas dinámicas
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div>
+            <h3>III. Documentos y compartiendo trabajo y documentos</h3>
             <div class="contenido">
                 <table>
                     <thead>
@@ -370,43 +281,49 @@ include '../includes/templates/header.php';
 
                     <tbody>
                         <tr>
-                            <td>III.1 Distribuciones de
-                                probabilidad
-                                <ul class="p-6 list-disc ">
-                                    <li>Distribución binomial</li>
-                                    <li>Distribución de Poisson</li>
-                                    <li>Distribución Normal</li>
-                                    <li>Otras distribuciones</li>
-
-                                </ul>
+                            <td>III.1.
+                                Impresión de documentos
                             </td>
 
                         </tr>
 
                         <tr>
-                            <td>III.2 Inferencia estadística
-                                <ul class="p-6 list-disc ">
-                                    <li>Resumen de estadísticas</li>
-                                    <li>Correlación y varianza</li>
-                                    <li>Prueba de Chi cuadrada</li>
-                                    <li>Prueba de t</li>
-                                    <li>Prueba de F</li>
-                                    <li>ANOVA</li>
-
-                                </ul>
+                            <td>III.2.
+                                Graficación: histogramas, pays, barplots, graficas de dispersión, etc.
                             </td>
 
                         </tr>
-
-
-
-
                     </tbody>
                 </table>
             </div>
         </div>
 
+
+        <div>
+            <h3>IV. Visual Basic</h3>
+
+            <div class="contenido">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Temas</th>
+
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>IV.1.
+                                Programación en Visual Basic
+                            </td>
+
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
     </div>
+
 </section>
 
 
@@ -419,17 +336,16 @@ include '../includes/templates/header.php';
             <h2 class="md:text-3xl md:leading-normal">Inscripción</h2>
             <p>.</p>
         </div>
+
         <div class="pasos">
             <div class="relative after:content-[''] after:absolute after:top-0 md:after:right-0 md:after:left-0 after:w-px after:h-full md:after:m-auto after:border-l-2 after:border-dashed after:border-gray-200 dark:after:border-gray-700 ml-3 md:ml-0">
                 <!--Start content-->
                 <div class="ml-8 md:ml-0 relative after:content-[''] after:absolute after:top-[9px] after:rounded-full after:z-10 after:w-2.5 after:h-2.5 after:bg-indigo-600 md:after:mx-auto md:after:right-0 md:after:left-0 after:-left-9 before:content-[''] before:absolute md:before:mx-auto md:before:right-0 md:before:left-0 before:-left-11 before:rounded-full before:z-10 before:border-2 before:border-dashed before:border-gray-200 dark:before:border-gray-700 before:top-0 before:w-7 before:h-7 before:bg-white dark:before:bg-slate-900">
                     <div class="paso-n grid md:grid-cols-2">
                         <h3 class="md:text-right md:mr-8">Paso 1</h3>
-
                         <div class="md:ml-8 md:mt-0">
                             <h4>Solicita el formato de preregistro a:</h4>
-                            <p><a href="mailto:cursosydiplomados@funam.mx" target="_blank" class="btn btn-link text-indigo-600 hover:text-red-600 after:bg-indigo-600 duration-500 ease-in-out">cursosydiplomados@funam.mx</a>
-                            </p>
+                            <p><a href="mailto:cursosydiplomados@funam.mx" target="_blank" class="btn btn-link text-indigo-600 hover:text-red-600 after:bg-indigo-600 duration-500 ease-in-out">cursosydiplomados@funam.mx</a></p>
                         </div>
                     </div>
 
@@ -437,34 +353,22 @@ include '../includes/templates/header.php';
                         <h3 class="md:text-right md:mr-8">Paso 2</h3>
 
                         <div class="md:ml-8 md:mt-0">
-                            <h4>Datos bancarios para depósito en sucursal,
-                                practicajas, transferencia bancaria:</h4>
-                            <p>Banco: CitiBanamex<br>Beneficiario: Fundación UNAM,
-                                A.C.<br>Sucursal: 870<br>
+                            <h4>Datos bancarios para depósito en sucursal, practicajas, transferencia bancaria:</h4>
+                            <p>Banco: CitiBanamex<br>Beneficiario: Fundación UNAM, A.C.<br>Sucursal: 870<br>
                                 Cuenta: 572529<br>Clabe: 00 21 80 08 70 05 72 52 92<br>Referencia: 829.411.100</p>
 
-                            <p>En caso de que desees efectuarlo con tarjeta de
-                                crédito y/o débito deberás acudir a las oficinas de Fundación UNAM en horario de
-                                lunes a jueves de 9:30 a 17:30 y viernes de 9:30 a 14:30, ubicada en Calle
-                                Pennsylvania 203, Col. Nápoles, Alcaldía Benito Juárez, C.P. 03810.</p>
+                            <p>En caso de que desees efectuarlo con tarjeta de crédito y/o débito deberás acudir a las oficinas de Fundación UNAM en horario de lunes a jueves de 9:30 a 17:30 y viernes de 9:30 a 14:30, ubicada en Calle Pennsylvania 203, Col. Nápoles, Alcaldía Benito Juárez, C.P. 03810.</p>
 
-                            <p>También puedes efectuarlo vía telefónica al call
-                                center 55 53 400 904 o al teléfono 55 4575 1879</p>
+                            <p>También puedes efectuarlo vía telefónica al call center 55 53 400 904 o al teléfono 55 4575 1879</p>
 
 
                         </div>
                     </div>
-
-
-
                 </div>
                 <!--End content-->
-
             </div>
         </div>
-        <p class="advertencia"><i class="uil uil-exclamation-circle"></i>Comunidad
-            UNAM: En caso de formar parte de la Comunidad UNAM (alumnos, exalumnos, académicos, personal
-            administrativo), deberás presentar una identificación que te acredite como tal.</p>
+        <p class="advertencia"><i class="uil uil-exclamation-circle"></i>Comunidad UNAM: En caso de formar parte de la Comunidad UNAM (alumnos, exalumnos, académicos, personal administrativo), deberás presentar una identificación que te acredite como tal.</p>
     </div>
 </section><!--end section-->
 <!-- End -->
@@ -523,5 +427,5 @@ Correo electrónico: jjurado@uw.edu
 </div>
 
 <?php
-include '../includes/templates/footer.php';
+include '../../includes/templates/footer.php';
 ?>

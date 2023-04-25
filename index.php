@@ -315,9 +315,9 @@ include './includes/templates/header.php';
           </div>
         </div>
         <div class="curso_contenido">
-          <a href="cursos/PrimerosAuxilios1raEd.php">
+          <a href="cursos/PrimerosAuxilios/PrimerosAuxilios1raEd.php">
             Primeros Auxilios, RCP y Uso de DAE</a>
-          <a href="cursos/PrimerosAuxilios1raEd.php">1ra. Edición</a>
+          <a href="cursos/PrimerosAuxilios/PrimerosAuxilios1raEd.php">1ra. Edición</a>
           <p class="curso_contenido-fecha">
             2, 4, 9 y 11 de mayo de 2023
           </p>
@@ -325,7 +325,7 @@ include './includes/templates/header.php';
           <p class="curso_contenido-subdescripcion">
             Dirigido a: Todo público.
           </p>
-          <a href="cursos/PrimerosAuxilios1raEd.php" target="_blank" class="curso_contenido-button btn btn-link">Ver
+          <a href="cursos/PrimerosAuxilios/PrimerosAuxilios1raEd.php" target="_blank" class="curso_contenido-button btn btn-link">Ver
             curso</a>
           <div class="curso_contenido-horario">
             <ul>
@@ -373,9 +373,9 @@ include './includes/templates/header.php';
           </div>
         </div>
         <div class="curso_contenido">
-          <a href="cursos/IntroduccionAlEstudioyConservaciondeTortugas1raEd.php">
+          <a href="cursos/IntroduccionAlEstudioyConservaciondeTortugas/IntroduccionAlEstudioyConservaciondeTortugas1raEd.php">
             Introducción al Estudio y Conservación de Tortugas de México</a>
-          <a href="cursos/IntroduccionAlEstudioyConservaciondeTortugas1raEd.php">1ra. Edición</a>
+          <a href="cursos/IntroduccionAlEstudioyConservaciondeTortugas/IntroduccionAlEstudioyConservaciondeTortugas1raEd.php">1ra. Edición</a>
           <p class="curso_contenido-fecha">
             Del 2 de mayo al 1 de junio de 2023
           </p>
@@ -391,7 +391,7 @@ include './includes/templates/header.php';
             disciplinas afines.
           </p>
 
-          <a href="cursos/IntroduccionAlEstudioyConservaciondeTortugas1raEd.php" target="_blank" class="curso_contenido-button btn btn-link">Ver
+          <a href="cursos/IntroduccionAlEstudioyConservaciondeTortugas/IntroduccionAlEstudioyConservaciondeTortugas1raEd.php" target="_blank" class="curso_contenido-button btn btn-link">Ver
             curso</a>
 
           <div class="curso_contenido-horario">
@@ -438,9 +438,9 @@ include './includes/templates/header.php';
           </div>
         </div>
         <div class="curso_contenido">
-          <a href="cursos/ProgramacionDispositivosMovilesconAndroid1raEd.php">
+          <a href="cursos/ProgramacionDispositivosMovilesconAndroid/ProgramacionDispositivosMovilesconAndroid1raEd.php">
             Programación de Dispositivos Móviles con Android</a>
-          <a href="cursos/ProgramacionDispositivosMovilesconAndroid1raEd.php">1ra. Edición</a>
+          <a href="cursos/ProgramacionDispositivosMovilesconAndroid/ProgramacionDispositivosMovilesconAndroid1raEd.php">1ra. Edición</a>
           <p class="curso_contenido-fecha">
             Del 3 de mayo al 2 de junio de 2023
           </p>
@@ -448,7 +448,7 @@ include './includes/templates/header.php';
           <p class="curso_contenido-subdescripcion">
             Dirigido a: Personas con interés en desarrollar aplicaciones para dispositivos móviles con conocimientos básicos de lenguaje Java y del lenguaje de marcado XML.
           </p>
-          <a href="cursos/ProgramacionDispositivosMovilesconAndroid1raEd.php" target="_blank" class="curso_contenido-button btn btn-link">Ver
+          <a href="cursos/ProgramacionDispositivosMovilesconAndroid/ProgramacionDispositivosMovilesconAndroid1raEd.php" target="_blank" class="curso_contenido-button btn btn-link">Ver
             curso</a>
           <div class="curso_contenido-horario">
             <ul>
@@ -511,7 +511,7 @@ include './includes/templates/header.php';
             Dirigido a: Estudiantes de la licenciatura en Física, interesados en la docencia, y profesores de Física de todos los niveles educativos.
           </p>
           <p>
-            <a href="cursos/IntroduccionAlEstudioyConservaciondeTortugas1raEd.php" target="_blank" class="btn btn-link text-indigo-600 hover:text-red-600 after:bg-indigo-600 duration-500 ease-in-out">Ver
+            <a href="cursos/IntroduccionAlEstudioyConservaciondeTortugas/IntroduccionAlEstudioyConservaciondeTortugas1raEd.php" target="_blank" class="btn btn-link text-indigo-600 hover:text-red-600 after:bg-indigo-600 duration-500 ease-in-out">Ver
               diplomado</a>
           </p>
           <ul class="pt-4 border-t border-gray-100 dark:border-gray-800 flex items-center list-none text-slate-400">
@@ -745,9 +745,9 @@ include './includes/templates/header.php';
           </div>
         </div>
         <div class="curso_contenido">
-          <a href="cursos/IntroduccionEstadisticaEnBiologia_2daEd.php">
+          <a href="cursos/IntroduccionEstadisticaEnBiologia/IntroduccionEstadisticaEnBiologia_2daEd.php">
             Introducción a la Estadística en la Biología</a>
-          <a href="cursos/IntroduccionEstadisticaEnBiologia_2daEd.php">2da. Edición</a>
+          <a href="cursos/IntroduccionEstadisticaEnBiologia/IntroduccionEstadisticaEnBiologia_2daEd.php">2da. Edición</a>
           <p class="curso_contenido-fecha">Fechas por definir</p>
           <p class="curso_contenido-descripcion">
             Tira el paradigma de la estadística como como una sola
@@ -763,7 +763,7 @@ include './includes/templates/header.php';
             naturales.
           </p>
 
-          <a href="cursos/IntroduccionEstadisticaEnBiologia_2daEd.php" target="_blank" class="curso_contenido-button btn btn-link">Ver
+          <a href="cursos/IntroduccionEstadisticaEnBiologia/IntroduccionEstadisticaEnBiologia_2daEd.php" target="_blank" class="curso_contenido-button btn btn-link">Ver
             curso</a>
 
           <div class="curso_contenido-horario">
@@ -879,9 +879,9 @@ include './includes/templates/header.php';
           </div>
         </div>
         <div class="curso_contenido">
-          <a href="cursos/IntroduccionAlaDivulgacionDeLaCiencia6taED.php">
-            Introducción a la divulgación de la Ciencia</a>
-          <a href="cursos/IntroduccionAlaDivulgacionDeLaCiencia6taED.php">6ta. Edición</a>
+          <a href="cursos/IntroduccionAlaDivulgacionDeLaCiencia/IntroduccionAlaDivulgacionDeLaCiencia6taED.php">
+            Introducción a la Divulgación de la Ciencia</a>
+          <a href="cursos/IntroduccionAlaDivulgacionDeLaCiencia/IntroduccionAlaDivulgacionDeLaCiencia6taED.php">6ta. Edición</a>
           <p class="curso_contenido-fecha">
             Fechas por definir
           </p>
@@ -895,7 +895,7 @@ include './includes/templates/header.php';
             especializado.
           </p>
 
-          <a href="cursos/IntroduccionAlaDivulgacionDeLaCiencia6taED.php" target="_blank" class="curso_contenido-button btn btn-link">Ver
+          <a href="cursos/IntroduccionAlaDivulgacionDeLaCiencia/IntroduccionAlaDivulgacionDeLaCiencia6taED.php" target="_blank" class="curso_contenido-button btn btn-link">Ver
             curso</a>
 
           <div class="curso_contenido-horario">

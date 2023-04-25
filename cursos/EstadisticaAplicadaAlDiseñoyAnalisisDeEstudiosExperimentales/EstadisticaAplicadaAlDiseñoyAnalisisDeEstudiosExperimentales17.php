@@ -1,5 +1,5 @@
 <?php
-include '../includes/templates/header.php';
+include '../../includes/templates/header.php';
 ?>
 
 <?php
@@ -38,18 +38,18 @@ $info_academica = "Dra. María de Lourdes Barbosa Saldaña o <br> Biol. María G
             <p class="text-indigo-600"><?php echo $edicion ?></p>
             <div class="profesor">
                 <div>
-                    <img src="../assets/images/instructores/usr-m.jpg" alt="">
+                    <img src="../../assets/images/instructores/usr-m.jpg" alt="">
                 </div>
                 <div>
-                    <a href="../assets/curriculums_docentes/MaLourdesBarbosaSal.pdf" target="_blank">Dra. María de Lourdes Barbosa Saldaña</a>
+                    <a href="../../assets/curriculums_docentes/MaLourdesBarbosaSal.pdf" target="_blank">Dra. María de Lourdes Barbosa Saldaña</a>
                 </div>
             </div>
             <div class="profesor">
                 <div>
-                    <img src="../assets/images/instructores/usr-m.jpg" alt="">
+                    <img src="../../assets/images/instructores/usr-m.jpg" alt="">
                 </div>
                 <div>
-                    <a href="../assets/curriculums_docentes/MaGuadalupeCamachoSan.pdf" target="_blank">Biol. María Guadalupe Camacho Sánchez</a>
+                    <a href="../../assets/curriculums_docentes/MaGuadalupeCamachoSan.pdf" target="_blank">Biol. María Guadalupe Camacho Sánchez</a>
                 </div>
             </div>
 
@@ -866,5 +866,5 @@ $info_academica = "Dra. María de Lourdes Barbosa Saldaña o <br> Biol. María G
 </div>
 
 <?php
-include '../includes/templates/footer.php';
+include '../../includes/templates/footer.php';
 ?>

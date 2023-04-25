@@ -1,5 +1,5 @@
 <?php
-include '../includes/templates/header.php';
+include '../../includes/templates/header.php';
 ?>
 
 <?php
@@ -46,10 +46,10 @@ $info_academica="Dra. Rosalía Pastor Nieto <br> Correo electrónico: rosalia.pa
             <p>1ra. Edición</p>
             <div class="profesor">
                 <div>
-                    <img src="../assets/images/instructores/usr-m.jpg" alt="">
+                    <img src="../../assets/images/instructores/usr-m.jpg" alt="">
                 </div>
                 <div>
-                    <a href="../assets/curriculums_docentes/AldideOyarzabalSal.pdf" target="_blank">Maestro en
+                    <a href="../../assets/curriculums_docentes/AldideOyarzabalSal.pdf" target="_blank">Maestro en
                         Artes Aldi de Oyarzabal Salcedo<br>Ilustrador Científico de la Facultad de Ciencias</a>
                 </div>
             </div>
@@ -481,5 +481,5 @@ Correo electrónico: ao@ciencias.unam.mx
 </div>
 
 <?php
-include '../includes/templates/footer.php';
+include '../../includes/templates/footer.php';
 ?>
