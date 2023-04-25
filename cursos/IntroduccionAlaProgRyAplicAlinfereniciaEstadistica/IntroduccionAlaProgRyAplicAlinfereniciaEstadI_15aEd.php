@@ -417,7 +417,6 @@ include '../../includes/templates/header.php';
     <div class="container">
         <div class="titulo">
             <h2 class="md:text-3xl md:leading-normal">Inscripción</h2>
-            <p>.</p>
         </div>
         <div class="pasos">
             <div class="relative after:content-[''] after:absolute after:top-0 md:after:right-0 md:after:left-0 after:w-px after:h-full md:after:m-auto after:border-l-2 after:border-dashed after:border-gray-200 dark:after:border-gray-700 ml-3 md:ml-0">

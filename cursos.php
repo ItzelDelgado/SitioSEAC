@@ -595,10 +595,10 @@ include './includes/templates/header.php';
           </div>
         </div>
         <div class="curso_contenido">
-          <a href="cursos/IntroduccionAlaProgRyAplicAlinfereniciaEstadI_15aEd.php">
+          <a href="cursos/IntroduccionAlaProgRyAplicAlinfereniciaEstadistica/IntroduccionAlaProgRyAplicAlinfereniciaEstadI_15aEd.php">
             Introducción a la Programación en R y su Aplicación a la
             Inferencia Estadística I</a>
-          <a href="cursos/IntroduccionAlaProgRyAplicAlinfereniciaEstadI_15aEd.php">15a. Edición</a>
+          <a href="cursos/IntroduccionAlaProgRyAplicAlinfereniciaEstadistica/IntroduccionAlaProgRyAplicAlinfereniciaEstadI_15aEd.php">15a. Edición</a>
           <p class="curso_contenido-fecha">
             Del 6 de mayo al 24 de junio de 2023
           </p>
@@ -614,7 +614,7 @@ include './includes/templates/header.php';
             profesionales en áreas multidisciplinarias.
           </p>
 
-          <a href="cursos/IntroduccionAlaProgRyAplicAlinfereniciaEstadI_15aEd.php" target="_blank" class="curso_contenido-button btn btn-link">Ver
+          <a href="cursos/IntroduccionAlaProgRyAplicAlinfereniciaEstadistica/IntroduccionAlaProgRyAplicAlinfereniciaEstadI_15aEd.php" target="_blank" class="curso_contenido-button btn btn-link">Ver
             curso</a>
 
           <div class="curso_contenido-horario">
@@ -850,9 +850,9 @@ include './includes/templates/header.php';
           </div>
         </div>
         <div class="curso_contenido">
-          <a href="/cursos/ExcelUsoyAplicaciones.php">
+          <a href="/cursos/ExcelUsoyAplicaciones/ExcelUsoyAplicaciones.php">
             Excel, Uso y Aplicaciones</a>
-          <a href="/cursos/ExcelUsoyAplicaciones.php">3ra. Edición</a>
+          <a href="/cursos/ExcelUsoyAplicaciones/ExcelUsoyAplicaciones.php">3ra. Edición</a>
           <p class="curso_contenido-fecha">Sin definir</p>
           <p class="curso_contenido-descripcion">
             Aprende una de las herramientas más útiles y versátiles del mercado: Excel. Este es un programa de hojas
@@ -865,7 +865,7 @@ include './includes/templates/header.php';
             estudiantes de postgrado, investigadores y profesionales en áreas multidisciplinarias
           </p>
 
-          <a href="/cursos/ExcelUsoyAplicaciones.php" target="_blank" class="curso_contenido-button btn btn-link">Ver
+          <a href="/cursos/ExcelUsoyAplicaciones/ExcelUsoyAplicaciones.php" target="_blank" class="curso_contenido-button btn btn-link">Ver
             curso</a>
 
           <div class="curso_contenido-horario">

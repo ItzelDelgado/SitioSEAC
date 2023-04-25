@@ -1007,6 +1007,7 @@ h2 {
     border-bottom-width: 1px;
     border-left-width: 1px;
     border-right-width: 1px;
+    padding: 5px 10px;
 }
 
 .search {

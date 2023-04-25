@@ -7710,6 +7710,10 @@ h1,  h2,  h3,  h4,  h5,  h6,  .h1,  .h2,  .h3,  .h4,  .h5,  .h6{
   list-style-type: disc;
 }
 
+.list-decimal{
+  list-style-type:decimal;
+}
+
 /* Para carrusel */
   .bg-\[url\(\'\.\.\/\.\.\/assets\/images\/slider\/bg01\.jpg\'\)\]{
   background-image: url('../../assets/images/slider/bg01.jpg') !important;

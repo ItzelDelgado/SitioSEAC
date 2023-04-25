@@ -494,9 +494,9 @@ include './includes/templates/header.php';
           </div>
         </div>
         <div class="content p-6 relative">
-          <a href="diplomados/ActualizacionDocenteenFisica22-23.php" class="text-lg font-bold block hover:text-red-600 duration-500 ease-in-out mt-2 cursor-pointer">
+          <a href="diplomados/ActualizacionDocenteenFisica/ActualizacionDocenteEnFisica22-23.php" class="text-lg font-bold block hover:text-red-600 duration-500 ease-in-out mt-2 cursor-pointer">
             Actualización Docente en Física</a>
-          <a href="diplomados/ActualizacionDocenteenFisica22-23.php" class="text-sm font-thin block text-red-600">Programa 2022-2023 - Diplomado de titulación</a>
+          <a href="diplomados/ActualizacionDocenteenFisica/ActualizacionDocenteEnFisica22-23.php" class="text-sm font-thin block text-red-600">Programa 2022-2023 - Diplomado de titulación</a>
           <p class="text-sm block text-indigo-600 mt-2">
             Del 19 de mayo de 2022 al 7 de diciembre de 2023
           </p>
@@ -511,7 +511,7 @@ include './includes/templates/header.php';
             Dirigido a: Estudiantes de la licenciatura en Física, interesados en la docencia, y profesores de Física de todos los niveles educativos.
           </p>
           <p>
-            <a href="cursos/IntroduccionAlEstudioyConservaciondeTortugas/IntroduccionAlEstudioyConservaciondeTortugas1raEd.php" target="_blank" class="btn btn-link text-indigo-600 hover:text-red-600 after:bg-indigo-600 duration-500 ease-in-out">Ver
+            <a href="diplomados/ActualizacionDocenteenFisica/ActualizacionDocenteEnFisica22-23.php" target="_blank" class="btn btn-link text-indigo-600 hover:text-red-600 after:bg-indigo-600 duration-500 ease-in-out">Ver
               diplomado</a>
           </p>
           <ul class="pt-4 border-t border-gray-100 dark:border-gray-800 flex items-center list-none text-slate-400">
@@ -557,10 +557,10 @@ include './includes/templates/header.php';
           </div>
         </div>
         <div class="curso_contenido">
-          <a href="cursos/IntroduccionAlaProgRyAplicAlinfereniciaEstadI_15aEd.php">
+          <a href="cursos/IntroduccionAlaProgRyAplicAlinfereniciaEstadistica/IntroduccionAlaProgRyAplicAlinfereniciaEstadI_15aEd.php">
             Introducción a la Programación en R y su Aplicación a la
             Inferencia Estadística I</a>
-          <a href="cursos/IntroduccionAlaProgRyAplicAlinfereniciaEstadI_15aEd.php">15a. Edición</a>
+          <a href="cursos/IntroduccionAlaProgRyAplicAlinfereniciaEstadistica/IntroduccionAlaProgRyAplicAlinfereniciaEstadI_15aEd.php">15a. Edición</a>
           <p class="curso_contenido-fecha">
             Del 6 de mayo al 24 de junio de 2023
           </p>
@@ -576,7 +576,7 @@ include './includes/templates/header.php';
             profesionales en áreas multidisciplinarias.
           </p>
 
-          <a href="cursos/IntroduccionAlaProgRyAplicAlinfereniciaEstadI_15aEd.php" target="_blank" class="curso_contenido-button btn btn-link">Ver
+          <a href="cursos/IntroduccionAlaProgRyAplicAlinfereniciaEstadistica/IntroduccionAlaProgRyAplicAlinfereniciaEstadI_15aEd.php" target="_blank" class="curso_contenido-button btn btn-link">Ver
             curso</a>
 
           <div class="curso_contenido-horario">
@@ -811,9 +811,9 @@ include './includes/templates/header.php';
           </div>
         </div>
         <div class="curso_contenido">
-          <a href="/cursos/ExcelUsoyAplicaciones.php">
+          <a href="/cursos/ExcelUsoyAplicaciones/ExcelUsoyAplicaciones.php">
             Excel, Uso y Aplicaciones</a>
-          <a href="/cursos/ExcelUsoyAplicaciones.php">3ra. Edición</a>
+          <a href="/cursos/ExcelUsoyAplicaciones/ExcelUsoyAplicaciones.php">3ra. Edición</a>
           <p class="curso_contenido-fecha">Fechas por definir</p>
           <p class="curso_contenido-descripcion">
             Aprende una de las herramientas más útiles y versátiles del mercado: Excel. Este es un programa de hojas
@@ -826,7 +826,7 @@ include './includes/templates/header.php';
             estudiantes de postgrado, investigadores y profesionales en áreas multidisciplinarias
           </p>
 
-          <a href="/cursos/ExcelUsoyAplicaciones.php" target="_blank" class="curso_contenido-button btn btn-link">Ver
+          <a href="/cursos/ExcelUsoyAplicaciones/ExcelUsoyAplicaciones.php" target="_blank" class="curso_contenido-button btn btn-link">Ver
             curso</a>
 
           <div class="curso_contenido-horario">

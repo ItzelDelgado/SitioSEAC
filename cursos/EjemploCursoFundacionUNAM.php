@@ -522,9 +522,8 @@ $info_academica = "Dra. Rosalía Pastor Nieto <br> Correo electrónico: rosalia.
 <section class="inscripcion md:py-24" id="inscripcion">
     <div class="container">
         <div class="titulo">
-            <h2>Inscripción</h2>
+            <h2 class="md:text-3xl md:leading-normal">Inscripción</h2>
         </div>
-
         <div class="pasos">
             <div class="relative after:content-[''] after:absolute after:top-0 md:after:right-0 md:after:left-0 after:w-px after:h-full md:after:m-auto after:border-l-2 after:border-dashed after:border-gray-200 dark:after:border-gray-700 ml-3 md:ml-0">
                 <!--Start content-->
@@ -533,9 +532,8 @@ $info_academica = "Dra. Rosalía Pastor Nieto <br> Correo electrónico: rosalia.
                         <h3 class="md:text-right md:mr-8">Paso 1</h3>
 
                         <div class="md:ml-8 md:mt-0">
-                            <h4>Realizar el pago en línea mediante "Plaza
-                                Prometeo", la tienda de la Facultad de Ciencias</h4>
-                            <p><a href="https://tienda.fciencias.unam.mx" target="_blank" class="btn btn-link text-indigo-600 hover:text-red-600 after:bg-indigo-600 duration-500 ease-in-out">tienda.fciencias.unam.mx</a>
+                            <h4>Solicita el formato de preregistro a:</h4>
+                            <p><a href="mailto:cursosydiplomados@funam.mx" target="_blank" class="btn btn-link text-indigo-600 hover:text-red-600 after:bg-indigo-600 duration-500 ease-in-out">cursosydiplomados@funam.mx</a>
                             </p>
                         </div>
                     </div>
@@ -544,21 +542,34 @@ $info_academica = "Dra. Rosalía Pastor Nieto <br> Correo electrónico: rosalia.
                         <h3 class="md:text-right md:mr-8">Paso 2</h3>
 
                         <div class="md:ml-8 md:mt-0">
-                            <h4>Registrarse en este formato de inscripción</h4>
-                            <p>(únicamente si usted ya hizo el pago)</p>
-                            <p><a href=<?php echo $formato_inscripcion ?> target="_blank" class="btn btn-link text-indigo-600 hover:text-red-600 after:bg-indigo-600 duration-500 ease-in-out">Formato
-                                    de inscripción</a></p>
+                            <h4>Datos bancarios para depósito en sucursal,
+                                practicajas, transferencia bancaria:</h4>
+                            <p>Banco: CitiBanamex<br>Beneficiario: Fundación UNAM,
+                                A.C.<br>Sucursal: 870<br>
+                                Cuenta: 572529<br>Clabe: 00 21 80 08 70 05 72 52 92<br>Referencia: 829.411.100</p>
+
+                            <p>En caso de que desees efectuarlo con tarjeta de
+                                crédito y/o débito deberás acudir a las oficinas de Fundación UNAM en horario de
+                                lunes a jueves de 9:30 a 17:30 y viernes de 9:30 a 14:30, ubicada en Calle
+                                Pennsylvania 203, Col. Nápoles, Alcaldía Benito Juárez, C.P. 03810.</p>
+
+                            <p>También puedes efectuarlo vía telefónica al call
+                                center 55 53 400 904 o al teléfono 55 4575 1879</p>
+
+
                         </div>
                     </div>
+
+
 
                 </div>
                 <!--End content-->
 
             </div>
         </div>
-        <p class="advertencia"><i class="uil uil-exclamation-circle"></i>En caso de
-            cancelación, procederá la devolución de lo pagado con los criterios administrativos de la Facultad de
-            Ciencias.</p>
+        <p class="advertencia"><i class="uil uil-exclamation-circle"></i>Comunidad
+            UNAM: En caso de formar parte de la Comunidad UNAM (alumnos, exalumnos, académicos, personal
+            administrativo), deberás presentar una identificación que te acredite como tal.</p>
     </div>
 </section><!--end section-->
 <!-- End -->
