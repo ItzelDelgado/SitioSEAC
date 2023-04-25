@@ -32,7 +32,7 @@ Correo electrónico: gmarquez@ciencias.unam.mx" //Agregar el Nombre <br> correo,
 <!-- La parte más pesada es agregar el temario. Se puede usar ese o una tabla como la que normalmente creas, ya agregue estilos para que se adapten, ver ejemplo de primeros auxilios.-->
 <!-- Start Hero -->
 <section class="portada">
-    <img src="../../assets/images/cursos/bg-FaunaSilvestre.webp" alt="">
+    <img src="../../assets/images/cursos/Programacion-de-Dispositivos-Moviles-con-Android.webp" alt="">
     <div class="portada-opacity"></div>
     <div class="container">
         <div class="portada-informacion">

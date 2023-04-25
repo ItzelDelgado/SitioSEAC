@@ -298,7 +298,7 @@ include './includes/templates/header.php';
       <div class="group curso">
         <div class="curso_imagen">
           <div class="curso_imagen_adapter">
-            <img src="assets/images/cursos/bg-DivulgacionCiencia.webp" alt="" />
+            <img src="assets/images/cursos/bg-primeros-auxilios.webp  " alt="" />
           </div>
           <div class="curso_imagen-backgroud">
           </div>
@@ -423,7 +423,7 @@ include './includes/templates/header.php';
       <div class="group curso">
         <div class="curso_imagen">
           <div class="curso_imagen_adapter">
-            <img src="assets/images/cursos/bg-DivulgacionCiencia.webp" alt="" />
+            <img src="assets/images/cursos/Programacion-de-Dispositivos-Moviles-con-Android.webp" alt="" />
           </div>
           <div class="curso_imagen-backgroud">
           </div>
@@ -608,7 +608,7 @@ include './includes/templates/header.php';
       <div class="group curso">
         <div class="curso_imagen">
           <div class="curso_imagen_adapter">
-            <img src="assets/images/cursos/bg-DivulgacionCiencia.webp" alt="" />
+            <img src="assets/images/cursos/Cuadernos-Jupyter-Interactivos.webp" alt="" />
           </div>
           <div class="curso_imagen-backgroud">
           </div>
@@ -671,7 +671,7 @@ include './includes/templates/header.php';
       <div class="group curso">
         <div class="curso_imagen">
           <div class="curso_imagen_adapter">
-            <img src="assets/images/cursos/bg-DivulgacionCiencia.webp" alt="" />
+            <img src="assets/images/cursos/Introduccion-a-los-Corales-Fosiles.webp" alt="" />
           </div>
           <div class="curso_imagen-backgroud">
           </div>
@@ -857,7 +857,7 @@ include './includes/templates/header.php';
       <div class="group curso programados">
         <div class="curso_imagen">
           <div class="curso_imagen_adapter">
-            <img src="assets/images/cursos/bg-DivulgacionCiencia.webp" alt="" />
+            <img src="assets/images/cursos/Introduccion-a-la-divulgacion-de-la-Ciencia.webp" alt="" />
           </div>
           <div class="curso_imagen-backgroud">
           </div>

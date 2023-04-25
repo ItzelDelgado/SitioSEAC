@@ -3,7 +3,7 @@ include '../../includes/templates/header.php';
 ?>
 <!-- Start Hero -->
 <section class="portada">
-    <img src="../../assets/images/cursos/bg-DivulgacionCiencia.webp" alt="">
+    <img src="../../assets/images/cursos/Introduccion-a-la-divulgacion-de-la-Ciencia.webp" alt="">
     <div class="portada-opacity"></div>
     <div class="container">
         <div class="portada-informacion">

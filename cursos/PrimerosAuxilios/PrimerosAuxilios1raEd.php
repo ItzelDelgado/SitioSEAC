@@ -27,7 +27,7 @@ $info_academica = "Dra. Rosalía Pastor Nieto <br> Correo electrónico: rosalia.
 
 <!-- Start Hero -->
 <section class="portada">
-    <img src="../../assets/images/cursos/bg-FaunaSilvestre.webp" alt="">
+    <img src="../../assets/images/cursos/bg-primeros-auxilios.webp" alt="">
     <div class="portada-opacity"></div>
     <div class="container">
         <div class="portada-informacion">
