@@ -25,9 +25,6 @@ include './includes/templates/header.php';
 <!-- End Hero -->
 
 
-
-
-
 <!-- DIPLOMADOS RECIENTES -->
 
 <div class="relative md:py-10 py-10">
