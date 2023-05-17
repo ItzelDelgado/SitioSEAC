@@ -72,6 +72,7 @@
                             <li class="has-submenu parent-menu-item"><a href="../../cursos.php"> Cursos </a><span class=""></span></li>
                             <li class="has-submenu parent-menu-item"><a href="../../diplomados.php"> Diplomados</a><span class=""></span></li>
                             <li class="has-submenu parent-menu-item"><a href="../../talleres.php">Talleres</a><span class=""></span></li>
+                            <li class="has-submenu parent-menu-item"><a href="../../coloquios.php">Coloquios</a><span class=""></span></li>
                         </ul>
                     </li>
 
