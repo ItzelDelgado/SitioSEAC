@@ -10,49 +10,26 @@ include './includes/templates/funciones.php';
       Se agregan desde el css, el tamaño que deben tener es ancho:1920px alto:480px
     máximo 160kb-->
     <!-- Diapositiva 1-->
-    <div class="flex items-center justify-center transition-all duration-700 ease-in-out" data-carousel-item="active">
-      <div
-        class="absolute inset-0 image-wrap z-1 bg-[url('../../assets/images/slider/bn-sustentabilidad.webp')] bg-top bg-no-repeat">
-      </div>
-      <div class="absolute inset-0 z-2"></div>
-      <div class="container z-3">
-      </div>
+    <div class="imagen-carrusel" data-carousel-item="active">
+      <img src="assets/images/slider/bn-sustentabilidad.webp" alt="">
       <!--fin container-->
     </div>
     <!-- Diapositiva 1 FIN-->
 
     <!-- Diapositiva 2-->
-    <div class="flex items-center justify-center transition-all duration-700 ease-in-out" data-carousel-item="">
-      <div
-        class="absolute inset-0 image-wrap z-1 bg-[url('../../assets/images/slider/bg-tlacuache.jpg')] bg-top bg-no-repeat">
-      </div>
-      <div class="absolute inset-0 z-2"></div>
-      <div class="container z-3">
-      </div>
-
+    <div class="imagen-carrusel" data-carousel-item="">
+      <img src="assets/images/slider/bg-tracuache.jpg" alt="">
     </div>
     <!-- Diapositiva 2 FIN-->
 
     <!-- Diapositiva 3 -->
-    <div class="flex items-center justify-center transition-all duration-700 ease-in-out" data-carousel-item="">
-      <div
-        class="absolute inset-0 image-wrap z-1 bg-[url('../../assets/images/slider/bgTortuga.webp')] bg-top bg-no-repeat">
-      </div>
-      <div class="absolute inset-0 z-2"></div>
-      <div class="container z-3">
-      </div>
-
+    <div class="imagen-carrusel" data-carousel-item="">
+      <img src="assets/images/slider/bgTortuga.webp" alt="">
     </div>
     <!-- Diapositiva 3 FIN-->
     <!-- Diapositiva 4 -->
-    <div class="flex items-center justify-center transition-all duration-700 ease-in-out" data-carousel-item="">
-      <div
-        class="absolute inset-0 image-wrap z-1 bg-[url('../../assets/images/slider/BnProgramacion.webp')] bg-top bg-no-repeat">
-      </div>
-      <div class="absolute inset-0 z-2"></div>
-      <div class="container z-3">
-      </div>
-
+    <div class="imagen-carrusel" data-carousel-item="">
+      <img src="assets/images/slider/BnProgramacion.webp" alt="">
     </div>
     <!-- Diapositiva 4 FIN-->
   </div>

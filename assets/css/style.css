@@ -767,7 +767,7 @@ h2 {
 }
 
 
-.temario .secciones .contenido h4{
+.temario .secciones .contenido h4 {
     font-weight: bold;
     padding-left: 1rem !important;
     padding-right: 1rem !important;
@@ -775,16 +775,14 @@ h2 {
     padding-bottom: 1.25rem !important;
 }
 
-.temario .secciones .contenido ul {
-
-}
+.temario .secciones .contenido ul {}
 
 .temario .secciones .contenido li {
     border-top: 1px solid #e5e7eb8f;
     padding: 1rem !important;
 }
 
-.temario .secciones .contenido > ul > li::before {
+.temario .secciones .contenido>ul>li::before {
     content: url('/assets/images/iconos/iconmonstr-clipboard-9.svg');
     display: inline-block;
     width: 15px;
@@ -792,7 +790,7 @@ h2 {
     margin-right: 5px;
 }
 
-.temario .secciones .contenido > ul > li > ul > li::before {
+.temario .secciones .contenido>ul>li>ul>li::before {
     content: url('/assets/images/iconos/iconmonstr-circle-filled.svg');
     display: inline-block;
     width: 10px;
@@ -800,7 +798,7 @@ h2 {
     margin-right: 5px;
 }
 
-.temario .secciones .contenido > ul > li > ul > li > ul > li::before {
+.temario .secciones .contenido>ul>li>ul>li>ul>li::before {
     content: url('/assets/images/iconos/iconmonstr-circle-lined.svg');
     display: inline-block;
     width: 10px;
@@ -1008,6 +1006,7 @@ h2 {
     margin-top: 2rem !important;
     padding-bottom: 2rem;
 }
+
 .temario-tabla table {
     display: table;
     border-collapse: separate;
@@ -1084,6 +1083,34 @@ h2 {
 
 }
 
+.imagen-carrusel {
+    display: flex;
+    align-items: center !important;
+    justify-content: center !important;
+    -webkit-transition-property: all !important;
+    transition-property: all !important;
+    -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1) !important;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1) !important;
+    -webkit-transition-duration: 150ms !important;
+    transition-duration: 150ms !important;
+    transition-duration: 700ms !important;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1) !important;
+    width: 140rem;
+}
+
+.imagen-carrusel img{
+    position: absolute;
+    top: 0px !important;
+    right: 0px !important;
+    bottom: 0px !important;
+    left: 0px !important;
+    -webkit-animation: 100s ppb_kenburns linear infinite alternate;
+    animation: 100s ppb_kenburns linear infinite alternate;
+    content: var(--tw-content) !important;
+    z-index: -1 !important;
+    background-position: top !important;
+    background-repeat: no-repeat !important;
+}
 
 @media (min-width: 640px) {
     .curso .curso_imagen .curso_imagen_adapter {
@@ -1104,7 +1131,7 @@ h2 {
         width: 353px;
         height: 220.625px;
     }
-    
+
 }
 
 @media (min-width: 1024px) {
