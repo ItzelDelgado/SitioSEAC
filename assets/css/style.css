@@ -766,6 +766,48 @@ h2 {
     border-radius: 0.375rem !important;
 }
 
+
+.temario .secciones .contenido h4{
+    font-weight: bold;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+    padding-top: 1.25rem !important;
+    padding-bottom: 1.25rem !important;
+}
+
+.temario .secciones .contenido ul {
+
+}
+
+.temario .secciones .contenido li {
+    border-top: 1px solid #e5e7eb8f;
+    padding: 1rem !important;
+}
+
+.temario .secciones .contenido > ul > li::before {
+    content: url('/assets/images/iconos/iconmonstr-clipboard-9.svg');
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
+
+.temario .secciones .contenido > ul > li > ul > li::before {
+    content: url('/assets/images/iconos/iconmonstr-circle-filled.svg');
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+}
+
+.temario .secciones .contenido > ul > li > ul > li > ul > li::before {
+    content: url('/assets/images/iconos/iconmonstr-circle-lined.svg');
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+}
+
 .temario .secciones .contenido table {
     width: 100% !important;
     text-align: left !important;

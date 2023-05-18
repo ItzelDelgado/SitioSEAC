@@ -252,81 +252,154 @@ $info_academica = "Dra. Rosalía Pastor Nieto <br> Correo electrónico: rosalia.
 </section>
 
 
+
 <!-- Este ejemoplo es para cuando se muestra en forma de indice. -->
-<!-- TEMARIO SECCIÓN: LOS <h3> son temas principales y los <td> son subtemas. -->
+<!-- TEMARIO SECCIÓN: LOS <h3> son temas principales y los <li> son subtemas. -->
+<!-- TEMARIO SECCIÓN: LOS <h3> son temas principales y los <li> son subtemas. -->
 <section class="temario container">
     <h2>Temario</h2>
     <div class="secciones grid md:grid-cols-2 grid-cols-1">
         <!-- ******SECCIÓN PARA CADA TEMA CON SUS SUBTEMAS *****-->
         <div>
-            <!-- Subtema -->
-            <h3>I. Introducción a la Rehabilitación de Fauna Silvestre</h3>
+            <h3>I. Introducción</h3>
             <div class="contenido">
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Temas</th>
-                        </tr>
-                    </thead>
-                    <tbody><!-- Sub-subtemas -->
-                        <!-- Sub-subtema -->
-                        <tr>
-                            <td>
-                                I.1 Historia introduccioón
-                            </td>
-                        </tr>
-                        <!-- Fin Sub sub-subtema -->
-
-                        <!-- Sub-subtema con sub-indices, se agregan en forma de lista. -->
-                        <tr>
-                            <td>
-                                I.2. Especies vulnerables a desastres naturales
-                                <ul class="p-6 list-disc ">
-                                    <li>manejo de descontaminación</li>
-                                </ul>
-                            </td>
-                        </tr>
-                    </tbody><!--Fin Sub-subtemas -->
-                </table>
+                <h4>Temas</h4>
+                <ul>
+                    <li>I.1 Dispositivos Móviles.</li>
+                    <li>I.2. Clasificación y aplicaciones de los dispositivos móviles.</a></li>
+                    <li>I.3. Plataformas de programación para dispositivos móviles.</li>
+                    <li>I.4. Presentación de la plataforma Android.</li>
+                    <li>I.5. La plataforma Android, entorno, anatomía y las capas de su arquitectura..</li>
+                </ul>
             </div>
-            <!-- Fin Subtema -->
-            <!-- Subtema -->
-            <h3>II. Introducción a la Rehabilitación de Fauna Silvestre</h3>
-            <div class="contenido">
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Temas</th>
-                        </tr>
-                    </thead>
-                    <tbody><!-- Sub-subtemas -->
-                        <!-- Sub-subtema -->
-                        <tr>
-                            <td>
-                                II.1 Historia introduccioón
-                            </td>
-                        </tr>
-                        <!-- Fin Sub sub-subtema -->
-
-                        <!-- Sub-subtema con sub-indices, se agregan en forma de lista. -->
-                        <tr>
-                            <td>
-                                II.2. Especies vulnerables a desastres naturales
-                                <ul class="p-6 list-disc ">
-                                    <li>manejo de descontaminación</li>
-                                </ul>
-                            </td>
-                        </tr>
-                    </tbody><!--Fin Sub-subtemas -->
-                </table>
-            </div>
-            <!-- Fin Subtema -->
         </div>
         <!--********FIN DE SECCIÓN PARA CADA TEMA CON SUS SUBTEMAS********-->
+        <div>
+            <h3>II. Programación</h3>
+            <div class="contenido">
+                <h4>Temas</h4>
+                <ul>
+                    <li>
+                        II.1 Instalación y configuración del entorno de desarrollo (Android Studio y SDK Android).
+                    </li>
+                    <li>
+                        II.2. Elementos esenciales en la creación de aplicaciones Android.
+                        - Activity, Context y Ciclos de vida de Activities
+                    </li>
+                    <li>
+                        II.3. Interfaz de usuario.
+                        - Layouts, recursos, ActionBar, menús, listas, popups, webview, fragmentos, pestañas, etc.
+                    </li>
+                    <li>
+                        II.4. Gestión de la navegación y la comunicación entre las distintas interfaces.
+                        - Material Design, Toolbar, CardView, notificaciones Android Wear.
+                    </li>
+                    <li>
+                        II.5. Interfaces Personalizadas.
+                        - Gestión de temas, animaciones, tipografía.
+                    </li>
+                    <li>
+                        II.6. Gestión de los distintos eventos de usuario.
+                        - Clicks y rotación.
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div>
+            <h3>III. Gestión de la fragmentación de la plataforma</h3>
+            <div class="contenido">
+                <h4>Temas</h4>
+                <ul>
+                    <li>
+                        III.1. Versiones de Android, tamaño y resolución de pantallas, diferencias en el hardware.
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div>
+            <h3>IV. Almacenamiento y recuperación de Datos</h3>
+            <div class="contenido">
+                <h4>Temas</h4>
+                <ul>
+                    <li>Instalaci&oacute;n y configuraci&oacute;n del entorno de desarrollo (Android Studio y SDK Android)</li>
+                    <li>Elementos esenciales en la creaci&oacute;n de aplicaciones Android.
+                        <ul>
+                            <li>Activity, Context y Ciclos de vida de Activities
+                                <ul>
+                                    <li>Activity, C ontext y Ciclos de vida de Activities</li>
+                                </ul>
+                            </li>
 
+                        </ul>
+                    </li>
+                    <li>Interfaz de usuario<ul>
+                            <li>Layouts, recursos, ActionBar, men&uacute;s, listas, popups, webview, fragmentos, pesta&ntilde;as, etc.</li>
+                        </ul>
+                    </li>
+                    <li>Gesti&oacute;n de la navegaci&oacute;n y la comunicaci&oacute;n entre las distintas interfaces<ul>
+                            <li>&nbsp;Material Design, Toolbar, CardView, notificaciones Android Wear.</li>
+                        </ul>
+                    </li>
+                    <li>Interfaces Personalizadas<ul>
+                            <li>Gesti&oacute;n de temas, animaciones, tipograf&iacute;a.</li>
+                        </ul>
+                    </li>
+                    <li>Gesti&oacute;n de los distintos eventos de usuario.<ul>
+                            <li>Clicks y rotaci&oacute;n.</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div>
+            <h3>V. Mapas digitales y localización</h3>
+            <div class="contenido">
+                <h4>Temas</h4>
+                <ul>
+                    <li>V.1.
+                        Google Maps, localización (GPS), conversión posición/dirección.
+                    </li>
+                    <li>V.2.
+                        Uso de servicios Android.
+                    </li>
+                    <li>V.3.
+                        Conectividad (WIFI).
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div>
+            <h3>VI. Métodos de acceso a las diferentes funcionalidades de un dispositivo Android.</h3>
+            <div class="contenido">
+                <h4>Temas</h4>
+                <ul>
+                    <li>VI.1.
+                        Llamadas, sms, cámara, acelerómetro, Bluetooth.
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div>
+            <h3>VII. Publicación y comercialización</h3>
+            <div class="contenido">
+                <h4>Temas</h4>
+                <ul>
+                    <li>VII.1.
+                        Proteger el código fuente.
+                    </li>
+                    <li>VII.2.
+                        Comercialización de aplicaciones.
+                    </li>
+                </ul>
+            </div>
+        </div>
     </div> <!-- TERMINA EL CONTENEDOR DE LOS SUBTEMAS -->
 
 </section><!-- TERMINA LA SECCIÓN DEL TEMARIO -->
+
+
+
+
 
 <!-- Este ejemoplo es para cuando se muestra en forma de tabla -->
 <!-- TEMARIO SECCIÓN: -->
