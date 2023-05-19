@@ -15,7 +15,8 @@
 //@param $precio_max el costo para externos
 //@param $descuento la frase del 15% de descuento, si es que hay, si no, se pone la palabra "NO" en mayusculas.
 //@param $ponentes = array(array("Nombre","EnlaceCurriculum")) un arreglo que almacena los nombres de ponentes y sus curriculums. Si solo hay uno, es necesario meterlo en doble array.
-function banner_curso($estado,$imagen_url,$nombre_curso,$edicion,$pagina_principal_curso_url,$fecha, $descripcion_resumen,$dirigido_a,$dias,$horas,$modalidad,$precio_max,$descuento,$ponentes = array(array("Nombre","EnlaceCurriculum"))){
+function banner_curso($estado, $imagen_url, $nombre_curso, $edicion, $pagina_principal_curso_url, $fecha, $descripcion_resumen, $dirigido_a, $dias, $horas, $modalidad, $precio_max, $descuento, $ponentes = array(array("Nombre", "EnlaceCurriculum")))
+{
     $textocurso = "<div class=\"group curso $estado\">
                         <div class=\"curso_imagen\">
                             <div class=\"curso_imagen_adapter\">
@@ -25,10 +26,10 @@ function banner_curso($estado,$imagen_url,$nombre_curso,$edicion,$pagina_princip
                             <div class=\"curso_imagen-data\">
                                 <div>
                                     <img src=\"assets/images/instructores/usr-f.jpg\" alt=\" \" />
-                                    <div class=\"ml-3\">";                                
+                                    <div class=\"ml-3\">";
     echo $textocurso;
-    for ($row = 0; $row < count($ponentes);$row++) {
-        echo "<a href=\"".$ponentes[$row][1]."\". target=\"_blank\">".$ponentes[$row][0]."</a>";
+    for ($row = 0; $row < count($ponentes); $row++) {
+        echo "<a href=\"" . $ponentes[$row][1] . "\". target=\"_blank\">" . $ponentes[$row][0] . "</a>";
     }
     $textocurso2 = "</div>
                                 </div>
@@ -39,10 +40,12 @@ function banner_curso($estado,$imagen_url,$nombre_curso,$edicion,$pagina_princip
                             <a href=\"$pagina_principal_curso_url\">$edicion</a>
                             <p class=\"curso_contenido-fecha\">$fecha</p>";
     echo $textocurso2;
-    if($descuento == 'NO'){
+    if ($descuento == 'NO') {
         echo "";
-    }else{ echo "<p class=\"curso_contenido-descuento\">15% de descuento por concepto de pronto pago (hasta el 18 de abril) - $3,060</p>";}                       
-                           
+    } else {
+        echo "<p class=\"curso_contenido-descuento\">15% de descuento por concepto de pronto pago (hasta el 18 de abril) - $3,060</p>";
+    }
+
     $textocurso3 = "<p class=\"curso_contenido-descripcion\">$descripcion_resumen</p>
                             <p class=\"curso_contenido-subdescripcion\">
                                 Dirigido a: $dirigido_a.
@@ -91,7 +94,8 @@ function banner_curso($estado,$imagen_url,$nombre_curso,$edicion,$pagina_princip
 //@param $precio_max el costo para externos
 //@param $descuento la frase del 15% de descuento, si es que hay, si no, se pone la palabra "NO" en mayusculas.
 //@param $ponentes = array(array("Nombre","EnlaceCurriculum")) un arreglo que almacena los nombres de ponentes y sus curriculums. Si solo hay uno, es necesario meterlo en doble array.
-function banner_diplomado($estado,$imagen_url,$nombre_diplomado,$edicion,$pagina_principal_diplomado_url,$fecha, $descripcion_resumen,$dirigido_a,$dias,$horas,$modalidad,$precio_max,$ponentes = array(array("Nombre","EnlaceCurriculum"))){
+function banner_diplomado($estado, $imagen_url, $nombre_diplomado, $edicion, $pagina_principal_diplomado_url, $fecha, $descripcion_resumen, $dirigido_a, $dias, $horas, $modalidad, $precio_max, $ponentes = array(array("Nombre", "EnlaceCurriculum")))
+{
     $textocurso = "<div class=\"group curso $estado\">
                         <div class=\"curso_imagen\">
                             <div class=\"curso_imagen_adapter\">
@@ -101,10 +105,10 @@ function banner_diplomado($estado,$imagen_url,$nombre_diplomado,$edicion,$pagina
                             <div class=\"curso_imagen-data\">
                                 <div>
                                     <img src=\"assets/images/instructores/usr-f.jpg\" alt=\" \" />
-                                    <div class=\"ml-3\">";                                
+                                    <div class=\"ml-3\">";
     echo $textocurso;
-    for ($row = 0; $row < count($ponentes);$row++) {
-        echo "<a href=\"".$ponentes[$row][1]."\". target=\"_blank\">".$ponentes[$row][0]."</a>";
+    for ($row = 0; $row < count($ponentes); $row++) {
+        echo "<a href=\"" . $ponentes[$row][1] . "\". target=\"_blank\">" . $ponentes[$row][0] . "</a>";
     }
     $textocurso2 = "</div>
                                 </div>
@@ -146,7 +150,8 @@ function banner_diplomado($estado,$imagen_url,$nombre_diplomado,$edicion,$pagina
     echo $textocurso2;
 }
 
-function banner_taller($estado,$imagen_url,$nombre_taller,$edicion,$pagina_principal_curso_url,$fecha, $descripcion_resumen,$dirigido_a,$dias,$horas,$modalidad,$precio_max,$ponentes = array(array("Nombre","EnlaceCurriculum"))){
+function banner_taller($estado, $imagen_url, $nombre_taller, $edicion, $pagina_principal_curso_url, $fecha, $descripcion_resumen, $dirigido_a, $dias, $horas, $modalidad, $precio_max, $ponentes = array(array("Nombre", "EnlaceCurriculum")))
+{
     $textocurso = "<div class=\"group curso\">
                         <div class=\"curso_imagen\">
                             <div class=\"curso_imagen_adapter\">
@@ -156,10 +161,10 @@ function banner_taller($estado,$imagen_url,$nombre_taller,$edicion,$pagina_princ
                             <div class=\"curso_imagen-data\">
                                 <div>
                                     <img src=\"assets/images/instructores/usr-f.jpg\" alt=\" \" />
-                                    <div class=\"ml-3\">";                                
+                                    <div class=\"ml-3\">";
     echo $textocurso;
-    for ($row = 0; $row < count($ponentes);$row++) {
-        echo "<a href=\"".$ponentes[$row][1]."\". target=\"_blank\">".$ponentes[$row][0]."</a>";
+    for ($row = 0; $row < count($ponentes); $row++) {
+        echo "<a href=\"" . $ponentes[$row][1] . "\". target=\"_blank\">" . $ponentes[$row][0] . "</a>";
     }
     $textocurso2 = "</div>
                                 </div>
@@ -216,7 +221,8 @@ function banner_taller($estado,$imagen_url,$nombre_taller,$edicion,$pagina_princ
 //@param $precio_max el costo para externos
 //@param $descuento la frase del 15% de descuento, si es que hay, si no, se pone la palabra "NO" en mayusculas.
 //@param $ponentes = array(array("Nombre","EnlaceCurriculum")) un arreglo que almacena los nombres de ponentes y sus curriculums. Si solo hay uno, es necesario meterlo en doble array.
-function banner_coloquio($estado,$imagen_url,$nombre_curso,$edicion,$pagina_principal_curso_url,$fecha, $descripcion_resumen,$dirigido_a,$dias,$horas,$modalidad,$precio_max,$descuento,$ponentes = array(array("Nombre","EnlaceCurriculum"))){
+function banner_coloquio($estado, $imagen_url, $nombre_curso, $edicion, $pagina_principal_curso_url, $fecha, $descripcion_resumen, $dirigido_a, $dias, $horas, $modalidad, $precio_max, $descuento, $ponentes = array(array("Nombre", "EnlaceCurriculum")))
+{
     $textocurso = "<div class=\"group curso $estado\">
                         <div class=\"curso_imagen\">
                             <div class=\"curso_imagen_adapter\">
@@ -226,10 +232,10 @@ function banner_coloquio($estado,$imagen_url,$nombre_curso,$edicion,$pagina_prin
                             <div class=\"curso_imagen-data\">
                                 <div>
                                     <img src=\"assets/images/instructores/usr-f.jpg\" alt=\" \" />
-                                    <div class=\"ml-3\">";                                
+                                    <div class=\"ml-3\">";
     echo $textocurso;
-    for ($row = 0; $row < count($ponentes);$row++) {
-        echo "<a href=\"".$ponentes[$row][1]."\". target=\"_blank\">".$ponentes[$row][0]."</a>";
+    for ($row = 0; $row < count($ponentes); $row++) {
+        echo "<a href=\"" . $ponentes[$row][1] . "\". target=\"_blank\">" . $ponentes[$row][0] . "</a>";
     }
     $textocurso2 = "</div>
                                 </div>
@@ -240,10 +246,12 @@ function banner_coloquio($estado,$imagen_url,$nombre_curso,$edicion,$pagina_prin
                             <a href=\"$pagina_principal_curso_url\">$edicion</a>
                             <p class=\"curso_contenido-fecha\">$fecha</p>";
     echo $textocurso2;
-    if($descuento == 'NO'){
+    if ($descuento == 'NO') {
         echo "";
-    }else{ echo "<p class=\"curso_contenido-descuento\">15% de descuento por concepto de pronto pago (hasta el 18 de abril) - $3,060</p>";}                       
-                           
+    } else {
+        echo "<p class=\"curso_contenido-descuento\">15% de descuento por concepto de pronto pago (hasta el 18 de abril) - $3,060</p>";
+    }
+
     $textocurso3 = "<p class=\"curso_contenido-descripcion\">$descripcion_resumen</p>
                             <p class=\"curso_contenido-subdescripcion\">
                                 Dirigido a: $dirigido_a.
@@ -276,5 +284,72 @@ function banner_coloquio($estado,$imagen_url,$nombre_curso,$edicion,$pagina_prin
     echo $textocurso3;
 }
 
+//Función para generar el carrusel
+//@param recibe un arreglo con la url de las imagenes que queremos ir desplegando en el carrusel
+//Las imagenes deben estar en 1920px por 480px de máximo 160kb para que se ajusten y no se deformen.
+function genera_carrusel($imagenes_url = array("assets/images/slider/bn-sustentabilidad.webp"))
+{
+    //Carrusel
+    $textocarrusel = "<section id=\"controls-carousel\" class=\"relative\" data-carousel=\"static\">
+      <div class=\"overflow-hidden relative h-screen inset-0\">";
+    echo $textocarrusel;
+    for ($img = 0; $img < count($imagenes_url); $img++) {
+        //<!-- Diapositiva-->
+        echo "<div class=\"imagen-carrusel\" data-carousel-item=\"active\">
+                <img src=\"$imagenes_url[$img]\" alt=\"Imagen de carrusel\">
+            </div>";
+    }
+    $botones_carrusel = "
+      <button type=\"button\"
+        class=\"flex absolute top-0 left-0 z-30 justify-center items-center px-4 h-full cursor-pointer group focus:outline-none\"
+        data-carousel-prev=\"\">
+        <span
+          class=\"inline-flex justify-center items-center w-8 h-8 rounded-full border border-white hover:border-indigo-600 hover:bg-indigo-600 group-focus:outline-none\">
+          <svg class=\"w-4 h-4 text-white\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"
+            xmlns=\"http://www.w3.org/2000/svg\">
+            <path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M15 19l-7-7 7-7\"></path>
+          </svg>
+          <span class=\"hidden\">Siguiente</span>
+        </span>
+      </button>
+      <button type=\"button\"
+        class=\"flex absolute top-0 right-0 z-30 justify-center items-center px-4 h-full cursor-pointer group focus:outline-none\"
+        data-carousel-next=\"\">
+        <span
+          class=\"inline-flex justify-center items-center w-8 h-8 rounded-full border border-white hover:border-indigo-600 hover:bg-indigo-600 group-focus:outline-none\">
+          <svg class=\"w-4 h-4 text-white\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"
+            xmlns=\"http://www.w3.org/2000/svg\">
+            <path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M9 5l7 7-7 7\"></path>
+          </svg>
+          <span class=\"hidden\">Anterior</span>
+        </span>
+      </button>
+      <!--Botones carrusel FIN-->
+    </section>
+    ";
+    echo $botones_carrusel;
+}
+
+function genera_encabezado_de_pagina($imagen_url, $titulo_de_pagina)
+{
+    $textogenera_encabezado = "<section class=\"portada\">
+  <img src=\"$imagen_url\" alt=\"Imagen de encabezado de page\">
+  <div class=\"portada-opacity\"></div>
+  <div class=\"container\">
+    <div class=\"portada-informacion\" style=\"padding-top: 13rem;\">
+      <h1>$titulo_de_pagina</h1>
+    </div>
+  </div>
+</section>
+<div class=\"relative\">
+  <div
+    class=\"shape absolute right-0 sm:-bottom-px -bottom-[2px] left-0 overflow-hidden z-1 text-white dark:text-slate-900\">
+    <svg class=\"w-full h-auto\" viewBox=\"0 0 2880 48\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">
+      <path d=\"M0 48H1437.5H2880V0H2160C1442.5 52 720 0 720 0H0V48Z\" fill=\"currentColor\"></path>
+    </svg>
+  </div>
+</div>";
+    echo $textogenera_encabezado;
+}
 
 ?>

@@ -4,66 +4,20 @@ include './includes/templates/funciones.php';
 ?>
 
 <!-- Carrusel -->
-<section id="controls-carousel" class="relative" data-carousel="static">
-  <div class="overflow-hidden relative h-screen inset-0">
-    <!-- Imagenes del carrusel
-      Se agregan desde el css, el tamaño que deben tener es ancho:1920px alto:480px
-    máximo 160kb-->
-    <!-- Diapositiva 1-->
-    <div class="imagen-carrusel" data-carousel-item="active">
-      <img src="assets/images/slider/bn-sustentabilidad.webp" alt="">
-      <!--fin container-->
-    </div>
-    <!-- Diapositiva 1 FIN-->
-
-    <!-- Diapositiva 2-->
-    <div class="imagen-carrusel" data-carousel-item="">
-      <img src="assets/images/slider/bg-tracuache.jpg" alt="">
-    </div>
-    <!-- Diapositiva 2 FIN-->
-
-    <!-- Diapositiva 3 -->
-    <div class="imagen-carrusel" data-carousel-item="">
-      <img src="assets/images/slider/bgTortuga.webp" alt="">
-    </div>
-    <!-- Diapositiva 3 FIN-->
-    <!-- Diapositiva 4 -->
-    <div class="imagen-carrusel" data-carousel-item="">
-      <img src="assets/images/slider/BnProgramacion.webp" alt="">
-    </div>
-    <!-- Diapositiva 4 FIN-->
-  </div>
-  <!-- Botones carrusel -->
-  <button type="button"
-    class="flex absolute top-0 left-0 z-30 justify-center items-center px-4 h-full cursor-pointer group focus:outline-none"
-    data-carousel-prev="">
-    <span
-      class="inline-flex justify-center items-center w-8 h-8 rounded-full border border-white hover:border-indigo-600 hover:bg-indigo-600 group-focus:outline-none">
-      <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"
-        xmlns="http://www.w3.org/2000/svg">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
-      </svg>
-      <span class="hidden">Siguiente</span>
-    </span>
-  </button>
-  <button type="button"
-    class="flex absolute top-0 right-0 z-30 justify-center items-center px-4 h-full cursor-pointer group focus:outline-none"
-    data-carousel-next="">
-    <span
-      class="inline-flex justify-center items-center w-8 h-8 rounded-full border border-white hover:border-indigo-600 hover:bg-indigo-600 group-focus:outline-none">
-      <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"
-        xmlns="http://www.w3.org/2000/svg">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
-      </svg>
-      <span class="hidden">Anterior</span>
-    </span>
-  </button>
-  <!--Botones carrusel FIN-->
-</section>
-
+<?php
+//Mandamos a llamar la función para generar el carrusel
+//@param recibe un arreglo con la url de las imagenes que queremos ir desplegando en el carrusel
+//Las imagenes deben estar en 1920px por 480px de máximo 160kb para que se ajusten y no se deformen.
+  genera_carrusel(array("assets/images/slider/bg_carrusel/bn-sustentabilidad.webp",
+                        "assets/images/slider/bg_carrusel/bg-tracuache.jpg",
+                        "assets/images/slider/bg_carrusel/bgTortuga.webp",
+                        "assets/images/slider/bg_carrusel/BnProgramacion.webp",
+                        "assets/images/slider/bg_carrusel/carrusel_fisicacuantica.jpg"
+                      ));
+?>
 <!-- Carrusel FIN -->
 
-<!-- CURSOS RECIENTES -->
+<!-- PROGRAMAS ACADEMICOS RECIENTES -->
 
 <section class="relative md:py-10 py-10">
   <div class="container">

@@ -1,6 +1,14 @@
 <?php
-  include './includes/templates/header.php';
+include './includes/templates/header.php';
+include './includes/templates/funciones.php';
 ?>
+
+<!-- Generamos el encabezado -->
+<?php
+genera_encabezado_de_pagina("assets/images/pages/bg-intro-est-bio-2.jpg", 
+                            "Proceso de Pago e Inscripción a los Programas Académicos Impartidos por la SEAC");
+?>
+<!-- Fin de - Generamos el encabezado -->
 
     <!-- Start Hero -->
     <section
