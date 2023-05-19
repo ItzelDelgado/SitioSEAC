@@ -3,21 +3,22 @@ include './includes/templates/header.php';
 include './includes/templates/funciones.php';
 ?>
 
-<!-- Start Hero -->
-<section
-  class="relative table w-full py-36 bg-[url('../../assets/images/slider/bg_cursos.webp')] bg-center bg-no-repeat">
-  <div class="absolute inset-0 bg-black opacity-75"></div>
-  <div class="container">
-    <div class="grid grid-cols-1 pb-8 text-center mt-10">
-      <h3 class="md:text-4xl text-3xl md:leading-normal tracking-wide leading-normal font-medium text-white">
-        Cursos</h3>
-    </div>
-  </div>
 
-</section>
+<section class="portada">
+    <img src="assets/images/slider/bg_cursos.webp" alt="">
+    <div class="portada-opacity"></div>
+    <div class="container">
+        <div class="portada-informacion" style="padding-top: 13rem;">
+            <h1 style="">Cursos</h1>
+        </div>
+    </div>
+
+
+</section><!--end section-->
+
+
 <div class="relative">
-  <div
-    class="shape absolute right-0 sm:-bottom-px -bottom-[2px] left-0 overflow-hidden z-1 text-white dark:text-slate-900">
+  <div class="shape absolute right-0 sm:-bottom-px -bottom-[2px] left-0 overflow-hidden z-1 text-white dark:text-slate-900">
     <svg class="w-full h-auto" viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path d="M0 48H1437.5H2880V0H2160C1442.5 52 720 0 720 0H0V48Z" fill="currentColor"></path>
     </svg>
@@ -67,12 +68,12 @@ include './includes/templates/funciones.php';
         "6000",
         "NO",
         array(
-          array("M. en C. Jorge A. Moreno Hernández","assets/curriculums_docentes/JorgeAMorenoHern.pdf"),
+          array("M. en C. Jorge A. Moreno Hernández", "assets/curriculums_docentes/JorgeAMorenoHern.pdf"),
         )
       );
       ?>
 
-<?php
+      <?php
       //CURSO Estadística aplicada al diseño y análisis de estudios experimentales
       banner_curso(
         "enCurso",
@@ -96,8 +97,8 @@ include './includes/templates/funciones.php';
         "5800",
         "NO",
         array(
-          array("Dra. María de Lourdes Barbosa","assets/curriculums_docentes/MaLourdesBarbosaSal.pdf"),
-          array("Biol. María Guadalupe Camacho","assets/curriculums_docentes/MaGuadalupeCamachoSan.pdf")
+          array("Dra. María de Lourdes Barbosa", "assets/curriculums_docentes/MaLourdesBarbosaSal.pdf"),
+          array("Biol. María Guadalupe Camacho", "assets/curriculums_docentes/MaGuadalupeCamachoSan.pdf")
         )
       );
       ?>
@@ -129,12 +130,10 @@ include './includes/templates/funciones.php';
           </div>
         </div>
         <div class="curso_contenido">
-          <a
-            href="cursos/EstadisticaAplicadaAlDiseñoyAnalisisDeEstudiosExperimentales/EstadisticaAplicadaAlDiseñoyAnalisisDeEstudiosExperimentales17.php">
+          <a href="cursos/EstadisticaAplicadaAlDiseñoyAnalisisDeEstudiosExperimentales/EstadisticaAplicadaAlDiseñoyAnalisisDeEstudiosExperimentales17.php">
             Estadística Aplicada al Diseño y Análisis de Estudios
             Experimentales</a>
-          <a
-            href="cursos/EstadisticaAplicadaAlDiseñoyAnalisisDeEstudiosExperimentales/EstadisticaAplicadaAlDiseñoyAnalisisDeEstudiosExperimentales17.php">7ma.
+          <a href="cursos/EstadisticaAplicadaAlDiseñoyAnalisisDeEstudiosExperimentales/EstadisticaAplicadaAlDiseñoyAnalisisDeEstudiosExperimentales17.php">7ma.
             Edición</a>
           <p class="curso_contenido-fecha">
             Del 4 de marzo al 27 de mayo de 2023
@@ -151,8 +150,7 @@ include './includes/templates/funciones.php';
             estudiantes en el área de ciencias experimentales y de
             investigación.
           </p>
-          <a href="cursos/EstadisticaAplicadaAlDiseñoyAnalisisDeEstudiosExperimentales/EstadisticaAplicadaAlDiseñoyAnalisisDeEstudiosExperimentales17.php"
-            target="_blank" class="curso_contenido-button btn btn-link">Ver
+          <a href="cursos/EstadisticaAplicadaAlDiseñoyAnalisisDeEstudiosExperimentales/EstadisticaAplicadaAlDiseñoyAnalisisDeEstudiosExperimentales17.php" target="_blank" class="curso_contenido-button btn btn-link">Ver
             curso</a>
           <div class="curso_contenido-horario">
             <ul>
@@ -223,8 +221,7 @@ include './includes/templates/funciones.php';
             cuente o no, con entrenamiento previo en el campo del dibujo de
             la naturaleza.
           </p>
-          <a href="/cursos/DibujoDeLaNaturaleza/DibujoDeLaNaturaleza1raEd.php" target="_blank"
-            class="curso_contenido-button btn btn-link">
+          <a href="/cursos/DibujoDeLaNaturaleza/DibujoDeLaNaturaleza1raEd.php" target="_blank" class="curso_contenido-button btn btn-link">
             Ver curso
           </a>
           <div class="curso_contenido-horario">
@@ -273,11 +270,9 @@ include './includes/templates/funciones.php';
           </div>
         </div>
         <div class="curso_contenido">
-          <a
-            href="cursos/EstrategiasdeEduAmbientalParaSustentabilidad/EstrategiasdeEduAmbientalParaSustentabilidad2daEd.php">
+          <a href="cursos/EstrategiasdeEduAmbientalParaSustentabilidad/EstrategiasdeEduAmbientalParaSustentabilidad2daEd.php">
             Estrategias de Educación Ambiental Para la Sustentabilidad</a>
-          <a
-            href="cursos/EstrategiasdeEduAmbientalParaSustentabilidad/EstrategiasdeEduAmbientalParaSustentabilidad2daEd.php">2da.
+          <a href="cursos/EstrategiasdeEduAmbientalParaSustentabilidad/EstrategiasdeEduAmbientalParaSustentabilidad2daEd.php">2da.
             Edición</a>
           <p class="curso_contenido-fecha">
             Del 11 de marzo al 6 de mayo del 2023
@@ -293,8 +288,7 @@ include './includes/templates/funciones.php';
             educativas: educadoras, académicas, organizaciones de la
             sociedad civil, funcionarias, estudiantes.
           </p>
-          <a href="cursos/EstrategiasdeEduAmbientalParaSustentabilidad/EstrategiasdeEduAmbientalParaSustentabilidad2daEd.php"
-            target="_blank" class="curso_contenido-button btn btn-link">Ver
+          <a href="cursos/EstrategiasdeEduAmbientalParaSustentabilidad/EstrategiasdeEduAmbientalParaSustentabilidad2daEd.php" target="_blank" class="curso_contenido-button btn btn-link">Ver
             curso</a>
           <div class="curso_contenido-horario">
             <ul>
@@ -361,8 +355,7 @@ include './includes/templates/funciones.php';
             disciplinas afines.
           </p>
 
-          <a href="cursos/RescateyRehabilitaciondeFaunaSilvestre/RescateyRehabilitaciondeFaunaSilvestre6taEd.php"
-            target="_blank" class="curso_contenido-button btn btn-link">Ver
+          <a href="cursos/RescateyRehabilitaciondeFaunaSilvestre/RescateyRehabilitaciondeFaunaSilvestre6taEd.php" target="_blank" class="curso_contenido-button btn btn-link">Ver
             curso</a>
 
           <div class="curso_contenido-horario">
@@ -425,8 +418,7 @@ include './includes/templates/funciones.php';
           <p class="curso_contenido-subdescripcion">
             Dirigido a: Todo público.
           </p>
-          <a href="cursos/PrimerosAuxilios/PrimerosAuxilios1raEd.php" target="_blank"
-            class="curso_contenido-button btn btn-link">Ver
+          <a href="cursos/PrimerosAuxilios/PrimerosAuxilios1raEd.php" target="_blank" class="curso_contenido-button btn btn-link">Ver
             curso</a>
           <div class="curso_contenido-horario">
             <ul>
@@ -474,11 +466,9 @@ include './includes/templates/funciones.php';
           </div>
         </div>
         <div class="curso_contenido">
-          <a
-            href="cursos/IntroduccionAlEstudioyConservaciondeTortugas/IntroduccionAlEstudioyConservaciondeTortugas1raEd.php">
+          <a href="cursos/IntroduccionAlEstudioyConservaciondeTortugas/IntroduccionAlEstudioyConservaciondeTortugas1raEd.php">
             Introducción al Estudio y Conservación de Tortugas de México</a>
-          <a
-            href="cursos/IntroduccionAlEstudioyConservaciondeTortugas/IntroduccionAlEstudioyConservaciondeTortugas1raEd.php">1ra.
+          <a href="cursos/IntroduccionAlEstudioyConservaciondeTortugas/IntroduccionAlEstudioyConservaciondeTortugas1raEd.php">1ra.
             Edición</a>
           <p class="curso_contenido-fecha">
             Del 2 de mayo al 1 de junio de 2023
@@ -496,8 +486,7 @@ include './includes/templates/funciones.php';
             disciplinas afines.
           </p>
 
-          <a href="cursos/IntroduccionAlEstudioyConservaciondeTortugas/IntroduccionAlEstudioyConservaciondeTortugas1raEd.php"
-            target="_blank" class="curso_contenido-button btn btn-link">Ver
+          <a href="cursos/IntroduccionAlEstudioyConservaciondeTortugas/IntroduccionAlEstudioyConservaciondeTortugas1raEd.php" target="_blank" class="curso_contenido-button btn btn-link">Ver
             curso</a>
 
           <div class="curso_contenido-horario">
@@ -559,8 +548,7 @@ include './includes/templates/funciones.php';
             Dirigido a: Personas con interés en desarrollar aplicaciones para dispositivos móviles con conocimientos
             básicos de lenguaje Java y del lenguaje de marcado XML.
           </p>
-          <a href="cursos/ProgramacionDispositivosMovilesconAndroid/ProgramacionDispositivosMovilesconAndroid1raEd.php"
-            target="_blank" class="curso_contenido-button btn btn-link">Ver
+          <a href="cursos/ProgramacionDispositivosMovilesconAndroid/ProgramacionDispositivosMovilesconAndroid1raEd.php" target="_blank" class="curso_contenido-button btn btn-link">Ver
             curso</a>
           <div class="curso_contenido-horario">
             <ul>
@@ -607,12 +595,10 @@ include './includes/templates/funciones.php';
           </div>
         </div>
         <div class="curso_contenido">
-          <a
-            href="cursos/IntroduccionAlaProgRyAplicAlinfereniciaEstadistica/IntroduccionAlaProgRyAplicAlinfereniciaEstadI_15aEd.php">
+          <a href="cursos/IntroduccionAlaProgRyAplicAlinfereniciaEstadistica/IntroduccionAlaProgRyAplicAlinfereniciaEstadI_15aEd.php">
             Introducción a la Programación en R y su Aplicación a la
             Inferencia Estadística I</a>
-          <a
-            href="cursos/IntroduccionAlaProgRyAplicAlinfereniciaEstadistica/IntroduccionAlaProgRyAplicAlinfereniciaEstadI_15aEd.php">15a.
+          <a href="cursos/IntroduccionAlaProgRyAplicAlinfereniciaEstadistica/IntroduccionAlaProgRyAplicAlinfereniciaEstadI_15aEd.php">15a.
             Edición</a>
           <p class="curso_contenido-fecha">
             Del 6 de mayo al 24 de junio de 2023
@@ -629,8 +615,7 @@ include './includes/templates/funciones.php';
             profesionales en áreas multidisciplinarias.
           </p>
 
-          <a href="cursos/IntroduccionAlaProgRyAplicAlinfereniciaEstadistica/IntroduccionAlaProgRyAplicAlinfereniciaEstadI_15aEd.php"
-            target="_blank" class="curso_contenido-button btn btn-link">Ver
+          <a href="cursos/IntroduccionAlaProgRyAplicAlinfereniciaEstadistica/IntroduccionAlaProgRyAplicAlinfereniciaEstadI_15aEd.php" target="_blank" class="curso_contenido-button btn btn-link">Ver
             curso</a>
 
           <div class="curso_contenido-horario">
@@ -681,11 +666,9 @@ include './includes/templates/funciones.php';
           </div>
         </div>
         <div class="curso_contenido">
-          <a
-            href="cursos/DisenoDeCursosEnCuadernosJupyterconMACTI/diseno-de-cursos-en-cuadernos-jupyter-interactivos-con-la-plataforma-MACTI.php">
+          <a href="cursos/DisenoDeCursosEnCuadernosJupyterconMACTI/diseno-de-cursos-en-cuadernos-jupyter-interactivos-con-la-plataforma-MACTI.php">
             Diseño de Cursos en Cuadernos Jupyter Interactivos con la Plataforma MACTI</a>
-          <a
-            href="cursos/DisenoDeCursosEnCuadernosJupyterconMACTI/diseno-de-cursos-en-cuadernos-jupyter-interactivos-con-la-plataforma-MACTI.php">6ta.
+          <a href="cursos/DisenoDeCursosEnCuadernosJupyterconMACTI/diseno-de-cursos-en-cuadernos-jupyter-interactivos-con-la-plataforma-MACTI.php">6ta.
             Edición</a>
           <p class="curso_contenido-fecha">
             Del 1ro al 24 de junio de 2023
@@ -699,8 +682,7 @@ include './includes/templates/funciones.php';
             interesado en divulgar ideas científicas a público no
             especializado.
           </p>
-          <a href="cursos/DisenoDeCursosEnCuadernosJupyterconMACTI/diseno-de-cursos-en-cuadernos-jupyter-interactivos-con-la-plataforma-MACTI.php"
-            target="_blank" class="curso_contenido-button btn btn-link">Ver
+          <a href="cursos/DisenoDeCursosEnCuadernosJupyterconMACTI/diseno-de-cursos-en-cuadernos-jupyter-interactivos-con-la-plataforma-MACTI.php" target="_blank" class="curso_contenido-button btn btn-link">Ver
             curso</a>
           <div class="curso_contenido-horario">
             <ul>
@@ -764,8 +746,7 @@ include './includes/templates/funciones.php';
             Dirigido a:Alumnos de licenciatura (Biología y Geología) a partir del sexto semestre. Estudiantes de la
             maestría y del doctorado, y maestros.
           </p>
-          <a href="cursos/IntroduccionaLosCoralesFosiles/IntroaLosCoralesFosilesJurasicoPaleogeno1raEd.php"
-            target="_blank" class="curso_contenido-button btn btn-link">Ver
+          <a href="cursos/IntroduccionaLosCoralesFosiles/IntroaLosCoralesFosilesJurasicoPaleogeno1raEd.php" target="_blank" class="curso_contenido-button btn btn-link">Ver
             curso</a>
           <div class="curso_contenido-horario">
             <ul>
@@ -831,8 +812,7 @@ include './includes/templates/funciones.php';
               naturales.
             </p>
 
-            <a href="cursos/IntroduccionEstadisticaEnBiologia/IntroduccionEstadisticaEnBiologia_2daEd.php"
-              target="_blank" class="curso_contenido-button btn btn-link">Ver
+            <a href="cursos/IntroduccionEstadisticaEnBiologia/IntroduccionEstadisticaEnBiologia_2daEd.php" target="_blank" class="curso_contenido-button btn btn-link">Ver
               curso</a>
 
             <div class="curso_contenido-horario">
@@ -895,8 +875,7 @@ include './includes/templates/funciones.php';
             estudiantes de postgrado, investigadores y profesionales en áreas multidisciplinarias
           </p>
 
-          <a href="/cursos/ExcelUsoyAplicaciones/ExcelUsoyAplicaciones.php" target="_blank"
-            class="curso_contenido-button btn btn-link">Ver
+          <a href="/cursos/ExcelUsoyAplicaciones/ExcelUsoyAplicaciones.php" target="_blank" class="curso_contenido-button btn btn-link">Ver
             curso</a>
 
           <div class="curso_contenido-horario">
@@ -967,8 +946,7 @@ include './includes/templates/funciones.php';
             especializado.
           </p>
 
-          <a href="cursos/IntroduccionAlaDivulgacionDeLaCiencia/IntroduccionAlaDivulgacionDeLaCiencia6taED.php"
-            target="_blank" class="curso_contenido-button btn btn-link">Ver
+          <a href="cursos/IntroduccionAlaDivulgacionDeLaCiencia/IntroduccionAlaDivulgacionDeLaCiencia6taED.php" target="_blank" class="curso_contenido-button btn btn-link">Ver
             curso</a>
 
           <div class="curso_contenido-horario">
