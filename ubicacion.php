@@ -1,25 +1,14 @@
 <?php
-  include './includes/templates/header.php';
+include './includes/templates/header.php';
+include './includes/templates/funciones.php';
 ?>
 
-    <!-- Start Hero -->
-    <section
-        class="relative table w-full py-36 lg:py-44 bg-[url('../../assets/images/slider/bg_ubicacion.webp')] bg-no-repeat bg-center">
-        <div class="absolute inset-0 bg-black opacity-75"></div>
-        <div class="container">
-            <div class="grid grid-cols-1 pb-8 text-center mt-10">
-                <h3 class="mt-3 text-3xl leading-normal font-medium text-white">Ubicación</h3>
-            </div>
-        </div>
-    </section><!--end section-->
-    <div class="relative">
-        <div
-            class="shape absolute right-0 sm:-bottom-px -bottom-[2px] left-0 overflow-hidden z-1 text-white dark:text-slate-900">
-            <svg class="w-full h-auto" viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M0 48H1437.5H2880V0H2160C1442.5 52 720 0 720 0H0V48Z" fill="currentColor"></path>
-            </svg>
-        </div>
-    </div>
+<!-- Generamos el encabezado -->
+<?php
+genera_encabezado_de_pagina("assets/images/pages/bg_ubicacion.webp", "Ubicación");
+?>
+<!-- Fin de - Generamos el encabezado -->
+
     <!-- End Hero -->>
     <div class="container flex flex-col mt-16" style="align-items: center;">
        <div>

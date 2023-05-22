@@ -352,4 +352,8 @@ function genera_encabezado_de_pagina($imagen_url, $titulo_de_pagina)
     echo $textogenera_encabezado;
 }
 
+function g_ponentes_princi_pres($ponentes = array(array("Nombre", "EnlaceCurriculum")))
+{
+ echo "hola";
+}
 ?>

@@ -1,6 +1,8 @@
 <?php
 include '../../includes/templates/header.php';
+include '../../includes/templates/funciones.php';
 ?>
+
 
 <?php
 
@@ -28,7 +30,8 @@ $dirigido_a = "Biólogos, Médicos Veterinarios Zootecnistas y disciplinas afine
 $requisitos = "Estudiantes y profesionales de las áreas químico biológicas y afines.";
 $lugar = "Zoom"; //El lugar donde se va a impartir, si son varios, agregar todos y separar con <br>
 $formato_inscripcion = "https://forms.gle/wwn996LgigXLKmsM6"; //Pegar el formato de inscripcion
-$info_academica = "Dra. Rosalía Pastor Nieto <br> Correo electrónico: rosalia.pastor@gmail.com" //Agregar el Nombre <br> correo, dando un br para saltar de linea.
+$info_academica = "Dra. Rosalía Pastor Nieto <br> Correo electrónico: rosalia.pastor@gmail.com"; //Agregar el Nombre <br> correo, dando un br para saltar de linea.
+$ponentes_principales_presentacion = array(array("Nombre", "EnlaceCurriculum"))
 ?>
 
 <!-- Se debe modificar la parte de los profes que viene abajo. -->
@@ -39,6 +42,7 @@ $info_academica = "Dra. Rosalía Pastor Nieto <br> Correo electrónico: rosalia.
     <div class="portada-opacity"></div>
     <div class="container">
         <div class="portada-informacion">
+
             <span class="portada-informacion-pu">$<?php echo $precio_unam ?> /
                 UNAM</span>
             <span class="portada-informacion-pg">$<?php echo $precio_general ?> /
@@ -59,6 +63,9 @@ $info_academica = "Dra. Rosalía Pastor Nieto <br> Correo electrónico: rosalia.
             <!-- PROFESORES QUE IMPARTEN -->
             <!-- Datos de Profe -->
             <div class="profesor">
+            <?php
+            g_ponentes_princi_pres($ponentes = array(array("Nombre", "EnlaceCurriculum")))
+            ?>
                 <div>
                     <img src="../../assets/images/instructores/usr-m.jpg" alt="">
                 </div>
@@ -396,199 +403,6 @@ $info_academica = "Dra. Rosalía Pastor Nieto <br> Correo electrónico: rosalia.
     </div> <!-- TERMINA EL CONTENEDOR DE LOS SUBTEMAS -->
 
 </section><!-- TERMINA LA SECCIÓN DEL TEMARIO -->
-
-
-
-
-
-<!-- Este ejemoplo es para cuando se muestra en forma de tabla -->
-<!-- TEMARIO SECCIÓN: -->
-<section class="temario-tabla container">
-    <h2>Temario</h2>
-    <table border="">
-        <tbody>
-            <tr>
-                <th>
-                    Fecha/hr </th>
-                <th> Tema </th>
-                <th> Duración </th>
-                <th> Materiales </th>
-                <th> Instructor
-                </th>
-            </tr>
-            <tr>
-                <td colspan="5" bgcolor="#0897D5">
-
-                    <b>Día 1</b>
-                </td>
-            </tr>
-            <tr>
-                <td>
-
-                    0900 </td>
-                <td> Bienvenida, presentaciones, entrega de materiales </td>
-                <td> 20 min </td>
-                <td>
-                    Lista asistencia, “guantes” filtros azules, barreras RCP </td>
-                <td> JP y TM
-                </td>
-            </tr>
-            <tr>
-                <td>
-
-                    0920 </td>
-                <td> Introducción al curso </td>
-                <td> 15 min </td>
-                <td>
-                    Presentación 1 </td>
-                <td> JP
-                </td>
-            </tr>
-            <tr>
-                <td>
-
-                    0935 </td>
-                <td> Aspectos legales </td>
-                <td> 15’ </td>
-                <td>
-                    Presentación 2 </td>
-                <td>JP
-                </td>
-            </tr>
-            <tr>
-                <td>
-
-                    0950 </td>
-                <td> Evaluación de la escena y ASMU </td>
-                <td> 20’ </td>
-                <td>
-                    Presentación 2 </td>
-                <td>TM
-                </td>
-            </tr>
-            <tr>
-                <td>
-
-                    1010 </td>
-                <td> Protocolo RCP Adulto </td>
-                <td> 30’ </td>
-                <td>
-                    Presentación 6 </td>
-                <td>TM
-                </td>
-            </tr>
-            <tr>
-                <td>
-
-                    1040 </td>
-                <td> Práctica RCP adulto. <b>Estación de destrezas 1.</b> </td>
-                <td> 80’ </td>
-                <td>
-                    maniquíes,
-                    mascarillas, filtros, barreras, “guantes”, desinfectante de manos, Fomi rodillas </td>
-                <td>TM
-                </td>
-            </tr>
-            <tr>
-                <td>
-
-                    12:00 </td>
-                <td colspan="4"> Fin Dia 1.
-                </td>
-            </tr>
-            <tr>
-                <td colspan="5" bgcolor="#0897D5">
-                    <b>Día 2 </b>
-                </td>
-            </tr>
-            <tr>
-                <td>
-
-                    9:00 </td>
-                <td> Uso del DAE </td>
-                <td> 20’ </td>
-                <td>
-                    Presentación 6 </td>
-                <td> JP
-                </td>
-            </tr>
-            <tr>
-                <td>
-
-                    9:20 </td>
-                <td> Práctica uso del DAE. Estación de Destrezas 2. </td>
-                <td>40’ </td>
-                <td>
-                    Maniquies, DAEs, mascarillas, filtros, barreras, “guantes”, desinfectante de manos, Fomi rodillas </td>
-                <td> JP
-                </td>
-            </tr>
-            <tr>
-                <td>
-
-                    10:00 </td>
-                <td> Protocolo de atención de Atragantamiento </td>
-                <td> 20’ </td>
-                <td>
-                    Presentación 6 </td>
-                <td>JP
-                </td>
-            </tr>
-            <tr>
-                <td>
-
-                    10:20 </td>
-                <td> Práctica maniobra de Heimlich y posición de seguridad. Estación de destrezas 3. </td>
-                <td>20’’ </td>
-                <td>
-                    Maniquies </td>
-                <td>TM
-                </td>
-            </tr>
-            <tr>
-                <td>
-
-                    10:40 </td>
-                <td> Evaluación del paciente </td>
-                <td> 20’ </td>
-                <td>
-                    Presentación 2 </td>
-                <td>JP
-                </td>
-            </tr>
-            <tr>
-                <td>
-
-                    11:00 </td>
-                <td> Ejercicio SAMPLE por parejas. Revisión de los casos con todos los participantes.
-                    Estación de destrezas 4. </td>
-                <td>40’ </td>
-                <td>
-                    Tarjetas SAMPLE </td>
-                <td> TM
-                </td>
-            </tr>
-            <tr>
-                <td>
-
-                    11:40 </td>
-                <td> Evaluación del paciente </td>
-                <td> 20’ </td>
-                <td>
-                    Presentación 2 </td>
-                <td>JP
-                </td>
-            </tr>
-            <tr>
-                <td>
-
-                    12:00 </td>
-                <td colspan="4"> Fin del Dia 2
-                </td>
-            </tr>
-        </tbody>
-    </table>
-</section>
 
 
 <!-- Start -->

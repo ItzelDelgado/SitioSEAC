@@ -141,6 +141,30 @@ include './includes/templates/funciones.php';
         )
       );
       ?>
+
+      <?php
+      //Primeros Auxilios, RCP y uso de DAE. Segunda Edición
+      banner_curso(
+        "programados",
+        "assets/images/cursos/bg-primeros-auxilios.webp",
+        "Primeros Auxilios, RCP y uso de DAE",
+        "2da. Edición",
+        "cursos/PrimerosAuxilios/PrimerosAuxilios2daEd.php",
+        "17 y 24 de junio de 2023",
+        "La atención rápida y eficiente en caso de accidentes o enfermedades
+        agudas es crucial para reducir los riesgos de secuelas. Una comunidad capacitada en primeros auxilios
+        fortalece los vínculos sociales y ayuda a construir resiliencia. Los cuidados cardiacos y los primeros
+        auxilios deben seguir los últimos estándares aprobados por la evidencia médica. El curso está diseñado para
+        el público en general, ofreciendo información teórica y práctica.",
+        "Todo público.",
+        "Sábado",
+        "9-15 hrs",
+        "Presencial",
+        "1300",
+        "NO",
+        array(array("M. en C. Julio A. Prieto Sagredo", "assets/curriculums_docentes/JulioPrieto.pdf"), array("P. de M. Tabaré Merino Sánchez", "assets/curriculums_docentes/TabareMerinoSanchez.pdf"))
+      );
+      ?>
       <?php
       //Curso Estudio y monitoreo de fauna silvestre
       banner_curso(
