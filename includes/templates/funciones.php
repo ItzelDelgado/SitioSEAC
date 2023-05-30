@@ -354,6 +354,15 @@ function genera_encabezado_de_pagina($imagen_url, $titulo_de_pagina)
 
 function g_ponentes_princi_pres($ponentes = array(array("Nombre", "EnlaceCurriculum")))
 {
- echo "hola";
+    for ($row = 0; $row < count($ponentes); $row++) {
+        echo "<div class=\"profesor\">
+            <div>
+                <img src=\"../../assets/images/instructores/usr-m.jpg\" alt=\"Img instructor\">
+            </div>
+            <div>
+                <a href=\"" . $ponentes[$row][1] . "\". target=\"_blank\">" . $ponentes[$row][0] . "</a>
+            </div>
+            </div>";
+    }
 }
 ?>

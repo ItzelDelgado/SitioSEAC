@@ -31,7 +31,8 @@ $requisitos = "Estudiantes y profesionales de las áreas químico biológicas y 
 $lugar = "Zoom"; //El lugar donde se va a impartir, si son varios, agregar todos y separar con <br>
 $formato_inscripcion = "https://forms.gle/wwn996LgigXLKmsM6"; //Pegar el formato de inscripcion
 $info_academica = "Dra. Rosalía Pastor Nieto <br> Correo electrónico: rosalia.pastor@gmail.com"; //Agregar el Nombre <br> correo, dando un br para saltar de linea.
-$ponentes_principales_presentacion = array(array("Nombre", "EnlaceCurriculum"))
+$ponentes_principales_presentacion = array(array("Juana", "../../assets/curriculums_docentes/JulioPrieto.pdf"))
+//Es necesario poner el ../../ en las url de los curriculums, para acceder a la carpeta.
 ?>
 
 <!-- Se debe modificar la parte de los profes que viene abajo. -->
@@ -42,37 +43,32 @@ $ponentes_principales_presentacion = array(array("Nombre", "EnlaceCurriculum"))
     <div class="portada-opacity"></div>
     <div class="container">
         <div class="portada-informacion">
-
-            <span class="portada-informacion-pu">$<?php echo $precio_unam ?> /
-                UNAM</span>
-            <span class="portada-informacion-pg">$<?php echo $precio_general ?> /
-                GENERAL</span>
-
-            <!-- Si no tiene descuento se borra esta sección -->
-            <p>15% de descuento por concepto de pronto pago (hasta el 3 de abril)</p>
-            <span class="portada-informacion-pu-red">$<?php echo $precio_unam_descuento ?> /
-                UNAM</span>
-            <span class="portada-informacion-pg">$<?php echo $precio_general_descuento ?> /
-                GENERAL</span>
-            <!--Cierre de la sección de descuentos.-->
-
+            <?php
+            #Si no tiene descuento, imprime el precio normal. 
+           if ($precio_unam_descuento == 'NO') {
+            echo "<span class=\"portada-informacion-pu\">$precio_unam UNAM</span>
+            <span class=\"portada-informacion-pg\">$precio_general GENERAL</span>";
+            } else {
+                #en el caso contrario, imprime los datos del descuento.
+                echo "<span class=\"portada-informacion-pu\">$precio_unam UNAM</span>
+                        <span class=\"portada-informacion-pg\">$precio_general GENERAL</span>
+                        <p>15% de descuento por concepto de pronto pago (hasta el 3 de abril)</p>
+                        <span class=\"portada-informacion-pu-red\">$precio_unam_descuento UNAM</span>
+                        <span class=\"portada-informacion-pg\">$precio_general_descuento GENERAL</span>";
+            }
+            
+            ?>
             <h1><?php echo $titulo_curso ?></h1>
             <p class="text-indigo-600"><?php echo $edicion ?></p>
             <!-- Genera el contenedor con los datos del profesor, es decir, la foto, el nombre y el enlace del curriculum. -->
             <!-- Si hay mas de un profe, se debe copiar todo el contenedor, para cada uno. -->
             <!-- PROFESORES QUE IMPARTEN -->
             <!-- Datos de Profe -->
-            <div class="profesor">
+            
             <?php
-            g_ponentes_princi_pres($ponentes = array(array("Nombre", "EnlaceCurriculum")))
+            g_ponentes_princi_pres($ponentes_principales_presentacion);
             ?>
-                <div>
-                    <img src="../../assets/images/instructores/usr-m.jpg" alt="">
-                </div>
-                <div>
-                    <a href="../../assets/curriculums_docentes/RosaliaPastorNieto.pdf" target="_blank">Dra. Rosalía Pastor Nieto</a>
-                </div>
-            </div>
+            
             <!-- Fin de datos de profe -->
             <!-- FIN - PROFESORES QUE IMPARTEN -->
             <div class="fecha">
