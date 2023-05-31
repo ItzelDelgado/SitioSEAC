@@ -12,10 +12,14 @@ $edicion = "6ta. Edición";
 $fecha = "Del 17 de abril al 26 de junio de 2023";
 $precio_unam = "2,700"; //No es necesario poner mxn
 $precio_general = "3,200"; //No es necesario poner mxn
-//Si no tiene descuento, se eliminan estas variables o simplemente no se usan, pero en la parte de los precios es necesario borrarlas
-$precio_unam_descuento = "2,295"; //No es necesario poner mxn
+//Si no tiene descuento, favor de poner NO en precio_unam_descuento.
+//ej: $precio_unam_descuento = "NO";
+$precio_unam_descuento = "1,942"; //No es necesario poner mxn
 $precio_general_descuento = "2,720"; //No es necesario poner mxn
+$frase_descuento = "15% de descuento por concepto de pronto pago (hasta el 3 de
+abril)";//Frase del porcentaje de descuento
 //
+$link_plaza_prometeo= "https://tienda.fciencias.unam.mx";
 $dias = "Lunes";  //Puedes poner Lunes, Martes, Miercoles, Jueves y Viernes.
 $horario = "16:00 a 19:00 hrs"; //Lo puedes poner en el formato que gustes. No debe ser mucha info. 
 //Si es demasiada puedes agregar más detalles despues donde esta la sección de Requisitos, Horario y Lugar, 
@@ -188,68 +192,13 @@ $ponentes_principales_presentacion = array(array("Juana", "../../assets/curricul
         </div>
     </div>
 
-
+    <!-- Para el area de pagos -->
     <div class="curso-costo container">
         <h2 class="md:text-3xl md:leading-normal">Costo</h2>
         <!-- Si el curso no tiene descuento, solo debe quitarse el p. -->
-        <p class="text-red-600 max-w-xl mx-auto text-center">15% de descuento por concepto de pronto pago (hasta el 3 de
-            abril)</p>
-        <div class="grid lg:grid-cols-2 md:grid-cols-2 mt-8 gap-[30px]">
-            <div class="curso-costo-g">
-                <h3>Público GENERAL</h3>
-
-                <!-- PRECIO GENERAL-->
-                <div>
-                    <span>$</span>
-                    <span style="text-decoration: line-through;"><?php echo $precio_general ?></span>
-                    <span>MXN</span>
-                </div>
-                <!-- FIN-PRECIO GENERAL -->
-
-                <!-- Para quitar el precio con descuento solo basta con borrar lo siquiente. -->
-                <!-- QUITAR EL style="text-decoration: line-through; DE LA LINEA ANTERIOR -->
-                <!-- PRECIO GENERAL CON DESCUENTO-->
-                <div>
-                    <span>$</span>
-                    <span class="price text-4xl font-semibold mb-0"><?php echo $precio_general_descuento ?></span>
-                    <span>MXN</span>
-                </div>
-                <!-- FIN - PRECIO GENERAL  CON DESCUENTO-->
-
-                <a href="#inscripcion" class="btn">Inscribirse</a>
-            </div>
-
-
-            <div class="curso-costo-g">
-                <h3>Comunidad UNAM</h3>
-
-                <div>
-                    <span>$</span>
-                    <span style="text-decoration: line-through;"><?php echo $precio_unam ?></span>
-                    <span>MXN</span>
-                </div>
-
-
-                <!-- Para quitar el precio con descuento solo basta con borrar lo siquiente. -->
-                <!-- QUITAR EL style="text-decoration: line-through; DE LA LINEA ANTERIOR -->
-                <!-- PRECIO UNAM CON DESCUENTO-->
-                <div>
-                    <span>$</span>
-                    <span class="price text-4xl font-semibold mb-0"><?php echo $precio_unam_descuento ?></span>
-                    <span>MXN</span>
-                </div>
-                <!-- FIN PRECIO UNAM CON DESCUENTO-->
-
-                <ul>
-                    <li><i class="uil uil-check-circle"></i>Alumnos, exalumnos
-                        y personal de la UNAM</li>
-                    <li><i class="uil uil-check-circle"></i>También aplica
-                        para afiliados a Fundación UNAM</li>
-                </ul>
-
-                <a href="#inscripcion" class="btn">Inscribirse</a>
-            </div>
-        </div>
+        <?php
+            aplica_descuento($precio_unam,$precio_unam_descuento,$precio_general,$precio_general_descuento,$frase_descuento);
+        ?>
     </div>
 
 </section>
@@ -262,142 +211,48 @@ $ponentes_principales_presentacion = array(array("Juana", "../../assets/curricul
 <section class="temario container">
     <h2>Temario</h2>
     <div class="secciones grid md:grid-cols-2 grid-cols-1">
-        <!-- ******SECCIÓN PARA CADA TEMA CON SUS SUBTEMAS *****-->
-        <div>
-            <h3>I. Introducción</h3>
+        <div> <!--Tema-->
+            <h3>I. Aquí va el tema</h3>
             <div class="contenido">
                 <h4>Temas</h4>
                 <ul>
-                    <li>I.1 Dispositivos Móviles.</li>
+                    <li>I.1 Aquí va el subtema. 
+                        <ul>
+                            <li>sub sub tema</li>
+                        </ul>
+                    </li>
                     <li>I.2. Clasificación y aplicaciones de los dispositivos móviles.</a></li>
                     <li>I.3. Plataformas de programación para dispositivos móviles.</li>
                     <li>I.4. Presentación de la plataforma Android.</li>
                     <li>I.5. La plataforma Android, entorno, anatomía y las capas de su arquitectura..</li>
                 </ul>
             </div>
-        </div>
-        <!--********FIN DE SECCIÓN PARA CADA TEMA CON SUS SUBTEMAS********-->
-        <div>
-            <h3>II. Programación</h3>
+        </div><!--fin de tema-->
+        <div> <!--Tema-->
+            <h3>I. Aquí va el tema</h3>
             <div class="contenido">
                 <h4>Temas</h4>
                 <ul>
-                    <li>
-                        II.1 Instalación y configuración del entorno de desarrollo (Android Studio y SDK Android).
-                    </li>
-                    <li>
-                        II.2. Elementos esenciales en la creación de aplicaciones Android.
-                        - Activity, Context y Ciclos de vida de Activities
-                    </li>
-                    <li>
-                        II.3. Interfaz de usuario.
-                        - Layouts, recursos, ActionBar, menús, listas, popups, webview, fragmentos, pestañas, etc.
-                    </li>
-                    <li>
-                        II.4. Gestión de la navegación y la comunicación entre las distintas interfaces.
-                        - Material Design, Toolbar, CardView, notificaciones Android Wear.
-                    </li>
-                    <li>
-                        II.5. Interfaces Personalizadas.
-                        - Gestión de temas, animaciones, tipografía.
-                    </li>
-                    <li>
-                        II.6. Gestión de los distintos eventos de usuario.
-                        - Clicks y rotación.
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div>
-            <h3>III. Gestión de la fragmentación de la plataforma</h3>
-            <div class="contenido">
-                <h4>Temas</h4>
-                <ul>
-                    <li>
-                        III.1. Versiones de Android, tamaño y resolución de pantallas, diferencias en el hardware.
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div>
-            <h3>IV. Almacenamiento y recuperación de Datos</h3>
-            <div class="contenido">
-                <h4>Temas</h4>
-                <ul>
-                    <li>Instalaci&oacute;n y configuraci&oacute;n del entorno de desarrollo (Android Studio y SDK Android)</li>
-                    <li>Elementos esenciales en la creaci&oacute;n de aplicaciones Android.
+                    <li>I.1 Aquí va el subtema. 
                         <ul>
-                            <li>Activity, Context y Ciclos de vida de Activities
-                                <ul>
-                                    <li>Activity, C ontext y Ciclos de vida de Activities</li>
-                                </ul>
-                            </li>
-
+                            <li>sub sub tema</li>
                         </ul>
                     </li>
-                    <li>Interfaz de usuario<ul>
-                            <li>Layouts, recursos, ActionBar, men&uacute;s, listas, popups, webview, fragmentos, pesta&ntilde;as, etc.</li>
-                        </ul>
-                    </li>
-                    <li>Gesti&oacute;n de la navegaci&oacute;n y la comunicaci&oacute;n entre las distintas interfaces<ul>
-                            <li>&nbsp;Material Design, Toolbar, CardView, notificaciones Android Wear.</li>
-                        </ul>
-                    </li>
-                    <li>Interfaces Personalizadas<ul>
-                            <li>Gesti&oacute;n de temas, animaciones, tipograf&iacute;a.</li>
-                        </ul>
-                    </li>
-                    <li>Gesti&oacute;n de los distintos eventos de usuario.<ul>
-                            <li>Clicks y rotaci&oacute;n.</li>
-                        </ul>
-                    </li>
+                    <li>I.2. Clasificación y aplicaciones de los dispositivos móviles.</a></li>
+                    <li>I.3. Plataformas de programación para dispositivos móviles.</li>
+                    <li>I.4. Presentación de la plataforma Android.</li>
+                    <li>I.5. La plataforma Android, entorno, anatomía y las capas de su arquitectura..</li>
                 </ul>
             </div>
-        </div>
-        <div>
-            <h3>V. Mapas digitales y localización</h3>
-            <div class="contenido">
-                <h4>Temas</h4>
-                <ul>
-                    <li>V.1.
-                        Google Maps, localización (GPS), conversión posición/dirección.
-                    </li>
-                    <li>V.2.
-                        Uso de servicios Android.
-                    </li>
-                    <li>V.3.
-                        Conectividad (WIFI).
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div>
-            <h3>VI. Métodos de acceso a las diferentes funcionalidades de un dispositivo Android.</h3>
-            <div class="contenido">
-                <h4>Temas</h4>
-                <ul>
-                    <li>VI.1.
-                        Llamadas, sms, cámara, acelerómetro, Bluetooth.
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div>
-            <h3>VII. Publicación y comercialización</h3>
-            <div class="contenido">
-                <h4>Temas</h4>
-                <ul>
-                    <li>VII.1.
-                        Proteger el código fuente.
-                    </li>
-                    <li>VII.2.
-                        Comercialización de aplicaciones.
-                    </li>
-                </ul>
-            </div>
-        </div>
+        </div><!--fin de tema-->    
     </div> <!-- TERMINA EL CONTENEDOR DE LOS SUBTEMAS -->
-
+    
+    <!-- Por si hay temario extendido (pdf), si no, favor de comentarlo. -->
+    <a
+          class="text-indigo-600"
+          href="assets/pdf/formatos/FormatoPresentacionCursoo.docx"
+          download="Documento-con-descripcion"
+          >Temario extendido</a>
 </section><!-- TERMINA LA SECCIÓN DEL TEMARIO -->
 
 
@@ -418,7 +273,7 @@ $ponentes_principales_presentacion = array(array("Juana", "../../assets/curricul
                         <div class="md:ml-8 md:mt-0">
                             <h4>Realizar el pago en línea mediante "Plaza
                                 Prometeo", la tienda de la Facultad de Ciencias</h4>
-                            <p><a href="https://tienda.fciencias.unam.mx" target="_blank" class="btn btn-link text-indigo-600 hover:text-red-600 after:bg-indigo-600 duration-500 ease-in-out">tienda.fciencias.unam.mx</a>
+                            <p><a href=<?php echo $link_plaza_prometeo?>  target="_blank" class="btn btn-link text-indigo-600 hover:text-red-600 after:bg-indigo-600 duration-500 ease-in-out">tienda.fciencias.unam.mx</a>
                             </p>
                         </div>
                     </div>

@@ -560,8 +560,6 @@ $info_academica = "Dra. Rosalía Pastor Nieto <br> Correo electrónico: rosalia.
                         </div>
                     </div>
 
-
-
                 </div>
                 <!--End content-->
 
