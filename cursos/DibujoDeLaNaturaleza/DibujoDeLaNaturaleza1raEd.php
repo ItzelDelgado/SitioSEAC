@@ -1,63 +1,97 @@
 <?php
 include '../../includes/templates/header.php';
+include '../../includes/templates/funciones.php';
 ?>
+
 
 <?php
 
-$titulo_curso = "Rescate y Rehabilitación de Fauna Silvestre";
-$imagen_curso = "../../assets/images/cursos/bg-TortugasMexico.webp";
-$edicion = "6ta. Edición";
-$fecha = "Del 17 de abril al 26 de junio de 2023";
-$precio_unam = "2,700";
-$precio_general = "3,200";
-$precio_unam_descuento = "2,295";
-$precio_general_descuento = "2,720";
-$dias = "Lunes";
-$horario = "16:00 a 19:00";
-$no_horas = "27";
-$modalidad = "Virtual";
-$max_alumnos = "60";
-$min_alumnos = "15";
-$descripcion = "Las actividades antropogénicas como la construcción de carreteras, tendidos eléctricos, presas y los desastres naturales como sequías, inundaciones, incendios, huracanes, derrames petroleros y otros contaminantes, ponen en riesgo a poblaciones de especies de fauna silvestre que se encuentran en alguna categoría de amenaza de extinción. Ante estos nuevos retos la Unión Internacional para la Conservación de la Naturaleza (IUCN) a través del Grupo Especialista en Salud de Fauna Silvestre (WHSG), han creado criterios para rescatar y rehabilitar a ejemplares de fauna silvestre de especies de valor ecológico. Por ello, los biólogos y profesionistas de disciplinas afines (médicos veterinarios, ecólogos) deben ampliar su campo de acción hacia la atención, rescate y rehabilitación de animales silvestres para su posible re-introducción a sus hábitats naturales así recuperar a las poblaciones de especies amenazadas.";
-$objetivo = "El participante adquirirá los conocimientos teóricos necesarios para rescatar y brindar atención primaria; valorará el tipo de destino final para cada caso.";
-$dirigido_a = "Biólogos, Médicos Veterinarios Zootecnistas y disciplinas afines.";
-$requisitos = "Estudiantes y profesionales de las áreas químico biológicas y afines.";
-$lugar = "Zoom";
-$formato_inscripcion = "https://forms.gle/wwn996LgigXLKmsM6";
-$info_academica="Dra. Rosalía Pastor Nieto <br> Correo electrónico: rosalia.pastor@gmail.com"
+$titulo_curso = "Dibujo de la Naturaleza";
+$imagen_curso = "../../assets/images/cursos/bg-Dibujo_de_la_naturaleza.webp"; //Agregar imagen del curso, tamaño forzoso de 19
+$edicion = "1ra. Edición";
+$fecha = "	Del 11 de abril al 15 de junio de 2023";
+$precio_unam = "5,000"; //No es necesario poner mxn
+$precio_general = "6,000"; //No es necesario poner mxn
+//Si no tiene descuento, favor de poner NO en precio_unam_descuento.
+//ej: $precio_unam_descuento = "NO";
+$precio_unam_descuento = "4,250"; //No es necesario poner mxn
+$precio_general_descuento = "5,100"; //No es necesario poner mxn
+$frase_descuento = "15% de descuento por concepto de pronto pago (hasta el 28 de marzo)";//Frase del porcentaje de descuento
+$limite_fecha_descuento = "28-03-2023";//Formato date("dd-mm-Yyyy")
+$link_plaza_prometeo= "https://tienda.fciencias.unam.mx";
+$dias = "Martes y jueves";  //Puedes poner Lunes, Martes, Miercoles, Jueves y Viernes.
+$horario = "15:00 a 19:00 hrs"; //Lo puedes poner en el formato que gustes. No debe ser mucha info. 
+//Si es demasiada puedes agregar más detalles despues donde esta la sección de Requisitos, Horario y Lugar, 
+//solo quitas la variable, puedes ver el ejemplo de Cursos en cuadernos de jupyter
+$no_horas = "80"; //No es necesario poner hrs
+$modalidad = "Presencial";
+$max_alumnos = "25"; //Cantidad de alumnos maxima
+$min_alumnos = "15"; //Cantidad de alumnos minima
+$descripcion = "En todo el mundo, existen muy pocos cursos sobre el tema. En nuestro país no hay escuelas donde se estudie dicha disciplina, a pesar del uso cada vez más recurrente que se hace de la imagen con fines científicos.
+A través del dibujo, se pueden crear mundos que sean conmutables con la realidad biológica y con los modelos que de esa realidad desarrollan los científicos. Para que esos mundos resulten coherentes, deben de dibujarse con orden, atendiendo al tema, a su composición artística, y al color. Siendo el color dependiente de la forma, es preciso estudiarlo por separado de la misma, para poderlo ordenar, caracterizar, armonizar y saberlo aplicar.";
+$objetivo = "	Desarrollar las habilidades personales en el campo del dibujo de la naturaleza y aprender a crear, construir y componer un espectro amplio de imágenes a color, que porten inequívocamente el mensaje que se desea comunicar y que sean funcionales para la transmisión del conocimiento científico.
+Introducir al alumno en la apreciación del color y su comportamiento ante nuestros ojos por un lado y por otro, asimilar y entrenar la capacidad de discernir las variaciones de los tonos, de los matices y de la brillantez de los colores deseados, para representar atinadamente las formas de la naturaleza.
+Ejercitar mediante el estudio de la teoría cromática la combinación de pigmentos de acuerdo a la técnica tradicional con que se trabaje, ( acuarela y lápices de color ).";
+$dirigido_a = "El taller está dirigido a biólogos, ilustradores, artistas plásticos, artistas visuales y toda aquella persona que cuente o no, con entrenamiento previo en el campo del dibujo de la naturaleza.";
+$requisitos = "	Conocimientos básicos de dibujo.";
+$lugar = "Secretaría de Educación Abierta y Continua.
+<br>
+<b>Prácticas en los siguientes lugares:</b><br>
+Jardín Botánico, UNAM
+Zoológico de Chapultepec
+Museo de Geología
+Museo de Historia Natural
+Museo de Antropología
+Cantera Oriente, CU"; //El lugar donde se va a impartir, si son varios, agregar todos y separar con <br>
+$formato_inscripcion = "https://forms.gle/SmrqLjnrbTyATXv99"; //Pegar el formato de inscripcion
+$info_academica = "Maestro Aldi de Oyarzabal Salcedo<br>
+Correo electrónico: ao@ciencias.unam.mx"; //Agregar el Nombre <br> correo, dando un br para saltar de linea.
+$ponentes_principales_presentacion = array(array("Maestro en Artes Aldi de Oyarzabal Salcedo, Ilustrador Científico de la Facultad de Ciencias", "../../assets/curriculums_docentes/AldideOyarzabalSal.pdf"))
+//Es necesario poner el ../../ en las url de los curriculums, para acceder a la carpeta.
 ?>
 
+<!-- Se debe modificar la parte de los profes que viene abajo. -->
+<!-- La parte más pesada es agregar el temario. Se puede usar ese o una tabla como la que normalmente creas, ya agregue estilos para que se adapten, ver ejemplo de primeros auxilios.-->
 <!-- Start Hero -->
 <section class="portada">
-    <img src="../../assets/images/cursos/bg-Dibujo_de_la_naturaleza.webp" alt="">
+    <img src="<?php echo $imagen_curso ?>" alt="Imagen del curso">
     <div class="portada-opacity"></div>
     <div class="container">
         <div class="portada-informacion">
-            <span class="portada-informacion-pu">$5,000 /
-                UNAM</span>
-            <span class="portada-informacion-pg">$6,000 /
-                GENERAL</span>
-            <p>15% de descuento por concepto de pronto pago (hasta el 28 de marzo)</p>
-            <span class="bg-red-600 text-white text-xs font-bold px-2.5 py-0.5 rounded w-fit mx-auto h-5">$4,250 /
-                UNAM</span>
-            <span class="portada-informacion-pg">$5,100 /
-                GENERAL</span>
-            <h1>Dibujo de la Naturaleza</h1>
-            <p>1ra. Edición</p>
-            <div class="profesor">
-                <div>
-                    <img src="../../assets/images/instructores/usr-m.jpg" alt="">
-                </div>
-                <div>
-                    <a href="../../assets/curriculums_docentes/AldideOyarzabalSal.pdf" target="_blank">Maestro en
-                        Artes Aldi de Oyarzabal Salcedo<br>Ilustrador Científico de la Facultad de Ciencias</a>
-                </div>
-            </div>
+            <?php
+            $fechaActual = strtotime(date("d-m-Y"));
+            $fecha_lim_desc = strtotime($limite_fecha_descuento);
+            #Si tiene descuento y la fecha de hoy es menor a la fecha de descuento 
+           if ($precio_unam_descuento != 'NO' && $fechaActual<=$fecha_lim_desc) {
+                echo "<span class=\"portada-informacion-pu\">$precio_unam UNAM</span>
+                        <span class=\"portada-informacion-pg\">$precio_general GENERAL</span>
+                        <p>15% de descuento por concepto de pronto pago (hasta el 3 de abril)</p>
+                        <span class=\"portada-informacion-pu-red\">$precio_unam_descuento UNAM</span>
+                        <span class=\"portada-informacion-pg\">$precio_general_descuento GENERAL</span>";
+            } else {
+                
+                echo "<span class=\"portada-informacion-pu\">$precio_unam UNAM</span>
+                        <span class=\"portada-informacion-pg\">$precio_general GENERAL</span>";
+            
+            }
 
+            ?>
+            <h1><?php echo $titulo_curso ?></h1>
+            <p class="text-indigo-600"><?php echo $edicion ?></p>
+            <!-- Genera el contenedor con los datos del profesor, es decir, la foto, el nombre y el enlace del curriculum. -->
+            <!-- Si hay mas de un profe, se debe copiar todo el contenedor, para cada uno. -->
+            <!-- PROFESORES QUE IMPARTEN -->
+            <!-- Datos de Profe -->
+
+            <?php
+            g_ponentes_princi_pres($ponentes_principales_presentacion);
+            ?>
+
+            <!-- Fin de datos de profe -->
+            <!-- FIN - PROFESORES QUE IMPARTEN -->
             <div class="fecha">
                 <i class="uil uil-calendar-alt"></i>
-                <span>Del 11 de
-                    abril al 15 de junio de 2023</span>
+                <span><?php echo $fecha ?></span>
             </div>
 
         </div>
@@ -65,33 +99,29 @@ $info_academica="Dra. Rosalía Pastor Nieto <br> Correo electrónico: rosalia.pa
 
     <div class="datos">
         <ul>
-            <!-- <li class="inline breadcrumb-item uppercase text-[13px] font-bold duration-500 ease-in-out text-white/50 hover:text-white"><a href="index-course.php">Techwind</a></li>
-                   <li class="inline breadcrumb-item uppercase text-[13px] font-bold duration-500 ease-in-out text-white/50 hover:text-white"><a href="course-listing.php">Courses</a></li>
-                    <li class="inline breadcrumb-item uppercase text-[13px] font-bold duration-500 ease-in-out text-white" aria-current="page">Web Development</li> -->
-
             <li>
                 <i class="uil uil-calendar-alt"></i>
-                <span class="text-white/60 ml-1">Ma y Ju</span>
+                <span><?php echo $dias ?></span>
             </li>
 
             <li>
                 <i class="uil uil-bell-school"></i>
-                <span class="text-white/60 ml-1">15-19h</span>
+                <span><?php echo $horario ?></span>
             </li>
 
             <li>
                 <i class="uil uil-clock"></i>
-                <span class="text-white/60 ml-1">80 horas</span>
+                <span><?php echo $no_horas ?> horas</span>
             </li>
 
             <li>
                 <i class="uil uil-map-marker"></i>
-                <span class="text-white/60 ml-1">Presencial</span>
+                <span><?php echo $modalidad ?></span>
             </li>
 
             <li>
                 <i class="uil uil-user-circle"></i>
-                <span class="text-white/60 ml-1">Máx. 25 / Min. 15</span>
+                <span>Máx. <?php echo $max_alumnos ?> / Min. <?php echo $min_alumnos ?></span>
             </li>
 
             <li>
@@ -101,6 +131,9 @@ $info_academica="Dra. Rosalía Pastor Nieto <br> Correo electrónico: rosalia.pa
         </ul>
     </div>
 </section><!--end section-->
+
+
+
 <div class="relative">
     <div class="shape absolute right-0 sm:-bottom-px -bottom-[2px] left-0 overflow-hidden z-1 text-white dark:text-slate-900">
         <svg class="w-full h-auto" viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -114,39 +147,13 @@ $info_academica="Dra. Rosalía Pastor Nieto <br> Correo electrónico: rosalia.pa
 <section class="oferta-academica md:py-20">
     <div class="container">
         <h2>Descripción</h2>
-        <p>En todo el mundo, existen muy pocos cursos sobre el tema. En nuestro país no hay
-            escuelas donde se estudie dicha disciplina, a pesar del uso cada vez más recurrente que se hace de
-            la imagen con fines científicos.
-            A través del dibujo, se pueden crear mundos que sean conmutables con la realidad biológica y con los
-            modelos que de esa realidad desarrollan los científicos. Para que esos mundos resulten coherentes,
-            deben de dibujarse con orden, atendiendo al tema, a su composición artística, y al color. Siendo el
-            color dependiente de la forma, es preciso estudiarlo por separado de la misma, para poderlo ordenar,
-            caracterizar, armonizar y saberlo aplicar.</p>
+        <p><?php echo $descripcion ?></p>
         <h2>Objetivo</h2>
-        <p>Desarrollar las habilidades personales en el campo del dibujo de la naturaleza y
-            aprender a crear, construir y componer un espectro amplio de imágenes a color, que porten
-            inequívocamente el mensaje que se desea comunicar y que sean funcionales para la transmisión del
-            conocimiento científico.
-            Introducir al alumno en la apreciación del color y su comportamiento ante nuestros ojos por un lado
-            y por otro, asimilar y entrenar la capacidad de discernir las variaciones de los tonos, de los
-            matices y de la brillantez de los colores deseados, para representar atinadamente las formas de la
-            naturaleza.
-            Ejercitar mediante el estudio de la teoría cromática la combinación de pigmentos de acuerdo a la
-            técnica tradicional con que se trabaje (acuarela y lápices de color).
-        </p>
-        <h2>Material requerido a los alumnos</h2>
-        <p>Hojas de papel bond tamaño carta, lápices de dibujo 2 ó 3B y H o HB, papel fabriano,
-            papel engomado, papel guarro y papel albanene. Estuche de Lápices de Colores. Soporte de triplay,
-            goma blanda, navaja de afeitar y cutter. Estuche de acuarelas, godete, trapo de algodón o papel
-            higiénico, pinceles para acuarela del 00, del 2 y del 5, pincel plano y pincel cola de pato. Lupa
-        </p>
+        <p><?php echo $objetivo ?></p>
         <h2>Dirigido a</h2>
-        <p> El taller está dirigido a biólogos, ilustradores, artistas plásticos, artistas
-            visuales y toda aquella persona que cuente o no, con entrenamiento previo en el campo del dibujo de
-            la naturaleza.
-        </p>
-        <p class="text-red-600">
-            Mín / Máx de alumnos: Mínimo 15, máximo 25.<br>
+        <p><?php echo $dirigido_a ?></p>
+        <p class="text-red-600 mt-4">
+            Mín / Máx de alumnos: Mínimo <?php echo $min_alumnos ?>, máximo <?php echo $max_alumnos ?>.<br>
             La apertura del curso está sujeta al mínimo de inscritos.</p>
     </div>
 </section>
@@ -166,33 +173,26 @@ $info_academica="Dra. Rosalía Pastor Nieto <br> Correo electrónico: rosalia.pa
 
                 <div>
                     <h3>Requisitos</h3>
-                    <p>Conocimientos básicos de dibujo.</p>
-
+                    <p><?php echo $requisitos ?></p>
                     <div class="mt-5">
                         <a href="#" data-type="iframe" class="video-play-icon read-more lightbox btn btn-link text-indigo-600 hover:text-indigo-600 after:bg-indigo-600 duration-500 ease-in-out">
                         </a>
                     </div>
                 </div>
             </div>
-
-
             <div>
                 <div>
                     <i class="uil uil-calendar-alt"></i>
                 </div>
-
                 <div>
                     <h3>Horario</h3>
-                    Horario: 15:00 a 19:00 hrs.</p>
-                    <p>Martes y Jueves</p>
-
+                    <p><?php echo $horario ?></p>
+                    <p><?php echo $dias ?></p>
                     <div class="mt-5">
-                        <a href="#" class="btn btn-link text-indigo-600 hover:text-red-600 after:bg-indigo-600 duration-500 ease-in-out">Total:
-                            80 horas</a>
+                        <a href="#" class="btn btn-link text-indigo-600 hover:text-red-600 after:bg-indigo-600 duration-500 ease-in-out">Total: <?php echo $no_horas ?>horas</a>
                     </div>
                 </div>
             </div>
-
             <div>
                 <div>
                     <i class="uil uil-map-marker"></i>
@@ -200,194 +200,70 @@ $info_academica="Dra. Rosalía Pastor Nieto <br> Correo electrónico: rosalia.pa
 
                 <div>
                     <h3>Lugar</h3>
-                    <p>Teoría:<br> Secretaría de Educación Abierta y Continua</p>
-                    <p>Práctica:<br>
-                        Jardín Botánico, UNAM<br>
-                        Zoológico de Chapultepec<br>
-                        Museo de Geología<br>
-                        Museo de Historia Natural<br>
-                        Museo de Antropología<br>
-                        Cantera Oriente, CU</p>
-
+                    <p><?php echo $lugar ?></p>
                 </div>
             </div>
-
-
         </div>
     </div>
 
-
-
-
-
+    <!-- Para el area de pagos -->
     <div class="curso-costo container">
-
         <h2 class="md:text-3xl md:leading-normal">Costo</h2>
-
-        <p class="text-red-600 max-w-xl mx-auto">15% de descuento por concepto de pronto pago (hasta el 28 de
-            marzo)</p>
-
-
-        <div class="grid lg:grid-cols-2 md:grid-cols-2 mt-8 gap-[30px]">
-            <div class="curso-costo-g">
-                <h3>Público GENERAL</h3>
-
-
-                <div>
-                    <span>$</span>
-                    <span class="price text-4xl font-semibold mb-0" style="text-decoration: line-through;">6,000</span>
-                    <span>MXN</span>
-                </div>
-                <div>
-                    <span>$</span>
-                    <span>5,100</span>
-                    <span>MXN</span>
-                </div>
-
-
-
-                <a href="#inscripcion" class="btn">Inscribirse</a>
-            </div>
-
-
-            <div class="curso-costo-g">
-                <h3>Comunidad UNAM</h3>
-
-
-                <div>
-                    <span>$</span>
-                    <span class="price text-4xl font-semibold mb-0" style="text-decoration: line-through;">5,000</span>
-                    <span>MXN</span>
-                </div>
-                <div>
-                    <span>$</span>
-                    <span>4,250</span>
-                    <span>MXN</span>
-                </div>
-
-
-                <ul>
-                    <li><i class="uil uil-check-circle"></i>Alumnos, exalumnos
-                        y personal de la UNAM</li>
-                    <li><i class="uil uil-check-circle"></i>También aplica
-                        para afiliados a Fundación UNAM</li>
-                </ul>
-
-                <a href="#inscripcion" class="btn">Inscribirse</a>
-            </div>
-
-
-        </div>
+        <?php
+            aplica_descuento($precio_unam,$precio_unam_descuento,$precio_general,$precio_general_descuento,$frase_descuento,$limite_fecha_descuento);
+        ?>
     </div>
+
 </section>
 
 
-<!-- TEMARIO SECCIÓN: LOS <h3> son temas principales y los <td> son subtemas. -->
+
+<!-- Este ejemoplo es para cuando se muestra en forma de indice. -->
+<!-- TEMARIO SECCIÓN: LOS <h3> son temas principales y los <li> son subtemas. -->
+<!-- TEMARIO SECCIÓN: LOS <h3> son temas principales y los <li> son subtemas. -->
 <section class="temario container">
     <h2>Temario</h2>
     <div class="secciones grid md:grid-cols-2 grid-cols-1">
-        <!-- ******SECCIÓN PARA CADA TEMA CON SUS SUBTEMAS *****-->
-            <div><h3>1. Introducción.</h3></div>
-            <div><h3>2. Dibujo de Plantas (Jardín Botánico).</h3></div>
-            <div><h3>3. Ángulos, Medidas y Distancias.</h3></div>
-            <div><h3>4. Cubo. Botellas, copas y vasos. Telas.</h3></div>
-            <div><h3>5. Inclinaciones gráficas innatas.</h3></div>
-            <div><h3>6. Contorno puro y modificado. Espacios positivos y negativos.</h3></div>
-            <div><h3>7. Herramienta de carpintería, Máscaras.</h3></div>
-            <div><h3>8. Color círculo cromático tensar papel para acuarela.</h3></div>
-            <div><h3>9. Dibujo de Juguete celaje y degradado.</h3></div>
-            <div><h3>10. Dibujo de hojas, tallos, ramas y semillas.</h3></div>
-            <div><h3>11. Dibujo de caracoles, cangrejos y esqueletos.</h3></div>
-            <div><h3>12. Naturaleza silenciosa Composición artística.</h3></div>
-            <div><h3>13. Dibujo de animales taxidermizados.</h3></div>
-            <div><h3>14. Dibujo de animales de zoológico.</h3></div>
-            <div><h3>15. Dibujo de Fósiles.</h3></div>
-            <div><h3>16. Dibujo de Foto.</h3></div>
-            <div><h3>17. Dibujo gestual con modelo humano.</h3></div>
-            <div><h3>18. Dibujo de motivos prehispánicos.</h3></div>
-            <div><h3>19. Dibujo de Geoformas Cantera Oriente Dibujo de paisaje.</h3></div>
-            <div><h3>20. Dibujo de Artrópodos con lupa, texturas.</h3></div>
-        
-    </div>
-</section>
+        <div> <!--Tema-->
+            <div class="contenido">
+                <ul>
+                    <li>1. Introducci&oacute;n.</li>
+                    <li>2. Dibujo de Plantas (Jard&iacute;n Bot&aacute;nico).</li>
+                    <li>3. &Aacute;ngulos, Medidas y Distancias.</li>
+                    <li>4. Cubo. Botellas, copas y vasos. Telas.</li>
+                    <li>5. Inclinaciones gr&aacute;ficas innatas.</li>
+                    <li>6. Contorno puro y modificado. Espacios positivos y negativos.</li>
+                    <li>7. Herramienta de carpinter&iacute;a, M&aacute;scaras.</li>
+                    <li>8. Color c&iacute;rculo crom&aacute;tico tensar papel para acuarela.</li>
+                    <li>9. Dibujo de Juguete celaje y degradado.</li>
+                    <li>10. Dibujo de hojas, tallos, ramas y semillas.</li>
+                    <li>11. Dibujo de caracoles, cangrejos y esqueletos.</li>
+                    <li>12. Naturaleza silenciosa Composici&oacute;n art&iacute;stica.</li>
+                    <li>13. Dibujo de animales taxidermizados.</li>
+                    <li>14. Dibujo de animales de zool&oacute;gico.</li>
+                    <li>15. Dibujo de F&oacute;siles.</li>
+                    <li>16. Dibujo de Foto.</li>
+                    <li>17. Dibujo gestual con modelo humano.</li>
+                    <li>18. Dibujo de motivos prehisp&aacute;nicos.</li>
+                    <li>19. Dibujo de Geoformas Cantera Oriente Dibujo de paisaje.</li>
+                    <li>20. Dibujo de Artr&oacute;podos con lupa, texturas.</li>
+                </ul>
+            </div>
+        </div><!--fin de tema-->
+    </div> <!-- TERMINA EL CONTENEDOR DE LOS SUBTEMAS -->
 
-<section class="relative">
-
-    <div class="container">
-
-        <div class="grid grid-cols-1 mt-8">
-            <h5 class="text-2xl font-semibold mb-5">Bibliografía</h5>
-        </div>
-
-        <div class=" pt-6 pb-8 gap-[30px]">
-            <ul class="list- text-lg list-disc">
-                <li>Acha, Juan. Las actividades básicas de las Artes Plásticas. Ediciones Coyoacán, 1994</li>
-
-                <li>Acha, Juan. Teoría del Dibujo. Su sociología y su estética. Ediciones Coyoacán, 1999</li>
-
-                <li>Arnheim, Rudolf. Consideraciones sobre la educación artística. Paidós, 1993</li>
-
-                <li>Berger, John. Ways of Seeing. BBC & Penguin Books, 1972</li>
-
-                <li>Brent Wilson / Al Hurwitz / Marjorie Wilson. La enseñanza del dibujo a partir del arte. Paidós,
-                    2004</li>
-
-                <li>Da Vinci, Leonardo. El Tratado de la Pintura. Editorial Nacional Madrid, 1980</li>
-
-                <li>Edwards, Betty, Aprender a dibujar con el lado derecho del cerebro. Herman Blume, Madrid, 1984
-                </li>
-
-                <li>Ford, Brian. Images of Science: A history of scientific illustration. Oxford University Press,
-                    New York, 1993</li>
-
-                <li>Günter, Hugo Magnus. Manual para dibujantes e ilustradores. Una guía para el trabajo práctico.
-                    Gustavo Gili. Barcelona, 1982</li>
-
-                <li>Herdeg, Walter. The artista in the Service of Science. Zürich, Grapl, 1973</li>
-
-                <li>Hiriart, Hugo. Los dientes eran el piano. Tusquets Editores, 1999</li>
-
-                <li>Hodges, Eleine R.S. The Guild Handbook of Scientific Illustration. Van Nostrand Reinhold. N.Y.
-                    1989</li>
-
-                <li>Holmgren, Noel H. Botanical Illustration: Preparation for Publication. Botanical Garden N.Y.
-                    1986</li>
-
-                <li>Kandinsky, Wassily. De lo espiritual en el arte. Ediciones Coyoacán, 1994</li>
-
-                <li>Klee, Paul. Bases para la estructuración del arte. Ediciones Coyoacán, 1995</li>
-
-                <li>Maier, Manfred. Elementare Entwurfs und Gestaltungsprozesse, Band 1. Die Grundkurse an der
-                    Kunstgewerbeschule. Base, Schweiz 1987</li>
-
-                <li>Nicolaides, Kimon. The natural way to draw. A working plan for art study. Houghton Mifflin.
-                    Boston, 1986</li>
-
-                <li>Raeder, Pablo. La geometría de la forma. UAMX 1992</li>
-
-                <li>Scientific Illustration Committee. Council of Biology. Illustrating Science. Standards for
-                    Publication. Bethesda, 1988</li>
-
-                <li>Trabulse, Ian. La nueva guía de la Ilustración. Blume, Barcelona, 1991</li>
-
-                <li>Wood, Phillis. Scientific Illustration. A guide biological, zoological and medical rendering
-                    techniques, design, printing and display, with chapter on computer graphics by Patrick Mc
-                    Donnell. Van Nostrand Reinhold, N.Y. 1994</li>
-
-                <li>Zweifel, Frances W. A handbook of biological illustration. University of Chicago</li>
-            </ul>
-        </div>
-
-    </div>
-</section>
+    <!-- Por si hay temario extendido (pdf), si no, favor de comentarlo. -->
+    <!-- <a class="formato-link mt-6" href="assets/pdf/formatos/FormatoPresentacionCursoo.docx" download="Documento-con-descripcion">
+        Temario extendido
+    </a> -->
+</section><!-- TERMINA LA SECCIÓN DEL TEMARIO -->
 
 
 <!-- Start -->
 <section class="inscripcion md:py-24" id="inscripcion">
     <div class="container">
         <div class="titulo">
-            <h2 class="md:text-3xl md:leading-normal">Inscripción</h2>
-            <p>.</p>
+            <h2>Inscripción</h2>
         </div>
 
         <div class="pasos">
@@ -400,7 +276,7 @@ $info_academica="Dra. Rosalía Pastor Nieto <br> Correo electrónico: rosalia.pa
                         <div class="md:ml-8 md:mt-0">
                             <h4>Realizar el pago en línea mediante "Plaza
                                 Prometeo", la tienda de la Facultad de Ciencias</h4>
-                            <p><a href="https://tienda.fciencias.unam.mx" target="_blank" class="btn btn-link text-indigo-600 hover:text-red-600 after:bg-indigo-600 duration-500 ease-in-out">tienda.fciencias.unam.mx</a>
+                            <p><a href=<?php echo $link_plaza_prometeo ?> target="_blank" class="formato-link">tienda.fciencias.unam.mx</a>
                             </p>
                         </div>
                     </div>
@@ -411,7 +287,7 @@ $info_academica="Dra. Rosalía Pastor Nieto <br> Correo electrónico: rosalia.pa
                         <div class="md:ml-8 md:mt-0">
                             <h4>Registrarse en este formato de inscripción</h4>
                             <p>(únicamente si usted ya hizo el pago)</p>
-                            <p><a href="https://forms.gle/SmrqLjnrbTyATXv99" target="_blank" class="btn btn-link text-indigo-600 hover:text-red-600 after:bg-indigo-600 duration-500 ease-in-out">Formato
+                            <p><a href=<?php echo $formato_inscripcion ?> target="_blank" class="formato-link">Formato
                                     de inscripción</a></p>
                         </div>
                     </div>
@@ -427,7 +303,6 @@ $info_academica="Dra. Rosalía Pastor Nieto <br> Correo electrónico: rosalia.pa
     </div>
 </section><!--end section-->
 <!-- End -->
-
 
 <div class="ayuda container md:mt-24">
     <div class="titulo">
@@ -469,8 +344,7 @@ $info_academica="Dra. Rosalía Pastor Nieto <br> Correo electrónico: rosalia.pa
                 </h2>
                 <div id="info-acad" class="hidden" aria-labelledby="info-acad-col">
                     <div class="p-5">
-                        <p class="text-slate-400 dark:text-gray-400">Maestro Aldi de Oyarzabal Salcedo <br>
-Correo electrónico: ao@ciencias.unam.mx
+                        <p class="text-slate-400 dark:text-gray-400"><?php echo $info_academica ?>
                         </p>
                     </div>
                 </div>
