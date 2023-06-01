@@ -777,9 +777,13 @@ h2 {
 
 .temario .secciones .contenido ul {}
 
-.temario .secciones .contenido li {
+.temario .secciones .contenido > ul >  li {
     border-top: 1px solid #e5e7eb8f;
     padding: 1rem !important;
+}
+
+.temario .secciones .contenido > ul >  li > ul > li {
+    padding: 1rem 0 0 1rem !important;
 }
 
 .temario .secciones .contenido>ul>li::before {
@@ -1098,7 +1102,7 @@ h2 {
     width: 140rem;
 }
 
-.imagen-carrusel img{
+.imagen-carrusel img {
     position: absolute;
     top: 0px !important;
     right: 0px !important;
@@ -1112,7 +1116,75 @@ h2 {
     background-repeat: no-repeat !important;
 }
 
-@media (min-width: 640px) {
+.formato-link {
+    display: inline-block;
+    border-width: 1px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 0.025em;
+    -webkit-transition-property: color, background-color, border-color, fill, stroke, opacity, -webkit-text-decoration-color, -webkit-box-shadow, -webkit-transform, -webkit-filter, -webkit-backdrop-filter;
+    transition-property: color, background-color, border-color, fill, stroke, opacity, -webkit-text-decoration-color, -webkit-box-shadow, -webkit-transform, -webkit-filter, -webkit-backdrop-filter;
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-text-decoration-color, -webkit-box-shadow, -webkit-transform, -webkit-filter, -webkit-backdrop-filter;
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms;
+    -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+    border-style: none;
+    padding: 0px;
+    --tw-text-opacity: 1 !important;
+    color: rgb(8 151 213 / var(--tw-text-opacity)) !important;
+    -webkit-transition-duration: 500ms !important;
+    transition-duration: 500ms !important;
+    -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1) !important;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1) !important;
+    position: relative;
+    border-style: none;
+    padding: 0px;
+}
+
+.formato-link:hover{
+    --tw-text-opacity: 1 !important;
+    color: rgb(220 38 38 / var(--tw-text-opacity)) !important;
+}
+
+.formato-link::after{
+    content: var(--tw-content) !important;
+    --tw-bg-opacity: 1 !important;
+    background-color: rgb(8 151 213 / var(--tw-bg-opacity)) !important;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    height: 1px;
+    width: 0px;
+    -webkit-transition-property: all;
+    transition-property: all;
+    -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    -webkit-transition-duration: 500ms;
+            transition-duration: 500ms;
+    --tw-content: "";
+    content: var(--tw-content);
+}
+
+.formato-link:hover::after{
+    right: auto;
+    content: var(--tw-content);
+    width: 100%;
+}
+
+
+ 
+ @media (min-width: 640px) {
     .curso .curso_imagen .curso_imagen_adapter {
         width: 608px;
         height: 380px;
