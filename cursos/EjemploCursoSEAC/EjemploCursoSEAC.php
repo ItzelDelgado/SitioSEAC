@@ -17,9 +17,15 @@ $precio_general = "3,200"; //No es necesario poner mxn
 $precio_unam_descuento = "1,942"; //No es necesario poner mxn
 $precio_general_descuento = "2,720"; //No es necesario poner mxn
 $frase_descuento = "15% de descuento por concepto de pronto pago (hasta el 3 de
+<<<<<<< HEAD
 abril)";//Frase del porcentaje de descuento
 $limite_fecha_descuento = "31-05-2023";//Formato date("dd-mm-Yyyy")
 $link_plaza_prometeo= "https://tienda.fciencias.unam.mx";
+=======
+abril)"; //Frase del porcentaje de descuento
+//
+$link_plaza_prometeo = "https://tienda.fciencias.unam.mx";
+>>>>>>> e8b7fff5e555679f86ab6c2c384485f38f5a1e26
 $dias = "Lunes";  //Puedes poner Lunes, Martes, Miercoles, Jueves y Viernes.
 $horario = "16:00 a 19:00 hrs"; //Lo puedes poner en el formato que gustes. No debe ser mucha info. 
 //Si es demasiada puedes agregar más detalles despues donde esta la sección de Requisitos, Horario y Lugar, 
@@ -48,10 +54,19 @@ $ponentes_principales_presentacion = array(array("Juana", "../../assets/curricul
     <div class="container">
         <div class="portada-informacion">
             <?php
+<<<<<<< HEAD
             $fechaActual = strtotime(date("d-m-Y"));
             $fecha_lim_desc = strtotime($limite_fecha_descuento);
             #Si tiene descuento y la fecha de hoy es menor a la fecha de descuento 
            if ($precio_unam_descuento != 'NO' && $fechaActual<=$fecha_lim_desc) {
+=======
+            #Si no tiene descuento, imprime el precio normal. 
+            if ($precio_unam_descuento == 'NO') {
+                echo "<span class=\"portada-informacion-pu\">$precio_unam UNAM</span>
+            <span class=\"portada-informacion-pg\">$precio_general GENERAL</span>";
+            } else {
+                #en el caso contrario, imprime los datos del descuento.
+>>>>>>> e8b7fff5e555679f86ab6c2c384485f38f5a1e26
                 echo "<span class=\"portada-informacion-pu\">$precio_unam UNAM</span>
                         <span class=\"portada-informacion-pg\">$precio_general GENERAL</span>
                         <p>15% de descuento por concepto de pronto pago (hasta el 3 de abril)</p>
@@ -63,7 +78,7 @@ $ponentes_principales_presentacion = array(array("Juana", "../../assets/curricul
                         <span class=\"portada-informacion-pg\">$precio_general GENERAL</span>";
             
             }
-            
+
             ?>
             <h1><?php echo $titulo_curso ?></h1>
             <p class="text-indigo-600"><?php echo $edicion ?></p>
@@ -71,11 +86,11 @@ $ponentes_principales_presentacion = array(array("Juana", "../../assets/curricul
             <!-- Si hay mas de un profe, se debe copiar todo el contenedor, para cada uno. -->
             <!-- PROFESORES QUE IMPARTEN -->
             <!-- Datos de Profe -->
-            
+
             <?php
             g_ponentes_princi_pres($ponentes_principales_presentacion);
             ?>
-            
+
             <!-- Fin de datos de profe -->
             <!-- FIN - PROFESORES QUE IMPARTEN -->
             <div class="fecha">
@@ -199,7 +214,11 @@ $ponentes_principales_presentacion = array(array("Juana", "../../assets/curricul
     <div class="curso-costo container">
         <h2 class="md:text-3xl md:leading-normal">Costo</h2>
         <?php
+<<<<<<< HEAD
             aplica_descuento($precio_unam,$precio_unam_descuento,$precio_general,$precio_general_descuento,$frase_descuento,$limite_fecha_descuento);
+=======
+        aplica_descuento($precio_unam, $precio_unam_descuento, $precio_general, $precio_general_descuento, $frase_descuento);
+>>>>>>> e8b7fff5e555679f86ab6c2c384485f38f5a1e26
         ?>
     </div>
 
@@ -218,7 +237,7 @@ $ponentes_principales_presentacion = array(array("Juana", "../../assets/curricul
             <div class="contenido">
                 <h4>Temas</h4>
                 <ul>
-                    <li>I.1 Aquí va el subtema. 
+                    <li>I.1 Aquí va el subtema.
                         <ul>
                             <li>sub sub tema</li>
                         </ul>
@@ -235,7 +254,7 @@ $ponentes_principales_presentacion = array(array("Juana", "../../assets/curricul
             <div class="contenido">
                 <h4>Temas</h4>
                 <ul>
-                    <li>I.1 Aquí va el subtema. 
+                    <li>I.1 Aquí va el subtema.
                         <ul>
                             <li>sub sub tema</li>
                         </ul>
@@ -246,15 +265,13 @@ $ponentes_principales_presentacion = array(array("Juana", "../../assets/curricul
                     <li>I.5. La plataforma Android, entorno, anatomía y las capas de su arquitectura..</li>
                 </ul>
             </div>
-        </div><!--fin de tema-->    
+        </div><!--fin de tema-->
     </div> <!-- TERMINA EL CONTENEDOR DE LOS SUBTEMAS -->
-    
+
     <!-- Por si hay temario extendido (pdf), si no, favor de comentarlo. -->
-    <a
-          class="text-indigo-600"
-          href="assets/pdf/formatos/FormatoPresentacionCursoo.docx"
-          download="Documento-con-descripcion"
-          >Temario extendido</a>
+    <a class="formato-link mt-6" href="assets/pdf/formatos/FormatoPresentacionCursoo.docx" download="Documento-con-descripcion">
+        Temario extendido
+    </a>
 </section><!-- TERMINA LA SECCIÓN DEL TEMARIO -->
 
 
@@ -275,7 +292,7 @@ $ponentes_principales_presentacion = array(array("Juana", "../../assets/curricul
                         <div class="md:ml-8 md:mt-0">
                             <h4>Realizar el pago en línea mediante "Plaza
                                 Prometeo", la tienda de la Facultad de Ciencias</h4>
-                            <p><a href=<?php echo $link_plaza_prometeo?>  target="_blank" class="btn btn-link text-indigo-600 hover:text-red-600 after:bg-indigo-600 duration-500 ease-in-out">tienda.fciencias.unam.mx</a>
+                            <p><a href=<?php echo $link_plaza_prometeo ?> target="_blank" class="formato-link">tienda.fciencias.unam.mx</a>
                             </p>
                         </div>
                     </div>
@@ -286,7 +303,7 @@ $ponentes_principales_presentacion = array(array("Juana", "../../assets/curricul
                         <div class="md:ml-8 md:mt-0">
                             <h4>Registrarse en este formato de inscripción</h4>
                             <p>(únicamente si usted ya hizo el pago)</p>
-                            <p><a href=<?php echo $formato_inscripcion ?> target="_blank" class="btn btn-link text-indigo-600 hover:text-red-600 after:bg-indigo-600 duration-500 ease-in-out">Formato
+                            <p><a href=<?php echo $formato_inscripcion ?> target="_blank" class="formato-link">Formato
                                     de inscripción</a></p>
                         </div>
                     </div>
