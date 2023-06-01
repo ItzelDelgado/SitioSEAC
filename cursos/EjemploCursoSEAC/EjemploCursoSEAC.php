@@ -18,7 +18,7 @@ $precio_unam_descuento = "1,942"; //No es necesario poner mxn
 $precio_general_descuento = "2,720"; //No es necesario poner mxn
 $frase_descuento = "15% de descuento por concepto de pronto pago (hasta el 3 de
 abril)";//Frase del porcentaje de descuento
-//
+$limite_fecha_descuento = "31-05-2023";//Formato date("dd-mm-Yyyy")
 $link_plaza_prometeo= "https://tienda.fciencias.unam.mx";
 $dias = "Lunes";  //Puedes poner Lunes, Martes, Miercoles, Jueves y Viernes.
 $horario = "16:00 a 19:00 hrs"; //Lo puedes poner en el formato que gustes. No debe ser mucha info. 
@@ -48,17 +48,20 @@ $ponentes_principales_presentacion = array(array("Juana", "../../assets/curricul
     <div class="container">
         <div class="portada-informacion">
             <?php
-            #Si no tiene descuento, imprime el precio normal. 
-           if ($precio_unam_descuento == 'NO') {
-            echo "<span class=\"portada-informacion-pu\">$precio_unam UNAM</span>
-            <span class=\"portada-informacion-pg\">$precio_general GENERAL</span>";
-            } else {
-                #en el caso contrario, imprime los datos del descuento.
+            $fechaActual = strtotime(date("d-m-Y"));
+            $fecha_lim_desc = strtotime($limite_fecha_descuento);
+            #Si tiene descuento y la fecha de hoy es menor a la fecha de descuento 
+           if ($precio_unam_descuento != 'NO' && $fechaActual<=$fecha_lim_desc) {
                 echo "<span class=\"portada-informacion-pu\">$precio_unam UNAM</span>
                         <span class=\"portada-informacion-pg\">$precio_general GENERAL</span>
                         <p>15% de descuento por concepto de pronto pago (hasta el 3 de abril)</p>
                         <span class=\"portada-informacion-pu-red\">$precio_unam_descuento UNAM</span>
                         <span class=\"portada-informacion-pg\">$precio_general_descuento GENERAL</span>";
+            } else {
+                
+                echo "<span class=\"portada-informacion-pu\">$precio_unam UNAM</span>
+                        <span class=\"portada-informacion-pg\">$precio_general GENERAL</span>";
+            
             }
             
             ?>
@@ -195,9 +198,8 @@ $ponentes_principales_presentacion = array(array("Juana", "../../assets/curricul
     <!-- Para el area de pagos -->
     <div class="curso-costo container">
         <h2 class="md:text-3xl md:leading-normal">Costo</h2>
-        <!-- Si el curso no tiene descuento, solo debe quitarse el p. -->
         <?php
-            aplica_descuento($precio_unam,$precio_unam_descuento,$precio_general,$precio_general_descuento,$frase_descuento);
+            aplica_descuento($precio_unam,$precio_unam_descuento,$precio_general,$precio_general_descuento,$frase_descuento,$limite_fecha_descuento);
         ?>
     </div>
 
