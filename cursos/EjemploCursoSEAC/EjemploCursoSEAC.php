@@ -14,7 +14,7 @@ $precio_unam = "2,700"; //No es necesario poner mxn
 $precio_general = "3,200"; //No es necesario poner mxn
 //Si no tiene descuento, favor de poner NO en precio_unam_descuento.
 //ej: $precio_unam_descuento = "NO";
-$precio_unam_descuento = "1,942"; //No es necesario poner mxn
+$precio_unam_descuento = "NO"; //No es necesario poner mxn
 $precio_general_descuento = "2,720"; //No es necesario poner mxn
 $frase_descuento = "15% de descuento por concepto de pronto pago (hasta el 3 de
 abril)";//Frase del porcentaje de descuento
@@ -178,7 +178,7 @@ $ponentes_principales_presentacion = array(array("Juana", "../../assets/curricul
                     <p><?php echo $horario ?></p>
                     <p><?php echo $dias ?></p>
                     <div class="mt-5">
-                        <a href="#" class="btn btn-link text-indigo-600 hover:text-red-600 after:bg-indigo-600 duration-500 ease-in-out">Total: <?php echo $no_horas ?>horas</a>
+                        <a href="#" class="btn btn-link text-indigo-600 hover:text-red-600 after:bg-indigo-600 duration-500 ease-in-out">Total: <?php echo $no_horas ?> horas</a>
                     </div>
                 </div>
             </div>

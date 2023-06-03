@@ -1,58 +1,83 @@
 <?php
 include '../../includes/templates/header.php';
+include '../../includes/templates/funciones.php';
 ?>
+
 
 <?php
 
 $titulo_curso = "Estadística aplicada al diseño y análisis de estudios experimentales";
-$imagen_curso = "../../assets/images/cursos/bg-estadica-aplicada-diseño-est-exp.webp";
+$imagen_curso = "../../assets/images/cursos/bg-estadica-aplicada-diseño-est-exp.webp"; //Agregar imagen del curso, tamaño forzoso de 19
 $edicion = "7ma. Edición";
 $fecha = "Del 4 de marzo al 27 de mayo del 2023";
-$precio_unam = "4,800";
-$precio_general = "5,800";
-$dias = "Sábado";
-$horario = "8:00 a 12:00";
-$no_horas = "48";
+$precio_unam = "2,700"; //No es necesario poner mxn
+$precio_general = "3,200"; //No es necesario poner mxn
+//Si no tiene descuento, favor de poner NO en precio_unam_descuento.
+//ej: $precio_unam_descuento = "NO";
+$precio_unam_descuento = "NO"; //No es necesario poner mxn
+$precio_general_descuento = "2,720"; //No es necesario poner mxn
+$frase_descuento = "15% de descuento por concepto de pronto pago (hasta el 3 de
+abril)";//Frase del porcentaje de descuento
+$limite_fecha_descuento = "31-05-2023";//Formato date("dd-mm-Yyyy")
+$link_plaza_prometeo= "https://tienda.fciencias.unam.mx";
+$dias = "Lunes";  //Puedes poner Lunes, Martes, Miercoles, Jueves y Viernes.
+$horario = "16:00   a 19:00 hrs"; //Lo puedes poner en el formato que gustes. No debe ser mucha info. 
+//Si es demasiada puedes agregar más detalles despues donde esta la sección de Requisitos, Horario y Lugar, 
+//solo quitas la variable, puedes ver el ejemplo de Cursos en cuadernos de jupyter
+$no_horas = "27"; //No es necesario poner hrs
 $modalidad = "Virtual";
-$max_alumnos = "35";
-$min_alumnos = "15";
-$descripcion = "El diseño de experimentos es una rama de la estadística que se encarga de la planeación, y análisis estadístico de datos que son obtenidos como resultados en investigaciones científicas. De ahí que resulten una herramienta fundamental e indispensable en el quehacer científico. Contrario a lo que muchos investigadores piensan, la estadística no constituye la última etapa de una investigación, sino que toma un papel fundamental desde la planeación de la misma. El diseño de un experimento está en función de los objetivos a los cuales se desee llegar en una investigación. Dicho diseño deberá considerar todas las condiciones que se tengan presentes en cada realidad, para así poder determinar cuántos factores deben ser tomados en cuenta, los cuales pueden ser incluso más de los meros factores de interés, las variantes de los mismos que serán analizadas, y las combinaciones de éstas, dichas combinaciones, constituirán los tratamientos a analizar. El diseño experimental determina además la manera en que se asignan estos tratamientos a las unidades de estudio, o bien unidades experimentales. A cada diseño le corresponde un modelo y éste a su vez determina el análisis estadístico a efectuar. Los resultados de este análisis deberán dar respuesta a los objetivos de la investigación planteados desde un inicio. Es así como todas las etapas de una investigación están relacionadas, todas ellas son importantes para determinar la validez que pueda tener una investigación y sin que una de ellas se pueda desvincular de las demás. A pesar de la gran importancia que tiene esta área de la estadística para las disciplinas científicas la mayoría de los planes de estudio de las diferentes licenciaturas dirigidas a la investigación científica, no cuentan con asignaturas en sus planes de estudio que proporcionen a los alumnos una sólida formación en esta área. Una limitante importante quizá sea la base matemática de cierto grado de complejidad, sobre la que se fundamentan y construyen dichos modelos experimentales, existiendo al parecer una desvinculación entre las disciplinas de formación en el área de las matemáticas con las áreas experimentales. No obstante una vez que la metodología estadística ha sido construida, basta conocer los fundamentos teóricos generales de ésta y la manera de interpretar los resultados, para poder convertirse en un usuario de la misma y así poder dar respuesta a un problema de la realidad que en determinado momento requiramos resolver. Es por eso que este curso está dirigido a profesionistas y estudiantes que trabajen en el área de investigación científica, con especial énfasis en ciencias experimentales, con el objetivo de capacitarles en los aspectos generales de las metodologías estadísticas, que les permita hacer un uso adecuado de las mismas al momento de diseñar los estudios que vayan realizando y poder analizar la información procedente de los mismos, así como su interpretación.";
-$objetivo = "Conocer los diferentes tipos de diseños experimentales utilizados más comúnmente en la realización de experimentos, así como su análisis estadístico.";
-$dirigido_a = "Profesionistas y estudiantes en el área de ciencias experimentales y de investigación.";
+$max_alumnos = "60"; //Cantidad de alumnos maxima
+$min_alumnos = "15"; //Cantidad de alumnos minima
+$descripcion = "Las actividades antropogénicas como la construcción de carreteras, tendidos eléctricos, presas y los desastres naturales como sequías, inundaciones, incendios, huracanes, derrames petroleros y otros contaminantes, ponen en riesgo a poblaciones de especies de fauna silvestre que se encuentran en alguna categoría de amenaza de extinción. Ante estos nuevos retos la Unión Internacional para la Conservación de la Naturaleza (IUCN) a través del Grupo Especialista en Salud de Fauna Silvestre (WHSG), han creado criterios para rescatar y rehabilitar a ejemplares de fauna silvestre de especies de valor ecológico. Por ello, los biólogos y profesionistas de disciplinas afines (médicos veterinarios, ecólogos) deben ampliar su campo de acción hacia la atención, rescate y rehabilitación de animales silvestres para su posible re-introducción a sus hábitats naturales así recuperar a las poblaciones de especies amenazadas.";
+$objetivo = "El participante adquirirá los conocimientos teóricos necesarios para rescatar y brindar atención primaria; valorará el tipo de destino final para cada caso.";
+$dirigido_a = "Biólogos, Médicos Veterinarios Zootecnistas y disciplinas afines.";
 $requisitos = "Estudiantes y profesionales de las áreas químico biológicas y afines.";
-$lugar = "Vía Meet y Classroom";
-$info_academica = "Dra. María de Lourdes Barbosa Saldaña o <br> Biol. María Guadalupe Camacho Sánchez"
+$lugar = "Zoom"; //El lugar donde se va a impartir, si son varios, agregar todos y separar con <br>
+$formato_inscripcion = "https://forms.gle/wwn996LgigXLKmsM6"; //Pegar el formato de inscripcion
+$info_academica = "Dra. Rosalía Pastor Nieto <br> Correo electrónico: rosalia.pastor@gmail.com"; //Agregar el Nombre <br> correo, dando un br para saltar de linea.
+$ponentes_principales_presentacion = array(array("Juana", "../../assets/curriculums_docentes/JulioPrieto.pdf"))
+//Es necesario poner el ../../ en las url de los curriculums, para acceder a la carpeta.
 ?>
 
+<!-- Se debe modificar la parte de los profes que viene abajo. -->
+<!-- La parte más pesada es agregar el temario. Se puede usar ese o una tabla como la que normalmente creas, ya agregue estilos para que se adapten, ver ejemplo de primeros auxilios.-->
 <!-- Start Hero -->
 <section class="portada">
-    <img src="../../assets/images/cursos/bg-estadica-aplicada-diseño-est-exp.webp" alt="">
+    <img src="<?php echo $imagen_curso ?>" alt="Imagen del curso">
     <div class="portada-opacity"></div>
     <div class="container">
         <div class="portada-informacion">
-            <span class="portada-informacion-pu">$<?php echo $precio_unam ?> /
-                UNAM</span>
-            <span class="portada-informacion-pg">$<?php echo $precio_general ?> /
-                GENERAL</span>
+            <?php
+            $fechaActual = strtotime(date("d-m-Y"));
+            $fecha_lim_desc = strtotime($limite_fecha_descuento);
+            #Si tiene descuento y la fecha de hoy es menor a la fecha de descuento 
+           if ($precio_unam_descuento != 'NO' && $fechaActual<=$fecha_lim_desc) {
+                echo "<span class=\"portada-informacion-pu\">$precio_unam UNAM</span>
+                        <span class=\"portada-informacion-pg\">$precio_general GENERAL</span>
+                        <p>15% de descuento por concepto de pronto pago (hasta el 3 de abril)</p>
+                        <span class=\"portada-informacion-pu-red\">$precio_unam_descuento UNAM</span>
+                        <span class=\"portada-informacion-pg\">$precio_general_descuento GENERAL</span>";
+            } else {
+                
+                echo "<span class=\"portada-informacion-pu\">$precio_unam UNAM</span>
+                        <span class=\"portada-informacion-pg\">$precio_general GENERAL</span>";
+            
+            }
+
+            ?>
             <h1><?php echo $titulo_curso ?></h1>
             <p class="text-indigo-600"><?php echo $edicion ?></p>
-            <div class="profesor">
-                <div>
-                    <img src="../../assets/images/instructores/usr-m.jpg" alt="">
-                </div>
-                <div>
-                    <a href="../../assets/curriculums_docentes/MaLourdesBarbosaSal.pdf" target="_blank">Dra. María de Lourdes Barbosa Saldaña</a>
-                </div>
-            </div>
-            <div class="profesor">
-                <div>
-                    <img src="../../assets/images/instructores/usr-m.jpg" alt="">
-                </div>
-                <div>
-                    <a href="../../assets/curriculums_docentes/MaGuadalupeCamachoSan.pdf" target="_blank">Biol. María Guadalupe Camacho Sánchez</a>
-                </div>
-            </div>
+            <!-- Genera el contenedor con los datos del profesor, es decir, la foto, el nombre y el enlace del curriculum. -->
+            <!-- Si hay mas de un profe, se debe copiar todo el contenedor, para cada uno. -->
+            <!-- PROFESORES QUE IMPARTEN -->
+            <!-- Datos de Profe -->
 
+            <?php
+            g_ponentes_princi_pres($ponentes_principales_presentacion);
+            ?>
+
+            <!-- Fin de datos de profe -->
+            <!-- FIN - PROFESORES QUE IMPARTEN -->
             <div class="fecha">
                 <i class="uil uil-calendar-alt"></i>
                 <span><?php echo $fecha ?></span>
@@ -63,10 +88,6 @@ $info_academica = "Dra. María de Lourdes Barbosa Saldaña o <br> Biol. María G
 
     <div class="datos">
         <ul>
-            <!-- <li class="inline breadcrumb-item uppercase text-[13px] font-bold duration-500 ease-in-out text-white/50 hover:text-white"><a href="index-course.php">Techwind</a></li>
-                   <li class="inline breadcrumb-item uppercase text-[13px] font-bold duration-500 ease-in-out text-white/50 hover:text-white"><a href="course-listing.php">Courses</a></li>
-                    <li class="inline breadcrumb-item uppercase text-[13px] font-bold duration-500 ease-in-out text-white" aria-current="page">Web Development</li> -->
-
             <li>
                 <i class="uil uil-calendar-alt"></i>
                 <span><?php echo $dias ?></span>
@@ -74,7 +95,7 @@ $info_academica = "Dra. María de Lourdes Barbosa Saldaña o <br> Biol. María G
 
             <li>
                 <i class="uil uil-bell-school"></i>
-                <span><?php echo $horario ?>h</span>
+                <span><?php echo $horario ?></span>
             </li>
 
             <li>
@@ -99,6 +120,9 @@ $info_academica = "Dra. María de Lourdes Barbosa Saldaña o <br> Biol. María G
         </ul>
     </div>
 </section><!--end section-->
+
+
+
 <div class="relative">
     <div class="shape absolute right-0 sm:-bottom-px -bottom-[2px] left-0 overflow-hidden z-1 text-white dark:text-slate-900">
         <svg class="w-full h-auto" viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -139,30 +163,25 @@ $info_academica = "Dra. María de Lourdes Barbosa Saldaña o <br> Biol. María G
                 <div>
                     <h3>Requisitos</h3>
                     <p><?php echo $requisitos ?></p>
-
                     <div class="mt-5">
                         <a href="#" data-type="iframe" class="video-play-icon read-more lightbox btn btn-link text-indigo-600 hover:text-indigo-600 after:bg-indigo-600 duration-500 ease-in-out">
                         </a>
                     </div>
                 </div>
             </div>
-
-
             <div>
                 <div>
                     <i class="uil uil-calendar-alt"></i>
                 </div>
-
                 <div>
                     <h3>Horario</h3>
-                    <p><?php echo $horario ?> hrs</p>
+                    <p><?php echo $horario ?></p>
                     <p><?php echo $dias ?></p>
                     <div class="mt-5">
-                        <a href="#" class="btn btn-link text-indigo-600 hover:text-red-600 after:bg-indigo-600 duration-500 ease-in-out">Total: <?php echo $no_horas ?>horas</a>
+                        <a href="#" class="btn btn-link text-indigo-600 hover:text-red-600 after:bg-indigo-600 duration-500 ease-in-out">Total: <?php echo $no_horas ?> horas</a>
                     </div>
                 </div>
             </div>
-
             <div>
                 <div>
                     <i class="uil uil-map-marker"></i>
@@ -173,609 +192,75 @@ $info_academica = "Dra. María de Lourdes Barbosa Saldaña o <br> Biol. María G
                     <p><?php echo $lugar ?></p>
                 </div>
             </div>
-
-
         </div>
     </div>
 
-
-
-
-
+    <!-- Para el area de pagos -->
     <div class="curso-costo container">
-
         <h2 class="md:text-3xl md:leading-normal">Costo</h2>
-
-        <p></p>
-
-        <div class="grid lg:grid-cols-2 md:grid-cols-2 mt-8 gap-[30px]">
-            <div class="curso-costo-g">
-                <h3>Público GENERAL</h3>
-
-                <div class="flex mb-5">
-                    <span>$</span>
-                    <span><?php echo $precio_general ?></span>
-                    <span>MXN</span>
-                </div>
-
-
-                <a href="#inscripcion" class="btn">Inscribirse</a>
-            </div>
-
-
-            <div class="curso-costo-g">
-                <h3>Comunidad UNAM</h3>
-
-                <div class="flex mb-5">
-                    <span>$</span>
-                    <span><?php echo $precio_unam ?></span>
-                    <span>MXN</span>
-                </div>
-
-                <ul>
-                    <li><i class="uil uil-check-circle"></i>Alumnos, exalumnos, personal y tesistas de la UNAM. Aplica también afiliados a Fundación UNAM</li>
-                    <li><i class="uil uil-check-circle"></i>También aplica
-                        para afiliados a Fundación UNAM</li>
-
-                    <li><i class="uil uil-exclamation-circle"></i>Toda vez que este es un programa académico administrado por Fundación UNAM, AC no se acepta ningún tipo de beca AAPAUNAM o STUNAM.</li>
-                </ul>
-
-                <a href="#inscripcion" class="btn">Inscribirse</a>
-            </div>
-        </div>
+        <?php
+            aplica_descuento($precio_unam,$precio_unam_descuento,$precio_general,$precio_general_descuento,$frase_descuento,$limite_fecha_descuento);
+        ?>
     </div>
-
-
-
-
 
 </section>
 
 
 
-
-<section class="temario md:py-24 container">
+<!-- Este ejemoplo es para cuando se muestra en forma de indice. -->
+<!-- TEMARIO SECCIÓN: LOS <h3> son temas principales y los <li> son subtemas. -->
+<!-- TEMARIO SECCIÓN: LOS <h3> son temas principales y los <li> son subtemas. -->
+<section class="temario container">
     <h2>Temario</h2>
     <div class="secciones grid md:grid-cols-2 grid-cols-1">
-        <div>
-            <h3>I. INTRODUCCIÓN A LENGUAJE R</h3>
-
+        <div> <!--Tema-->
+            <h3>I. Aquí va el tema</h3>
             <div class="contenido">
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Temas</th>
-
-                        </tr>
-                    </thead>
-
-                    <tbody>
-                        <tr>
-                            <td> I.1
-                                Presentación del curso</td>
-
-                        </tr>
-
-                        <tr>
-                            <td>I.2. Instalación de los programas R y Statistic</td>
-
-                        </tr>
-
-                        <tr>
-                            <td>I.3.
-                                Sintaxis básica de lenguaje R (estadística descriptiva)</td>
-
-                        </tr>
-
-                        <tr>
-                            <td>I.4.
-                                Manejo de archivos en Statistic (estadística descriptiva)</td>
-
-                        </tr>
-                    </tbody>
-                </table>
+                <h4>Temas</h4>
+                <ul>
+                    <li>I.1 Aquí va el subtema.
+                        <ul>
+                            <li>sub sub tema</li>
+                        </ul>
+                    </li>
+                    <li>I.2. Clasificación y aplicaciones de los dispositivos móviles.</a></li>
+                    <li>I.3. Plataformas de programación para dispositivos móviles.</li>
+                    <li>I.4. Presentación de la plataforma Android.</li>
+                    <li>I.5. La plataforma Android, entorno, anatomía y las capas de su arquitectura..</li>
+                </ul>
             </div>
-        </div>
-
-        <div>
-            <h3>II. Pruebas de Hipótesis
-                </h5>
-
-                <div class="contenido">
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>Temas</th>
-
-                            </tr>
-                        </thead>
-
-                        <tbody>
-                            <tr>
-                                <td> II.1 Introducción a las pruebas de hipótesis
-                                </td>
-
-                            </tr>
-
-                            <tr>
-                                <td>II.2 Error tipo I y Error II
-                                </td>
-
-                            </tr>
-
-
-                            <tr>
-                                <td>II.3 Hipótesis estadísticas
-                                </td>
-
-                            </tr>
-
-                            <tr>
-                                <td>II.4 Pruebas de hipótesis de un y dos colas
-                                </td>
-
-                            </tr>
-                            <tr>
-                                <td>II.5 Pruebas de hipótesis para una media
-                                </td>
-
-                            </tr>
-                            <tr>
-                                <td>II.6 Prueba de hipótesis para la diferencia entre dos medias de poblaciones independientes y no independientes
-                                </td>
-
-                            </tr>
-                            <tr>
-                                <td><a class="">II.7 Prueba de hipótesis par un cociente de dos varianzas
-                                </td>
-
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-        </div>
-
-        <div>
-            <h3>III. Planeación en el diseño de experimentos</h3>
-
+        </div><!--fin de tema-->
+        <div> <!--Tema-->
+            <h3>I. Aquí va el tema</h3>
             <div class="contenido">
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Temas</th>
-
-                        </tr>
-                    </thead>
-
-                    <tbody>
-                        <tr>
-                            <td>III.1.
-                                Experimentos, principios básicos
-                            </td>
-
-                        </tr>
-
-                        <tr>
-                            <td>III.2.
-                                Lineamientos generales en la planeación de experimentos
-                            </td>
-
-                        </tr>
-
-                        <tr>
-                            <td>III.3.
-                                Conceptos de validez interna y validez externa
-                            </td>
-
-                        </tr>
-                    </tbody>
-                </table>
+                <h4>Temas</h4>
+                <ul>
+                    <li>I.1 Aquí va el subtema.
+                        <ul>
+                            <li>sub sub tema</li>
+                        </ul>
+                    </li>
+                    <li>I.2. Clasificación y aplicaciones de los dispositivos móviles.</a></li>
+                    <li>I.3. Plataformas de programación para dispositivos móviles.</li>
+                    <li>I.4. Presentación de la plataforma Android.</li>
+                    <li>I.5. La plataforma Android, entorno, anatomía y las capas de su arquitectura..</li>
+                </ul>
             </div>
-        </div>
-
-
-        <div>
-            <h3>IV. Modelo de ANOVA con un solo factor, para efectos fijos</h3>
-
-            <div class="contenido">
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Temas</th>
-
-                        </tr>
-                    </thead>
-
-                    <tbody>
-                        <tr>
-                            <td>IV.1.
-                                Modelo de Análisis de varianza de un criterio de clasificación
-                                <ul class="p-6 list-disc ">
-                                    <li>Análisis de varianza</li>
-                                    <li>Pruebas de hipótesis</li>
-                                    <li>Pruebas de comparación múltiples</li>
-                                    <li>Verificación de supuestos</li>
-                                </ul>
-                            </td>
-
-                        </tr>
-
-                        <tr>
-                            <td>IV.2.
-                                Modelo de ANOVA con un solo factor
-                                <ul class="p-6 list-disc ">
-                                    <li>Sesión práctica</li>
-                                </ul>
-                            </td>
-
-                        </tr>
-
-                    </tbody>
-                </table>
-            </div>
-        </div>
-
-        <div>
-            <h3>V. Modelo de ANOVA con un solo factor, para efectos fijos</h3>
-
-            <div class="contenido">
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Temas</th>
-
-                        </tr>
-                    </thead>
-
-                    <tbody>
-                        <tr>
-                            <td>V.1.
-                                Diseño de bloques al azar
-                                <ul class="p-6 list-disc ">
-                                    <li>Análisis de varianza</li>
-                                    <li>Pruebas de hipótesis</li>
-                                    <li>Verificación de supuestos</li>
-                                </ul>
-                            </td>
-
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-
-        <div>
-            <h3>VI. Experimentos con 2 o más factores sin interacción</h3>
-
-            <div class="contenido">
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Temas</th>
-
-                        </tr>
-                    </thead>
-
-                    <tbody>
-                        <tr>
-                            <td>VI.1.
-                                Diseño cuadro latino
-                                <ul class="p-6 list-disc ">
-                                    <li>Análisis de varianza</li>
-                                    <li>Pruebas de hipótesis</li>
-                                    <li>Verificación de supuestos </li>
-                                </ul>
-                            </td>
-
-                        </tr>
-                        <tr>
-                            <td>VI.2.
-                                Diseño grecolatino
-                                <ul class="p-6 list-disc ">
-                                    <li>Análisis de varianza</li>
-                                    <li>Pruebas de hipótesis</li>
-                                    <li>Verificación de supuestos </li>
-                                </ul>
-                            </td>
-
-                        </tr>
-                        <tr>
-                            <td>VI.3.
-                                Experimentos con factores de bloque
-                                <ul class="p-6 list-disc ">
-                                    <li>Sesión práctica</li>
-                                </ul>
-                            </td>
-
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-
-        <div>
-            <h3>VII. Experimentos con 2 o más factores con interacción para factores fijos</h3>
-
-            <div class="contenido">
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Temas</th>
-
-                        </tr>
-                    </thead>
-
-                    <tbody>
-                        <tr>
-                            <td>VII.1.
-                                Diseño factorial con 2 factores
-                                <ul class="p-6 list-disc ">
-                                    <li>Modelo estadístico</li>
-                                    <li>Concepto de interacción</li>
-                                    <li>Análisis de varianza </li>
-                                    <li>Pruebas de hipótesis</li>
-                                    <li>Verificación de supuestos </li>
-                                </ul>
-                            </td>
-
-                        </tr>
-                        <tr>
-                            <td>VII.2.
-                                Diseño Factorial con 3 factores
-                                <ul class="p-6 list-disc ">
-                                    <li>Modelo estadístico</li>
-                                    <li>Interacción de segundo orden</li>
-                                    <li>Análisis de varianza </li>
-                                    <li>Pruebas de hipótesis</li>
-                                    <li>Verificación de supuestos</li>
-                                    <li>Ejemplo </li>
-                                </ul>
-                            </td>
-
-                        </tr>
-
-                        <tr>
-                            <td>VII.3.
-                                Modelos factoriales
-                                <ul class="p-6 list-disc ">
-                                    <li>Sesión práctica</li>
-                                </ul>
-                            </td>
-
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-        <div>
-            <h3>VIII. Modelos con uno o más factores aleatorios</h3>
-
-            <div class="contenido">
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Temas</th>
-
-                        </tr>
-                    </thead>
-
-                    <tbody>
-                        <tr>
-                            <td>VIII.1.
-                                Modelos de efectos aleatorios
-                                <ul class="p-6 list-disc ">
-                                    <li>Definición</li>
-                                    <li>Análisis de varianza</li>
-                                    <li>Componente de varianza </li>
-                                    <li>Pruebas de hipótesis</li>
-                                    <li>Verificación de supuestos</li>
-                                </ul>
-                            </td>
-
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-        <div>
-            <h3>IX. Experimentos con factores fijos y factores aleatorios</h3>
-
-            <div class="contenido">
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Temas</th>
-
-                        </tr>
-                    </thead>
-
-                    <tbody>
-                        <tr>
-                            <td>IX.1.
-                                Modelos de efectos mixtos
-                                <ul class="p-6 list-disc ">
-                                    <li>Análisis de varianza</li>
-                                    <li>Pruebas de hipótesis</li>
-                                    <li>Componente de varianza</li>
-                                    <li>Verificación de supuestos</li>
-                                </ul>
-                            </td>
-
-                        </tr>
-                        <tr>
-                            <td>IX.2.
-                                Experimentos de efectos mixtos
-                                <ul class="p-6 list-disc ">
-                                    <li>Sesión práctica</li>
-                                </ul>
-                            </td>
-
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-        <div>
-            <h3>X. Modelos de efectos anidados</h3>
-
-            <div class="contenido">
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Temas</th>
-
-                        </tr>
-                    </thead>
-
-                    <tbody>
-                        <tr>
-                            <td>X.1.
-                                Modelo de efectos anidados
-                                <ul class="p-6 list-disc ">
-                                    <li>Análisis de varianza</li>
-                                    <li>Pruebas de hipótesis</li>
-                                    <li>Componente de varianza</li>
-                                    <li>Verificación de supuestos</li>
-                                </ul>
-                            </td>
-
-                        </tr>
-                        <tr>
-                            <td>X.2.
-                                Sesión práctica
-                            </td>
-
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-
-        <div>
-            <h3>XI. MANOVA y Mediciones repetidas</h3>
-
-            <div class="contenido">
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Temas</th>
-
-                        </tr>
-                    </thead>
-
-                    <tbody>
-                        <tr>
-                            <td>XI.1.
-                                Conceptos generales de MANOVA
-                                <ul class="p-6 list-disc ">
-                                    <li>Pruebas de hipótesis</li>
-                                    <li>Supuestos del modelo</li>
-                                </ul>
-                            </td>
-
-                        </tr>
-                        <tr>
-                            <td>XI.2.
-                                Modelo de mediciones repetidas
-                                <ul class="p-6 list-disc ">
-                                    <li>Pruebas de hipótesis</li>
-                                    <li>Supuestos del modelo</li>
-                                </ul>
-                            </td>
-
-                        </tr>
-                        <tr>
-                            <td>XI.3.
-                                Sesión práctica
-                            </td>
-
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-
-        <div>
-            <h3>XII. Regresión lineal simple</h3>
-
-            <div class="contenido">
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Temas</th>
-
-                        </tr>
-                    </thead>
-
-                    <tbody>
-                        <tr>
-                            <td>XII.1.
-                                Modelo de regresión lineal simple
-                                <ul class="p-6 list-disc ">
-                                    <li>Pruebas de hipótesis de parámetros del modelo</li>
-                                    <li>ANOVA del modelo de regresión y pruebas de hipótesis del modelo</li>
-                                    <li>Supuestos del modelo</li>
-                                </ul>
-                            </td>
-
-                        </tr>
-                        <tr>
-                            <td>XII.2.
-                                Sesión práctica
-                                <ul class="p-6 list-disc ">
-                                    <li>Pruebas de hipótesis</li>
-                                    <li>Supuestos del modelo</li>
-                                </ul>
-                            </td>
-
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-
-        <div>
-            <h3>XIII. ANCOVA</h3>
-
-            <div class="contenido">
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Temas</th>
-
-                        </tr>
-                    </thead>
-
-                    <tbody>
-                        <tr>
-                            <td>XIII.1.
-                                Modelo de ANCOVA
-                                <ul class="p-6 list-disc ">
-                                    <li>Análisis de varianza de un ANCOVA</li>
-                                    <li>Pruebas de hipótesis en un ANCOVA</li>
-                                    <li>Supuestos del modelo de ANCOVA</li>
-                                </ul>
-                            </td>
-
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-    </div>
-
-
-</section>
-
-
+        </div><!--fin de tema-->
+    </div> <!-- TERMINA EL CONTENEDOR DE LOS SUBTEMAS -->
+
+    <!-- Por si hay temario extendido (pdf), si no, favor de comentarlo. -->
+    <a class="formato-link mt-6" href="assets/pdf/formatos/FormatoPresentacionCursoo.docx" download="Documento-con-descripcion">
+        Temario extendido
+    </a>
+</section><!-- TERMINA LA SECCIÓN DEL TEMARIO -->
 
 
 <!-- Start -->
 <section class="inscripcion md:py-24" id="inscripcion">
     <div class="container">
         <div class="titulo">
-            <h2 class="md:text-3xl md:leading-normal">Inscripción</h2>
-            <p>.</p>
+            <h2>Inscripción</h2>
         </div>
 
         <div class="pasos">
@@ -786,8 +271,10 @@ $info_academica = "Dra. María de Lourdes Barbosa Saldaña o <br> Biol. María G
                         <h3 class="md:text-right md:mr-8">Paso 1</h3>
 
                         <div class="md:ml-8 md:mt-0">
-                            <h4>Solicita el formato de preregistro a:</h4>
-                            <p><a href="mailto:cursosydiplomados@funam.mx" target="_blank" class="btn btn-link text-indigo-600 hover:text-red-600 after:bg-indigo-600 duration-500 ease-in-out">cursosydiplomados@funam.mx</a></p>
+                            <h4>Realizar el pago en línea mediante "Plaza
+                                Prometeo", la tienda de la Facultad de Ciencias</h4>
+                            <p><a href=<?php echo $link_plaza_prometeo ?> target="_blank" class="formato-link">tienda.fciencias.unam.mx</a>
+                            </p>
                         </div>
                     </div>
 
@@ -795,22 +282,21 @@ $info_academica = "Dra. María de Lourdes Barbosa Saldaña o <br> Biol. María G
                         <h3 class="md:text-right md:mr-8">Paso 2</h3>
 
                         <div class="md:ml-8 md:mt-0">
-                            <h4>Datos bancarios para depósito en sucursal, practicajas, transferencia bancaria:</h4>
-                            <p>Banco: CitiBanamex<br>Beneficiario: Fundación UNAM, A.C.<br>Sucursal: 870<br>
-                                Cuenta: 572529<br>Clabe: 00 21 80 08 70 05 72 52 92<br>Referencia: 829.411.100</p>
-
-                            <p>En caso de que desees efectuarlo con tarjeta de crédito y/o débito deberás acudir a las oficinas de Fundación UNAM en horario de lunes a jueves de 9:30 a 17:30 y viernes de 9:30 a 14:30, ubicada en Calle Pennsylvania 203, Col. Nápoles, Alcaldía Benito Juárez, C.P. 03810.</p>
-
-                            <p>También puedes efectuarlo vía telefónica al call center 55 53 400 904 o al teléfono 55 4575 1879</p>
-
-
+                            <h4>Registrarse en este formato de inscripción</h4>
+                            <p>(únicamente si usted ya hizo el pago)</p>
+                            <p><a href=<?php echo $formato_inscripcion ?> target="_blank" class="formato-link">Formato
+                                    de inscripción</a></p>
                         </div>
                     </div>
+
                 </div>
                 <!--End content-->
+
             </div>
         </div>
-        <p class="advertencia"><i class="uil uil-exclamation-circle"></i>Comunidad UNAM: En caso de formar parte de la Comunidad UNAM (alumnos, exalumnos, académicos, personal administrativo), deberás presentar una identificación que te acredite como tal.</p>
+        <p class="advertencia"><i class="uil uil-exclamation-circle"></i>En caso de
+            cancelación, procederá la devolución de lo pagado con los criterios administrativos de la Facultad de
+            Ciencias.</p>
     </div>
 </section><!--end section-->
 <!-- End -->
