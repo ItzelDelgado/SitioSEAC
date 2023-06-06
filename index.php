@@ -172,7 +172,7 @@ include './includes/templates/funciones.php';
         "assets/images/cursos/MapacheFaunaSilvestre.jpg",
         "Curso Estudio y Monitoreo de Fauna Silvestre",
         "",
-        "cursos/PrimerosAuxilios/PrimerosAuxilios1raEd.php",
+        "cursos/EstudioyMonitoreodeFaunaSilvestre/EstudioyMonitoreodeFaunaSilvestre.php",
         "Del 19 al 23 de junio del 2023",
         "El curso ofrece aprendizaje directo de técnicas de estudio y conservación de fauna silvestre tropical. Los participantes podrán observar, investigar y comunicar aspectos básicos de la fauna. Los instructores brindarán información para combinar teoría y experiencia en el campo, desarrollando habilidades para futuros profesionales.",
         "Estudiantes, profesionistas, tomadores de decisiones, manejadores de recursos, biólogos, ecólogos, administradores de áreas naturales, administradores de recursos naturales.",

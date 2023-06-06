@@ -6,12 +6,12 @@ include '../../includes/templates/funciones.php';
 
 <?php
 
-$titulo_curso = "Estadística Aplicada al Diseño y Análisis de Estudios Experimentales";
-$imagen_curso = "../../assets/images/cursos/bg-estadica-aplicada-diseño-est-exp.webp"; //Agregar imagen del curso, tamaño forzoso de 19
-$edicion = "7ma. Edición";
-$fecha = "Del 4 de marzo al 27 de mayo del 2023";
-$precio_unam = "2,700"; //No es necesario poner mxn
-$precio_general = "3,200"; //No es necesario poner mxn
+$titulo_curso = "Estudio y monitoreo de fauna silvestre";
+$imagen_curso = "../../assets/images/cursos/MapacheFaunaSilvestre.jpg"; //Agregar imagen del curso, tamaño forzoso de 19
+$edicion = "1ra. Edición";
+$fecha = "Del 19 al 23 de junio del 2023";
+$precio_unam = "5,500"; //No es necesario poner mxn
+$precio_general = "6,500"; //No es necesario poner mxn
 //Si no tiene descuento, favor de poner NO en precio_unam_descuento.
 //ej: $precio_unam_descuento = "NO";
 $precio_unam_descuento = "NO"; //No es necesario poner mxn
@@ -20,23 +20,24 @@ $frase_descuento = "15% de descuento por concepto de pronto pago (hasta el 3 de
 abril)";//Frase del porcentaje de descuento
 $limite_fecha_descuento = "31-05-2023";//Formato date("dd-mm-Yyyy")
 $link_plaza_prometeo= "https://tienda.fciencias.unam.mx";
-$dias = "Sábado";  //Puedes poner Lunes, Martes, Miercoles, Jueves y Viernes.
-$horario = "8:00 a 12:00 hrs"; //Lo puedes poner en el formato que gustes. No debe ser mucha info. 
+$dias = "Lunes - viernes";  //Puedes poner Lunes, Martes, Miercoles, Jueves y Viernes.
+$horario = "9:00 - 14:00 hrs y de 15:00 - 18:00 hrs"; //Lo puedes poner en el formato que gustes. No debe ser mucha info. 
 //Si es demasiada puedes agregar más detalles despues donde esta la sección de Requisitos, Horario y Lugar, 
 //solo quitas la variable, puedes ver el ejemplo de Cursos en cuadernos de jupyter
-$no_horas = "48"; //No es necesario poner hrs
-$modalidad = "Virtual";
-$max_alumnos = "35"; //Cantidad de alumnos maxima
+$no_horas = "40"; //No es necesario poner hrs
+$modalidad = "Presencial";
+$max_alumnos = "15"; //Cantidad de alumnos maxima
 $min_alumnos = "15"; //Cantidad de alumnos minima
-$descripcion = "El diseño de experimentos es una rama de la estadística que se encarga de la planeación, y análisis estadístico de datos que son obtenidos como resultados en investigaciones científicas. De ahí que resulten una herramienta fundamental e indispensable en el quehacer científico. Contrario a lo que muchos investigadores piensan, la estadística no constituye la última etapa de una investigación, sino que toma un papel fundamental desde la planeación de la misma. El diseño de un experimento está en función de los objetivos a los cuales se desee llegar en una investigación. Dicho diseño deberá considerar todas las condiciones que se tengan presentes en cada realidad, para así poder determinar cuántos factores deben ser tomados en cuenta, los cuales pueden ser incluso más de los meros factores de interés, las variantes de los mismos que serán analizadas, y las combinaciones de éstas, dichas combinaciones, constituirán los tratamientos a analizar. El diseño experimental determina además la manera en que se asignan estos tratamientos a las unidades de estudio, o bien unidades experimentales. A cada diseño le corresponde un modelo y éste a su vez determina el análisis estadístico a efectuar. Los resultados de este análisis deberán dar respuesta a los objetivos de la investigación planteados desde un inicio. Es así como todas las etapas de una investigación están relacionadas, todas ellas son importantes para determinar la validez que pueda tener una investigación y sin que una de ellas se pueda desvincular de las demás.
-A pesar de la gran importancia que tiene esta área de la estadística para las disciplinas científicas la mayoría de los planes de estudio de las diferentes licenciaturas dirigidas a la investigación científica, no cuentan con asignaturas en sus planes de estudio que proporcionen a los alumnos una sólida formación en esta área. Una limitante importante quizá sea la base matemática de cierto grado de complejidad, sobre la que se fundamentan y construyen dichos modelos experimentales, existiendo al parecer una desvinculación entre las disciplinas de formación en el área de las matemáticas con las áreas experimentales. No obstante una vez que la metodología estadística ha sido construida, basta conocer los fundamentos teóricos generales de ésta y la manera de interpretar los resultados, para poder convertirse en un usuario de la misma y así poder dar respuesta a un problema de la realidad que en determinado momento requiramos resolver.
-Es por eso que este curso está dirigido a profesionistas y estudiantes que trabajen en el área de investigación científica, con especial énfasis en ciencias experimentales, con el objetivo de capacitarles en los aspectos generales de las metodologías estadísticas, que les permita hacer un uso adecuado de las mismas al momento de diseñar los estudios que vayan realizando y poder analizar la información procedente de los mismos, así como su interpretación.";
-$objetivo = "Conocer los diferentes tipos de diseños experimentales utilizados más comúnmente en la realización de experimentos, así como su análisis estadístico.";
-$dirigido_a = "Profesionistas y estudiantes en el área de ciencias experimentales y de investigación.";
-$requisitos = "Conocimiento básico de conceptos de estadística. Laptop y memoria USB.";
-$lugar = "Meet y Classroom"; //El lugar donde se va a impartir, si son varios, agregar todos y separar con <br>
-$formato_inscripcion = "https://forms.gle/wwn996LgigXLKmsM6"; //Pegar el formato de inscripcion
-$info_academica = "Dra. Rosalía Pastor Nieto <br> Correo electrónico: rosalia.pastor@gmail.com"; //Agregar el Nombre <br> correo, dando un br para saltar de linea.
+$descripcion = "El curso está diseñado para que los participantes aprendan de primera mano (observación directa) las técnicas básicas en el estudio de campo y conservación de fauna silvestre tropical. El curso también brindará la oportunidad de observar, preguntar, investigar y comunicar aspectos básicos en el estudio de la fauna silvestre.
+Como instructores del curso, pensamos que una fuente de información sobre varios aspectos básicos del trabajo de campo facilitará el aprendizaje de las técnicas más importantes de la biología de campo y su enfoque en la fauna silvestre. Este curso es una oportunidad para usar todos nuestros sentidos, para unir los \"hechos\" y teorías de los libros con los \"hechos\" del mundo natural y para desarrollar habilidades que sirva a cualquier futuro profesional. La experiencia con la que cuentan los instructores del curso garantizará el conocimiento y aprendizaje para su formación extracurricular.";
+$objetivo = "Analizar el uso y aplicación de las técnicas de campo para el estudio y monitoreo de la fauna silvestre tropical.";
+$dirigido_a = "Estudiantes, profesionistas, tomadores de decisiones, manejadores de recursos, biólogos, ecólogos, administradores de áreas naturales, administradores de recursos naturales.";
+$requisitos = "Licenciatura (mínimo 60% de créditos).";
+$lugar = "Estación de Biología Tropical Los Tuxtlas, Veracruz, Instituto de Biología, UNAM"; //El lugar donde se va a impartir, si son varios, agregar todos y separar con <br>
+$formato_inscripcion = "https://forms.gle/mbrduw9Wy8vdiuEEA"; //Pegar el formato de inscripcion
+$info_academica = "Dr. Alejandro Villegas Castillo<br>
+Correo electrónico: alejandrovillegas@ciencias.unam.mx
+"; //Agregar el Nombre <br> correo, dando un br para saltar de linea.
 $ponentes_principales_presentacion = array(array("Juana", "../../assets/curriculums_docentes/JulioPrieto.pdf"))
 //Es necesario poner el ../../ en las url de los curriculums, para acceder a la carpeta.
 ?>
