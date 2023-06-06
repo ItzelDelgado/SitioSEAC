@@ -25,7 +25,7 @@ function banner_curso($estado, $imagen_url, $nombre_curso, $edicion, $pagina_pri
                             <div class=\"curso_imagen-backgroud\"></div>
                             <div class=\"curso_imagen-data\">
                                 <div>
-                                    <img src=\"assets/images/instructores/usr-f.jpg\" alt=\" \" />
+                                    <img src=\"../../assets/images/instructores/usr-f.jpg\" alt=\" \" />
                                     <div class=\"ml-3\">";
     echo $textocurso;
     for ($row = 0; $row < count($ponentes); $row++) {
@@ -104,7 +104,7 @@ function banner_diplomado($estado, $imagen_url, $nombre_diplomado, $edicion, $pa
                             <div class=\"curso_imagen-backgroud\"></div>
                             <div class=\"curso_imagen-data\">
                                 <div>
-                                    <img src=\"assets/images/instructores/usr-f.jpg\" alt=\" \" />
+                                    <img src=\"../../assets/images/instructores/usr-f.jpg\" alt=\" \" />
                                     <div class=\"ml-3\">";
     echo $textocurso;
     for ($row = 0; $row < count($ponentes); $row++) {
@@ -160,7 +160,7 @@ function banner_taller($estado, $imagen_url, $nombre_taller, $edicion, $pagina_p
                             <div class=\"curso_imagen-backgroud\"></div>
                             <div class=\"curso_imagen-data\">
                                 <div>
-                                    <img src=\"assets/images/instructores/usr-f.jpg\" alt=\" \" />
+                                    <img src=\"../../assets/images/instructores/usr-f.jpg\" alt=\" \" />
                                     <div class=\"ml-3\">";
     echo $textocurso;
     for ($row = 0; $row < count($ponentes); $row++) {
@@ -231,7 +231,7 @@ function banner_coloquio($estado, $imagen_url, $nombre_curso, $edicion, $pagina_
                             <div class=\"curso_imagen-backgroud\"></div>
                             <div class=\"curso_imagen-data\">
                                 <div>
-                                    <img src=\"assets/images/instructores/usr-f.jpg\" alt=\" \" />
+                                    <img src=\"../../assets/images/instructores/usr-f.jpg\" alt=\" \" />
                                     <div class=\"ml-3\">";
     echo $textocurso;
     for ($row = 0; $row < count($ponentes); $row++) {
@@ -357,7 +357,7 @@ function g_ponentes_princi_pres($ponentes = array(array("Nombre", "EnlaceCurricu
     for ($row = 0; $row < count($ponentes); $row++) {
         echo "<div class=\"profesor\">
             <div>
-                <img src=\"../../assets/images/instructores/usr-m.jpg\" alt=\"Img instructor\">
+                <img src=\"../../../assets/images/instructores/usr-m.jpg\" alt=\"Img instructor\">
             </div>
             <div>
                 <a href=\"" . $ponentes[$row][1] . "\". target=\"_blank\">" . $ponentes[$row][0] . "</a>

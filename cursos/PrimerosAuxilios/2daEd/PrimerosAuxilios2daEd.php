@@ -1,17 +1,15 @@
 <?php
-include '../../includes/templates/header.php';
-include '../../includes/templates/funciones.php';
+include '../../../includes/templates/header.php';
+include '../../../includes/templates/funciones.php';
 ?>
 
-
 <?php
-
-$titulo_curso = "Introducción a la Estadística en la Biología";
-$imagen_curso = "../../../assets/images/cursos/bg-EstadisticaEnBiologia1.webp"; //Agregar imagen del curso, tamaño forzoso de 19
-$edicion = "2da. Edición";
-$fecha = "Fechas por definir";
-$precio_unam = "2,000"; //No es necesario poner mxn
-$precio_general = "2,500"; //No es necesario poner mxn
+$titulo_curso = "Primeros Auxilios, RCP y uso de DAE";
+$imagen_curso = "../../../assets/images/cursos/bg-primeros-auxilios.webp"; //Agregar imagen del curso, tamaño forzoso de 19
+$edicion = "1ra. Edición";
+$fecha = "2, 4, 9 y 11 de mayo de 2023";
+$precio_unam = "500";
+$precio_general = "800";
 //Si no tiene descuento, favor de poner NO en precio_unam_descuento.
 //ej: $precio_unam_descuento = "NO";
 $precio_unam_descuento = "NO"; //No es necesario poner mxn
@@ -20,24 +18,26 @@ $frase_descuento = "15% de descuento por concepto de pronto pago (hasta el 3 de
 abril)"; //Frase del porcentaje de descuento
 $limite_fecha_descuento = "31-05-2023"; //Formato date("dd-mm-Yyyy")
 $link_plaza_prometeo = "https://tienda.fciencias.unam.mx";
-$dias = "Lunes, miércoles y jueves"; //Puedes poner Lunes, Martes, Miercoles, Jueves y Viernes.
-$horario = "15:00 a 17:00 hrs"; //Lo puedes poner en el formato que gustes. No debe ser mucha info. 
+$dias = "Martes y jueves"; //Puedes poner Lunes, Martes, Miercoles, Jueves y Viernes.
+$horario = "9:00   a 12:00 hrs"; //Lo puedes poner en el formato que gustes. No debe ser mucha info. 
 //Si es demasiada puedes agregar más detalles despues donde esta la sección de Requisitos, Horario y Lugar, 
 //solo quitas la variable, puedes ver el ejemplo de Cursos en cuadernos de jupyter
-$no_horas = "20"; //No es necesario poner hrs
-$modalidad = "Virtual";
-$max_alumnos = "60"; //Cantidad de alumnos maxima
+$no_horas = "12"; //No es necesario poner hrs
+$modalidad = "Presencial";
+$max_alumnos = "35"; //Cantidad de alumnos maxima
 $min_alumnos = "15"; //Cantidad de alumnos minima
-$descripcion = "A menudo la formación que han recibido durante la carrera los jóvenes investigadores tiene notables carencias en los aspectos prácticos de diseño experimental, análisis de datos e interpretación de resultados, lo cual limita de manera decisiva el provecho científico futuro de sus actividades. Eso es especialmente cierto en nuestros días, ya que vivimos una revolución importante en el campo de la metodología estadística e incluso en el procedimiento de hacer inferencia (el salto matemático desde las propiedades de nuestra muestra de datos a las de los parámetros desconocidos de la población, nuestro objeto de estudio), que afecta no sólo a los ecólogos sino a muchas otras disciplinas científicas como la medicina, la psicología o la sociología. Recordamos aquí, que la vieja idea de la existencia de una sola herramienta estadística (la comprobación de hipótesis nulas sin contenido biológico) ha de cambiarse hoy por el paradigma ejemplificado mediante la “caja de herramientas” en la que existen diversos tipos de herramientas a nuestra disposición, cuya elección depende de la complejidad de nuestros problemas. Dado que la información está dispersa en numerosos artículos y tratados específicos de estadística y diseño experimental, la idea aquí es tratar de presentar un guion actualizado de las principales herramientas disponibles para resolver contrastes de hipótesis con contenido biológico en ecología, identificando la utilidad y limitaciones de cada una de ellas, con el fin de mejorar la cultura estadística de los jóvenes investigadores.";
-$objetivo = "Aprender a identificar, usar y aplicar correctamente las pruebas estadísticas en un contexto biológico.";
-$dirigido_a = "Estudiantes, profesionistas, tomadores de decisiones, manejadores de recursos, biólogos, ecólogos, administradores de áreas naturales, administradores de recursos naturales.";
-$requisitos = "Licenciatura (mínimo 60% de créditos).";
-$lugar = "Zoom"; //El lugar donde se va a impartir, si son varios, agregar todos y separar con <br>
-$formato_inscripcion = "https://forms.gle/gFuD2JAVD5ZQF3HR8"; //Pegar el formato de inscripcion
-$info_academica = "Dr. Alejandro Villegas Castillo<br>
-Correo electrónico: alejandrovillegas@ciencias.unam.mx"; //Agregar el Nombre <br> correo, dando un br para saltar de linea.
-$ponentes_principales_presentacion = array(array("Dr. Alejandro Villegas Castillo", "../../../assets/curriculums_docentes/AlejandroVillegasCastillo.pdf"))
-    //Es necesario poner el ../../../ en las url de los curriculums, para acceder a la carpeta.
+$descripcion = "En las labores diarias en nuestro trabajo o en nuestra propia casa, pueden presentarse accidentes o incidentes donde una persona presente un evento agudo por alguna enfermedad. La atención rápida y eficiente en esos casos es de la mayor importancia tanto para resolver el problema como para reducir los riesgos de secuelas. Más aún si el paciente se encuentra en paro cardiorespiratorio, la ayuda debe ser inmediata y de acuerdo a los estándares de atención internacionales y sustentados por la evidencia científica más actual. Una comunidad capacitada en primeros auxilios, es capaz de responder mejor en emergencias y desastres, ayuda a construir resiliencia y fortalece los vínculos sociales. Los cuidados cardiacos de emergencia y los primeros auxilios involucran intervenciones de atención médica que deben seguir los lineamientos más actualizados y avalados por la evidencia médica que los expertos colectan y analizan. Por ello, la capacitación debe apegarse a los últimos estándares aprobados (ILCOR, 2020). El curso está diseñado para el público en general y ofrece tanto la información teórica como práctica.";
+$objetivo = "Proporcionar los conocimientos actualizados en cuidados cardíacos de emergencia, primeros auxilios y uso de desfibriladores automáticos externos.";
+$dirigido_a = "Todo público";
+$requisitos = "Ninguno";
+$lugar = "	Unidad de Seminarios Dr. Ignacio Chávez.
+Cerro Zacatepec S/N, C.U., Coyoacán, 04370 Ciudad de México.
+Vivero Alto de Ciudad Universitaria, a un costado del Jardín Botánico (cuenta con lugar de estacionamiento)."; //El lugar donde se va a impartir, si son varios, agregar todos y separar con <br>
+$formato_inscripcion = "https://forms.gle/zHBCJFYEXfxP1qZo7"; //Pegar el formato de inscripcion
+$info_academica = "M. en C. Julio Alejandro Prieto Sagredo<br>
+Correo electrónico: juliusp.s@ciencias.unam.mx"; //Agregar el Nombre <br> correo, dando un br para saltar de linea.
+$ponentes_principales_presentacion = array(array("M. en C. Julio Alejandro Prieto Sagredo, TUM-A", "../../../assets/curriculums_docentes/JulioPrieto.pdf"), array("P. de M. Tabaré Merino Sánchez", "../../../assets/curriculums_docentes/TabareMerinoSanchez.pdf"))
+    //Es necesario poner el ../../ en las url de los curriculums, para acceder a la carpeta.
     ?>
 
 <!-- Se debe modificar la parte de los profes que viene abajo. -->
@@ -254,103 +254,26 @@ $ponentes_principales_presentacion = array(array("Dr. Alejandro Villegas Castill
     <h2>Temario</h2>
     <div class="secciones grid md:grid-cols-2 grid-cols-1">
         <div> <!--Tema-->
-            <h3>I. Introducción a la estadística</h3>
             <div class="contenido">
-                <h4>Temas</h4>
                 <ul>
-                    <li>I.1 Conceptos b&aacute;sicos de estad&iacute;stica</li>
-                    <li>I.2 Tipos de datos</li>
-                    <li>I.3 Tipos de variables</li>
-                </ul>
-            </div>
-        </div><!--fin de tema-->
-        <div> <!--Tema-->
-            <h3>II. Estadística descriptiva e inferencial</h3>
-            <div class="contenido">
-                <h4>Temas</h4>
-                <ul>
-                    <li>II.1 Medidas de tendencia central</li>
-                    <li>II.2 Medidas de dispersi&oacute;n</li>
-                </ul>
-            </div>
-        </div><!--fin de tema-->
-        <div> <!--Tema-->
-            <h3>III. La varianza como base del análisis estadístico</h3>
-            <div class="contenido">
-                <h4>Temas</h4>
-                <ul>
-                    <li>III.1 Qu&eacute; es y para qu&eacute; sirve la varianza</li>
-                    <li>III.2 Pruebas de homocedasticidad de varianzas</li>
-                    <li>III.3 Prueba F para varianzas</li>
-                </ul>
-            </div>
-        </div><!--fin de tema-->
-        <div> <!--Tema-->
-            <h3>IV. Pruebas de normalidad</h3>
-            <div class="contenido">
-                <h4>Temas</h4>
-                <ul>
-                    <li>IV.1 Qu&eacute; son y para qu&eacute; sirven las pruebas de normalidad</li>
-                    <li>IV.2 Pruebas de normalidad (Shapiro-Wilk, Anderson-Darling, etc).</li>
-                </ul>
-            </div>
-        </div><!--fin de tema-->
-        <div> <!--Tema-->
-            <h3>V. Estadística Paramétrica: Análisis de varianzas</h3>
-            <div class="contenido">
-                <h4>Temas</h4>
-                <ul>
-                    <li>V.1 ANOVA de una y dos v&iacute;as</li>
-                </ul>
-            </div>
-        </div><!--fin de tema-->
-        <div> <!--Tema-->
-            <h3>VI. Estadística no paramétrica: Análisis de varianzas</h3>
-            <div class="contenido">
-                <h4>Temas</h4>
-                <ul>
-                    <li>VI.1 -Prueba Kolmogorov-Smirnov</li>
-                    <li>VI.2 Prueba Mann-Whitney</li>
-                    <li>VI.3 Prueba Kruskal-Wallis</li>
-                </ul>
-            </div>
-        </div><!--fin de tema-->
-        <div> <!--Tema-->
-            <h3>VII. Modelo Lineal (regresión)</h3>
-            <div class="contenido">
-                <h4>Temas</h4>
-                <ul>
-                    <li>VII.1 Regresi&oacute;n lineal m&uacute;ltiple</li>
-                    <li>VII.2 Regresi&oacute;n multivariada m&uacute;ltiple</li>
-                </ul>
-            </div>
-        </div><!--fin de tema-->
-        <div> <!--Tema-->
-            <h3>VIII. Modelos multidimensionales</h3>
-            <div class="contenido">
-                <h4>Temas</h4>
-                <ul>
-                    <li>VIII.1 An&aacute;lisis de componentes principales</li>
-                    <li>VIII.2 An&aacute;lisis de correspondencia</li>
-                </ul>
-            </div>
-        </div><!--fin de tema-->
-        <div> <!--Tema-->
-            <h3>IX. Modelos predictivos</h3>
-            <div class="contenido">
-                <h4>Temas</h4>
-                <ul>
-                    <li>IX.1 Chi-cuadrada de bondad de ajuste</li>
+                    <li>Aspectos legales</li>
+                    <li>Evaluaci&oacute;n de la escena y ASMU</li>
+                    <li>Protocolo RCP Adulto</li>
+                    <li>Uso del DAE</li>
+                    <li>Protocolo de atenci&oacute;n de Atragantamiento</li>
+                    <li>Evaluaci&oacute;n del paciente</li>
+                    <li>Hemorragias, heridas, lesiones musculoesquel&eacute;ticas</li>
+                    <li>Enfermedades s&uacute;bitas</li>
+                    <li>Lesiones ambientales</li>
                 </ul>
             </div>
         </div><!--fin de tema-->
     </div> <!-- TERMINA EL CONTENEDOR DE LOS SUBTEMAS -->
 
     <!-- Por si hay temario extendido (pdf), si no, favor de comentarlo. -->
-    <!-- <a class="formato-link mt-6" href="assets/pdf/formatos/FormatoPresentacionCursoo.docx"
-        download="Documento-con-descripcion">
+    <a class="formato-link mt-6" target="_blank" href="../../cursos/PrimerosAuxilios/2daEd/PrimerosAuxilios2daEd-TemarioExtendido.pdf">
         Temario extendido
-    </a> -->
+    </a>
 </section><!-- TERMINA LA SECCIÓN DEL TEMARIO -->
 
 
@@ -465,5 +388,5 @@ $ponentes_principales_presentacion = array(array("Dr. Alejandro Villegas Castill
 </div>
 
 <?php
-include '../../includes/templates/footer.php';
+include '../../../includes/templates/footer.php';
 ?>
