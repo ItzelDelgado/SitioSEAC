@@ -36,47 +36,56 @@ Programas Académicos Impartidos en Convenio con otras Instancias");
 
         <div class="pb-16 grid grid-cols-1 mt-4 mb-10">
             <h5 class="my-2 font-semibold text-lg">BUCEO UNAM</h5>
-            <h5 class="title mb-1">Para mayores informes sobre el proceso de inscripción y pago:
-                <ol class="pl-10" style="list-style-type:circle;">
-                    <li>Dra. Norma Angélica Corado Nava</li>
-                    <li>Teléfono: 5554133379</li>
-                    <li>Correo electrónico: contacto@buceocientifico.org</li>
-                    <li>Correo electrónico: ebc@ciencias.unam.mx</li>
-                </ol>
-            </h5>
+            <div class="flex justify-center items-center gap-4">
+                <img class="w-48" src="./assets/images/equipo-de-ciencias-unam.png" alt="">
+                <h5 class="title mb-1">Para mayores informes sobre el proceso de inscripción y pago:
+                    <ol class="pl-10" style="list-style-type:circle;">
+                        <li>Dra. Norma Angélica Corado Nava</li>
+                        <li>Teléfono: 5554133379</li>
+                        <li>Correo electrónico: contacto@buceocientifico.org</li>
+                        <li>Correo electrónico: ebc@ciencias.unam.mx</li>
+                    </ol>
+                </h5>
+            </div>
             <h5 class="my-2 mt-10 font-semibold text-lg">CEJA</h5>
-            <h5 class="title mb-1">Para mayores informes sobre el proceso de inscripción y pago:
-                <ol class="pl-10" style="list-style-type:circle;">
-                    <li>Centro de Estudios Jurídicos y Ambientales, A. C.</li>
-                    <li>Montecito 38, Col Nápoles, of 15, piso 35, CDMX</li>
-                    <li>Teléfono: 33 30 12 25 al 27, extensión 107</li>
-                    <li>Sitio web: <a class="font-semibold text-indigo-600 hover:text-red-600 after:bg-indigo-600" href="http://www.ceja.org.mx/">www.ceja.org.mx</a></li>
-                    <li>Correo electrónico: cursos@ceja.org.mx</li>
-                </ol>
-            </h5>
+            <div class="flex justify-center items-center gap-4">
+                <img class="w-48" src="./assets/images/ceja.jpeg" alt="">
+                <h5 class="title mb-1">Para mayores informes sobre el proceso de inscripción y pago:
+                    <ol class="pl-10" style="list-style-type:circle;">
+                        <li>Centro de Estudios Jurídicos y Ambientales, A. C.</li>
+                        <li>Montecito 38, Col Nápoles, of 15, piso 35, CDMX</li>
+                        <li>Teléfono: 33 30 12 25 al 27, extensión 107</li>
+                        <li>Sitio web: <a class="font-semibold text-indigo-600 hover:text-red-600 after:bg-indigo-600" href="http://www.ceja.org.mx/">www.ceja.org.mx</a></li>
+                        <li>Correo electrónico: cursos@ceja.org.mx</li>
+                    </ol>
+                </h5>
+            </div>
 
             <h5 class="my-2 mt-10 font-semibold text-lg">FUNDACIÓN UNAM</h5>
-            <h5 class="title mb-1">Para mayores informes sobre el proceso de inscripción y pago:
-                <ol class="pl-10" style="list-style-type:decimal;">
-                    <li>Se solicita el formato de preregistro al programa académico de interés al siguiente correo:
-                        cursosydiplomados@funam.mx</li>
-                    <li>Datos bancarios para depósito en sucursal, practicajas, transferencia bancaria:
-                        <ol class="pl-10" style="list-style: circle;">
-                            <li>Banco: CitiBanamex</li>
-                            <li>Beneficiario: Fundación UNAM, A.C.</li>
-                            <li>Sucursal: 870</li>
-                            <li>Cuenta: 572529</li>
-                            <li>Clabe: 00 21 80 08 70 05 72 52 92</li>
-                            <li>Referencia: 829.411.100</li>
-                        </ol>
-                        <p class="mt-2"> En caso de que se desee efectuarlo con tarjeta de crédito y/o débito se deberá acudir a las oficinas de Fundación UNAM en horario de lunes a jueves de 9:30 a 17:30 y viernes de 9:30 a 14:30, ubicada en Calle Pennsylvania 203, Col. Nápoles, Alcaldía Benito Juárez, C.P. 03810.</p>
-                        <p>También se puede efectuar vía telefónica al call center 55 53 400 904 o al teléfono 55 4575 1879
-                        <p>Comunidad UNAM: En caso de formar parte de la Comunidad UNAM (alumnos, exalumnos, académicos, personal administrativo), se deberá presentar una identificación VIGENTE que acredite como tal.
-                        </p>
-                        </p>
-                    </li>
-                </ol>
-            </h5>
+            <div class="flex justify-center items-center gap-4">
+                <img class="w-48" src="./assets/images/fundacion-unam.png" alt="">
+                <h5 class="title mb-1">Para mayores informes sobre el proceso de inscripción y pago:
+                    <ol class="pl-10" style="list-style-type:decimal;">
+                        <li>Se solicita el formato de preregistro al programa académico de interés al siguiente correo:
+                            cursosydiplomados@funam.mx</li>
+                        <li>Datos bancarios para depósito en sucursal, practicajas, transferencia bancaria:
+                            <ol class="pl-10" style="list-style: circle;">
+                                <li>Banco: CitiBanamex</li>
+                                <li>Beneficiario: Fundación UNAM, A.C.</li>
+                                <li>Sucursal: 870</li>
+                                <li>Cuenta: 572529</li>
+                                <li>Clabe: 00 21 80 08 70 05 72 52 92</li>
+                                <li>Referencia: 829.411.100</li>
+                            </ol>
+                            <p class="mt-2"> En caso de que se desee efectuarlo con tarjeta de crédito y/o débito se deberá acudir a las oficinas de Fundación UNAM en horario de lunes a jueves de 9:30 a 17:30 y viernes de 9:30 a 14:30, ubicada en Calle Pennsylvania 203, Col. Nápoles, Alcaldía Benito Juárez, C.P. 03810.</p>
+                            <p>También se puede efectuar vía telefónica al call center 55 53 400 904 o al teléfono 55 4575 1879
+                            <p>Comunidad UNAM: En caso de formar parte de la Comunidad UNAM (alumnos, exalumnos, académicos, personal administrativo), se deberá presentar una identificación VIGENTE que acredite como tal.
+                            </p>
+                            </p>
+                        </li>
+                    </ol>
+                </h5>
+            </div>
         </div>
     </div>
 </section><!--end section-->
