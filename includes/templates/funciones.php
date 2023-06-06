@@ -451,4 +451,101 @@ function aplica_descuento($precio_unam, $precio_unam_descuento, $precio_general,
     }
 }
 
+
+function aplica_descuento_FUNAM($precio_unam, $precio_unam_descuento, $precio_general, $precio_general_descuento, $frase_descuento, $limite_fecha_descuento)
+{
+    $fechaActual = strtotime(date("d-m-Y"));
+    $fecha_lim_desc = strtotime($limite_fecha_descuento);
+    if ($precio_unam_descuento != 'NO' && $fechaActual <= $fecha_lim_desc) {
+        echo "<p class=\"text-red-600 max-w-xl mx-auto text-center\">15% de descuento por concepto de pronto pago (hasta el 3 de
+        abril)</p>
+    <div class=\"grid lg:grid-cols-2 md:grid-cols-2 mt-8 gap-[30px]\">
+        <div class=\"curso-costo-g\">
+            <h3>Público GENERAL</h3>
+
+            <!-- PRECIO GENERAL-->
+            <div>
+                <span>$</span>
+                <span style=\"text-decoration: line-through;\">$precio_general</span>
+                <span>MXN</span>
+            </div>
+            <!-- FIN-PRECIO GENERAL -->
+            <!-- PRECIO GENERAL CON DESCUENTO-->
+            <div>
+                <span>$</span>
+                <span class=\"price text-4xl font-semibold mb-0\">$precio_general_descuento</span>
+                <span>MXN</span>
+            </div>
+            <!-- FIN - PRECIO GENERAL  CON DESCUENTO-->
+            <a href=\"#inscripcion\" class=\"btn\">Inscribirse</a>
+        </div>
+        <div class=\"curso-costo-g\">
+            <h3>Comunidad UNAM</h3>
+            <div>
+                <span>$</span>
+                <span style=\"text-decoration: line-through;\">$precio_unam</span>
+                <span>MXN</span>
+            </div>
+            <!-- PRECIO UNAM CON DESCUENTO-->
+            <div>
+                <span>$</span>
+                <span class=\"price text-4xl font-semibold mb-0\">$precio_unam_descuento</span>
+                <span>MXN</span>
+            </div>
+            <!-- FIN PRECIO UNAM CON DESCUENTO-->
+            <ul>
+                    <li><i class=\"uil uil-check-circle\"></i>Alumnos,
+                        exalumnos, personal y tesistas de la UNAM. Aplica también afiliados a Fundación UNAM
+                    </li>
+                    <li><i class=\"uil uil-check-circle\"></i>También aplica
+                        para afiliados a Fundación UNAM</li>
+
+                    <li><i class=\"uil uil-exclamation-circle\"></i>Toda vez que
+                        este es un programa académico administrado por Fundación UNAM, AC no se acepta
+                        ningún tipo de beca AAPAUNAM o STUNAM.</li>
+                </ul>
+
+            <a href=\"#inscripcion\" class=\"btn\">Inscribirse</a>
+        </div>
+    </div>";
+
+    } else {
+        echo "
+    <div class=\"grid lg:grid-cols-2 md:grid-cols-2 mt-8 gap-[30px]\">
+        <div class=\"curso-costo-g\">
+            <h3>Público GENERAL</h3>
+
+            <!-- PRECIO GENERAL-->
+            <div>
+                <span>$</span>
+                <span>$precio_general</span>
+                <span>MXN</span>
+            </div>
+            <!-- FIN-PRECIO GENERAL -->
+            <a href=\"#inscripcion\" class=\"btn\">Inscribirse</a>
+        </div>
+        <div class=\"curso-costo-g\">
+            <h3>Comunidad UNAM</h3>
+            <div>
+                <span>$</span>
+                <span>$precio_unam</span>
+                <span>MXN</span>
+            </div>
+            <ul>
+                    <li><i class=\"uil uil-check-circle\"></i>Alumnos,
+                        exalumnos, personal y tesistas de la UNAM. Aplica también afiliados a Fundación UNAM
+                    </li>
+                    <li><i class=\"uil uil-check-circle\"></i>También aplica
+                        para afiliados a Fundación UNAM</li>
+
+                    <li><i class=\"uil uil-exclamation-circle\"></i>Toda vez que
+                        este es un programa académico administrado por Fundación UNAM, AC no se acepta
+                        ningún tipo de beca AAPAUNAM o STUNAM.</li>
+                </ul>
+
+            <a href=\"#inscripcion\" class=\"btn\">Inscribirse</a>
+        </div>
+    </div>";
+    }
+}
 ?>

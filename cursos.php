@@ -63,8 +63,8 @@ genera_encabezado_de_pagina("assets/images/pages/bg_cursos.webp", "Cursos");
         "assets/images/cursos/bg-estadica-aplicada-diseño-est-exp.webp",
         "Estadística Aplicada al Diseño y Análisis de Estudios
         Experimentales",
-        "7ma. Edición - Curso teórico - práctico",
-        "cursos/EstadisticaAplicadaalDiseno/EstadisticaAplicadaalDiseno7ed.php",
+        "7ma. Edición (Curso teórico - práctico)",
+        "cursos/EstadisticaAplicadaalDiseno/EstadisticaEplicadaalDiseno7ed.php",
         "Del 4 de marzo al 27 de mayo de 2023",
         "Contrario a lo que se piensa, la estadística no es la última
         etapa de una investigación, sino más bien es parte fundamental

@@ -19,7 +19,6 @@ $precio_general_descuento = "2,720"; //No es necesario poner mxn
 $frase_descuento = "15% de descuento por concepto de pronto pago (hasta el 3 de
 abril)"; //Frase del porcentaje de descuento
 $limite_fecha_descuento = "31-05-2023"; //Formato date("dd-mm-Yyyy")
-$link_plaza_prometeo = "https://tienda.fciencias.unam.mx";
 $dias = "Lunes"; //Puedes poner Lunes, Martes, Miercoles, Jueves y Viernes.
 $horario = "16:00   a 19:00 hrs"; //Lo puedes poner en el formato que gustes. No debe ser mucha info. 
 //Si es demasiada puedes agregar más detalles despues donde esta la sección de Requisitos, Horario y Lugar, 
@@ -33,7 +32,6 @@ $objetivo = "El participante adquirirá .";
 $dirigido_a = "Biólogos";
 $requisitos = "Estudiantes.";
 $lugar = "Zoom"; //El lugar donde se va a impartir, si son varios, agregar todos y separar con <br>
-$formato_inscripcion = "https://forms.gle/wwn996LgigXLKmsM6"; //Pegar el formato de inscripcion
 $info_academica = "Dra. Rosalía Pastor Nieto <br> Correo electrónico: rosalia.pastor@gmail.com"; //Agregar el Nombre <br> correo, dando un br para saltar de linea.
 $ponentes_principales_presentacion = array(array("Juana", "../../../assets/curriculums_docentes/JulioPrieto.pdf"))
     //Es necesario poner el ../../../ en las url de los curriculums, para acceder a la carpeta.
@@ -238,7 +236,7 @@ $ponentes_principales_presentacion = array(array("Juana", "../../../assets/curri
     <div class="curso-costo container">
         <h2 class="md:text-3xl md:leading-normal">Costo</h2>
         <?php
-        aplica_descuento($precio_unam, $precio_unam_descuento, $precio_general, $precio_general_descuento, $frase_descuento, $limite_fecha_descuento);
+        aplica_descuento_FUNAM($precio_unam, $precio_unam_descuento, $precio_general, $precio_general_descuento, $frase_descuento, $limite_fecha_descuento);
         ?>
     </div>
 
