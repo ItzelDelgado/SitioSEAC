@@ -1,65 +1,92 @@
 <?php
 include '../../includes/templates/header.php';
+include '../../includes/templates/funciones.php';
 ?>
-
 <?php
 
 $titulo_curso = "Rescate y Rehabilitación de Fauna Silvestre";
-$imagen_curso = "../../assets/images/cursos/bg-FaunaSilvestre.webp";
+$imagen_curso = "../../assets/images/cursos/bg-FaunaSilvestre.webp"; //Agregar imagen del curso, tamaño forzoso de 19
 $edicion = "6ta. Edición";
 $fecha = "Del 17 de abril al 26 de junio de 2023";
-$precio_unam = "2,700";
-$precio_general = "3,200";
-$precio_unam_descuento = "2,295";
-$precio_general_descuento = "2,720";
-$dias = "Lunes";
-$horario = "16:00 a 19:00";
-$no_horas = "27";
+$precio_unam = "2,700"; //No es necesario poner mxn
+$precio_general = "3,200"; //No es necesario poner mxn
+//Si no tiene descuento, favor de poner NO en precio_unam_descuento.
+//ej: $precio_unam_descuento = "NO";
+$precio_unam_descuento = "2,295"; //No es necesario poner mxn
+$precio_general_descuento = "2,720"; //No es necesario poner mxn
+$frase_descuento = "15% de descuento por concepto de pronto pago (hasta el 3 de
+abril)"; //Frase del porcentaje de descuento
+$limite_fecha_descuento = "03-04-2023"; //Formato date("dd-mm-Yyyy")
+$link_plaza_prometeo = "https://tienda.fciencias.unam.mx";
+$dias = "Lunes"; //Puedes poner Lunes, Martes, Miercoles, Jueves y Viernes.
+$horario = "16:00 a 19:00 hrs"; //Lo puedes poner en el formato que gustes. No debe ser mucha info. 
+//Si es demasiada puedes agregar más detalles despues donde esta la sección de Requisitos, Horario y Lugar, 
+//solo quitas la variable, puedes ver el ejemplo de Cursos en cuadernos de jupyter
+$no_horas = "27"; //No es necesario poner hrs
 $modalidad = "Virtual";
-$max_alumnos = "60";
-$min_alumnos = "15";
+$max_alumnos = "60"; //Cantidad de alumnos maxima
+$min_alumnos = "15"; //Cantidad de alumnos minima
 $descripcion = "Las actividades antropogénicas como la construcción de carreteras, tendidos eléctricos, presas y los desastres naturales como sequías, inundaciones, incendios, huracanes, derrames petroleros y otros contaminantes, ponen en riesgo a poblaciones de especies de fauna silvestre que se encuentran en alguna categoría de amenaza de extinción. Ante estos nuevos retos la Unión Internacional para la Conservación de la Naturaleza (IUCN) a través del Grupo Especialista en Salud de Fauna Silvestre (WHSG), han creado criterios para rescatar y rehabilitar a ejemplares de fauna silvestre de especies de valor ecológico. Por ello, los biólogos y profesionistas de disciplinas afines (médicos veterinarios, ecólogos) deben ampliar su campo de acción hacia la atención, rescate y rehabilitación de animales silvestres para su posible re-introducción a sus hábitats naturales así recuperar a las poblaciones de especies amenazadas.";
 $objetivo = "El participante adquirirá los conocimientos teóricos necesarios para rescatar y brindar atención primaria; valorará el tipo de destino final para cada caso.";
 $dirigido_a = "Biólogos, Médicos Veterinarios Zootecnistas y disciplinas afines.";
 $requisitos = "Estudiantes y profesionales de las áreas químico biológicas y afines.";
-$lugar = "Zoom";
-$formato_inscripcion = "https://forms.gle/wwn996LgigXLKmsM6";
-$info_academica="Dra. Rosalía Pastor Nieto <br> Correo electrónico: rosalia.pastor@gmail.com"
-?>
+$lugar = "Zoom"; //El lugar donde se va a impartir, si son varios, agregar todos y separar con <br>
+$formato_inscripcion = "https://forms.gle/wwn996LgigXLKmsM6"; //Pegar el formato de inscripcion
+$info_academica = "Dra. Rosalía Pastor Nieto <br> Correo electrónico: rosalia.pastor@gmail.com"; //Agregar el Nombre <br> correo, dando un br para saltar de linea.
+$ponentes_principales_presentacion = array(array("Dra. Rosalía Pastor Nieto", "../../assets/curriculums_docentes/RosaliaPastorNieto.pdf"))
+    //Es necesario poner el ../../ en las url de los curriculums, para acceder a la carpeta.
+    ?>
 
+<!-- Se debe modificar la parte de los profes que viene abajo. -->
+<!-- La parte más pesada es agregar el temario. Se puede usar ese o una tabla como la que normalmente creas, ya agregue estilos para que se adapten, ver ejemplo de primeros auxilios.-->
 <!-- Start Hero -->
 <section class="portada">
-    <img src="../../assets/images/cursos/bg-FaunaSilvestre.webp" alt="">
+    <img src="<?php echo $imagen_curso ?>" alt="Imagen del curso">
     <div class="portada-opacity"></div>
     <div class="container">
         <div class="portada-informacion">
-            <span class="portada-informacion-pu">$<?php echo $precio_unam ?> /
-                UNAM</span>
-            <span class="portada-informacion-pg">$<?php echo $precio_general ?> /
-                GENERAL</span>
-            <p>15% de descuento por concepto de pronto pago (hasta el 3 de abril)</p>
-            <span class="portada-informacion-pu-red">$<?php echo $precio_unam_descuento ?> /
-                UNAM</span>
-            <span class="portada-informacion-pg">$<?php echo $precio_general_descuento ?> /
-                GENERAL</span>
-            <h1><?php echo $titulo_curso ?></h1>
-            <p class="text-indigo-600"><?php echo $edicion ?></p>
+            <?php
+            $fechaActual = strtotime(date("d-m-Y"));
+            $fecha_lim_desc = strtotime($limite_fecha_descuento);
+            #Si tiene descuento y la fecha de hoy es menor a la fecha de descuento 
+            if ($precio_unam_descuento != 'NO' && $fechaActual <= $fecha_lim_desc) {
+                echo "<span class=\"portada-informacion-pu\">$precio_unam UNAM</span>
+                        <span class=\"portada-informacion-pg\">$precio_general GENERAL</span>
+                        <p>15% de descuento por concepto de pronto pago (hasta el 3 de abril)</p>
+                        <span class=\"portada-informacion-pu-red\">$precio_unam_descuento UNAM</span>
+                        <span class=\"portada-informacion-pg\">$precio_general_descuento GENERAL</span>";
+            } else {
+
+                echo "<span class=\"portada-informacion-pu\">$precio_unam UNAM</span>
+                        <span class=\"portada-informacion-pg\">$precio_general GENERAL</span>";
+
+            }
+
+            ?>
+            <h1>
+                <?php echo $titulo_curso ?>
+            </h1>
+            <p class="text-indigo-600">
+                <?php echo $edicion ?>
+            </p>
             <!-- Genera el contenedor con los datos del profesor, es decir, la foto, el nombre y el enlace del curriculum. -->
             <!-- Si hay mas de un profe, se debe copiar todo el contenedor, para cada uno. -->
             <!-- PROFESORES QUE IMPARTEN -->
-            <div class="profesor">
-                <div>
-                    <img src="../../assets/images/instructores/usr-m.jpg" alt="">
-                </div>
-                <div>
-                    <a href="../../assets/curriculums_docentes/RosaliaPastorNieto.pdf" target="_blank">Dra. Rosalía Pastor Nieto</a>
-                </div>
-            </div>
+            <!-- Datos de Profe -->
+
+            <?php
+            g_ponentes_princi_pres($ponentes_principales_presentacion);
+            ?>
+
+            <!-- Fin de datos de profe -->
             <!-- FIN - PROFESORES QUE IMPARTEN -->
             <div class="fecha">
                 <i class="uil uil-calendar-alt"></i>
-                <span><?php echo $fecha ?></span>
+                <span>
+                    <?php echo $fecha ?>
+                </span>
             </div>
+
         </div>
     </div>
 
@@ -67,27 +94,38 @@ $info_academica="Dra. Rosalía Pastor Nieto <br> Correo electrónico: rosalia.pa
         <ul>
             <li>
                 <i class="uil uil-calendar-alt"></i>
-                <span><?php echo $dias ?></span>
+                <span>
+                    <?php echo $dias ?>
+                </span>
             </li>
 
             <li>
                 <i class="uil uil-bell-school"></i>
-                <span><?php echo $horario ?>h</span>
+                <span>
+                    <?php echo $horario ?>
+                </span>
             </li>
 
             <li>
                 <i class="uil uil-clock"></i>
-                <span><?php echo $no_horas ?> horas</span>
+                <span>
+                    <?php echo $no_horas ?> horas
+                </span>
             </li>
 
             <li>
                 <i class="uil uil-map-marker"></i>
-                <span><?php echo $modalidad ?></span>
+                <span>
+                    <?php echo $modalidad ?>
+                </span>
             </li>
 
             <li>
                 <i class="uil uil-user-circle"></i>
-                <span>Máx. <?php echo $max_alumnos ?> / Min. <?php echo $min_alumnos ?></span>
+                <span>Máx.
+                    <?php echo $max_alumnos ?> / Min.
+                    <?php echo $min_alumnos ?>
+                </span>
             </li>
 
             <li>
@@ -101,7 +139,8 @@ $info_academica="Dra. Rosalía Pastor Nieto <br> Correo electrónico: rosalia.pa
 
 
 <div class="relative">
-    <div class="shape absolute right-0 sm:-bottom-px -bottom-[2px] left-0 overflow-hidden z-1 text-white dark:text-slate-900">
+    <div
+        class="shape absolute right-0 sm:-bottom-px -bottom-[2px] left-0 overflow-hidden z-1 text-white dark:text-slate-900">
         <svg class="w-full h-auto" viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M0 48H1437.5H2880V0H2160C1442.5 52 720 0 720 0H0V48Z" fill="currentColor"></path>
         </svg>
@@ -113,14 +152,23 @@ $info_academica="Dra. Rosalía Pastor Nieto <br> Correo electrónico: rosalia.pa
 <section class="oferta-academica md:py-20">
     <div class="container">
         <h2>Descripción</h2>
-        <p><?php echo $descripcion ?></p>
+        <p>
+            <?php echo $descripcion ?>
+        </p>
         <h2>Objetivo</h2>
-        <p><?php echo $objetivo ?></p>
+        <p>
+            <?php echo $objetivo ?>
+        </p>
         <h2>Dirigido a</h2>
-        <p><?php echo $dirigido_a ?></p>
+        <p>
+            <?php echo $dirigido_a ?>
+        </p>
         <p class="text-red-600 mt-4">
-            Mín / Máx de alumnos: Mínimo <?php echo $min_alumnos ?>, máximo <?php echo $max_alumnos ?>.<br>
-            La apertura del curso está sujeta al mínimo de inscritos.</p>
+            Mín / Máx de alumnos: Mínimo
+            <?php echo $min_alumnos ?>, máximo
+            <?php echo $max_alumnos ?>.<br>
+            La apertura del curso está sujeta al mínimo de inscritos.
+        </p>
     </div>
 </section>
 
@@ -139,9 +187,12 @@ $info_academica="Dra. Rosalía Pastor Nieto <br> Correo electrónico: rosalia.pa
 
                 <div>
                     <h3>Requisitos</h3>
-                    <p><?php echo $requisitos ?></p>
+                    <p>
+                        <?php echo $requisitos ?>
+                    </p>
                     <div class="mt-5">
-                        <a href="#" data-type="iframe" class="video-play-icon read-more lightbox btn btn-link text-indigo-600 hover:text-indigo-600 after:bg-indigo-600 duration-500 ease-in-out">
+                        <a href="#" data-type="iframe"
+                            class="video-play-icon read-more lightbox btn btn-link text-indigo-600 hover:text-indigo-600 after:bg-indigo-600 duration-500 ease-in-out">
                         </a>
                     </div>
                 </div>
@@ -152,10 +203,17 @@ $info_academica="Dra. Rosalía Pastor Nieto <br> Correo electrónico: rosalia.pa
                 </div>
                 <div>
                     <h3>Horario</h3>
-                    <p><?php echo $horario ?> hrs</p>
-                    <p><?php echo $dias ?></p>
+                    <p>
+                        <?php echo $horario ?>
+                    </p>
+                    <p>
+                        <?php echo $dias ?>
+                    </p>
                     <div class="mt-5">
-                        <a href="#" class="btn btn-link text-indigo-600 hover:text-red-600 after:bg-indigo-600 duration-500 ease-in-out">Total: <?php echo $no_horas ?>horas</a>
+                        <a href="#"
+                            class="btn btn-link text-indigo-600 hover:text-red-600 after:bg-indigo-600 duration-500 ease-in-out">Total:
+                            <?php echo $no_horas ?> horas
+                        </a>
                     </div>
                 </div>
             </div>
@@ -166,340 +224,141 @@ $info_academica="Dra. Rosalía Pastor Nieto <br> Correo electrónico: rosalia.pa
 
                 <div>
                     <h3>Lugar</h3>
-                    <p><?php echo $lugar ?></p>
+                    <p>
+                        <?php echo $lugar ?>
+                    </p>
                 </div>
             </div>
         </div>
     </div>
 
-
+    <!-- Para el area de pagos -->
     <div class="curso-costo container">
         <h2 class="md:text-3xl md:leading-normal">Costo</h2>
-        <!-- Si el curso no tiene descuento, solo debe quitarse el p. -->
-        <p class="text-red-600 max-w-xl mx-auto">15% de descuento por concepto de pronto pago (hasta el 3 de
-            abril)</p>
-        <div class="grid lg:grid-cols-2 md:grid-cols-2 mt-8 gap-[30px]">
-            <div class="curso-costo-g">
-                <h3>Público GENERAL</h3>
-                <!-- Para quitar el precio con descuento solo basta con borrar lo siquiente. -->
-                <!-- PRECIO GENERAL CON DESCUENTO -->
-                <div>
-                    <span>$</span>
-                    <span style="text-decoration: line-through;"><?php echo $precio_general ?></span>
-                    <span>MXN</span>
-                </div>
-                <!-- FIN-PRECIO GENERAL CON DESCUENTO -->
-
-                <!-- PRECIO GENERAL-->
-                <div>
-                    <span>$</span>
-                    <span class="price text-4xl font-semibold mb-0"><?php echo $precio_general_descuento ?></span>
-                    <span>MXN</span>
-                </div>
-                <!-- FIN - PRECIO GENERAL  -->
-
-                <a href="#inscripcion" class="btn">Inscribirse</a>
-            </div>
-
-
-            <div class="curso-costo-g">
-                <h3>Comunidad UNAM</h3>
-                <div>
-                    <span>$</span>
-                    <span style="text-decoration: line-through;"><?php echo $precio_unam ?></span>
-                    <span>MXN</span>
-                </div>
-                <div>
-                    <span>$</span>
-                    <span class="price text-4xl font-semibold mb-0"><?php echo $precio_unam_descuento ?></span>
-                    <span>MXN</span>
-                </div>
-
-
-                <ul>
-                    <li><i class="uil uil-check-circle"></i>Alumnos, exalumnos
-                        y personal de la UNAM</li>
-                    <li><i class="uil uil-check-circle"></i>También aplica
-                        para afiliados a Fundación UNAM</li>
-                </ul>
-
-                <a href="#inscripcion" class="btn">Inscribirse</a>
-            </div>
-        </div>
+        <?php
+        aplica_descuento($precio_unam, $precio_unam_descuento, $precio_general, $precio_general_descuento, $frase_descuento, $limite_fecha_descuento);
+        ?>
     </div>
 
 </section>
 
 
-<!-- TEMARIO SECCIÓN: LOS <h3> son temas principales y los <td> son subtemas. -->
+
+<!-- Este ejemoplo es para cuando se muestra en forma de indice. -->
+<!-- TEMARIO SECCIÓN: LOS <h3> son temas principales y los <li> son subtemas. -->
+<!-- TEMARIO SECCIÓN: LOS <h3> son temas principales y los <li> son subtemas. -->
 <section class="temario container">
     <h2>Temario</h2>
     <div class="secciones grid md:grid-cols-2 grid-cols-1">
-        <!-- ******SECCIÓN PARA CADA TEMA CON SUS SUBTEMAS *****-->
-        <div>
+        <div> <!--Tema-->
             <h3>I. Introducción a la Rehabilitación de Fauna Silvestre</h3>
             <div class="contenido">
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Temas</th>
-                        </tr>
-                    </thead>
-
-                    <tbody>
-                        <tr>
-                            <td> I.1 Historia</td>
-                        </tr>
-
-                        <tr>
-                            <td>I.2. Especies vulnerables a desastres naturales</a></td>
-                        </tr>
-
-                        <tr>
-                            <td>I.3. Casos de éxito</td>
-                        </tr>
-
-                        <tr>
-                            <td>I.4. Diseño y criterios para el establecimiento de un centro de rescate de fauna</td>
-                        </tr>
-                    </tbody>
-                </table>
+                <h4>Temas</h4>
+                <ul>
+                    <li>1. Historia</li>
+                    <li>2. Especies vulnerables a desastres naturales</li>
+                    <li>3. Casos de &eacute;xito</li>
+                    <li>4. Dise&ntilde;o y criterios para el establecimiento de un centro de rescate de fauna</li>
+                </ul>
             </div>
-        </div>
-        <!--********FIN DE SECCIÓN PARA CADA TEMA CON SUS SUBTEMAS********-->
-        
-        <div>
+        </div><!--fin de tema-->
+        <div> <!--Tema-->
             <h3>II. Criterios para Rescatar y Rehabilitar Fauna silvestre</h3>
-
             <div class="contenido">
-                <table>
-                    <thead>
-                        <tr>
-                            <th>
-                                Temas
-                            </th>
-                        </tr>
-                    </thead>
-
-                    <tbody>
-                        <tr>
-                            <td>
-                                II.1 Lineamientos internacionales para la rehabilitación de Fauna Silvestre
-                            </td>
-                        </tr>
-
-                        <tr>
-                            <td>
-                                II.2. Criterios para la rehabilitación, reintroducción o destino final
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
+                <h4>Temas</h4>
+                <ul>
+                    <li>1. Lineamientos internacionales para la rehabilitaci&oacute;n de Fauna Silvestre</li>
+                    <li>2. Criterios para la rehabilitaci&oacute;n, reintroducci&oacute;n o destino final</li>
+                </ul>
             </div>
-        </div>
-
-        <div>
+        </div><!--fin de tema-->
+        <div> <!--Tema-->
             <h3>III. Manejo de Animales Rescatados</h3>
             <div class="contenido">
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Temas</th>
-                        </tr>
-                    </thead>
-
-                    <tbody>
-                        <tr>
-                            <td>III.1. Cuidados de animales huérfanos
-                            </td>
-
-                        </tr>
-
-                        <tr>
-                            <td>III.2.
-                                Cuidado de animales lastimados
-                            </td>
-                        </tr>
-
-                        <tr>
-                            <td>III.3.
-                                Manejo de heridas
-                            </td>
-                        </tr>
-
-                    </tbody>
-                </table>
+                <h4>Temas</h4>
+                <ul>
+                    <li>Cuidados de animales hu&eacute;rfanos</li>
+                    <li>Cuidado de animales lastimados</li>
+                    <li>Manejo de heridas</li>
+                </ul>
             </div>
-        </div>
-
-        <div>
+        </div><!--fin de tema-->
+        <div> <!--Tema-->
             <h3>IV. Manejo, Transporte Contención Física y Química de Fauna Silvestre</h3>
-
             <div class="contenido">
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Temas</th>
-                        </tr>
-                    </thead>
-
-                    <tbody>
-                        <tr>
-                            <td>IV.1.
-                                Contención física
-                            </td>
-                        </tr>
-
-                        <tr>
-                            <td>IV.2.
-                                Contención química
-                            </td>
-                        </tr>
-
-                        <tr>
-                            <td>IV.3.
-                                Transporte y movilización segura seguro de especies
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
+                <h4>Temas</h4>
+                <ul>
+                    <li>1. Contenci&oacute;n f&iacute;sica</li>
+                    <li>2. Contenci&oacute;n qu&iacute;mica</li>
+                    <li>3. Transporte y movilizaci&oacute;n segura seguro de especies</li>
+                </ul>
             </div>
-        </div>
-
-
-        <div>
-            <h3>V. Descontaminación y Manejo Clínico de Fauna silvestre en Desastres naturales</h3>
-
+        </div><!--fin de tema-->
+        <div> <!--Tema-->
+            <h3>V. Descontaminación y Manejo Clínico de Fauna silvestre en Desastres Naturales</h3>
             <div class="contenido">
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Temas</th>
-                        </tr>
-                    </thead>
-
-                    <tbody>
-                        <tr>
-                            <td>V.1.
-                                Manejo clínico de aves y mamíferos victimas de desastres naturales
-                                <ul class="p-6 list-disc ">
-                                    <li>manejo de descontaminación</li>
-                                </ul>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
+                <h4>Temas</h4>
+                <ul>
+                    <li>1. Manejo cl&iacute;nico de aves y mam&iacute;feros victimas de desastres naturales
+                        <ul>
+                            <li>1.1. manejo de descontaminaci&oacute;n</li>
+                        </ul>
+                    </li>
+                </ul>
             </div>
-        </div>
-        <div>
+        </div><!--fin de tema-->
+        <div> <!--Tema-->
             <h3>VI. Fundamentos para la rehabilitación de aves</h3>
             <div class="contenido">
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Temas</th>
-                        </tr>
-                    </thead>
-
-                    <tbody>
-                        <tr>
-                            <td>VI.1.
-                                Exámen clínico de aves
-                            </td>
-                        </tr>
-                    </tbody>
-                    <tbody>
-                        <tr>
-                            <td>VI.2.
-                                Criterios para su rehabilitación y liberación
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
+                <h4>Temas</h4>
+                <ul>
+                    <li>1. Ex&aacute;men cl&iacute;nico de aves</li>
+                    <li>2. Criterios para su rehabilitaci&oacute;n y liberaci&oacute;n</li>
+                </ul>
             </div>
-        </div>
-        <div>
+        </div><!--fin de tema-->
+        <div> <!--Tema-->
             <h3>VII. Fundamentos para la rehabilitación de reptiles</h3>
-
             <div class="contenido">
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Temas</th>
-                        </tr>
-                    </thead>
-
-                    <tbody>
-                        <tr>
-                            <td>VII.1.
-                                Exámen clínico de reptiles
-                            </td>
-                        </tr>
-                    </tbody>
-                    <tbody>
-                        <tr>
-                            <td>VII.2.
-                                Criterios para su rehabilitación y liberación
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
+                <h4>Temas</h4>
+                <ul>
+                    <li>1. Ex&aacute;men cl&iacute;nico de reptiles</li>
+                    <li>2. Criterios para su rehabilitaci&oacute;n y liberaci&oacute;n</li>
+                </ul>
             </div>
-        </div>
-        <div>
+        </div><!--fin de tema-->
+        <div> <!--Tema-->
             <h3>VIII. Fundamentos para la rehabilitación de mamíferos</h3>
             <div class="contenido">
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Temas</th>
-                        </tr>
-                    </thead>
-
-                    <tbody>
-                        <tr>
-                            <td>VIII.1.
-                                Exámen clínico de mamíferos
-
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>VIII.2.
-                                Criterios para su rehabilitación y liberación
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
+                <h4>Temas</h4>
+                <ul>
+                    <li>1. Ex&aacute;men cl&iacute;nico de mam&iacute;feros</li>
+                    <li>2. Criterios para su rehabilitaci&oacute;n y liberaci&oacute;n</li>
+                </ul>
             </div>
-        </div>
-        <div>
+        </div><!--fin de tema-->
+        <div> <!--Tema-->
             <h3>IX. Temas selectos en rehabilitación</h3>
             <div class="contenido">
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Temas</th>
-                        </tr>
-                    </thead>
-
-                    <tbody>
-                        <tr>
-                            <td>IX.1.
-                                Criterios para su rehabilitación y liberación
-                                <ul class="p-6 list-disc ">
-                                    <li>Primates</li>
-                                    <li>Felinos</li>
-                                    <li>Aves</li>
-                                </ul>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
+                <h4>Temas</h4>
+                <ul>
+                    <li>1. Fauna confiscada en zool&oacute;gicos en M&eacute;xico y su rehabilitaci&oacute;n
+                        <ul>
+                            <li>1.1 Primates</li>
+                            <li>1.2. Felinos</li>
+                            <li>1.3. Aves</li>
+                        </ul>
+                    </li>
+                </ul>
             </div>
-        </div>
+        </div><!--fin de tema-->
+    </div> <!-- TERMINA EL CONTENEDOR DE LOS SUBTEMAS -->
 
-    </div>
-</section>
+    <!-- Por si hay temario extendido (pdf), si no, favor de comentarlo. -->
+    <!-- <a class="formato-link mt-6" href="assets/pdf/formatos/FormatoPresentacionCursoo.docx" download="Documento-con-descripcion">
+        Temario extendido
+    </a> -->
+</section><!-- TERMINA LA SECCIÓN DEL TEMARIO -->
 
 
 <!-- Start -->
@@ -510,16 +369,19 @@ $info_academica="Dra. Rosalía Pastor Nieto <br> Correo electrónico: rosalia.pa
         </div>
 
         <div class="pasos">
-            <div class="relative after:content-[''] after:absolute after:top-0 md:after:right-0 md:after:left-0 after:w-px after:h-full md:after:m-auto after:border-l-2 after:border-dashed after:border-gray-200 dark:after:border-gray-700 ml-3 md:ml-0">
+            <div
+                class="relative after:content-[''] after:absolute after:top-0 md:after:right-0 md:after:left-0 after:w-px after:h-full md:after:m-auto after:border-l-2 after:border-dashed after:border-gray-200 dark:after:border-gray-700 ml-3 md:ml-0">
                 <!--Start content-->
-                <div class="ml-8 md:ml-0 relative after:content-[''] after:absolute after:top-[9px] after:rounded-full after:z-10 after:w-2.5 after:h-2.5 after:bg-indigo-600 md:after:mx-auto md:after:right-0 md:after:left-0 after:-left-9 before:content-[''] before:absolute md:before:mx-auto md:before:right-0 md:before:left-0 before:-left-11 before:rounded-full before:z-10 before:border-2 before:border-dashed before:border-gray-200 dark:before:border-gray-700 before:top-0 before:w-7 before:h-7 before:bg-white dark:before:bg-slate-900">
+                <div
+                    class="ml-8 md:ml-0 relative after:content-[''] after:absolute after:top-[9px] after:rounded-full after:z-10 after:w-2.5 after:h-2.5 after:bg-indigo-600 md:after:mx-auto md:after:right-0 md:after:left-0 after:-left-9 before:content-[''] before:absolute md:before:mx-auto md:before:right-0 md:before:left-0 before:-left-11 before:rounded-full before:z-10 before:border-2 before:border-dashed before:border-gray-200 dark:before:border-gray-700 before:top-0 before:w-7 before:h-7 before:bg-white dark:before:bg-slate-900">
                     <div class="paso-n grid md:grid-cols-2">
                         <h3 class="md:text-right md:mr-8">Paso 1</h3>
 
                         <div class="md:ml-8 md:mt-0">
                             <h4>Realizar el pago en línea mediante "Plaza
                                 Prometeo", la tienda de la Facultad de Ciencias</h4>
-                            <p><a href="https://tienda.fciencias.unam.mx" target="_blank" class="btn btn-link text-indigo-600 hover:text-red-600 after:bg-indigo-600 duration-500 ease-in-out">tienda.fciencias.unam.mx</a>
+                            <p><a href=<?php echo $link_plaza_prometeo ?> target="_blank"
+                                    class="formato-link">tienda.fciencias.unam.mx</a>
                             </p>
                         </div>
                     </div>
@@ -530,7 +392,7 @@ $info_academica="Dra. Rosalía Pastor Nieto <br> Correo electrónico: rosalia.pa
                         <div class="md:ml-8 md:mt-0">
                             <h4>Registrarse en este formato de inscripción</h4>
                             <p>(únicamente si usted ya hizo el pago)</p>
-                            <p><a href=<?php echo $formato_inscripcion ?> target="_blank" class="btn btn-link text-indigo-600 hover:text-red-600 after:bg-indigo-600 duration-500 ease-in-out">Formato
+                            <p><a href=<?php echo $formato_inscripcion ?> target="_blank" class="formato-link">Formato
                                     de inscripción</a></p>
                         </div>
                     </div>
@@ -552,14 +414,19 @@ $info_academica="Dra. Rosalía Pastor Nieto <br> Correo electrónico: rosalia.pa
         <h2 class="md:text-3xl md:leading-normal">¿Necesitas ayuda?</h2>
         <p>Contáctanos</p>
     </div>
-    <div class="informacion grid md:grid-cols-2 grid-cols-1 mt-8 md:gap-[30px]" id="accordion-collapse" data-accordion="collapse">
+    <div class="informacion grid md:grid-cols-2 grid-cols-1 mt-8 md:gap-[30px]" id="accordion-collapse"
+        data-accordion="collapse">
         <div>
             <div>
                 <h2 id="info-admin-col">
-                    <button type="button" data-accordion-target="#info-admin" aria-expanded="false" aria-controls="info-admin">
+                    <button type="button" data-accordion-target="#info-admin" aria-expanded="false"
+                        aria-controls="info-admin">
                         <span>Información administrativa</span>
-                        <svg data-accordion-icon class="w-4 h-4 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                            <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+                        <svg data-accordion-icon class="w-4 h-4 shrink-0" fill="currentColor" viewBox="0 0 20 20"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                                clip-rule="evenodd"></path>
                         </svg>
                     </button>
                 </h2>
@@ -567,7 +434,9 @@ $info_academica="Dra. Rosalía Pastor Nieto <br> Correo electrónico: rosalia.pa
                     <div class="p-5">
                         <p class="text-slate-400 dark:text-gray-400">Secretaría de Educación Abierta y Continua,
                             Facultad de Ciencias, UNAM.<br>
-                            Sitio web: <a class="text-cyan-600 underline" href="http://www.educontinua.fciencias.unam.mx" target="_blank">www.educontinua.fciencias.unam.mx</a><br>
+                            Sitio web: <a class="text-cyan-600 underline"
+                                href="http://www.educontinua.fciencias.unam.mx"
+                                target="_blank">www.educontinua.fciencias.unam.mx</a><br>
                             Edificio Tlahuizcalpan, 1er piso (saliendo del elevador a la izquierda).<br>
                             Teléfono: 56 66 47 89 y 56 22 53 86<br>
                             Correo electrónico: educontinua.of@ciencias.unam.mx</p>
@@ -578,16 +447,21 @@ $info_academica="Dra. Rosalía Pastor Nieto <br> Correo electrónico: rosalia.pa
         <div>
             <div>
                 <h2 id="info-acad-col">
-                    <button type="button" data-accordion-target="#info-acad" aria-expanded="true" aria-controls="info-acad">
+                    <button type="button" data-accordion-target="#info-acad" aria-expanded="true"
+                        aria-controls="info-acad">
                         <span>Información académica</span>
-                        <svg data-accordion-icon class="w-4 h-4 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                            <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+                        <svg data-accordion-icon class="w-4 h-4 shrink-0" fill="currentColor" viewBox="0 0 20 20"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                                clip-rule="evenodd"></path>
                         </svg>
                     </button>
                 </h2>
                 <div id="info-acad" class="hidden" aria-labelledby="info-acad-col">
                     <div class="p-5">
-                        <p class="text-slate-400 dark:text-gray-400"><?php echo $info_academica?> 
+                        <p class="text-slate-400 dark:text-gray-400">
+                            <?php echo $info_academica ?>
                         </p>
                     </div>
                 </div>

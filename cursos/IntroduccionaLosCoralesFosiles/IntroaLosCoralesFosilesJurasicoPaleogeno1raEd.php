@@ -1,17 +1,29 @@
 <?php
 include '../../includes/templates/header.php';
+include '../../includes/templates/funciones.php';
 ?>
+
 
 <?php
 
 $titulo_curso = "Introducción a los Corales Fósiles (Jurásico-Paleógeno)";
-$imagen_curso = "../../assets/images/cursos/bg-FaunaSilvestre.webp"; //Agregar imagen del curso, tamaño forzoso de 19
+$imagen_curso = "../../assets/images/cursos/Introduccion-a-los-Corales-Fosiles.webp"; //Agregar imagen del curso, tamaño forzoso de 19
 $edicion = "1ra. Edición";
 $fecha = "Del 19 al 23 de junio de 2023";
 $precio_unam = "500"; //No es necesario poner mxn
 $precio_general = "800"; //No es necesario poner mxn
-$dias = "Lunes a Viernes";  //Puedes poner Lunes, Martes, Miercoles, Jueves y Viernes.
-$horario = "De 10 a 13 y de 15 a 17 hrs (5 horas en cada sesión)"; //No es necesario poner hrs
+//Si no tiene descuento, favor de poner NO en precio_unam_descuento.
+//ej: $precio_unam_descuento = "NO";
+$precio_unam_descuento = "NO"; //No es necesario poner mxn
+$precio_general_descuento = "no"; //No es necesario poner mxn
+$frase_descuento = "15% de descuento por concepto de pronto pago (hasta el 3 de
+abril)"; //Frase del porcentaje de descuento
+$limite_fecha_descuento = "31-05-2023"; //Formato date("dd-mm-Yyyy")
+$link_plaza_prometeo = "https://tienda.fciencias.unam.mx";
+$dias = "Lunes - viernes"; //Puedes poner Lunes, Martes, Miercoles, Jueves y Viernes.
+$horario = "De 10 a 13 y de 15 a 17 hrs"; //Lo puedes poner en el formato que gustes. No debe ser mucha info. 
+//Si es demasiada puedes agregar más detalles despues donde esta la sección de Requisitos, Horario y Lugar, 
+//solo quitas la variable, puedes ver el ejemplo de Cursos en cuadernos de jupyter
 $no_horas = "25"; //No es necesario poner hrs
 $modalidad = "Presencial";
 $max_alumnos = "25"; //Cantidad de alumnos maxima
@@ -27,50 +39,59 @@ $lugar = "Taller de Paleobiología, Facultad de Ciencias, UNAM"; //El lugar dond
 $formato_inscripcion = "https://forms.gle/FQULscTpSsuGPRau5"; //Pegar el formato de inscripcion
 $info_academica = "Dr. Hannes Loeser<br>
 Correo electrónico: loeser@paleotax.de<br>Dr. Rafael Villanueva Olea<br>
-Correo electrónico: rafael.villa@ciencias.unam.mx" //Agregar el Nombre <br> correo, dando un br para saltar de linea.
+Correo electrónico: rafael.villa@ciencias.unam.mx"; //Agregar el Nombre <br> correo, dando un br para saltar de linea.
+$ponentes_principales_presentacion = array(array("Dr. Hannes Loeser, UNAM/IGL", "../../assets/curriculums_docentes/HannesLoser.pdf"), array("Dr. Rafael Villanueva Olea, UNAM, UNAM/IGL", "../../assets/curriculums_docentes/RafaelVillanuevaOlea.pdf"));
+//Es necesario poner el ../../ en las url de los curriculums, para acceder a la carpeta.
 ?>
 
 <!-- Se debe modificar la parte de los profes que viene abajo. -->
 <!-- La parte más pesada es agregar el temario. Se puede usar ese o una tabla como la que normalmente creas, ya agregue estilos para que se adapten, ver ejemplo de primeros auxilios.-->
 <!-- Start Hero -->
 <section class="portada">
-    <img src="../../assets/images/cursos/Introduccion-a-los-Corales-Fosiles.webp" alt="">
+    <img src="<?php echo $imagen_curso ?>" alt="Imagen del curso">
     <div class="portada-opacity"></div>
     <div class="container">
         <div class="portada-informacion">
-            <span class="portada-informacion-pu">$<?php echo $precio_unam ?> /
-                UNAM</span>
-            <span class="portada-informacion-pg">$<?php echo $precio_general ?> /
-                GENERAL</span>
-            <h1><?php echo $titulo_curso ?></h1>
-            <p class="text-indigo-600"><?php echo $edicion ?></p>
+            <?php
+            $fechaActual = strtotime(date("d-m-Y"));
+            $fecha_lim_desc = strtotime($limite_fecha_descuento);
+            #Si tiene descuento y la fecha de hoy es menor a la fecha de descuento 
+            if ($precio_unam_descuento != 'NO' && $fechaActual <= $fecha_lim_desc) {
+                echo "<span class=\"portada-informacion-pu\">$precio_unam UNAM</span>
+                        <span class=\"portada-informacion-pg\">$precio_general GENERAL</span>
+                        <p>15% de descuento por concepto de pronto pago (hasta el 3 de abril)</p>
+                        <span class=\"portada-informacion-pu-red\">$precio_unam_descuento UNAM</span>
+                        <span class=\"portada-informacion-pg\">$precio_general_descuento GENERAL</span>";
+            } else {
+
+                echo "<span class=\"portada-informacion-pu\">$precio_unam UNAM</span>
+                        <span class=\"portada-informacion-pg\">$precio_general GENERAL</span>";
+
+            }
+
+            ?>
+            <h1>
+                <?php echo $titulo_curso ?>
+            </h1>
+            <p class="text-indigo-600">
+                <?php echo $edicion ?>
+            </p>
             <!-- Genera el contenedor con los datos del profesor, es decir, la foto, el nombre y el enlace del curriculum. -->
             <!-- Si hay mas de un profe, se debe copiar todo el contenedor, para cada uno. -->
             <!-- PROFESORES QUE IMPARTEN -->
             <!-- Datos de Profe -->
-            <div class="profesor">
-                <div>
-                    <img src="../../assets/images/instructores/usr-m.jpg" alt="">
-                </div>
-                <div>
-                    <a href="../../assets/curriculums_docentes/HannesLoser.pdf" target="_blank">Dr. Hannes Loeser, UNAM/IGL</a>
-                </div>
-            </div>
-            <!-- Fin de datos de profe -->
-            <!-- Datos de Profe -->
-            <div class="profesor">
-                <div>
-                    <img src="../../assets/images/instructores/usr-m.jpg" alt="">
-                </div>
-                <div>
-                    <a href="../../assets/curriculums_docentes/RafaelVillanuevaOlea.pdf" target="_blank">Dr. Rafael Villanueva Olea, UNAM</a>
-                </div>
-            </div>
+
+            <?php
+            g_ponentes_princi_pres($ponentes_principales_presentacion);
+            ?>
+
             <!-- Fin de datos de profe -->
             <!-- FIN - PROFESORES QUE IMPARTEN -->
             <div class="fecha">
                 <i class="uil uil-calendar-alt"></i>
-                <span><?php echo $fecha ?></span>
+                <span>
+                    <?php echo $fecha ?>
+                </span>
             </div>
 
         </div>
@@ -80,27 +101,38 @@ Correo electrónico: rafael.villa@ciencias.unam.mx" //Agregar el Nombre <br> cor
         <ul>
             <li>
                 <i class="uil uil-calendar-alt"></i>
-                <span><?php echo $dias ?></span>
+                <span>
+                    <?php echo $dias ?>
+                </span>
             </li>
 
             <li>
                 <i class="uil uil-bell-school"></i>
-                <span><?php echo $horario ?></span>
+                <span>
+                    <?php echo $horario ?>
+                </span>
             </li>
 
             <li>
                 <i class="uil uil-clock"></i>
-                <span><?php echo $no_horas ?> horas</span>
+                <span>
+                    <?php echo $no_horas ?> horas
+                </span>
             </li>
 
             <li>
                 <i class="uil uil-map-marker"></i>
-                <span><?php echo $modalidad ?></span>
+                <span>
+                    <?php echo $modalidad ?>
+                </span>
             </li>
 
             <li>
                 <i class="uil uil-user-circle"></i>
-                <span>Máx. <?php echo $max_alumnos ?> / Min. <?php echo $min_alumnos ?></span>
+                <span>Máx.
+                    <?php echo $max_alumnos ?> / Min.
+                    <?php echo $min_alumnos ?>
+                </span>
             </li>
 
             <li>
@@ -114,7 +146,8 @@ Correo electrónico: rafael.villa@ciencias.unam.mx" //Agregar el Nombre <br> cor
 
 
 <div class="relative">
-    <div class="shape absolute right-0 sm:-bottom-px -bottom-[2px] left-0 overflow-hidden z-1 text-white dark:text-slate-900">
+    <div
+        class="shape absolute right-0 sm:-bottom-px -bottom-[2px] left-0 overflow-hidden z-1 text-white dark:text-slate-900">
         <svg class="w-full h-auto" viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M0 48H1437.5H2880V0H2160C1442.5 52 720 0 720 0H0V48Z" fill="currentColor"></path>
         </svg>
@@ -126,14 +159,23 @@ Correo electrónico: rafael.villa@ciencias.unam.mx" //Agregar el Nombre <br> cor
 <section class="oferta-academica md:py-20">
     <div class="container">
         <h2>Descripción</h2>
-        <p><?php echo $descripcion ?></p>
+        <p>
+            <?php echo $descripcion ?>
+        </p>
         <h2>Objetivo</h2>
-        <p><?php echo $objetivo ?></p>
+        <p>
+            <?php echo $objetivo ?>
+        </p>
         <h2>Dirigido a</h2>
-        <p><?php echo $dirigido_a ?></p>
+        <p>
+            <?php echo $dirigido_a ?>
+        </p>
         <p class="text-red-600 mt-4">
-            Mín / Máx de alumnos: Mínimo <?php echo $min_alumnos ?>, máximo <?php echo $max_alumnos ?>.<br>
-            La apertura del curso está sujeta al mínimo de inscritos.</p>
+            Mín / Máx de alumnos: Mínimo
+            <?php echo $min_alumnos ?>, máximo
+            <?php echo $max_alumnos ?>.<br>
+            La apertura del curso está sujeta al mínimo de inscritos.
+        </p>
     </div>
 </section>
 
@@ -152,9 +194,12 @@ Correo electrónico: rafael.villa@ciencias.unam.mx" //Agregar el Nombre <br> cor
 
                 <div>
                     <h3>Requisitos</h3>
-                    <p><?php echo $requisitos ?></p>
+                    <p>
+                        <?php echo $requisitos ?>
+                    </p>
                     <div class="mt-5">
-                        <a href="#" data-type="iframe" class="video-play-icon read-more lightbox btn btn-link text-indigo-600 hover:text-indigo-600 after:bg-indigo-600 duration-500 ease-in-out">
+                        <a href="#" data-type="iframe"
+                            class="video-play-icon read-more lightbox btn btn-link text-indigo-600 hover:text-indigo-600 after:bg-indigo-600 duration-500 ease-in-out">
                         </a>
                     </div>
                 </div>
@@ -165,10 +210,17 @@ Correo electrónico: rafael.villa@ciencias.unam.mx" //Agregar el Nombre <br> cor
                 </div>
                 <div>
                     <h3>Horario</h3>
-                    <p><?php echo $horario ?></p>
-                    <p><?php echo $dias ?></p>
+                    <p>
+                        <?php echo $horario ?>
+                    </p>
+                    <p>
+                        <?php echo $dias ?>
+                    </p>
                     <div class="mt-5">
-                        <a href="#" class="btn btn-link text-indigo-600 hover:text-red-600 after:bg-indigo-600 duration-500 ease-in-out">Total: <?php echo $no_horas ?>horas</a>
+                        <a href="#"
+                            class="btn btn-link text-indigo-600 hover:text-red-600 after:bg-indigo-600 duration-500 ease-in-out">Total:
+                            <?php echo $no_horas ?> horas
+                        </a>
                     </div>
                 </div>
             </div>
@@ -179,168 +231,60 @@ Correo electrónico: rafael.villa@ciencias.unam.mx" //Agregar el Nombre <br> cor
 
                 <div>
                     <h3>Lugar</h3>
-                    <p><?php echo $lugar ?></p>
+                    <p>
+                        <?php echo $lugar ?>
+                    </p>
                 </div>
             </div>
         </div>
     </div>
 
-
+    <!-- Para el area de pagos -->
     <div class="curso-costo container">
         <h2 class="md:text-3xl md:leading-normal">Costo</h2>
-        <div class="grid lg:grid-cols-2 md:grid-cols-2 mt-8 gap-[30px]">
-            <div class="curso-costo-g">
-                <h3>Público GENERAL</h3>
-
-                <!-- PRECIO GENERAL-->
-                <div>
-                    <span>$</span>
-                    <span><?php echo $precio_general ?></span>
-                    <span>MXN</span>
-                </div>
-                <!-- FIN-PRECIO GENERAL -->
-
-                <a href="#inscripcion" class="btn">Inscribirse</a>
-            </div>
-
-
-            <div class="curso-costo-g">
-                <h3>Comunidad UNAM</h3>
-
-                <div>
-                    <span>$</span>
-                    <span><?php echo $precio_unam ?></span>
-                    <span>MXN</span>
-                </div>
-
-
-                <ul>
-                    <li><i class="uil uil-check-circle"></i>Alumnos, exalumnos
-                        y personal de la UNAM</li>
-                    <li><i class="uil uil-check-circle"></i>También aplica
-                        para afiliados a Fundación UNAM</li>
-                </ul>
-
-                <a href="#inscripcion" class="btn">Inscribirse</a>
-            </div>
-        </div>
+        <?php
+        aplica_descuento($precio_unam, $precio_unam_descuento, $precio_general, $precio_general_descuento, $frase_descuento, $limite_fecha_descuento);
+        ?>
     </div>
 
 </section>
 
 
-<!-- TEMARIO SECCIÓN: LOS <h3> son temas principales y los <td> son subtemas. -->
-<section class="temario-tabla container">
+
+<!-- Este ejemoplo es para cuando se muestra en forma de indice. -->
+<!-- TEMARIO SECCIÓN: LOS <h3> son temas principales y los <li> son subtemas. -->
+<!-- TEMARIO SECCIÓN: LOS <h3> son temas principales y los <li> son subtemas. -->
+<section class="temario container">
     <h2>Temario</h2>
-    <table border="">
-        <tbody>
-            <tr>
-                <th> &nbsp; </th>
-                <th>
+    <div class="secciones grid md:grid-cols-2 grid-cols-1">
+        <div> <!--Tema-->
 
-                    10-11:30h / 11:45-13:00h
-                    <br>
-                    Teoría
-                </th>
-                <th>
+            <div class="contenido">
+                <ul>
+                    <li>Introducci&oacute;n</li>
+                    <li>Intenci&oacute;n del curso</li>
+                    <li>Aspectos hist&oacute;ricos</li>
+                    <li>Sistem&aacute;tica y clasificaci&oacute;n</li>
+                    <li>Morfolog&iacute;a (observaci&oacute;n de l&aacute;minas delgadas con corales)</li>
+                    <li>M&eacute;todos</li>
+                    <li>(programas de computaci&oacute;n para medir, tratar im&aacute;genes, preparar l&aacute;minas)
+                    </li>
+                    <li>Taxonom&iacute;a</li>
+                    <li>(observaci&oacute;n de l&aacute;minas delgadas)</li>
+                    <li>Paleoecolog&iacute;a</li>
+                    <li>Paleobiogeograf&iacute;a</li>
+                    <li>Los materiales del curso</li>
+                </ul>
+            </div>
+        </div><!--fin de tema-->
 
-                    15:00-17:00h
-                    <br>
-                    Práctica
-                </th>
-            </tr>
-            <tr>
-                <td>
+    </div> <!-- TERMINA EL CONTENEDOR DE LOS SUBTEMAS -->
 
-                    Lunes <br>
-                    19 de Junio
-                </td>
-                <td>
-
-                    Introducción <br>
-                    Intención del curso <br>
-                    Aspectos históricos <br>
-                    Sistemática y clasificación <br>
-                </td>
-                <td>
-
-                    Equipo de laboratorio <br>
-                    Examinación de muestras con el microscopio
-                </td>
-            </tr>
-            <tr>
-                <td>
-
-
-                    Martes <br>
-                    20 de Junio
-                </td>
-                <td>
-
-                    Morfología (observación de láminas delgadas con corales)
-                </td>
-                <td>
-
-                    Preparación de las muestras: <br>
-                    Cortes orientados y superficies pulidas <br>
-                    Examinar las muestras con el microscopio
-                </td>
-            </tr>
-            <tr>
-                <td>
-
-
-                    Miércoles <br>
-                    21 de Junio
-                </td>
-                <td>
-
-                    Métodos <br>
-                    (programas de computación para medir, tratar imágenes, preparar láminas)
-                </td>
-                <td>
-
-                    Preparación de acetatos <br>
-                    Pegar muestras para láminas delgadas <br>
-                    Examinar los acetatos con el microscopio
-                </td>
-            </tr>
-            <tr>
-                <td>
-
-                    Jueves <br>
-                    22 de Junio
-                </td>
-                <td>
-
-                    Taxonomía <br>
-                    (observación de láminas delgadas)
-                </td>
-                <td>
-
-                    Preparación de láminas delgadas <br>
-                    Examinar las láminas con el microscopio
-                </td>
-            </tr>
-            <tr>
-                <td>
-
-                    Viernes <br>
-                    23 de Junio
-                </td>
-                <td>
-
-                    Paleoecología <br>
-                    Paleobiogeografía <br>
-                    Los materiales del curso
-                </td>
-                <td>
-
-                    Determinación de las muestras hasta el nivel de género
-                </td>
-            </tr>
-        </tbody>
-    </table>
+    <!-- Por si hay temario extendido (pdf), si no, favor de comentarlo. -->
+    <a class="formato-link mt-6" href="../../cursos/IntroduccionaLosCoralesFosiles/TEMARIOEXTENDIDO_IntroALosCoralesFosiles_1raEd.pdf"
+        download="Documento-con-descripcion">
+        Temario extendido
+    </a>
 </section><!-- TERMINA LA SECCIÓN DEL TEMARIO -->
 
 
@@ -352,16 +296,19 @@ Correo electrónico: rafael.villa@ciencias.unam.mx" //Agregar el Nombre <br> cor
         </div>
 
         <div class="pasos">
-            <div class="relative after:content-[''] after:absolute after:top-0 md:after:right-0 md:after:left-0 after:w-px after:h-full md:after:m-auto after:border-l-2 after:border-dashed after:border-gray-200 dark:after:border-gray-700 ml-3 md:ml-0">
+            <div
+                class="relative after:content-[''] after:absolute after:top-0 md:after:right-0 md:after:left-0 after:w-px after:h-full md:after:m-auto after:border-l-2 after:border-dashed after:border-gray-200 dark:after:border-gray-700 ml-3 md:ml-0">
                 <!--Start content-->
-                <div class="ml-8 md:ml-0 relative after:content-[''] after:absolute after:top-[9px] after:rounded-full after:z-10 after:w-2.5 after:h-2.5 after:bg-indigo-600 md:after:mx-auto md:after:right-0 md:after:left-0 after:-left-9 before:content-[''] before:absolute md:before:mx-auto md:before:right-0 md:before:left-0 before:-left-11 before:rounded-full before:z-10 before:border-2 before:border-dashed before:border-gray-200 dark:before:border-gray-700 before:top-0 before:w-7 before:h-7 before:bg-white dark:before:bg-slate-900">
+                <div
+                    class="ml-8 md:ml-0 relative after:content-[''] after:absolute after:top-[9px] after:rounded-full after:z-10 after:w-2.5 after:h-2.5 after:bg-indigo-600 md:after:mx-auto md:after:right-0 md:after:left-0 after:-left-9 before:content-[''] before:absolute md:before:mx-auto md:before:right-0 md:before:left-0 before:-left-11 before:rounded-full before:z-10 before:border-2 before:border-dashed before:border-gray-200 dark:before:border-gray-700 before:top-0 before:w-7 before:h-7 before:bg-white dark:before:bg-slate-900">
                     <div class="paso-n grid md:grid-cols-2">
                         <h3 class="md:text-right md:mr-8">Paso 1</h3>
 
                         <div class="md:ml-8 md:mt-0">
                             <h4>Realizar el pago en línea mediante "Plaza
                                 Prometeo", la tienda de la Facultad de Ciencias</h4>
-                            <p><a href="https://tienda.fciencias.unam.mx" target="_blank" class="btn btn-link text-indigo-600 hover:text-red-600 after:bg-indigo-600 duration-500 ease-in-out">tienda.fciencias.unam.mx</a>
+                            <p><a href=<?php echo $link_plaza_prometeo ?> target="_blank"
+                                    class="formato-link">tienda.fciencias.unam.mx</a>
                             </p>
                         </div>
                     </div>
@@ -372,7 +319,7 @@ Correo electrónico: rafael.villa@ciencias.unam.mx" //Agregar el Nombre <br> cor
                         <div class="md:ml-8 md:mt-0">
                             <h4>Registrarse en este formato de inscripción</h4>
                             <p>(únicamente si usted ya hizo el pago)</p>
-                            <p><a href=<?php echo $formato_inscripcion ?> target="_blank" class="btn btn-link text-indigo-600 hover:text-red-600 after:bg-indigo-600 duration-500 ease-in-out">Formato
+                            <p><a href=<?php echo $formato_inscripcion ?> target="_blank" class="formato-link">Formato
                                     de inscripción</a></p>
                         </div>
                     </div>
@@ -394,14 +341,19 @@ Correo electrónico: rafael.villa@ciencias.unam.mx" //Agregar el Nombre <br> cor
         <h2 class="md:text-3xl md:leading-normal">¿Necesitas ayuda?</h2>
         <p>Contáctanos</p>
     </div>
-    <div class="informacion grid md:grid-cols-2 grid-cols-1 mt-8 md:gap-[30px]" id="accordion-collapse" data-accordion="collapse">
+    <div class="informacion grid md:grid-cols-2 grid-cols-1 mt-8 md:gap-[30px]" id="accordion-collapse"
+        data-accordion="collapse">
         <div>
             <div>
                 <h2 id="info-admin-col">
-                    <button type="button" data-accordion-target="#info-admin" aria-expanded="false" aria-controls="info-admin">
+                    <button type="button" data-accordion-target="#info-admin" aria-expanded="false"
+                        aria-controls="info-admin">
                         <span>Información administrativa</span>
-                        <svg data-accordion-icon class="w-4 h-4 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                            <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+                        <svg data-accordion-icon class="w-4 h-4 shrink-0" fill="currentColor" viewBox="0 0 20 20"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                                clip-rule="evenodd"></path>
                         </svg>
                     </button>
                 </h2>
@@ -409,7 +361,9 @@ Correo electrónico: rafael.villa@ciencias.unam.mx" //Agregar el Nombre <br> cor
                     <div class="p-5">
                         <p class="text-slate-400 dark:text-gray-400">Secretaría de Educación Abierta y Continua,
                             Facultad de Ciencias, UNAM.<br>
-                            Sitio web: <a class="text-cyan-600 underline" href="http://www.educontinua.fciencias.unam.mx" target="_blank">www.educontinua.fciencias.unam.mx</a><br>
+                            Sitio web: <a class="text-cyan-600 underline"
+                                href="http://www.educontinua.fciencias.unam.mx"
+                                target="_blank">www.educontinua.fciencias.unam.mx</a><br>
                             Edificio Tlahuizcalpan, 1er piso (saliendo del elevador a la izquierda).<br>
                             Teléfono: 56 66 47 89 y 56 22 53 86<br>
                             Correo electrónico: educontinua.of@ciencias.unam.mx</p>
@@ -420,16 +374,21 @@ Correo electrónico: rafael.villa@ciencias.unam.mx" //Agregar el Nombre <br> cor
         <div>
             <div>
                 <h2 id="info-acad-col">
-                    <button type="button" data-accordion-target="#info-acad" aria-expanded="true" aria-controls="info-acad">
+                    <button type="button" data-accordion-target="#info-acad" aria-expanded="true"
+                        aria-controls="info-acad">
                         <span>Información académica</span>
-                        <svg data-accordion-icon class="w-4 h-4 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                            <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+                        <svg data-accordion-icon class="w-4 h-4 shrink-0" fill="currentColor" viewBox="0 0 20 20"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                                clip-rule="evenodd"></path>
                         </svg>
                     </button>
                 </h2>
                 <div id="info-acad" class="hidden" aria-labelledby="info-acad-col">
                     <div class="p-5">
-                        <p class="text-slate-400 dark:text-gray-400"><?php echo $info_academica ?>
+                        <p class="text-slate-400 dark:text-gray-400">
+                            <?php echo $info_academica ?>
                         </p>
                     </div>
                 </div>
