@@ -64,7 +64,7 @@ genera_encabezado_de_pagina("assets/images/pages/bg_cursos.webp", "Cursos");
         "Estadística Aplicada al Diseño y Análisis de Estudios
         Experimentales",
         "7ma. Edición - Curso teórico - práctico",
-        "cursos/EstadisticaAplicadaAlDiseñoyAnalisisDeEstudiosExperimentales/EstadisticaAplicadaAlDiseñoyAnalisisDeEstudiosExperimentales17.php",
+        "cursos/EstadisticaAplicadaalDiseno/EstadisticaAplicadaalDiseno7ed.php",
         "Del 4 de marzo al 27 de mayo de 2023",
         "Contrario a lo que se piensa, la estadística no es la última
         etapa de una investigación, sino más bien es parte fundamental
@@ -85,83 +85,6 @@ genera_encabezado_de_pagina("assets/images/pages/bg_cursos.webp", "Cursos");
         )
       );
       ?>
-
-      <!-- CURSO Estadística aplicada al diseño y análisis de estudios
-                experimentales-->
-      <div class="group curso enCurso">
-        <div class="curso_imagen">
-          <div class="curso_imagen_adapter">
-            <img src="assets/images/cursos/bg-estadica-aplicada-diseño-est-exp.webp" alt="" />
-          </div>
-          <div class="curso_imagen-backgroud">
-          </div>
-          <div class="curso_imagen-data">
-            <div>
-              <img src="assets/images/instructores/usr-f.jpg" alt="" />
-              <div class="ml-3">
-                <a href="assets/curriculums_docentes/MaLourdesBarbosaSal.pdf" target="_blank">Dra. María de Lourdes
-                  Barbosa
-                </a>
-                <span>Doctora en Ciencias Biológicas</span>
-              </div>
-              <div class="ml-3">
-                <a href="assets/curriculums_docentes/MaGuadalupeCamachoSan.pdf" target="_blank">Biol. María Guadalupe
-                  Camacho</a>
-                <span>Licenciatura en Biología</span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="curso_contenido">
-          <a
-            href="cursos/EstadisticaAplicadaAlDiseñoyAnalisisDeEstudiosExperimentales/EstadisticaAplicadaAlDiseñoyAnalisisDeEstudiosExperimentales17.php">
-            Estadística Aplicada al Diseño y Análisis de Estudios
-            Experimentales</a>
-          <a
-            href="cursos/EstadisticaAplicadaAlDiseñoyAnalisisDeEstudiosExperimentales/EstadisticaAplicadaAlDiseñoyAnalisisDeEstudiosExperimentales17.php">7ma.
-            Edición</a>
-          <p class="curso_contenido-fecha">
-            Del 4 de marzo al 27 de mayo de 2023
-          </p>
-          <p class="curso_contenido-descripcion">
-            Contrario a lo que se piensa, la estadística no es la última
-            etapa de una investigación, sino más bien es parte fundamental
-            de la planeación de ésta; sus objetivos, modelos a emplear y
-            análisis a efectuar. Si se empleó la estadística de manera
-            correcta, los resultados deberán responder a los objetivos.
-          </p>
-          <p class="curso_contenido-subdescripcion">
-            Curso teórico - práctico.<br />Dirigido a: Profesionistas y
-            estudiantes en el área de ciencias experimentales y de
-            investigación.
-          </p>
-          <a href="cursos/EstadisticaAplicadaAlDiseñoyAnalisisDeEstudiosExperimentales/EstadisticaAplicadaAlDiseñoyAnalisisDeEstudiosExperimentales17.php"
-            target="_blank" class="curso_contenido-button btn btn-link">Ver
-            curso</a>
-          <div class="curso_contenido-horario">
-            <ul>
-              <li class="mr-3">
-                <i class="uil uil-calendar-alt "></i>
-                <span>Sábado</span>
-              </li>
-              <li class="mr-3">
-                <i class="uil uil-clock "></i>
-                <span>08-12h</span>
-              </li>
-              <li class="flex items-center">
-                <i class="uil uil-map-marker "></i>
-                <span>Virtual</span>
-              </li>
-            </ul>
-          </div>
-          <div class="curso_contenido-precio">
-            <div>
-              <span>$5,800</span>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- CURSO FIN -->
 
       <!-- CURSO Dibujo de la naturaleza-->
       <div class="group curso pasados">

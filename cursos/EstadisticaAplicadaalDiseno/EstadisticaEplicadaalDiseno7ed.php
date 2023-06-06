@@ -6,12 +6,12 @@ include '../../includes/templates/funciones.php';
 
 <?php
 
-$titulo_curso = "Introducción a la Estadística en la Biología";
-$imagen_curso = "../../../assets/images/cursos/bg-EstadisticaEnBiologia1.webp"; //Agregar imagen del curso, tamaño forzoso de 19
-$edicion = "2da. Edición";
-$fecha = "Fechas por definir";
-$precio_unam = "2,000"; //No es necesario poner mxn
-$precio_general = "2,500"; //No es necesario poner mxn
+$titulo_curso = "Rescate y Rehabilitación de Fauna Silvestre";
+$imagen_curso = "../../../assets/images/cursos/bg-FaunaSilvestre.webp"; //Agregar imagen del curso, tamaño forzoso de 19
+$edicion = "6ta. Edición";
+$fecha = "Del 17 de abril al 26 de junio de 2023";
+$precio_unam = "2,700"; //No es necesario poner mxn
+$precio_general = "3,200"; //No es necesario poner mxn
 //Si no tiene descuento, favor de poner NO en precio_unam_descuento.
 //ej: $precio_unam_descuento = "NO";
 $precio_unam_descuento = "NO"; //No es necesario poner mxn
@@ -20,23 +20,22 @@ $frase_descuento = "15% de descuento por concepto de pronto pago (hasta el 3 de
 abril)"; //Frase del porcentaje de descuento
 $limite_fecha_descuento = "31-05-2023"; //Formato date("dd-mm-Yyyy")
 $link_plaza_prometeo = "https://tienda.fciencias.unam.mx";
-$dias = "Lunes, miércoles y jueves"; //Puedes poner Lunes, Martes, Miercoles, Jueves y Viernes.
-$horario = "15:00 a 17:00 hrs"; //Lo puedes poner en el formato que gustes. No debe ser mucha info. 
+$dias = "Lunes"; //Puedes poner Lunes, Martes, Miercoles, Jueves y Viernes.
+$horario = "16:00   a 19:00 hrs"; //Lo puedes poner en el formato que gustes. No debe ser mucha info. 
 //Si es demasiada puedes agregar más detalles despues donde esta la sección de Requisitos, Horario y Lugar, 
 //solo quitas la variable, puedes ver el ejemplo de Cursos en cuadernos de jupyter
-$no_horas = "20"; //No es necesario poner hrs
+$no_horas = "27"; //No es necesario poner hrs
 $modalidad = "Virtual";
 $max_alumnos = "60"; //Cantidad de alumnos maxima
 $min_alumnos = "15"; //Cantidad de alumnos minima
-$descripcion = "A menudo la formación que han recibido durante la carrera los jóvenes investigadores tiene notables carencias en los aspectos prácticos de diseño experimental, análisis de datos e interpretación de resultados, lo cual limita de manera decisiva el provecho científico futuro de sus actividades. Eso es especialmente cierto en nuestros días, ya que vivimos una revolución importante en el campo de la metodología estadística e incluso en el procedimiento de hacer inferencia (el salto matemático desde las propiedades de nuestra muestra de datos a las de los parámetros desconocidos de la población, nuestro objeto de estudio), que afecta no sólo a los ecólogos sino a muchas otras disciplinas científicas como la medicina, la psicología o la sociología. Recordamos aquí, que la vieja idea de la existencia de una sola herramienta estadística (la comprobación de hipótesis nulas sin contenido biológico) ha de cambiarse hoy por el paradigma ejemplificado mediante la “caja de herramientas” en la que existen diversos tipos de herramientas a nuestra disposición, cuya elección depende de la complejidad de nuestros problemas. Dado que la información está dispersa en numerosos artículos y tratados específicos de estadística y diseño experimental, la idea aquí es tratar de presentar un guion actualizado de las principales herramientas disponibles para resolver contrastes de hipótesis con contenido biológico en ecología, identificando la utilidad y limitaciones de cada una de ellas, con el fin de mejorar la cultura estadística de los jóvenes investigadores.";
-$objetivo = "Aprender a identificar, usar y aplicar correctamente las pruebas estadísticas en un contexto biológico.";
-$dirigido_a = "Estudiantes, profesionistas, tomadores de decisiones, manejadores de recursos, biólogos, ecólogos, administradores de áreas naturales, administradores de recursos naturales.";
-$requisitos = "Licenciatura (mínimo 60% de créditos).";
+$descripcion = "Las actividades.";
+$objetivo = "El participante adquirirá .";
+$dirigido_a = "Biólogos";
+$requisitos = "Estudiantes.";
 $lugar = "Zoom"; //El lugar donde se va a impartir, si son varios, agregar todos y separar con <br>
-$formato_inscripcion = "https://forms.gle/gFuD2JAVD5ZQF3HR8"; //Pegar el formato de inscripcion
-$info_academica = "Dr. Alejandro Villegas Castillo<br>
-Correo electrónico: alejandrovillegas@ciencias.unam.mx"; //Agregar el Nombre <br> correo, dando un br para saltar de linea.
-$ponentes_principales_presentacion = array(array("Dr. Alejandro Villegas Castillo", "../../../assets/curriculums_docentes/AlejandroVillegasCastillo.pdf"))
+$formato_inscripcion = "https://forms.gle/wwn996LgigXLKmsM6"; //Pegar el formato de inscripcion
+$info_academica = "Dra. Rosalía Pastor Nieto <br> Correo electrónico: rosalia.pastor@gmail.com"; //Agregar el Nombre <br> correo, dando un br para saltar de linea.
+$ponentes_principales_presentacion = array(array("Juana", "../../../assets/curriculums_docentes/JulioPrieto.pdf"))
     //Es necesario poner el ../../../ en las url de los curriculums, para acceder a la carpeta.
     ?>
 
@@ -254,103 +253,46 @@ $ponentes_principales_presentacion = array(array("Dr. Alejandro Villegas Castill
     <h2>Temario</h2>
     <div class="secciones grid md:grid-cols-2 grid-cols-1">
         <div> <!--Tema-->
-            <h3>I. Introducción a la estadística</h3>
+            <h3>I. Aquí va el tema</h3>
             <div class="contenido">
                 <h4>Temas</h4>
                 <ul>
-                    <li>I.1 Conceptos b&aacute;sicos de estad&iacute;stica</li>
-                    <li>I.2 Tipos de datos</li>
-                    <li>I.3 Tipos de variables</li>
+                    <li>I.1 Aquí va el subtema.
+                        <ul>
+                            <li>sub sub tema</li>
+                        </ul>
+                    </li>
+                    <li>I.2. Clasificación y aplicaciones de los dispositivos móviles.</a></li>
+                    <li>I.3. Plataformas de programación para dispositivos móviles.</li>
+                    <li>I.4. Presentación de la plataforma Android.</li>
+                    <li>I.5. La plataforma Android, entorno, anatomía y las capas de su arquitectura..</li>
                 </ul>
             </div>
         </div><!--fin de tema-->
         <div> <!--Tema-->
-            <h3>II. Estadística descriptiva e inferencial</h3>
+            <h3>I. Aquí va el tema</h3>
             <div class="contenido">
                 <h4>Temas</h4>
                 <ul>
-                    <li>II.1 Medidas de tendencia central</li>
-                    <li>II.2 Medidas de dispersi&oacute;n</li>
-                </ul>
-            </div>
-        </div><!--fin de tema-->
-        <div> <!--Tema-->
-            <h3>III. La varianza como base del análisis estadístico</h3>
-            <div class="contenido">
-                <h4>Temas</h4>
-                <ul>
-                    <li>III.1 Qu&eacute; es y para qu&eacute; sirve la varianza</li>
-                    <li>III.2 Pruebas de homocedasticidad de varianzas</li>
-                    <li>III.3 Prueba F para varianzas</li>
-                </ul>
-            </div>
-        </div><!--fin de tema-->
-        <div> <!--Tema-->
-            <h3>IV. Pruebas de normalidad</h3>
-            <div class="contenido">
-                <h4>Temas</h4>
-                <ul>
-                    <li>IV.1 Qu&eacute; son y para qu&eacute; sirven las pruebas de normalidad</li>
-                    <li>IV.2 Pruebas de normalidad (Shapiro-Wilk, Anderson-Darling, etc).</li>
-                </ul>
-            </div>
-        </div><!--fin de tema-->
-        <div> <!--Tema-->
-            <h3>V. Estadística Paramétrica: Análisis de varianzas</h3>
-            <div class="contenido">
-                <h4>Temas</h4>
-                <ul>
-                    <li>V.1 ANOVA de una y dos v&iacute;as</li>
-                </ul>
-            </div>
-        </div><!--fin de tema-->
-        <div> <!--Tema-->
-            <h3>VI. Estadística no paramétrica: Análisis de varianzas</h3>
-            <div class="contenido">
-                <h4>Temas</h4>
-                <ul>
-                    <li>VI.1 -Prueba Kolmogorov-Smirnov</li>
-                    <li>VI.2 Prueba Mann-Whitney</li>
-                    <li>VI.3 Prueba Kruskal-Wallis</li>
-                </ul>
-            </div>
-        </div><!--fin de tema-->
-        <div> <!--Tema-->
-            <h3>VII. Modelo Lineal (regresión)</h3>
-            <div class="contenido">
-                <h4>Temas</h4>
-                <ul>
-                    <li>VII.1 Regresi&oacute;n lineal m&uacute;ltiple</li>
-                    <li>VII.2 Regresi&oacute;n multivariada m&uacute;ltiple</li>
-                </ul>
-            </div>
-        </div><!--fin de tema-->
-        <div> <!--Tema-->
-            <h3>VIII. Modelos multidimensionales</h3>
-            <div class="contenido">
-                <h4>Temas</h4>
-                <ul>
-                    <li>VIII.1 An&aacute;lisis de componentes principales</li>
-                    <li>VIII.2 An&aacute;lisis de correspondencia</li>
-                </ul>
-            </div>
-        </div><!--fin de tema-->
-        <div> <!--Tema-->
-            <h3>IX. Modelos predictivos</h3>
-            <div class="contenido">
-                <h4>Temas</h4>
-                <ul>
-                    <li>IX.1 Chi-cuadrada de bondad de ajuste</li>
+                    <li>I.1 Aquí va el subtema.
+                        <ul>
+                            <li>sub sub tema</li>
+                        </ul>
+                    </li>
+                    <li>I.2. Clasificación y aplicaciones de los dispositivos móviles.</a></li>
+                    <li>I.3. Plataformas de programación para dispositivos móviles.</li>
+                    <li>I.4. Presentación de la plataforma Android.</li>
+                    <li>I.5. La plataforma Android, entorno, anatomía y las capas de su arquitectura..</li>
                 </ul>
             </div>
         </div><!--fin de tema-->
     </div> <!-- TERMINA EL CONTENEDOR DE LOS SUBTEMAS -->
 
     <!-- Por si hay temario extendido (pdf), si no, favor de comentarlo. -->
-    <!-- <a class="formato-link mt-6" href="assets/pdf/formatos/FormatoPresentacionCursoo.docx"
+    <a class="formato-link mt-6" href="assets/pdf/formatos/FormatoPresentacionCursoo.docx"
         download="Documento-con-descripcion">
         Temario extendido
-    </a> -->
+    </a>
 </section><!-- TERMINA LA SECCIÓN DEL TEMARIO -->
 
 
@@ -358,7 +300,7 @@ $ponentes_principales_presentacion = array(array("Dr. Alejandro Villegas Castill
 <section class="inscripcion md:py-24" id="inscripcion">
     <div class="container">
         <div class="titulo">
-            <h2>Inscripción</h2>
+            <h2 class="md:text-3xl md:leading-normal">Inscripción</h2>
         </div>
 
         <div class="pasos">
@@ -369,12 +311,10 @@ $ponentes_principales_presentacion = array(array("Dr. Alejandro Villegas Castill
                     class="ml-8 md:ml-0 relative after:content-[''] after:absolute after:top-[9px] after:rounded-full after:z-10 after:w-2.5 after:h-2.5 after:bg-indigo-600 md:after:mx-auto md:after:right-0 md:after:left-0 after:-left-9 before:content-[''] before:absolute md:before:mx-auto md:before:right-0 md:before:left-0 before:-left-11 before:rounded-full before:z-10 before:border-2 before:border-dashed before:border-gray-200 dark:before:border-gray-700 before:top-0 before:w-7 before:h-7 before:bg-white dark:before:bg-slate-900">
                     <div class="paso-n grid md:grid-cols-2">
                         <h3 class="md:text-right md:mr-8">Paso 1</h3>
-
                         <div class="md:ml-8 md:mt-0">
-                            <h4>Realizar el pago en línea mediante "Plaza
-                                Prometeo", la tienda de la Facultad de Ciencias</h4>
-                            <p><a href=<?php echo $link_plaza_prometeo ?> target="_blank"
-                                    class="formato-link">tienda.fciencias.unam.mx</a>
+                            <h4>Solicita el formato de preregistro a:</h4>
+                            <p><a href="mailto:cursosydiplomados@funam.mx" target="_blank"
+                                    class="btn btn-link text-indigo-600 hover:text-red-600 after:bg-indigo-600 duration-500 ease-in-out">cursosydiplomados@funam.mx</a>
                             </p>
                         </div>
                     </div>
@@ -383,21 +323,29 @@ $ponentes_principales_presentacion = array(array("Dr. Alejandro Villegas Castill
                         <h3 class="md:text-right md:mr-8">Paso 2</h3>
 
                         <div class="md:ml-8 md:mt-0">
-                            <h4>Registrarse en este formato de inscripción</h4>
-                            <p>(únicamente si usted ya hizo el pago)</p>
-                            <p><a href=<?php echo $formato_inscripcion ?> target="_blank" class="formato-link">Formato
-                                    de inscripción</a></p>
+                            <h4>Datos bancarios para depósito en sucursal, practicajas, transferencia bancaria:</h4>
+                            
+                            <p>Banco: CitiBanamex<br>Beneficiario: Fundación UNAM, A.C.<br>Sucursal: 870<br>
+                                Cuenta: 572529<br>Clabe: 00 21 80 08 70 05 72 52 92<br>Referencia: 829.411.100</p>
+
+                            <p>En caso de que desees efectuarlo con tarjeta de crédito y/o débito deberás acudir a las
+                                oficinas de Fundación UNAM en horario de lunes a jueves de 9:30 a 17:30 y viernes de
+                                9:30 a 14:30, ubicada en Calle Pennsylvania 203, Col. Nápoles, Alcaldía Benito Juárez,
+                                C.P. 03810.</p>
+
+                            <p>También puedes efectuarlo vía telefónica al call center 55 53 400 904 o al teléfono 55
+                                4575 1879</p>
+
+
                         </div>
                     </div>
-
                 </div>
                 <!--End content-->
-
             </div>
         </div>
-        <p class="advertencia"><i class="uil uil-exclamation-circle"></i>En caso de
-            cancelación, procederá la devolución de lo pagado con los criterios administrativos de la Facultad de
-            Ciencias.</p>
+        <p class="advertencia"><i class="uil uil-exclamation-circle"></i>Comunidad UNAM: En caso de formar parte de la
+            Comunidad UNAM (alumnos, exalumnos, académicos, personal administrativo), deberás presentar una
+            identificación que te acredite como tal.</p>
     </div>
 </section><!--end section-->
 <!-- End -->
@@ -425,14 +373,21 @@ $ponentes_principales_presentacion = array(array("Dr. Alejandro Villegas Castill
                 </h2>
                 <div id="info-admin" class="hidden" aria-labelledby="info-admin-col">
                     <div class="p-5">
-                        <p class="text-slate-400 dark:text-gray-400">Secretaría de Educación Abierta y Continua,
-                            Facultad de Ciencias, UNAM.<br>
+                        <p class="text-slate-400 dark:text-gray-400"><span class="font-semibold">Secretaría de Educación Abierta y Continua,
+                            Facultad de Ciencias, UNAM.</span><br>
                             Sitio web: <a class="text-cyan-600 underline"
                                 href="http://www.educontinua.fciencias.unam.mx"
                                 target="_blank">www.educontinua.fciencias.unam.mx</a><br>
                             Edificio Tlahuizcalpan, 1er piso (saliendo del elevador a la izquierda).<br>
                             Teléfono: 56 66 47 89 y 56 22 53 86<br>
                             Correo electrónico: educontinua.of@ciencias.unam.mx</p>
+                        <p class="text-slate-400 dark:text-gray-400 mt-4"><span class="font-semibold">Fundación UNAM</span><br>
+                            Sitio web:<a class="text-cyan-600 underline" href="https://www.fundacionunam.org.mx/"
+                                target="_blank"> www.fundacionunam.org.mx/educacion-continua</a>
+                            Correo electrónico: cursosydiplomados@funam.mx
+                            Correo electrónico: educacioncontinua@ciencias.unam.mx
+                            WhatsApp: 55-4575-1879
+                        </p>
                     </div>
                 </div>
             </div>

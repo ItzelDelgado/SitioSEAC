@@ -11,16 +11,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
     <!-- favicon -->
-    <link rel="shortcut icon" href="../../assets/images/favicon.png" />
+    <link rel="shortcut icon" href="../../../assets/images/favicon.png" />
 
     <!-- Css -->
-    <link href="../../assets/libs/tiny-slider/tiny-slider.css" rel="stylesheet" />
-    <link href="../../assets/libs/tobii/css/tobii.min.css" rel="stylesheet" />
+    <link href="../../../assets/libs/tiny-slider/tiny-slider.css" rel="stylesheet" />
+    <link href="../../../assets/libs/tobii/css/tobii.min.css" rel="stylesheet" />
     <!-- Main Css -->
-    <link href="../../assets/libs/@iconscout/unicons/css/line.css" type="text/css" rel="stylesheet" />
-    <link rel="stylesheet" href="../../assets/css/icons.css" />
-    <link rel="stylesheet" href="../../assets/css/tailwind.css" />
-    <link rel="stylesheet" href="../../assets/css/style.css">
+    <link href="../../../assets/libs/@iconscout/unicons/css/line.css" type="text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="../../../assets/css/icons.css" />
+    <link rel="stylesheet" href="../../../assets/css/tailwind.css" />
+    <link rel="stylesheet" href="../../../assets/css/style.css">
 </head>
 
 <body class="font-nunito text-base text-black dark:text-white dark:bg-slate-900">
@@ -39,12 +39,12 @@
     <nav id="topnav" class="defaultscroll is-sticky" style="z-index: 100;">
         <div class="container">
             <!-- Logo container-->
-            <a class="logo pl-0" href="../../index.php">
+            <a class="logo pl-0" href="../../../index.php">
                 <span class="inline-block dark:hidden">
-                    <img src="../../assets/images/logo-dark.png" class="l-dark" height="24" alt="">
-                    <img src="../../assets/images/logo-light.png" class="l-light" height="24" alt="">
+                    <img src="../../../assets/images/logo-dark.png" class="l-dark" height="24" alt="">
+                    <img src="../../../assets/images/logo-light.png" class="l-light" height="24" alt="">
                 </span>
-                <img src="../../assets/images/logo-light.png" height="24" class="hidden dark:inline-block" alt="">
+                <img src="../../../assets/images/logo-light.png" height="24" class="hidden dark:inline-block" alt="">
             </a>
 
             <!-- End Logo container-->
@@ -65,14 +65,14 @@
             <div id="navigation">
                 <!-- Navigation Menu-->
                 <ul class="navigation-menu nav-light">
-                    <li><a href="../../index.php" class="sub-menu-item">Inicio</a></li>
+                    <li><a href="../../../index.php" class="sub-menu-item">Inicio</a></li>
                     <li class="has-submenu parent-parent-menu-item">
                         <a href="javascript:void(0)">Oferta académica</a><span class="menu-arrow"></span>
                         <ul class="submenu">
-                            <li class="has-submenu parent-menu-item"><a href="../../cursos.php"> Cursos </a><span class=""></span></li>
-                            <li class="has-submenu parent-menu-item"><a href="../../diplomados.php"> Diplomados</a><span class=""></span></li>
-                            <li class="has-submenu parent-menu-item"><a href="../../talleres.php">Talleres</a><span class=""></span></li>
-                            <li class="has-submenu parent-menu-item"><a href="../../coloquios.php">Coloquios</a><span class=""></span></li>
+                            <li class="has-submenu parent-menu-item"><a href="../../../cursos.php"> Cursos </a><span class=""></span></li>
+                            <li class="has-submenu parent-menu-item"><a href="../../../diplomados.php"> Diplomados</a><span class=""></span></li>
+                            <li class="has-submenu parent-menu-item"><a href="../../../talleres.php">Talleres</a><span class=""></span></li>
+                            <li class="has-submenu parent-menu-item"><a href="../../../coloquios.php">Coloquios</a><span class=""></span></li>
                         </ul>
                     </li>
 
@@ -94,7 +94,7 @@
                             <li class="has-submenu parent-menu-item"><a href="javascript:void(0)">IMPARTIR
                                     PROGRAMA</a><span class="submenu-arrow"></span>
                                 <ul class="submenu">
-                                    <li><a href="../../profs-edu-continua.php" class="sub-menu-item">EDUCACIÓN
+                                    <li><a href="../../../profs-edu-continua.php" class="sub-menu-item">EDUCACIÓN
                                             CONTINUA</a></li>
                                 </ul>
                             </li>
@@ -103,13 +103,13 @@
                     <li class="has-submenu parent-parent-menu-item">
                         <a href="javascript:void(0)">NOSOTROS</a><span class="menu-arrow"></span>
                         <ul class="submenu">
-                            <li class="has-submenu parent-menu-item"><a href="../../equipo.php">PRESENTACIÓN</a><span class=""></span></li>
-                            <li class="has-submenu parent-menu-item"><a href="../../normatividad.php">NORMATIVIDAD</a><span class=""></span></li>
-                            <li class="has-submenu parent-menu-item"><a href="../../ubicacion.php">UBICACIÓN</a><span class=""></span></li>
-                            <li class="has-submenu parent-menu-item"><a href="../../contacto.php">CONTACTO</a><span class=""></span></li>
+                            <li class="has-submenu parent-menu-item"><a href="../../../equipo.php">PRESENTACIÓN</a><span class=""></span></li>
+                            <li class="has-submenu parent-menu-item"><a href="../../../normatividad.php">NORMATIVIDAD</a><span class=""></span></li>
+                            <li class="has-submenu parent-menu-item"><a href="../../../ubicacion.php">UBICACIÓN</a><span class=""></span></li>
+                            <li class="has-submenu parent-menu-item"><a href="../../../contacto.php">CONTACTO</a><span class=""></span></li>
                         </ul>
                     </li>
-                    <li><a href="../../contacto.php" class="sub-menu-item">Contacto</a></li>
+                    <li><a href="../../../contacto.php" class="sub-menu-item">Contacto</a></li>
                     <li class="search">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                             <path d="M23.832 19.641l-6.821-6.821c2.834-5.878-1.45-12.82-8.065-12.82-4.932 0-8.946 4.014-8.946 8.947 0 6.508 6.739 10.798 12.601 8.166l6.879 6.879c1.957.164 4.52-2.326 4.352-4.351zm-14.886-4.721c-3.293 0-5.973-2.68-5.973-5.973s2.68-5.973 5.973-5.973c3.294 0 5.974 2.68 5.974 5.973s-2.68 5.973-5.974 5.973z" />

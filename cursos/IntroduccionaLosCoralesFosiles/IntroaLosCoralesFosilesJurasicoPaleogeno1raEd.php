@@ -281,8 +281,7 @@ $ponentes_principales_presentacion = array(array("Dr. Hannes Loeser, UNAM/IGL", 
     </div> <!-- TERMINA EL CONTENEDOR DE LOS SUBTEMAS -->
 
     <!-- Por si hay temario extendido (pdf), si no, favor de comentarlo. -->
-    <a class="formato-link mt-6" href="../../cursos/IntroduccionaLosCoralesFosiles/TEMARIOEXTENDIDO_IntroALosCoralesFosiles_1raEd.pdf"
-        download="Documento-con-descripcion">
+    <a class="formato-link mt-6" target="_blank" href="../../cursos/IntroduccionaLosCoralesFosiles/TEMARIOEXTENDIDO_IntroALosCoralesFosiles_1raEd.pdf">
         Temario extendido
     </a>
 </section><!-- TERMINA LA SECCIÓN DEL TEMARIO -->

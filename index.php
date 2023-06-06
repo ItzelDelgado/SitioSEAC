@@ -149,7 +149,7 @@ include './includes/templates/funciones.php';
         "assets/images/cursos/bg-primeros-auxilios.webp",
         "Primeros Auxilios, RCP y uso de DAE",
         "2da. Edición",
-        "cursos/PrimerosAuxilios/PrimerosAuxilios2daEd.php",
+        "cursos/PrimerosAuxilios/2daEd/PrimerosAuxilios2daEd.php",
         "17 y 24 de junio de 2023",
         "La atención rápida y eficiente en caso de accidentes o enfermedades
         agudas es crucial para reducir los riesgos de secuelas. Una comunidad capacitada en primeros auxilios

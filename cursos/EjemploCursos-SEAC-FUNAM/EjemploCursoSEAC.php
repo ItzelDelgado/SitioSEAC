@@ -3,42 +3,41 @@ include '../../includes/templates/header.php';
 include '../../includes/templates/funciones.php';
 ?>
 
+
 <?php
-$titulo_curso = "Primeros Auxilios, RCP y uso de DAE";
-$imagen_curso = "../../assets/images/cursos/bg-primeros-auxilios.webp"; //Agregar imagen del curso, tamaño forzoso de 19
-$edicion = "1ra. Edición";
-$fecha = "2, 4, 9 y 11 de mayo de 2023";
-$precio_unam = "500";
-$precio_general = "800";
+
+$titulo_curso = "Rescate y Rehabilitación de Fauna Silvestre";
+$imagen_curso = "../../../assets/images/cursos/bg-FaunaSilvestre.webp"; //Agregar imagen del curso, tamaño forzoso de 19
+$edicion = "6ta. Edición";
+$fecha = "Del 17 de abril al 26 de junio de 2023";
+$precio_unam = "2,700"; //No es necesario poner mxn
+$precio_general = "3,200"; //No es necesario poner mxn
 //Si no tiene descuento, favor de poner NO en precio_unam_descuento.
 //ej: $precio_unam_descuento = "NO";
 $precio_unam_descuento = "NO"; //No es necesario poner mxn
 $precio_general_descuento = "2,720"; //No es necesario poner mxn
 $frase_descuento = "15% de descuento por concepto de pronto pago (hasta el 3 de
-abril)"; //Frase del porcentaje de descuento
-$limite_fecha_descuento = "31-05-2023"; //Formato date("dd-mm-Yyyy")
-$link_plaza_prometeo = "https://tienda.fciencias.unam.mx";
-$dias = "Martes y jueves"; //Puedes poner Lunes, Martes, Miercoles, Jueves y Viernes.
-$horario = "9:00   a 12:00 hrs"; //Lo puedes poner en el formato que gustes. No debe ser mucha info. 
+abril)";//Frase del porcentaje de descuento
+$limite_fecha_descuento = "31-05-2023";//Formato date("dd-mm-Yyyy")
+$link_plaza_prometeo= "https://tienda.fciencias.unam.mx";
+$dias = "Lunes";  //Puedes poner Lunes, Martes, Miercoles, Jueves y Viernes.
+$horario = "16:00   a 19:00 hrs"; //Lo puedes poner en el formato que gustes. No debe ser mucha info. 
 //Si es demasiada puedes agregar más detalles despues donde esta la sección de Requisitos, Horario y Lugar, 
 //solo quitas la variable, puedes ver el ejemplo de Cursos en cuadernos de jupyter
-$no_horas = "12"; //No es necesario poner hrs
-$modalidad = "Presencial";
-$max_alumnos = "35"; //Cantidad de alumnos maxima
+$no_horas = "27"; //No es necesario poner hrs
+$modalidad = "Virtual";
+$max_alumnos = "60"; //Cantidad de alumnos maxima
 $min_alumnos = "15"; //Cantidad de alumnos minima
-$descripcion = "En las labores diarias en nuestro trabajo o en nuestra propia casa, pueden presentarse accidentes o incidentes donde una persona presente un evento agudo por alguna enfermedad. La atención rápida y eficiente en esos casos es de la mayor importancia tanto para resolver el problema como para reducir los riesgos de secuelas. Más aún si el paciente se encuentra en paro cardiorespiratorio, la ayuda debe ser inmediata y de acuerdo a los estándares de atención internacionales y sustentados por la evidencia científica más actual. Una comunidad capacitada en primeros auxilios, es capaz de responder mejor en emergencias y desastres, ayuda a construir resiliencia y fortalece los vínculos sociales. Los cuidados cardiacos de emergencia y los primeros auxilios involucran intervenciones de atención médica que deben seguir los lineamientos más actualizados y avalados por la evidencia médica que los expertos colectan y analizan. Por ello, la capacitación debe apegarse a los últimos estándares aprobados (ILCOR, 2020). El curso está diseñado para el público en general y ofrece tanto la información teórica como práctica.";
-$objetivo = "Proporcionar los conocimientos actualizados en cuidados cardíacos de emergencia, primeros auxilios y uso de desfibriladores automáticos externos.";
-$dirigido_a = "Todo público";
-$requisitos = "Ninguno";
-$lugar = "	Unidad de Seminarios Dr. Ignacio Chávez.
-Cerro Zacatepec S/N, C.U., Coyoacán, 04370 Ciudad de México.
-Vivero Alto de Ciudad Universitaria, a un costado del Jardín Botánico (cuenta con lugar de estacionamiento)."; //El lugar donde se va a impartir, si son varios, agregar todos y separar con <br>
-$formato_inscripcion = "https://forms.gle/zHBCJFYEXfxP1qZo7"; //Pegar el formato de inscripcion
-$info_academica = "M. en C. Julio Alejandro Prieto Sagredo<br>
-Correo electrónico: juliusp.s@ciencias.unam.mx"; //Agregar el Nombre <br> correo, dando un br para saltar de linea.
-$ponentes_principales_presentacion = array(array("M. en C. Julio Alejandro Prieto Sagredo, TUM-A", "../../assets/curriculums_docentes/JulioPrieto.pdf"), array("P. de M. Tabaré Merino Sánchez", "../../assets/curriculums_docentes/TabareMerinoSanchez.pdf"))
-    //Es necesario poner el ../../ en las url de los curriculums, para acceder a la carpeta.
-    ?>
+$descripcion = "Las actividades.";
+$objetivo = "El participante adquirirá .";
+$dirigido_a = "Biólogos";
+$requisitos = "Estudiantes.";
+$lugar = "Zoom"; //El lugar donde se va a impartir, si son varios, agregar todos y separar con <br>
+$formato_inscripcion = "https://forms.gle/wwn996LgigXLKmsM6"; //Pegar el formato de inscripcion
+$info_academica = "Dra. Rosalía Pastor Nieto <br> Correo electrónico: rosalia.pastor@gmail.com"; //Agregar el Nombre <br> correo, dando un br para saltar de linea.
+$ponentes_principales_presentacion = array(array("Juana", "../../../assets/curriculums_docentes/JulioPrieto.pdf"))
+//Es necesario poner el ../../../ en las url de los curriculums, para acceder a la carpeta.
+?>
 
 <!-- Se debe modificar la parte de los profes que viene abajo. -->
 <!-- La parte más pesada es agregar el temario. Se puede usar ese o una tabla como la que normalmente creas, ya agregue estilos para que se adapten, ver ejemplo de primeros auxilios.-->
@@ -52,26 +51,22 @@ $ponentes_principales_presentacion = array(array("M. en C. Julio Alejandro Priet
             $fechaActual = strtotime(date("d-m-Y"));
             $fecha_lim_desc = strtotime($limite_fecha_descuento);
             #Si tiene descuento y la fecha de hoy es menor a la fecha de descuento 
-            if ($precio_unam_descuento != 'NO' && $fechaActual <= $fecha_lim_desc) {
+           if ($precio_unam_descuento != 'NO' && $fechaActual<=$fecha_lim_desc) {
                 echo "<span class=\"portada-informacion-pu\">$precio_unam UNAM</span>
                         <span class=\"portada-informacion-pg\">$precio_general GENERAL</span>
                         <p>15% de descuento por concepto de pronto pago (hasta el 3 de abril)</p>
                         <span class=\"portada-informacion-pu-red\">$precio_unam_descuento UNAM</span>
                         <span class=\"portada-informacion-pg\">$precio_general_descuento GENERAL</span>";
             } else {
-
+                
                 echo "<span class=\"portada-informacion-pu\">$precio_unam UNAM</span>
                         <span class=\"portada-informacion-pg\">$precio_general GENERAL</span>";
-
+            
             }
 
             ?>
-            <h1>
-                <?php echo $titulo_curso ?>
-            </h1>
-            <p class="text-indigo-600">
-                <?php echo $edicion ?>
-            </p>
+            <h1><?php echo $titulo_curso ?></h1>
+            <p class="text-indigo-600"><?php echo $edicion ?></p>
             <!-- Genera el contenedor con los datos del profesor, es decir, la foto, el nombre y el enlace del curriculum. -->
             <!-- Si hay mas de un profe, se debe copiar todo el contenedor, para cada uno. -->
             <!-- PROFESORES QUE IMPARTEN -->
@@ -85,9 +80,7 @@ $ponentes_principales_presentacion = array(array("M. en C. Julio Alejandro Priet
             <!-- FIN - PROFESORES QUE IMPARTEN -->
             <div class="fecha">
                 <i class="uil uil-calendar-alt"></i>
-                <span>
-                    <?php echo $fecha ?>
-                </span>
+                <span><?php echo $fecha ?></span>
             </div>
 
         </div>
@@ -97,38 +90,27 @@ $ponentes_principales_presentacion = array(array("M. en C. Julio Alejandro Priet
         <ul>
             <li>
                 <i class="uil uil-calendar-alt"></i>
-                <span>
-                    <?php echo $dias ?>
-                </span>
+                <span><?php echo $dias ?></span>
             </li>
 
             <li>
                 <i class="uil uil-bell-school"></i>
-                <span>
-                    <?php echo $horario ?>
-                </span>
+                <span><?php echo $horario ?></span>
             </li>
 
             <li>
                 <i class="uil uil-clock"></i>
-                <span>
-                    <?php echo $no_horas ?> horas
-                </span>
+                <span><?php echo $no_horas ?> horas</span>
             </li>
 
             <li>
                 <i class="uil uil-map-marker"></i>
-                <span>
-                    <?php echo $modalidad ?>
-                </span>
+                <span><?php echo $modalidad ?></span>
             </li>
 
             <li>
                 <i class="uil uil-user-circle"></i>
-                <span>Máx.
-                    <?php echo $max_alumnos ?> / Min.
-                    <?php echo $min_alumnos ?>
-                </span>
+                <span>Máx. <?php echo $max_alumnos ?> / Min. <?php echo $min_alumnos ?></span>
             </li>
 
             <li>
@@ -142,8 +124,7 @@ $ponentes_principales_presentacion = array(array("M. en C. Julio Alejandro Priet
 
 
 <div class="relative">
-    <div
-        class="shape absolute right-0 sm:-bottom-px -bottom-[2px] left-0 overflow-hidden z-1 text-white dark:text-slate-900">
+    <div class="shape absolute right-0 sm:-bottom-px -bottom-[2px] left-0 overflow-hidden z-1 text-white dark:text-slate-900">
         <svg class="w-full h-auto" viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M0 48H1437.5H2880V0H2160C1442.5 52 720 0 720 0H0V48Z" fill="currentColor"></path>
         </svg>
@@ -155,23 +136,14 @@ $ponentes_principales_presentacion = array(array("M. en C. Julio Alejandro Priet
 <section class="oferta-academica md:py-20">
     <div class="container">
         <h2>Descripción</h2>
-        <p>
-            <?php echo $descripcion ?>
-        </p>
+        <p><?php echo $descripcion ?></p>
         <h2>Objetivo</h2>
-        <p>
-            <?php echo $objetivo ?>
-        </p>
+        <p><?php echo $objetivo ?></p>
         <h2>Dirigido a</h2>
-        <p>
-            <?php echo $dirigido_a ?>
-        </p>
+        <p><?php echo $dirigido_a ?></p>
         <p class="text-red-600 mt-4">
-            Mín / Máx de alumnos: Mínimo
-            <?php echo $min_alumnos ?>, máximo
-            <?php echo $max_alumnos ?>.<br>
-            La apertura del curso está sujeta al mínimo de inscritos.
-        </p>
+            Mín / Máx de alumnos: Mínimo <?php echo $min_alumnos ?>, máximo <?php echo $max_alumnos ?>.<br>
+            La apertura del curso está sujeta al mínimo de inscritos.</p>
     </div>
 </section>
 
@@ -190,12 +162,9 @@ $ponentes_principales_presentacion = array(array("M. en C. Julio Alejandro Priet
 
                 <div>
                     <h3>Requisitos</h3>
-                    <p>
-                        <?php echo $requisitos ?>
-                    </p>
+                    <p><?php echo $requisitos ?></p>
                     <div class="mt-5">
-                        <a href="#" data-type="iframe"
-                            class="video-play-icon read-more lightbox btn btn-link text-indigo-600 hover:text-indigo-600 after:bg-indigo-600 duration-500 ease-in-out">
+                        <a href="#" data-type="iframe" class="video-play-icon read-more lightbox btn btn-link text-indigo-600 hover:text-indigo-600 after:bg-indigo-600 duration-500 ease-in-out">
                         </a>
                     </div>
                 </div>
@@ -206,17 +175,10 @@ $ponentes_principales_presentacion = array(array("M. en C. Julio Alejandro Priet
                 </div>
                 <div>
                     <h3>Horario</h3>
-                    <p>
-                        <?php echo $horario ?>
-                    </p>
-                    <p>
-                        <?php echo $dias ?>
-                    </p>
+                    <p><?php echo $horario ?></p>
+                    <p><?php echo $dias ?></p>
                     <div class="mt-5">
-                        <a href="#"
-                            class="btn btn-link text-indigo-600 hover:text-red-600 after:bg-indigo-600 duration-500 ease-in-out">Total:
-                            <?php echo $no_horas ?> horas
-                        </a>
+                        <a href="#" class="btn btn-link text-indigo-600 hover:text-red-600 after:bg-indigo-600 duration-500 ease-in-out">Total: <?php echo $no_horas ?> horas</a>
                     </div>
                 </div>
             </div>
@@ -227,9 +189,7 @@ $ponentes_principales_presentacion = array(array("M. en C. Julio Alejandro Priet
 
                 <div>
                     <h3>Lugar</h3>
-                    <p>
-                        <?php echo $lugar ?>
-                    </p>
+                    <p><?php echo $lugar ?></p>
                 </div>
             </div>
         </div>
@@ -239,7 +199,7 @@ $ponentes_principales_presentacion = array(array("M. en C. Julio Alejandro Priet
     <div class="curso-costo container">
         <h2 class="md:text-3xl md:leading-normal">Costo</h2>
         <?php
-        aplica_descuento($precio_unam, $precio_unam_descuento, $precio_general, $precio_general_descuento, $frase_descuento, $limite_fecha_descuento);
+            aplica_descuento($precio_unam,$precio_unam_descuento,$precio_general,$precio_general_descuento,$frase_descuento,$limite_fecha_descuento);
         ?>
     </div>
 
@@ -254,24 +214,43 @@ $ponentes_principales_presentacion = array(array("M. en C. Julio Alejandro Priet
     <h2>Temario</h2>
     <div class="secciones grid md:grid-cols-2 grid-cols-1">
         <div> <!--Tema-->
+            <h3>I. Aquí va el tema</h3>
             <div class="contenido">
+                <h4>Temas</h4>
                 <ul>
-                    <li>Aspectos legales</li>
-                    <li>Evaluaci&oacute;n de la escena y ASMU</li>
-                    <li>Protocolo RCP Adulto</li>
-                    <li>Uso del DAE</li>
-                    <li>Protocolo de atenci&oacute;n de Atragantamiento</li>
-                    <li>Evaluaci&oacute;n del paciente</li>
-                    <li>Hemorragias, heridas, lesiones musculoesquel&eacute;ticas</li>
-                    <li>Enfermedades s&uacute;bitas</li>
-                    <li>Lesiones ambientales</li>
+                    <li>I.1 Aquí va el subtema.
+                        <ul>
+                            <li>sub sub tema</li>
+                        </ul>
+                    </li>
+                    <li>I.2. Clasificación y aplicaciones de los dispositivos móviles.</a></li>
+                    <li>I.3. Plataformas de programación para dispositivos móviles.</li>
+                    <li>I.4. Presentación de la plataforma Android.</li>
+                    <li>I.5. La plataforma Android, entorno, anatomía y las capas de su arquitectura..</li>
+                </ul>
+            </div>
+        </div><!--fin de tema-->
+        <div> <!--Tema-->
+            <h3>I. Aquí va el tema</h3>
+            <div class="contenido">
+                <h4>Temas</h4>
+                <ul>
+                    <li>I.1 Aquí va el subtema.
+                        <ul>
+                            <li>sub sub tema</li>
+                        </ul>
+                    </li>
+                    <li>I.2. Clasificación y aplicaciones de los dispositivos móviles.</a></li>
+                    <li>I.3. Plataformas de programación para dispositivos móviles.</li>
+                    <li>I.4. Presentación de la plataforma Android.</li>
+                    <li>I.5. La plataforma Android, entorno, anatomía y las capas de su arquitectura..</li>
                 </ul>
             </div>
         </div><!--fin de tema-->
     </div> <!-- TERMINA EL CONTENEDOR DE LOS SUBTEMAS -->
 
     <!-- Por si hay temario extendido (pdf), si no, favor de comentarlo. -->
-    <a class="formato-link mt-6" target="_blank" href="../../cursos/PrimerosAuxilios/PrimerosAuxilios_1raEd_TEMARIOEXTENDIDO.pdf">
+    <a class="formato-link mt-6" href="assets/pdf/formatos/FormatoPresentacionCursoo.docx" download="Documento-con-descripcion">
         Temario extendido
     </a>
 </section><!-- TERMINA LA SECCIÓN DEL TEMARIO -->
@@ -285,19 +264,16 @@ $ponentes_principales_presentacion = array(array("M. en C. Julio Alejandro Priet
         </div>
 
         <div class="pasos">
-            <div
-                class="relative after:content-[''] after:absolute after:top-0 md:after:right-0 md:after:left-0 after:w-px after:h-full md:after:m-auto after:border-l-2 after:border-dashed after:border-gray-200 dark:after:border-gray-700 ml-3 md:ml-0">
+            <div class="relative after:content-[''] after:absolute after:top-0 md:after:right-0 md:after:left-0 after:w-px after:h-full md:after:m-auto after:border-l-2 after:border-dashed after:border-gray-200 dark:after:border-gray-700 ml-3 md:ml-0">
                 <!--Start content-->
-                <div
-                    class="ml-8 md:ml-0 relative after:content-[''] after:absolute after:top-[9px] after:rounded-full after:z-10 after:w-2.5 after:h-2.5 after:bg-indigo-600 md:after:mx-auto md:after:right-0 md:after:left-0 after:-left-9 before:content-[''] before:absolute md:before:mx-auto md:before:right-0 md:before:left-0 before:-left-11 before:rounded-full before:z-10 before:border-2 before:border-dashed before:border-gray-200 dark:before:border-gray-700 before:top-0 before:w-7 before:h-7 before:bg-white dark:before:bg-slate-900">
+                <div class="ml-8 md:ml-0 relative after:content-[''] after:absolute after:top-[9px] after:rounded-full after:z-10 after:w-2.5 after:h-2.5 after:bg-indigo-600 md:after:mx-auto md:after:right-0 md:after:left-0 after:-left-9 before:content-[''] before:absolute md:before:mx-auto md:before:right-0 md:before:left-0 before:-left-11 before:rounded-full before:z-10 before:border-2 before:border-dashed before:border-gray-200 dark:before:border-gray-700 before:top-0 before:w-7 before:h-7 before:bg-white dark:before:bg-slate-900">
                     <div class="paso-n grid md:grid-cols-2">
                         <h3 class="md:text-right md:mr-8">Paso 1</h3>
 
                         <div class="md:ml-8 md:mt-0">
                             <h4>Realizar el pago en línea mediante "Plaza
                                 Prometeo", la tienda de la Facultad de Ciencias</h4>
-                            <p><a href=<?php echo $link_plaza_prometeo ?> target="_blank"
-                                    class="formato-link">tienda.fciencias.unam.mx</a>
+                            <p><a href=<?php echo $link_plaza_prometeo ?> target="_blank" class="formato-link">tienda.fciencias.unam.mx</a>
                             </p>
                         </div>
                     </div>
@@ -330,19 +306,14 @@ $ponentes_principales_presentacion = array(array("M. en C. Julio Alejandro Priet
         <h2 class="md:text-3xl md:leading-normal">¿Necesitas ayuda?</h2>
         <p>Contáctanos</p>
     </div>
-    <div class="informacion grid md:grid-cols-2 grid-cols-1 mt-8 md:gap-[30px]" id="accordion-collapse"
-        data-accordion="collapse">
+    <div class="informacion grid md:grid-cols-2 grid-cols-1 mt-8 md:gap-[30px]" id="accordion-collapse" data-accordion="collapse">
         <div>
             <div>
                 <h2 id="info-admin-col">
-                    <button type="button" data-accordion-target="#info-admin" aria-expanded="false"
-                        aria-controls="info-admin">
+                    <button type="button" data-accordion-target="#info-admin" aria-expanded="false" aria-controls="info-admin">
                         <span>Información administrativa</span>
-                        <svg data-accordion-icon class="w-4 h-4 shrink-0" fill="currentColor" viewBox="0 0 20 20"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <path fill-rule="evenodd"
-                                d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                                clip-rule="evenodd"></path>
+                        <svg data-accordion-icon class="w-4 h-4 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path>
                         </svg>
                     </button>
                 </h2>
@@ -350,9 +321,7 @@ $ponentes_principales_presentacion = array(array("M. en C. Julio Alejandro Priet
                     <div class="p-5">
                         <p class="text-slate-400 dark:text-gray-400">Secretaría de Educación Abierta y Continua,
                             Facultad de Ciencias, UNAM.<br>
-                            Sitio web: <a class="text-cyan-600 underline"
-                                href="http://www.educontinua.fciencias.unam.mx"
-                                target="_blank">www.educontinua.fciencias.unam.mx</a><br>
+                            Sitio web: <a class="text-cyan-600 underline" href="http://www.educontinua.fciencias.unam.mx" target="_blank">www.educontinua.fciencias.unam.mx</a><br>
                             Edificio Tlahuizcalpan, 1er piso (saliendo del elevador a la izquierda).<br>
                             Teléfono: 56 66 47 89 y 56 22 53 86<br>
                             Correo electrónico: educontinua.of@ciencias.unam.mx</p>
@@ -363,21 +332,16 @@ $ponentes_principales_presentacion = array(array("M. en C. Julio Alejandro Priet
         <div>
             <div>
                 <h2 id="info-acad-col">
-                    <button type="button" data-accordion-target="#info-acad" aria-expanded="true"
-                        aria-controls="info-acad">
+                    <button type="button" data-accordion-target="#info-acad" aria-expanded="true" aria-controls="info-acad">
                         <span>Información académica</span>
-                        <svg data-accordion-icon class="w-4 h-4 shrink-0" fill="currentColor" viewBox="0 0 20 20"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <path fill-rule="evenodd"
-                                d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                                clip-rule="evenodd"></path>
+                        <svg data-accordion-icon class="w-4 h-4 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path>
                         </svg>
                     </button>
                 </h2>
                 <div id="info-acad" class="hidden" aria-labelledby="info-acad-col">
                     <div class="p-5">
-                        <p class="text-slate-400 dark:text-gray-400">
-                            <?php echo $info_academica ?>
+                        <p class="text-slate-400 dark:text-gray-400"><?php echo $info_academica ?>
                         </p>
                     </div>
                 </div>

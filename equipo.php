@@ -17,14 +17,14 @@ genera_encabezado_de_pagina("assets/images/pages/bg_presentacion.webp", "Secreta
           <div class="grid grid-cols-12 gap-6 items-center">
             <div class="col-span-6">
               <div class="grid grid-cols-1 gap-6">
-                <img src="assets/images/slider/SEAC1.jpeg" class="shadow rounded-md" alt="">
-                <img src="assets/images/slider/SEAC2.jpeg" class="shadow rounded-md" alt="">
+                <img src="assets/images/pages/SEAC1.jpeg" class="shadow rounded-md" alt="">
+                <img src="assets/images/pages/SEAC2.jpeg" class="shadow rounded-md" alt="">
               </div>
             </div>
 
             <div class="col-span-6">
               <div class="grid grid-cols-1 gap-6">
-                <img src="assets/images/slider/SEAC5.jpeg" class="shadow rounded-md" alt="">
+                <img src="assets/images/pages/SEAC5.jpeg" class="shadow rounded-md" alt="">
               </div>
             </div>
           </div>
