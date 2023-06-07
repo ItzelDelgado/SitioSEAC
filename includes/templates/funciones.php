@@ -26,7 +26,6 @@ function banner_curso($estado, $imagen_url, $nombre_curso, $edicion, $pagina_pri
                             <div class=\"curso_imagen-data\">
                                 <div>
                                     <img src=\"assets/images/instructores/user.png\" alt=\" \" />
-                                    <img src=\"../../assets/images/instructores/user.png\" alt=\" \" />
                                     <div class=\"ml-3\">";
     echo $textocurso;
     for ($row = 0; $row < count($ponentes); $row++) {
@@ -105,9 +104,6 @@ function banner_diplomado($estado, $imagen_url, $nombre_diplomado, $edicion, $pa
                             <div class=\"curso_imagen-backgroud\"></div>
                             <div class=\"curso_imagen-data\">
                                 <div>
-
-                                    <img src=\"assets/images/instructores/user.png\" alt=\" \" />
-
                                     <img src=\"../../assets/images/instructores/user.png\" alt=\" \" />
 
                                     <div class=\"ml-3\">";
@@ -236,8 +232,6 @@ function banner_coloquio($estado, $imagen_url, $nombre_curso, $edicion, $pagina_
                             <div class=\"curso_imagen-backgroud\"></div>
                             <div class=\"curso_imagen-data\">
                                 <div>
-
-                                    <img src=\"assets/images/instructores/user.png\" alt=\" \" />
 
                                     <img src=\"../../assets/images/instructores/user.png\" alt=\" \" />
 
