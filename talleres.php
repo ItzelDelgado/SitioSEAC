@@ -28,6 +28,25 @@ genera_encabezado_de_pagina("assets/images/pages/bg_talleres.jpg", "Talleres");
   <div class="container">
     <div class="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-[30px]">
 
+    <?php
+      //Taller Intensivo de Docencia Científica
+      banner_taller(
+        "programados",
+        "assets/images/talleres/taller-intensivo-de-docencia-cientifica.jpg",
+        "Docencia Científica",
+        "1ra. Edición - Taller Intensivo",
+        "talleres/TallerIntensivodeDocenciaCientifica/TallerIntensivodeDocenciaCientifica1ed.php",
+        "Del 31 de julio al 2 de agosto de 2023",
+        "El aprendizaje activo es una perspectiva educativa centrada en el estudiante, respaldada por evidencia científica, que busca mejorar la enseñanza y el aprendizaje. En México, la formación en este enfoque es limitada, pero la iniciativa Do-Ciencia busca cambiar eso a través de talleres basados en la evidencia.",
+        "Docentes de la Facultad de Ciencias",
+        "Lunes-Miercoles",
+        "9:00 - 18:00 hrs",
+        "Presencial",
+        "1,000",
+        "NO",
+        array(array("Dr. Marcos Nahmad", "assets/curriculums_docentes/MarcosNahmad.pdf"))
+      );
+      ?>
 
 
     </div> <!-- CIERRA EL DIV DE LOS CURSOS -->
