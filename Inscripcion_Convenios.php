@@ -35,10 +35,10 @@ Programas Académicos Impartidos en Convenio con otras Instancias");
         </div>
 
         <div class="pb-16 grid grid-cols-1 mt-4 mb-10">
-            <h5 class="my-2 font-semibold text-lg">BUCEO UNAM</h5>
-            <div class="flex justify-center items-center gap-4">
+            <!-- <h5 class="my-2 font-semibold text-lg">BUCEO UNAM</h5> -->
+            <div class="flex  my-2 items-center gap-4">
                 <img class="w-48" src="./assets/images/equipo-de-ciencias-unam.png" alt="">
-                <h5 class="title mb-1">Para mayores informes sobre el proceso de inscripción y pago:
+                <h5 class="title mb-1" ><span class="font-semibold">Para mayores informes sobre el proceso de inscripción y pago:</span>
                     <ol class="pl-10" style="list-style-type:circle;">
                         <li>Dra. Norma Angélica Corado Nava</li>
                         <li>Teléfono: 5554133379</li>
@@ -47,10 +47,10 @@ Programas Académicos Impartidos en Convenio con otras Instancias");
                     </ol>
                 </h5>
             </div>
-            <h5 class="my-2 mt-10 font-semibold text-lg">CEJA</h5>
-            <div class="flex justify-center items-center gap-4">
+            <!-- <h5 class="my-2 mt-10 font-semibold text-lg">CEJA</h5> -->
+            <div class="flex my-2 mt-10 items-center gap-4">
                 <img class="w-48" src="./assets/images/ceja.jpeg" alt="">
-                <h5 class="title mb-1">Para mayores informes sobre el proceso de inscripción y pago:
+                <h5 class="title mb-1"> <span class="font-semibold">Para mayores informes sobre el proceso de inscripción y pago:</span>
                     <ol class="pl-10" style="list-style-type:circle;">
                         <li>Centro de Estudios Jurídicos y Ambientales, A. C.</li>
                         <li>Montecito 38, Col Nápoles, of 15, piso 35, CDMX</li>
@@ -61,10 +61,10 @@ Programas Académicos Impartidos en Convenio con otras Instancias");
                 </h5>
             </div>
 
-            <h5 class="my-2 mt-10 font-semibold text-lg">FUNDACIÓN UNAM</h5>
-            <div class="flex justify-center items-center gap-4">
+            <!-- <h5 class="my-2 mt-10 font-semibold text-lg">FUNDACIÓN UNAM</h5> -->
+            <div class="flex my-2 mt-10 items-center gap-12">
                 <img class="w-48" src="./assets/images/fundacion-unam.png" alt="">
-                <h5 class="title mb-1">Para mayores informes sobre el proceso de inscripción y pago:
+                <h5 class="title mb-1"><span class="font-semibold">Para mayores informes sobre el proceso de inscripción y pago:</span>
                     <ol class="pl-10" style="list-style-type:decimal;">
                         <li>Se solicita el formato de preregistro al programa académico de interés al siguiente correo:
                             cursosydiplomados@funam.mx</li>
