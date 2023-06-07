@@ -1,4 +1,7 @@
 <?php
+
+use function PHPSTORM_META\map;
+
 include './includes/templates/header.php';
 include './includes/templates/funciones.php';
 ?>
@@ -86,822 +89,414 @@ genera_encabezado_de_pagina("assets/images/pages/bg_cursos.webp", "Cursos");
       );
       ?>
 
-      <!-- CURSO Dibujo de la naturaleza-->
-      <div class="group curso pasados">
-        <div class="curso_imagen">
-          <div class="curso_imagen_adapter">
-            <img src="assets/images/cursos/bg-Dibujo_de_la_naturaleza.webp" alt="" />
-          </div>
-          <div class="curso_imagen-backgroud">
-          </div>
-          <div class="curso_imagen-data">
-            <div>
-              <img src="assets/images/instructores/usr-f.jpg" alt="" />
-              <div>
-                <a href="assets/curriculums_docentes/AldideOyarzabalSal.pdf" target="_blank">M. Aldi de Oyarzabal
-                  Salcedo
-                </a>
-                <span>Maestro en Artes</span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="curso_contenido">
-          <a href="/cursos/DibujoDeLaNaturaleza/DibujoDeLaNaturaleza1raEd.php">
-            Dibujo de la naturaleza
-          </a>
-          <a href="/cursos/DibujoDeLaNaturaleza/DibujoDeLaNaturaleza1raEd.php">
-            1ra. Edición
-          </a>
-          <p class="curso_contenido-fecha">
-            Del 11 de abril al 15 de junio de 2023
-          </p>
-          <p class="curso_contenido-descuento">
-            15% de descuento por concepto de pronto pago (hasta el 28 de marzo) - $5,100
-          </p>
-          <p class="curso_contenido-descripcion">Hay pocos cursos en el mundo sobre dibujo científico y en nuestro país
+      <?php
+      banner_curso(
+        "pasados",
+        "assets/images/cursos/bg-Dibujo_de_la_naturaleza.webp",
+        "Dibujo de la naturaleza",
+        " 1ra. Edición",
+        "/cursos/DibujoDeLaNaturaleza/DibujoDeLaNaturaleza1raEd.php",
+        " Del 11 de abril al 15 de junio de 2023",
+        "Hay pocos cursos en el mundo sobre dibujo científico y en nuestro país
             no hay escuelas para enseñarlo, a pesar de su uso creciente. El dibujo permite crear mundos coherentes con
             la realidad biológica y modelos científicos, y se deben dibujar con orden y atención al tema, composición
             artística y color. El color depende de la forma y se debe estudiar por separado para aplicarlo
-            correctamente.</p>
-          <p class="curso_contenido-subdescripcion">
-            Dirigido a: El taller está dirigido a biólogos, ilustradores,
+            correctamente.",
+        "Dirigido a: El taller está dirigido a biólogos, ilustradores,
             artistas plásticos, artistas visuales y toda aquella persona que
             cuente o no, con entrenamiento previo en el campo del dibujo de
-            la naturaleza.
-          </p>
-          <a href="/cursos/DibujoDeLaNaturaleza/DibujoDeLaNaturaleza1raEd.php" target="_blank"
-            class="curso_contenido-button btn btn-link">
-            Ver curso
-          </a>
-          <div class="curso_contenido-horario">
-            <ul>
-              <li class="mr-3">
-                <i class="uil uil-calendar-alt"></i>
-                <span>Ma y Ju</span>
-              </li>
-              <li class="mr-3">
-                <i class="uil uil-clock"></i>
-                <span>15-19h</span>
-              </li>
-              <li>
-                <i class="uil uil-map-marker"></i>
-                <span>Presencial</span>
-              </li>
-            </ul>
-          </div>
-          <div class="curso_contenido-precio">
-            <div>
-              <span>$6,000</span>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- CURSO FIN -->
+            la naturaleza.",
+        "Ma y Ju",
+        "15-19h",
+        "Presencial",
+        "$6,000",
+        "15% de descuento por concepto de pronto pago (hasta el 28 de marzo)",
+        array(
+          array("M. Aldi de Oyarzabal Salcedo", "assets/curriculums_docentes/AldideOyarzabalSal.pdf")
+        )
+      );
 
-      <!-- CURSO Estrategias de Educación ambiental para la sustentabilidad. Segunda Edición-->
-      <div class="group curso enCurso">
-        <div class="curso_imagen">
-          <div class="curso_imagen_adapter">
-            <img src="assets/images/cursos/bg-estrategias-edu-ambiental-para-sustentabilidad.webp" alt="" />
-          </div>
-          <div class="curso_imagen-backgroud">
-          </div>
-          <div class="curso_imagen-data">
-            <div>
-              <img src="assets/images/instructores/usr-f.jpg" alt="" />
-              <div class="ml-3">
-                <a href="assets/curriculums_docentes/IramaMariselaNunezTancredi.pdf" target="_blank">Dra. Irama Silvia
-                  Marisela Núñez Tancredi
-                </a>
-                <span>Doctora en Ciencias</span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="curso_contenido">
-          <a
-            href="cursos/EstrategiasdeEduAmbientalParaSustentabilidad/EstrategiasdeEduAmbientalParaSustentabilidad2daEd.php">
-            Estrategias de Educación Ambiental Para la Sustentabilidad</a>
-          <a
-            href="cursos/EstrategiasdeEduAmbientalParaSustentabilidad/EstrategiasdeEduAmbientalParaSustentabilidad2daEd.php">2da.
-            Edición</a>
-          <p class="curso_contenido-fecha">
-            Del 11 de marzo al 6 de mayo del 2023
-          </p>
-          <p class="curso_contenido-descripcion">Es esencial diseñar intervenciones educativas que aborden la crisis
-            socioecológica actual y fomenten la participación y el trabajo colaborativo. Se presentarán enfoques
-            críticos y alternativas a la crisis de la modernidad, antecedentes y características de la educación
-            ambiental, así como paradigmas educativos e investigación y diferentes aproximaciones metodológicas.</p>
-          <p class="curso_contenido-subdescripcion">
-            Curso - taller.<br />Dirigido a: Todas aquellas personas
-            interesadas en el campo de la Educación ambiental para la
-            sustentabilidad y que quieran desarrollar estrategias
-            educativas: educadoras, académicas, organizaciones de la
-            sociedad civil, funcionarias, estudiantes.
-          </p>
-          <a href="cursos/EstrategiasdeEduAmbientalParaSustentabilidad/EstrategiasdeEduAmbientalParaSustentabilidad2daEd.php"
-            target="_blank" class="curso_contenido-button btn btn-link">Ver
-            curso</a>
-          <div class="curso_contenido-horario">
-            <ul>
-              <li class="mr-3">
-                <i class="uil uil-calendar-alt "></i>
-                <span>Sábado</span>
-              </li>
-              <li class="mr-3">
-                <i class="uil uil-clock "></i>
-                <span>10-13h</span>
-              </li>
-              <li class="flex items-center">
-                <i class="uil uil-map-marker "></i>
-                <span>Híbrida</span>
-              </li>
-            </ul>
-          </div>
-          <div class="curso_contenido-precio">
-            <div>
-              <span>$5,700</span>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- CURSO FIN -->
+      ?>
+
+      <?php 
+      // <!-- CURSO Estrategias de Educación ambiental para la sustentabilidad. Segunda Edición-->
+        banner_curso(
+          "pasados", 
+          "assets/images/cursos/bg-estrategias-edu-ambiental-para-sustentabilidad.webp",
+          "Estrategias de Educación Ambiental Para la Sustentabilidad",
+          "2da. Edición",
+          "cursos/EstrategiasdeEduAmbientalParaSustentabilidad/EstrategiasdeEduAmbientalParaSustentabilidad2daEd.php",
+          "Del 11 de marzo al 6 de mayo del 2023",
+          "Es esencial diseñar intervenciones educativas que aborden la crisis
+          socioecológica actual y fomenten la participación y el trabajo colaborativo. Se presentarán enfoques
+          críticos y alternativas a la crisis de la modernidad, antecedentes y características de la educación
+          ambiental, así como paradigmas educativos e investigación y diferentes aproximaciones metodológicas.",
+          "Dirigido a: Todas aquellas personas
+          interesadas en el campo de la Educación ambiental para la
+          sustentabilidad y que quieran desarrollar estrategias
+          educativas: educadoras, académicas, organizaciones de la
+          sociedad civil, funcionarias, estudiantes.",
+          "Sábado",
+          "10-13h",
+          "Híbrida",
+          "$5,700",
+          "NO",
+          array(
+            array("Dra. Irama Silvia Marisela Núñez Tancredi","assets/curriculums_docentes/IramaMariselaNunezTancredi.pdf")
+          )
+        )
+      ?>
+
+      <?php
+      //Taller Intensivo de Docencia Científica
+      banner_taller(
+        "programados",
+        "assets/images/talleres/taller-intensivo-de-docencia-cientifica.jpg",
+        "Docencia Científica",
+        "1ra. Edición - Taller Intensivo",
+        "cursos/TallerIntensivodeDocenciaCientifica/TallerIntensivodeDocenciaCientifica1ed.php",
+        "Del 31 de julio al 2 de agosto de 2023",
+        "El aprendizaje activo es una perspectiva educativa centrada en el estudiante, respaldada por evidencia científica, que busca mejorar la enseñanza y el aprendizaje. En México, la formación en este enfoque es limitada, pero la iniciativa Do-Ciencia busca cambiar eso a través de talleres basados en la evidencia.",
+        "Docentes de la Facultad de Ciencias",
+        "Lunes-Miercoles",
+        "9:00 - 18:00 hrs",
+        "Presencial",
+        "1,000",
+        "NO",
+        array(array("Dr. Marcos Nahmad", "assets/curriculums_docentes/MarcosNahmad.pdf"))
+      );
+      ?>
 
 
-      <!-- CURSO Rescate y rehabilitación de fauna silvestre. Sexta Edición-->
-      <div class="group curso enCurso">
-        <div class="curso_imagen">
-          <div class="curso_imagen_adapter">
-            <img src="assets/images/cursos/bg-FaunaSilvestre.webp" alt="" />
-          </div>
-          <div class="curso_imagen-backgroud">
-          </div>
-          <div class="curso_imagen-data">
-            <div>
-              <img src="assets/images/instructores/usr-f.jpg" alt="" />
-              <div class="ml-3">
-                <a href="assets/curriculums_docentes/RosaliaPastorNieto.pdf" target="_blank">Dra. Rosalía Pastor
-                  Nieto
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="curso_contenido">
-          <a href="cursos/RescateyRehabilitaciondeFaunaSilvestre/RescateyRehabilitaciondeFaunaSilvestre6taEd.php">
-            Rescate y Rehabilitación de Fauna Silvestre</a>
-          <a href="cursos/RescateyRehabilitaciondeFaunaSilvestre/RescateyRehabilitaciondeFaunaSilvestre6taEd.php">6ta.
-            Edición</a>
-          <p class="curso_contenido-fecha">
-            Del 17 abril al 26 junio del 2023
-          </p>
-          <p class="curso_contenido-descuento">
-            15% de descuento por concepto de pronto pago (hasta el 3 de abril) - $2,720
-          </p>
-          <p class="curso_contenido-descripcion">Actividades antropogénicas y desastres naturales ponen en riesgo a
-            especies de fauna silvestre en peligro de extinción. La IUCN y el WHSG han creado criterios para rescatar
-            y rehabilitar a estos animales, por lo que biólogos y profesionales afines deben ampliar su campo de
-            acción en su atención, rescate y rehabilitación.</p>
-          <p class="curso_contenido-subdescripcion">
-            Dirigido a: Biólogos, Médicos Veterinarios Zootecnistas y
-            disciplinas afines.
-          </p>
+      <!-- Diplomado en Tecnologías Cuánticas-->
+      <?php
+      banner_diplomado(
+        "programados",
+        "assets/images/diplomados/TecnologiasCuanticas.jpg",
+        "Diplomado en Tecnologías Cuánticas",
+        "Aprobado como opción de Titulación para la carrera de Física por el Consejo Técnico de la Facultad de Ciencias, UNAM.",
+        "diplomados/ActualizacionDocenteenFisica/ActualizacionDocenteEnFisica22-23.php",
+        "Del 7 de agosto del 2023 al 20 de septiembre del 2024.",
+        "El avance tecnológico ha beneficiado a la sociedad en telecomunicaciones, computadoras, energía y minerales. En México, hay una comunidad científica creciente en tecnologías cuánticas, y este diplomado formará especialistas en su manejo y aplicación en industria y sociedad.",
+        "Estudiantes de los últimos semestres y egresados de licenciatura en física y/o áreas afines.",
+        "Martes y Jueves",
+        "16-18hrs",
+        "Híbrida",
+        "15,000",
+        "NO",
+        array(
+          array("Dr. Ricardo Méndez", "#"),
+          array("Dr. Santiago Francisco Caballero", "#"),
+          array("Dra. Georgina Angélica Olivares", "#"),
+          array("Dr. John Alexander Franco", "#"),
+          array("Dr. Dorilián López", "#"),
+          array("Dr. Luis Manuel Arévalo", "#")
+        )
+      );
+      ?>
 
-          <a href="cursos/RescateyRehabilitaciondeFaunaSilvestre/RescateyRehabilitaciondeFaunaSilvestre6taEd.php"
-            target="_blank" class="curso_contenido-button btn btn-link">Ver
-            curso</a>
 
-          <div class="curso_contenido-horario">
-            <ul>
-              <li class="mr-3">
-                <i class="uil uil-calendar-alt "></i>
-                <span>Lunes</span>
-              </li>
-              <li class="mr-3">
-                <i class="uil uil-clock "></i>
-                <span>16-19h</span>
-              </li>
-              <li class="flex items-center">
-                <i class="uil uil-map-marker "></i>
-                <span>Virtual</span>
-              </li>
-            </ul>
-          </div>
-          <div class="curso_contenido-precio">
-            <div>
-              <span>$3,200</span>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- CURSO FIN -->
+      <?php
+      //Curso Introducción a Python
+      banner_curso(
+        "programados",
+        "assets/images/cursos/introduccion-a-python.jpg",
+        "Introducción a Python",
+        "1ra. Edición",
+        "cursos/IntroduccionaPython/IntroduccionaPython1ed.php",
+        "Del 9 de agosto al 26 de agosto del 2023",
+        "Python es un lenguaje de programación que se ha vuelto muy popular en los últimos años debido a su facilidad de aprendizaje y a su amplia gama de aplicaciones. En particular, Python es muy popular en el ámbito de la ciencia de datos, ya que tiene una gran cantidad de bibliotecas y herramientas que son muy útiles para el análisis de datos y la creación de modelos predictivos.",
+        "Alumnos de licenciatura (Biología y Geología) a partir del sexto semestre. Estudiantes de la
+                  maestría y del doctorado, y maestros.",
+        "P: Mie y vie<br>V: Sab",
+        "19-21 y 10-13 hrs",
+        "Hibrida",
+        "800",
+        "NO",
+        array(array("Dr. Hannes Loeser", "assets/curriculums_docentes/HannesLoser.pdf"), array("Dr. Rafael Villanueva Olea", "assets/curriculums_docentes/RafaelVillanuevaOlea.pdf"))
+      );
+      ?>
 
-      <!-- CURSO Primeros Auxilios, RCP y uso de DAE-->
-      <div class="group curso programados">
-        <div class="curso_imagen">
-          <div class="curso_imagen_adapter">
-            <img src="assets/images/cursos/bg-primeros-auxilios.webp" alt="" />
-          </div>
-          <div class="curso_imagen-backgroud">
-          </div>
-          <div class="curso_imagen-data">
-            <div>
-              <img src="assets/images/instructores/usr-f.jpg" alt="" />
-              <div class="ml-3">
-                <a href="#" target="_blank">M. en C. Julio Alejandro Prieto Sagredo, TUM-A
-                </a>
-                <a href="#" target="_blank">P. de M. Tabaré Merino Sánchez
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="curso_contenido">
-          <a href="cursos/PrimerosAuxilios/PrimerosAuxilios1raEd.php">
-            Primeros Auxilios, RCP y Uso de DAE</a>
-          <a href="cursos/PrimerosAuxilios/PrimerosAuxilios1raEd.php">1ra. Edición</a>
-          <p class="curso_contenido-fecha">
-            2, 4, 9 y 11 de mayo de 2023
-          </p>
-          <p class="curso_contenido-descripcion">La atención rápida y eficiente en caso de accidentes o enfermedades
-            agudas es crucial para reducir los riesgos de secuelas. Una comunidad capacitada en primeros auxilios
-            fortalece los vínculos sociales y ayuda a construir resiliencia. Los cuidados cardiacos y los primeros
-            auxilios deben seguir los últimos estándares aprobados por la evidencia médica. El curso está diseñado para
-            el público en general, ofreciendo información teórica y práctica.</p>
-          <p class="curso_contenido-subdescripcion">
-            Dirigido a: Todo público.
-          </p>
-          <a href="cursos/PrimerosAuxilios/PrimerosAuxilios1raEd.php" target="_blank"
-            class="curso_contenido-button btn btn-link">Ver
-            curso</a>
-          <div class="curso_contenido-horario">
-            <ul>
-              <li class="mr-3">
-                <i class="uil uil-calendar-alt "></i>
-                <span>Ma y Ju</span>
-              </li>
-              <li class="mr-3">
-                <i class="uil uil-clock "></i>
-                <span>09-12h</span>
-              </li>
-              <li class="flex items-center">
-                <i class="uil uil-map-marker "></i>
-                <span>Presencial</span>
-              </li>
-            </ul>
-          </div>
-          <div class="curso_contenido-precio">
-            <div>
-              <span>$800</span>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- CURSO FIN -->
 
-      <!-- CURSO Introducción al estudio y conservación de tortugas de México-->
-      <div class="group curso programados">
-        <div class="curso_imagen">
-          <div class="curso_imagen_adapter">
-            <img src="assets/images/cursos/bg-TortugasMexico.webp" alt="" />
-          </div>
-          <div class="curso_imagen-backgroud">
-          </div>
-          <div class="curso_imagen-data">
-            <div>
-              <img src="assets/images/instructores/usr-f.jpg" alt="" />
-              <div class="ml-3">
-                <a href="assets/curriculums_docentes/GraciaPatriciaGonzalesPor.pdf" target="_blank">Dra. Gracia Patricia
-                  González Porter
-                </a>
-                <span>Especialista en tortugas</span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="curso_contenido">
-          <a
-            href="cursos/IntroduccionAlEstudioyConservaciondeTortugas/IntroduccionAlEstudioyConservaciondeTortugas1raEd.php">
-            Introducción al Estudio y Conservación de Tortugas de México</a>
-          <a
-            href="cursos/IntroduccionAlEstudioyConservaciondeTortugas/IntroduccionAlEstudioyConservaciondeTortugas1raEd.php">1ra.
-            Edición</a>
-          <p class="curso_contenido-fecha">
-            Del 2 de mayo al 1 de junio de 2023
-          </p>
-          <p class="curso_contenido-descuento">
-            15% de descuento por concepto de pronto pago (hasta el 18 de abril) - $3,060
-          </p>
-          <p class="curso_contenido-descripcion">Las tortugas son vertebrados que existen desde hace más de 200 millones
+      <?php
+      // <!-- CURSO Rescate y rehabilitación de fauna silvestre. Sexta Edición-->
+        banner_curso(
+          "enCurso",
+          "assets/images/cursos/bg-FaunaSilvestre.webp",
+          "Rescate y Rehabilitación de Fauna Silvestre",
+          "6ta. Edición",
+          "ursos/RescateyRehabilitaciondeFaunaSilvestre/RescateyRehabilitaciondeFaunaSilvestre6taEd.php",
+          "Del 17 abril al 26 junio del 2023",
+          "Actividades antropogénicas y desastres naturales ponen en riesgo a
+          especies de fauna silvestre en peligro de extinción. La IUCN y el WHSG han creado criterios para rescatar
+          y rehabilitar a estos animales, por lo que biólogos y profesionales afines deben ampliar su campo de
+          acción en su atención, rescate y rehabilitación.",
+          "Dirigido a: Biólogos, Médicos Veterinarios Zootecnistas y
+          disciplinas afines.",
+          "Lunes",
+          "16-19h",
+          "Virtual",
+          "$3,200",
+          "15% de descuento por concepto de pronto pago (hasta el 3 de abril) - $2,720",
+          array(
+            array("Dra. Rosalía Pastor Nieto", "assets/curriculums_docentes/RosaliaPastorNieto.pdf")
+          )
+        );
+      ?>
+
+      <?php
+      //Primeros Auxilios, RCP y uso de DAE. Segunda Edición
+      banner_curso(
+        "programados",
+        "assets/images/cursos/bg-primeros-auxilios.webp",
+        "Primeros Auxilios, RCP y uso de DAE",
+        "2da. Edición",
+        "cursos/PrimerosAuxilios/2daEd/PrimerosAuxilios2daEd.php",
+        "17 y 24 de junio de 2023",
+        "La atención rápida y eficiente en caso de accidentes o enfermedades
+        agudas es crucial para reducir los riesgos de secuelas. Una comunidad capacitada en primeros auxilios
+        fortalece los vínculos sociales y ayuda a construir resiliencia. Los cuidados cardiacos y los primeros
+        auxilios deben seguir los últimos estándares aprobados por la evidencia médica. El curso está diseñado para
+        el público en general, ofreciendo información teórica y práctica.",
+        "Todo público.",
+        "Sábado",
+        "9-15 hrs",
+        "Presencial",
+        "1300",
+        "NO",
+        array(array("M. en C. Julio A. Prieto Sagredo", "assets/curriculums_docentes/JulioPrieto.pdf"), array("P. de M. Tabaré Merino Sánchez", "assets/curriculums_docentes/TabareMerinoSanchez.pdf"))
+      );
+      ?>
+
+      <?php
+      //Curso Estudio y monitoreo de fauna silvestre
+      banner_curso(
+        "programados",
+        "assets/images/cursos/MapacheFaunaSilvestre.jpg",
+        "Curso Estudio y Monitoreo de Fauna Silvestre",
+        "",
+        "cursos/EstudioyMonitoreodeFaunaSilvestre/EstudioyMonitoreodeFaunaSilvestre.php",
+        "Del 19 al 23 de junio del 2023",
+        "El curso ofrece aprendizaje directo de técnicas de estudio y conservación de fauna silvestre tropical. Los participantes podrán observar, investigar y comunicar aspectos básicos de la fauna. Los instructores brindarán información para combinar teoría y experiencia en el campo, desarrollando habilidades para futuros profesionales.",
+        "Estudiantes, profesionistas, tomadores de decisiones, manejadores de recursos, biólogos, ecólogos, administradores de áreas naturales, administradores de recursos naturales.",
+        "Lunes - Viernes",
+        "9-14 y 15-18 hrs",
+        "Presencial",
+        "6500",
+        "NO",
+        array(array("Dr. Alejandro Villegas Castillo", "#"), array("Lic. Sol de Mayo Mejenes López", "#"), array("Dr. José juan Flores Martínez", "#"))
+      );
+      ?>
+
+      <?php
+      banner_curso(
+        "enCurso",
+        "assets/images/cursos/bg-TortugasMexico.webp",
+        "Introducción al Estudio y Conservación de Tortugas de México",
+        "1ra. Edición",
+        "cursos/IntroduccionAlEstudioyConservaciondeTortugas/IntroduccionAlEstudioyConservaciondeTortugas1raEd.php",
+        "Del 2 de mayo al 1 de junio de 2023",
+        "Las tortugas son vertebrados que existen desde hace más de 200 millones
             de años, pero las acciones humanas han puesto al borde de la extinción a muchas especies. En México, casi
             40% de los taxa de tortugas están amenazados. Es importante capacitar a biólogos, veterinarios y ecólogos en
-            su
-            estudio y manejo para formular estrategias de conservación y uso sustentable.</p>
-          <p class="curso_contenido-subdescripcion">
-            Dirigido a: Biólogos, Médicos Veterinarios Zootecnistas y
-            disciplinas afines.
-          </p>
+            su estudio y manejo para formular estrategias de conservación y uso sustentable.",
+        "Dirigido a: Biólogos, Médicos Veterinarios Zootecnistas y
+            disciplinas afines.",
+        "Ma y ju",
+        "16-19h",
+        "Virtual",
+        "$3,600",
+        "15% de descuento por concepto de pronto pago (hasta el 18 de abril) - $3,060",
+        array(
+          array("Dra. Gracia Patricia González Porter", "assets/curriculums_docentes/GraciaPatriciaGonzalesPor.pdf")
+        )
+      )
+      ?>
 
-          <a href="cursos/IntroduccionAlEstudioyConservaciondeTortugas/IntroduccionAlEstudioyConservaciondeTortugas1raEd.php"
-            target="_blank" class="curso_contenido-button btn btn-link">Ver
-            curso</a>
-
-          <div class="curso_contenido-horario">
-            <ul>
-              <li class="mr-3">
-                <i class="uil uil-calendar-alt "></i>
-                <span>Ma y Ju</span>
-              </li>
-              <li class="mr-3">
-                <i class="uil uil-clock "></i>
-                <span>16-19h</span>
-              </li>
-              <li class="flex items-center">
-                <i class="uil uil-map-marker "></i>
-                <span>Virtual</span>
-              </li>
-            </ul>
-          </div>
-          <div class="curso_contenido-precio">
-            <div>
-              <span>$3,600</span>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- CURSO FIN -->
-
-      <!-- CURSO Programación de dispositivos móviles con Android-->
-      <div class="group curso programados">
-        <div class="curso_imagen">
-          <div class="curso_imagen_adapter">
-            <img src="assets/images/cursos/Programacion-de-Dispositivos-Moviles-con-Android.webp" alt="" />
-          </div>
-          <div class="curso_imagen-backgroud">
-          </div>
-          <div class="curso_imagen-data">
-            <div>
-              <img src="assets/images/instructores/usr-f.jpg" alt="" />
-              <div class="ml-3">
-                <a href="#" target="_blank">M. en C. Gustavo Márquez Flores
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="curso_contenido">
-          <a href="cursos/ProgramacionDispositivosMovilesconAndroid/ProgramacionDispositivosMovilesconAndroid1raEd.php">
-            Programación de Dispositivos Móviles con Android</a>
-          <a href="cursos/ProgramacionDispositivosMovilesconAndroid/ProgramacionDispositivosMovilesconAndroid1raEd.php">1ra.
-            Edición</a>
-          <p class="curso_contenido-fecha">
-            Del 3 de mayo al 2 de junio de 2023
-          </p>
-          <p class="curso_contenido-descripcion">Los dispositivos móviles son fundamentales en la vida moderna al
-            proporcionar acceso inmediato a información. La programación de aplicaciones para dispositivos móviles es
-            esencial para el desarrollo de software y ofrece un enorme potencial para los desarrolladores al abrir
-            nuevas oportunidades de uso y usuarios.</p>
-          <p class="curso_contenido-subdescripcion">
-            Dirigido a: Personas con interés en desarrollar aplicaciones para dispositivos móviles con conocimientos
-            básicos de lenguaje Java y del lenguaje de marcado XML.
-          </p>
-          <a href="cursos/ProgramacionDispositivosMovilesconAndroid/ProgramacionDispositivosMovilesconAndroid1raEd.php"
-            target="_blank" class="curso_contenido-button btn btn-link">Ver
-            curso</a>
-          <div class="curso_contenido-horario">
-            <ul>
-              <li class="mr-3">
-                <i class="uil uil-calendar-alt "></i>
-                <span>Lu, Mi y Vi</span>
-              </li>
-              <li class="mr-3">
-                <i class="uil uil-clock "></i>
-                <span>10-13h</span>
-              </li>
-              <li class="flex items-center">
-                <i class="uil uil-map-marker "></i>
-                <span>Virtual</span>
-              </li>
-            </ul>
-          </div>
-          <div class="curso_contenido-precio">
-            <div>
-              <span>$4,320</span>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- CURSO FIN -->
-
-      <!-- CURSO Introducción a la programación en R y su aplicación a la inferencia estadística (Curso I). Edición 15-->
-      <div class="group curso programados">
-        <div class="curso_imagen">
-          <div class="curso_imagen_adapter">
-            <img src="assets/images/cursos/bg-CursoR.webp" alt="" />
-          </div>
-          <div class="curso_imagen-backgroud">
-          </div>
-          <div class="curso_imagen-data">
-            <div>
-              <img src="assets/images/instructores/usr-m.jpg" alt="" />
-              <div class="ml-3">
-                <a href="assets/curriculums_docentes/JesusJuradoMolina.pdf" target="_blank">Dr. Jesús Jurado
-                  Molina</a>
-                <span>Doctor en Pesquerías</span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="curso_contenido">
-          <a
-            href="cursos/IntroduccionAlaProgRyAplicAlinfereniciaEstadistica/IntroduccionAlaProgRyAplicAlinfereniciaEstadI_15aEd.php">
-            Introducción a la Programación en R y su Aplicación a la
-            Inferencia Estadística I</a>
-          <a
-            href="cursos/IntroduccionAlaProgRyAplicAlinfereniciaEstadistica/IntroduccionAlaProgRyAplicAlinfereniciaEstadI_15aEd.php">15a.
-            Edición</a>
-          <p class="curso_contenido-fecha">
-            Del 6 de mayo al 24 de junio de 2023
-          </p>
-          <p class="curso_contenido-descripcion">
-            R: lenguaje de programación y framework de cómputo estadístico.
-            Descubre cómo y por qué ésta herramienta te será de gran
-            utilidad en la recopilación y ordenamiento de datos estadísticos
-            al momento de realizar tu análisis científico de datos.
-          </p>
-          <p class="curso_contenido-subdescripcion">
-            Dirigido a: Biólogos, Oceanógrafos, Oceanólogos, economistas,
-            físicos, matemáticos, estudiantes de postgrado, investigadores y
-            profesionales en áreas multidisciplinarias.
-          </p>
-
-          <a href="cursos/IntroduccionAlaProgRyAplicAlinfereniciaEstadistica/IntroduccionAlaProgRyAplicAlinfereniciaEstadI_15aEd.php"
-            target="_blank" class="curso_contenido-button btn btn-link">Ver
-            curso</a>
-
-          <div class="curso_contenido-horario">
-            <ul>
-              <li class="mr-3">
-                <i class="uil uil-calendar-alt "></i>
-                <span>Sábado</span>
-              </li>
-              <li class="mr-3">
-                <i class="uil uil-clock "></i>
-                <span>10-15h</span>
-              </li>
-              <li class="flex items-center">
-                <i class="uil uil-map-marker "></i>
-                <span>Virtual</span>
-              </li>
-            </ul>
-          </div>
-          <div class="curso_contenido-precio">
-            <div>
-              <span>$5,000</span>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- CURSO FIN -->
-
-      <!-- CURSO Diseño de cursos en cuadernos Jupyter interactivos con la plataforma MACTI-->
-      <div class="group curso programados">
-        <div class="curso_imagen">
-          <div class="curso_imagen_adapter">
-            <img src="assets/images/cursos/Cuadernos-Jupyter-Interactivos.webp" alt="" />
-          </div>
-          <div class="curso_imagen-backgroud">
-          </div>
-          <div class="curso_imagen-data">
-            <div>
-              <img src="assets/images/instructores/usr-f.jpg" alt="" />
-              <div class="ml-3">
-                <a href="#" target="_blank">Dr. Luis Miguel de la Cruz Salas
-                </a>
-                <a href="#" target="_blank">Mtro. Miguel Angel Pérez León
-                </a>
-                <a href="#" target="_blank">Ing. Juan Eduardo Murrieta León
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="curso_contenido">
-          <a
-            href="cursos/DisenoDeCursosEnCuadernosJupyterconMACTI/diseno-de-cursos-en-cuadernos-jupyter-interactivos-con-la-plataforma-MACTI.php">
-            Diseño de Cursos en Cuadernos Jupyter Interactivos con la Plataforma MACTI</a>
-          <a
-            href="cursos/DisenoDeCursosEnCuadernosJupyterconMACTI/diseno-de-cursos-en-cuadernos-jupyter-interactivos-con-la-plataforma-MACTI.php">6ta.
-            Edición</a>
-          <p class="curso_contenido-fecha">
-            Del 1ro al 24 de junio de 2023
-          </p>
-          <p class="curso_contenido-descripcion">El participante será capaz de aplicar diferentes metodologías de
-            enseñanza para promover la interacción durante sus clases; además será capaz de diseñar cursos en temas de
-            Ciencias e Ingeniería utilizando las herramientas tecnológicas interactivas que ofrece la plataforma MACTI
-          </p>
-          <p class="curso_contenido-subdescripcion">
-            Dirigido a: Académicos, profesores, comunicadores y todo aquel
-            interesado en divulgar ideas científicas a público no
-            especializado.
-          </p>
-          <a href="cursos/DisenoDeCursosEnCuadernosJupyterconMACTI/diseno-de-cursos-en-cuadernos-jupyter-interactivos-con-la-plataforma-MACTI.php"
-            target="_blank" class="curso_contenido-button btn btn-link">Ver
-            curso</a>
-          <div class="curso_contenido-horario">
-            <ul>
-              <li class="mr-3">
-                <i class="uil uil-calendar-alt "></i>
-                <span>Ju, Vi y Sa</span>
-              </li>
-              <li class="mr-3">
-                <i class="uil uil-clock "></i>
-                <span>06-09h</span>
-                <span>09-12h</span>
-              </li>
-              <li class="flex items-center">
-                <i class="uil uil-map-marker "></i>
-                <span>Virtual o Presencial</span>
-              </li>
-            </ul>
-          </div>
-          <div class="curso_contenido-precio">
-            <div>
-              <span>$4,320</span>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- CURSO FIN -->
+      <?php
+      banner_curso(
+        "enCurso",
+        "assets/images/cursos/Programacion-de-Dispositivos-Moviles-con-Android.webp",
+        "Programación de Dispositivos Móviles con Android",
+        "1ra. Edición",
+        "cursos/ProgramacionDispositivosMovilesconAndroid/ProgramacionDispositivosMovilesconAndroid1raEd.php",
+        "Del 3 de mayo al 2 de junio de 2023",
+        "Los dispositivos móviles son fundamentales en la vida moderna al
+              proporcionar acceso inmediato a información. La programación de aplicaciones para dispositivos móviles es
+              esencial para el desarrollo de software y ofrece un enorme potencial para los desarrolladores al abrir
+              nuevas oportunidades de uso y usuarios.",
+        "Dirigido a: Personas con interés en desarrollar aplicaciones para dispositivos móviles con conocimientos
+              básicos de lenguaje Java y del lenguaje de marcado XML.",
+        "Lu, Mi y Vi",
+        "10-13h",
+        "Virtual",
+        "$4,320",
+        "NO",
+        array(
+          array("M. en C. Gustavo Márquez Flores", "")
+        )
+      );
+      ?>
 
 
-      <!-- CURSO Introducción a los corales fósiles (Jurásico-Paleógeno)-->
-      <div class="group curso programados">
-        <div class="curso_imagen">
-          <div class="curso_imagen_adapter">
-            <img src="assets/images/cursos/Introduccion-a-los-Corales-Fosiles.webp" alt="" />
-          </div>
-          <div class="curso_imagen-backgroud">
-          </div>
-          <div class="curso_imagen-data">
-            <div>
-              <img src="assets/images/instructores/usr-f.jpg" alt="" />
-              <div class="ml-3">
-                <a href="#" target="_blank">Dr. Hannes Loeser
-                </a>
-                <a href="#" target="_blank">Dr. Rafael Villanueva Olea
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="curso_contenido">
-          <a href="cursos/IntroduccionaLosCoralesFosiles/IntroaLosCoralesFosilesJurasicoPaleogeno1raEd.php">
-            Introducción a los Corales Fósiles (Jurásico-Paleógeno)</a>
-          <a href="cursos/IntroduccionaLosCoralesFosiles/IntroaLosCoralesFosilesJurasicoPaleogeno1raEd.php">1ra.
-            Edición</a>
-          <p class="curso_contenido-fecha">
-            Del 19 al 23 de junio de 2023
-          </p>
-          <p class="curso_contenido-descripcion">Introducir al alumno en el estudio de los corales fósiles
-            post-paleozoicos, a través del estudio de aspectos morfológicos, de su clasificación y taxonomía, de su
-            preparación en el laboratorio e interpretación de su biología.</p>
-          <p class="curso_contenido-subdescripcion">
-            Dirigido a:Alumnos de licenciatura (Biología y Geología) a partir del sexto semestre. Estudiantes de la
-            maestría y del doctorado, y maestros.
-          </p>
-          <a href="cursos/IntroduccionaLosCoralesFosiles/IntroaLosCoralesFosilesJurasicoPaleogeno1raEd.php"
-            target="_blank" class="curso_contenido-button btn btn-link">Ver
-            curso</a>
-          <div class="curso_contenido-horario">
-            <ul>
-              <li class="mr-3">
-                <i class="uil uil-calendar-alt "></i>
-                <span>Lu - Vi</span>
-              </li>
-              <li class="mr-3">
-                <i class="uil uil-clock "></i>
-                <span>10-13h 15-17h (5h por sesión)</span>
-              </li>
-              <li class="flex items-center">
-                <i class="uil uil-map-marker "></i>
-                <span>Virtual</span>
-              </li>
-            </ul>
-          </div>
-          <div class="curso_contenido-precio">
-            <div>
-              <span>$800</span>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- CURSO FIN -->
+      <?php
+      //CURSO Introducción a la programación en R y su aplicación a la inferencia estadística (Curso I). Edición 15
+      banner_curso(
+        "programados",
+        "assets/images/cursos/bg-CursoR.webp",
+        "Introducción a la Programación en R y su Aplicación a la Inferencia Estadística",
+        "(Curso I). Edición 15",
+        "cursos/IntroduccionAlaProgRyAplicAlinfereniciaEstadistica/IntroduccionAlaProgRyAplicAlinfereniciaEstadI_15aEd.php",
+        "Del 3 de junio al 22 de julio del 2023",
+        "R: lenguaje de programación y framework de cómputo estadístico.
+                  Descubre cómo y por qué ésta herramienta te será de gran
+                  utilidad en la recopilación y ordenamiento de datos estadísticos
+                  al momento de realizar tu análisis científico de datos.",
+        "Biólogos, Oceanógrafos, Oceanólogos, economistas,
+                  físicos, matemáticos, estudiantes de postgrado, investigadores y
+                  profesionales en áreas multidisciplinarias.",
+        "Sábado",
+        "10-15 hrs",
+        "Virtual por Meet",
+        "5,000",
+        "NO",
+        array(array("Dr. Jesús Jurado Molina", "assets/curriculums_docentes/JesusJuradoMolina.pdf"))
+      );
+      ?>
 
-      <!-- CURSO Introducción a la estadística en la biología, 2da. Edición-->
-      <div class="group curso programados">
-        <div class="curso_imagen">
-          <div class="curso_imagen_adapter">
-            <img src="assets/images/cursos/bg-EstadisticaEnBiologia1.webp" alt="" />
-          </div>
-          <div class="curso_imagen-backgroud">
-          </div>
-          <div class="curso_imagen-data">
-            <div>
-              <img src="assets/images/instructores/usr-m.jpg" alt="" />
-              <div class="ml-3">
-                <a href="assets/curriculums_docentes/AlejandroVillegasCastillo.pdf" target="_blank">Dr. Alejandro
-                  Villegas
-                  Castillo</a>
-                <span>Doctor en Ciencias Biológicas y de la Salud</span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="curso_contenido">
-          <a href="cursos/IntroduccionEstadisticaEnBiologia/IntroduccionEstadisticaEnBiologia_2daEd.php">
-            Introducción a la Estadística en la Biología</a>
-          <a href="cursos/IntroduccionEstadisticaEnBiologia/IntroduccionEstadisticaEnBiologia_2daEd.php
-          <p class=" curso_contenido-fecha">Sin definir</p>
-            <p class="curso_contenido-descripcion">
-              Tira el paradigma de la estadística como como una sola
-              herramienta útil a tu disposición y piensa en ésta más bien como
-              una caja de herramientas de utilidad para resolver una serie de
-              problemáticas, identificando la utilidad y las limitaciones de
-              cada una de las herramientas.
-            </p>
-            <p class="curso_contenido-subdescripcion">
-              Dirigido a: Estudiantes, profesionistas, tomadores de
-              decisiones, manejadores de recursos, biólogos, ecólogos,
-              administradores de áreas naturales, administradores de recursos
-              naturales.
-            </p>
 
-            <a href="cursos/IntroduccionEstadisticaEnBiologia/IntroduccionEstadisticaEnBiologia_2daEd.php"
-              target="_blank" class="curso_contenido-button btn btn-link">Ver
-              curso</a>
+      <?php 
+        // <!-- CURSO Diseño de cursos en cuadernos Jupyter interactivos con la plataforma MACTI-->
+        banner_curso(
+          "programados",
+          "assets/images/cursos/Cuadernos-Jupyter-Interactivos.webp",
+          "Diseño de Cursos en Cuadernos Jupyter Interactivos con la Plataforma MACTI",
+          "6ta. Edición",
+          "cursos/DisenoDeCursosEnCuadernosJupyterconMACTI/diseno-de-cursos-en-cuadernos-jupyter-interactivos-con-la-plataforma-MACTI.php",
+          "Del 1ro al 24 de junio de 2023",
+          "El participante será capaz de aplicar diferentes metodologías de
+          enseñanza para promover la interacción durante sus clases; además será capaz de diseñar cursos en temas de
+          Ciencias e Ingeniería utilizando las herramientas tecnológicas interactivas que ofrece la plataforma MACTI",
+          " Dirigido a: Académicos, profesores, comunicadores y todo aquel
+          interesado en divulgar ideas científicas a público no
+          especializado.",
+          "Ju, Vi y Sa",
+          "06-09h y 09-12h",
+          "Virtual o Presencial",
+          "$4,320",
+          "NO",
+          array(
+            array("Dr. Luis Miguel de la Cruz Salas","")
+          )
+        )
+      ?>
 
-            <div class="curso_contenido-horario">
-              <ul>
-                <li class="mr-3">
-                  <i class="uil uil-calendar-alt "></i>
-                  <span>Lu, Mi, Ju</span>
-                </li>
-                <li class="mr-3">
-                  <i class="uil uil-clock "></i>
-                  <span>15-17h</span>
-                </li>
-                <li class="flex items-center">
-                  <i class="uil uil-map-marker "></i>
-                  <span>Virtual</span>
-                </li>
-              </ul>
-            </div>
-            <div class="curso_contenido-precio">
-              <div>
-                <span>$2,500</span>
-              </div>
-            </div>
-        </div>
-      </div>
-      <!-- CURSO FIN -->
 
-      <!-- CURSO Excel, uso y aplicaciones-->
-      <div class="group curso programados">
-        <div class="curso_imagen">
-          <div class="curso_imagen_adapter">
-            <img src="assets/images/cursos/bg-Excel1.webp" alt="" />
-          </div>
-          <div class="curso_imagen-backgroud">
-          </div>
-          <div class="curso_imagen-data">
-            <div>
-              <img src="assets/images/instructores/usr-m.jpg" alt="" />
-              <div class="ml-3">
-                <a href="assets/curriculums_docentes/JesusJuradoMolina.pdf" target="_blank">Dr. Jesús Jurado
-                  Molina</a>
-                <span>Doctor en Pesquerías</span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="curso_contenido">
-          <a href="/cursos/ExcelUsoyAplicaciones/ExcelUsoyAplicaciones.php">
-            Excel, Uso y Aplicaciones</a>
-          <a href="/cursos/ExcelUsoyAplicaciones/ExcelUsoyAplicaciones.php">3ra. Edición</a>
-          <p class="curso_contenido-fecha">Sin definir</p>
-          <p class="curso_contenido-descripcion">
-            Aprende una de las herramientas más útiles y versátiles del mercado: Excel. Este es un programa de hojas
-            de cálculo que te permitirá hacer casi de todo: registros de ventas, tablas, gráficas, operaciones
-            matemáticas, correlaciones, proyecciones, análisis estadísticos, y demás funciones útiles.
+      <?php
+      //CURSO Introducción a los corales fósiles (Jurásico-Paleógeno)
+      banner_curso(
+        "programados",
+        "assets/images/cursos/Introduccion-a-los-Corales-Fosiles.webp",
+        "Introducción a los Corales Fósiles (Jurásico-Paleógeno)",
+        "1ra. Edición",
+        "cursos/IntroduccionaLosCoralesFosiles/IntroaLosCoralesFosilesJurasicoPaleogeno1raEd.php",
+        "Del 19 al 23 de junio de 2023",
+        "Introducir al alumno en el estudio de los corales fósiles
+                  post-paleozoicos, a través del estudio de aspectos morfológicos, de su clasificación y taxonomía, de su
+                  preparación en el laboratorio e interpretación de su biología.",
+        "Alumnos de licenciatura (Biología y Geología) a partir del sexto semestre. Estudiantes de la
+                  maestría y del doctorado, y maestros.",
+        "Lunes-Viernes",
+        "10-13 y 15-17 hrs<br>(5h por sesión)",
+        "Presencial",
+        "800",
+        "NO",
+        array(array("Dr. Hannes Loeser", "assets/curriculums_docentes/HannesLoser.pdf"), array("Dr. Rafael Villanueva Olea", "assets/curriculums_docentes/RafaelVillanuevaOlea.pdf"))
+      );
+      ?>
 
-          </p>
-          <p class="curso_contenido-subdescripcion">
-            Dirigido a: Biólogos, Oceanógrafos, Contadores, Oceanólogos, economistas, físicos, matemáticos,
-            estudiantes de postgrado, investigadores y profesionales en áreas multidisciplinarias
-          </p>
 
-          <a href="/cursos/ExcelUsoyAplicaciones/ExcelUsoyAplicaciones.php" target="_blank"
-            class="curso_contenido-button btn btn-link">Ver
-            curso</a>
+      <?php
+      //Introducción a la Estadística en la Biología
+      banner_curso(
+        "programados",
+        "assets/images/cursos/bg-EstadisticaEnBiologia1.webp",
+        "Introducción a la Estadística en la Biología",
+        "2da. Edición",
+        "cursos/IntroduccionEstadisticaEnBiologia/IntroduccionEstadisticaEnBiologia_2daEd.php",
+        "Fechas por definir de 2023",
+        "Tira el paradigma de la estadística como como una sola
+        herramienta útil a tu disposición y piensa en ésta más bien como
+        una caja de herramientas de utilidad para resolver una serie de
+        problemáticas, identificando la utilidad y las limitaciones de
+        cada una de las herramientas.",
+        "Estudiantes, profesionistas, tomadores de
+        decisiones, manejadores de recursos, biólogos, ecólogos,
+        administradores de áreas naturales, administradores de recursos
+        naturales.",
+        "Lunes, Miercoles y Jueves",
+        "15-17hrs",
+        "Virtual",
+        "2500",
+        "NO",
+        array(array("Dr. Alejandro Villegas Castillo", "assets/curriculums_docentes/AlejandroVillegasCastillo.pdf"))
+      );
+      ?>
 
-          <div class="curso_contenido-horario">
-            <ul>
-              <li class="mr-3">
-                <i class="uil uil-calendar-alt "></i>
-                <span>Lu y Ju</span>
-              </li>
-              <li class="mr-3">
-                <i class="uil uil-clock "></i>
-                <span>18-20:30h</span>
-              </li>
-              <li class="flex items-center">
-                <i class="uil uil-map-marker "></i>
-                <span>Virtual</span>
-              </li>
-            </ul>
-          </div>
-          <div class="curso_contenido-precio">
-            <div>
-              <span>$2,500</span>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- CURSO FIN -->
 
-      <!-- CURSO  Introducción a la divulgación de la ciencia. Sexta Edición-->
-      <div class="group curso programados">
-        <div class="curso_imagen">
-          <div class="curso_imagen_adapter">
-            <img src="assets/images/cursos/Introduccion-a-la-divulgacion-de-la-Ciencia.webp" alt="" />
-          </div>
-          <div class="curso_imagen-backgroud">
-          </div>
-          <div class="curso_imagen-data">
-            <div>
-              <img src="assets/images/instructores/usr-f.jpg" alt="" />
-              <div class="ml-3">
-                <a href="#" target="_blank">M. Patricia
-                  Magaña Rueda
-                </a>
-                <a href="#" target="_blank">Dra.
-                  Clementina Equihua Zamora
-                </a>
-                <a href="#" target="_blank">Bio. Paloma
-                  Zubieta López
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="curso_contenido">
-          <a href="cursos/IntroduccionAlaDivulgacionDeLaCiencia/IntroduccionAlaDivulgacionDeLaCiencia6taED.php">
-            Introducción a la Divulgación de la Ciencia</a>
-          <a href="cursos/IntroduccionAlaDivulgacionDeLaCiencia/IntroduccionAlaDivulgacionDeLaCiencia6taED.php">6ta.
-            Edición</a>
-          <p class="curso_contenido-fecha">
-            Fechas por definir
-          </p>
-          <p class="curso_contenido-descripcion">El curso busca introducir a los participantes las bases de la
-            divulgación científica o comunicación pública de la ciencia, que es un área de trabajo que requiere
-            formación académica, entendimiento de lo que la ciencia es y como funciona, así como las maneras de
-            comunicarla al público de manera exitosa.</p>
-          <p class="curso_contenido-subdescripcion">
-            Dirigido a: Académicos, profesores, comunicadores y todo aquel
-            interesado en divulgar ideas científicas a público no
-            especializado.
-          </p>
 
-          <a href="cursos/IntroduccionAlaDivulgacionDeLaCiencia/IntroduccionAlaDivulgacionDeLaCiencia6taED.php"
-            target="_blank" class="curso_contenido-button btn btn-link">Ver
-            curso</a>
+      <?php
+      //Curso Introducción a la divulgación de la ciencia. Sexta Edición
+      banner_curso(
+        "programados",
+        "assets/images/cursos/Introduccion-a-la-divulgacion-de-la-Ciencia.webp",
+        "Curso de Introducción a la Divulgación de la Ciencia",
+        "6ta. Edición",
+        "cursos/IntroduccionAlaDivulgacionDeLaCiencia/IntroduccionAlaDivulgacionDeLaCiencia6taED.php",
+        "Del 2 al 30 de junio del 2023",
+        "El curso busca introducir a los participantes las bases de la
+                  divulgación científica o comunicación pública de la ciencia, que es un área de trabajo que requiere
+                  formación académica, entendimiento de lo que la ciencia es y como funciona, así como las maneras de
+                  comunicarla al público de manera exitosa.",
+        "Académicos, profesores, comunicadores y todo aquel
+                  interesado en divulgar ideas científicas a público no
+                  especializado.",
+        "Viernes",
+        "16:00 - 20:00 hrs",
+        "Virtual por Zoom",
+        "2,600",
+        "NO",
+        array(array("M. en C. Patricia Magaña Rueda", "#"), array("Dra. Clementina Equihua Zamora", "#"), array("Bio. Paloma Zubieta López", "#"))
+      );
+      ?>
 
-          <div class="curso_contenido-horario">
-            <ul>
-              <li class="mr-3">
-                <i class="uil uil-calendar-alt "></i>
-                <span>Viernes</span>
-              </li>
-              <li class="mr-3">
-                <i class="uil uil-clock "></i>
-                <span>16-20h</span>
-              </li>
-              <li class="flex items-center">
-                <i class="uil uil-map-marker "></i>
-                <span>Virtual</span>
-              </li>
-            </ul>
-          </div>
-          <div class="curso_contenido-precio">
-            <div>
-              <span>$2,600</span>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- CURSO FIN -->
+      <!-- DIPLOMADO Diplomado de titulación en Física: actualización docente.2022-2023-->
+      <?php
+      banner_diplomado(
+        "programados",
+        "assets/images/diplomados/bg-DiplomadoFisica.webp",
+        "Diplomado de Titulación en Física: Actualización docente.",
+        "Programa 2022-2023<br><br><b>Cursos con Opción a Diplomado.</b><br><br>Diplomado aprobado como opción de titulación para la carrera de Física en la Facultad de Ciencias. ",
+        "diplomados/ActualizacionDocenteenFisica/ActualizacionDocenteEnFisica22-23.php",
+        "Del 19 de mayo de 2022 al 7 de diciembre de 2023<br><b>Siguiente curso: El calentamiento global: Un punto de vista termodinámico. Inicia 15 de junio de 2023.</b>",
+        "El Programa de Actualización Docente en Física es un diplomado en línea para profesores activos y estudiantes de física interesados en la docencia. Los módulos incluyen áreas de la física y nuevas investigaciones, así como estrategias didácticas para un aprendizaje significativo y adaptación al entorno. Este programa también puede ser utilizado como opción de titulación para la Licenciatura en Física. Hasta el momento, ha graduado a más de 65 físicos comprometidos con la enseñanza.",
+        "Estudiantes de la licenciatura en Física, interesados en la docencia, y profesores de Física de todos los niveles educativos.",
+        "Martes y/o Jueves",
+        "16-20 hrs",
+        "Virtual",
+        "18,000",
+        "NO",
+        array(
+          array("Dra. Mirna Villavicencio Torres. Departamento de Física", "#"),
+          array(
+            "Dr. Ricardo Méndez Fragoso. Departamento de Física
+                  ",
+            "#"
+          )
+        )
+      );
+      ?>
+
 
     </div> <!-- CIERRA EL DIV DE LOS CURSOS -->
   </div> <!-- CIERRA EL CONTENEDOR DE LOS CURSOS -->
