@@ -42,31 +42,6 @@ genera_carrusel(array(
     <div class="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-[30px]">
 
       <?php
-      //Curso Introducción a la divulgación de la ciencia. Sexta Edición
-      banner_curso(
-        "programados",
-        "assets/images/cursos/Introduccion-a-la-divulgacion-de-la-Ciencia.webp",
-        "Curso de Introducción a la Divulgación de la Ciencia",
-        "6ta. Edición",
-        "cursos/IntroduccionAlaDivulgacionDeLaCiencia/IntroduccionAlaDivulgacionDeLaCiencia6taED.php",
-        "Del 2 al 30 de junio del 2023",
-        "El curso busca introducir a los participantes las bases de la
-                  divulgación científica o comunicación pública de la ciencia, que es un área de trabajo que requiere
-                  formación académica, entendimiento de lo que la ciencia es y como funciona, así como las maneras de
-                  comunicarla al público de manera exitosa.",
-        "Académicos, profesores, comunicadores y todo aquel
-                  interesado en divulgar ideas científicas a público no
-                  especializado.",
-        "Viernes",
-        "16:00 - 20:00 hrs",
-        "Virtual por Zoom",
-        "2,600",
-        "NO",
-        array(array("M. en C. Patricia Magaña Rueda", "#"), array("Dra. Clementina Equihua Zamora", "#"), array("Bio. Paloma Zubieta López", "#"))
-      );
-      ?>
-
-      <?php
       //CURSO Introducción a la programación en R y su aplicación a la inferencia estadística (Curso I). Edición 15
       banner_curso(
         "programados",
