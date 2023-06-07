@@ -268,7 +268,7 @@ genera_carrusel(array(
         "16-20 hrs",
         "Hibrida",
         "22,500",
-        "Pago POR MÓDULO (3 módulos: el pago debe realizarse antes de que inicie el módulo correspondiente). $8,000",
+        "Pago por módulo (3 módulos: el pago debe realizarse antes de que inicie el módulo correspondiente). $8,000",
         array(
           array("Dra. María Concepción García Aguirre", "assets/curriculums_docentes/MariaConcepcionGarciaAguirre.pdf"),
           array(

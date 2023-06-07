@@ -43,7 +43,7 @@ function banner_curso($estado, $imagen_url, $nombre_curso, $edicion, $pagina_pri
     if ($descuento == 'NO') {
         echo "";
     } else {
-        echo "<p class=\"curso_contenido-descuento\">15% de descuento por concepto de pronto pago (hasta el 18 de abril) - $3,060</p>";
+        echo "<p class=\"curso_contenido-descuento\">$descuento</p>";
     }
 
     $textocurso3 = "<p class=\"curso_contenido-descripcion\">$descripcion_resumen</p>
@@ -123,7 +123,7 @@ function banner_diplomado($estado, $imagen_url, $nombre_diplomado, $edicion, $pa
     if ($descuento == 'NO') {
         echo "";
     } else {
-        echo "<p class=\"curso_contenido-descuento\">15% de descuento por concepto de pronto pago (hasta el 18 de abril) - $3,060</p>";
+        echo "<p class=\"curso_contenido-descuento\">$descuento</p>";
     }
     $textocurso3="<p class=\"curso_contenido-descripcion\">$descripcion_resumen</p>
                             <p class=\"curso_contenido-subdescripcion\">
@@ -185,7 +185,7 @@ function banner_taller($estado, $imagen_url, $nombre_taller, $edicion, $pagina_p
     if ($descuento == 'NO') {
         echo "";
     } else {
-        echo "<p class=\"curso_contenido-descuento\">15% de descuento por concepto de pronto pago (hasta el 18 de abril) - $3,060</p>";
+        echo "<p class=\"curso_contenido-descuento\">$descuento</p>";
     }
 
     $textocurso3 = "<p class=\"curso_contenido-descripcion\">$descripcion_resumen</p>
@@ -265,7 +265,7 @@ function banner_coloquio($estado, $imagen_url, $nombre_curso, $edicion, $pagina_
     if ($descuento == 'NO') {
         echo "";
     } else {
-        echo "<p class=\"curso_contenido-descuento\">15% de descuento por concepto de pronto pago (hasta el 18 de abril) - $3,060</p>";
+        echo "<p class=\"curso_contenido-descuento\">$descuento</p>";
     }
 
     $textocurso3 = "<p class=\"curso_contenido-descripcion\">$descripcion_resumen</p>
