@@ -94,7 +94,7 @@ function banner_curso($estado, $imagen_url, $nombre_curso, $edicion, $pagina_pri
 //@param $precio_max el costo para externos
 //@param $descuento la frase del 15% de descuento, si es que hay, si no, se pone la palabra "NO" en mayusculas.
 //@param $ponentes = array(array("Nombre","EnlaceCurriculum")) un arreglo que almacena los nombres de ponentes y sus curriculums. Si solo hay uno, es necesario meterlo en doble array.
-function banner_diplomado($estado, $imagen_url, $nombre_diplomado, $edicion, $pagina_principal_diplomado_url, $fecha, $descripcion_resumen, $dirigido_a, $dias, $horas, $modalidad, $precio_max, $ponentes = array(array("Nombre", "EnlaceCurriculum")))
+function banner_diplomado($estado, $imagen_url, $nombre_diplomado, $edicion, $pagina_principal_diplomado_url, $fecha, $descripcion_resumen, $dirigido_a, $dias, $horas, $modalidad, $precio_max, $descuento, $ponentes = array(array("Nombre", "EnlaceCurriculum")))
 {
     $textocurso = "<div class=\"group curso $estado\">
                         <div class=\"curso_imagen\">
@@ -118,8 +118,14 @@ function banner_diplomado($estado, $imagen_url, $nombre_diplomado, $edicion, $pa
                         <div class=\"curso_contenido\">
                             <a href=\"$pagina_principal_diplomado_url\">$nombre_diplomado</a>
                             <a href=\"$pagina_principal_diplomado_url\">$edicion</a>
-                            <p class=\"curso_contenido-fecha\">$fecha</p>
-                            <p class=\"curso_contenido-descripcion\">$descripcion_resumen</p>
+                            <p class=\"curso_contenido-fecha\">$fecha</p>";
+    echo $textocurso2;
+    if ($descuento == 'NO') {
+        echo "";
+    } else {
+        echo "<p class=\"curso_contenido-descuento\">15% de descuento por concepto de pronto pago (hasta el 18 de abril) - $3,060</p>";
+    }
+    $textocurso3="<p class=\"curso_contenido-descripcion\">$descripcion_resumen</p>
                             <p class=\"curso_contenido-subdescripcion\">
                                 Dirigido a: $dirigido_a.
                             </p>
@@ -148,12 +154,12 @@ function banner_diplomado($estado, $imagen_url, $nombre_diplomado, $edicion, $pa
                                 </div>
                             </div>
                         </div>";
-    echo $textocurso2;
+    echo $textocurso3;
 }
 
-function banner_taller($estado, $imagen_url, $nombre_taller, $edicion, $pagina_principal_curso_url, $fecha, $descripcion_resumen, $dirigido_a, $dias, $horas, $modalidad, $precio_max, $ponentes = array(array("Nombre", "EnlaceCurriculum")))
+function banner_taller($estado, $imagen_url, $nombre_taller, $edicion, $pagina_principal_curso_url, $fecha, $descripcion_resumen, $dirigido_a, $dias, $horas, $modalidad, $precio_max, $descuento, $ponentes = array(array("Nombre", "EnlaceCurriculum")))
 {
-    $textocurso = "<div class=\"group curso\">
+    $textocurso = "<div class=\"group curso $estado\">
                         <div class=\"curso_imagen\">
                             <div class=\"curso_imagen_adapter\">
                                 <img src=\"$imagen_url\" alt=\"Imagen del curso\" />
@@ -174,13 +180,20 @@ function banner_taller($estado, $imagen_url, $nombre_taller, $edicion, $pagina_p
                         <div class=\"curso_contenido\">
                             <a href=\"$pagina_principal_curso_url\">$nombre_taller</a>
                             <a href=\"$pagina_principal_curso_url\">$edicion</a>
-                            <p class=\"curso_contenido-fecha\">$fecha</p>
-                            <p class=\"curso_contenido-descripcion\">$descripcion_resumen</p>
+                            <p class=\"curso_contenido-fecha\">$fecha</p>";
+    echo $textocurso2;
+    if ($descuento == 'NO') {
+        echo "";
+    } else {
+        echo "<p class=\"curso_contenido-descuento\">15% de descuento por concepto de pronto pago (hasta el 18 de abril) - $3,060</p>";
+    }
+
+    $textocurso3 = "<p class=\"curso_contenido-descripcion\">$descripcion_resumen</p>
                             <p class=\"curso_contenido-subdescripcion\">
                                 Dirigido a: $dirigido_a.
                             </p>
                             <a href=\"$pagina_principal_curso_url\" class=\"curso_contenido-button pt-4 btn btn-link\">Ver
-                                diplomado</a>
+                                taller</a>
                             <div class=\"curso_contenido-horario\">
                                 <ul>
                                 <li class=\"mr-3\">
@@ -204,7 +217,7 @@ function banner_taller($estado, $imagen_url, $nombre_taller, $edicion, $pagina_p
                                 </div>
                             </div>
                         </div>";
-    echo $textocurso2;
+    echo $textocurso3;
 }
 
 //Funcion que imprime el codigo html del banner de un curso.

@@ -8,12 +8,13 @@ include './includes/templates/funciones.php';
 //Mandamos a llamar la función para generar el carrusel
 //@param recibe un arreglo con la url de las imagenes que queremos ir desplegando en el carrusel
 //Las imagenes deben estar en 1920px por 480px de máximo 160kb para que se ajusten y no se deformen.
-  genera_carrusel(array("assets/images/slider/bg_carrusel/bn-sustentabilidad.webp",
-                        "assets/images/slider/bg_carrusel/bg-tracuache.jpg",
-                        "assets/images/slider/bg_carrusel/bgTortuga.webp",
-                        "assets/images/slider/bg_carrusel/BnProgramacion.webp",
-                        "assets/images/slider/bg_carrusel/carrusel_fisicacuantica.jpg"
-                      ));
+genera_carrusel(array(
+  "assets/images/slider/bg_carrusel/bn-sustentabilidad.webp",
+  "assets/images/slider/bg_carrusel/bg-tracuache.jpg",
+  "assets/images/slider/bg_carrusel/bgTortuga.webp",
+  "assets/images/slider/bg_carrusel/BnProgramacion.webp",
+  "assets/images/slider/bg_carrusel/carrusel_fisicacuantica.jpg"
+));
 ?>
 <!-- Carrusel FIN -->
 
@@ -39,33 +40,6 @@ include './includes/templates/funciones.php';
 <section class="relative md:py-5 pb-5 overflow-hidden">
   <div class="container">
     <div class="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-[30px]">
-
-
-      <!-- **********************************************************EJEMPLO DE MINIATURA PARA CURSO************************************************************-->
-
-      <!-- ***********************************************EJEMPLO DE MINIATURA DIPLOMADO**************************************************-->
-
-      <?php
-      //Convocatoria. XIV Coloquio Estudiantil de Investigaciones con Protistas
-      banner_coloquio(
-        "programados",
-        "assets/images/coloquios/iconoProtistas_2.jpg",
-        "Convocatoria. XIV Coloquio Estudiantil de Investigaciones con Protistas",
-        "Dedicado a la biodiversidad microscópica",
-        "coloquios/Coloquio Estudiantil de Investigaciones con Protistas/ConvocatoriaColoquioProtistas2023.pdf",
-        "18 y 19 de mayo del 2023",
-        "",
-        "Podrán participar estudiantes de cualquier institución educativa de nivel superior, Institutos,
-        Universidades y Tecnológicos nacionales y extranjeros inscritos a materias afines a la
-        Ficología, Protistología y Protozoología.",
-        "Jueves y Viernes",
-        "9-18 hrs",
-        "Presencial",
-        "0",
-        "NO",
-        array(array("Itzel Sigala Regalado", "#"), array("Margarita Reyes Santos", "#"))
-      );
-      ?>
 
       <?php
       //Curso Introducción a la divulgación de la ciencia. Sexta Edición
@@ -132,9 +106,11 @@ include './includes/templates/funciones.php';
         "16-20 hrs",
         "Virtual",
         "18,000",
+        "NO",
         array(
           array("Dra. Mirna Villavicencio Torres. Departamento de Física", "#"),
-          array("Dr. Ricardo Méndez Fragoso. Departamento de Física
+          array(
+            "Dr. Ricardo Méndez Fragoso. Departamento de Física
                   ",
             "#"
           )
@@ -194,7 +170,7 @@ include './includes/templates/funciones.php';
         "1ra. Edición",
         "cursos/IntroduccionaLosCoralesFosiles/IntroaLosCoralesFosilesJurasicoPaleogeno1raEd.php",
         "Del 19 al 23 de junio de 2023",
-        "ntroducir al alumno en el estudio de los corales fósiles
+        "Introducir al alumno en el estudio de los corales fósiles
                   post-paleozoicos, a través del estudio de aspectos morfológicos, de su clasificación y taxonomía, de su
                   preparación en el laboratorio e interpretación de su biología.",
         "Alumnos de licenciatura (Biología y Geología) a partir del sexto semestre. Estudiantes de la
@@ -207,6 +183,27 @@ include './includes/templates/funciones.php';
         array(array("Dr. Hannes Loeser", "assets/curriculums_docentes/HannesLoser.pdf"), array("Dr. Rafael Villanueva Olea", "assets/curriculums_docentes/RafaelVillanuevaOlea.pdf"))
       );
       ?>
+
+      <?php
+      //Taller Intensivo de Docencia Científica
+      banner_taller(
+        "programados",
+        "assets/images/cursos/1.webp",
+        "Docencia Científica",
+        "1ra. Edición - Taller Intensivo",
+        "cursos/TallerIntensivodeDocenciaCientifica/TallerIntensivodeDocenciaCientifica1ed.php",
+        "Del 31 de julio al 2 de agosto de 2023",
+        "El aprendizaje activo es una perspectiva educativa centrada en el estudiante, respaldada por evidencia científica, que busca mejorar la enseñanza y el aprendizaje. En México, la formación en este enfoque es limitada, pero la iniciativa Do-Ciencia busca cambiar eso a través de talleres basados en la evidencia.",
+        "Docentes de la Facultad de Ciencias",
+        "Lunes-Miercoles",
+        "9:00 - 18:00 hrs",
+        "Presencial",
+        "1,000",
+        "NO",
+        array(array("Dr. Marcos Nahmad", "assets/curriculums_docentes/MarcosNahmad.pdf"))
+      );
+      ?>
+
 
       <!-- Diplomado en Tecnologías Cuánticas-->
       <?php
@@ -223,13 +220,62 @@ include './includes/templates/funciones.php';
         "16-18hrs",
         "Híbrida",
         "15,000",
+        "NO",
         array(
           array("Dr. Ricardo Méndez", "#"),
-          array("Dr. Santiago Francisco Caballero","#"),
-          array("Dra. Georgina Angélica Olivares","#"),
-          array("Dr. John Alexander Franco","#"),
-          array("Dr. Dorilián López","#"),
-          array("Dr. Luis Manuel Arévalo","#")
+          array("Dr. Santiago Francisco Caballero", "#"),
+          array("Dra. Georgina Angélica Olivares", "#"),
+          array("Dr. John Alexander Franco", "#"),
+          array("Dr. Dorilián López", "#"),
+          array("Dr. Luis Manuel Arévalo", "#")
+        )
+      );
+      ?>
+
+      <?php
+      //Curso Introducción a Python
+      banner_curso(
+        "programados",
+        "assets/images/cursos/1.jpg",
+        "Introducción a Python",
+        "1ra. Edición",
+        "cursos/IntroduccionaPython/IntroduccionaPython1ed.php",
+        "Del 9 de agosto al 26 de agosto del 2023",
+        "Python es un lenguaje de programación que se ha vuelto muy popular en los últimos años debido a su facilidad de aprendizaje y a su amplia gama de aplicaciones. En particular, Python es muy popular en el ámbito de la ciencia de datos, ya que tiene una gran cantidad de bibliotecas y herramientas que son muy útiles para el análisis de datos y la creación de modelos predictivos.",
+        "Alumnos de licenciatura (Biología y Geología) a partir del sexto semestre. Estudiantes de la
+                  maestría y del doctorado, y maestros.",
+        "P: Mie y vie<br>V: Sab",
+        "19-21 y 10-13 hrs",
+        "Hibrida",
+        "800",
+        "NO",
+        array(array("Dr. Hannes Loeser", "assets/curriculums_docentes/HannesLoser.pdf"), array("Dr. Rafael Villanueva Olea", "assets/curriculums_docentes/RafaelVillanuevaOlea.pdf"))
+      );
+      ?>
+
+      <!-- DIPLOMADO Diplomado de titulación en Física: actualización docente.2022-2023-->
+      <?php
+      banner_diplomado(
+        "programados",
+        "assets/images/diplomados/bg-DiplomadoFisica.webp",
+        "Ordenamiento Ecológico, Impacto y Restauración Ambiental",
+        "Quinto Diplomado",
+        "diplomados/OrdenamientoEcologicoImpactoyRestauracionAmbiental/OrdenamientoEcologicoImpactoyRestauracionAmbiental5dip.php",
+        "Del 21 de agosto de 2023 al 17 de abril de 2024",
+        "El Ordenamiento Ecológico del Territorio es un instrumento de política ambiental, diseñado para caracterizar, diagnosticar y proponer formas de utilización del espacio territorial y sus recursos naturales, siempre bajo el enfoque de uso racional y diversificado y con el consenso de la población. El ordenamiento ecológico, determina las obras o actividades a realizar (las cuales se someten a evaluación de impacto). ",
+        "Personas interesadas en la planeación territorial, manejo sustentable, conservación y restauración de los recursos naturales (campo de conocimiento: Biología, Ciencias de la Tierra, Geografía, Economía, Arquitectura, Derecho, Planeación Territorial, Desarrollo Sustentable o áreas afines).",
+        "Lunes y miercoles",
+        "16-20 hrs",
+        "Hibrida",
+        "22,500",
+        "Pago POR MÓDULO (3 módulos: el pago debe realizarse antes de que inicie el módulo correspondiente). $8,000",
+        array(
+          array("Dra. María Concepción García Aguirre", "assets/curriculums_docentes/MariaConcepcionGarciaAguirre.pdf"),
+          array(
+            "Más...
+                  ",
+            "#"
+          )
         )
       );
       ?>
@@ -261,7 +307,7 @@ include './includes/templates/funciones.php';
       );
       ?>
 
-      
+
     </div> <!-- CIERRA EL DIV DE LOS CURSOS-->
   </div><!-- CIERRA EL CONTENEDOR-->
 </section><!-- TERMINA SECCIÓN -->
