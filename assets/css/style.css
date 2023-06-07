@@ -536,9 +536,23 @@ h2 {
     line-height: 2rem !important;
     font-weight: 600 !important;
     margin-bottom: 0.75rem !important;
-    margin-top: 0.75rem;
+    margin-top: 2rem;
 }
 
+
+.oferta-academica-2 {
+    position: relative;
+    padding-bottom: 3rem !important;
+    overflow: hidden !important;
+}
+
+.oferta-academica-2 h2 {
+    font-size: 1.5rem !important;
+    line-height: 2rem !important;
+    font-weight: 600 !important;
+    margin-bottom: 0.85rem !important;
+    margin-top: 2rem;
+}
 .curso-horarios {
     position: relative;
     padding-top: 2rem !important;

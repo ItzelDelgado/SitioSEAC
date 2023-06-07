@@ -191,7 +191,7 @@ genera_carrusel(array(
         "assets/images/talleres/taller-intensivo-de-docencia-cientifica.jpg",
         "Docencia Científica",
         "1ra. Edición - Taller Intensivo",
-        "cursos/TallerIntensivodeDocenciaCientifica/TallerIntensivodeDocenciaCientifica1ed.php",
+        "talleres/TallerIntensivodeDocenciaCientifica/TallerIntensivodeDocenciaCientifica1ed.php",
         "Del 31 de julio al 2 de agosto de 2023",
         "El aprendizaje activo es una perspectiva educativa centrada en el estudiante, respaldada por evidencia científica, que busca mejorar la enseñanza y el aprendizaje. En México, la formación en este enfoque es limitada, pero la iniciativa Do-Ciencia busca cambiar eso a través de talleres basados en la evidencia.",
         "Docentes de la Facultad de Ciencias",
@@ -212,7 +212,7 @@ genera_carrusel(array(
         "assets/images/diplomados/TecnologiasCuanticas.jpg",
         "Diplomado en Tecnologías Cuánticas",
         "Aprobado como opción de Titulación para la carrera de Física por el Consejo Técnico de la Facultad de Ciencias, UNAM.",
-        "diplomados/ActualizacionDocenteenFisica/ActualizacionDocenteEnFisica22-23.php",
+        "diplomados/TecnologiasCuanticas/TecnologiasCuanticas1ed.php",
         "Del 7 de agosto del 2023 al 20 de septiembre del 2024.",
         "El avance tecnológico ha beneficiado a la sociedad en telecomunicaciones, computadoras, energía y minerales. En México, hay una comunidad científica creciente en tecnologías cuánticas, y este diplomado formará especialistas en su manejo y aplicación en industria y sociedad.",
         "Estudiantes de los últimos semestres y egresados de licenciatura en física y/o áreas afines.",
@@ -249,7 +249,7 @@ genera_carrusel(array(
         "Hibrida",
         "800",
         "NO",
-        array(array("Dr. Hannes Loeser", "assets/curriculums_docentes/HannesLoser.pdf"), array("Dr. Rafael Villanueva Olea", "assets/curriculums_docentes/RafaelVillanuevaOlea.pdf"))
+        array(array("Candidato a Doctor Sergio Iker Martínez Juárez", "assets/curriculums_docentes/IkerMartinez.pdf"))
       );
       ?>
 

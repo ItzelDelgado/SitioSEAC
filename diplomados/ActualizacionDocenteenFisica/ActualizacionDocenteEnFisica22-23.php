@@ -11,13 +11,14 @@ $edicion = "Programa 2022-2023";
 $fecha = "Del 19 de mayo de 2022 al 7 de diciembre de 2023";
 $precio_unam = "1,200"; //No es necesario poner mxn
 $precio_general = "1,500"; //No es necesario poner mxn
+$link_plaza_prometeo = "https://tienda.fciencias.unam.mx/es/252-edicion-2022-2023";
 $dias = "Martes y/o jueves";  //Puedes poner Lunes, Martes, Miercoles, Jueves y Viernes.
 $horario = "16:00 a 20:00 hrs."; //Lo puedes poner en el formato que gustes. No debe ser mucha info. 
 //Si es demasiada puedes agregar más detalles despues donde esta la sección de Requisitos, Horario y Lugar, 
 //solo quitas la variable, puedes ver el ejemplo de Cursos en cuadernos de jupyter
 $no_horas = "240"; //No es necesario poner hrs
 $modalidad = "Virtual";
-$max_alumnos = "No hay un máximo."; //Cantidad de alumnos maxima
+$max_alumnos = "No hay un máximo"; //Cantidad de alumnos maxima
 $min_alumnos = "5"; //Cantidad de alumnos minima
 $descripcion = "Una de las tareas sustantivas del quehacer universitario es la docencia, la cual no puede desligarse de la investigación y la difusión del conocimiento. Considerando que en las licenciaturas del área de las ciencias físico-matemáticas y de las ingenierías no se suele contemplar en los planes de estudios asignaturas encaminadas a la formación de docentes expertos en la disciplina y tomando en cuenta la importancia que tiene el contar con profesores de Física que no sólo dominen la disciplina que enseñan, sino que también cuenten con las herramientas y recursos necesarios para guiar al estudiante durante todo el proceso de enseñanza-aprendizaje, planteando nuevas estrategias didácticas encaminadas a fomentar un aprendizaje significativo, en 2007 se empezó a impartir el “Programa de Actualización Docente en Física. Cursos con opción a Diplomado”.
 Este diplomado está orientado a que los profesores de Física en activo, y los estudiantes de la licenciatura en Física interesados en la docencia, contextualicen la práctica docente dentro de una sociedad del conocimiento y la información, reconociendo a la Física como una de las ciencias que contribuye directamente a la transformación de la sociedad a través del desarrollo de nuevas teorías y tecnología.
@@ -30,7 +31,7 @@ $requisitos = "Los profesores de educación media superior deberán poseer el t�
 <br>Los estudiantes de la Licenciatura en Física de la Facultad de Ciencias que deseen obtener el título a través de la modalidad de Ampliación y Profundización del Conocimiento deberán comprobar haber cubierto el 75% de los créditos de la licenciatura.";
 $lugar = "El diplomado se impartirá en línea. En caso de necesitarse alguna reunión presencial se realizará en alguno de los salones de seminarios del Departamento de Física de la Facultad de Ciencias.
 Las sesiones virtuales se impartirán en martes y/o jueves de 16:00 a 20:00 hrs"; //El lugar donde se va a impartir, si son varios, agregar todos y separar con <br>
-$formato_inscripcion = "https://forms.gle/wwn996LgigXLKmsM6"; //Pegar el formato de inscripcion
+$formato_inscripcion = ""; //Pegar el formato de inscripcion
 $info_academica = "Dra. Mirna Villavicencio Torres <br>
 mirnavt@ciencias.unam.mx, teléfono: 5622 8622 extensión 44717
 <br>Dr. Ricardo Méndez Fragoso<br>
@@ -41,7 +42,7 @@ rich@ciencias.unam.mx, teléfono: 5622 4964" //Agregar el Nombre <br> correo, da
 <!-- La parte más pesada es agregar el temario. Se puede usar ese o una tabla como la que normalmente creas, ya agregue estilos para que se adapten, ver ejemplo de primeros auxilios.-->
 <!-- Start Hero -->
 <section class="portada">
-    <img src="<?php echo $imagen_curso?>" alt="Imagen del curso">
+    <img src="<?php echo $imagen_curso ?>" alt="Imagen del curso">
     <div class="portada-opacity"></div>
     <div class="container">
         <div class="portada-informacion">
@@ -162,7 +163,7 @@ rich@ciencias.unam.mx, teléfono: 5622 4964" //Agregar el Nombre <br> correo, da
         <p>Dra. Mirna Villavicencio Torres. Departamento de Física</p>
         <p>Dr. Ricardo Méndez Fragoso. Departamento de Física
 
-</p>
+        </p>
     </div>
 </section>
 
@@ -260,510 +261,40 @@ rich@ciencias.unam.mx, teléfono: 5622 4964" //Agregar el Nombre <br> correo, da
 
 
 
-<!-- Este ejemoplo es para cuando se muestra en forma de tabla -->
-<!-- TEMARIO SECCIÓN: -->
-<section class="temario-tabla container">
-    <h2>Temario</h2>
-    <table border="1" cellspacing="0" cellpadding="0">
-        <tbody>
-            <tr>
-                <td class="text-white" bgcolor="#003d64">
-                    <p align="center"><strong>
-                            Nombre del curso <br>
-                            y contenidos generales</strong></p>
-                </td>
-
-                <td class="text-white" bgcolor="#003d64">
-                    <p align="center"><strong>
-                            Instructor</strong></p>
-                </td>
-
-                <td class="text-white" bgcolor="#003d64">
-                    <p align="center"><strong>
-                            Fechas de impartición </strong></p>
-                </td>
-            </tr>
-
-
-            <tr>
-                <td>
-
-                    <p><strong>
-                            I. La Enseñanza de la Mecánica Clásica <br>
-                        </strong> <br>
-
-                        I.1. Leyes de movimiento<br>
-                        a) Cinemática<br>
-                        b) Dinámica<br>
-                        c) El oscilador armónico<br>
-                        I.2. Trabajo y Energía<br>
-                        a) Definiciones y leyes de conservación. <br>
-                        b) Diagramas de energía<br>
-                        I.3. Gravitación <br>
-                        a) Ley de gravitación universal <br>
-                        b) El concepto de campo gravitacional y potencial gravitacional <br>
-                        c) Principio de equivalencia galileano <br>
-                        I.4. Una mirada a la Mecánica Analítica <br>
-                        a) Introducción mínima al principio variacional de Hamilton <br>
-
-                    </p>
-                </td>
-
-                <td>
-                    <p align="center"> Dr. Francisco Nettel Rueda </p>
-                </td>
-                <td>
-                    <p>19 y 26 de mayo: 2, 9 y 16 de junio de 2022 </p>
-
-                </td>
-            </tr>
-
-
-            <tr>
-                <td>
-
-                    <p><strong>
-
-                            II. Didáctica de la Física utilizando experiencias de la vida cotidiana <br>
-                        </strong> <br>
-
-                        II.1 La enseñanza y la práctica docente en contexto. <br>
-                        II.2 Hacia un aprendizaje significativo de la Física a través de la enseñanza situada <br>
-                        II.3 Estrategias didácticas para la enseñanza de la física <br>
-                        II.4 Elaboración de secuencias didácticas utilizando: <br>
-                        a) El electromagnetismo en nuestro día a día. Algunos conceptos básicos y sus aplicaciones en el desarrollo de la tecnología que tenemos a nuestro alcance <br>
-                        b) La Termodinámica en nuestra vida cotidiana. Sus leyes y aplicaciones en la vida y la generación de energía. <br>
-
-                    </p>
-                </td>
-
-                <td>
-                    <p align="center">
-                        Dra. Patricia Goldstein Menache y
-                        Dra. Mirna Villavicencio Torres
-                    </p>
-                </td>
-                <td>
-                    <p>
-                        28 de julio: 4, 11 18, y 25 de agosto de 2022
-                    </p>
-
-                </td>
-            </tr>
-
-
-            <tr>
-                <td>
-
-                    <p><strong>
-                            III. Estrategias Didácticas para la Enseñanza de la Termodinámica <br>
-                        </strong> <br>
-
-                        III.1 Repaso de conceptos utilizados en Termodinámica <br>
-                        a) Calor y Temperatura (Ley cero) <br>
-                        b) Conservación de la Energía (Primera Ley) <br>
-                        c) Procesos permitidos por la Segunda Ley de la Termodinámica <br>
-                        d) Cambios de Estado <br>
-                        III.2. Más allá de la Termodinámica Clásica <br>
-                        a) Termodinámica conectada con otras áreas de la Física <br>
-                        b) Termodinámica y otras áreas del conocimiento. <br>
-                        III.3 Enseñanza de la Termodinámica. <br>
-                        a) Demostraciones que faciliten la comprensión de los conceptos en Termodinámica <br>
-
-                    </p>
-                </td>
-
-                <td>
-                    <p align="center">
-                        Dra. Adriana Andraca Gómez
-                    </p>
-                </td>
-                <td>
-                    <p>
-                        8, 22 y 29 de septiembre; 6 y 13 de octubre de 2022
-                    </p>
-
-                </td>
-            </tr>
-
-
-            <tr>
-                <td>
-
-                    <p><strong>
-
-                            IV. Enseñanza de la Física utilizando problemas integrados en la Ciencia. <br>
-                        </strong> <br>
-
-                        IV. 1 Planteamiento de proyectos científico <br>
-                        a) Enfoque de los problemas científicos disciplinarios vs multidisciplinarios. <br>
-                        b) Solución de problemas integrados de mecánica, electromagnetismo y termodinámica. <br>
-                        IV.2 Uso de las TIC’s en la enseñanza de la Física <br>
-                        a) Plataforma Jupyter, Arduino y RaspberryPi en experimentos y simulaciones en Física <br>
-                        b) Utilización de plataformas digitales en la exposición de experimentos. <br>
-                        c) Experimentos integrados utilizando las TIC’s. Plataformas como Google-Classroom y Moodle. <br>
-                        IV.3 Generación proyectos con experimentos de Física con impacto en la enseñanza de las ciencias. <br>
-
-
-                    </p>
-                </td>
-
-                <td>
-                    <p align="center">
-                        Dr. Ricardo Méndez Fragoso
-                    </p>
-                </td>
-                <td>
-                    <p>
-                        27 de octubre; 3, 10, 17 y 24 de noviembre de 2022
-                    </p>
-
-                </td>
-            </tr>
-
-
-            <tr>
-                <td>
-
-                    <p><strong>
-
-                            V. Física de Materiales <br>
-                        </strong> <br>
-
-                        V.1 Introducción a la Física de Materiales <br>
-                        a) Tipos de materiales <br>
-                        V.2 Estructura, arreglo y movimiento de átomos <br>
-                        a) Estructura Cristalina <br>
-                        b) Simetría Cristalina <br>
-                        c) Difracción de onda y red recíproca <br>
-                        V.3 Electrones en sólidos <br>
-                        a) Aproximación de amarre fuerte <br>
-                        b) Teorema de Bloch <br>
-                        c) Aproximación de electrón libre <br>
-                        d) Transporte electrónico <br>
-                        V.4 Vibraciones de red y propiedades térmicas de los materiales <br>
-                        a) Calor específico <br>
-                        b) Fonones <br>
-                        c) Transporte térmico <br>
-                        V.5 Introducción a la química de materiales <br>
-                        a) Enlace químico e Interacciones moleculares <br>
-                        b) Periodicidad e Hibridación <br>
-                        c) Teoría de orbitales moleculares <br>
-
-                    </p>
-                </td>
-
-                <td>
-                    <p align="center">
-                        Dra. Roxana Mitzayé Del Castillo Vázquez
-                    </p>
-                </td>
-                <td>
-                    <p>
-                        8 y 15 de diciembre de 2022; 5, 12 y 19 de enero de 2023
-                    </p>
-
-                </td>
-            </tr>
-
-
-            <tr>
-                <td>
-
-                    <p><strong>
-
-                            VI. Estrategias didácticas para la enseñanza del electromagnetismo <br>
-                        </strong> <br>
-
-                        VI.1. Carga eléctrica. <br>
-                        a) Conservación y cuantización de la carga. <br>
-                        b) Transferencia de carga. <br>
-                        VI. 2. Interacción electrostática. <br>
-                        a) Ley de Coulomb <br>
-                        b) Campo Eléctrico <br>
-                        c) Energía Potencial eléctrica y Diferencia de potencial. <br>
-                        VI.3. La Ley de Gauss. <br>
-                        a) Conductores, Aislantes y Semiconductores. <br>
-                        b) Jaula de Faraday. Transistores. <br>
-                        VI.4. Corriente eléctrica. <br>
-                        a) Capacitancia. <br>
-                        b) Resistencia. <br>
-                        c) Ley de Ohm. <br>
-                        d) Efecto Joule. Potencia eléctrica. <br>
-                        e) Circuitos eléctricos. <br>
-                        VI.6. Transformación de la energía. VI.7. Campo Magnético. Fuerza de Lorentz. <br>
-                        VI.8. Ley de Ampere. Ferromagnetismo. Paramagnetismo. Diamagnetismo. Electroimanes y levitación magnética. <br>
-                        VI.9. Inducción magnética. Ley de Faraday. Ley de Lenz <br>
-                        VI.10. Generación de energía eléctrica. Motores, Generadores, Transformadores <br>
-                        VI.11. Ondas electromagnéticas y sus aplicaciones <br>
-                        VI.12. El electromagnetismo como generador de las ideas cuánticas y de la relatividad especial <br>
-
-                    </p>
-                </td>
-
-                <td>
-                    <p align="center">
-                        Dra. Mirna Villavicencio Torres
-                    </p>
-                </td>
-                <td>
-                    <p>
-                        2, 9, 16 y 23 de febrero; 2 de marzo de 2023
-                    </p>
-
-                </td>
-            </tr>
-
-
-            <tr>
-                <td>
-
-                    <p><strong>
-
-                            VII. Temas Selectos de Computación <br>
-                        </strong> <br>
-
-                        VII.1 Introducción a la Programación <br>
-                        a) Manejo de listas, tuplas y diccionarios. <br>
-                        b) Condicionales if, modificadores de flujo for y while <br>
-                        c) Definición y evaluación de funciones. <br>
-                        VII.2 Métodos de análisis de datos (Resultados estadísticos, mínimos cuadrados, etc.) <br>
-                        VII.3 Métodos numéricos: <br>
-                        a) Evaluación numérica de integrales definidas <br>
-                        b) Solución de sistemas de ecuaciones. <br>
-                        c) Solución de ecuaciones no lineales. <br>
-                        d) Solución de ecuaciones diferenciales. <br>
-                        VII.4 Herramientas de visualización. <br>
-                        a) Visualización de sólidos 3D. <br>
-                        b) Animación. <br>
-                        c) Integración de métodos numéricos para la simulación y visualización de sistemas dinámicos. <br>
-
-                    </p>
-                </td>
-
-                <td>
-                    <p align="center">
-                        Dr. Raúl Arturo Espejel Morales
-                    </p>
-                </td>
-                <td>
-                    <p>
-                        16, 23 y 30 de marzo; 13 y 20 de abril de 2023
-                    </p>
-
-                </td>
-            </tr>
-
-
-            <tr>
-                <td>
-
-                    <p><strong>
-
-                            VIII. Estrategias Didácticas para la Enseñanza de la Mecánica Cuántica. <br>
-                        </strong> <br>
-
-                        VIII.1 Antecedentes de la Mecánica Cuántica <br>
-                        a) Descripción semi-clásica de la luz. <br>
-                        b) Naturaleza atómica de la materia. <br>
-                        c) Dualidad onda-partícula. <br>
-                        VIII. 2 Mecánica Cuántica <br>
-                        a) Postulados de la Mecánica Cuántica. <br>
-                        b) Problemas típicos en la Mecánica Cuántica. <br>
-                        c) Mecánica Cuántica en la actualidad (aplicaciones) <br>
-
-                    </p>
-                </td>
-
-                <td>
-                    <p align="center">
-                        Dra. Vicenta Sánchez Morales
-                    </p>
-                </td>
-                <td>
-                    <p>
-                        4, 11, 18 y 25 de mayo; 1 de junio de 2023
-                    </p>
-
-                </td>
-            </tr>
-
-
-            <tr>
-                <td>
-
-                    <p><strong>
-
-                            IX. El calentamiento global: Un punto de vista termodinámico. <br>
-                        </strong> <br>
-
-                        IX.1 Un repaso a la Termodinámica de equilibrio: Ley Cero y Primera Ley de la Termodinámica. Sistemas abiertos y cerrados. <br>
-                        IX.2 Máquinas térmicas. La Segunda Ley de la Termodinámica. Reversibilidad e irreversibilidad. <br>
-                        IX.3 El efecto invernadero y su modificación <br>
-                        IX.4 Las cuatro revoluciones industriales: Del siglo XVIII al siglo XXI. Generación de energía útil <br>
-                        IX.5 Evidencias del calentamiento global en nuestro planeta debido al forzamiento antropogénico: Observatorio de Mauna Loa <br>
-                        IX.6 Posibles escenarios en el futuro <br>
-
-                    </p>
-                </td>
-
-                <td>
-                    <p align="center">
-                        Dra. Patricia Goldstein Menache
-                    </p>
-                </td>
-                <td>
-                    <p>
-                        15, 22 y 29 de junio; 27 de julio y 3 de agosto de 2023
-                    </p>
-
-                </td>
-            </tr>
-
-
-            <tr>
-                <td>
-
-                    <p><strong>
-
-                            X. Electrónica en la enseñanza de la Física <br>
-                        </strong> <br>
-
-                        X.1 Conceptos Básicos <br>
-                        a) Ley de Ohm <br>
-                        b) Análisis de Circuitos <br>
-                        c) Circuito de estados transitorios. Circuitos RC, RL y RLC <br>
-                        X.2 Física del estado sólido de semiconductores <br>
-                        a) Diodo <br>
-                        b) LED <br>
-                        c) Transistores <br>
-                        X.3 Amplificadores Operacionales <br>
-                        X.4 Electrónica Digital <br>
-
-                    </p>
-                </td>
-
-                <td>
-                    <p align="center">
-                        Dr. Sergio Enrique Solís Nájera
-                    </p>
-                </td>
-                <td>
-                    <p>
-                        15, 22 y 29 de agosto; 4 y 11 de septiembre de 2023
-                    </p>
-
-                </td>
-            </tr>
-
-
-            <tr>
-                <td>
-
-                    <p><strong>
-
-                            XI. Historia de la Física <br>
-                        </strong> <br>
-
-                        XI.1 El saber frente a la ciencia <br>
-                        a) El Saber frente a la Ciencia: <br>
-                        b) La Tradición Oral. <br>
-                        c) El fenómeno humano. Sociedades de cazadores y recolectores. Su tecnología y sus mitos. <br>
-                        d) Las primeras sociedades agrícolas y ganaderas. Su tecnología y mitos. <br>
-                        e) Las primeras ciudades: Civilización. Tecnología y mitos fundacionales: La Religión como orden del Mundo. <br>
-                        f) La Escritura: tecnología de la palabra. <br>
-                        XI.2 Movimiento <br>
-                        a) El cosmos: Astronomía en sociedades primitivas y civilizaciones antiguas. <br>
-                        b) Los filósofos griegos y el problema del movimiento. <br>
-                        c) Arquímedes, la escuela de Alejandría. <br>
-                        d) El Calendario: Lunar y Solar. <br>
-                        e) Ptolomeo. El Almagesto. <br>
-                        f) La navegación, las rutas comerciales y los viajes de descubrimiento. <br>
-                        g) La Iglesia y el problema del Calendario. <br>
-                        h) Modelo Heliocéntrico de Copérnico. <br>
-                        i) La supernova de 1572 y Tycho Brahe. <br>
-                        j) Johannes Kepler. <br>
-                        k) Galileo, la experimentación, el telescopio y la formulación del movimiento. <br>
-                        l) El problema de los fluidos y el vacío: Pascal, los Bernoulli, Torricelli <br>
-                        m) Newton, Leibniz, Hooke, Huygens: la invención de la Física. <br>
-                        XI.3 Calor <br>
-                        a) La transformación de la materia: los cuatro elementos. <br>
-                        b) La Alquimia. <br>
-                        c) La termometría. Escalas termométricas. <br>
-                        d) Lavoisier y Rumford: el fin del calórico. <br>
-                        e) La máquina de vapor: el calor y el trabajo mecánico. <br>
-                        f) La eficiencia de las máquinas térmicas. <br>
-                        g) La conservación de la energía: Joule y Meyer. <br>
-                        h) De los gases: Boyle, Newton, Boltzmann. <br>
-                        i) La Matematización de la Termodinámica: Kelvin, Clausius, Gibbs, Caratheodory, Planck <br>
-                        XI.4 IV. Electromagnetismo <br>
-                        a) La electrostática y el magnetismo: Bacon y Gilbert. La Botella de Leyden y la carga eléctrica. <br>
-                        b) Conductores y aislantes. <br>
-                        c) Coulomb y la Fuerza Eléctrica: la acción a distancia. <br>
-                        d) Del flujo de carga: la corriente eléctrica. <br>
-                        e) La electricidad animal y la electricidad mineral: Galvani y Volta. <br>
-                        f) El campo eléctrico y el campo magnético. Ley de Ampere y Ley de Faraday. <br>
-                        g) Las ecuaciones de Maxwell y la radiación electromagnética. <br>
-                        XI.5 Materia <br>
-                        a) La luz: onda y partícula. <br>
-                        b) Postulado de De Broglie. <br>
-                        c) La Teoría Especial de la Relatividad. <br>
-                        d) Experimento de la doble rendija. <br>
-                        e) El átomo y el electrón: Modelos atómicos. <br>
-                        f) El nacimiento de la Mecánica Cuántica. <br>
-                        g) Interpretaciones de la Mecánica Cuántica. <br>
-                        h) La Radioactividad. La Física Nuclear. <br>
-                        i) Las partículas sub atómicas y las simetrías. <br>
-
-                    </p>
-                </td>
-
-                <td>
-                    <p align="center">
-                        Dr. Manuel Gerardo Quintana García
-                    </p>
-                </td>
-                <td>
-                    <p>
-                        28 de septiembre; 5, 12, 19 y 26 de octubre de 2023.
-                    </p>
-
-                </td>
-            </tr>
-
-
-            <tr>
-                <td>
-
-                    <p><strong>
-                            XII. Introducción a la Física Biomédica <br>
-                        </strong> <br>
-                        XII.1 Antecedentes y su relación con la Física Medica <br>
-                        XII.2 Física de detrás de los dispositivos médicos de uso común <br>
-                        XII.3 Aplicaciones médicas <br>
-                        XII.4 Aplicaciones Industriales <br>
-                        XII.5 Ejemplos en casos clínicos <br>
-
-                    </p>
-                </td>
-
-                <td>
-                    <p align="center">
-                        Dra. Karla Paola García Pelagio
-                    </p>
-                </td>
-                <td>
-                    <p>
-                        9, 16,23, 30 de noviembre y 7 de diciembre de 2023
-                    </p>
-                </td>
-            </tr>
-        </tbody>
-    </table>
+<!-- Este ejemoplo es para cuando se muestra en forma de indice. -->
+<!-- TEMARIO SECCIÓN: LOS <h3> son temas principales y los <li> son subtemas. -->
+<!-- TEMARIO SECCIÓN: LOS <h3> son temas principales y los <li> son subtemas. -->
+<section class="temario container">
+    <h2>Módulos</h2>
+    <div class="secciones grid md:grid-cols-2 grid-cols-1">
+        <div> <!--Tema-->
+            <div class="contenido">
+                <ul>
+                    <li>I. La Enseñanza de la Mecánica Clásica</li>
+                    <li>II. Didáctica de la Física utilizando experiencias de la vida cotidiana</li>
+                    <li>III. Estrategias Didácticas para la Enseñanza de la Termodinámica</li>
+                    <li>IV. Enseñanza de la Física utilizando problemas integrados en la Ciencia.</li>
+                    <li>V. Física de Materiales</li>
+                    <li>VI. Estrategias didácticas para la enseñanza del electromagnetismo</li>
+                    <li>VII. Temas Selectos de Computación</li>
+                    <li>VIII. Estrategias Didácticas para la Enseñanza de la Mecánica Cuántica.</li>
+                    <li>IX. El calentamiento global: Un punto de vista termodinámico.</li>
+                    <li>X. Electrónica en la enseñanza de la Física</li>
+                    <li>XI. Historia de la Física</li>
+                    <li>XII. Introducción a la Física Biomédica</li>
+                </ul>
+            </div>
+        </div><!--fin de tema-->
+
+    </div> <!-- TERMINA EL CONTENEDOR DE LOS SUBTEMAS -->
+    <!-- Por si hay temario extendido (pdf), si no, favor de comentarlo. -->
+    <a class="formato-link mt-6" target="_blank" href="../../../diplomados/ActualizacionDocenteenFisica/TEMARIOEXTENDIDO_DipActualizacionDocenteenFisica22-23.pdf">
+        Temario extendido
+    </a>
 </section>
 
 <!-- Start Section-->
-<section class="oferta-academica">
+<section class="oferta-academica-2">
     <div class="container">
         <h2>Acreditación de los cursos</h2>
         <p>Para acreditar cualquiera de los cursos y tener derecho a la constancia correspondiente será necesario cumplir con los siguientes requisitos:</p>
@@ -780,7 +311,7 @@ rich@ciencias.unam.mx, teléfono: 5622 4964" //Agregar el Nombre <br> correo, da
                 Obtener un promedio general mínimo de ocho en los cursos aprobados.</li>
             <li><b>Administrativos:</b><br> Haber cubierto los pagos de los cursos tomados en el programa.<br></li>
         </ul>
-        <h2><b>Los egresados de la licenciatura en Física de la Facultad de Ciencias podrán obtener el título profesional </b>al cumplir con los siguientes requisitos:</h2>
+        <h2>Los egresados de la licenciatura en Física de la Facultad de Ciencias podrán obtener el título profesional al cumplir con los siguientes requisitos:</h2>
         <p>Para acreditar el Diplomado de actualización docente en Física es necesario cumplir con los siguientes requisitos:</p>
         <ul class="list-disc pl-12">
             <li><b>Académicos:</b> <br>Aprobar con un promedio mínimo de 8.5 general los cursos correspondientes a 240 hrs (no necesariamente en orden consecutivo)<br>
@@ -806,7 +337,7 @@ rich@ciencias.unam.mx, teléfono: 5622 4964" //Agregar el Nombre <br> correo, da
                         <div class="md:ml-8 md:mt-0">
                             <h4>Realizar el pago en línea mediante "Plaza
                                 Prometeo", la tienda de la Facultad de Ciencias</h4>
-                            <p><a href="https://tienda.fciencias.unam.mx" target="_blank" class="btn btn-link text-indigo-600 hover:text-red-600 after:bg-indigo-600 duration-500 ease-in-out">tienda.fciencias.unam.mx</a>
+                            <p><a href=<?php echo $link_plaza_prometeo ?> target="_blank" class="btn btn-link text-indigo-600 hover:text-red-600 after:bg-indigo-600 duration-500 ease-in-out">tienda.fciencias.unam.mx</a>
                             </p>
                         </div>
                     </div>
@@ -815,10 +346,7 @@ rich@ciencias.unam.mx, teléfono: 5622 4964" //Agregar el Nombre <br> correo, da
                         <h3 class="md:text-right md:mr-8">Paso 2</h3>
 
                         <div class="md:ml-8 md:mt-0">
-                            <h4>Registrarse en este formato de inscripción</h4>
-                            <p>(únicamente si usted ya hizo el pago)</p>
-                            <p><a href=<?php echo $formato_inscripcion ?> target="_blank" class="btn btn-link text-indigo-600 hover:text-red-600 after:bg-indigo-600 duration-500 ease-in-out">Formato
-                                    de inscripción</a></p>
+                            <h4>Reenvía el correo que recibirás con la confirmación de tu pago a los siuientes correos: <br>1. educontinua.of@ciencias.unam.mx<br>2. mirnavt@ciencias.unam.mx<br> Señalando tu nombre completo, grado académico y número telefónico de contacto.</h4>
                         </div>
                     </div>
 

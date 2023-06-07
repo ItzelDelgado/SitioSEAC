@@ -6,10 +6,10 @@ include '../../../includes/templates/funciones.php';
 <?php
 $titulo_curso = "Primeros Auxilios, RCP y uso de DAE";
 $imagen_curso = "../../../assets/images/cursos/bg-primeros-auxilios.webp"; //Agregar imagen del curso, tamaño forzoso de 19
-$edicion = "1ra. Edición";
-$fecha = "2, 4, 9 y 11 de mayo de 2023";
-$precio_unam = "500";
-$precio_general = "800";
+$edicion = "2da. Edición";
+$fecha = "17 y 24 de junio de 2023";
+$precio_unam = "850";
+$precio_general = "1,300";
 //Si no tiene descuento, favor de poner NO en precio_unam_descuento.
 //ej: $precio_unam_descuento = "NO";
 $precio_unam_descuento = "NO"; //No es necesario poner mxn
@@ -18,8 +18,8 @@ $frase_descuento = "15% de descuento por concepto de pronto pago (hasta el 3 de
 abril)"; //Frase del porcentaje de descuento
 $limite_fecha_descuento = "31-05-2023"; //Formato date("dd-mm-Yyyy")
 $link_plaza_prometeo = "https://tienda.fciencias.unam.mx";
-$dias = "Martes y jueves"; //Puedes poner Lunes, Martes, Miercoles, Jueves y Viernes.
-$horario = "9:00   a 12:00 hrs"; //Lo puedes poner en el formato que gustes. No debe ser mucha info. 
+$dias = "Sábado"; //Puedes poner Lunes, Martes, Miercoles, Jueves y Viernes.
+$horario = "9:00 a 15:00 hrs"; //Lo puedes poner en el formato que gustes. No debe ser mucha info. 
 //Si es demasiada puedes agregar más detalles despues donde esta la sección de Requisitos, Horario y Lugar, 
 //solo quitas la variable, puedes ver el ejemplo de Cursos en cuadernos de jupyter
 $no_horas = "12"; //No es necesario poner hrs
@@ -30,10 +30,8 @@ $descripcion = "En las labores diarias en nuestro trabajo o en nuestra propia ca
 $objetivo = "Proporcionar los conocimientos actualizados en cuidados cardíacos de emergencia, primeros auxilios y uso de desfibriladores automáticos externos.";
 $dirigido_a = "Todo público";
 $requisitos = "Ninguno";
-$lugar = "	Unidad de Seminarios Dr. Ignacio Chávez.
-Cerro Zacatepec S/N, C.U., Coyoacán, 04370 Ciudad de México.
-Vivero Alto de Ciudad Universitaria, a un costado del Jardín Botánico (cuenta con lugar de estacionamiento)."; //El lugar donde se va a impartir, si son varios, agregar todos y separar con <br>
-$formato_inscripcion = "https://forms.gle/zHBCJFYEXfxP1qZo7"; //Pegar el formato de inscripcion
+$lugar = "	Secretaría de Educación Abierta y Continua, ubicada en el 2do piso del edificio Tlahuizcalpan, Facultad de Ciencias, UNAM."; //El lugar donde se va a impartir, si son varios, agregar todos y separar con <br>
+$formato_inscripcion = "https://forms.gle/nxiwZ8FMsnd5FGkK9"; //Pegar el formato de inscripcion
 $info_academica = "M. en C. Julio Alejandro Prieto Sagredo<br>
 Correo electrónico: juliusp.s@ciencias.unam.mx"; //Agregar el Nombre <br> correo, dando un br para saltar de linea.
 $ponentes_principales_presentacion = array(array("M. en C. Julio Alejandro Prieto Sagredo, TUM-A", "../../../assets/curriculums_docentes/JulioPrieto.pdf"), array("P. de M. Tabaré Merino Sánchez", "../../../assets/curriculums_docentes/TabareMerinoSanchez.pdf"))
@@ -271,7 +269,7 @@ $ponentes_principales_presentacion = array(array("M. en C. Julio Alejandro Priet
     </div> <!-- TERMINA EL CONTENEDOR DE LOS SUBTEMAS -->
 
     <!-- Por si hay temario extendido (pdf), si no, favor de comentarlo. -->
-    <a class="formato-link mt-6" target="_blank" href="../../cursos/PrimerosAuxilios/2daEd/PrimerosAuxilios2daEd-TemarioExtendido.pdf">
+    <a class="formato-link mt-6" target="_blank" href="../../../cursos/PrimerosAuxilios/2daEd/PrimerosAuxilios2daEd-TemarioExtendido.pdf">
         Temario extendido
     </a>
 </section><!-- TERMINA LA SECCIÓN DEL TEMARIO -->
