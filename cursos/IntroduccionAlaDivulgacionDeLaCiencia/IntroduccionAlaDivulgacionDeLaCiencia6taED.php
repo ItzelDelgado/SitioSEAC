@@ -271,8 +271,7 @@ $ponentes_principales_presentacion = array(array("M. en C. Patricia Magaña Rued
     </div> <!-- TERMINA EL CONTENEDOR DE LOS SUBTEMAS -->
 
     <!-- Por si hay temario extendido (pdf), si no, favor de comentarlo. -->
-    <a class="formato-link mt-6" href="assets/pdf/formatos/FormatoPresentacionCursoo.docx"
-        download="Documento-con-descripcion">
+    <a class="formato-link mt-6" target="_blank" href="../../cursos/IntroduccionAlaDivulgacionDeLaCiencia/TEMARIOEXTENDIDO_IntroaLaDivulgaciondelaCiencia6ed.pdf">
         Temario extendido
     </a>
 </section><!-- TERMINA LA SECCIÓN DEL TEMARIO -->
