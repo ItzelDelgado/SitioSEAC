@@ -188,7 +188,7 @@ genera_carrusel(array(
       //Taller Intensivo de Docencia Científica
       banner_taller(
         "programados",
-        "assets/images/cursos/1.webp",
+        "assets/images/talleres/taller-intensivo-de-docencia-cientifica.jpg",
         "Docencia Científica",
         "1ra. Edición - Taller Intensivo",
         "cursos/TallerIntensivodeDocenciaCientifica/TallerIntensivodeDocenciaCientifica1ed.php",
@@ -236,7 +236,7 @@ genera_carrusel(array(
       //Curso Introducción a Python
       banner_curso(
         "programados",
-        "assets/images/cursos/1.jpg",
+        "assets/images/cursos/introduccion-a-python.jpg",
         "Introducción a Python",
         "1ra. Edición",
         "cursos/IntroduccionaPython/IntroduccionaPython1ed.php",
@@ -257,13 +257,13 @@ genera_carrusel(array(
       <?php
       banner_diplomado(
         "programados",
-        "assets/images/diplomados/bg-DiplomadoFisica.webp",
+        "assets/images/diplomados/diplomado-de-ordenamiento-ecologico.jpg",
         "Ordenamiento Ecológico, Impacto y Restauración Ambiental",
         "Quinto Diplomado",
         "diplomados/OrdenamientoEcologicoImpactoyRestauracionAmbiental/OrdenamientoEcologicoImpactoyRestauracionAmbiental5dip.php",
         "Del 21 de agosto de 2023 al 17 de abril de 2024",
         "El Ordenamiento Ecológico del Territorio es un instrumento de política ambiental, diseñado para caracterizar, diagnosticar y proponer formas de utilización del espacio territorial y sus recursos naturales, siempre bajo el enfoque de uso racional y diversificado y con el consenso de la población. El ordenamiento ecológico, determina las obras o actividades a realizar (las cuales se someten a evaluación de impacto). ",
-        "Personas interesadas en la planeación territorial, manejo sustentable, conservación y restauración de los recursos naturales (campo de conocimiento: Biología, Ciencias de la Tierra, Geografía, Economía, Arquitectura, Derecho, Planeación Territorial, Desarrollo Sustentable o áreas afines).",
+        "Personas interesadas en la planeación territorial, manejo sustentable, conservación y restauración de los recursos naturales (campo de conocimiento: Biología, Ciencias de la Tierra, Geografía, Economía, Arquitectura, Derecho, Planeación Territorial, Desarrollo Sustentable o áreas afines)",
         "Lunes y miercoles",
         "16-20 hrs",
         "Hibrida",
