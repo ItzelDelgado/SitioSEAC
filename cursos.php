@@ -162,7 +162,7 @@ genera_encabezado_de_pagina("assets/images/pages/bg_cursos.webp", "Cursos");
         "assets/images/cursos/Programacion-de-Dispositivos-Moviles-con-Android.webp",
         "Programación de Dispositivos Móviles con Android",
         "1ra. Edición",
-        "cursos/ProgramacionDispositivosMovilesconAndroid/ProgramacionDispositivosMovilesconAndroid1raEd.php",
+        "cursos/ProgramacionDeDispositivosMovilesConAndroid/ProgramacionDeDispositivosMovilesConAndroid.php",
         "Del 3 de mayo al 2 de junio de 2023",
         "Los dispositivos móviles son fundamentales en la vida moderna al
               proporcionar acceso inmediato a información. La programación de aplicaciones para dispositivos móviles es
