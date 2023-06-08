@@ -38,7 +38,7 @@ $formato_inscripcion = "https://forms.gle/mbrduw9Wy8vdiuEEA"; //Pegar el formato
 $info_academica = "Dr. Alejandro Villegas Castillo<br>
 Correo electrónico: alejandrovillegas@ciencias.unam.mx
 "; //Agregar el Nombre <br> correo, dando un br para saltar de linea.
-$ponentes_principales_presentacion = array(array("Juana", "../../assets/curriculums_docentes/JulioPrieto.pdf"))
+$ponentes_principales_presentacion = array(array("Dr. Alejandro Villegas Castillo", "#"), array("Lic. Sol de Mayo Mejenes López", "#"), array("Dr. José juan Flores Martínez", "#"));
     //Es necesario poner el ../../ en las url de los curriculums, para acceder a la carpeta.
     ?>
 
