@@ -79,13 +79,9 @@
                     <li class="has-submenu parent-parent-menu-item">
                         <a href="javascript:void(0)">Inscripción</a><span class="menu-arrow"></span>
                         <ul class="submenu">
-                            <li class="has-submenu parent-menu-item"><a href="javascript:void(0)">Inscripción</a><span class="submenu-arrow"></span>
-                                <ul class="submenu">
-                                    <li><a href="../../Inscripcion_EduContinua.php" class="sub-menu-item">EDUCACIÓN
-                                            CONTINUA</a></li>
-                                    <li><a href="Inscripcion_Convenios.php" class="sub-menu-item">CONVENIOS</a></li>
-                                </ul>
-                            </li>
+                            <li class="has-submenu parent-menu-item"><a href="../../Inscripcion_EduContinua.php"> EDUCACIÓN CONTINUA </a><span class=""></span></li>
+                            <li class="has-submenu parent-menu-item"><a href="Inscripcion_Convenios.php">CONVENIOS</a><span class=""></span></li>
+                            
                         </ul>
                     </li>
                     <li class="has-submenu parent-parent-menu-item">
