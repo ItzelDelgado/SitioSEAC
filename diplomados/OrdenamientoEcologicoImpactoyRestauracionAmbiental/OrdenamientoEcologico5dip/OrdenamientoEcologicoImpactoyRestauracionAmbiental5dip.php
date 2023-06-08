@@ -71,8 +71,8 @@ Correo electrónico: galapagos@ciencias.unam.mx
                 echo "<span class=\"portada-informacion-pu\">$precio_unam UNAM</span>
                         <span class=\"portada-informacion-pg\">$precio_general GENERAL</span>
                         <p>El pago de este diplomado puede hacerse en 3 exibiciones de:</p>
-                        <span class=\"portada-informacion-pu-red\">4,000 UNAM</span>
-                        <span class=\"portada-informacion-pg\">5,000 GENERAL</span>";
+                        <span class=\"portada-informacion-pu-red\">7,000 UNAM</span>
+                        <span class=\"portada-informacion-pg\">8,000 GENERAL</span>";
             }
 
             ?>
@@ -174,43 +174,43 @@ Correo electrónico: galapagos@ciencias.unam.mx
         </p>
         <h2>Impartido por:</h2>
         <ul class="pl-12 list-decimal">
-            <li><a href="../../../assets/curriculums_docentes/MariaConcepcionGarciaAguirre.pdf">Dra. María Concepción
+            <li><a target="_blank" href="../../../assets/curriculums_docentes/MariaConcepcionGarciaAguirre.pdf">Dra. María Concepción
                     García Aguirre. Profesora de asignatura, Facultad de Ciencias, UNAM</a></li>
-            <li><a href="../../../assets/curriculums_docentes/MarisolGallardoAngeles.pdf">Dra. Marisol Anglés Hernández.
+            <li><a target="_blank" href="../../../assets/curriculums_docentes/MarisolGallardoAngeles.pdf">Dra. Marisol Anglés Hernández.
                     Investigadora, Instituto de Investigaciones Jurídicas, UNAM</a></li>
-            <li><a href="../../../assets/curriculums_docentes/JorgeRobertoBlancoMartinez.pdf">Dr. V&iacute;ctor Manuel
+            <li><a target="_blank" href="../../../assets/curriculums_docentes/JorgeRobertoBlancoMartinez.pdf">Dr. V&iacute;ctor Manuel
                     Vel&aacute;zquez Aguilar. Profesor / investigador. FC-UNAM</a></li>
-            <li><a href="../../../assets/curriculums_docentes/RogelioCorona.pdf">Dr. Rogelio Corona Nuñez. Profesor de
+            <li><a target="_blank" href="../../../assets/curriculums_docentes/RogelioCorona.pdf">Dr. Rogelio Corona Nuñez. Profesor de
                     asignatura. Ciencias de la Tierra. Fac de Ciencias.</a></li>
-            <li><a href="../../../assets/curriculums_docentes/CarloAlejandroDLunaFuentes.pdf"> M. en G. Carlo Alejandro
+            <li><a target="_blank" href="../../../assets/curriculums_docentes/CarloAlejandroDLunaFuentes.pdf"> M. en G. Carlo Alejandro
                     D’Luna Fuentes. Profesor de Geografía, SUA y de la Universidad de Guerrero</a></li>
-            <li><a href="../../../assets/curriculums_docentes/EduardoGonzalezHernandez.pdf">Lic. en Planificación para
+            <li><a target="_blank" href="../../../assets/curriculums_docentes/EduardoGonzalezHernandez.pdf">Lic. en Planificación para
                     el Desarrollo Agropecuario (PDA) Eduardo González Hernández, Consultor independiente</a></li>
-            <li><a href="../../../assets/curriculums_docentes/MarianaHernandezApolinar.pdf">Dra. Mariana Hernández
+            <li><a target="_blank"href="../../../assets/curriculums_docentes/MarianaHernandezApolinar.pdf">Dra. Mariana Hernández
                     Apolinar. Técnico Académico, Lab. Ecología de Poblaciones, Fac. Ciencias</a></li>
-            <li><a href="../../../assets/curriculums_docentes/MariaSilviaIriarteVivarBalderrama.pdf">Dra. María Silvia
+            <li><a target="_blank" href="../../../assets/curriculums_docentes/MariaSilviaIriarteVivarBalderrama.pdf">Dra. María Silvia
                     Iriarte Vivar Balderrama, Profesora de asignatura, Facultad de Ciencias, UNAM</a></li>
-            <li><a href="../../../assets/curriculums_docentes/PedroEloyMendozaHernandez.pdf">Dr. Pedro Eloy Mendoza
+            <li><a target="_blank" href="../../../assets/curriculums_docentes/PedroEloyMendozaHernandez.pdf">Dr. Pedro Eloy Mendoza
                     Hernández, Técnico Académico, Lab. Ecología de Poblaciones, Fac. Ciencias</a></li>
-            <li><a href="../../../assets/curriculums_docentes/FernandoOlivoAranda.pdf">M. en C. Fernando Olivo Aranda.
+            <li><a target="_blank" href="../../../assets/curriculums_docentes/FernandoOlivoAranda.pdf">M. en C. Fernando Olivo Aranda.
                     Profesor de asignatura, Facultad de Arquitectura, UNAM</a></li>
-            <li><a href="../../../assets/curriculums_docentes/TamaraGuadalupeOsornoSanchez.pdf">Dra. Tamara Guadalupe
+            <li><a target="_blank" href="../../../assets/curriculums_docentes/TamaraGuadalupeOsornoSanchez.pdf">Dra. Tamara Guadalupe
                     Osorno Sánchez. Profesora de Tiempo Completo. Facultad de Ciencias Naturales Universidad Autónoma de
                     Querétaro</a></li>
-            <li><a href="../../../assets/curriculums_docentes/AlejandroPelaezGoycochea.pdf">Biólogo Alejandro Peláez
+            <li><a target="_blank" href="../../../assets/curriculums_docentes/AlejandroPelaezGoycochea.pdf">Biólogo Alejandro Peláez
                     Goycochea. Consultor de OE, Universidad Autónoma del Estado de Morelos</a></li>
-            <li><a href="../../../assets/curriculums_docentes/JoseLuisPerezDamian.pdf">Geógrafo José Luis Pérez Damián.
+            <li><a target="_blank" href="../../../assets/curriculums_docentes/JoseLuisPerezDamian.pdf">Geógrafo José Luis Pérez Damián.
                     Consultor independiente</a></li>
-            <li><a href="../../../assets/curriculums_docentes/TalinaRuizRodriguez.pdf">M. en C. Talina Ruíz Rodríguez.
+            <li><a target="_blank" href="../../../assets/curriculums_docentes/TalinaRuizRodriguez.pdf">M. en C. Talina Ruíz Rodríguez.
                     Analista Ambiental, Teo Consultora Ambiental, S.C.</a></li>
-            <li><a href="../../../assets/curriculums_docentes/IreneSanchezGallen.pdf">Dra. Irene Sánchez Gallén. Técnico
+            <li><a target="_blank" href="../../../assets/curriculums_docentes/IreneSanchezGallen.pdf">Dra. Irene Sánchez Gallén. Técnico
                     Académico Titular C, Ecología del Suelo, Fac. de Ciencias, UNAMe</a></li>
-            <li><a href="../../../assets/curriculums_docentes/LeobardoTerpanAcuna.pdf">M. en Estudios Regionales, Medio
+            <li><a target="_blank" href="../../../assets/curriculums_docentes/LeobardoTerpanAcuna.pdf">M. en Estudios Regionales, Medio
                     Ambiente y Desarrollo Leobardo Terpán Acuña. Profesor de asignatura, Facultad de Ciencias, UNAM</a>
             </li>
-            <li><a href="../../../assets/curriculums_docentes/RicardoVazquezPerales.pdf">Dr. Ricardo Vázquez Perales.
+            <li><a target="_blank" href="../../../assets/curriculums_docentes/RicardoVazquezPerales.pdf">Dr. Ricardo Vázquez Perales.
                     Consultor independiente</a></li>
-            <li><a href="../../../assets/curriculums_docentes/RodrigoCelisGarcia.pdf">M en Gestión y Autitorías
+            <li><a target="_blank" href="../../../assets/curriculums_docentes/RodrigoCelisGarcia.pdf">M en Gestión y Autitorías
                     Ambientales Rodrigo Celis García</a></li>
         </ul>
         <p class="text-red-600 mt-4">
