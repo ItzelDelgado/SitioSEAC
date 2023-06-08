@@ -237,7 +237,7 @@ genera_encabezado_de_pagina("assets/images/pages/bg_cursos.webp", "Cursos");
         "assets/images/cursos/bg-FaunaSilvestre.webp",
         "Rescate y Rehabilitación de Fauna Silvestre",
         "6ta. Edición",
-        "ursos/RescateyRehabilitaciondeFaunaSilvestre/RescateyRehabilitaciondeFaunaSilvestre6taEd.php",
+        "cursos/RescateyRehabilitaciondeFaunaSilvestre/RescateyRehabilitaciondeFaunaSilvestre6taEd.php",
         "Del 17 abril al 26 junio del 2023",
         "Actividades antropogénicas y desastres naturales ponen en riesgo a
           especies de fauna silvestre en peligro de extinción. La IUCN y el WHSG han creado criterios para rescatar

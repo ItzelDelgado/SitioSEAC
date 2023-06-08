@@ -187,7 +187,7 @@ genera_carrusel(array(
         "assets/images/diplomados/TecnologiasCuanticas.jpg",
         "Diplomado en Tecnologías Cuánticas",
         "Aprobado como opción de Titulación para la carrera de Física por el Consejo Técnico de la Facultad de Ciencias, UNAM.",
-        "diplomados/TecnologiasCuanticas/TecnologiasCuanticas1ed.php",
+        "diplomados/TecnologiasCuanticas/TecnologiasCuanticas1ed/TecnologiasCuanticas1ed.php",
         "Del 7 de agosto del 2023 al 20 de septiembre del 2024.",
         "El avance tecnológico ha beneficiado a la sociedad en telecomunicaciones, computadoras, energía y minerales. En México, hay una comunidad científica creciente en tecnologías cuánticas, y este diplomado formará especialistas en su manejo y aplicación en industria y sociedad.",
         "Estudiantes de los últimos semestres y egresados de licenciatura en física y/o áreas afines.",
@@ -228,7 +228,7 @@ genera_carrusel(array(
       );
       ?>
 
-      <!-- DIPLOMADO Diplomado de titulación en Física: actualización docente.2022-2023-->
+      <!-- DIPLOMADO Diplomado Ordenamiento ecologico-->
       <?php
       banner_diplomado(
         "programados",

@@ -34,144 +34,59 @@ genera_encabezado_de_pagina("assets/images/pages/bg_diplomados.webp", "Diplomado
   <div class="container">
     <div class="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-[30px]">
 
-      <!-- ***********************************************EJEMPLO DE MINIATURA DIPLOMADO**************************************************-->
-      <!-- DIPLOMADO -->
-      <!-- <div class="group curso">
-        <div class="curso_imagen">
-          <div class="curso_imagen_adapter">
-            <img src="assets/images/cursos/bg-DivulgacionCiencia.webp" alt="" />
-          </div>
-          <div class="curso_imagen-backgroud">
-          </div>
-          <div class="curso_imagen-data">
-            <div>
-              <img src="assets/images/instructores/usr-f.jpg" alt="" />
-              <div class="ml-3">
-                <a href="#" target="_blank">M. Patricia
-                  Magaña Rueda
-                </a>
-                <a href="#" target="_blank">Dra.
-                  Clementina Equihua Zamora
-                </a>
-                <a href="#" target="_blank">Bio. Paloma
-                  Zubieta López
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="curso_contenido">
-          <a href="cursos/IntroduccionAlaDivulgacionDeLaCiencia6taED.php">
-            Introducción a la divulgación de la Ciencia</a>
-          <a href="cursos/IntroduccionAlaDivulgacionDeLaCiencia6taED.php">6ta. Edición - Diplomado</a>
-          <p class="curso_contenido-fecha">
-            Del 14 de abril al 12 de mayo del 2023
-          </p>
-          <p class="curso_contenido-descripcion">El curso busca introducir a los participantes las bases de la
-            divulgación científica o comunicación pública de la ciencia, que es un área de trabajo que requiere
-            formación académica, entendimiento de lo que la ciencia es y como funciona, así como las maneras de
-            comunicarla al público de manera exitosa.</p>
-          <p class="curso_contenido-subdescripcion">
-            Dirigido a: Académicos, profesores, comunicadores y todo aquel
-            interesado en divulgar ideas científicas a público no
-            especializado.
-          </p>
-          <a href="cursos/IntroduccionAlaDivulgacionDeLaCiencia6taED.php" target="_blank" class="curso_contenido-button btn btn-link">Ver
-            diplomado</a>
-          <div class="curso_contenido-horario">
-            <ul>
-              <li class="mr-3">
-                <i class="uil uil-calendar-alt "></i>
-                <span>Viernes</span>
-              </li>
-              <li class="mr-3">
-                <i class="uil uil-clock "></i>
-                <span>16-20h</span>
-              </li>
-              <li class="flex items-center">
-                <i class="uil uil-map-marker "></i>
-                <span>Virtual</span>
-              </li>
-            </ul>
-          </div>
-          <div class="curso_contenido-precio">
-            <div>
-              <span>$2,600</span>
-            </div>
-          </div>
-        </div>
-      </div> -->
-      <!-- DIPLOMADO FIN -->
+      <!-- DIPLOMADO Ordenamiento ecologico-->
+      <?php
+      banner_diplomado(
+        "programados",
+        "assets/images/diplomados/diplomado-de-ordenamiento-ecologico.jpg",
+        "Ordenamiento Ecológico, Impacto y Restauración Ambiental",
+        "Quinto Diplomado",
+        "diplomados/OrdenamientoEcologicoImpactoyRestauracionAmbiental/OrdenamientoEcologicoImpactoyRestauracionAmbiental5dip.php",
+        "Del 21 de agosto de 2023 al 17 de abril de 2024",
+        "El Ordenamiento Ecológico del Territorio es un instrumento de política ambiental, diseñado para caracterizar, diagnosticar y proponer formas de utilización del espacio territorial y sus recursos naturales, siempre bajo el enfoque de uso racional y diversificado y con el consenso de la población. El ordenamiento ecológico, determina las obras o actividades a realizar (las cuales se someten a evaluación de impacto). ",
+        "Personas interesadas en la planeación territorial, manejo sustentable, conservación y restauración de los recursos naturales (campo de conocimiento: Biología, Ciencias de la Tierra, Geografía, Economía, Arquitectura, Derecho, Planeación Territorial, Desarrollo Sustentable o áreas afines)",
+        "Lunes y miercoles",
+        "16-20 hrs",
+        "Hibrida",
+        "22,500",
+        "Pago por módulo (3 módulos: el pago debe realizarse antes de que inicie el módulo correspondiente). $8,000",
+        array(
+          array("Dra. María Concepción García Aguirre", "assets/curriculums_docentes/MariaConcepcionGarciaAguirre.pdf"),
+          array(
+            "Más...
+                  ",
+            "#"
+          )
+        )
+      );
+      ?>
 
-      <!-- ***********************************************EJEMPLO DE MINIATURA DIPLOMADO**************************************************-->
-      <!-- DIPLOMADO -->
-      <div class="group curso enCurso">
-        <div class="curso_imagen">
-          <div class="curso_imagen_adapter">
-            <img src="assets/images/cursos/bg-DivulgacionCiencia.webp" alt="" />
-          </div>
-          <div class="curso_imagen-backgroud">
-          </div>
-          <div class="curso_imagen-data">
-            <div>
-              <img src="assets/images/instructores/usr-f.jpg" alt="" />
-              <div class="ml-3">
-                <a href="#" target="_blank">Dra. Mirna Villavicencio Torres
-                </a>
-                <a href="#" target="_blank">Dr. Ricardo Méndez Fragoso
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="curso_contenido">
-          <a href="diplomados/ActualizacionDocenteenFisica/ActualizacionDocenteEnFisica22-23.php">
-          Derecho y Gestión Ambiental</a>
-          <a href="diplomados/ActualizacionDocenteenFisica/ActualizacionDocenteEnFisica22-23.php">XXVII Edición</a>
-          <p class="curso_contenido-fecha">
-          Del 24 de febrero al 9 de junio del 2023
-          </p>
-          <p class="curso_contenido-descripcion">Enfocado a contribuir a la formación de profesionales en el
-              conocimiento y aplicación del derecho y la gestión ambiental
-              bajo un enfoque interdisciplinario y desde un esquema tanto
-              nacional como internacional con el propósito de avanzar en la
-              comprensión de la cuestión ambiental y el desarrollo sustentable
-              así como en el fortalecimiento de la conciencia ambiental.
-</p>
-          <p class="curso_contenido-subdescripcion">
-              Diplomado. <br />Dirigido a: Abogados, Biólogos (titulados o
-              no), o cualquier profesionista inmerso en el área ya que hemos
-              contado con la participación de Químicos, Arquitectos, etc, así
-              como personas con interés general en la materia ambiental
-
-          </p>
-          <a href="diplomados/ActualizacionDocenteenFisica/ActualizacionDocenteEnFisica22-23.php" target="_blank" class="curso_contenido-button btn btn-link">Ver
-            diplomado</a>
-          <div class="curso_contenido-horario">
-            <ul>
-              <li class="mr-3">
-                <i class="uil uil-calendar-alt "></i>
-                <span>Vie y Sáb</span>
-              </li>
-              <li class="mr-3">
-                <i class="uil uil-clock "></i>
-                <span>16 - 20h <br />
-                  10 - 14h</span>
-              </li>
-              <li class="flex items-center">
-                <i class="uil uil-map-marker "></i>
-                <span>Virtual</span>
-              </li>
-            </ul>
-          </div>
-          <div class="curso_contenido-precio">
-            <div>
-              <span>$34,800</span>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- DIPLOMADO FIN -->
+<!-- Diplomado en Tecnologías Cuánticas-->
+<?php
+      banner_diplomado(
+        "programados",
+        "assets/images/diplomados/TecnologiasCuanticas.jpg",
+        "Diplomado en Tecnologías Cuánticas",
+        "Aprobado como opción de Titulación para la carrera de Física por el Consejo Técnico de la Facultad de Ciencias, UNAM.",
+        "diplomados/TecnologiasCuanticas/TecnologiasCuanticas1ed/TecnologiasCuanticas1ed.php",
+        "Del 7 de agosto del 2023 al 20 de septiembre del 2024.",
+        "El avance tecnológico ha beneficiado a la sociedad en telecomunicaciones, computadoras, energía y minerales. En México, hay una comunidad científica creciente en tecnologías cuánticas, y este diplomado formará especialistas en su manejo y aplicación en industria y sociedad.",
+        "Estudiantes de los últimos semestres y egresados de licenciatura en física y/o áreas afines.",
+        "Martes y Jueves",
+        "16-18hrs",
+        "Híbrida",
+        "15,000",
+        "NO",
+        array(
+          array("Dr. Ricardo Méndez", "#"),
+          array("Dr. Santiago Francisco Caballero", "#"),
+          array("Dra. Georgina Angélica Olivares", "#"),
+          array("Dr. John Alexander Franco", "#"),
+          array("Dr. Dorilián López", "#"),
+          array("Dr. Luis Manuel Arévalo", "#")
+        )
+      );
+      ?>
 
       <!-- DIPLOMADO Diplomado IV: Solución de problemas, TIC e investigación didáctica-->
       <div class="group curso enCurso">
@@ -257,32 +172,7 @@ genera_encabezado_de_pagina("assets/images/pages/bg_diplomados.webp", "Diplomado
       ?>
 
       
-      <!-- Diplomado en Tecnologías Cuánticas-->
-      <?php
-      banner_diplomado(
-        "programados",
-        "assets/images/diplomados/TecnologiasCuanticas.jpg",
-        "Diplomado en Tecnologías Cuánticas",
-        "Aprobado como opción de Titulación para la carrera de Física por el Consejo Técnico de la Facultad de Ciencias, UNAM.",
-        "diplomados/ActualizacionDocenteenFisica/ActualizacionDocenteEnFisica22-23.php",
-        "Del 7 de agosto del 2023 al 20 de septiembre del 2024.",
-        "El avance tecnológico ha beneficiado a la sociedad en telecomunicaciones, computadoras, energía y minerales. En México, hay una comunidad científica creciente en tecnologías cuánticas, y este diplomado formará especialistas en su manejo y aplicación en industria y sociedad.",
-        "Estudiantes de los últimos semestres y egresados de licenciatura en física y/o áreas afines.",
-        "Martes y Jueves",
-        "16-18hrs",
-        "Híbrida",
-        "15,000",
-        "NO",
-        array(
-          array("Dr. Ricardo Méndez", "#"),
-          array("Dr. Santiago Francisco Caballero", "#"),
-          array("Dra. Georgina Angélica Olivares", "#"),
-          array("Dr. John Alexander Franco", "#"),
-          array("Dr. Dorilián López", "#"),
-          array("Dr. Luis Manuel Arévalo", "#")
-        )
-      );
-      ?>
+      
 
 
     </div> <!-- CIERRA EL DIV DE LOS CURSOS -->

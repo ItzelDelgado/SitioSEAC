@@ -249,43 +249,25 @@ $ponentes_principales_presentacion = array(array("Dr. Ricardo Méndez Fragoso, F
     <h2>Temario</h2>
     <div class="secciones grid md:grid-cols-2 grid-cols-1">
         <div> <!--Tema-->
-            <h3>I. Aquí va el tema</h3>
             <div class="contenido">
-                <h4>Temas</h4>
                 <ul>
-                    <li>I.1 Aquí va el subtema.
-                        <ul>
-                            <li>sub sub tema</li>
-                        </ul>
+                    <li>I. Introducción a la cuántica avanzada
                     </li>
-                    <li>I.2. Clasificación y aplicaciones de los dispositivos móviles.</a></li>
-                    <li>I.3. Plataformas de programación para dispositivos móviles.</li>
-                    <li>I.4. Presentación de la plataforma Android.</li>
-                    <li>I.5. La plataforma Android, entorno, anatomía y las capas de su arquitectura..</li>
-                </ul>
-            </div>
-        </div><!--fin de tema-->
-        <div> <!--Tema-->
-            <h3>I. Aquí va el tema</h3>
-            <div class="contenido">
-                <h4>Temas</h4>
-                <ul>
-                    <li>I.1 Aquí va el subtema.
-                        <ul>
-                            <li>sub sub tema</li>
-                        </ul>
-                    </li>
-                    <li>I.2. Clasificación y aplicaciones de los dispositivos móviles.</a></li>
-                    <li>I.3. Plataformas de programación para dispositivos móviles.</li>
-                    <li>I.4. Presentación de la plataforma Android.</li>
-                    <li>I.5. La plataforma Android, entorno, anatomía y las capas de su arquitectura..</li>
+                    <li>II. Tecnologías cuánticas</li>
+                    <li>III. Información cuántica</li>
+                    <li>IV. Métodos para simulación computacional de sistemas cuánticos</li>
+                    <li>V. Integración de sistemas de control aplicado a sistemas cuánticos</li>
+                    <li>VI. Proyecto o prototipo unificador terminal</li>
+                    <li>VII. Introducción a la infraestructura de laboratorios avanzados de manipulación cuántica</li>
+                    <li>VIII. Taller de láseres y óptica, taller de espectroscopia y física atómica</li>
+                    <li>IX. Proyecto o prototipo unificador terminal</li>
                 </ul>
             </div>
         </div><!--fin de tema-->
     </div> <!-- TERMINA EL CONTENEDOR DE LOS SUBTEMAS -->
 
     <!-- Por si hay temario extendido (pdf), si no, favor de comentarlo. -->
-    <a class="formato-link mt-6" target="_blank" href="../../cursos/IntroduccionaLosCoralesFosiles/TEMARIOEXTENDIDO_IntroALosCoralesFosiles_1raEd.pdf">
+    <a class="formato-link mt-6" target="_blank" href="../../../diplomados/TecnologiasCuanticas/TecnologiasCuanticas1ed/TEMARIOEXTENDIDO_TecnologiasCuanticas1ed.pdf">
         Temario extendido
     </a>
 </section><!-- TERMINA LA SECCIÓN DEL TEMARIO -->
