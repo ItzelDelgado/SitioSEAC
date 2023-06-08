@@ -1584,6 +1584,11 @@ video {
   -ms-flex-wrap: wrap !important;
       flex-wrap: wrap !important;
 }
+
+.flex-nowrap{
+  flex-wrap: nowrap;
+}
+
 .items-start{
   -webkit-box-align: start !important;
       -ms-flex-align: start !important;
@@ -6715,6 +6720,7 @@ h1,  h2,  h3,  h4,  h5,  h6,  .h1,  .h2,  .h3,  .h4,  .h5,  .h6{
 }
 
 @media (min-width: 640px){
+
   .sm\:-bottom-px{
     bottom: -1px !important;
   }
@@ -6783,6 +6789,10 @@ h1,  h2,  h3,  h4,  h5,  h6,  .h1,  .h2,  .h3,  .h4,  .h5,  .h6{
 }
 
 @media (min-width: 768px){
+  .md\:flex-nowrap{
+    flex-wrap: nowrap !important;
+  }
+  
   .md\:left-2\/4{
     left: 50% !important;
   }
@@ -7231,6 +7241,16 @@ h1,  h2,  h3,  h4,  h5,  h6,  .h1,  .h2,  .h3,  .h4,  .h5,  .h6{
     margin-left: auto !important;
     margin-right: auto !important;
   }
+
+
+  .md\:mx-auto{
+    content: var(--tw-content) !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  
+
   .after\:md\:bottom-12::after{
     content: var(--tw-content) !important;
     bottom: 3rem !important;
