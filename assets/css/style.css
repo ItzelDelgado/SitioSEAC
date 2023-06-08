@@ -531,6 +531,17 @@ h2 {
     overflow: hidden !important;
 }
 
+.oferta-academica a {
+    color: black;
+}
+
+.oferta-academica a:hover{
+    color: #0897d5;
+    text-decoration: underline;
+}
+
+
+
 .oferta-academica h2 {
     font-size: 1.5rem !important;
     line-height: 2rem !important;

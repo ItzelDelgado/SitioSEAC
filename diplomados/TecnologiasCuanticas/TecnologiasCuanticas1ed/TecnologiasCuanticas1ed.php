@@ -1,6 +1,6 @@
 <?php
-include '../../includes/templates/header.php';
-include '../../includes/templates/funciones.php';
+include '../../../includes/templates/header.php';
+include '../../../includes/templates/funciones.php';
 ?>
 
 
@@ -163,21 +163,21 @@ $ponentes_principales_presentacion = array(array("Dr. Ricardo Méndez Fragoso, F
         </ul>
         <h2>Cuerpo docente y entidades participantes:</h2>
         <ul class="pl-12 list-decimal">
-            <li>Dr. Eduardo G&oacute;mez Garc&iacute;a. Profesor / investigador. UASLP</li>
-            <li>Dr. Fernando Ram&iacute;rez Mart&iacute;nez. Profesor / investigador. ICN-UNAM</li>
-            <li>Dr. V&iacute;ctor Manuel Vel&aacute;zquez Aguilar. Profesor / investigador. FC-UNAM</li>
-            <li>Dr. Pablo Barberis Blostein. Profesor / investigador. IIMAS-UNAM</li>
-            <li>Dr. Santiago Caballero Ben&iacute;tez. Profesor / investigador. IF-UNAM</li>
-            <li>Dra. Karina Garay Palmett. Profesora / investigadora. CICESE</li>
-            <li>Dra. Karina Jim&eacute;nez Garc&iacute;a. Profesora / investigadora. CINVESTAV-Qro</li>
-            <li>Dr. Neil Vladimir Corzo Trejo. Profesor / investigador. CINVESTAV-Qro</li>
-            <li>Dr. Daniel Sahag&uacute;n S&aacute;nchez. Profesor / investigador. IF-UNAM</li>
-            <li>Dr. V&iacute;ctor Manuel Valenzuela Jim&eacute;nez. Profesor / investigador. UAS</li>
-            <li>Dr. Ricardo M&eacute;ndez Fragoso. Profesor / investigador. FC-UNAM</li>
-            <li>Dr. Luis Manuel Ar&eacute;valo Aguilar. Profesor / investigador. BUAP</li>
-            <li>Dr. John Alexander Franco Villafa&ntilde;e. Profesor / investigador. UASLP</li>
-            <li>Dr. Dorili&aacute;n L&oacute;pez Mago. Profesor / investigador. ITESM</li>
-            <li>Dra. Georgina Olivares Renter&iacute;a. Profesora / investigadora. Independiente</li>
+            <li><a href="../../../diplomados/TecnologiasCuanticas/TecnologiasCuanticas1ed/curriculums/CV_EduardoGomezGarcia.pdf">Dr. Eduardo G&oacute;mez Garc&iacute;a. Profesor / investigador. UASLP</a></li>
+            <li><a href="../../../diplomados/TecnologiasCuanticas/TecnologiasCuanticas1ed/curriculums/CV_FernandoRamirezMartinez.pdf">Dr. Fernando Ram&iacute;rez Mart&iacute;nez. Profesor / investigador. ICN-UNAM</a></li>
+            <li><a href="../../../diplomados/TecnologiasCuanticas/TecnologiasCuanticas1ed/curriculums/CV_VictorManuelVelazquezAguilar.pdf">Dr. V&iacute;ctor Manuel Vel&aacute;zquez Aguilar. Profesor / investigador. FC-UNAM</a></li>
+            <li><a href="../../../diplomados/TecnologiasCuanticas/TecnologiasCuanticas1ed/curriculums/CV_PabloBarberisBlostein.pdf">Dr. Pablo Barberis Blostein. Profesor / investigador. IIMAS-UNAM</a></li>
+            <li><a href="../../../diplomados/TecnologiasCuanticas/TecnologiasCuanticas1ed/curriculums/CV_SantiagoCaballeroBenitez.pdf">Dr. Santiago Caballero Ben&iacute;tez. Profesor / investigador. IF-UNAM</a></li>
+            <li><a href="../../../diplomados/TecnologiasCuanticas/TecnologiasCuanticas1ed/curriculums/CV_KarinaGarayPalmett.pdf">Dra. Karina Garay Palmett. Profesora / investigadora. CICESE</a></li>
+            <li><a href="../../../diplomados/TecnologiasCuanticas/TecnologiasCuanticas1ed/curriculums/CV_KarinaJimenezGarcia.pdf">Dra. Karina Jim&eacute;nez Garc&iacute;a. Profesora / investigadora. CINVESTAV-Qro</a></li>
+            <li><a href="../../../diplomados/TecnologiasCuanticas/TecnologiasCuanticas1ed/curriculums/CV_NeilVladimirCorzoTrejo.pdf">Dr. Neil Vladimir Corzo Trejo. Profesor / investigador. CINVESTAV-Qro</a></li>
+            <li><a href="../../../diplomados/TecnologiasCuanticas/TecnologiasCuanticas1ed/curriculums/CVDanielSahagunSanchez.pdf">Dr. Daniel Sahag&uacute;n S&aacute;nchez. Profesor / investigador. IF-UNAM</a></li>
+            <li><a href="../../../diplomados/TecnologiasCuanticas/TecnologiasCuanticas1ed/curriculums/CV_VictorManuelValenzuelaJimenez.pdf">Dr. V&iacute;ctor Manuel Valenzuela Jim&eacute;nez. Profesor / investigador. UAS</a></li>
+            <li><a href="../../../diplomados/TecnologiasCuanticas/TecnologiasCuanticas1ed/curriculums/CV_RicardoMendezFragoso.pdf">Dr. Ricardo M&eacute;ndez Fragoso. Profesor / investigador. FC-UNAM</a></li>
+            <li><a href="../../../diplomados/TecnologiasCuanticas/TecnologiasCuanticas1ed/curriculums/CV_LuisManuelArevaloAguilar.pdf">Dr. Luis Manuel Ar&eacute;valo Aguilar. Profesor / investigador. BUAP</a></li>
+            <li><a href="../../../diplomados/TecnologiasCuanticas/TecnologiasCuanticas1ed/curriculums/CV_JohnAlexanderFrancoVillafane.pdf">Dr. John Alexander Franco Villafa&ntilde;e. Profesor / investigador. UASLP</a></li>
+            <li><a href="../../../diplomados/TecnologiasCuanticas/TecnologiasCuanticas1ed/curriculums/CV_DorilianLopezMago.pdf">Dr. Dorili&aacute;n L&oacute;pez Mago. Profesor / investigador. ITESM</a></li>
+            <li><a href="../../../diplomados/TecnologiasCuanticas/TecnologiasCuanticas1ed/curriculums/CV_GeorginaOlivaresRenteria.pdf">Dra. Georgina Olivares Renter&iacute;a. Profesora / investigadora. Independiente</a></li>
         </ul>
     </div>
 </section>
@@ -387,5 +387,5 @@ $ponentes_principales_presentacion = array(array("Dr. Ricardo Méndez Fragoso, F
 </div>
 
 <?php
-include '../../includes/templates/footer.php';
+include '../../../includes/templates/footer.php';
 ?>
