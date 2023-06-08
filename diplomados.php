@@ -107,9 +107,9 @@ genera_encabezado_de_pagina("assets/images/pages/bg_diplomados.webp", "Diplomado
           </div>
         </div>
         <div class="curso_contenido">
-          <a href="cursos/IntroduccionAlaDivulgacionDeLaCiencia6taED.php">
+          <a href="diplomados/SoluciondeProblemasTICeInvestigacionDidactica/SoluciondeProblemas_TICeInvestigDidactica.php">
             Solución de Problemas, TIC e Investigación Didáctica</a>
-          <a href="cursos/IntroduccionAlaDivulgacionDeLaCiencia6taED.php">Diplomado IV</a>
+          <a href="diplomados/SoluciondeProblemasTICeInvestigacionDidactica/SoluciondeProblemas_TICeInvestigDidactica.php">Diplomado IV</a>
           <p class="curso_contenido-fecha">
             Del 18 de abril al 31 de agosto de 2023
           </p>
@@ -117,7 +117,7 @@ genera_encabezado_de_pagina("assets/images/pages/bg_diplomados.webp", "Diplomado
           <p class="curso_contenido-subdescripcion">
             Dirigido a: Profesores de bachillerato.
           </p>
-          <a href="cursos/IntroduccionAlaDivulgacionDeLaCiencia6taED.php" target="_blank" class="curso_contenido-button btn btn-link">Ver
+          <a href="diplomados/SoluciondeProblemasTICeInvestigacionDidactica/SoluciondeProblemas_TICeInvestigDidactica.php" class="curso_contenido-button btn btn-link">Ver
             diplomado</a>
           <div class="curso_contenido-horario">
             <ul>
