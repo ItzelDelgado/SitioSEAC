@@ -6,6 +6,7 @@ include './includes/templates/funciones.php';
 <!-- Carrusel -->
 <?php
 //Mandamos a llamar la función para generar el carrusel
+
 //@param recibe un arreglo con la url de las imagenes que queremos ir desplegando en el carrusel
 //Las imagenes deben estar en 1920px por 480px de máximo 160kb para que se ajusten y no se deformen.
 genera_carrusel(array(
@@ -65,6 +66,8 @@ genera_carrusel(array(
         array(array("Dr. Jesús Jurado Molina", "assets/curriculums_docentes/JesusJuradoMolina.pdf"))
       );
       ?>
+
+
 
       <!-- DIPLOMADO Diplomado de titulación en Física: actualización docente.2022-2023-->
       <?php
@@ -235,7 +238,7 @@ genera_carrusel(array(
         "assets/images/diplomados/diplomado-de-ordenamiento-ecologico.jpg",
         "Ordenamiento Ecológico, Impacto y Restauración Ambiental",
         "Quinto Diplomado",
-        "diplomados/OrdenamientoEcologicoImpactoyRestauracionAmbiental/OrdenamientoEcologicoImpactoyRestauracionAmbiental5dip.php",
+        "diplomados/OrdenamientoEcologicoImpactoyRestauracionAmbiental/OrdenamientoEcologico5dip/OrdenamientoEcologicoImpactoyRestauracionAmbiental5dip.php",
         "Del 21 de agosto de 2023 al 17 de abril de 2024",
         "El Ordenamiento Ecológico del Territorio es un instrumento de política ambiental, diseñado para caracterizar, diagnosticar y proponer formas de utilización del espacio territorial y sus recursos naturales, siempre bajo el enfoque de uso racional y diversificado y con el consenso de la población. El ordenamiento ecológico, determina las obras o actividades a realizar (las cuales se someten a evaluación de impacto). ",
         "Personas interesadas en la planeación territorial, manejo sustentable, conservación y restauración de los recursos naturales (campo de conocimiento: Biología, Ciencias de la Tierra, Geografía, Economía, Arquitectura, Derecho, Planeación Territorial, Desarrollo Sustentable o áreas afines)",
@@ -255,6 +258,31 @@ genera_carrusel(array(
       );
       ?>
 
+      <!-- DIPLOMADO Especies Exoticas Invasoras-->
+      <?php
+      banner_diplomado(
+        "programados",
+        "assets/images/diplomados/EspeciesExoticasInvasoras.jpg",
+        "Especies Exóticas Invasoras (EEI)",
+        "Diplomado 2da. Edición",
+        "diplomados/EspeciesExoticasInvasoras/EspeciesExoticasInvasoras2ed.php",
+        "Del 4 de septiembre al 1ro de diciembre del 2023.",
+        "Las especies invasoras son la segunda causa global de pérdida de biodiversidad después de la destrucción del hábitat. Desplazan a las especies nativas, alteran los ecosistemas acuáticos y pueden hibridarse con especies nativas. La conservación de la biodiversidad debe incluir medidas de prevención, detección, manejo y control de especies invasoras. En México, las acciones se han centrado en especies que afectan la agricultura, ignorando las implicaciones para la biodiversidad.",
+        "Estudiantes, profesionistas, tomadores de decisiones, manejadores de recursos, biólogos, ecólogos, administradores de áreas naturales, administradores de recursos naturales.",
+        "Lunes, miércoles y viernes.",
+        "15-18 hrs",
+        "Virtual",
+        "13,500",
+        "NO",
+        array(
+          array("Dr. Alejandro Villegas Castillo", "assets/curriculums_docentes/AlejandroVillegasCastillo.pdf"),
+          array("Dr. José Juan Flores Martínez", "assets/curriculums_docentes/JuanJoseFlores.pdf"),
+          array("M. Ricardo Augusto Rodríguez Medina", "assets/curriculums_docentes/RicardoAugustoRodriguezMedina.pdf"),
+          array("M. Marisol Gallardo Angeles", "assets/curriculums_docentes/MarisolGallardoAngeles.pdf"),
+          array("M. Jordi Parpal Servole ", "assets/curriculums_docentes/JordiParpalServole.pdf"),
+        )
+      );
+      ?>
       <?php
       //Introducción a la Estadística en la Biología
       banner_curso(
