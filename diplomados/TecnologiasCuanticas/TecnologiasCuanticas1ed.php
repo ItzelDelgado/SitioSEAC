@@ -17,9 +17,9 @@ $precio_general = "15,000"; //No es necesario poner mxn
 $precio_unam_descuento = "NO"; //No es necesario poner mxn
 $precio_general_descuento = "2,720"; //No es necesario poner mxn
 $frase_descuento = "15% de descuento por concepto de pronto pago (hasta el 3 de
-abril)";//Frase del porcentaje de descuento
-$limite_fecha_descuento = "31-05-2023";//Formato date("dd-mm-Yyyy")
-$link_plaza_prometeo= "https://tienda.fciencias.unam.mx";
+abril)"; //Frase del porcentaje de descuento
+$limite_fecha_descuento = "31-05-2023"; //Formato date("dd-mm-Yyyy")
+$link_plaza_prometeo = "https://tienda.fciencias.unam.mx";
 $dias = "Martes y jueves";  //Puedes poner Lunes, Martes, Miercoles, Jueves y Viernes.
 $horario = "16:00 a 18:00 hrs"; //Lo puedes poner en el formato que gustes. No debe ser mucha info. 
 //Si es demasiada puedes agregar más detalles despues donde esta la sección de Requisitos, Horario y Lugar, 
@@ -41,9 +41,9 @@ $requisitos = "Alumnos de los últimos 3 semestres de alguna licenciatura en fí
 <br>Alumnos egresados de física o área afín con título.
 <br>En todos los casos se pedirá promedio mínimo de 8.";
 $lugar = "Múltiples instalaciones dependiendo del módulo UNAM, UASLP, BUAP, CINVESTAV, ITEMS, UAS, CICESE. La forma de impartición será híbrida. Para los módulos teóricos (I, II, III, IV, VI y IX) será en línea y para los módulos experimentales las sesiones serán presenciales (Módulos V, VII y VIII). Los módulos que son presenciales el alumno escogerá un asesor y la sede para trabajar y desarrollar el experimento que proponga alguno de los ponentes en dicho módulo."; //El lugar donde se va a impartir, si son varios, agregar todos y separar con <br>
-$formato_inscripcion = "https://forms.gle/wwn996LgigXLKmsM6"; //Pegar el formato de inscripcion
+$formato_inscripcion = "https://forms.gle/VCEAUh6AU8meU1gJ9"; //Pegar el formato de inscripcion
 $info_academica = "Dra. Rosalía Pastor Nieto <br> Correo electrónico: rosalia.pastor@gmail.com"; //Agregar el Nombre <br> correo, dando un br para saltar de linea.
-$ponentes_principales_presentacion = array(array("Juana", "../../../assets/curriculums_docentes/JulioPrieto.pdf"))
+$ponentes_principales_presentacion = array(array("Dr. Ricardo Méndez Fragoso, Facultad de Ciencias, UNAM. (Coordinador de las actividades ante la SEAyC)", "#"), array("Dr. Santiago Francisco Caballero Benítez, Instituto de Física, UNAM.", "#"), array("Dra. Georgina Angélica Olivares Rentería, Investigadora independiente.", "#"), array("Dr. John Alexander Franco Villafañe, UASLP.", "#"), array("Dr. Dorilián López Mago, ITEMS.", "#"), array("Dr. Luis Manuel Arévalo Aguilar, BUAP.", "#"));
 //Es necesario poner el ../../../ en las url de los curriculums, para acceder a la carpeta.
 ?>
 
@@ -59,17 +59,16 @@ $ponentes_principales_presentacion = array(array("Juana", "../../../assets/curri
             $fechaActual = strtotime(date("d-m-Y"));
             $fecha_lim_desc = strtotime($limite_fecha_descuento);
             #Si tiene descuento y la fecha de hoy es menor a la fecha de descuento 
-           if ($precio_unam_descuento != 'NO' && $fechaActual<=$fecha_lim_desc) {
+            if ($precio_unam_descuento != 'NO' && $fechaActual <= $fecha_lim_desc) {
                 echo "<span class=\"portada-informacion-pu\">$precio_unam UNAM</span>
                         <span class=\"portada-informacion-pg\">$precio_general GENERAL</span>
                         <p>15% de descuento por concepto de pronto pago (hasta el 3 de abril)</p>
                         <span class=\"portada-informacion-pu-red\">$precio_unam_descuento UNAM</span>
                         <span class=\"portada-informacion-pg\">$precio_general_descuento GENERAL</span>";
             } else {
-                
+
                 echo "<span class=\"portada-informacion-pu\">$precio_unam UNAM</span>
                         <span class=\"portada-informacion-pg\">$precio_general GENERAL</span>";
-            
             }
 
             ?>
@@ -152,6 +151,34 @@ $ponentes_principales_presentacion = array(array("Juana", "../../../assets/curri
         <p class="text-red-600 mt-4">
             Mín / Máx de alumnos: Mínimo <?php echo $min_alumnos ?>, máximo <?php echo $max_alumnos ?>.<br>
             La apertura del curso está sujeta al mínimo de inscritos.</p>
+        <h2>Coordinado por:</h2>
+        <p>En una primera edición el diplomado será impartido en la UNAM, pero en un mediano plazo, éste será impartido en conjunto con diferentes instituciones. La coordinación general se realizará desde la Facultad de Ciencias, pero cada institución participante contará con un coordinador local para servir de enlace con alumnos y profesores que imparten el diplomado. La lista de coordinadores es la siguiente:</p>
+        <ul class="pl-12 list-disc">
+            <li>Dr. Ricardo M&eacute;ndez Fragoso, Facultad de Ciencias, UNAM. (Coordinador de las actividades ante la SEAyC)</li>
+            <li>Dr. Santiago Francisco Caballero Ben&iacute;tez, Instituto de F&iacute;sica, UNAM.</li>
+            <li>Dra. Georgina Ang&eacute;lica Olivares Renter&iacute;a, Investigadora independiente.</li>
+            <li>Dr. John Alexander Franco Villafa&ntilde;e, UASLP.</li>
+            <li>Dr. Dorili&aacute;n L&oacute;pez Mago, ITEMS.</li>
+            <li>Dr. Luis Manuel Ar&eacute;valo Aguilar, BUAP.</li>
+        </ul>
+        <h2>Cuerpo docente y entidades participantes:</h2>
+        <ul class="pl-12 list-decimal">
+            <li>Dr. Eduardo G&oacute;mez Garc&iacute;a. Profesor / investigador. UASLP</li>
+            <li>Dr. Fernando Ram&iacute;rez Mart&iacute;nez. Profesor / investigador. ICN-UNAM</li>
+            <li>Dr. V&iacute;ctor Manuel Vel&aacute;zquez Aguilar. Profesor / investigador. FC-UNAM</li>
+            <li>Dr. Pablo Barberis Blostein. Profesor / investigador. IIMAS-UNAM</li>
+            <li>Dr. Santiago Caballero Ben&iacute;tez. Profesor / investigador. IF-UNAM</li>
+            <li>Dra. Karina Garay Palmett. Profesora / investigadora. CICESE</li>
+            <li>Dra. Karina Jim&eacute;nez Garc&iacute;a. Profesora / investigadora. CINVESTAV-Qro</li>
+            <li>Dr. Neil Vladimir Corzo Trejo. Profesor / investigador. CINVESTAV-Qro</li>
+            <li>Dr. Daniel Sahag&uacute;n S&aacute;nchez. Profesor / investigador. IF-UNAM</li>
+            <li>Dr. V&iacute;ctor Manuel Valenzuela Jim&eacute;nez. Profesor / investigador. UAS</li>
+            <li>Dr. Ricardo M&eacute;ndez Fragoso. Profesor / investigador. FC-UNAM</li>
+            <li>Dr. Luis Manuel Ar&eacute;valo Aguilar. Profesor / investigador. BUAP</li>
+            <li>Dr. John Alexander Franco Villafa&ntilde;e. Profesor / investigador. UASLP</li>
+            <li>Dr. Dorili&aacute;n L&oacute;pez Mago. Profesor / investigador. ITESM</li>
+            <li>Dra. Georgina Olivares Renter&iacute;a. Profesora / investigadora. Independiente</li>
+        </ul>
     </div>
 </section>
 
@@ -207,7 +234,7 @@ $ponentes_principales_presentacion = array(array("Juana", "../../../assets/curri
     <div class="curso-costo container">
         <h2 class="md:text-3xl md:leading-normal">Costo</h2>
         <?php
-            aplica_descuento($precio_unam,$precio_unam_descuento,$precio_general,$precio_general_descuento,$frase_descuento,$limite_fecha_descuento);
+        aplica_descuento($precio_unam, $precio_unam_descuento, $precio_general, $precio_general_descuento, $frase_descuento, $limite_fecha_descuento);
         ?>
     </div>
 
