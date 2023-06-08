@@ -20,7 +20,7 @@ $frase_descuento = "15% de descuento por concepto de pronto pago (hasta el 3 de
 abril)"; //Frase del porcentaje de descuento
 $limite_fecha_descuento = "31-05-2023"; //Formato date("dd-mm-Yyyy")
 $link_plaza_prometeo = "https://tienda.fciencias.unam.mx/es/261-ordenamiento-ecologico";
-$dias = "Lunes y miércoles";  //Puedes poner Lunes, Martes, Miercoles, Jueves y Viernes.
+$dias = "Lunes y miércoles"; //Puedes poner Lunes, Martes, Miercoles, Jueves y Viernes.
 $horario = "16:00 a 20:00 hrs"; //Lo puedes poner en el formato que gustes. No debe ser mucha info. 
 //Si es demasiada puedes agregar más detalles despues donde esta la sección de Requisitos, Horario y Lugar, 
 //solo quitas la variable, puedes ver el ejemplo de Cursos en cuadernos de jupyter
@@ -76,8 +76,12 @@ Correo electrónico: galapagos@ciencias.unam.mx
             }
 
             ?>
-            <h1><?php echo $titulo_curso ?></h1>
-            <p class="text-indigo-600"><?php echo $edicion ?></p>
+            <h1>
+                <?php echo $titulo_curso ?>
+            </h1>
+            <p class="text-indigo-600">
+                <?php echo $edicion ?>
+            </p>
             <!-- Genera el contenedor con los datos del profesor, es decir, la foto, el nombre y el enlace del curriculum. -->
             <!-- Si hay mas de un profe, se debe copiar todo el contenedor, para cada uno. -->
             <!-- PROFESORES QUE IMPARTEN -->
@@ -87,7 +91,9 @@ Correo electrónico: galapagos@ciencias.unam.mx
             <!-- FIN - PROFESORES QUE IMPARTEN -->
             <div class="fecha">
                 <i class="uil uil-calendar-alt"></i>
-                <span><?php echo $fecha ?></span>
+                <span>
+                    <?php echo $fecha ?>
+                </span>
             </div>
 
         </div>
@@ -97,27 +103,38 @@ Correo electrónico: galapagos@ciencias.unam.mx
         <ul>
             <li>
                 <i class="uil uil-calendar-alt"></i>
-                <span><?php echo $dias ?></span>
+                <span>
+                    <?php echo $dias ?>
+                </span>
             </li>
 
             <li>
                 <i class="uil uil-bell-school"></i>
-                <span><?php echo $horario ?></span>
+                <span>
+                    <?php echo $horario ?>
+                </span>
             </li>
 
             <li>
                 <i class="uil uil-clock"></i>
-                <span><?php echo $no_horas ?> horas</span>
+                <span>
+                    <?php echo $no_horas ?> horas
+                </span>
             </li>
 
             <li>
                 <i class="uil uil-map-marker"></i>
-                <span><?php echo $modalidad ?></span>
+                <span>
+                    <?php echo $modalidad ?>
+                </span>
             </li>
 
             <li>
                 <i class="uil uil-user-circle"></i>
-                <span>Máx. <?php echo $max_alumnos ?> / Min. <?php echo $min_alumnos ?></span>
+                <span>Máx.
+                    <?php echo $max_alumnos ?> / Min.
+                    <?php echo $min_alumnos ?>
+                </span>
             </li>
 
             <li>
@@ -131,7 +148,8 @@ Correo electrónico: galapagos@ciencias.unam.mx
 
 
 <div class="relative">
-    <div class="shape absolute right-0 sm:-bottom-px -bottom-[2px] left-0 overflow-hidden z-1 text-white dark:text-slate-900">
+    <div
+        class="shape absolute right-0 sm:-bottom-px -bottom-[2px] left-0 overflow-hidden z-1 text-white dark:text-slate-900">
         <svg class="w-full h-auto" viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M0 48H1437.5H2880V0H2160C1442.5 52 720 0 720 0H0V48Z" fill="currentColor"></path>
         </svg>
@@ -143,35 +161,64 @@ Correo electrónico: galapagos@ciencias.unam.mx
 <section class="oferta-academica md:py-20">
     <div class="container">
         <h2>Descripción</h2>
-        <p><?php echo $descripcion ?></p>
+        <p>
+            <?php echo $descripcion ?>
+        </p>
         <h2>Objetivo</h2>
-        <p><?php echo $objetivo ?></p>
+        <p>
+            <?php echo $objetivo ?>
+        </p>
         <h2>Dirigido a</h2>
-        <p><?php echo $dirigido_a ?></p>
+        <p>
+            <?php echo $dirigido_a ?>
+        </p>
         <h2>Impartido por:</h2>
         <ul class="pl-12 list-decimal">
-            <li><a href="../../../diplomados/TecnologiasCuanticas/TecnologiasCuanticas1ed/curriculums/MariaConcepcionGarciaAguirre.pdf">Dra. María Concepción García Aguirre. Profesora de asignatura, Facultad de Ciencias, UNAM</a></li>
-            <li><a href="../../../diplomados/TecnologiasCuanticas/TecnologiasCuanticas1ed/curriculums/MarisolGallardoAngeles.pdf">Dra. Marisol Anglés Hernández. Investigadora, Instituto de Investigaciones Jurídicas, UNAM</a></li>
-            <li><a href="../../../diplomados/TecnologiasCuanticas/TecnologiasCuanticas1ed/curriculums/JorgeRobertoBlancoMartinez.pdf">Dr. V&iacute;ctor Manuel Vel&aacute;zquez Aguilar. Profesor / investigador. FC-UNAM</a></li>
-            <li><a href="../../../diplomados/TecnologiasCuanticas/TecnologiasCuanticas1ed/curriculums/RogelioCorona.pdf">Dr. Rogelio Corona Nuñez. Profesor de asignatura. Ciencias de la Tierra. Fac de Ciencias.</a></li>
-            <li><a href="../../../diplomados/TecnologiasCuanticas/TecnologiasCuanticas1ed/curriculums/CarloAlejandroDLunaFuentes.pdf"> M. en G. Carlo Alejandro D’Luna Fuentes. Profesor de Geografía, SUA y de la Universidad de Guerrero</a></li>
-            <li><a href="../../../diplomados/TecnologiasCuanticas/TecnologiasCuanticas1ed/curriculums/EduardoGonzalezHernandez.pdf">Lic. en Planificación para el Desarrollo Agropecuario (PDA) Eduardo González Hernández, Consultor independiente</a></li>
-            <li><a href="../../../diplomados/TecnologiasCuanticas/TecnologiasCuanticas1ed/curriculums/MarianaHernandezApolinar.pdf">Dra. Mariana Hernández Apolinar. Técnico Académico, Lab. Ecología de Poblaciones, Fac. Ciencias</a></li>
-            <li><a href="../../../diplomados/TecnologiasCuanticas/TecnologiasCuanticas1ed/curriculums/MariaSilviaIriarteVivarBalderrama.pdf">Dra. María Silvia Iriarte Vivar Balderrama, Profesora de asignatura, Facultad de Ciencias, UNAM</a></li>
-            <li><a href="../../../diplomados/TecnologiasCuanticas/TecnologiasCuanticas1ed/curriculums/PedroEloyMendozaHernandez.pdf">Dr. Pedro Eloy Mendoza Hernández, Técnico Académico, Lab. Ecología de Poblaciones, Fac. Ciencias</a></li>
-            <li><a href="../../../diplomados/TecnologiasCuanticas/TecnologiasCuanticas1ed/curriculums/FernandoOlivoAranda.pdf">M. en C. Fernando Olivo Aranda. Profesor de asignatura, Facultad de Arquitectura, UNAM</a></li>
-            <li><a href="../../../diplomados/TecnologiasCuanticas/TecnologiasCuanticas1ed/curriculums/TamaraGuadalupeOsornoSanchez.pdf">Dra. Tamara Guadalupe Osorno Sánchez. Profesora de Tiempo Completo. Facultad de Ciencias Naturales Universidad Autónoma de Querétaro</a></li>
-            <li><a href="../../../diplomados/TecnologiasCuanticas/TecnologiasCuanticas1ed/curriculums/AlejandroPelaezGoycochea.pdf">Biólogo Alejandro Peláez Goycochea. Consultor de OE, Universidad Autónoma del Estado de Morelos</a></li>
-            <li><a href="../../../diplomados/TecnologiasCuanticas/TecnologiasCuanticas1ed/curriculums/JoseLuisPerezDamian.pdf">Geógrafo José Luis Pérez Damián. Consultor independiente</a></li>
-            <li><a href="../../../diplomados/TecnologiasCuanticas/TecnologiasCuanticas1ed/curriculums/TalinaRuizRodriguez.pdf">M. en C. Talina Ruíz Rodríguez. Analista Ambiental, Teo Consultora Ambiental, S.C.</a></li>
-            <li><a href="../../../diplomados/TecnologiasCuanticas/TecnologiasCuanticas1ed/curriculums/IreneSanchezGallen.pdf">Dra. Irene Sánchez Gallén. Técnico Académico Titular C, Ecología del Suelo, Fac. de Ciencias, UNAMe</a></li>
-            <li><a href="../../../diplomados/TecnologiasCuanticas/TecnologiasCuanticas1ed/curriculums/LeobardoTerpanAcuna.pdf">M. en Estudios Regionales, Medio Ambiente y Desarrollo Leobardo Terpán Acuña. Profesor de asignatura, Facultad de Ciencias, UNAM</a></li>
-            <li><a href="../../../diplomados/TecnologiasCuanticas/TecnologiasCuanticas1ed/curriculums/RicardoVazquezPerales.pdf">Dr. Ricardo Vázquez Perales. Consultor independiente</a></li>
-            <li><a href="../../../diplomados/TecnologiasCuanticas/TecnologiasCuanticas1ed/curriculums/RodrigoCelisGarcia.pdf">M en Gestión y Autitorías Ambientales Rodrigo Celis García</a></li>
+            <li><a href="../../../assets/curriculums_docentes/MariaConcepcionGarciaAguirre.pdf">Dra. María Concepción
+                    García Aguirre. Profesora de asignatura, Facultad de Ciencias, UNAM</a></li>
+            <li><a href="../../../assets/curriculums_docentes/MarisolGallardoAngeles.pdf">Dra. Marisol Anglés Hernández.
+                    Investigadora, Instituto de Investigaciones Jurídicas, UNAM</a></li>
+            <li><a href="../../../assets/curriculums_docentes/JorgeRobertoBlancoMartinez.pdf">Dr. V&iacute;ctor Manuel
+                    Vel&aacute;zquez Aguilar. Profesor / investigador. FC-UNAM</a></li>
+            <li><a href="../../../assets/curriculums_docentes/RogelioCorona.pdf">Dr. Rogelio Corona Nuñez. Profesor de
+                    asignatura. Ciencias de la Tierra. Fac de Ciencias.</a></li>
+            <li><a href="../../../assets/curriculums_docentes/CarloAlejandroDLunaFuentes.pdf"> M. en G. Carlo Alejandro
+                    D’Luna Fuentes. Profesor de Geografía, SUA y de la Universidad de Guerrero</a></li>
+            <li><a href="../../../assets/curriculums_docentes/EduardoGonzalezHernandez.pdf">Lic. en Planificación para
+                    el Desarrollo Agropecuario (PDA) Eduardo González Hernández, Consultor independiente</a></li>
+            <li><a href="../../../assets/curriculums_docentes/MarianaHernandezApolinar.pdf">Dra. Mariana Hernández
+                    Apolinar. Técnico Académico, Lab. Ecología de Poblaciones, Fac. Ciencias</a></li>
+            <li><a href="../../../assets/curriculums_docentes/MariaSilviaIriarteVivarBalderrama.pdf">Dra. María Silvia
+                    Iriarte Vivar Balderrama, Profesora de asignatura, Facultad de Ciencias, UNAM</a></li>
+            <li><a href="../../../assets/curriculums_docentes/PedroEloyMendozaHernandez.pdf">Dr. Pedro Eloy Mendoza
+                    Hernández, Técnico Académico, Lab. Ecología de Poblaciones, Fac. Ciencias</a></li>
+            <li><a href="../../../assets/curriculums_docentes/FernandoOlivoAranda.pdf">M. en C. Fernando Olivo Aranda.
+                    Profesor de asignatura, Facultad de Arquitectura, UNAM</a></li>
+            <li><a href="../../../assets/curriculums_docentes/TamaraGuadalupeOsornoSanchez.pdf">Dra. Tamara Guadalupe
+                    Osorno Sánchez. Profesora de Tiempo Completo. Facultad de Ciencias Naturales Universidad Autónoma de
+                    Querétaro</a></li>
+            <li><a href="../../../assets/curriculums_docentes/AlejandroPelaezGoycochea.pdf">Biólogo Alejandro Peláez
+                    Goycochea. Consultor de OE, Universidad Autónoma del Estado de Morelos</a></li>
+            <li><a href="../../../assets/curriculums_docentes/JoseLuisPerezDamian.pdf">Geógrafo José Luis Pérez Damián.
+                    Consultor independiente</a></li>
+            <li><a href="../../../assets/curriculums_docentes/TalinaRuizRodriguez.pdf">M. en C. Talina Ruíz Rodríguez.
+                    Analista Ambiental, Teo Consultora Ambiental, S.C.</a></li>
+            <li><a href="../../../assets/curriculums_docentes/IreneSanchezGallen.pdf">Dra. Irene Sánchez Gallén. Técnico
+                    Académico Titular C, Ecología del Suelo, Fac. de Ciencias, UNAMe</a></li>
+            <li><a href="../../../assets/curriculums_docentes/LeobardoTerpanAcuna.pdf">M. en Estudios Regionales, Medio
+                    Ambiente y Desarrollo Leobardo Terpán Acuña. Profesor de asignatura, Facultad de Ciencias, UNAM</a>
+            </li>
+            <li><a href="../../../assets/curriculums_docentes/RicardoVazquezPerales.pdf">Dr. Ricardo Vázquez Perales.
+                    Consultor independiente</a></li>
+            <li><a href="../../../assets/curriculums_docentes/RodrigoCelisGarcia.pdf">M en Gestión y Autitorías
+                    Ambientales Rodrigo Celis García</a></li>
         </ul>
         <p class="text-red-600 mt-4">
-            Mín / Máx de alumnos: Mínimo <?php echo $min_alumnos ?>, máximo <?php echo $max_alumnos ?>.<br>
-            La apertura del curso está sujeta al mínimo de inscritos.</p>
+            Mín / Máx de alumnos: Mínimo
+            <?php echo $min_alumnos ?>, máximo
+            <?php echo $max_alumnos ?>.<br>
+            La apertura del curso está sujeta al mínimo de inscritos.
+        </p>
     </div>
 </section>
 
@@ -190,9 +237,12 @@ Correo electrónico: galapagos@ciencias.unam.mx
 
                 <div>
                     <h3>Requisitos</h3>
-                    <p><?php echo $requisitos ?></p>
+                    <p>
+                        <?php echo $requisitos ?>
+                    </p>
                     <div class="mt-5">
-                        <a href="#" data-type="iframe" class="video-play-icon read-more lightbox btn btn-link text-indigo-600 hover:text-indigo-600 after:bg-indigo-600 duration-500 ease-in-out">
+                        <a href="#" data-type="iframe"
+                            class="video-play-icon read-more lightbox btn btn-link text-indigo-600 hover:text-indigo-600 after:bg-indigo-600 duration-500 ease-in-out">
                         </a>
                     </div>
                 </div>
@@ -203,10 +253,17 @@ Correo electrónico: galapagos@ciencias.unam.mx
                 </div>
                 <div>
                     <h3>Horario</h3>
-                    <p><?php echo $horario ?></p>
-                    <p><?php echo $dias ?></p>
+                    <p>
+                        <?php echo $horario ?>
+                    </p>
+                    <p>
+                        <?php echo $dias ?>
+                    </p>
                     <div class="mt-5">
-                        <a href="#" class="btn btn-link text-indigo-600 hover:text-red-600 after:bg-indigo-600 duration-500 ease-in-out">Total: <?php echo $no_horas ?> horas</a>
+                        <a href="#"
+                            class="btn btn-link text-indigo-600 hover:text-red-600 after:bg-indigo-600 duration-500 ease-in-out">Total:
+                            <?php echo $no_horas ?> horas
+                        </a>
                     </div>
                 </div>
             </div>
@@ -217,7 +274,9 @@ Correo electrónico: galapagos@ciencias.unam.mx
 
                 <div>
                     <h3>Lugar</h3>
-                    <p><?php echo $lugar ?></p>
+                    <p>
+                        <?php echo $lugar ?>
+                    </p>
                 </div>
             </div>
         </div>
@@ -229,7 +288,8 @@ Correo electrónico: galapagos@ciencias.unam.mx
         <?php
         aplica_descuento($precio_unam, $precio_unam_descuento, $precio_general, $precio_general_descuento, $frase_descuento, $limite_fecha_descuento);
         ?>
-        <h3 class="mt-10"><b>PAGO POR MÓDULO</b>(3 módulos: el pago debe realizarse antes de que inicie el módulo correspondiente):</h3>
+        <h3 class="mt-10"><b>PAGO POR MÓDULO</b> (3 módulos: el pago debe realizarse antes de que inicie el módulo
+            correspondiente):</h3>
         <?php
         aplica_descuento("7,000", $precio_unam_descuento, "8,000", $precio_general_descuento, $frase_descuento, $limite_fecha_descuento);
         ?>
@@ -247,80 +307,69 @@ Correo electrónico: galapagos@ciencias.unam.mx
     <h2>Temario</h2>
     <div class="secciones grid md:grid-cols-2 grid-cols-1">
         <div> <!--Tema-->
-            <h3>MÓDULO I</h3>
+            <h3>MÓDULO I.- ORDENAMIENTO ECOLÓGICO</h3>
             <div class="contenido">
                 <h4>Temas</h4>
                 <ul>
-                    <li>I.Marco conceptual y conceptos básicos
-                        <ul>
-                            <li>I.1 Conceptos de especie, especie ex&oacute;tica, especie invasora</li>
-                            <li>I.2 Conceptos de ecolog&iacute;a y gen&eacute;tica</li>
-                            <li>I.3 Ecosistemas de M&eacute;xico y servicios ecosist&eacute;micos</li>
-                        </ul>
-                    </li>
-                    <li>II. Especies Exóticas Invasoras reportadas para México<ul>
-                            <li>II.1 Invertebrados</li>
-                            <li>II.2 Peces</li>
-                            <li>II.3 Anfibios</li>
-                            <li>II.4 Reptiles</li>
-                            <li>II.5 Aves</li>
-                            <li>II.6 Mam&iacute;feros</li>
-                        </ul>
-                    </li>
-                    <li>III. Impacto de las EEI en los servicios ecosistémicos
-                        <ul>
-                            <li>III.1 Impacto de EEI en servicios de soporte</li>
-                            <li>III.2 Impacto de EEI en servicios de abastecimiento</li>
-                            <li>III.3 Impacto de EEI en servicios de regulaci&oacute;n</li>
-                            <li>III.4 Impacto de EEI en servicios culturales</li>
-                        </ul>
-                    </li>
-                    <li>IV. Técnicas de evaluación y monitoreo de EEI
-                        <ul>
-                            <li>IV.1 Modelos de distribuci&oacute;n</li>
-                            <li>IV.2 Modelos poblacionales</li>
-                            <li>IV.3 Modelos gen&eacute;ticos</li>
-                        </ul>
-                    </li>
+                    <li>Introducci&oacute;n</li>
+                    <li>Visi&oacute;n Internacional del OE.El caso de la escalera n&aacute;utica</li>
+                    <li>Planeaci&oacute;n del Territorio</li>
+                    <li>Procedimiento general para la elaboraci&oacute;n de un OE</li>
+                    <li>Bases Jur&iacute;dicas del OE</li>
+                    <li>Sistemas complejos y ecolog&iacute;a del Paisaje</li>
+                    <li>Fuentes de informaci&oacute;n y cartograf&iacute;a</li>
+                    <li>Delimitaci&oacute;n del &aacute;rea de estudio (Integraci&oacute;n y diferenciaci&oacute;n
+                        territorial)</li>
+                    <li>Modelo digital del terreno</li>
+                    <li>-An&aacute;lisis del cambio de cobertura vegetal y de uso del suelo</li>
+                    <li>Reconocimiento de actividades sectoriales y de sus intereses en el territorio</li>
+                    <li>C&aacute;lculo y mapeo de suficiencia de red vial Hgo</li>
+                    <li>Valoraci&oacute;n econ&oacute;mica de los RN y An&aacute;lisis multicriterio</li>
+                    <li>Diagn&oacute;stico, identificaci&oacute;n y an&aacute;lisis de los conflictos, definici&oacute;n
+                        de h&aacute;bitats cr&iacute;ticos. Participaci&oacute;n social</li>
+                    <li>An&aacute;lisis de riesgos</li>
+                    <li>Pron&oacute;stico</li>
+                    <li>Definici&oacute;n de las unidades de gesti&oacute;n ambiental (UGAS)</li>
                 </ul>
             </div>
         </div><!--fin de tema-->
         <div> <!--Tema-->
-            <h3>MÓDULO II</h3>
+            <h3>MÓDULO II.- IMPACTO AMBIENTAL</h3>
             <div class="contenido">
                 <h4>Temas</h4>
                 <ul>
-                    <li>V. Protocolos para EEI
-                        <ul>
-                            <li>V.1 Protocolos de detecci&oacute;n temprana EEI</li>
-                            <li>V.2 Protocolos de control de EEI</li>
-                            <li>V.3 Protocolos de erradicaci&oacute;n de EEI</li>
-                        </ul>
+                    <li>Visi&oacute;n general del Deterioro Ambiental</li>
+                    <li>Aspectos jur&iacute;dicos del impacto ambiental. Responsabilidad por el da&ntilde;o ambiental
                     </li>
-                    <li>VI. Uso del Marco Lógico para diseño de programas con EEI<ul>
-                            <li>VI.1 Marco l&oacute;gico: breve introducci&oacute;n</li>
-                            <li>VI.2 Dise&ntilde;o de &aacute;rbol de problemas y &aacute;rbol de objetivos</li>
-                            <li>VI.3 Dise&ntilde;o de indicadores</li>
-                        </ul>
-                    </li>
-                    <li>VII. Estrategia Nacional de EEI
-                        <ul>
-                            <li>VII.1 Presentaci&oacute;n de la estrategia nacional para el combate de EEI en M&eacute;xico</li>
-                            <li>VII.2 Base de datos de EEI de CONABIO y su utilidad</li>
-                        </ul>
-                    </li>
-                    <li>VIII.<ul>
-                            <li>VIII.1 Aplicaci&oacute;n Digital Naturalista y Enciclo Vida como herramientas de registro de EEI</li>
-                            <li>VII.2 Estudio de caso: El pez diablo en el R&iacute;o Hondo y el Pez Le&oacute;n, ambos en Quintana Roo.</li>
-                        </ul>
-                    </li>
+                    <li>Uso de Gu&iacute;as metodol&oacute;gicas</li>
+                    <li>Cap&iacute;tulo 3 y 4 de Gu&iacute;as metodol&oacute;gicas</li>
+                    <li>Casos de remediaci&oacute;n</li>
+                    <li>Evaluaci&oacute;n de impacto ambiental</li>
+                    <li>Caso: carretera y Caso: Pemex</li>
+                </ul>
+            </div>
+        </div><!--fin de tema-->
+        <div> <!--Tema-->
+            <h3>MÓDULO III.- RESTAURACIÓN AMBIENTAL</h3>
+            <div class="contenido">
+                <h4>Temas</h4>
+                <ul>
+                    <li>Introducci&oacute;n a la Restauraci&oacute;n Ambiental</li>
+                    <li>Restauraci&oacute;n sint&eacute;tica</li>
+                    <li>Ecolog&iacute;a de poblaciones y la restauraci&oacute;n</li>
+                    <li>Experiencias de ciencia b&aacute;sica en la restauraci&oacute;n ecol&oacute;gica</li>
+                    <li>Restauraci&oacute;n de cuencas</li>
+                    <li>Ecotecnolog&iacute;as en la restauraci&oacute;n ambiental y la sustentabilidad</li>
+                    <li>Azoteas y muros verdes</li>
+                    <li>Cultivos alternativos</li>
                 </ul>
             </div>
         </div><!--fin de tema-->
     </div> <!-- TERMINA EL CONTENEDOR DE LOS SUBTEMAS -->
 
     <!-- Por si hay temario extendido (pdf), si no, favor de comentarlo. -->
-    <a class="formato-link mt-6" target="_blank" href="../../../diplomados/TecnologiasCuanticas/TecnologiasCuanticas1ed/TEMARIOEXTENDIDO_TecnologiasCuanticas1ed.pdf">
+    <a class="formato-link mt-6" target="_blank"
+        href="../../../diplomados/OrdenamientoEcologicoImpactoyRestauracionAmbiental/OrdenamientoEcologico5dip/TEMARIOEXTENDIDO_5DipOrdenamientoEcologico.pdf">
         Temario extendido
     </a>
 </section><!-- TERMINA LA SECCIÓN DEL TEMARIO -->
@@ -334,16 +383,19 @@ Correo electrónico: galapagos@ciencias.unam.mx
         </div>
 
         <div class="pasos">
-            <div class="relative after:content-[''] after:absolute after:top-0 md:after:right-0 md:after:left-0 after:w-px after:h-full md:after:m-auto after:border-l-2 after:border-dashed after:border-gray-200 dark:after:border-gray-700 ml-3 md:ml-0">
+            <div
+                class="relative after:content-[''] after:absolute after:top-0 md:after:right-0 md:after:left-0 after:w-px after:h-full md:after:m-auto after:border-l-2 after:border-dashed after:border-gray-200 dark:after:border-gray-700 ml-3 md:ml-0">
                 <!--Start content-->
-                <div class="ml-8 md:ml-0 relative after:content-[''] after:absolute after:top-[9px] after:rounded-full after:z-10 after:w-2.5 after:h-2.5 after:bg-indigo-600 md:after:mx-auto md:after:right-0 md:after:left-0 after:-left-9 before:content-[''] before:absolute md:before:mx-auto md:before:right-0 md:before:left-0 before:-left-11 before:rounded-full before:z-10 before:border-2 before:border-dashed before:border-gray-200 dark:before:border-gray-700 before:top-0 before:w-7 before:h-7 before:bg-white dark:before:bg-slate-900">
+                <div
+                    class="ml-8 md:ml-0 relative after:content-[''] after:absolute after:top-[9px] after:rounded-full after:z-10 after:w-2.5 after:h-2.5 after:bg-indigo-600 md:after:mx-auto md:after:right-0 md:after:left-0 after:-left-9 before:content-[''] before:absolute md:before:mx-auto md:before:right-0 md:before:left-0 before:-left-11 before:rounded-full before:z-10 before:border-2 before:border-dashed before:border-gray-200 dark:before:border-gray-700 before:top-0 before:w-7 before:h-7 before:bg-white dark:before:bg-slate-900">
                     <div class="paso-n grid md:grid-cols-2">
                         <h3 class="md:text-right md:mr-8">Paso 1</h3>
 
                         <div class="md:ml-8 md:mt-0">
                             <h4>Realizar el pago en línea mediante "Plaza
                                 Prometeo", la tienda de la Facultad de Ciencias</h4>
-                            <p><a href=<?php echo $link_plaza_prometeo ?> target="_blank" class="formato-link">tienda.fciencias.unam.mx</a>
+                            <p><a href=<?php echo $link_plaza_prometeo ?> target="_blank"
+                                    class="formato-link">tienda.fciencias.unam.mx</a>
                             </p>
                         </div>
                     </div>
@@ -380,7 +432,8 @@ Correo electrónico: galapagos@ciencias.unam.mx
             <li>El asistente deber&aacute; cumplir con el 80% de asistencia.</li>
             <li>Calificaci&oacute;n aprobatoria de 8.0</li>
             <li>Caso de becarios calificaci&oacute;n aprobatoria de 9.0</li>
-            <li>Adem&aacute;s, al menos una evaluaci&oacute;n que d&eacute; evidencia del aprovechamiento del participante</li>
+            <li>Adem&aacute;s, al menos una evaluaci&oacute;n que d&eacute; evidencia del aprovechamiento del
+                participante</li>
             <li>En el caso de Diplomados todo lo anterior por m&oacute;dulo.</li>
         </ul>
         <h2>Actividades adicionales para la evaluación:
@@ -388,17 +441,21 @@ Correo electrónico: galapagos@ciencias.unam.mx
         <ul class="list-decimal pl-12">
             <li>Reporte de las siguientes pr&aacute;cticas:
                 <ul class="pl-12">
-                    <li>a) Regionalizaci&oacute;n: a partir de las im&aacute;genes mostradas, definir el tipo de regi&oacute;n y las caracter&iacute;sticas de la Misma</li>
+                    <li>a) Regionalizaci&oacute;n: a partir de las im&aacute;genes mostradas, definir el tipo de
+                        regi&oacute;n y las caracter&iacute;sticas de la Misma</li>
                     <li>b) Cambio de cobertura vegetal y uso del suelo</li>
-                    <li>c) C&aacute;lculo y mapeo del coeficiente de red vial de la zona metropolitana de Tulancingo, Hgo.</li>
+                    <li>c) C&aacute;lculo y mapeo del coeficiente de red vial de la zona metropolitana de Tulancingo,
+                        Hgo.</li>
                     <li>d) Valoraci&oacute;n y an&aacute;lisis multicriterio de recursos naturales</li>
                     <li>e) Definici&oacute;n de Unidades de Gesti&oacute;n Ambiental</li>
-                    <li>g) An&aacute;lisis de matrices e identificaci&oacute;n valoraci&oacute;n de impactos ambientales</li>
+                    <li>g) An&aacute;lisis de matrices e identificaci&oacute;n valoraci&oacute;n de impactos ambientales
+                    </li>
                 </ul>
             </li>
             <li>Entrega de 2 controles de lecturas:
                 <ul class="pl-12">
-                    <li>a) Restore, regenerate, revegetate: Restoring ecological processes, ecosystems and landscapes in a changing world</li>
+                    <li>a) Restore, regenerate, revegetate: Restoring ecological processes, ecosystems and landscapes in
+                        a changing world</li>
                     <li>b) Restauraci&oacute;n sint&eacute;tica</li>
                 </ul>
             </li>
@@ -419,14 +476,19 @@ Correo electrónico: galapagos@ciencias.unam.mx
         <h2 class="md:text-3xl md:leading-normal">¿Necesitas ayuda?</h2>
         <p>Contáctanos</p>
     </div>
-    <div class="informacion grid md:grid-cols-2 grid-cols-1 mt-8 md:gap-[30px]" id="accordion-collapse" data-accordion="collapse">
+    <div class="informacion grid md:grid-cols-2 grid-cols-1 mt-8 md:gap-[30px]" id="accordion-collapse"
+        data-accordion="collapse">
         <div>
             <div>
                 <h2 id="info-admin-col">
-                    <button type="button" data-accordion-target="#info-admin" aria-expanded="false" aria-controls="info-admin">
+                    <button type="button" data-accordion-target="#info-admin" aria-expanded="false"
+                        aria-controls="info-admin">
                         <span>Información administrativa</span>
-                        <svg data-accordion-icon class="w-4 h-4 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                            <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+                        <svg data-accordion-icon class="w-4 h-4 shrink-0" fill="currentColor" viewBox="0 0 20 20"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                                clip-rule="evenodd"></path>
                         </svg>
                     </button>
                 </h2>
@@ -434,7 +496,9 @@ Correo electrónico: galapagos@ciencias.unam.mx
                     <div class="p-5">
                         <p class="text-slate-400 dark:text-gray-400">Secretaría de Educación Abierta y Continua,
                             Facultad de Ciencias, UNAM.<br>
-                            Sitio web: <a class="text-cyan-600 underline" href="http://www.educontinua.fciencias.unam.mx" target="_blank">www.educontinua.fciencias.unam.mx</a><br>
+                            Sitio web: <a class="text-cyan-600 underline"
+                                href="http://www.educontinua.fciencias.unam.mx"
+                                target="_blank">www.educontinua.fciencias.unam.mx</a><br>
                             Edificio Tlahuizcalpan, 1er piso (saliendo del elevador a la izquierda).<br>
                             Teléfono: 56 66 47 89 y 56 22 53 86<br>
                             Correo electrónico: educontinua.of@ciencias.unam.mx</p>
@@ -445,16 +509,21 @@ Correo electrónico: galapagos@ciencias.unam.mx
         <div>
             <div>
                 <h2 id="info-acad-col">
-                    <button type="button" data-accordion-target="#info-acad" aria-expanded="true" aria-controls="info-acad">
+                    <button type="button" data-accordion-target="#info-acad" aria-expanded="true"
+                        aria-controls="info-acad">
                         <span>Información académica</span>
-                        <svg data-accordion-icon class="w-4 h-4 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                            <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+                        <svg data-accordion-icon class="w-4 h-4 shrink-0" fill="currentColor" viewBox="0 0 20 20"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                                clip-rule="evenodd"></path>
                         </svg>
                     </button>
                 </h2>
                 <div id="info-acad" class="hidden" aria-labelledby="info-acad-col">
                     <div class="p-5">
-                        <p class="text-slate-400 dark:text-gray-400"><?php echo $info_academica ?>
+                        <p class="text-slate-400 dark:text-gray-400">
+                            <?php echo $info_academica ?>
                         </p>
                     </div>
                 </div>
