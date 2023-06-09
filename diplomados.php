@@ -61,8 +61,8 @@ genera_encabezado_de_pagina("assets/images/pages/bg_diplomados.webp", "Diplomado
       );
       ?>
 
-<!-- Diplomado en Tecnologías Cuánticas-->
-<?php
+      <!-- Diplomado en Tecnologías Cuánticas-->
+      <?php
       banner_diplomado(
         "programados",
         "assets/images/diplomados/TecnologiasCuanticas.jpg",
@@ -87,6 +87,29 @@ genera_encabezado_de_pagina("assets/images/pages/bg_diplomados.webp", "Diplomado
         )
       );
       ?>
+      <!-- DIPLOMADO Diplomado IV: Solución de problemas, TIC e investigación didáctica-->
+      <?php
+      banner_diplomado(
+        "enCurso",
+        "assets/images/diplomados/Solucion_problemas_tic.jpg",
+        "Solución de Problemas, TIC e Investigación Didáctica",
+        "Diplomado IV - Forma parte del programa de Diplomados para el Bachillerato: La Matemática del Bachillerato. Un enfoque integral",
+        "diplomados/TecnologiasCuanticas/TecnologiasCuanticas1ed/TecnologiasCuanticas1ed.php",
+        "Del 7 de agosto del 2023 al 20 de septiembre del 2024.",
+        "El avance tecnológico ha beneficiado a la sociedad en telecomunicaciones, computadoras, energía y minerales. En México, hay una comunidad científica creciente en tecnologías cuánticas, y este diplomado formará especialistas en su manejo y aplicación en industria y sociedad.",
+        "Estudiantes de los últimos semestres y egresados de licenciatura en física y/o áreas afines.",
+        "Martes y Jueves",
+        "16-18hrs",
+        "Híbrida",
+        "15,000",
+        "NO",
+        array(
+          array("M. En C. Clara Vidrio", "#")
+        )
+      );
+      ?>
+
+
 
       <!-- DIPLOMADO Diplomado IV: Solución de problemas, TIC e investigación didáctica-->
       <div class="group curso enCurso">
@@ -107,17 +130,25 @@ genera_encabezado_de_pagina("assets/images/pages/bg_diplomados.webp", "Diplomado
           </div>
         </div>
         <div class="curso_contenido">
-          <a href="diplomados/SoluciondeProblemasTICeInvestigacionDidactica/SoluciondeProblemas_TICeInvestigDidactica.php">
+          <a
+            href="diplomados/SoluciondeProblemasTICeInvestigacionDidactica/SoluciondeProblemas_TICeInvestigDidactica.php">
             Solución de Problemas, TIC e Investigación Didáctica</a>
-          <a href="diplomados/SoluciondeProblemasTICeInvestigacionDidactica/SoluciondeProblemas_TICeInvestigDidactica.php">Diplomado IV</a>
+          <a
+            href="diplomados/SoluciondeProblemasTICeInvestigacionDidactica/SoluciondeProblemas_TICeInvestigDidactica.php">Diplomado
+            IV</a>
           <p class="curso_contenido-fecha">
             Del 18 de abril al 31 de agosto de 2023
           </p>
-          <p class="curso_contenido-descripcion">La enseñanza de matemáticas requiere análisis constante para mejorarla y adoptar una postura sobre cómo enseñar, qué conocimientos debe tener el egresado y por qué estudiarlas. Los docentes deben reflexionar y participar en actividades actualizadas que favorezcan el pensamiento crítico. La colaboración entre la Facultad de Ciencias y la Escuela Nacional Preparatoria busca mejorar la enseñanza a través de programas de especialización y diplomados. </p>
+          <p class="curso_contenido-descripcion">La enseñanza de matemáticas requiere análisis constante para mejorarla
+            y adoptar una postura sobre cómo enseñar, qué conocimientos debe tener el egresado y por qué estudiarlas.
+            Los docentes deben reflexionar y participar en actividades actualizadas que favorezcan el pensamiento
+            crítico. La colaboración entre la Facultad de Ciencias y la Escuela Nacional Preparatoria busca mejorar la
+            enseñanza a través de programas de especialización y diplomados. </p>
           <p class="curso_contenido-subdescripcion">
             Dirigido a: Profesores de bachillerato.
           </p>
-          <a href="diplomados/SoluciondeProblemasTICeInvestigacionDidactica/SoluciondeProblemas_TICeInvestigDidactica.php" class="curso_contenido-button btn btn-link">Ver
+          <a href="diplomados/SoluciondeProblemasTICeInvestigacionDidactica/SoluciondeProblemas_TICeInvestigDidactica.php"
+            class="curso_contenido-button btn btn-link">Ver
             diplomado</a>
           <div class="curso_contenido-horario">
             <ul>
@@ -144,8 +175,8 @@ genera_encabezado_de_pagina("assets/images/pages/bg_diplomados.webp", "Diplomado
       </div>
       <!-- DIPLOMADO FIN -->
 
-    <!-- DIPLOMADO Diplomado de titulación en Física: actualización docente.2022-2023-->
-    <?php
+      <!-- DIPLOMADO Diplomado de titulación en Física: actualización docente.2022-2023-->
+      <?php
       banner_diplomado(
         "programados",
         "assets/images/diplomados/bg-DiplomadoFisica.webp",
@@ -171,8 +202,8 @@ genera_encabezado_de_pagina("assets/images/pages/bg_diplomados.webp", "Diplomado
       );
       ?>
 
-      
-      
+
+
 
 
     </div> <!-- CIERRA EL DIV DE LOS CURSOS -->

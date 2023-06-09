@@ -90,9 +90,9 @@
                   <li class="mt-[10px]"><a href="/ubicacion.php"
                       class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"><i
                         class="uil uil-angle-right-b me-1"></i>Ubicación</a></li>
-                  <li class="mt-[10px]"><a href="https://docs.google.com/forms/d/e/1FAIpQLSeHtZ9ZkcwLHMdcSYIZgChZj9fX6_x43QbItf7Gf0O--nIeWg/viewform"
+                  <li class="mt-[10px] font-semibold"><a href="https://docs.google.com/forms/d/e/1FAIpQLSeHtZ9ZkcwLHMdcSYIZgChZj9fX6_x43QbItf7Gf0O--nIeWg/viewform"
                 class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"><i
-                  class="me-1"></i>¿Te interesan nuestros cursos? Regístrate para recibir nuestro boletín</a></li>
+                  class="me-1"></i>¿Te interesan nuestros cursos?<br>Regístrate para recibir nuestro boletín</a></li>
 
 
                 </ul>
