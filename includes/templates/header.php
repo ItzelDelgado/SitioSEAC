@@ -11,7 +11,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
     <!-- favicon -->
-    <link rel="shortcut icon" href="../../../assets/images/favicon.png" />
+    <link rel="shortcut icon" href="../../../assets/images/favicon_azul.png" />
 
     <!-- Css -->
     <link href="../../../assets/libs/tiny-slider/tiny-slider.css" rel="stylesheet" />
@@ -41,7 +41,7 @@
             <!-- Logo container-->
             <a class="logo pl-0" href="../../../index.php">
                 <span class="inline-block dark:hidden">
-                    <img src="../../../assets/images/logo-dark.png" class="l-dark" height="24" alt="">
+                    <img src="../../../assets/images/Secretaria-orizontal-azul-pequeno.png" class="l-dark" height="24" alt="">
                     <img src="../../../assets/images/logo-light.png" class="l-light" height="24" alt="">
                 </span>
                 <img src="../../../assets/images/logo-light.png" height="24" class="hidden dark:inline-block" alt="">

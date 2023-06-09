@@ -24,11 +24,11 @@ genera_carrusel(array(
 <section class="relative md:py-10 py-10">
   <div class="container">
     <div class="grid grid-cols-1 text-center">
-      <h3 class="mb-1 md:text-3xl text-2xl md:leading-normal leading-normal font-semibold">
+      <h2>
         Oferta Académica
-      </h3>
+      </h2>
 
-      <p class="text-slate-400 max-w-xl mx-auto">
+      <p>
         Conoce nuestras actividades programadas.
       </p>
     </div>
