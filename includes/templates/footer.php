@@ -13,6 +13,8 @@
                 </a>
                 <p class="mt-6 text-gray-300">Sitio web administrado por la
                   Secretaría de Educación Abierta y Continua de la Facultad de Ciencias-UNAM.</p>
+                  <br>
+                <p><a href="avisodeprivacidad.php">Aviso de privacidad</a></p>
                 <!-- <ul class="list-none mt-6">
                   <li class="inline"><a href="https://tienda.fciencias.unam.mx" target="_blank"
                       class="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"><i
@@ -88,6 +90,10 @@
                   <li class="mt-[10px]"><a href="/ubicacion.php"
                       class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"><i
                         class="uil uil-angle-right-b me-1"></i>Ubicación</a></li>
+                  <li class="mt-[10px]"><a href="https://docs.google.com/forms/d/e/1FAIpQLSeHtZ9ZkcwLHMdcSYIZgChZj9fX6_x43QbItf7Gf0O--nIeWg/viewform"
+                class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"><i
+                  class="me-1"></i>¿Te interesan nuestros cursos? Regístrate para recibir nuestro boletín</a></li>
+
 
                 </ul>
               </div><!--end col-->
