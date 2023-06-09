@@ -41,10 +41,10 @@
             <!-- Logo container-->
             <a class="logo pl-0" href="../../../index.php">
                 <span class="inline-block dark:hidden">
-                    <img src="../../../assets/images/Secretaria-orizontal-azul-pequeno.png" class="l-dark" height="24" alt="">
-                    <img src="../../../assets/images/logo-light.png" class="l-light" height="24" alt="">
+                    <img style="width: 250px" src="../../../assets/images/Secretaria-orizontal-azul-pequeno.png" class="l-dark" height="24" alt="">
+                    <img style="width: 250px" src="../../../assets/images/logo-light.png" class="l-light" height="24" alt="">
                 </span>
-                <img src="../../../assets/images/logo-light.png" height="24" class="hidden dark:inline-block" alt="">
+                <img style="width: 250px" src="../../../assets/images/logo-light.png" height="24" class="hidden dark:inline-block" alt="">
             </a>
 
             <!-- End Logo container-->
