@@ -20,7 +20,7 @@ genera_encabezado_de_pagina("assets/images/pages/bg_cursos.webp", "Cursos");
     </div>
     <div class="flex justify-center gap-4">
       <button class="bg-gray-50 p-2" id="programados">Programados</button>
-      <button class="bg-gray-50 p-2" id="enCurso">En proceso</button>
+      <button class="bg-gray-50 p-2" id="enCurso">En Proceso</button>
       <button class="bg-gray-50 p-2" id="pasados">Pasados</button>
     </div>
   </div>
@@ -256,7 +256,7 @@ genera_encabezado_de_pagina("assets/images/pages/bg_cursos.webp", "Cursos");
       );
       ?>
 
-      <?php
+<?php
       //Curso Introducción a Python
       banner_curso(
         "programados",
@@ -266,16 +266,16 @@ genera_encabezado_de_pagina("assets/images/pages/bg_cursos.webp", "Cursos");
         "cursos/IntroduccionaPython/IntroduccionaPython1ed.php",
         "Del 9 de agosto al 26 de agosto del 2023",
         "Python es un lenguaje de programación que se ha vuelto muy popular en los últimos años debido a su facilidad de aprendizaje y a su amplia gama de aplicaciones. En particular, Python es muy popular en el ámbito de la ciencia de datos, ya que tiene una gran cantidad de bibliotecas y herramientas que son muy útiles para el análisis de datos y la creación de modelos predictivos.",
-        "Alumnos de licenciatura (Biología y Geología) a partir del sexto semestre. Estudiantes de la
-                  maestría y del doctorado, y maestros.",
+        "Egresados de Matemáticas, Física, Matemáticas Aplicadas, Actuaría, Ingenierías o cualquier profesionista con un conocimiento en álgebra lineal y cálculo diferencial e integral",
         "P: Mie y vie<br>V: Sab",
         "19-21 y 10-13 hrs",
         "Hibrida",
         "800",
         "NO",
-        array(array("Dr. Hannes Loeser", "assets/curriculums_docentes/HannesLoser.pdf"), array("Dr. Rafael Villanueva Olea", "assets/curriculums_docentes/RafaelVillanuevaOlea.pdf"))
+        array(array("Candidato a Doctor Sergio Iker Martínez Juárez", "assets/curriculums_docentes/IkerMartinez.pdf"))
       );
       ?>
+
 
 
       <?php

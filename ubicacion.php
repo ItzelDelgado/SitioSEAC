@@ -9,7 +9,7 @@ genera_encabezado_de_pagina("assets/images/pages/bg_ubicacion.webp", "Ubicación
 ?>
 <!-- Fin de - Generamos el encabezado -->
 
-    <!-- End Hero -->>
+    <!-- End Hero -->
     <div class="container flex flex-col mt-16" style="align-items: center;">
        <div>
             <h3 class="text-3xl font-semibold mb-6">Secretaría de Educación Abierta y Continua</h3>

@@ -5,7 +5,7 @@ include './includes/templates/funciones.php';
 
 <!-- Generamos el encabezado -->
 <?php
-genera_encabezado_de_pagina("assets/images/pages/bg_impartirprograma.webp", "Normatividad");
+genera_encabezado_de_pagina("assets/images/pages/bg_impartirprograma.webp", "Impartir Programa Acádemico");
 ?>
 <!-- Fin de - Generamos el encabezado -->
 

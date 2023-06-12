@@ -42,33 +42,7 @@ genera_carrusel(array(
   <div class="container">
     <div class="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-[30px]">
 
-      <?php
-      //CURSO Introducción a la programación en R y su aplicación a la inferencia estadística (Curso I). Edición 15
-      banner_curso(
-        "programados",
-        "assets/images/cursos/bg-CursoR.webp",
-        "Introducción a la Programación en R y su Aplicación a la Inferencia Estadística",
-        "(Curso I). Edición 15",
-        "cursos/IntroduccionAlaProgRyAplicAlinfereniciaEstadistica/IntroduccionAlaProgRyAplicAlinfereniciaEstadI_15aEd.php",
-        "Del 3 de junio al 22 de julio del 2023",
-        "R: lenguaje de programación y framework de cómputo estadístico.
-                  Descubre cómo y por qué ésta herramienta te será de gran
-                  utilidad en la recopilación y ordenamiento de datos estadísticos
-                  al momento de realizar tu análisis científico de datos.",
-        "Biólogos, Oceanógrafos, Oceanólogos, economistas,
-                  físicos, matemáticos, estudiantes de postgrado, investigadores y
-                  profesionales en áreas multidisciplinarias.",
-        "Sábado",
-        "10-15 hrs",
-        "Virtual por Meet",
-        "5,000",
-        "NO",
-        array(array("Dr. Jesús Jurado Molina", "assets/curriculums_docentes/JesusJuradoMolina.pdf"))
-      );
-      ?>
-
-
-
+      
       <!-- DIPLOMADO Diplomado de titulación en Física: actualización docente.2022-2023-->
       <?php
       banner_diplomado(
@@ -220,8 +194,7 @@ genera_carrusel(array(
         "cursos/IntroduccionaPython/IntroduccionaPython1ed.php",
         "Del 9 de agosto al 26 de agosto del 2023",
         "Python es un lenguaje de programación que se ha vuelto muy popular en los últimos años debido a su facilidad de aprendizaje y a su amplia gama de aplicaciones. En particular, Python es muy popular en el ámbito de la ciencia de datos, ya que tiene una gran cantidad de bibliotecas y herramientas que son muy útiles para el análisis de datos y la creación de modelos predictivos.",
-        "Alumnos de licenciatura (Biología y Geología) a partir del sexto semestre. Estudiantes de la
-                  maestría y del doctorado, y maestros.",
+        "Egresados de Matemáticas, Física, Matemáticas Aplicadas, Actuaría, Ingenierías o cualquier profesionista con un conocimiento en álgebra lineal y cálculo diferencial e integral",
         "P: Mie y vie<br>V: Sab",
         "19-21 y 10-13 hrs",
         "Hibrida",

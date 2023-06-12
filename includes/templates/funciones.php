@@ -352,7 +352,7 @@ function genera_encabezado_de_pagina($imagen_url, $titulo_de_pagina)
   <img src=\"$imagen_url\" alt=\"Imagen de encabezado de page\">
   <div class=\"portada-opacity\"></div>
   <div class=\"container\">
-    <div class=\"portada-informacion\" style=\"padding-top: 13rem;\">
+    <div class=\"portada-informacion\" style=\"padding-top: 11rem;\">
       <h1>$titulo_de_pagina</h1>
     </div>
   </div>

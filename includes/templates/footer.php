@@ -47,6 +47,9 @@
                     Coyoacán, C.P. 04510, Ciudad Universitaria, CDMX, México
                   </li>
                   <li class="mt-[10px]"><i class="uil uil-angle-right-b me-1"></i>
+                    <a href="mailto:educontinua.inf@ciencias.unam.mx">educontinua.of@ciencias.unam.mx</a>
+                  </li>
+                  <li class="mt-[10px]"><i class="uil uil-angle-right-b me-1"></i>
                     <a href="mailto:educontinua.inf@ciencias.unam.mx">educontinua.inf@ciencias.unam.mx</a>
                   </li>
                   <li class="mt-[10px]"><i class="uil uil-angle-right-b me-1"></i>
