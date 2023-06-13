@@ -37,7 +37,7 @@ genera_encabezado_de_pagina("assets/images/pages/bg_contacto.webp","Contacto");
                     <i class="uil uil-envelope"></i>
                 </div>
 
-                <div class="content mt-7">
+                <div class="content mt-7 flex flex-col items-center">
                     <h5 class="title h5 text-xl font-medium">Correo electrónico</h5>
                     <p class="text-slate-400 mt-3">O escríbenos. Responderemos tus dudas a la brevedad.</p>
 
