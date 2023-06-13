@@ -1146,6 +1146,7 @@ h3 {
     background-repeat: no-repeat !important;
 }
 
+
 .formato-link {
     display: inline-block;
     border-width: 1px;
@@ -1229,6 +1230,8 @@ h3 {
         margin: auto;
         border-collapse: collapse;
     }
+
+
 }
 
 @media (min-width: 768px) {
@@ -1278,5 +1281,19 @@ h3 {
 
     .search>svg {
         display: none;
+    }
+
+
+}
+
+ 
+@media (max-width: 640px) {
+    .imagen-carrusel img {
+        position: absolute;
+        top: 0px !important;
+        right: 0px !important;
+        bottom: 0px !important;
+        left: -27rem !important;
+        max-width: 68%;
     }
 }

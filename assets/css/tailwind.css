@@ -4216,6 +4216,7 @@ h1,  h2,  h3,  h4,  h5,  h6,  .h1,  .h2,  .h3,  .h4,  .h5,  .h6{
 /*===============================*/
 .container{
   position: relative;
+  overflow-wrap: break-word;
 }
 
 /* Cookies */
@@ -6960,7 +6961,10 @@ h1,  h2,  h3,  h4,  h5,  h6,  .h1,  .h2,  .h3,  .h4,  .h5,  .h6{
     display: none !important;
   }
   .md\:h-screen{
-    height: 100vh !important;
+    height: 60vh !important;
+  }
+  .md\:h-full{
+    height: 100% !important;
   }
   .md\:h-\[600px\]{
     height: 600px !important;

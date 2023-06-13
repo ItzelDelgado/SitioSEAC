@@ -307,7 +307,7 @@ function genera_carrusel($imagenes_url = array("assets/images/slider/bn-sustenta
 {
     //Carrusel
     $textocarrusel = "<section id=\"controls-carousel\" class=\"relative\" data-carousel=\"static\">
-      <div class=\"overflow-hidden relative h-screen inset-0\">";
+      <div style=\" height: 52vh; \" class=\"overflow-hidden relative  md:h-screen inset-0\">";
     echo $textocarrusel;
     for ($img = 0; $img < count($imagenes_url); $img++) {
         //<!-- Diapositiva-->
@@ -317,7 +317,7 @@ function genera_carrusel($imagenes_url = array("assets/images/slider/bn-sustenta
     }
     $botones_carrusel = "
       <button type=\"button\"
-        class=\"flex absolute top-0 left-0 z-30 justify-center items-center px-4 h-full cursor-pointer group focus:outline-none\"
+        style=\"height: 114%; \" class=\"flex absolute top-0 left-0 z-30 justify-center items-center px-4 md:h-full cursor-pointer group focus:outline-none\"
         data-carousel-prev=\"\">
         <span
           class=\"inline-flex justify-center items-center w-8 h-8 rounded-full border border-white hover:border-indigo-600 hover:bg-indigo-600 group-focus:outline-none\">
@@ -329,7 +329,7 @@ function genera_carrusel($imagenes_url = array("assets/images/slider/bn-sustenta
         </span>
       </button>
       <button type=\"button\"
-        class=\"flex absolute top-0 right-0 z-30 justify-center items-center px-4 h-full cursor-pointer group focus:outline-none\"
+        style=\"height: 114%; \" class=\"flex absolute top-0 right-0 z-30 justify-center items-center px-4 md:h-full cursor-pointer group focus:outline-none\"
         data-carousel-next=\"\">
         <span
           class=\"inline-flex justify-center items-center w-8 h-8 rounded-full border border-white hover:border-indigo-600 hover:bg-indigo-600 group-focus:outline-none\">
