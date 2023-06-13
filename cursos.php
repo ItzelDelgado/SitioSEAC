@@ -18,10 +18,10 @@ genera_encabezado_de_pagina("assets/images/pages/bg_cursos.webp", "Cursos");
   <div class="container">
     <div class="grid grid-cols-1 pb-8 text-center">
     </div>
-    <div class="flex justify-center">
-      <button class="bg-gray-50 p-1 w-32" id="programados">Programados</button>
-      <button class="bg-gray-50 p-1 w-32" id="enCurso">En Proceso</button>
-      <button class="bg-gray-50 p-1 w-32" id="pasados">Pasados</button>
+    <div class="flex justify-center gap-4">
+      <button class="bg-gray-50 p-2" id="programados">Programados</button>
+      <button class="bg-gray-50 p-2" id="enCurso">En Proceso</button>
+      <button class="bg-gray-50 p-2" id="pasados">Pasados</button>
     </div>
   </div>
 </div>

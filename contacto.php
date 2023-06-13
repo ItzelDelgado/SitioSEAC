@@ -43,6 +43,8 @@ genera_encabezado_de_pagina("assets/images/pages/bg_contacto.webp","Contacto");
 
                     <div class="mt-5">
                         <a href="mailto:educontinua.of@ciencias.unam.mx" class="btn btn-link text-indigo-600 hover:text-indigo-600 after:bg-indigo-600 duration-500 ease-in-out">educontinua.of@ciencias.unam.mx</a><br>
+                    </div>
+                    <div class="mt-5">
                         <a href="mailto:educontinua.inf@ciencias.unam.mx" class="btn btn-link text-indigo-600 hover:text-indigo-600 after:bg-indigo-600 duration-500 ease-in-out">educontinua.inf@ciencias.unam.mx</a>
                     </div>
                 </div>
