@@ -60,7 +60,7 @@ genera_encabezado_de_pagina("assets/images/pages/bg_cursos.webp", "Cursos");
       <?php
       //CURSO Introducción a los corales fósiles (Jurásico-Paleógeno)
       banner_curso(
-        "programados",
+        "pasados",
         "assets/images/cursos/Introduccion-a-los-Corales-Fosiles.webp",
         "Introducción a los Corales Fósiles (Jurásico-Paleógeno)",
         "1ra. Edición",

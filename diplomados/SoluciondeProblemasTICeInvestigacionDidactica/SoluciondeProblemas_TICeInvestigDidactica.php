@@ -6,14 +6,12 @@ include '../../includes/templates/funciones.php';
 
 <?php
 
-$titulo_curso = "Solución de problemas, TIC e investigación didáctica<br> 
-Diplomado IV: Solución de problemas, TIC e investigación didáctica<br>
-Forma parte del programa de Diplomados para el bachillerato: La Matemática del Bachillerato. Un enfoque integral";
-$imagen_curso = "../../../assets/images/diplomados/diplomado-de-ordenamiento-ecologico.jpg"; //Agregar imagen del curso, tamaño forzoso de 19
-$edicion = "Diplomado IV";
-$fecha = "Del 21 de agosto de 2023 al 17 de abril de 2024";
-$precio_unam = "20,000"; //No es necesario poner mxn
-$precio_general = "22,500"; //No es necesario poner mxn
+$titulo_curso = "Solución de problemas, TIC e investigación didáctica";
+$imagen_curso = "../../../assets/images/diplomados/Solucion_problemas_tic.jpg"; //Agregar imagen del curso, tamaño forzoso de 19
+$edicion = "<b>Diplomado IV</b><br> Forma parte del programa de Diplomados para el bachillerato: La Matemática del Bachillerato. Un enfoque integral.";
+$fecha = "Del 18 de abril al 31 de agosto de 2023";
+$precio_unam = "1,000"; //No es necesario poner mxn
+$precio_general = "2,000"; //No es necesario poner mxn
 //Si no tiene descuento, favor de poner NO en precio_unam_descuento.
 //ej: $precio_unam_descuento = "NO";
 $precio_unam_descuento = "NO"; //No es necesario poner mxn
@@ -21,34 +19,33 @@ $precio_general_descuento = "2,720"; //No es necesario poner mxn
 $frase_descuento = "15% de descuento por concepto de pronto pago (hasta el 3 de
 abril)"; //Frase del porcentaje de descuento
 $limite_fecha_descuento = "31-05-2023"; //Formato date("dd-mm-Yyyy")
-$link_plaza_prometeo = "https://tienda.fciencias.unam.mx/es/261-ordenamiento-ecologico";
-$dias = "Lunes y miércoles"; //Puedes poner Lunes, Martes, Miercoles, Jueves y Viernes.
-$horario = "16:00 a 20:00 hrs"; //Lo puedes poner en el formato que gustes. No debe ser mucha info. 
+$link_plaza_prometeo = "https://tienda.fciencias.unam.mx/es/254-diplomado-iv-solucion-de-problemas-tic-e-investigacion-didactica";
+$dias = "Martes y jueves"; //Puedes poner Lunes, Martes, Miercoles, Jueves y Viernes.
+$horario = "17:00 a 19:00 hrs"; //Lo puedes poner en el formato que gustes. No debe ser mucha info. 
 //Si es demasiada puedes agregar más detalles despues donde esta la sección de Requisitos, Horario y Lugar, 
 //solo quitas la variable, puedes ver el ejemplo de Cursos en cuadernos de jupyter
-$no_horas = "240"; //No es necesario poner hrs
-$modalidad = "Híbrida";
-$max_alumnos = "25"; //Cantidad de alumnos maxima
+$no_horas = "124"; //No es necesario poner hrs
+$modalidad = "Virtual";
+$max_alumnos = "40"; //Cantidad de alumnos maxima
 $min_alumnos = "15"; //Cantidad de alumnos minima
-$descripcion = "El diplomado está diseñado para impartirse en tres módulos estrechamente relacionados: Ordenamiento Ecológico, Impacto Ambiental y Restauración Ambiental.<br>
-El Ordenamiento Ecológico del Territorio es un instrumento de política ambiental, diseñado para caracterizar, diagnosticar y proponer formas de utilización del espacio territorial y sus recursos naturales, siempre bajo el enfoque de uso racional y diversificado y con el consenso de la población. Su objetivo es regular o inducir el uso del suelo y las actividades productivas, a fin de lograr la protección del medio ambiente y la preservación y el aprovechamiento sustentable de los recursos naturales a partir del análisis de las tendencias de deterioro y las potencialidades de aprovechamiento de los mismos.<br>
-El ordenamiento ecológico, determina las obras o actividades a realizar (las cuales se someten a evaluación de impacto). El ordenamiento dicta la viabilidad de un proyecto. Si un programa o un plan parcial de ordenamiento no son compatibles con el proyecto de ordenamiento autorizado, la autoridad desecha el trámite.br>
-La Evaluación de Impacto Ambiental es un instrumento fundamental de la política ambiental, que ha permitido plantear opciones de desarrollo compatibles con la preservación del medio ambiente y la conservación de los recursos naturales. Es una de las herramientas esenciales para prevenir, mitigar daños al medio ambiente y restaurar los recursos renovables del país. Su relación con el ordenamiento ecológico es precisamente que el primer instrumento define las actividades que pueden realizarse en un sitio determinado e indica los criterios que se deben seguir, así como su nivel de intensidad.<br>
-El ordenamiento ecológico y la Evaluación de Impacto Ambiental, involucran a un grupo multidisciplinario de profesionistas y técnicos, así como el manejo y análisis de datos de manera multifactorial.<br>
-El Diplomado culmina con el módulo de Restauración Ambiental, el cual es un tema fundamental. El ordenamiento tiene entre sus políticas la de Restauración Ambiental y establece estrategias, lineamientos, criterios de regulación y usos permitidos y no permitidos y compatibles y no compatibles.<br>
-El módulo de restauración ambiental aborda temas como la Restauración Sintética, la relación entre la ecología de poblaciones y la restauración. Además, enfatiza sobre el papel de la experiencia básica en la restauración y experiencias de restauración en cuencas.<br>
-Como corolario del Diplomado se analizan algunas estrategias que apoyan al mantenimiento de la biodiversidad, al mejor aprovechamiento de los recursos como son: azoteas y muros verdes, algunas estrategias de cultivos alternativos, relación de los espacios verdes en las ciudades y finalmente se trata sobre medidas inmediatas y mediatas tomadas en una comunidad después de un huracán en Costa Rica.<br><br>Los temas abordados en el Diplomado han adquirido mayor importancia en los últimos años. La enseñanza de estos temas puede contribuir a un mejor conocimiento sobre la orientación del gasto público, el emplazamiento geográfico de las actividades productivas y la definición de modalidades de uso de los recursos y servicios ambientales, es decir, su implementación aporta elementos para la solución de algunos de los problemas ambientales del país.
-Es necesario contar con cuadros de personal altamente capacitado que elabore y evalúe estudios de ordenamiento ambiental y manifestaciones de impacto ambiental utilizando nuevas tecnologías como lo son el uso de la Teledetección y de los Sistemas de Información Geográfica.";
-$objetivo = "Desarrollar habilidades en los participantes para elaborar e interpretar un ordenamiento ecológico, así como para entender cómo se evalúa un estudio de impacto ambiental, y conocer algunas estrategias de restauración de los hábitats terrestres y marinos.";
-$dirigido_a = "Personas interesadas en la planeación territorial, manejo sustentable, conservación y restauración de los recursos naturales (campo de conocimiento: Biología, Ciencias de la Tierra, Geografía, Economía, Arquitectura, Derecho, Planeación Territorial, Desarrollo Sustentable o áreas afines).";
-$requisitos = "Tener una licenciatura o equivalente en el área de Biología, Ciencias de la Tierra, Geografía, Economía. Arquitectura, Derecho, Planeación Territorial, Desarrollo Sustentable o áreas afines.";
-$lugar = "El Diplomado será semipresencial. La mayoría de las clases serán a distancia vía Zoom, pero algunas sesiones sean presenciales porque se requiera hacer discusiones o trabajos en equipos, sin embargo, ser dará la opción de que aquel participante que no pueda asistir tome la clase a distancia.";
+$descripcion = "El proceso de enseñanza-aprendizaje de las matemáticas es complejo y como toda actividad humana de interés, es objeto de análisis y estudio constante para mejorarlo. Ya que el bachillerato es el último nivel de formación general previo al ingreso a niveles de profundización y especialización, las preguntas: ¿Cómo enseñar las matemáticas?, ¿Qué conocimientos debe tener el egresado del bachillerato?, ¿Por qué estudiar matemáticas? resultan fundamentales. Una propuesta dirigida a fortalecer la educación matemática requiere adoptar una postura sobre estas cuestiones. Como está escrito en [1]: “Las matemáticas son parte fundamental de la cultura y permean toda actividad humana”, por esta razón su enseñanza debe reflejar el desarrollo científico y cultural de la sociedad. La enseñanza de reglas y procedimientos rutinarios debe ser resultado de una actividad dirigida a comprenderlos a través de la resolución de problemas, como nos muestra la historia de la ciencia.
+Por otra parte, la transmisión de alta calidad del conocimiento requiere de la reflexión y participación de los docentes en actividades dirigidas a mantener una práctica docente actualizada y con contenidos curriculares que favorezcan “el pensamiento crítico, la disposición para el análisis y la reflexión, el interés por saber y aplicar los conocimientos para resolver problemas”, [1] . Por esta razón, conviene que en este proceso participen los más diversos grupos de académicos cuyas experiencias y actividades resulten de interés para la docencia.
+Con este fin, a lo largo de mucho tiempo, académicos del departamento de matemáticas han colaborado con profesores del bachillerato en diversos proyectos; el ejemplo más reciente de esto es el que inicia en 2019, cuando la Facultad de Ciencias (FC) y la Escuela Nacional Preparatoria (ENP) acuerdan un proyecto de colaboración para el mejoramiento de la enseñanza de la matemática. Desde entonces, se trabaja en un seminario conjunto con exposiciones periódicas que han sido útiles para un mejor conocimiento de las necesidades y de las tareas enfocadas a cubrirlas.
+Un medio de actualización permanente es el programa de especialización que ofrece la Facultad de Ciencias, en el que se abordan aspectos didácticos y contenidos. Sin embargo, es necesario modificar su estructura para que sea más flexible y permita una mayor participación de la planta docente del bachillerato. Así, los diplomados semipresenciales que faciliten la participación de diversos académicos en distintas modalidades son una vía que se prevé exitosa.
+Bajo estas consideraciones se han elaborado 4 diplomados para cubrir el contenido de la matemática del bachillerato con una perspectiva que permita una visión integrada tanto de la génesis de las ideas como de los procedimientos de cálculo y análisis que se han creado como producto del estudio de la forma y el número.";
+$objetivo = "Fortalecer la formación disciplinaria de los profesores a través del conocimiento de herramientas de resolución de problemas, de tecnologías y de didáctica, que permitan mejorar la actitud de los estudiantes hacia el conocimiento matemático y reforzar su pensamiento matemático.";
+$dirigido_a = "Profesores del bachillerato.";
+$requisitos = "<b>Requisitos de ingreso:</b> Tener una licenciatura en matemáticas, matemática educativa o alguna disciplina afín.";
+$lugar = "Meet o Zoom.";
 $formato_inscripcion = "https://docs.google.com/forms/d/e/1FAIpQLSfaNvqVSbIkeQ4VHwZ2PVobVSY8mTxlKDrPvBHRMuEckAYkLQ/viewform"; //Pegar el formato de inscripcion
 $info_academica = "Dra. María Concepción García Aguirre<br>
 Correo electrónico: galapagos@ciencias.unam.mx
 "; //Agregar el Nombre <br> correo, dando un br para saltar de linea.
 //Es necesario poner el ../../../ en las url de los curriculums, para acceder a la carpeta.
 ?>
+
+
+
 
 <!-- Se debe modificar la parte de los profes que viene abajo. -->
 <!-- La parte más pesada es agregar el temario. Se puede usar ese o una tabla como la que normalmente creas, ya agregue estilos para que se adapten, ver ejemplo de primeros auxilios.-->
@@ -159,11 +156,27 @@ Correo electrónico: galapagos@ciencias.unam.mx
 <!-- Start Section-->
 <section class="oferta-academica md:py-20">
     <div class="container">
-        <h2>Descripción</h2>
+        <h2>Presentación del programa de Diplomados para el bachillerato</h2>
+        <h3>Diplomados para el Bachillerato<br>
+            La Matemática del Bachillerato<br>
+            Un enfoque integral</h3>
         <p>
             <?php echo $descripcion ?>
         </p>
-        <h2>Objetivo</h2>
+        <ul class="pl-12 list-decimal mt-4">
+            <li><a href="http://www.educontinua.fciencias.unam.mx/SiteNuevo/Cursos/DiplomadosBachillerato/Intro.php">Diplomado
+                    I: Geometr&iacute;a, Teor&iacute;a de n&uacute;meros y &Aacute;lgebra;</a></li>
+            <li><a
+                    href="http://www.educontinua.fciencias.unam.mx/SiteNuevo/Cursos/DiplomadosBachillerato/Dipl_II/Intro.php">Diplomado
+                    II: Matem&aacute;ticas discretas, Geometr&iacute;a anal&iacute;tica;</a></li>
+            <li>Diplomado III: El infinito y el C&aacute;lculo, Probabilidad y Estad&iacute;stica;</li>
+            <li>Diplomado IV: Taller de problemas, TIC, Taller de investigaci&oacute;n did&aacute;ctica.</li>
+        </ul>
+
+        <p class="mt-10">Con base en lo anterior se presenta el Diplomado IV.</p>
+
+        <h2>Diplomado IV.
+            Solución de problemas, TIC e investigación didáctica</h2>
         <p>
             <?php echo $objetivo ?>
         </p>

@@ -113,29 +113,7 @@ genera_carrusel(array(
       );
       ?>
 
-      <?php
-      //CURSO Introducción a los corales fósiles (Jurásico-Paleógeno)
-      banner_curso(
-        "programados",
-        "assets/images/cursos/Introduccion-a-los-Corales-Fosiles.webp",
-        "Introducción a los Corales Fósiles (Jurásico-Paleógeno)",
-        "1ra. Edición",
-        "cursos/IntroduccionaLosCoralesFosiles/IntroaLosCoralesFosilesJurasicoPaleogeno1raEd.php",
-        "Del 19 al 23 de junio de 2023",
-        "Introducir al alumno en el estudio de los corales fósiles
-                  post-paleozoicos, a través del estudio de aspectos morfológicos, de su clasificación y taxonomía, de su
-                  preparación en el laboratorio e interpretación de su biología.",
-        "Alumnos de licenciatura (Biología y Geología) a partir del sexto semestre. Estudiantes de la
-                  maestría y del doctorado, y maestros.",
-        "Lunes-Viernes",
-        "10-13 y 15-17 hrs<br>(5h por sesión)",
-        "Presencial",
-        "800",
-        "NO",
-        array(array("Dr. Hannes Loeser", "assets/curriculums_docentes/HannesLoser.pdf"), array("Dr. Rafael Villanueva Olea", "assets/curriculums_docentes/RafaelVillanuevaOlea.pdf"))
-      );
-      ?>
-
+     
       <?php
       //Taller Intensivo de Docencia Científica
       banner_taller(

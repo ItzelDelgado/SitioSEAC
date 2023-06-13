@@ -5,7 +5,7 @@ include './includes/templates/funciones.php';
 
 <!-- Generamos el encabezado -->
 <?php
-genera_encabezado_de_pagina("assets/images/pages/bg_presentacion.webp", "Secretaría de Educación Abierta y Continua");
+genera_encabezado_de_pagina("assets/images/pages/bg_equipo.jpg", "Secretaría de Educación Abierta y Continua");
 ?>
 <!-- Fin de - Generamos el encabezado -->
 
