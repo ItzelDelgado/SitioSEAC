@@ -9,13 +9,15 @@ include './includes/templates/funciones.php';
 
 //@param recibe un arreglo con la url de las imagenes que queremos ir desplegando en el carrusel
 //Las imagenes deben estar en 1920px por 480px de máximo 160kb para que se ajusten y no se deformen.
-genera_carrusel(array(
-  "assets/images/slider/bg_carrusel/bn-sustentabilidad.webp",
-  "assets/images/slider/bg_carrusel/bg-tracuache.jpg",
-  "assets/images/slider/bg_carrusel/bgTortuga.webp",
-  "assets/images/slider/bg_carrusel/BnProgramacion.webp",
-  "assets/images/slider/bg_carrusel/carrusel_fisicacuantica.jpg"
-));
+genera_carrusel(
+  array(
+    "assets/images/slider/bg_carrusel/bn-sustentabilidad.webp",
+    "assets/images/slider/bg_carrusel/bg-tracuache.jpg",
+    "assets/images/slider/bg_carrusel/bgTortuga.webp",
+    "assets/images/slider/bg_carrusel/BnProgramacion.webp",
+    "assets/images/slider/bg_carrusel/carrusel_fisicacuantica.jpg"
+  )
+);
 ?>
 <!-- Carrusel FIN -->
 
@@ -42,7 +44,7 @@ genera_carrusel(array(
   <div class="container">
     <div class="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-[30px]">
 
-      
+
       <!-- DIPLOMADO Diplomado de titulación en Física: actualización docente.2022-2023-->
       <?php
       banner_diplomado(
@@ -113,7 +115,30 @@ genera_carrusel(array(
       );
       ?>
 
-     
+      <?php
+      //Taller de robotica. ed 3
+      banner_taller(
+        "programados",
+        "assets/images/talleres/taller-intensivo-de-docencia-cientifica.jpg",
+        "Iniciación a la Robótica",
+        "3ra. Edición",
+        "talleres/IniciacionAlaRobotica/3ed/IniciacionAlaRobotica3ed.php",
+        "Del 29 de julio al 26 de agosto de 2023",
+        "¡Construye tu propio robot!<br>
+        Serás guiado por expertos en robótica y programación de la Facultad de Ciencias de la U.N.A.M.
+        Estudiarás y aplicarás principios de electrónica, programación y mecánica que serán las herramientas para que construyas un robot que podrás llevarte a tu casa terminando el curso.
+        <br>Se llevará a cabo una competencia de robots.",
+        "Niños y adolescentes de 10 a 17 años",
+        "Sábados",
+        "10-13hrs",
+        "Presencial",
+        "4,200",
+        "NO",
+        array(array("Dra. Andrea Aburto, Coordinadora de la Carrera de Física", "#"),
+        array("Dra. Donaji Xóchitl Cruz López","#"))
+      );
+      ?>
+
       <?php
       //Taller Intensivo de Docencia Científica
       banner_taller(
@@ -126,7 +151,7 @@ genera_carrusel(array(
         "El aprendizaje activo es una perspectiva educativa centrada en el estudiante, respaldada por evidencia científica, que busca mejorar la enseñanza y el aprendizaje. En México, la formación en este enfoque es limitada, pero la iniciativa Do-Ciencia busca cambiar eso a través de talleres basados en la evidencia.",
         "Docentes de la Facultad de Ciencias",
         "Lunes-Miercoles",
-        "9:00 - 18:00 hrs",
+        "9-18hrs",
         "Presencial",
         "1,000",
         "NO",

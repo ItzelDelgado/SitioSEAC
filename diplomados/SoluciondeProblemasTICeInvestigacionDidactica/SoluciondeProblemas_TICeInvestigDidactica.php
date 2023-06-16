@@ -35,12 +35,11 @@ Un medio de actualización permanente es el programa de especialización que ofr
 Bajo estas consideraciones se han elaborado 4 diplomados para cubrir el contenido de la matemática del bachillerato con una perspectiva que permita una visión integrada tanto de la génesis de las ideas como de los procedimientos de cálculo y análisis que se han creado como producto del estudio de la forma y el número.";
 $objetivo = "Fortalecer la formación disciplinaria de los profesores a través del conocimiento de herramientas de resolución de problemas, de tecnologías y de didáctica, que permitan mejorar la actitud de los estudiantes hacia el conocimiento matemático y reforzar su pensamiento matemático.";
 $dirigido_a = "Profesores del bachillerato.";
-$requisitos = "<b>Requisitos de ingreso:</b> Tener una licenciatura en matemáticas, matemática educativa o alguna disciplina afín.";
+$requisitos = "<b>Requisitos de ingreso:</b> Tener una licenciatura en matemáticas, matemática educativa o alguna disciplina afín.<br><b>Requisitos de permanencia: </b>No más tres inasistencias continuas.<br><b>Requisitos de egreso: </b>Cumplir con los requisitos de permanencia y haber aprobado las evaluaciones.<br><b>Equipo de cómputo y software requerido: </b>Zoom, Geogebra, Mathematica, Moodle, Aplicaciones de Google.";
 $lugar = "Meet o Zoom.";
-$formato_inscripcion = "https://docs.google.com/forms/d/e/1FAIpQLSfaNvqVSbIkeQ4VHwZ2PVobVSY8mTxlKDrPvBHRMuEckAYkLQ/viewform"; //Pegar el formato de inscripcion
-$info_academica = "Dra. María Concepción García Aguirre<br>
-Correo electrónico: galapagos@ciencias.unam.mx
-"; //Agregar el Nombre <br> correo, dando un br para saltar de linea.
+$formato_inscripcion = "https://docs.google.com/forms/d/e/1FAIpQLSfY_v91E4wgF9AlFiXJmRE9zA-MfLxQeCJju76TnMUKzqXDdg/viewform"; //Pegar el formato de inscripcion
+$info_academica = "M. En C. Clara Vidrio<br>
+claravidrio0@gmail.com"; //Agregar el Nombre <br> correo, dando un br para saltar de linea.
 //Es necesario poner el ../../../ en las url de los curriculums, para acceder a la carpeta.
 ?>
 
@@ -175,8 +174,150 @@ Correo electrónico: galapagos@ciencias.unam.mx
 
         <p class="mt-10">Con base en lo anterior se presenta el Diplomado IV.</p>
 
+
+
+
+
         <h2>Diplomado IV.
             Solución de problemas, TIC e investigación didáctica</h2>
+        <p>El presente diplomado consta de tres módulos:</p>
+        <div class="mt-4">
+
+            <p class="font-bold">Módulo 1: Taller de problemas</p>
+            <div class="pl-4">
+                <p class="font-semibold mt-4">Justificaci&oacute;n</p>
+                <p>Dentro de la labor docente, en ocasiones
+                    se enfrenta la
+                    situaci&oacute;n de tener que resolver problemas matem&aacute;ticos que no han sido vistos antes.
+                    Esto
+                    puede suceder al estudiar nuevo material para preparar un curso, al preparar tareas para los
+                    estudiantes
+                    o incluso al discutir con estudiantes avanzados algunos problemas de concursos
+                    matem&aacute;ticos.<br />Para resolver estos problemas con &eacute;xito, se necesita un buen
+                    conocimiento de la teor&iacute;a necesaria en su soluci&oacute;n. Sin embargo, no siempre es
+                    inmediato
+                    qu&eacute; resultados te&oacute;ricos usar. Un estudio sistem&aacute;tico de heur&iacute;sticas de
+                    resoluci&oacute;n de problemas permite decidir acciones concretas que llevan a la resoluci&oacute;n
+                    de
+                    un problema matem&aacute;tico, como explorar casos particulares, hacer una figura o dividir en
+                    casos.<br />La literatura con respecto a heur&iacute;sticas es amplia, y en ocasiones es complicado
+                    encontrar ejemplos concretos que se puedan llevar al aula para una materia en espec&iacute;fico.
+                    Este
+                    m&oacute;dulo est&aacute; dise&ntilde;ado de modo que tanto las t&eacute;cnicas como los ejemplos
+                    elegidos se puedan usar de manera directa en las asignaturas matem&aacute;ticas a nivel bachillerato
+                    con
+                    temas de &aacute;lgebra y de geometr&iacute;a.</p>
+                <p class="font-semibold mt-4">Objetivos espec&iacute;ficos del
+                    m&oacute;dulo</p>
+                <ul class="list-disc pl-12">
+                    <li>Introducir el concepto de heur&iacute;stica</li>
+                    <li>Presentar un estudio sistem&aacute;tico de 5 heur&iacute;sticas</li>
+                    <li>Identificar y usar dichas heur&iacute;sticas en la resoluci&oacute;n de problemas</li>
+                    <li>Elaborar material did&aacute;ctico que los profesores puedan usar en su pr&aacute;ctica docente
+                    </li>
+                </ul>
+                <p class="font-semibold mt-4">Cuerpo docente y entidades participantes:</p>
+                <ul class="list-disc pl-12">
+                    <li>Dr. Leonardo Ignacio Mart&iacute;nez Sandoval, Depto. Matem&aacute;ticas. Coordinador</li>
+                    <li>Mat. Carla Abigail Anaya Monta&ntilde;o. Instructora</li>
+                    <li>M. en D. Tania Azucena Chicalote Jim&eacute;nez, Depto. Matem&aacute;ticas. Instructora</li>
+                </ul>
+                <p class="font-semibold mt-4">Procesos de evaluación</p>
+                <p>Para cada heurística habrá los siguientes entregables:</p>
+                <ul class="list-decimal pl-12">
+                    <li>Entregable te&oacute;rico</li>
+                    <li>Mini-cuestionario</li>
+                    <li>Entregable de problemas a resolver</li>
+                    <li>Foro de reflexi&oacute;n final</li>
+                </ul>
+
+            </div>
+            <p class="font-bold mt-4">Módulo 2: Tecnologías de la Información y la Comunicación (TICs)</p>
+            <div class="pl-4">
+                <p class="font-semibold mt-4">Justificaci&oacute;n</p>
+                <p>Desde la antigüedad, el ser humano ha buscado la manera de crear diversas herramientas que le
+                    permitan llevar a cabo sus actividades. Más aún, el uso de estos dispositivos le han servido no
+                    sólo
+                    para realizar actividades cotidianas sino para analizar, representar, estudiar y resolver
+                    problemas
+                    cada vez más complejos. La sociedad actual no puede ser ajena a esto, los dispositivos actuales
+                    son
+                    herramientas tecnológicas que nos permiten descubrir y explorar los objetos y problemas desde
+                    diversos enfoques y a velocidades antes inimaginables.
+                    No podemos negar que los cambios constantes y vertiginosos que enfrenta la sociedad impregnan la
+                    labor docente dentro de las instituciones, por lo que adquiere relevante importancia que los
+                    docentes obtengan destreza y experiencia en el uso de las herramientas tecnológicas actuales y
+                    acordes al tipo de conocimientos y aprendizajes que desean desarrollar en sus alumnos y dentro
+                    de su
+                    práctica docente.</p>
+                <p class="font-semibold mt-4">Objetivos espec&iacute;ficos del
+                    m&oacute;dulo</p>
+                <ul class="list-disc pl-12">
+                    <li>Conocer diversas herramientas tecnológicas para el desarrollo de aprendizajes matemáticos.
+                    </li>
+                    <li>Integrar el uso de las tecnológicas y las heurísticas para la resolución de problemas.</li>
+                    <li>Elaborar actividades didácticas que impliquen el uso de tecnologías y que los profesores
+                        puedan
+                        usar en su práctica docente</li>
+                </ul>
+                <p class="font-semibold mt-4">Cuerpo docente y entidades participantes:</p>
+                <ul class="list-disc pl-12">
+                    <li>Dr. Leonardo Ignacio Mart&iacute;nez Sandoval, Depto. Matem&aacute;ticas. Coordinador</li>
+                    <li>M. en D. Tania Azucena Chicalote Jim&eacute;nez, Depto. Matem&aacute;ticas. Instructora</li>
+                </ul>
+                <p class="font-semibold mt-4">Procesos de evaluación</p>
+                <p>Para cada práctica se elaborarán los siguientes:</p>
+                <ul class="list-decimal pl-12">
+                    <li>Resoluci&oacute;n de la pr&aacute;ctica</li>
+                    <li>An&aacute;lisis del uso de la tecnolog&iacute;a dentro de la resoluci&oacute;n de la
+                        pr&aacute;ctica.</li>
+                    <li>Reflexi&oacute;n de c&oacute;mo podr&iacute;a integrarse el uso de la tecnolog&iacute;a
+                        presentada dentro de su pr&aacute;ctica docente.</li>
+                    <li>Propuesta y an&aacute;lisis de una pr&aacute;ctica para aplicar en su pr&aacute;ctica docente.
+                    </li>
+                    <li>Coevaluaci&oacute;n</li>
+                </ul>
+
+            </div>
+            <p class="font-bold mt-4">Módulo 3 Taller de investigación didáctica</p>
+            <div class="pl-4">
+                <p class="font-semibold mt-4">Justificaci&oacute;n</p>
+                <p>Hasta ahora, los profesores han desarrollado distintas habilidades matemáticas, tecnológicas y de
+                    resolución de problemas, en el transcurso de este diplomado y de otros de la serie “La Matemática
+                    del Bachillerato - Un enfoque integral”. El objetivo de este último módulo es que los profesores
+                    puedan poner en práctica estos conocimientos y puedan identificar distintas situaciones docentes, de
+                    la vida cotidiana y de la ciencia en donde se usan.</p>
+                <p class="font-semibold mt-4">Objetivos espec&iacute;ficos del
+                    m&oacute;dulo</p>
+                <ul class="list-disc pl-12">
+                    <li>Conocer, a partir de pláticas de distintos asesores, una gran variedad de situaciones
+                        científicas, docentes y cotidianas en las que es posible usar herramientas matemáticas.</li>
+                    <li>Desarrollar un reporte de investigación en donde discutan con profundidad alguna de las
+                        situaciones descritas, y cómo las matemáticas juegan un papel importante en ella..</li>
+                    <li> Replicar las situaciones discutidas en el aula, sobre todo aquella en la cual decidió
+                        profundizar mediante su reporte de investigación.</li>
+                </ul>
+                <p class="font-semibold mt-4">Cuerpo docente y entidades participantes:</p>
+                <P>Se invitará a distintos docentes del Departamento de Matemáticas y de la Facultad de Ciencias de la
+                    UNAM para presentar pláticas sobre situaciones científicas, docentes y cotidianas en las que es
+                    posible usar herramientas matemáticas:</P>
+                <ul class="list-disc pl-12">
+                    <li>Dr. Leonardo Ignacio Mart&iacute;nez Sandoval, Depto. Matem&aacute;ticas. Coordinador</li>
+                    <li>M. en D. Tania Azucena Chicalote Jim&eacute;nez, Depto. Matem&aacute;ticas. Instructora</li>
+                    <li>M. en C. Francisco Struck Ch&aacute;vez, Departamento de Matem&aacute;ticas. Conferencista</li>
+                    <li>Dr. Manuel Falconi Maga&ntilde;a, Departamento de Matem&aacute;ticas. Conferencista</li>
+                    <li>Mat. Laura Pastrana Ram&iacute;rez, Departamento de Matem&aacute;ticas. Conferencista</li>
+                    <li>Mat. Julio C&eacute;sar Guevara Bravo, Departamento de Matem&aacute;ticas. Conferencista</li>
+                </ul>
+                <p class="font-semibold mt-4">Procesos de evaluación</p>
+                <ul class="list-decimal pl-12">
+                    <li>Asistencia a las pl&aacute;ticas</li>
+                    <li>Elaboraci&oacute;n de reporte de investigaci&oacute;n</li>
+                    <li>Presentaci&oacute;n de reporte de investigaci&oacute;n</li>
+                </ul>
+            </div>
+        </div>
+        <h2>Justificación General del Diplomado</h2>
         <p>
             <?php echo $objetivo ?>
         </p>
@@ -184,47 +325,6 @@ Correo electrónico: galapagos@ciencias.unam.mx
         <p>
             <?php echo $dirigido_a ?>
         </p>
-        <h2>Impartido por:</h2>
-        <ul class="pl-12 list-decimal">
-            <li><a href="../../../assets/curriculums_docentes/MariaConcepcionGarciaAguirre.pdf">Dra. María Concepción
-                    García Aguirre. Profesora de asignatura, Facultad de Ciencias, UNAM</a></li>
-            <li><a href="../../../assets/curriculums_docentes/MarisolGallardoAngeles.pdf">Dra. Marisol Anglés Hernández.
-                    Investigadora, Instituto de Investigaciones Jurídicas, UNAM</a></li>
-            <li><a href="../../../assets/curriculums_docentes/JorgeRobertoBlancoMartinez.pdf">Dr. V&iacute;ctor Manuel
-                    Vel&aacute;zquez Aguilar. Profesor / investigador. FC-UNAM</a></li>
-            <li><a href="../../../assets/curriculums_docentes/RogelioCorona.pdf">Dr. Rogelio Corona Nuñez. Profesor de
-                    asignatura. Ciencias de la Tierra. Fac de Ciencias.</a></li>
-            <li><a href="../../../assets/curriculums_docentes/CarloAlejandroDLunaFuentes.pdf"> M. en G. Carlo Alejandro
-                    D’Luna Fuentes. Profesor de Geografía, SUA y de la Universidad de Guerrero</a></li>
-            <li><a href="../../../assets/curriculums_docentes/EduardoGonzalezHernandez.pdf">Lic. en Planificación para
-                    el Desarrollo Agropecuario (PDA) Eduardo González Hernández, Consultor independiente</a></li>
-            <li><a href="../../../assets/curriculums_docentes/MarianaHernandezApolinar.pdf">Dra. Mariana Hernández
-                    Apolinar. Técnico Académico, Lab. Ecología de Poblaciones, Fac. Ciencias</a></li>
-            <li><a href="../../../assets/curriculums_docentes/MariaSilviaIriarteVivarBalderrama.pdf">Dra. María Silvia
-                    Iriarte Vivar Balderrama, Profesora de asignatura, Facultad de Ciencias, UNAM</a></li>
-            <li><a href="../../../assets/curriculums_docentes/PedroEloyMendozaHernandez.pdf">Dr. Pedro Eloy Mendoza
-                    Hernández, Técnico Académico, Lab. Ecología de Poblaciones, Fac. Ciencias</a></li>
-            <li><a href="../../../assets/curriculums_docentes/FernandoOlivoAranda.pdf">M. en C. Fernando Olivo Aranda.
-                    Profesor de asignatura, Facultad de Arquitectura, UNAM</a></li>
-            <li><a href="../../../assets/curriculums_docentes/TamaraGuadalupeOsornoSanchez.pdf">Dra. Tamara Guadalupe
-                    Osorno Sánchez. Profesora de Tiempo Completo. Facultad de Ciencias Naturales Universidad Autónoma de
-                    Querétaro</a></li>
-            <li><a href="../../../assets/curriculums_docentes/AlejandroPelaezGoycochea.pdf">Biólogo Alejandro Peláez
-                    Goycochea. Consultor de OE, Universidad Autónoma del Estado de Morelos</a></li>
-            <li><a href="../../../assets/curriculums_docentes/JoseLuisPerezDamian.pdf">Geógrafo José Luis Pérez Damián.
-                    Consultor independiente</a></li>
-            <li><a href="../../../assets/curriculums_docentes/TalinaRuizRodriguez.pdf">M. en C. Talina Ruíz Rodríguez.
-                    Analista Ambiental, Teo Consultora Ambiental, S.C.</a></li>
-            <li><a href="../../../assets/curriculums_docentes/IreneSanchezGallen.pdf">Dra. Irene Sánchez Gallén. Técnico
-                    Académico Titular C, Ecología del Suelo, Fac. de Ciencias, UNAMe</a></li>
-            <li><a href="../../../assets/curriculums_docentes/LeobardoTerpanAcuna.pdf">M. en Estudios Regionales, Medio
-                    Ambiente y Desarrollo Leobardo Terpán Acuña. Profesor de asignatura, Facultad de Ciencias, UNAM</a>
-            </li>
-            <li><a href="../../../assets/curriculums_docentes/RicardoVazquezPerales.pdf">Dr. Ricardo Vázquez Perales.
-                    Consultor independiente</a></li>
-            <li><a href="../../../assets/curriculums_docentes/RodrigoCelisGarcia.pdf">M en Gestión y Autitorías
-                    Ambientales Rodrigo Celis García</a></li>
-        </ul>
         <p class="text-red-600 mt-4">
             Mín / Máx de alumnos: Mínimo
             <?php echo $min_alumnos ?>, máximo
@@ -313,69 +413,120 @@ Correo electrónico: galapagos@ciencias.unam.mx
     <h2>Temario</h2>
     <div class="secciones grid md:grid-cols-2 grid-cols-1">
         <div> <!--Tema-->
-            <h3>MÓDULO I.- ORDENAMIENTO ECOLÓGICO</h3>
+            <h3>MÓDULO I.- Taller de problemas (42 horas)</h3>
+            <p>Coordinador: Dr. Leonardo Ignacio Martínez Sandoval</p>
+            <p>Fecha: Del 18 de abril al 23 de mayo de 2023</p>
             <div class="contenido">
                 <h4>Temas</h4>
                 <ul>
-                    <li>Introducci&oacute;n</li>
-                    <li>Visi&oacute;n Internacional del OE.El caso de la escalera n&aacute;utica</li>
-                    <li>Planeaci&oacute;n del Territorio</li>
-                    <li>Procedimiento general para la elaboraci&oacute;n de un OE</li>
-                    <li>Bases Jur&iacute;dicas del OE</li>
-                    <li>Sistemas complejos y ecolog&iacute;a del Paisaje</li>
-                    <li>Fuentes de informaci&oacute;n y cartograf&iacute;a</li>
-                    <li>Delimitaci&oacute;n del &aacute;rea de estudio (Integraci&oacute;n y diferenciaci&oacute;n
-                        territorial)</li>
-                    <li>Modelo digital del terreno</li>
-                    <li>-An&aacute;lisis del cambio de cobertura vegetal y de uso del suelo</li>
-                    <li>Reconocimiento de actividades sectoriales y de sus intereses en el territorio</li>
-                    <li>C&aacute;lculo y mapeo de suficiencia de red vial Hgo</li>
-                    <li>Valoraci&oacute;n econ&oacute;mica de los RN y An&aacute;lisis multicriterio</li>
-                    <li>Diagn&oacute;stico, identificaci&oacute;n y an&aacute;lisis de los conflictos, definici&oacute;n
-                        de h&aacute;bitats cr&iacute;ticos. Participaci&oacute;n social</li>
-                    <li>An&aacute;lisis de riesgos</li>
-                    <li>Pron&oacute;stico</li>
-                    <li>Definici&oacute;n de las unidades de gesti&oacute;n ambiental (UGAS)</li>
-                </ul>
-            </div>
-        </div><!--fin de tema-->
-        <div> <!--Tema-->
-            <h3>MÓDULO II.- IMPACTO AMBIENTAL</h3>
-            <div class="contenido">
-                <h4>Temas</h4>
-                <ul>
-                    <li>Visi&oacute;n general del Deterioro Ambiental</li>
-                    <li>Aspectos jur&iacute;dicos del impacto ambiental. Responsabilidad por el da&ntilde;o ambiental
+                    <li>Introducci&oacute;n a Heur&iacute;sticas
+                        <ul>
+                            <li>Heur&iacute;sticas en la vida cotidiana</li>
+                            <li>Identificaci&oacute;n de heur&iacute;sticas</li>
+                        </ul>
                     </li>
-                    <li>Uso de Gu&iacute;as metodol&oacute;gicas</li>
-                    <li>Cap&iacute;tulo 3 y 4 de Gu&iacute;as metodol&oacute;gicas</li>
-                    <li>Casos de remediaci&oacute;n</li>
-                    <li>Evaluaci&oacute;n de impacto ambiental</li>
-                    <li>Caso: carretera y Caso: Pemex</li>
+                    <li>Buscar un patr&oacute;n
+                        <ul>
+                            <li>Planteamiento de la heur&iacute;stica</li>
+                            <li>Problemas ejemplo</li>
+                            <li>Resoluci&oacute;n de problemas</li>
+                        </ul>
+                    </li>
+                    <li>Notaci&oacute;n efectiva
+                        <ul>
+                            <li>Planteamiento de la heur&iacute;stica</li>
+                            <li>Problemas ejemplo</li>
+                            <li>Resoluci&oacute;n de problemas</li>
+                        </ul>
+                    </li>
+                    <li>Hacer una figura
+                        <ul>
+                            <li>Planteamiento de la heur&iacute;stica</li>
+                            <li>Problemas ejemplo</li>
+                            <li>Resoluci&oacute;n de problemas</li>
+                        </ul>
+                    </li>
+                    <li>Aprovechar la simetr&iacute;a
+                        <ul>
+                            <li>Planteamiento de la heur&iacute;stica</li>
+                            <li>Problemas ejemplo</li>
+                            <li>Resoluci&oacute;n de problemas</li>
+                        </ul>
+                    </li>
+                    <li>Modificar el problema
+                        <ul>
+                            <li>Planteamiento de la heur&iacute;stica</li>
+                            <li>Problemas ejemplo</li>
+                            <li>Resoluci&oacute;n de problemas</li>
+                        </ul>
+                    </li>
                 </ul>
             </div>
         </div><!--fin de tema-->
         <div> <!--Tema-->
-            <h3>MÓDULO III.- RESTAURACIÓN AMBIENTAL</h3>
+            <h3>MÓDULO II.- Tecnologías de la Información y la Comunicación (TICs) (42 horas)</h3>
+            <p>Coordinador: M. en D. Tania Azucena Chicalote Jiménez</p>
+            <p>Fecha: Del 25 de mayo al 29 de junio de 2023</p>
             <div class="contenido">
                 <h4>Temas</h4>
                 <ul>
-                    <li>Introducci&oacute;n a la Restauraci&oacute;n Ambiental</li>
-                    <li>Restauraci&oacute;n sint&eacute;tica</li>
-                    <li>Ecolog&iacute;a de poblaciones y la restauraci&oacute;n</li>
-                    <li>Experiencias de ciencia b&aacute;sica en la restauraci&oacute;n ecol&oacute;gica</li>
-                    <li>Restauraci&oacute;n de cuencas</li>
-                    <li>Ecotecnolog&iacute;as en la restauraci&oacute;n ambiental y la sustentabilidad</li>
-                    <li>Azoteas y muros verdes</li>
-                    <li>Cultivos alternativos</li>
+                    <li>Introducci&oacute;n a TIC
+                        <ul>
+                            <li>Herramientas tecnol&oacute;gicas para la ense&ntilde;anza-aprendizaje GeoGebra</li>
+                            <li>Geogebra y la resoluci&oacute;n de problemas</li>
+                        </ul>
+                    </li>
+                    <li>Mathematica
+                        <ul>
+                            <li>Mathematica y la resoluci&oacute;n de problemas</li>
+                        </ul>
+                    </li>
+                    <li>Excel/Google Sheets
+                        <ul>
+                            <li>Excel y la resoluci&oacute;n de problemas</li>
+                        </ul>
+                    </li>
+                    <li>Propuesta did&aacute;ctica con TIC
+                        <ul>
+                            <li>Presentaci&oacute;n de propuestas did&aacute;cticas con el uso de TIC</li>
+                        </ul>
+                    </li>
                 </ul>
+            </div>
+        </div><!--fin de tema-->
+        <div> <!--Tema-->
+            <h3>MÓDULO III.- Taller de investigación didáctica (40 horas)</h3>
+            <p>Coordinador: Dr. Leonardo Ignacio Martínez Sandoval</p>
+            <p>Fecha: Del 1 de agosto al 31 de agosto de 2023</p>
+            <div class="contenido">
+                <h4>Temas</h4>
+                <ul>
+                    <li>Se dar&aacute;n algunas conferencias para orientar a los profesores para que escojan
+                        alg&uacute;n tema de investigaci&oacute;n, y elijan un asesor para desarrollar el tema a
+                        profundidad, por ejemplo:
+                        <ul>
+                            <li>Introducci&oacute;n a M&oacute;dulo 3 y expectativas de trabajo y evaluaci&oacute;n. 2
+                                horas.<br /> Ponentes: Leonardo Ignacio Mart&iacute;nez Sandoval y Tania Azucena
+                                Chicalote Jim&eacute;nez</li>
+                            <li>Uso did&aacute;ctico de la teor&iacute;a de gr&aacute;ficas en el aula. 8 horas<br />
+                                Ponente: Laura Pastrana Ram&iacute;rez</li>
+                            <li>Uso del c&aacute;lculo en diversas situaciones de la ciencia. 8 horas<br /> Ponente:
+                                Manuel Falconi Maga&ntilde;a</li>
+                            <li>Algunos usos did&aacute;cticos de la geometr&iacute;a. 8 horas<br /> Ponente: Francisco
+                                Struck Ch&aacute;vez</li>
+                            <li>Aplicaciones de la teor&iacute;a de n&uacute;meros. 8 horas<br /> Ponente: Julio
+                                C&eacute;sar Guevara Bravo</li>
+                            <li>Presentaci&oacute;n de reportes de investigaci&oacute;n. 6 horas<br /> Ponentes: Tania
+                                Azucena Chicalote Jim&eacute;nez y Leonardo Ignacio Mart&iacute;nez Sandoval</li>
+                        </ul>
+                    </li>
             </div>
         </div><!--fin de tema-->
     </div> <!-- TERMINA EL CONTENEDOR DE LOS SUBTEMAS -->
 
     <!-- Por si hay temario extendido (pdf), si no, favor de comentarlo. -->
     <a class="formato-link mt-6" target="_blank"
-        href="../../../diplomados/OrdenamientoEcologicoImpactoyRestauracionAmbiental/OrdenamientoEcologico5dip/TEMARIOEXTENDIDO_5DipOrdenamientoEcologico.pdf">
+        href="../../../diplomados/SoluciondeProblemasTICeInvestigacionDidactica/TEMARIOEXTENDIDO_DipIVSolucionProblemasTIC.pdf">
         Temario extendido
     </a>
 </section><!-- TERMINA LA SECCIÓN DEL TEMARIO -->
@@ -428,54 +579,6 @@ Correo electrónico: galapagos@ciencias.unam.mx
     </div>
 </section><!--end section-->
 <!-- End -->
-
-<!-- Start Section-->
-<section class="oferta-academica-2">
-    <div class="container">
-        <h2>Requisitos de egreso. Evaluación</h2>
-        <p>Requisitos de egreso</p>
-        <ul class="list-disc pl-12">
-            <li>El asistente deber&aacute; cumplir con el 80% de asistencia.</li>
-            <li>Calificaci&oacute;n aprobatoria de 8.0</li>
-            <li>Caso de becarios calificaci&oacute;n aprobatoria de 9.0</li>
-            <li>Adem&aacute;s, al menos una evaluaci&oacute;n que d&eacute; evidencia del aprovechamiento del
-                participante</li>
-            <li>En el caso de Diplomados todo lo anterior por m&oacute;dulo.</li>
-        </ul>
-        <h2>Actividades adicionales para la evaluación:
-        </h2>
-        <ul class="list-decimal pl-12">
-            <li>Reporte de las siguientes pr&aacute;cticas:
-                <ul class="pl-12">
-                    <li>a) Regionalizaci&oacute;n: a partir de las im&aacute;genes mostradas, definir el tipo de
-                        regi&oacute;n y las caracter&iacute;sticas de la Misma</li>
-                    <li>b) Cambio de cobertura vegetal y uso del suelo</li>
-                    <li>c) C&aacute;lculo y mapeo del coeficiente de red vial de la zona metropolitana de Tulancingo,
-                        Hgo.</li>
-                    <li>d) Valoraci&oacute;n y an&aacute;lisis multicriterio de recursos naturales</li>
-                    <li>e) Definici&oacute;n de Unidades de Gesti&oacute;n Ambiental</li>
-                    <li>g) An&aacute;lisis de matrices e identificaci&oacute;n valoraci&oacute;n de impactos ambientales
-                    </li>
-                </ul>
-            </li>
-            <li>Entrega de 2 controles de lecturas:
-                <ul class="pl-12">
-                    <li>a) Restore, regenerate, revegetate: Restoring ecological processes, ecosystems and landscapes in
-                        a changing world</li>
-                    <li>b) Restauraci&oacute;n sint&eacute;tica</li>
-                </ul>
-            </li>
-            <li>Entrega por equipo de propuesta de:
-                <ul class="pl-12">
-                    <li>a) Restauraci&oacute;n</li>
-                    <li>b) Dise&ntilde;o y gesti&oacute;n de superficies naturadas</li>
-                </ul>
-            </li>
-            <li>Tres cuestionarios a casa (uno por cada m&oacute;dulo)</li>
-            <li>Un trabajo semestral en equipo y su presentaci&oacute;n de forma escrita y oral.</li>
-        </ul>
-    </div>
-</section>
 
 <div class="ayuda container md:mt-24">
     <div class="titulo">
