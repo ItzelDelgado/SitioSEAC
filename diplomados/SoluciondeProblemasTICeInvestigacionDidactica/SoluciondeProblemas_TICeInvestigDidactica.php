@@ -525,10 +525,10 @@ claravidrio0@gmail.com"; //Agregar el Nombre <br> correo, dando un br para salta
     </div> <!-- TERMINA EL CONTENEDOR DE LOS SUBTEMAS -->
 
     <!-- Por si hay temario extendido (pdf), si no, favor de comentarlo. -->
-    <a class="formato-link mt-6" target="_blank"
+    <!-- <a class="formato-link mt-6" target="_blank"
         href="../../../diplomados/SoluciondeProblemasTICeInvestigacionDidactica/TEMARIOEXTENDIDO_DipIVSolucionProblemasTIC.pdf">
         Temario extendido
-    </a>
+    </a> -->
 </section><!-- TERMINA LA SECCIÓN DEL TEMARIO -->
 
 

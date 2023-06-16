@@ -119,7 +119,7 @@ genera_carrusel(
       //Taller de robotica. ed 3
       banner_taller(
         "programados",
-        "assets/images/talleres/taller-intensivo-de-docencia-cientifica.jpg",
+        "assets/images/talleres/Robotica3ed.jpg",
         "Iniciación a la Robótica",
         "3ra. Edición",
         "talleres/IniciacionAlaRobotica/3ed/IniciacionAlaRobotica3ed.php",

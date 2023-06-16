@@ -34,7 +34,7 @@ $objetivo = "Que los asistentes comprendan los diferentes impactos negativos que
 $dirigido_a = "Estudiantes, profesionistas, tomadores de decisiones, manejadores de recursos, biólogos, ecólogos, administradores de áreas naturales, administradores de recursos naturales.";
 $requisitos = "Licenciatura (90% de créditos)";
 $lugar = "Meet y Moodle";
-$formato_inscripcion = "https://forms.gle/VCEAUh6AU8meU1gJ9"; //Pegar el formato de inscripcion
+$formato_inscripcion = "https://forms.gle/LoADFn2RpwJ9fETg9"; //Pegar el formato de inscripcion
 $info_academica = "Dr. Alejandro Villegas Castillo<br>
 Correo electrónico: alejandrovillegas@ciencias.unam.mx"; //Agregar el Nombre <br> correo, dando un br para saltar de linea.
 $ponentes_principales_presentacion = array(

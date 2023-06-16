@@ -137,7 +137,31 @@ genera_encabezado_de_pagina("assets/images/pages/bg_diplomados.webp", "Diplomado
       );
       ?>
 
-
+      <!-- DIPLOMADO Diplomado IV: Solución de problemas, TIC e investigación didáctica-->
+      <?php
+      banner_diplomado(
+        "pasados",
+        "assets/images/diplomados/Solucion_problemas_tic.jpg",
+        "Diplomado en Derecho y Gestión Ambiental",
+        "XXVII Edición",
+        "diplomados/SoluciondeProblemasTICeInvestigacionDidactica/SoluciondeProblemas_TICeInvestigDidactica.php",
+        "Del 7 de agosto del 2023 al 20 de septiembre del 2024.",
+        "La enseñanza de matemáticas requiere análisis constante para mejorarla
+        y adoptar una postura sobre cómo enseñar, qué conocimientos debe tener el egresado y por qué estudiarlas.
+        Los docentes deben reflexionar y participar en actividades actualizadas que favorezcan el pensamiento
+        crítico. La colaboración entre la Facultad de Ciencias y la Escuela Nacional Preparatoria busca mejorar la
+        enseñanza a través de programas de especialización y diplomados.",
+        "Profesores de bachillerato.",
+        "Martes y Jueves",
+        "17-19hrs",
+        "Virtual",
+        "2,000",
+        "NO",
+        array(
+          array("M. En C. Clara Vidrio", "#")
+        )
+      );
+      ?>
 
 
 
