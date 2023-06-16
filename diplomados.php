@@ -141,24 +141,20 @@ genera_encabezado_de_pagina("assets/images/pages/bg_diplomados.webp", "Diplomado
       <?php
       banner_diplomado(
         "pasados",
-        "assets/images/diplomados/Solucion_problemas_tic.jpg",
+        "assets/images/diplomados/DerechoyGestionAmbientalParalaSustentabilidad.jpg",
         "Diplomado en Derecho y Gestión Ambiental",
         "XXVII Edición",
-        "diplomados/SoluciondeProblemasTICeInvestigacionDidactica/SoluciondeProblemas_TICeInvestigDidactica.php",
-        "Del 7 de agosto del 2023 al 20 de septiembre del 2024.",
-        "La enseñanza de matemáticas requiere análisis constante para mejorarla
-        y adoptar una postura sobre cómo enseñar, qué conocimientos debe tener el egresado y por qué estudiarlas.
-        Los docentes deben reflexionar y participar en actividades actualizadas que favorezcan el pensamiento
-        crítico. La colaboración entre la Facultad de Ciencias y la Escuela Nacional Preparatoria busca mejorar la
-        enseñanza a través de programas de especialización y diplomados.",
-        "Profesores de bachillerato.",
-        "Martes y Jueves",
-        "17-19hrs",
+        "diplomados/DerechoyGestionAmbiental/XXVIIed/DerechoyGestionAmbiental.php",
+        "Del 24 de febrero al 9 de junio del 2023.",
+        "Contribuir a la formación de profesionales en el conocimiento y aplicación del derecho y la gestión ambiental bajo un enfoque interdisciplinario y desde un esquema tanto nacional como internacional con el propósito de avanzar en la comprensión de la cuestión ambiental y el desarrollo sustentable así como en el fortalecimiento de la conciencia ambiental.",
+        "Abogados, Biólogos (titulados o no), o cualquier profesionista inmerso en el área ya que hemos contado con la participación de Químicos, Arquitectos, etc, así como personas con interés general en la materia ambiental.",
+        "Viernes y Sábado",
+        "V: 16 - 20 hrs, S: 10 - 14 hrs",
         "Virtual",
-        "2,000",
-        "NO",
+        "34,800",
+        "15% de descuento a quienes realicen el pago completo anticipado (en una sola exhibición).",
         array(
-          array("M. En C. Clara Vidrio", "#")
+          array("Centro de Estudios Jurídicos y Ambientales, A. C.", "http://www.ceja.org.mx/")
         )
       );
       ?>
