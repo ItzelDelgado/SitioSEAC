@@ -150,9 +150,9 @@ genera_encabezado_de_pagina("assets/images/pages/bg_diplomados.webp", "Diplomado
         "Abogados, Biólogos (titulados o no), o cualquier profesionista inmerso en el área ya que hemos contado con la participación de Químicos, Arquitectos, etc, así como personas con interés general en la materia ambiental.",
         "Viernes y Sábado",
         "V: 16 - 20 hrs, S: 10 - 14 hrs",
-        "Virtual",
+        "Virtual<br>(opción a presencial)",
         "34,800",
-        "15% de descuento a quienes realicen el pago completo anticipado (en una sola exhibición).",
+        "15% de descuento a quienes realicen el pago completo anticipado (en una sola exhibición) y 20% para alumnos vigentes de la UNAM.",
         array(
           array("Centro de Estudios Jurídicos y Ambientales, A. C.", "http://www.ceja.org.mx/")
         )

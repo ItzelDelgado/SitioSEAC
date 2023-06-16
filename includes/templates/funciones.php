@@ -391,8 +391,7 @@ function aplica_descuento($precio_unam, $precio_unam_descuento, $precio_general,
     $fechaActual = strtotime(date("d-m-Y"));
     $fecha_lim_desc = strtotime($limite_fecha_descuento);
     if ($precio_unam_descuento != 'NO' && $fechaActual <= $fecha_lim_desc) {
-        echo "<p class=\"text-red-600 max-w-xl mx-auto text-center\">15% de descuento por concepto de pronto pago (hasta el 3 de
-        abril)</p>
+        echo "<p class=\"text-red-600 max-w-xl mx-auto text-center\">$frase_descuento</p>
     <div class=\"grid lg:grid-cols-2 md:grid-cols-2 mt-8 gap-[30px]\">
         <div class=\"curso-costo-g\">
             <h3>Público GENERAL</h3>
@@ -477,8 +476,7 @@ function aplica_descuento_FUNAM($precio_unam, $precio_unam_descuento, $precio_ge
     $fechaActual = strtotime(date("d-m-Y"));
     $fecha_lim_desc = strtotime($limite_fecha_descuento);
     if ($precio_unam_descuento != 'NO' && $fechaActual <= $fecha_lim_desc) {
-        echo "<p class=\"text-red-600 max-w-xl mx-auto text-center\">15% de descuento por concepto de pronto pago (hasta el 3 de
-        abril)</p>
+        echo "<p class=\"text-red-600 max-w-xl mx-auto text-center\">$frase_descuento</p>
     <div class=\"grid lg:grid-cols-2 md:grid-cols-2 mt-8 gap-[30px]\">
         <div class=\"curso-costo-g\">
             <h3>Público GENERAL</h3>

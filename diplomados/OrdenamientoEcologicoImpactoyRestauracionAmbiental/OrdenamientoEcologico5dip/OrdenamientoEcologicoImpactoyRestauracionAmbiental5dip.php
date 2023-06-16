@@ -63,7 +63,7 @@ Correo electrónico: galapagos@ciencias.unam.mx
             if ($precio_unam_descuento != 'NO' && $fechaActual <= $fecha_lim_desc) {
                 echo "<span class=\"portada-informacion-pu\">$precio_unam UNAM</span>
                         <span class=\"portada-informacion-pg\">$precio_general GENERAL</span>
-                        <p>15% de descuento por concepto de pronto pago (hasta el 3 de abril)</p>
+                        <p>$frase_descuento</p>
                         <span class=\"portada-informacion-pu-red\">$precio_unam_descuento UNAM</span>
                         <span class=\"portada-informacion-pg\">$precio_general_descuento GENERAL</span>";
             } else {
